@@ -19,9 +19,9 @@ npm.cmd run dev
 - `src/features/damage-calculator`: 빌드 선택 UI와 임시 피해량 계산 모델
 - `src/features/crisis-contract`: 위기 협약 제약 선택 및 검증 UI
 - `src/app/navigation.ts`: 우측 상단 카테고리 전환 메뉴 정의
-- `src/data/game/operator-categories.json`: 나무위키 기준 오퍼레이터 카테고리 축과 한국어 표시명
-- `src/data/game/operator.schema.json`: 오퍼레이터 JSON 입력 스키마
-- `src/data/game/operators.seed.json`: 조사 기반 오퍼레이터 seed 데이터. 2026-06-09 기준 출시/플레이 가능 범위 28개 레코드와 스킬/재능/잠재/스탯 진행치 포함
+- `src/data/game/operator/categories.json`: 나무위키 기준 오퍼레이터 카테고리 축과 한국어 표시명
+- `src/data/game/operator/operator.schema.json`: 오퍼레이터 JSON 입력 스키마
+- `src/data/game/operator/operators.seed.json`: 조사 기반 오퍼레이터 seed 데이터. 2026-06-09 기준 출시/플레이 가능 범위 28개 레코드와 스킬/재능/잠재/스탯 진행치 포함
 - `src/data/game/weapon-categories.json`: 나무위키 기준 무기 카테고리 축과 육성/기질 규칙
 - `src/data/game/weapon/essence-categories.json`: 무기 고유 효과 앞 대분류인 기질 카테고리
 - `src/data/game/weapon/essence-categories.schema.json`: 기질 카테고리 JSON 입력 스키마

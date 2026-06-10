@@ -21,7 +21,7 @@ EPWIKI는 명일방주: 엔드필드의 정보를 한곳에서 조회하고, 전
 - `DamageBuild`: 계산기에 들어가는 모든 선택 상태
 - `CrisisRisk`: 제약 점수, 카테고리, 선행 조건, 충돌 조건
 
-실제 데이터 입력 포맷은 `src/data/game/operator.schema.json`과 `src/data/game/operators.seed.json`으로 먼저 잡았다. 데이터가 늘어나면 JSON Schema 검증 또는 Zod 런타임 검증을 붙이고, 이후 SQLite 기반 정적 데이터 빌드로 옮기는 방향이 좋다.
+실제 데이터 입력 포맷은 `src/data/game/operator/operator.schema.json`과 `src/data/game/operator/operators.seed.json`으로 먼저 잡았다. 데이터가 늘어나면 JSON Schema 검증 또는 Zod 런타임 검증을 붙이고, 이후 SQLite 기반 정적 데이터 빌드로 옮기는 방향이 좋다.
 
 ## 계산기 설계
 

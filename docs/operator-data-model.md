@@ -8,7 +8,7 @@
 
 ## 현재 seed 범위
 
-`src/data/game/operators.seed.json`은 2026-06-09 기준 28개 오퍼레이터 레코드를 포함한다.
+`src/data/game/operator/operators.seed.json`은 2026-06-09 기준 28개 오퍼레이터 레코드를 포함한다.
 
 - perlica.moe 현재 목록은 29개 오퍼레이터 레코드를 노출하지만, `Camille`은 2026-06-09 시점에서 추후 배너로 표시되어 출시 seed에서 제외했다.
 - `Endministrator`는 perlica.moe에서 남/여 변형이 `endministrator-a`, `endministrator-b`로 분리되어 있어 현재 seed도 두 레코드로 보존했다.
@@ -45,7 +45,7 @@
 
 ## 카테고리 축
 
-나무위키 `명일방주: 엔드필드/오퍼레이터` 문서 기준으로 오퍼레이터 필터 축은 `src/data/game/operator-categories.json`에 분리한다.
+나무위키 `명일방주: 엔드필드/오퍼레이터` 문서 기준으로 오퍼레이터 필터 축은 `src/data/game/operator/categories.json`에 분리한다.
 
 - `rarity`: 4★, 5★, 6★
 - `stats`: 생명력, 공격력, 방어력, 힘, 민첩, 지능, 의지, 치명타 확률, 치명타 피해, 오리지늄 아츠 강도

@@ -8,8 +8,8 @@ import type {
   Weapon,
   WeaponType,
 } from '../domain/types'
-import operatorCategoryData from './game/operator-categories.json'
-import operatorDataset from './game/operators.seed.json'
+import operatorCategoryData from './game/operator/categories.json'
+import operatorDataset from './game/operator/operators.seed.json'
 import weaponCategoryData from './game/weapon-categories.json'
 import weaponDataset from './game/weapons.seed.json'
 import weaponOptionCategoryData from './game/weapon/option-categories.json'
