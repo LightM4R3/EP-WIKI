@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://epwiki.local/schemas/weapon-option-categories.schema.json",
+  "title": "EPWIKI Weapon Option Categories",
+  "type": "object",
+  "required": ["schemaVersion", "game", "lastReviewedAt", "sources", "categories", "essenceCategoriesRef"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "game": {
+      "type": "string"
+    },
+    "lastReviewedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/category"
+      }
+    },
+    "essenceCategoriesRef": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["id", "title", "url", "type", "language", "lastCheckedAt"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "lastCheckedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "category": {
+      "type": "object",
+      "required": ["id", "kind", "nameKo", "statKo", "range"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "kind": {
+          "type": "string",
+          "enum": ["stat", "weaponSkill"]
+        },
+        "nameKo": {
+          "type": "string"
+        },
+        "statKo": {
+          "type": "string"
+        },
+        "range": {
+          "type": "object",
+          "required": ["min", "max", "raw"],
+          "additionalProperties": false,
+          "properties": {
+            "min": {
+              "type": "string"
+            },
+            "max": {
+              "type": "string"
+            },
+            "raw": {
+              "type": "array",
+              "minItems": 9,
+              "maxItems": 9,
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "essenceCategoryId": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

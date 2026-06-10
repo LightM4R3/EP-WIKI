@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "0.1.0",
+  "game": "Arknights: Endfield",
+  "lastReviewedAt": "2026-06-10",
+  "sources": [
+    {
+      "id": "namu-weapon-main",
+      "title": "명일방주: 엔드필드/무기",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "무기 공통 규칙, 레어도, 유형, 육성, 잠재능력, 기질, 기질 식각 기준 출처."
+    },
+    {
+      "id": "namu-weapon-sword",
+      "title": "명일방주: 엔드필드/무기/한손검",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%ED%95%9C%EC%86%90%EA%B2%80",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "한손검 Sword 무기 목록과 기초 수치 출처."
+    },
+    {
+      "id": "namu-weapon-greatsword",
+      "title": "명일방주: 엔드필드/무기/양손검",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%EC%96%91%EC%86%90%EA%B2%80",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "양손검 Great Sword 무기 목록과 기초 수치 출처."
+    },
+    {
+      "id": "namu-weapon-polearm",
+      "title": "명일방주: 엔드필드/무기/장병기",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%EC%9E%A5%EB%B3%91%EA%B8%B0",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "장병기 Polearm 무기 목록과 기초 수치 출처."
+    },
+    {
+      "id": "namu-weapon-handcannon",
+      "title": "명일방주: 엔드필드/무기/권총",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%EA%B6%8C%EC%B4%9D",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "권총 Handcannon 무기 목록과 기초 수치 출처."
+    },
+    {
+      "id": "namu-weapon-arts-unit",
+      "title": "명일방주: 엔드필드/무기/아츠 유닛",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%EC%95%84%EC%B8%A0%20%EC%9C%A0%EB%8B%9B",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "아츠 유닛 Arts Unit 무기 목록과 기초 수치 출처."
+    }
+  ],
+  "categories": [
+    {
+      "id": "essence-crush",
+      "labelKo": "분쇄",
+      "labelEn": "crush",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    },
+    {
+      "id": "essence-heavy-attack",
+      "labelKo": "강공",
+      "labelEn": "heavy attack",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    },
+    {
+      "id": "essence-pain",
+      "labelKo": "고통",
+      "labelEn": "pain",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    },
+    {
+      "id": "essence-fracture",
+      "labelKo": "골절",
+      "labelEn": "fracture",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    },
+    {
+      "id": "essence-technique",
+      "labelKo": "기예",
+      "labelEn": "technique",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    },
+    {
+      "id": "essence-discharge",
+      "labelKo": "방출",
+      "labelEn": "discharge",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    },
+    {
+      "id": "essence-morale",
+      "labelKo": "사기",
+      "labelEn": "morale",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    },
+    {
+      "id": "essence-darkness",
+      "labelKo": "어둠",
+      "labelEn": "darkness",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    },
+    {
+      "id": "essence-suppression",
+      "labelKo": "억제",
+      "labelEn": "suppression",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    },
+    {
+      "id": "essence-medical",
+      "labelKo": "의료",
+      "labelEn": "medical",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    },
+    {
+      "id": "essence-cruelty",
+      "labelKo": "잔혹",
+      "labelEn": "cruelty",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    },
+    {
+      "id": "essence-pursuit",
+      "labelKo": "추격",
+      "labelEn": "pursuit",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    },
+    {
+      "id": "essence-efficiency",
+      "labelKo": "효율",
+      "labelEn": "efficiency",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    },
+    {
+      "id": "essence-flow",
+      "labelKo": "흐름",
+      "labelEn": "flow",
+      "appliesTo": "weaponSkill",
+      "descriptionKo": "무기 고유 효과명의 · 앞에 표기되는 기질 대분류입니다."
+    }
+  ]
+}

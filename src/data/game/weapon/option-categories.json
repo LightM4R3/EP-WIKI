@@ -1,0 +1,2267 @@
+{
+  "schemaVersion": "0.1.0",
+  "game": "Arknights: Endfield",
+  "lastReviewedAt": "2026-06-10",
+  "sources": [
+    {
+      "id": "namu-weapon-main",
+      "title": "명일방주: 엔드필드/무기",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "무기 공통 규칙, 레어도, 유형, 육성, 잠재능력, 기질, 기질 식각 기준 출처."
+    },
+    {
+      "id": "namu-weapon-sword",
+      "title": "명일방주: 엔드필드/무기/한손검",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%ED%95%9C%EC%86%90%EA%B2%80",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "한손검 Sword 무기 목록과 기초 수치 출처."
+    },
+    {
+      "id": "namu-weapon-greatsword",
+      "title": "명일방주: 엔드필드/무기/양손검",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%EC%96%91%EC%86%90%EA%B2%80",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "양손검 Great Sword 무기 목록과 기초 수치 출처."
+    },
+    {
+      "id": "namu-weapon-polearm",
+      "title": "명일방주: 엔드필드/무기/장병기",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%EC%9E%A5%EB%B3%91%EA%B8%B0",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "장병기 Polearm 무기 목록과 기초 수치 출처."
+    },
+    {
+      "id": "namu-weapon-handcannon",
+      "title": "명일방주: 엔드필드/무기/권총",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%EA%B6%8C%EC%B4%9D",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "권총 Handcannon 무기 목록과 기초 수치 출처."
+    },
+    {
+      "id": "namu-weapon-arts-unit",
+      "title": "명일방주: 엔드필드/무기/아츠 유닛",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%EC%95%84%EC%B8%A0%20%EC%9C%A0%EB%8B%9B",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "아츠 유닛 Arts Unit 무기 목록과 기초 수치 출처."
+    }
+  ],
+  "categories": [
+    {
+      "id": "weapon-option-0a46011b",
+      "kind": "stat",
+      "nameKo": "주요 능력치 증가 · 대",
+      "statKo": "주요 능력치",
+      "range": {
+        "min": "+17",
+        "max": "+132",
+        "raw": [
+          "+17",
+          "+30",
+          "+44",
+          "+57",
+          "+71",
+          "+85",
+          "+98",
+          "+112",
+          "+132"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-76a6fc5c",
+      "kind": "stat",
+      "nameKo": "오리지늄 아츠 강도 증가 · 대",
+      "statKo": "오리지늄 아츠 강도",
+      "range": {
+        "min": "+10",
+        "max": "+78",
+        "raw": [
+          "+10",
+          "+18",
+          "+26",
+          "+34",
+          "+42",
+          "+50",
+          "+58",
+          "+66",
+          "+78"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-400b977e",
+      "kind": "weaponSkill",
+      "nameKo": "고통 · 백야의 별",
+      "statKo": "아츠 피해",
+      "range": {
+        "min": "+12%",
+        "max": "+33.6%",
+        "raw": [
+          "+12%",
+          "+14.4%",
+          "+16.8%",
+          "+19.2%",
+          "+21.6%",
+          "+24%",
+          "+26.4%",
+          "+28.8%",
+          "+33.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-pain"
+    },
+    {
+      "id": "weapon-option-7ee29127",
+      "kind": "stat",
+      "nameKo": "물리 피해 증가 · 대",
+      "statKo": "물리 피해",
+      "range": {
+        "min": "+5.56%",
+        "max": "+43.33%",
+        "raw": [
+          "+5.56%",
+          "+10%",
+          "+14.44%",
+          "+18.89%",
+          "+23.33%",
+          "+27.78%",
+          "+32.22%",
+          "+36.67%",
+          "+43.33%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-0bbc83c4",
+      "kind": "weaponSkill",
+      "nameKo": "잔혹 · 엄격한 규율",
+      "statKo": "공격력",
+      "range": {
+        "min": "+10%",
+        "max": "+28%",
+        "raw": [
+          "+10%",
+          "+12%",
+          "+14%",
+          "+16%",
+          "+18%",
+          "+20%",
+          "+22%",
+          "+24%",
+          "+28%"
+        ]
+      },
+      "essenceCategoryId": "essence-cruelty"
+    },
+    {
+      "id": "weapon-option-945fd3bb",
+      "kind": "stat",
+      "nameKo": "의지 증가 · 대",
+      "statKo": "의지",
+      "range": {
+        "min": "+20",
+        "max": "+156",
+        "raw": [
+          "+20",
+          "+36",
+          "+52",
+          "+68",
+          "+84",
+          "+100",
+          "+116",
+          "+132",
+          "+156"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-8ca88f67",
+      "kind": "stat",
+      "nameKo": "공격력 증가 · 대",
+      "statKo": "공격력",
+      "range": {
+        "min": "+5%",
+        "max": "+39%",
+        "raw": [
+          "+5%",
+          "+9%",
+          "+13%",
+          "+17%",
+          "+21%",
+          "+25%",
+          "+29%",
+          "+33%",
+          "+39%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-025c82a1",
+      "kind": "weaponSkill",
+      "nameKo": "흐름 · 고열 방출",
+      "statKo": "공격력",
+      "range": {
+        "min": "+10%",
+        "max": "+28%",
+        "raw": [
+          "+10%",
+          "+12%",
+          "+14%",
+          "+16%",
+          "+18%",
+          "+20%",
+          "+22%",
+          "+24%",
+          "+28%"
+        ]
+      },
+      "essenceCategoryId": "essence-flow"
+    },
+    {
+      "id": "weapon-option-f3a7b3d4",
+      "kind": "stat",
+      "nameKo": "치명타 확률 증가 · 대",
+      "statKo": "치명타 확률",
+      "range": {
+        "min": "+2.5%",
+        "max": "+19.5%",
+        "raw": [
+          "+2.5%",
+          "+4.5%",
+          "+6.5%",
+          "+8.5%",
+          "+10.5%",
+          "+12.5%",
+          "+14.5%",
+          "+16.5%",
+          "+19.5%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-71490fb5",
+      "kind": "weaponSkill",
+      "nameKo": "어둠 · 청운",
+      "statKo": "배틀 스킬과 궁극기가 주는 물리 피해",
+      "range": {
+        "min": "+15%",
+        "max": "+42%",
+        "raw": [
+          "+15%",
+          "+18%",
+          "+21%",
+          "+24%",
+          "+27%",
+          "+30%",
+          "+33%",
+          "+36%",
+          "+42%"
+        ]
+      },
+      "essenceCategoryId": "essence-darkness"
+    },
+    {
+      "id": "weapon-option-66a25e14",
+      "kind": "weaponSkill",
+      "nameKo": "흐름 · 윤회",
+      "statKo": "물리 피해",
+      "range": {
+        "min": "+16%",
+        "max": "+44.8%",
+        "raw": [
+          "+16%",
+          "+19.2%",
+          "+22.4%",
+          "+25.6%",
+          "+28.8%",
+          "+32%",
+          "+35.2%",
+          "+38.4%",
+          "+44.8%"
+        ]
+      },
+      "essenceCategoryId": "essence-flow"
+    },
+    {
+      "id": "weapon-option-c8c4e851",
+      "kind": "stat",
+      "nameKo": "민첩 증가 · 대",
+      "statKo": "민첩",
+      "range": {
+        "min": "+20",
+        "max": "+156",
+        "raw": [
+          "+20",
+          "+36",
+          "+52",
+          "+68",
+          "+84",
+          "+100",
+          "+116",
+          "+132",
+          "+156"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-91e7fab0",
+      "kind": "weaponSkill",
+      "nameKo": "고통 · 간절한 소망",
+      "statKo": "오리지늄 아츠 강도",
+      "range": {
+        "min": "+30",
+        "max": "+84",
+        "raw": [
+          "+30",
+          "+36",
+          "+42",
+          "+48",
+          "+54",
+          "+60",
+          "+66",
+          "+72",
+          "+84"
+        ]
+      },
+      "essenceCategoryId": "essence-pain"
+    },
+    {
+      "id": "weapon-option-ba8f8c29",
+      "kind": "stat",
+      "nameKo": "지능 증가 · 대",
+      "statKo": "지능",
+      "range": {
+        "min": "+20",
+        "max": "+156",
+        "raw": [
+          "+20",
+          "+36",
+          "+52",
+          "+68",
+          "+84",
+          "+100",
+          "+116",
+          "+132",
+          "+156"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-ecb85f90",
+      "kind": "weaponSkill",
+      "nameKo": "어둠 · 울부짖는 불길",
+      "statKo": "열기 피해",
+      "range": {
+        "min": "+16%",
+        "max": "+44.8%",
+        "raw": [
+          "+16%",
+          "+19.2%",
+          "+22.4%",
+          "+25.6%",
+          "+28.8%",
+          "+32%",
+          "+35.2%",
+          "+38.4%",
+          "+44.8%"
+        ]
+      },
+      "essenceCategoryId": "essence-darkness"
+    },
+    {
+      "id": "weapon-option-8f154f33",
+      "kind": "weaponSkill",
+      "nameKo": "골절 · 군랑의 포식",
+      "statKo": "공격력",
+      "range": {
+        "min": "+16%",
+        "max": "+44.8%",
+        "raw": [
+          "+16%",
+          "+19.2%",
+          "+22.4%",
+          "+25.6%",
+          "+28.8%",
+          "+32%",
+          "+35.2%",
+          "+38.4%",
+          "+44.8%"
+        ]
+      },
+      "essenceCategoryId": "essence-fracture"
+    },
+    {
+      "id": "weapon-option-762aa07f",
+      "kind": "stat",
+      "nameKo": "열기 피해 증가 · 대",
+      "statKo": "열기 피해",
+      "range": {
+        "min": "+5.56%",
+        "max": "+43.33%",
+        "raw": [
+          "+5.56%",
+          "+10%",
+          "+14.44%",
+          "+18.89%",
+          "+23.33%",
+          "+27.78%",
+          "+32.22%",
+          "+36.67%",
+          "+43.33%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-fb87299d",
+      "kind": "weaponSkill",
+      "nameKo": "고통 · 쌓이는 탐욕",
+      "statKo": "공격력",
+      "range": {
+        "min": "+7%",
+        "max": "+19.6%",
+        "raw": [
+          "+7%",
+          "+8.4%",
+          "+9.8%",
+          "+11.2%",
+          "+12.6%",
+          "+14%",
+          "+15.4%",
+          "+16.8%",
+          "+19.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-pain"
+    },
+    {
+      "id": "weapon-option-8d6217e5",
+      "kind": "weaponSkill",
+      "nameKo": "어둠 · 사라지지 않은 여광",
+      "statKo": "공격력",
+      "range": {
+        "min": "+7%",
+        "max": "+19.6%",
+        "raw": [
+          "+7%",
+          "+8.4%",
+          "+9.8%",
+          "+11.2%",
+          "+12.6%",
+          "+14%",
+          "+15.4%",
+          "+16.8%",
+          "+19.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-darkness"
+    },
+    {
+      "id": "weapon-option-bede54db",
+      "kind": "stat",
+      "nameKo": "민첩 증가 · 중",
+      "statKo": "민첩",
+      "range": {
+        "min": "+16",
+        "max": "+124",
+        "raw": [
+          "+16",
+          "+28",
+          "+41",
+          "+54",
+          "+67",
+          "+80",
+          "+92",
+          "+105",
+          "+124"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-a01ea256",
+      "kind": "stat",
+      "nameKo": "물리 피해 증가 · 중",
+      "statKo": "물리 피해",
+      "range": {
+        "min": "+4.4%",
+        "max": "+34.7%",
+        "raw": [
+          "+4.4%",
+          "+8%",
+          "+11.6%",
+          "+15.1%",
+          "+18.7%",
+          "+22.2%",
+          "+25.8%",
+          "+29.3%",
+          "+34.7%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-202b9024",
+      "kind": "weaponSkill",
+      "nameKo": "기예 · 옛 불의 잔향",
+      "statKo": "공격력",
+      "range": {
+        "min": "+5%",
+        "max": "+14%",
+        "raw": [
+          "+5%",
+          "+6%",
+          "+7%",
+          "+8%",
+          "+9%",
+          "+10%",
+          "+11%",
+          "+12%",
+          "+14%"
+        ]
+      },
+      "essenceCategoryId": "essence-technique"
+    },
+    {
+      "id": "weapon-option-6e692697",
+      "kind": "weaponSkill",
+      "nameKo": "어둠 · 우러러보는 경지",
+      "statKo": "궁극기 피해",
+      "range": {
+        "min": "+16%",
+        "max": "+44.8%",
+        "raw": [
+          "+16%",
+          "+19.2%",
+          "+22.4%",
+          "+25.6%",
+          "+28.8%",
+          "+32%",
+          "+35.2%",
+          "+38.4%",
+          "+44.8%"
+        ]
+      },
+      "essenceCategoryId": "essence-darkness"
+    },
+    {
+      "id": "weapon-option-1750b554",
+      "kind": "stat",
+      "nameKo": "공격력 증가 · 중",
+      "statKo": "공격력",
+      "range": {
+        "min": "+4%",
+        "max": "+31.2%",
+        "raw": [
+          "+4%",
+          "+7.2%",
+          "+10.4%",
+          "+13.6%",
+          "+16.8%",
+          "+20%",
+          "+23.2%",
+          "+26.4%",
+          "+31.2%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-b79acccd",
+      "kind": "weaponSkill",
+      "nameKo": "흐름 · 거침없는 예리함",
+      "statKo": "보조 능력치",
+      "range": {
+        "min": "+5%",
+        "max": "+14%",
+        "raw": [
+          "+5%",
+          "+6%",
+          "+7%",
+          "+8%",
+          "+9%",
+          "+10%",
+          "+11%",
+          "+12%",
+          "+14%"
+        ]
+      },
+      "essenceCategoryId": "essence-flow"
+    },
+    {
+      "id": "weapon-option-03003949",
+      "kind": "weaponSkill",
+      "nameKo": "고통 · 파고드는 추궁",
+      "statKo": "보조 능력치",
+      "range": {
+        "min": "+5%",
+        "max": "+14%",
+        "raw": [
+          "+5%",
+          "+6%",
+          "+7%",
+          "+8%",
+          "+9%",
+          "+10%",
+          "+11%",
+          "+12%",
+          "+14%"
+        ]
+      },
+      "essenceCategoryId": "essence-pain"
+    },
+    {
+      "id": "weapon-option-4889712f",
+      "kind": "stat",
+      "nameKo": "힘 증가 · 중",
+      "statKo": "힘",
+      "range": {
+        "min": "+16",
+        "max": "+124",
+        "raw": [
+          "+16",
+          "+28",
+          "+41",
+          "+54",
+          "+67",
+          "+80",
+          "+92",
+          "+105",
+          "+124"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-3c1b13d8",
+      "kind": "stat",
+      "nameKo": "냉기 피해 증가 · 중",
+      "statKo": "냉기 피해",
+      "range": {
+        "min": "+4.4%",
+        "max": "+34.7%",
+        "raw": [
+          "+4.4%",
+          "+8.0%",
+          "+11.6%",
+          "+15.1%",
+          "+18.7%",
+          "+22.2%",
+          "+25.8%",
+          "+29.3%",
+          "+34.7%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-20fe6f60",
+      "kind": "weaponSkill",
+      "nameKo": "억제 · 린수를 향한 의지",
+      "statKo": "공격력",
+      "range": {
+        "min": "+5%",
+        "max": "+14%",
+        "raw": [
+          "+5%",
+          "+6%",
+          "+7%",
+          "+8%",
+          "+9%",
+          "+10%",
+          "+11%",
+          "+12%",
+          "+14%"
+        ]
+      },
+      "essenceCategoryId": "essence-suppression"
+    },
+    {
+      "id": "weapon-option-3821847b",
+      "kind": "stat",
+      "nameKo": "지능 증가 · 중",
+      "statKo": "지능",
+      "range": {
+        "min": "+16",
+        "max": "+124",
+        "raw": [
+          "+16",
+          "+28",
+          "+41",
+          "+54",
+          "+67",
+          "+80",
+          "+92",
+          "+105",
+          "+124"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-d26e7109",
+      "kind": "stat",
+      "nameKo": "궁극기 충전 효율 증가 · 중",
+      "statKo": "궁극기 충전 효율",
+      "range": {
+        "min": "+4.8%",
+        "max": "+37.1%",
+        "raw": [
+          "+4.8%",
+          "+8.6%",
+          "+12.3%",
+          "+16.2%",
+          "+20%",
+          "+23.8%",
+          "+27.6%",
+          "+31.4%",
+          "+37.1%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-ebbf3993",
+      "kind": "weaponSkill",
+      "nameKo": "사기 · 잔성의 귀로",
+      "statKo": "공격력",
+      "range": {
+        "min": "+5%",
+        "max": "+14%",
+        "raw": [
+          "+5%",
+          "+6%",
+          "+7%",
+          "+8%",
+          "+9%",
+          "+10%",
+          "+11%",
+          "+12%",
+          "+14%"
+        ]
+      },
+      "essenceCategoryId": "essence-morale"
+    },
+    {
+      "id": "weapon-option-554890fd",
+      "kind": "stat",
+      "nameKo": "민첩 증가 · 소",
+      "statKo": "민첩",
+      "range": {
+        "min": "+12",
+        "max": "+93",
+        "raw": [
+          "+12",
+          "+21",
+          "+31",
+          "+40",
+          "+50",
+          "+60",
+          "+69",
+          "+79",
+          "+93"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-7b836463",
+      "kind": "stat",
+      "nameKo": "물리 피해 증가 · 소",
+      "statKo": "물리 피해",
+      "range": {
+        "min": "+3.3%",
+        "max": "+26%",
+        "raw": [
+          "+3.3%",
+          "+6%",
+          "+8.7%",
+          "+11.3%",
+          "+14%",
+          "+16.7%",
+          "+19.3%",
+          "+22%",
+          "+26%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-47c43b82",
+      "kind": "weaponSkill",
+      "nameKo": "억제 · 비상 부스트",
+      "statKo": "공격력",
+      "range": {
+        "min": "+12%",
+        "max": "+33.6%",
+        "raw": [
+          "+12%",
+          "+14.4%",
+          "+16.8%",
+          "+19.2%",
+          "+21.6%",
+          "+24%",
+          "+26.4%",
+          "+28.8%",
+          "+33.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-suppression"
+    },
+    {
+      "id": "weapon-option-d71c3335",
+      "kind": "stat",
+      "nameKo": "지능 증가 · 소",
+      "statKo": "지능",
+      "range": {
+        "min": "+12",
+        "max": "+93",
+        "raw": [
+          "+12",
+          "+21",
+          "+31",
+          "+40",
+          "+50",
+          "+60",
+          "+69",
+          "+79",
+          "+93"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-34816fed",
+      "kind": "stat",
+      "nameKo": "공격력 증가 · 소",
+      "statKo": "공격력",
+      "range": {
+        "min": "+3%",
+        "max": "+23.4%",
+        "raw": [
+          "+3%",
+          "+5.4%",
+          "+7.8%",
+          "+10.2%",
+          "+12.6%",
+          "+15%",
+          "+17.4%",
+          "+19.8%",
+          "+23.4%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-e7f3a24c",
+      "kind": "weaponSkill",
+      "nameKo": "추격 · 끝없는 순환",
+      "statKo": "공격력",
+      "range": {
+        "min": "+12%",
+        "max": "+33.6%",
+        "raw": [
+          "+12%",
+          "+14.4%",
+          "+16.8%",
+          "+19.2%",
+          "+21.6%",
+          "+24%",
+          "+26.4%",
+          "+28.8%",
+          "+33.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-pursuit"
+    },
+    {
+      "id": "weapon-option-1f59e0d7",
+      "kind": "stat",
+      "nameKo": "주요 능력치 증가 · 소",
+      "statKo": "주요 능력치",
+      "range": {
+        "min": "+10",
+        "max": "+79",
+        "raw": [
+          "+10",
+          "+18",
+          "+26",
+          "+34",
+          "+42",
+          "+51",
+          "+59",
+          "+67",
+          "+79"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-0719e0bf",
+      "kind": "weaponSkill",
+      "nameKo": "강공 · 무장 정비",
+      "statKo": "공격력",
+      "range": {
+        "min": "+12",
+        "max": "+34",
+        "raw": [
+          "+12",
+          "+14",
+          "+17",
+          "+19",
+          "+22",
+          "+24",
+          "+26",
+          "+29",
+          "+34"
+        ]
+      },
+      "essenceCategoryId": "essence-heavy-attack"
+    },
+    {
+      "id": "weapon-option-4cdce313",
+      "kind": "stat",
+      "nameKo": "힘 증가 · 대",
+      "statKo": "힘",
+      "range": {
+        "min": "+20",
+        "max": "+156",
+        "raw": [
+          "+20",
+          "+36",
+          "+52",
+          "+68",
+          "+84",
+          "+100",
+          "+116",
+          "+132",
+          "+156"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-852ffdd5",
+      "kind": "weaponSkill",
+      "nameKo": "분쇄 · 군왕의 위세",
+      "statKo": "공격력",
+      "range": {
+        "min": "+10%",
+        "max": "+28%",
+        "raw": [
+          "+10%",
+          "+12%",
+          "+14%",
+          "+16%",
+          "+18%",
+          "+20%",
+          "+22%",
+          "+24%",
+          "+28%"
+        ]
+      },
+      "essenceCategoryId": "essence-crush"
+    },
+    {
+      "id": "weapon-option-89a7baeb",
+      "kind": "stat",
+      "nameKo": "생명력 증가 · 대",
+      "statKo": "최대 생명력",
+      "range": {
+        "min": "+10%",
+        "max": "+78%",
+        "raw": [
+          "+10%",
+          "+18%",
+          "+26%",
+          "+34%",
+          "+42%",
+          "+50%",
+          "+58%",
+          "+66%",
+          "+78%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-202bdfd6",
+      "kind": "weaponSkill",
+      "nameKo": "효율 · 절계 의료법",
+      "statKo": "치유 효율",
+      "range": {
+        "min": "+10%",
+        "max": "+28%",
+        "raw": [
+          "+10%",
+          "+12%",
+          "+14%",
+          "+16%",
+          "+18%",
+          "+20%",
+          "+22%",
+          "+24%",
+          "+28%"
+        ]
+      },
+      "essenceCategoryId": "essence-efficiency"
+    },
+    {
+      "id": "weapon-option-07dd0d73",
+      "kind": "weaponSkill",
+      "nameKo": "억제 · 다층 절단",
+      "statKo": "물리 피해",
+      "range": {
+        "min": "+10%",
+        "max": "+28%",
+        "raw": [
+          "+10%",
+          "+12%",
+          "+14%",
+          "+16%",
+          "+18%",
+          "+20%",
+          "+22%",
+          "+24%",
+          "+28%"
+        ]
+      },
+      "essenceCategoryId": "essence-suppression"
+    },
+    {
+      "id": "weapon-option-29661a1e",
+      "kind": "weaponSkill",
+      "nameKo": "방출 · 사무치는 추위",
+      "statKo": "모든 스킬 피해",
+      "range": {
+        "min": "+20%",
+        "max": "+56%",
+        "raw": [
+          "+20%",
+          "+24%",
+          "+28%",
+          "+32%",
+          "+36%",
+          "+40%",
+          "+44%",
+          "+48%",
+          "+56%"
+        ]
+      },
+      "essenceCategoryId": "essence-discharge"
+    },
+    {
+      "id": "weapon-option-e995eb8d",
+      "kind": "weaponSkill",
+      "nameKo": "의료 · 탈로스의 눈",
+      "statKo": "목표에 부여하는 보호 효과",
+      "range": {
+        "min": "+24%",
+        "max": "+67.2%",
+        "raw": [
+          "+24%",
+          "+28.8%",
+          "+33.6%",
+          "+38.4%",
+          "+43.2%",
+          "+48%",
+          "+52.8%",
+          "+57.6%",
+          "+67.2%"
+        ]
+      },
+      "essenceCategoryId": "essence-medical"
+    },
+    {
+      "id": "weapon-option-82c957b2",
+      "kind": "weaponSkill",
+      "nameKo": "기예 · 붉은색의 단절",
+      "statKo": "물리 피해",
+      "range": {
+        "min": "+16%",
+        "max": "+44.8%",
+        "raw": [
+          "+16%",
+          "+19.2%",
+          "+22.4%",
+          "+25.6%",
+          "+28.8%",
+          "+32%",
+          "+35.2%",
+          "+38.4%",
+          "+44.8%"
+        ]
+      },
+      "essenceCategoryId": "essence-technique"
+    },
+    {
+      "id": "weapon-option-2df35b72",
+      "kind": "weaponSkill",
+      "nameKo": "억제 · 고통 누적",
+      "statKo": "물리 피해",
+      "range": {
+        "min": "+7%",
+        "max": "+19.6%",
+        "raw": [
+          "+7%",
+          "+8.4%",
+          "+9.8%",
+          "+11.2%",
+          "+12.6%",
+          "+14%",
+          "+15.4%",
+          "+16.8%",
+          "+19.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-suppression"
+    },
+    {
+      "id": "weapon-option-9529e83b",
+      "kind": "stat",
+      "nameKo": "생명력 증가 · 중",
+      "statKo": "최대 생명력",
+      "range": {
+        "min": "+8%",
+        "max": "+62.4%",
+        "raw": [
+          "+8%",
+          "+14.4%",
+          "+20.8%",
+          "+27.2%",
+          "+33.6%",
+          "+40%",
+          "+46.4%",
+          "+52.8%",
+          "+62.4%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-bb70b0c8",
+      "kind": "weaponSkill",
+      "nameKo": "효율 · 강인한 의지",
+      "statKo": "보조 능력치",
+      "range": {
+        "min": "+5%",
+        "max": "+14%",
+        "raw": [
+          "+5%",
+          "+6%",
+          "+7%",
+          "+8%",
+          "+9%",
+          "+10%",
+          "+11%",
+          "+12%",
+          "+14%"
+        ]
+      },
+      "essenceCategoryId": "essence-efficiency"
+    },
+    {
+      "id": "weapon-option-13678161",
+      "kind": "weaponSkill",
+      "nameKo": "의료 · 기사의 영광",
+      "statKo": "보조 능력치",
+      "range": {
+        "min": "+5%",
+        "max": "+14%",
+        "raw": [
+          "+5%",
+          "+6%",
+          "+7%",
+          "+8%",
+          "+9%",
+          "+10%",
+          "+11%",
+          "+12%",
+          "+14%"
+        ]
+      },
+      "essenceCategoryId": "essence-medical"
+    },
+    {
+      "id": "weapon-option-d5f0e5ba",
+      "kind": "stat",
+      "nameKo": "오리지늄 아츠 강도 증가 · 중",
+      "statKo": "오리지늄 아츠 강도",
+      "range": {
+        "min": "+8",
+        "max": "+62",
+        "raw": [
+          "+8",
+          "+14",
+          "+20",
+          "+27",
+          "+33",
+          "+40",
+          "+46",
+          "+52",
+          "+62"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-d376dfae",
+      "kind": "weaponSkill",
+      "nameKo": "잔혹 · 천추의 대지",
+      "statKo": "오리지늄 아츠 강도",
+      "range": {
+        "min": "+10",
+        "max": "+28",
+        "raw": [
+          "+10",
+          "+12",
+          "+14",
+          "+16",
+          "+18",
+          "+20",
+          "+22",
+          "+24",
+          "+28"
+        ]
+      },
+      "essenceCategoryId": "essence-cruelty"
+    },
+    {
+      "id": "weapon-option-467c5b75",
+      "kind": "weaponSkill",
+      "nameKo": "방출 · 꿰뚫는 이치",
+      "statKo": "주요 능력치",
+      "range": {
+        "min": "+5%",
+        "max": "+14%",
+        "raw": [
+          "+5%",
+          "+6%",
+          "+7%",
+          "+8%",
+          "+9%",
+          "+10%",
+          "+11%",
+          "+12%",
+          "+14%"
+        ]
+      },
+      "essenceCategoryId": "essence-discharge"
+    },
+    {
+      "id": "weapon-option-e699e0d3",
+      "kind": "stat",
+      "nameKo": "힘 증가 · 소",
+      "statKo": "힘",
+      "range": {
+        "min": "+12",
+        "max": "+93",
+        "raw": [
+          "+12",
+          "+21",
+          "+31",
+          "+40",
+          "+50",
+          "+60",
+          "+69",
+          "+79",
+          "+93"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-c91bac7b",
+      "kind": "stat",
+      "nameKo": "의지 증가 · 소",
+      "statKo": "의지",
+      "range": {
+        "min": "+12",
+        "max": "+93",
+        "raw": [
+          "+12",
+          "+21",
+          "+31",
+          "+40",
+          "+50",
+          "+60",
+          "+69",
+          "+79",
+          "+93"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-ff26597d",
+      "kind": "stat",
+      "nameKo": "최대 생명력 증가 · 소",
+      "statKo": "최대 생명력",
+      "range": {
+        "min": "+6%",
+        "max": "+46.8%",
+        "raw": [
+          "+6%",
+          "+10.8%",
+          "+15.6%",
+          "+20.4%",
+          "+25.2%",
+          "+30%",
+          "+34.8%",
+          "+39.6%",
+          "+46.8%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-d02cd7cc",
+      "kind": "weaponSkill",
+      "nameKo": "분쇄 · 훈련된 전사",
+      "statKo": "공격력",
+      "range": {
+        "min": "+12%",
+        "max": "+33.6%",
+        "raw": [
+          "+12%",
+          "+14.4%",
+          "+16.8%",
+          "+19.2%",
+          "+21.6%",
+          "+24%",
+          "+26.4%",
+          "+28.8%",
+          "+33.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-crush"
+    },
+    {
+      "id": "weapon-option-8b0efbbc",
+      "kind": "weaponSkill",
+      "nameKo": "억제 · 천체 물리학",
+      "statKo": "아츠 피해",
+      "range": {
+        "min": "+12%",
+        "max": "+33.6%",
+        "raw": [
+          "+12%",
+          "+14.4%",
+          "+16.8%",
+          "+19.2%",
+          "+21.6%",
+          "+24%",
+          "+26.4%",
+          "+28.8%",
+          "+33.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-suppression"
+    },
+    {
+      "id": "weapon-option-debb372e",
+      "kind": "weaponSkill",
+      "nameKo": "기예 · 좋은 품성의 결실",
+      "statKo": "공격력",
+      "range": {
+        "min": "+10%",
+        "max": "+28%",
+        "raw": [
+          "+10%",
+          "+12%",
+          "+14%",
+          "+16%",
+          "+18%",
+          "+20%",
+          "+22%",
+          "+24%",
+          "+28%"
+        ]
+      },
+      "essenceCategoryId": "essence-technique"
+    },
+    {
+      "id": "weapon-option-e95cab7b",
+      "kind": "weaponSkill",
+      "nameKo": "효율 · 하나되는 자연",
+      "statKo": "상태의 적에게 주는 피해",
+      "range": {
+        "min": "+20%",
+        "max": "+56%",
+        "raw": [
+          "+20%",
+          "+24%",
+          "+28%",
+          "+32%",
+          "+36%",
+          "+40%",
+          "+44%",
+          "+48%",
+          "+56%"
+        ]
+      },
+      "essenceCategoryId": "essence-efficiency"
+    },
+    {
+      "id": "weapon-option-9ec8ccbb",
+      "kind": "stat",
+      "nameKo": "궁극기 충전 효율 증가 · 대",
+      "statKo": "궁극기 충전 효율",
+      "range": {
+        "min": "+6%",
+        "max": "+46%",
+        "raw": [
+          "+6%",
+          "+11%",
+          "+15%",
+          "+20%",
+          "+25%",
+          "+30%",
+          "+35%",
+          "+39%",
+          "+46%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-ec59b436",
+      "kind": "weaponSkill",
+      "nameKo": "효율 · 불빛 연소",
+      "statKo": "열기 피해",
+      "range": {
+        "min": "+7%",
+        "max": "+19.6%",
+        "raw": [
+          "+7%",
+          "+8.4%",
+          "+9.8%",
+          "+11.2%",
+          "+12.6%",
+          "+14%",
+          "+15.4%",
+          "+16.8%",
+          "+19.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-efficiency"
+    },
+    {
+      "id": "weapon-option-898f8eb9",
+      "kind": "stat",
+      "nameKo": "의지 증가 · 중",
+      "statKo": "의지",
+      "range": {
+        "min": "+16",
+        "max": "+124",
+        "raw": [
+          "+16",
+          "+28",
+          "+41",
+          "+54",
+          "+67",
+          "+80",
+          "+92",
+          "+105",
+          "+124"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-47943776",
+      "kind": "stat",
+      "nameKo": "전기 피해 증가 · 중",
+      "statKo": "전기 피해",
+      "range": {
+        "min": "+4.4%",
+        "max": "+34.7%",
+        "raw": [
+          "+4.4%",
+          "+8%",
+          "+11.6%",
+          "+15.1%",
+          "+18.7%",
+          "+22.2%",
+          "+25.8%",
+          "+29.3%",
+          "+34.7%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-9b69a927",
+      "kind": "weaponSkill",
+      "nameKo": "억제 · 동심원",
+      "statKo": "연계 스킬 피해",
+      "range": {
+        "min": "+10%",
+        "max": "+28%",
+        "raw": [
+          "+10%",
+          "+12%",
+          "+14%",
+          "+16%",
+          "+18%",
+          "+20%",
+          "+22%",
+          "+24%",
+          "+28%"
+        ]
+      },
+      "essenceCategoryId": "essence-suppression"
+    },
+    {
+      "id": "weapon-option-8b6d3539",
+      "kind": "weaponSkill",
+      "nameKo": "고통 · 빙산을 넘어서",
+      "statKo": "상태의 적에게 주는 피해",
+      "range": {
+        "min": "+8%",
+        "max": "+22.4%",
+        "raw": [
+          "+8%",
+          "+9.6%",
+          "+11.2%",
+          "+12.8%",
+          "+14.4%",
+          "+16%",
+          "+17.6%",
+          "+19.2%",
+          "+22.4%"
+        ]
+      },
+      "essenceCategoryId": "essence-pain"
+    },
+    {
+      "id": "weapon-option-e9d32da9",
+      "kind": "weaponSkill",
+      "nameKo": "잔혹 · 분노의 융합",
+      "statKo": "치명타 확률",
+      "range": {
+        "min": "+3%",
+        "max": "+8.4%",
+        "raw": [
+          "+3%",
+          "+3.6%",
+          "+4.2%",
+          "+4.8%",
+          "+5.4%",
+          "+6%",
+          "+6.6%",
+          "+7.2%",
+          "+8.4%"
+        ]
+      },
+      "essenceCategoryId": "essence-cruelty"
+    },
+    {
+      "id": "weapon-option-e94661db",
+      "kind": "stat",
+      "nameKo": "아츠 피해 증가 · 소",
+      "statKo": "아츠 피해",
+      "range": {
+        "min": "+3.3%",
+        "max": "+26%",
+        "raw": [
+          "+3.3%",
+          "+6%",
+          "+8.7%",
+          "+11.3%",
+          "+14%",
+          "+16.7%",
+          "+19.3%",
+          "+22%",
+          "+26%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-8d4a71a4",
+      "kind": "weaponSkill",
+      "nameKo": "사기 · 원정의 시작",
+      "statKo": "공격력",
+      "range": {
+        "min": "+15%",
+        "max": "+42%",
+        "raw": [
+          "+15%",
+          "+18%",
+          "+21%",
+          "+24%",
+          "+27%",
+          "+30%",
+          "+33%",
+          "+36%",
+          "+42%"
+        ]
+      },
+      "essenceCategoryId": "essence-morale"
+    },
+    {
+      "id": "weapon-option-35aaae5f",
+      "kind": "stat",
+      "nameKo": "아츠 피해 증가 · 대",
+      "statKo": "아츠 피해",
+      "range": {
+        "min": "+5.56%",
+        "max": "+43.33%",
+        "raw": [
+          "+5.56%",
+          "+10%",
+          "+14.44%",
+          "+18.89%",
+          "+23.33%",
+          "+27.78%",
+          "+32.22%",
+          "+36.67%",
+          "+43.33%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-a5122095",
+      "kind": "weaponSkill",
+      "nameKo": "고통 · 가차 없는 숙청",
+      "statKo": "아츠 피해",
+      "range": {
+        "min": "+12%",
+        "max": "+33.6%",
+        "raw": [
+          "+12%",
+          "+14.4%",
+          "+16.8%",
+          "+19.2%",
+          "+21.6%",
+          "+24%",
+          "+26.4%",
+          "+28.8%",
+          "+33.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-pain"
+    },
+    {
+      "id": "weapon-option-c73959a6",
+      "kind": "weaponSkill",
+      "nameKo": "고통 · 문명의 쐐기",
+      "statKo": "아츠 피해",
+      "range": {
+        "min": "+12%",
+        "max": "+33.6%",
+        "raw": [
+          "+12%",
+          "+14.4%",
+          "+16.8%",
+          "+19.2%",
+          "+21.6%",
+          "+24%",
+          "+26.4%",
+          "+28.8%",
+          "+33.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-pain"
+    },
+    {
+      "id": "weapon-option-53142181",
+      "kind": "weaponSkill",
+      "nameKo": "골절 · 예술적 폭론",
+      "statKo": "냉기 피해",
+      "range": {
+        "min": "+16%",
+        "max": "+44.8%",
+        "raw": [
+          "+16%",
+          "+19.2%",
+          "+22.4%",
+          "+25.6%",
+          "+28.8%",
+          "+32%",
+          "+35.2%",
+          "+38.4%",
+          "+44.8%"
+        ]
+      },
+      "essenceCategoryId": "essence-fracture"
+    },
+    {
+      "id": "weapon-option-93314baa",
+      "kind": "weaponSkill",
+      "nameKo": "방출 · 토벌의 원한",
+      "statKo": "냉기 피해",
+      "range": {
+        "min": "+16%",
+        "max": "+44.8%",
+        "raw": [
+          "+16%",
+          "+19.2%",
+          "+22.4%",
+          "+25.6%",
+          "+28.8%",
+          "+32%",
+          "+35.2%",
+          "+38.4%",
+          "+44.8%"
+        ]
+      },
+      "essenceCategoryId": "essence-discharge"
+    },
+    {
+      "id": "weapon-option-85ad5709",
+      "kind": "stat",
+      "nameKo": "냉기 피해 증가 · 대",
+      "statKo": "냉기 피해",
+      "range": {
+        "min": "+5.6%",
+        "max": "+43.3%",
+        "raw": [
+          "+5.6%",
+          "+10%",
+          "+14.4%",
+          "+18.9%",
+          "+23.3%",
+          "+27.8%",
+          "+32.2%",
+          "+36.7%",
+          "+43.3%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-78317091",
+      "kind": "weaponSkill",
+      "nameKo": "고통 · 외로운 항해",
+      "statKo": "치명타 확률",
+      "range": {
+        "min": "+3.5%",
+        "max": "+9.8%",
+        "raw": [
+          "+3.5%",
+          "+4.2%",
+          "+4.9%",
+          "+5.6%",
+          "+6.3%",
+          "+7%",
+          "+7.7%",
+          "+8.4%",
+          "+9.8%"
+        ]
+      },
+      "essenceCategoryId": "essence-pain"
+    },
+    {
+      "id": "weapon-option-77e0f9ea",
+      "kind": "weaponSkill",
+      "nameKo": "억제 · 옛 시절의 달",
+      "statKo": "공격력",
+      "range": {
+        "min": "+7%",
+        "max": "+19.6%",
+        "raw": [
+          "+7%",
+          "+8.4%",
+          "+9.8%",
+          "+11.2%",
+          "+12.6%",
+          "+14%",
+          "+15.4%",
+          "+16.8%",
+          "+19.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-suppression"
+    },
+    {
+      "id": "weapon-option-4beb4da8",
+      "kind": "stat",
+      "nameKo": "열기 피해 증가 · 중",
+      "statKo": "열기 피해",
+      "range": {
+        "min": "+4.4%",
+        "max": "+34.7%",
+        "raw": [
+          "+4.4%",
+          "+8.0%",
+          "+11.6%",
+          "+15.1%",
+          "+18.7%",
+          "+22.2%",
+          "+25.8%",
+          "+29.3%",
+          "+34.7%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-9398c781",
+      "kind": "weaponSkill",
+      "nameKo": "추격 · 옛 시절의 원조",
+      "statKo": "배틀 스킬 피해",
+      "range": {
+        "min": "+10%",
+        "max": "+28%",
+        "raw": [
+          "+10%",
+          "+12%",
+          "+14%",
+          "+16%",
+          "+18%",
+          "+20%",
+          "+22%",
+          "+24%",
+          "+28%"
+        ]
+      },
+      "essenceCategoryId": "essence-pursuit"
+    },
+    {
+      "id": "weapon-option-fe19b857",
+      "kind": "weaponSkill",
+      "nameKo": "방출 · 신속한 일격",
+      "statKo": "공격력",
+      "range": {
+        "min": "+5%",
+        "max": "+14%",
+        "raw": [
+          "+5%",
+          "+6%",
+          "+7%",
+          "+8%",
+          "+9%",
+          "+10%",
+          "+11%",
+          "+12%",
+          "+14%"
+        ]
+      },
+      "essenceCategoryId": "essence-discharge"
+    },
+    {
+      "id": "weapon-option-81fce376",
+      "kind": "stat",
+      "nameKo": "아츠 피해 증가 · 중",
+      "statKo": "아츠 피해",
+      "range": {
+        "min": "+4.4%",
+        "max": "+34.7%",
+        "raw": [
+          "+4.4%",
+          "+8%",
+          "+11.6%",
+          "+15.1%",
+          "+18.7%",
+          "+22.2%",
+          "+25.8%",
+          "+29.3%",
+          "+34.7%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-61454269",
+      "kind": "weaponSkill",
+      "nameKo": "고통 · 중생의 귀로",
+      "statKo": "치명타 확률",
+      "range": {
+        "min": "+3%",
+        "max": "+8.4%",
+        "raw": [
+          "+3%",
+          "+3.6%",
+          "+4.2%",
+          "+4.8%",
+          "+5.4%",
+          "+6%",
+          "+6.6%",
+          "+7.2%",
+          "+8.4%"
+        ]
+      },
+      "essenceCategoryId": "essence-pain"
+    },
+    {
+      "id": "weapon-option-956b6355",
+      "kind": "stat",
+      "nameKo": "최대 생명력 증가 · 대",
+      "statKo": "최대 생명력",
+      "range": {
+        "min": "+10%",
+        "max": "+78%",
+        "raw": [
+          "+10%",
+          "+18%",
+          "+26%",
+          "+34%",
+          "+42%",
+          "+50%",
+          "+58%",
+          "+66%",
+          "+78%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-1bf66a3b",
+      "kind": "weaponSkill",
+      "nameKo": "의료 · 침식성 광기의 불꽃",
+      "statKo": "치유 효율",
+      "range": {
+        "min": "+10%",
+        "max": "+28%",
+        "raw": [
+          "+10%",
+          "+12%",
+          "+14%",
+          "+16%",
+          "+18%",
+          "+20%",
+          "+22%",
+          "+24%",
+          "+28%"
+        ]
+      },
+      "essenceCategoryId": "essence-medical"
+    },
+    {
+      "id": "weapon-option-d0345fba",
+      "kind": "weaponSkill",
+      "nameKo": "어둠 · 치욕",
+      "statKo": "치명타 확률",
+      "range": {
+        "min": "+5%",
+        "max": "+14%",
+        "raw": [
+          "+5%",
+          "+6%",
+          "+7%",
+          "+8%",
+          "+9%",
+          "+10%",
+          "+11%",
+          "+12%",
+          "+14%"
+        ]
+      },
+      "essenceCategoryId": "essence-darkness"
+    },
+    {
+      "id": "weapon-option-2eb3743f",
+      "kind": "weaponSkill",
+      "nameKo": "방출 · 우승자의 위세",
+      "statKo": "보조 능력치",
+      "range": {
+        "min": "+10%",
+        "max": "+28%",
+        "raw": [
+          "+10%",
+          "+12%",
+          "+14%",
+          "+16%",
+          "+18%",
+          "+20%",
+          "+22%",
+          "+24%",
+          "+28%"
+        ]
+      },
+      "essenceCategoryId": "essence-discharge"
+    },
+    {
+      "id": "weapon-option-d6d37941",
+      "kind": "stat",
+      "nameKo": "치유 효율 증가 · 대",
+      "statKo": "치유 효율",
+      "range": {
+        "min": "+6%",
+        "max": "+46.4%",
+        "raw": [
+          "+6%",
+          "+10.7%",
+          "+15.5%",
+          "+20.2%",
+          "+25%",
+          "+29.8%",
+          "+34.5%",
+          "+39.3%",
+          "+46.4%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-06b95db9",
+      "kind": "weaponSkill",
+      "nameKo": "고통 · 밀물과 썰물의 속삭임",
+      "statKo": "보조 능력치",
+      "range": {
+        "min": "+16%",
+        "max": "+44.8%",
+        "raw": [
+          "+16%",
+          "+19.2%",
+          "+22.4%",
+          "+25.6%",
+          "+28.8%",
+          "+32%",
+          "+35.2%",
+          "+38.4%",
+          "+44.8%"
+        ]
+      },
+      "essenceCategoryId": "essence-pain"
+    },
+    {
+      "id": "weapon-option-1ca19f24",
+      "kind": "weaponSkill",
+      "nameKo": "추격 · 굴하지 않는 사명",
+      "statKo": "자연 피해",
+      "range": {
+        "min": "+16%",
+        "max": "+44.8%",
+        "raw": [
+          "+16%",
+          "+19.2%",
+          "+22.4%",
+          "+25.6%",
+          "+28.8%",
+          "+32%",
+          "+35.2%",
+          "+38.4%",
+          "+44.8%"
+        ]
+      },
+      "essenceCategoryId": "essence-pursuit"
+    },
+    {
+      "id": "weapon-option-c62bf4bb",
+      "kind": "weaponSkill",
+      "nameKo": "억제 · 떠도는 번개",
+      "statKo": "전기 피해",
+      "range": {
+        "min": "+16%",
+        "max": "+44.8%",
+        "raw": [
+          "+16%",
+          "+19.2%",
+          "+22.4%",
+          "+25.6%",
+          "+28.8%",
+          "+32%",
+          "+35.2%",
+          "+38.4%",
+          "+44.8%"
+        ]
+      },
+      "essenceCategoryId": "essence-suppression"
+    },
+    {
+      "id": "weapon-option-f94c4bdd",
+      "kind": "stat",
+      "nameKo": "자연 피해 증가 · 대",
+      "statKo": "자연 피해",
+      "range": {
+        "min": "+5.6%",
+        "max": "+43.3%",
+        "raw": [
+          "+5.6%",
+          "+10%",
+          "+14.4%",
+          "+18.9%",
+          "+23.3%",
+          "+27.8%",
+          "+32.2%",
+          "+36.7%",
+          "+43.3%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-002ff9cd",
+      "kind": "weaponSkill",
+      "nameKo": "억제 · 빙퇴석의 침식 흔적",
+      "statKo": "공격력",
+      "range": {
+        "min": "+7%",
+        "max": "+19.6%",
+        "raw": [
+          "+7%",
+          "+8.4%",
+          "+9.8%",
+          "+11.2%",
+          "+12.6%",
+          "+14%",
+          "+15.4%",
+          "+16.8%",
+          "+19.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-suppression"
+    },
+    {
+      "id": "weapon-option-c6b7eabf",
+      "kind": "stat",
+      "nameKo": "전기 피해 증가 · 대",
+      "statKo": "전기 피해",
+      "range": {
+        "min": "+5.56%",
+        "max": "+43.33%",
+        "raw": [
+          "+5.56%",
+          "+10%",
+          "+14.44%",
+          "+18.89%",
+          "+23.33%",
+          "+27.78%",
+          "+32.22%",
+          "+36.67%",
+          "+43.33%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-c2ba9eed",
+      "kind": "weaponSkill",
+      "nameKo": "효율 · 중첩된 빛",
+      "statKo": "공격력",
+      "range": {
+        "min": "+7%",
+        "max": "+19.6%",
+        "raw": [
+          "+7%",
+          "+8.4%",
+          "+9.8%",
+          "+11.2%",
+          "+12.6%",
+          "+14%",
+          "+15.4%",
+          "+16.8%",
+          "+19.6%"
+        ]
+      },
+      "essenceCategoryId": "essence-efficiency"
+    },
+    {
+      "id": "weapon-option-57e83804",
+      "kind": "weaponSkill",
+      "nameKo": "추격 · 아츠 승화",
+      "statKo": "최대 생명력",
+      "range": {
+        "min": "+10%",
+        "max": "+28%",
+        "raw": [
+          "+10%",
+          "+12%",
+          "+14%",
+          "+16%",
+          "+18%",
+          "+20%",
+          "+22%",
+          "+24%",
+          "+28%"
+        ]
+      },
+      "essenceCategoryId": "essence-pursuit"
+    },
+    {
+      "id": "weapon-option-d141dc02",
+      "kind": "stat",
+      "nameKo": "치유 효율 증가 · 중",
+      "statKo": "치유 효율",
+      "range": {
+        "min": "+4.8%",
+        "max": "+37.1%",
+        "raw": [
+          "+4.8%",
+          "+8.6%",
+          "+12.4%",
+          "+16.2%",
+          "+20%",
+          "+23.8%",
+          "+27.6%",
+          "+31.4%",
+          "+37.1%"
+        ]
+      }
+    },
+    {
+      "id": "weapon-option-f4f9943a",
+      "kind": "weaponSkill",
+      "nameKo": "의료 · 신앙의 구원",
+      "statKo": "주요 능력치",
+      "range": {
+        "min": "+5%",
+        "max": "+14%",
+        "raw": [
+          "+5%",
+          "+6%",
+          "+7%",
+          "+8%",
+          "+9%",
+          "+10%",
+          "+11%",
+          "+12%",
+          "+14%"
+        ]
+      },
+      "essenceCategoryId": "essence-medical"
+    },
+    {
+      "id": "weapon-option-92b1b948",
+      "kind": "weaponSkill",
+      "nameKo": "고통 · 황무지 군집",
+      "statKo": "오리지늄 아츠 강도",
+      "range": {
+        "min": "+10",
+        "max": "+28",
+        "raw": [
+          "+10",
+          "+12",
+          "+14",
+          "+16",
+          "+18",
+          "+20",
+          "+22",
+          "+24",
+          "+28"
+        ]
+      },
+      "essenceCategoryId": "essence-pain"
+    },
+    {
+      "id": "weapon-option-31ff9299",
+      "kind": "weaponSkill",
+      "nameKo": "사기 · 순묘 분석법",
+      "statKo": "주요 능력치",
+      "range": {
+        "min": "+5%",
+        "max": "+14%",
+        "raw": [
+          "+5%",
+          "+6%",
+          "+7%",
+          "+8%",
+          "+9%",
+          "+10%",
+          "+11%",
+          "+12%",
+          "+14%"
+        ]
+      },
+      "essenceCategoryId": "essence-morale"
+    },
+    {
+      "id": "weapon-option-0087997c",
+      "kind": "weaponSkill",
+      "nameKo": "어둠 · 무덤 위의 불씨",
+      "statKo": "최대 생명력",
+      "range": {
+        "min": "+10%",
+        "max": "+28%",
+        "raw": [
+          "+10%",
+          "+12%",
+          "+14%",
+          "+16%",
+          "+18%",
+          "+20%",
+          "+22%",
+          "+24%",
+          "+28%"
+        ]
+      },
+      "essenceCategoryId": "essence-darkness"
+    }
+  ],
+  "essenceCategoriesRef": "./essence-categories.json"
+}

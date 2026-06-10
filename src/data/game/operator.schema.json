@@ -1,0 +1,745 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://epwiki.local/schemas/operator.schema.json",
+  "title": "EPWIKI Operator Dataset",
+  "type": "object",
+  "required": ["schemaVersion", "game", "sources", "operators"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "game": {
+      "type": "object",
+      "required": ["id", "name", "lastReviewedAt"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "const": "arknights-endfield"
+        },
+        "name": {
+          "type": "object",
+          "required": ["ko", "en"],
+          "properties": {
+            "ko": {
+              "type": "string"
+            },
+            "en": {
+              "type": "string"
+            }
+          }
+        },
+        "version": {
+          "type": "string"
+        },
+        "lastReviewedAt": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "operators": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/operator"
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["id", "title", "url", "type", "lastCheckedAt"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "enum": ["official", "database", "wiki", "community", "news"]
+        },
+        "language": {
+          "type": "string"
+        },
+        "lastCheckedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "localizedName": {
+      "type": "object",
+      "required": ["en"],
+      "additionalProperties": false,
+      "properties": {
+        "ko": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        },
+        "ja": {
+          "type": "string"
+        },
+        "zhCn": {
+          "type": "string"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "operator": {
+      "type": "object",
+      "required": ["id", "names", "rarity", "profile", "combat", "verification"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "names": {
+          "$ref": "#/$defs/localizedName"
+        },
+        "rarity": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "availability": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "releaseDate": {
+              "type": "string",
+              "format": "date"
+            },
+            "releaseVersion": {
+              "type": "string"
+            },
+            "obtain": {
+              "type": "array",
+              "items": {
+                "enum": ["story", "event", "headhunting", "limited-headhunting", "welfare", "unknown"]
+              }
+            },
+            "limited": {
+              "type": "boolean"
+            }
+          }
+        },
+        "profile": {
+          "type": "object",
+          "required": ["class", "element", "weaponType"],
+          "additionalProperties": false,
+          "properties": {
+            "class": {
+              "enum": ["Guard", "Defender", "Striker", "Supporter", "Caster", "Vanguard"]
+            },
+            "element": {
+              "enum": ["Physical", "Heat", "Electric", "Cryo", "Nature"]
+            },
+            "weaponType": {
+              "enum": ["Sword", "Greatsword", "Polearm", "Handcannon", "Arts Unit", "Unknown"]
+            },
+            "signatureWeapon": {
+              "$ref": "#/$defs/idName"
+            },
+            "faction": {
+              "type": "string"
+            },
+            "race": {
+              "type": "string"
+            },
+            "birthday": {
+              "type": "string"
+            },
+            "voiceActors": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "string"
+              }
+            },
+            "tags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "tagsKo": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "quote": {
+              "type": "string"
+            },
+            "quoteKo": {
+              "type": "string"
+            }
+          }
+        },
+        "combat": {
+          "type": "object",
+          "required": ["mainAttribute", "secondaryAttribute", "stats"],
+          "additionalProperties": false,
+          "properties": {
+            "mainAttribute": {
+              "enum": ["strength", "agility", "intellect", "will", "unknown"]
+            },
+            "secondaryAttribute": {
+              "enum": ["strength", "agility", "intellect", "will", "unknown"]
+            },
+            "stats": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/statSnapshot"
+              }
+            },
+            "statProgression": {
+              "$ref": "#/$defs/statProgression"
+            },
+            "mechanics": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "skills": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/skill"
+              }
+            },
+            "talents": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/progressionEffect"
+              }
+            },
+            "passives": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/progressionEffect"
+              }
+            },
+            "potentials": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/progressionEffect"
+              }
+            },
+            "baseSkills": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/progressionEffect"
+              }
+            },
+            "promotion": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "materialsTotal": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/material"
+                  }
+                },
+                "stages": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/promotionStage"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "build": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "recommendedWeapons": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "matchingSkills": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/idName"
+                  }
+                },
+                "matchingStats": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/idName"
+                  }
+                },
+                "community": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/idName"
+                  }
+                }
+              }
+            },
+            "recommendedGear": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/gearRecommendation"
+              }
+            },
+            "synergies": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/synergy"
+              }
+            }
+          }
+        },
+        "media": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "portrait": {
+              "type": "string"
+            },
+            "splash": {
+              "type": "string"
+            },
+            "videos": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/idNameUrl"
+              }
+            }
+          }
+        },
+        "sourceRefs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "verification": {
+          "type": "object",
+          "required": ["status", "reviewedAt"],
+          "additionalProperties": false,
+          "properties": {
+            "status": {
+              "enum": ["placeholder", "needs_review", "verified"]
+            },
+            "reviewedAt": {
+              "type": "string",
+              "format": "date"
+            },
+            "reviewedBy": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "idName": {
+      "type": "object",
+      "required": ["id", "name"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "nameKo": {
+          "type": "string"
+        }
+      }
+    },
+    "idNameUrl": {
+      "type": "object",
+      "required": ["id", "name", "url"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "nameKo": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "statSnapshot": {
+      "type": "object",
+      "required": ["level", "strength", "agility", "intellect", "will", "hp", "attack", "defense"],
+      "additionalProperties": false,
+      "properties": {
+        "level": {
+          "type": "integer"
+        },
+        "promotion": {
+          "type": "integer"
+        },
+        "strength": {
+          "type": "number"
+        },
+        "agility": {
+          "type": "number"
+        },
+        "intellect": {
+          "type": "number"
+        },
+        "will": {
+          "type": "number"
+        },
+        "hp": {
+          "type": "number"
+        },
+        "attack": {
+          "type": "number"
+        },
+        "defense": {
+          "type": "number"
+        },
+        "critRate": {
+          "type": "number"
+        }
+      }
+    },
+    "statProgression": {
+      "type": "object",
+      "required": ["base", "growthPerLevel"],
+      "additionalProperties": false,
+      "properties": {
+        "base": {
+          "$ref": "#/$defs/rawStatBlock"
+        },
+        "growthPerLevel": {
+          "$ref": "#/$defs/rawStatBlock"
+        }
+      }
+    },
+    "rawStatBlock": {
+      "type": "object",
+      "required": ["strength", "agility", "intellect", "will", "hp", "attack", "defense"],
+      "additionalProperties": false,
+      "properties": {
+        "strength": {
+          "type": "number"
+        },
+        "agility": {
+          "type": "number"
+        },
+        "intellect": {
+          "type": "number"
+        },
+        "will": {
+          "type": "number"
+        },
+        "hp": {
+          "type": "number"
+        },
+        "attack": {
+          "type": "number"
+        },
+        "defense": {
+          "type": "number"
+        },
+        "critRate": {
+          "type": "number"
+        }
+      }
+    },
+    "skill": {
+      "type": "object",
+      "required": ["id", "name", "type"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "nameKo": {
+          "type": "string"
+        },
+        "type": {
+          "enum": ["basic_attack", "battle_skill", "combo_skill", "ultimate", "passive", "other"]
+        },
+        "sourceType": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "descriptionKo": {
+          "type": "string"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "damageType": {
+          "enum": ["Physical", "Heat", "Electric", "Cryo", "Nature", "Unknown"]
+        },
+        "cost": {
+          "type": "number"
+        },
+        "cooldownSeconds": {
+          "type": "number"
+        },
+        "trigger": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "summaryKo": {
+          "type": "string"
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "effectsKo": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "multipliers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/multiplier"
+          }
+        }
+      }
+    },
+    "multiplier": {
+      "type": "object",
+      "required": ["label", "value"],
+      "additionalProperties": false,
+      "properties": {
+        "label": {
+          "type": "string"
+        },
+        "value": {
+          "type": "number"
+        },
+        "unit": {
+          "enum": ["percent", "points"]
+        },
+        "level": {
+          "type": "integer"
+        }
+      }
+    },
+    "progressionEffect": {
+      "type": "object",
+      "required": ["id", "name", "summary"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "nameKo": {
+          "type": "string"
+        },
+        "rank": {
+          "type": "integer"
+        },
+        "unlock": {
+          "type": "string"
+        },
+        "facility": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "descriptionKo": {
+          "type": "string"
+        },
+        "icon": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "summaryKo": {
+          "type": "string"
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "effectsKo": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "levels": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/progressionEffectLevel"
+          }
+        }
+      }
+    },
+    "progressionEffectLevel": {
+      "type": "object",
+      "required": ["id", "level", "description"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "level": {
+          "type": "integer"
+        },
+        "description": {
+          "type": "string"
+        },
+        "descriptionKo": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "summaryKo": {
+          "type": "string"
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "effectsKo": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "material": {
+      "type": "object",
+      "required": ["id", "name", "quantity"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "nameKo": {
+          "type": "string"
+        },
+        "quantity": {
+          "type": "number"
+        }
+      }
+    },
+    "promotionStage": {
+      "type": "object",
+      "required": ["rank", "materials"],
+      "additionalProperties": false,
+      "properties": {
+        "rank": {
+          "type": "integer"
+        },
+        "levelCap": {
+          "type": "integer"
+        },
+        "materials": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/material"
+          }
+        },
+        "unlocks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "gearRecommendation": {
+      "type": "object",
+      "required": ["slot", "name"],
+      "additionalProperties": false,
+      "properties": {
+        "slot": {
+          "enum": ["set", "armor", "gloves", "accessory1", "accessory2", "free"]
+        },
+        "name": {
+          "type": "string"
+        },
+        "setPieces": {
+          "type": "integer"
+        },
+        "effect": {
+          "type": "string"
+        }
+      }
+    },
+    "synergy": {
+      "type": "object",
+      "required": ["operatorId", "reason"],
+      "additionalProperties": false,
+      "properties": {
+        "operatorId": {
+          "type": "string"
+        },
+        "operatorName": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

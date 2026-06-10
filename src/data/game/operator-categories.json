@@ -1,0 +1,254 @@
+{
+  "schemaVersion": "0.1.0",
+  "lastReviewedAt": "2026-06-10",
+  "sources": [
+    {
+      "id": "namu-operator-categories",
+      "title": "명일방주: 엔드필드/오퍼레이터",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC:%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C/%EC%98%A4%ED%8D%BC%EB%A0%88%EC%9D%B4%ED%84%B0",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "Used for Korean category axes: rarity, stats, element, class, weapon, and equipment."
+    }
+  ],
+  "axes": [
+    {
+      "id": "rarity",
+      "labelKo": "레어도",
+      "descriptionKo": "4★에서 6★ 오퍼레이터까지 존재하며, 레어도가 높을수록 기본 능력치가 조금 더 높다."
+    },
+    {
+      "id": "stats",
+      "labelKo": "능력치",
+      "descriptionKo": "레벨, 무기, 장비에 따라 증가하는 전투 수치. 힘, 민첩, 지능, 의지 중 하나는 주요 능력치, 하나는 보조 능력치가 된다."
+    },
+    {
+      "id": "element",
+      "labelKo": "속성",
+      "descriptionKo": "나무위키 오퍼레이터 틀의 속성별 분류 기준."
+    },
+    {
+      "id": "class",
+      "labelKo": "직군",
+      "descriptionKo": "가드, 캐스터, 스트라이커, 뱅가드, 디펜더, 서포터로 구분되는 전투 역할."
+    },
+    {
+      "id": "weapon",
+      "labelKo": "무기",
+      "descriptionKo": "오퍼레이터의 무기칸에 장착하는 무기 타입."
+    },
+    {
+      "id": "equipment",
+      "labelKo": "장비",
+      "descriptionKo": "오퍼레이터의 장비칸에 장착하는 방어구. 장비 상세 데이터는 별도 장비 데이터셋으로 분리한다."
+    }
+  ],
+  "rarities": [
+    {
+      "id": "4",
+      "stars": 4,
+      "labelKo": "4★"
+    },
+    {
+      "id": "5",
+      "stars": 5,
+      "labelKo": "5★"
+    },
+    {
+      "id": "6",
+      "stars": 6,
+      "labelKo": "6★"
+    }
+  ],
+  "attributeRoles": [
+    {
+      "id": "mainAttribute",
+      "labelKo": "주요 능력치",
+      "attackPercentPerPoint": 0.5,
+      "descriptionKo": "능력치 1당 공격력이 0.5% 증가한다."
+    },
+    {
+      "id": "secondaryAttribute",
+      "labelKo": "보조 능력치",
+      "attackPercentPerPoint": 0.2,
+      "descriptionKo": "능력치 1당 공격력이 약 0.2% 증가한다."
+    }
+  ],
+  "stats": [
+    {
+      "id": "hp",
+      "labelKo": "생명력",
+      "labelEn": "HP",
+      "descriptionKo": "체력. 0이 되면 사망한다."
+    },
+    {
+      "id": "attack",
+      "labelKo": "공격력",
+      "labelEn": "ATK",
+      "descriptionKo": "일반 공격 및 스킬 피해에 영향을 준다."
+    },
+    {
+      "id": "defense",
+      "labelKo": "방어력",
+      "labelEn": "DEF",
+      "descriptionKo": "높을수록 받는 모든 피해가 감소한다. 기본값은 0이며 장비로 올릴 수 있다."
+    },
+    {
+      "id": "strength",
+      "labelKo": "힘",
+      "labelEn": "STR",
+      "descriptionKo": "최대 생명력에 영향을 준다.",
+      "derivedEffectKo": "힘 1당 최대 생명력 +5"
+    },
+    {
+      "id": "agility",
+      "labelKo": "민첩",
+      "labelEn": "AGI",
+      "descriptionKo": "물리 저항에 영향을 준다.",
+      "derivedFormula": "100 - 100 / (agility * 0.001 + 1)"
+    },
+    {
+      "id": "intellect",
+      "labelKo": "지능",
+      "labelEn": "INT",
+      "descriptionKo": "아츠 저항에 영향을 준다.",
+      "derivedFormula": "100 - 100 / (intellect * 0.001 + 1)"
+    },
+    {
+      "id": "will",
+      "labelKo": "의지",
+      "labelEn": "WILL",
+      "descriptionKo": "받는 치유 효율 보너스에 영향을 준다.",
+      "derivedEffectKo": "의지 1당 받는 치유 효율 +0.1%"
+    },
+    {
+      "id": "critRate",
+      "labelKo": "치명타 확률",
+      "labelEn": "CRIT",
+      "descriptionKo": "치명타 피해만큼 피해량이 증가할 확률. 기본값은 5%다."
+    },
+    {
+      "id": "critDamage",
+      "labelKo": "치명타 피해",
+      "descriptionKo": "치명타 발생 시 증가하는 피해량. 기본값은 50%다."
+    },
+    {
+      "id": "artsIntensity",
+      "labelKo": "오리지늄 아츠 강도",
+      "descriptionKo": "물리 이상, 아츠 이상, 아츠 폭발 효과에 영향을 준다."
+    }
+  ],
+  "elements": [
+    {
+      "id": "Physical",
+      "labelKo": "물리",
+      "labelEn": "Physical",
+      "labelZhCn": "物理"
+    },
+    {
+      "id": "Cryo",
+      "labelKo": "냉기",
+      "labelEn": "Cryo",
+      "labelZhCn": "寒冷"
+    },
+    {
+      "id": "Heat",
+      "labelKo": "열기",
+      "labelEn": "Heat",
+      "labelZhCn": "灼热"
+    },
+    {
+      "id": "Nature",
+      "labelKo": "자연",
+      "labelEn": "Nature",
+      "labelZhCn": "自然"
+    },
+    {
+      "id": "Electric",
+      "labelKo": "전기",
+      "labelEn": "Electric",
+      "labelZhCn": "电磁"
+    }
+  ],
+  "classes": [
+    {
+      "id": "Vanguard",
+      "labelKo": "뱅가드",
+      "labelEn": "Vanguard",
+      "labelZhCn": "先锋",
+      "descriptionKo": "스킬 게이지를 회복하는 데 능숙하며, 팀원이 스킬을 더 효과적으로 사용할 수 있도록 돕는다."
+    },
+    {
+      "id": "Guard",
+      "labelKo": "가드",
+      "labelEn": "Guard",
+      "labelZhCn": "近卫",
+      "descriptionKo": "방어 불능 피해를 주고 물리 이상 효과를 부여하는 데 능숙하며, 일정 수준의 공격 능력을 갖춘다."
+    },
+    {
+      "id": "Defender",
+      "labelKo": "디펜더",
+      "labelEn": "Defender",
+      "labelZhCn": "重装",
+      "descriptionKo": "뛰어난 생존력을 보유하고 있으며, 팀원을 보호하고 치료하거나 적에게 반격할 수 있다."
+    },
+    {
+      "id": "Supporter",
+      "labelKo": "서포터",
+      "labelEn": "Supporter",
+      "labelZhCn": "辅助",
+      "descriptionKo": "다양한 제어 효과로 적을 약화하고, 다른 오퍼레이터에게 버프나 지원을 제공한다."
+    },
+    {
+      "id": "Caster",
+      "labelKo": "캐스터",
+      "labelEn": "Caster",
+      "labelZhCn": "术师",
+      "descriptionKo": "아츠 부착 피해와 아츠 이상 효과를 부여하는 데 능숙하며, 일정 수준의 공격 능력을 갖춘다."
+    },
+    {
+      "id": "Striker",
+      "labelKo": "스트라이커",
+      "labelEn": "Striker",
+      "labelZhCn": "突击",
+      "descriptionKo": "다른 오퍼레이터의 물리 공격과 아츠 효과를 활용해 결정적인 피해를 준다."
+    }
+  ],
+  "weapons": [
+    {
+      "id": "Sword",
+      "labelKo": "한손검",
+      "labelEn": "Sword"
+    },
+    {
+      "id": "Greatsword",
+      "labelKo": "양손검",
+      "labelEn": "Great Sword"
+    },
+    {
+      "id": "Polearm",
+      "labelKo": "장병기",
+      "labelEn": "Polearm"
+    },
+    {
+      "id": "Handcannon",
+      "labelKo": "권총",
+      "labelEn": "Handcannon"
+    },
+    {
+      "id": "Arts Unit",
+      "labelKo": "아츠 유닛",
+      "labelEn": "Arts Unit"
+    },
+    {
+      "id": "Unknown",
+      "labelKo": "미확인",
+      "labelEn": "Unknown"
+    }
+  ],
+  "notes": [
+    "나무위키 문서 기준 출시 예정 캐릭터는 취소선으로 표시된다.",
+    "카뮤는 나무위키 분류에는 표시되지만 2026-06-10 기준 출시 전으로 seed 오퍼레이터 목록에는 포함하지 않는다."
+  ]
+}

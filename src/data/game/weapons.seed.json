@@ -1,0 +1,2955 @@
+{
+  "schemaVersion": "0.1.0",
+  "game": "Arknights: Endfield",
+  "categoriesRef": "./weapon-categories.json",
+  "optionCategoriesRef": "./weapon/option-categories.json",
+  "sources": [
+    {
+      "id": "namu-weapon-main",
+      "title": "명일방주: 엔드필드/무기",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "무기 공통 규칙, 레어도, 유형, 육성, 잠재능력, 기질, 기질 식각 기준 출처."
+    },
+    {
+      "id": "namu-weapon-sword",
+      "title": "명일방주: 엔드필드/무기/한손검",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%ED%95%9C%EC%86%90%EA%B2%80",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "한손검 Sword 무기 목록과 기초 수치 출처."
+    },
+    {
+      "id": "namu-weapon-greatsword",
+      "title": "명일방주: 엔드필드/무기/양손검",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%EC%96%91%EC%86%90%EA%B2%80",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "양손검 Great Sword 무기 목록과 기초 수치 출처."
+    },
+    {
+      "id": "namu-weapon-polearm",
+      "title": "명일방주: 엔드필드/무기/장병기",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%EC%9E%A5%EB%B3%91%EA%B8%B0",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "장병기 Polearm 무기 목록과 기초 수치 출처."
+    },
+    {
+      "id": "namu-weapon-handcannon",
+      "title": "명일방주: 엔드필드/무기/권총",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%EA%B6%8C%EC%B4%9D",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "권총 Handcannon 무기 목록과 기초 수치 출처."
+    },
+    {
+      "id": "namu-weapon-arts-unit",
+      "title": "명일방주: 엔드필드/무기/아츠 유닛",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC%3A%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C%2F%EB%AC%B4%EA%B8%B0%2F%EC%95%84%EC%B8%A0%20%EC%9C%A0%EB%8B%9B",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "아츠 유닛 Arts Unit 무기 목록과 기초 수치 출처."
+    }
+  ],
+  "weapons": [
+    {
+      "id": "weapon-sword-830f41",
+      "sortOrder": 1,
+      "names": {
+        "ko": "백야의 별"
+      },
+      "rarity": 6,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 505
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-0a46011b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-76a6fc5c"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-400b977e"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-bf8fda",
+      "sortOrder": 2,
+      "names": {
+        "ko": "위대한 이름"
+      },
+      "rarity": 6,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 490
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-0a46011b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-7ee29127"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-0bbc83c4"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-41e559",
+      "sortOrder": 3,
+      "names": {
+        "ko": "테르밋 커터"
+      },
+      "rarity": 6,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 490
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-945fd3bb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-8ca88f67"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-025c82a1"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-cab4d6",
+      "sortOrder": 4,
+      "names": {
+        "ko": "부요"
+      },
+      "rarity": 6,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 495
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-0a46011b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-f3a7b3d4"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-71490fb5"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-b366d2",
+      "sortOrder": 5,
+      "names": {
+        "ko": "끝없는 방랑"
+      },
+      "rarity": 6,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 500
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-945fd3bb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-8ca88f67"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-66a25e14"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-5302c5",
+      "sortOrder": 6,
+      "names": {
+        "ko": "장대한 염원"
+      },
+      "rarity": 6,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 500
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-c8c4e851"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-8ca88f67"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-91e7fab0"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-c68bf9",
+      "sortOrder": 7,
+      "names": {
+        "ko": "용조의 불꽃"
+      },
+      "rarity": 6,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "arsenal-exchange-limited",
+        "labelKo": "무기고 거래소 - 한정"
+      },
+      "stats": {
+        "baseAttack": 510
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-ba8f8c29"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-8ca88f67"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-ecb85f90"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-3ce426",
+      "sortOrder": 8,
+      "names": {
+        "ko": "늑대의 혈흔"
+      },
+      "rarity": 6,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "arsenal-exchange-limited",
+        "labelKo": "무기고 거래소 - 한정"
+      },
+      "stats": {
+        "baseAttack": 505
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-c8c4e851"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-f3a7b3d4"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-8f154f33"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-ddf2d2",
+      "sortOrder": 9,
+      "names": {
+        "ko": "암흑의 횃불"
+      },
+      "rarity": 6,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "protocol-pass",
+        "labelKo": "프로토콜 통행증"
+      },
+      "stats": {
+        "baseAttack": 490
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-ba8f8c29"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-762aa07f"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-fb87299d"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-81b2e4",
+      "sortOrder": 10,
+      "names": {
+        "ko": "찬란했던 기억"
+      },
+      "rarity": 6,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "protocol-pass",
+        "labelKo": "프로토콜 통행증"
+      },
+      "stats": {
+        "baseAttack": 490
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-c8c4e851"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-f3a7b3d4"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-8d6217e5"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-c366ef",
+      "sortOrder": 11,
+      "names": {
+        "ko": "강철의 여운"
+      },
+      "rarity": 5,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-bede54db"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-a01ea256"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-202b9024"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-1aa1a2",
+      "sortOrder": 12,
+      "names": {
+        "ko": "숭배의 시선"
+      },
+      "rarity": 5,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-bede54db"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-a01ea256"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-6e692697"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-656dcc",
+      "sortOrder": 13,
+      "names": {
+        "ko": "O.B.J. 엣지 오브 라이트"
+      },
+      "rarity": 5,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-bede54db"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-1750b554"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-b79acccd"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-7437d9",
+      "sortOrder": 14,
+      "names": {
+        "ko": "십이문"
+      },
+      "rarity": 5,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-bede54db"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-1750b554"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-03003949"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-d58b92",
+      "sortOrder": 15,
+      "names": {
+        "ko": "린수를 찾아서 3.0"
+      },
+      "rarity": 5,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-4889712f"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-3c1b13d8"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-20fe6f60"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-41d2fc",
+      "sortOrder": 16,
+      "names": {
+        "ko": "불사의 성주"
+      },
+      "rarity": 5,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-3821847b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-d26e7109"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-ebbf3993"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-306740",
+      "sortOrder": 17,
+      "names": {
+        "ko": "드러난 칼날"
+      },
+      "rarity": 4,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 341
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-554890fd"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-7b836463"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-47c43b82"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-e12204",
+      "sortOrder": 18,
+      "names": {
+        "ko": "거대한 격랑"
+      },
+      "rarity": 4,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 341
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-d71c3335"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-34816fed"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-e7f3a24c"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-sword-e92d76",
+      "sortOrder": 19,
+      "names": {
+        "ko": "타르 11"
+      },
+      "rarity": 3,
+      "type": "Sword",
+      "typeLabelKo": "한손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 283
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-1f59e0d7"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-0719e0bf"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-sword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-697644",
+      "sortOrder": 20,
+      "names": {
+        "ko": "분쇄의 군주"
+      },
+      "rarity": 6,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 490
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-4cdce313"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-f3a7b3d4"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-852ffdd5"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-58a78b",
+      "sortOrder": 21,
+      "names": {
+        "ko": "과거의 일품"
+      },
+      "rarity": 6,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 495
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-945fd3bb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-89a7baeb"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-202bdfd6"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-dd5ae2",
+      "sortOrder": 22,
+      "names": {
+        "ko": "모범"
+      },
+      "rarity": 6,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 500
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-0a46011b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-8ca88f67"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-07dd0d73"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-824397",
+      "sortOrder": 23,
+      "names": {
+        "ko": "헤라펜거"
+      },
+      "rarity": 6,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 505
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-4cdce313"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-8ca88f67"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-29661a1e"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-99b7b1",
+      "sortOrder": 24,
+      "names": {
+        "ko": "천둥의 흔적"
+      },
+      "rarity": 6,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 495
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-4cdce313"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-89a7baeb"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-e995eb8d"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-00df0f",
+      "sortOrder": 25,
+      "names": {
+        "ko": "적영"
+      },
+      "rarity": 6,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "arsenal-exchange-limited",
+        "labelKo": "무기고 거래소 - 한정"
+      },
+      "stats": {
+        "baseAttack": 510
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-4cdce313"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-8ca88f67"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-82c957b2"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-82ea9b",
+      "sortOrder": 26,
+      "names": {
+        "ko": "환상통"
+      },
+      "rarity": 6,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "protocol-pass",
+        "labelKo": "프로토콜 통행증"
+      },
+      "stats": {
+        "baseAttack": 500
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-4cdce313"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-76a6fc5c"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-2df35b72"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-fddaa4",
+      "sortOrder": 27,
+      "names": {
+        "ko": "O.B.J. 헤비 버든"
+      },
+      "rarity": 5,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-4889712f"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-9529e83b"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-bb70b0c8"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-9c564c",
+      "sortOrder": 28,
+      "names": {
+        "ko": "최후의 메아리"
+      },
+      "rarity": 5,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-4889712f"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-9529e83b"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-13678161"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-a7ec28",
+      "sortOrder": 29,
+      "names": {
+        "ko": "고대의 강줄기"
+      },
+      "rarity": 5,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-4889712f"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-d5f0e5ba"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-d376dfae"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-d9e0f8",
+      "sortOrder": 30,
+      "names": {
+        "ko": "검은 추적자"
+      },
+      "rarity": 5,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-4889712f"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-d26e7109"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-467c5b75"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-eac7d2",
+      "sortOrder": 31,
+      "names": {
+        "ko": "공업 0.1"
+      },
+      "rarity": 4,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 341
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-e699e0d3"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-34816fed"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-47c43b82"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-559e30",
+      "sortOrder": 32,
+      "names": {
+        "ko": "불꽃의 시험"
+      },
+      "rarity": 4,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 341
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-c91bac7b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-ff26597d"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-d02cd7cc"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-greatsword-631657",
+      "sortOrder": 33,
+      "names": {
+        "ko": "다호프 7"
+      },
+      "rarity": 3,
+      "type": "Greatsword",
+      "typeLabelKo": "양손검",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 283
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-1f59e0d7"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-0719e0bf"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-greatsword"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-polearm-3a3362",
+      "sortOrder": 34,
+      "names": {
+        "ko": "J.E.T."
+      },
+      "rarity": 6,
+      "type": "Polearm",
+      "typeLabelKo": "장병기",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 500
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-0a46011b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-8ca88f67"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-8b0efbbc"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-polearm"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-polearm-2f2883",
+      "sortOrder": 35,
+      "names": {
+        "ko": "용사"
+      },
+      "rarity": 6,
+      "type": "Polearm",
+      "typeLabelKo": "장병기",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 495
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-c8c4e851"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-7ee29127"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-debb372e"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-polearm"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-polearm-dbc7ad",
+      "sortOrder": 36,
+      "names": {
+        "ko": "산의 지배자"
+      },
+      "rarity": 6,
+      "type": "Polearm",
+      "typeLabelKo": "장병기",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 500
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-c8c4e851"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-7ee29127"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-e95cab7b"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-polearm"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-polearm-839124",
+      "sortOrder": 37,
+      "names": {
+        "ko": "등불의 사명"
+      },
+      "rarity": 6,
+      "type": "Polearm",
+      "typeLabelKo": "장병기",
+      "acquisition": {
+        "group": "protocol-pass",
+        "labelKo": "프로토콜 통행증"
+      },
+      "stats": {
+        "baseAttack": 485
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-c8c4e851"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-9ec8ccbb"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-ec59b436"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-polearm"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-polearm-4b21b6",
+      "sortOrder": 38,
+      "names": {
+        "ko": "중심력"
+      },
+      "rarity": 5,
+      "type": "Polearm",
+      "typeLabelKo": "장병기",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-898f8eb9"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-47943776"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-9b69a927"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-polearm"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-polearm-f429d2",
+      "sortOrder": 39,
+      "names": {
+        "ko": "O.B.J. 스파이크"
+      },
+      "rarity": 5,
+      "type": "Polearm",
+      "typeLabelKo": "장병기",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-898f8eb9"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-a01ea256"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-8b6d3539"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-polearm"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-polearm-2c122d",
+      "sortOrder": 40,
+      "names": {
+        "ko": "키메라의 정의"
+      },
+      "rarity": 5,
+      "type": "Polearm",
+      "typeLabelKo": "장병기",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-4889712f"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-d26e7109"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-e9d32da9"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-polearm"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-polearm-8b4534",
+      "sortOrder": 41,
+      "names": {
+        "ko": "아겔로스 사냥꾼"
+      },
+      "rarity": 4,
+      "type": "Polearm",
+      "typeLabelKo": "장병기",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 341
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-c91bac7b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-e94661db"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-47c43b82"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-polearm"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-polearm-cb46c5",
+      "sortOrder": 42,
+      "names": {
+        "ko": "개척자의 이정표"
+      },
+      "rarity": 4,
+      "type": "Polearm",
+      "typeLabelKo": "장병기",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 341
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-554890fd"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-34816fed"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-8d4a71a4"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-polearm"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-polearm-7aecb2",
+      "sortOrder": 43,
+      "names": {
+        "ko": "오페로 77"
+      },
+      "rarity": 3,
+      "type": "Polearm",
+      "typeLabelKo": "장병기",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 283
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-1f59e0d7"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-0719e0bf"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-polearm"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-handcannon-1addba",
+      "sortOrder": 44,
+      "names": {
+        "ko": "클래니벌"
+      },
+      "rarity": 6,
+      "type": "Handcannon",
+      "typeLabelKo": "권총",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 490
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-0a46011b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-35aaae5f"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-a5122095"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-handcannon"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-handcannon-f751d2",
+      "sortOrder": 45,
+      "names": {
+        "ko": "쐐기"
+      },
+      "rarity": 6,
+      "type": "Handcannon",
+      "typeLabelKo": "권총",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 500
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-0a46011b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-f3a7b3d4"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-c73959a6"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-handcannon"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-handcannon-266487",
+      "sortOrder": 46,
+      "names": {
+        "ko": "예술의 폭군"
+      },
+      "rarity": 6,
+      "type": "Handcannon",
+      "typeLabelKo": "권총",
+      "acquisition": {
+        "group": "arsenal-exchange-limited",
+        "labelKo": "무기고 거래소 - 한정"
+      },
+      "stats": {
+        "baseAttack": 505
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-ba8f8c29"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-f3a7b3d4"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-53142181"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-handcannon"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-handcannon-4b71af",
+      "sortOrder": 47,
+      "names": {
+        "ko": "반항"
+      },
+      "rarity": 6,
+      "type": "Handcannon",
+      "typeLabelKo": "권총",
+      "acquisition": {
+        "group": "arsenal-exchange-limited",
+        "labelKo": "무기고 거래소 - 한정"
+      },
+      "stats": {
+        "baseAttack": 505
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-c8c4e851"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-8ca88f67"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-93314baa"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-handcannon"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-handcannon-7ede0b",
+      "sortOrder": 48,
+      "names": {
+        "ko": "항로의 개척자"
+      },
+      "rarity": 6,
+      "type": "Handcannon",
+      "typeLabelKo": "권총",
+      "acquisition": {
+        "group": "protocol-pass",
+        "labelKo": "프로토콜 통행증"
+      },
+      "stats": {
+        "baseAttack": 490
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-ba8f8c29"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-85ad5709"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-78317091"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-handcannon"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-handcannon-1cf8f7",
+      "sortOrder": 49,
+      "names": {
+        "ko": "향수"
+      },
+      "rarity": 6,
+      "type": "Handcannon",
+      "typeLabelKo": "권총",
+      "acquisition": {
+        "group": "protocol-pass",
+        "labelKo": "프로토콜 통행증"
+      },
+      "stats": {
+        "baseAttack": 490
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-c8c4e851"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-85ad5709"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-77e0f9ea"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-handcannon"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-handcannon-169370",
+      "sortOrder": 50,
+      "names": {
+        "ko": "이성적인 작별"
+      },
+      "rarity": 5,
+      "type": "Handcannon",
+      "typeLabelKo": "권총",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-4889712f"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-4beb4da8"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-9398c781"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-handcannon"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-handcannon-7ef6bc",
+      "sortOrder": 51,
+      "names": {
+        "ko": "O.B.J. 벨로시투스"
+      },
+      "rarity": 5,
+      "type": "Handcannon",
+      "typeLabelKo": "권총",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-bede54db"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-d26e7109"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-fe19b857"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-handcannon"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-handcannon-1f8df8",
+      "sortOrder": 52,
+      "names": {
+        "ko": "작품: 중생"
+      },
+      "rarity": 5,
+      "type": "Handcannon",
+      "typeLabelKo": "권총",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-bede54db"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-81fce376"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-61454269"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-handcannon"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-handcannon-57ccdc",
+      "sortOrder": 53,
+      "names": {
+        "ko": "끝없는 여정"
+      },
+      "rarity": 4,
+      "type": "Handcannon",
+      "typeLabelKo": "권총",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 341
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-e699e0d3"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-e94661db"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-e7f3a24c"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-handcannon"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-handcannon-ef6d7f",
+      "sortOrder": 54,
+      "names": {
+        "ko": "하울링 가드"
+      },
+      "rarity": 4,
+      "type": "Handcannon",
+      "typeLabelKo": "권총",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 341
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-d71c3335"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-34816fed"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-47c43b82"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-handcannon"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-handcannon-31b8ea",
+      "sortOrder": 55,
+      "names": {
+        "ko": "페코 5"
+      },
+      "rarity": 3,
+      "type": "Handcannon",
+      "typeLabelKo": "권총",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 283
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-1f59e0d7"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-0719e0bf"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-handcannon"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-b4f907",
+      "sortOrder": 56,
+      "names": {
+        "ko": "기사도 정신"
+      },
+      "rarity": 6,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 485
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-945fd3bb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-956b6355"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-1bf66a3b"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-12ea44",
+      "sortOrder": 57,
+      "names": {
+        "ko": "망각"
+      },
+      "rarity": 6,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 495
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-ba8f8c29"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-35aaae5f"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-d0345fba"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-cbcda1",
+      "sortOrder": 58,
+      "names": {
+        "ko": "폭발 유닛"
+      },
+      "rarity": 6,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 490
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-0a46011b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-76a6fc5c"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-2eb3743f"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-3aa5a3",
+      "sortOrder": 59,
+      "names": {
+        "ko": "바다와 별의 꿈"
+      },
+      "rarity": 6,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "arsenal-exchange-standard",
+        "labelKo": "무기고 거래소 - 상시"
+      },
+      "stats": {
+        "baseAttack": 495
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-ba8f8c29"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-d6d37941"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-06b95db9"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-2a0c18",
+      "sortOrder": 60,
+      "names": {
+        "ko": "사명의 길"
+      },
+      "rarity": 6,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "arsenal-exchange-limited",
+        "labelKo": "무기고 거래소 - 한정"
+      },
+      "stats": {
+        "baseAttack": 500
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-945fd3bb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-9ec8ccbb"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-1ca19f24"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-ec80a2",
+      "sortOrder": 61,
+      "names": {
+        "ko": "고독한 나룻배"
+      },
+      "rarity": 6,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "arsenal-exchange-limited",
+        "labelKo": "무기고 거래소 - 한정"
+      },
+      "stats": {
+        "baseAttack": 510
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-945fd3bb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-8ca88f67"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-c62bf4bb"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-ab3de3",
+      "sortOrder": 62,
+      "names": {
+        "ko": "작품: 침식 흔적"
+      },
+      "rarity": 6,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "protocol-pass",
+        "labelKo": "프로토콜 통행증"
+      },
+      "stats": {
+        "baseAttack": 485
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-945fd3bb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-f94c4bdd"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-002ff9cd"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-957634",
+      "sortOrder": 63,
+      "names": {
+        "ko": "안개 속 불빛"
+      },
+      "rarity": 6,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "protocol-pass",
+        "labelKo": "프로토콜 통행증"
+      },
+      "stats": {
+        "baseAttack": 490
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-945fd3bb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-c6b7eabf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-c2ba9eed"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-ecd7b3",
+      "sortOrder": 64,
+      "names": {
+        "ko": "O.B.J. 아츠 아이덴티티"
+      },
+      "rarity": 5,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-3821847b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-d5f0e5ba"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-57e83804"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-55fbe6",
+      "sortOrder": 65,
+      "names": {
+        "ko": "선교의 자유"
+      },
+      "rarity": 5,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-898f8eb9"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-d141dc02"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-f4f9943a"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-2908e8",
+      "sortOrder": 66,
+      "names": {
+        "ko": "황무지의 방랑자"
+      },
+      "rarity": 5,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-3821847b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-47943776"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-92b1b948"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-3b181d",
+      "sortOrder": 67,
+      "names": {
+        "ko": "무가내하"
+      },
+      "rarity": 5,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-898f8eb9"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-d26e7109"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-31ff9299"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-ce607c",
+      "sortOrder": 68,
+      "names": {
+        "ko": "망자의 노래"
+      },
+      "rarity": 5,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 411
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-3821847b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-1750b554"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-0087997c"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-3fd626",
+      "sortOrder": 69,
+      "names": {
+        "ko": "섬광 번개"
+      },
+      "rarity": 4,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 341
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-c91bac7b"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-34816fed"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-47c43b82"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-94412b",
+      "sortOrder": 70,
+      "names": {
+        "ko": "오토 하이퍼노바"
+      },
+      "rarity": 4,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 341
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-d71c3335"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-e94661db"
+        },
+        {
+          "slot": 3,
+          "categoryId": "weapon-option-8d4a71a4"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    },
+    {
+      "id": "weapon-arts-unit-8a18b1",
+      "sortOrder": 71,
+      "names": {
+        "ko": "지미니 12"
+      },
+      "rarity": 3,
+      "type": "Arts Unit",
+      "typeLabelKo": "아츠 유닛",
+      "acquisition": {
+        "group": "standard",
+        "labelKo": "일반"
+      },
+      "stats": {
+        "baseAttack": 283
+      },
+      "traits": [
+        {
+          "slot": 1,
+          "categoryId": "weapon-option-1f59e0d7"
+        },
+        {
+          "slot": 2,
+          "categoryId": "weapon-option-0719e0bf"
+        }
+      ],
+      "sourceRefs": [
+        "namu-weapon-main",
+        "namu-weapon-arts-unit"
+      ],
+      "notes": [
+        "나무위키 HTML에서 무기명, 레어도, 유형, 획득 그룹, 기본 공격력, 기질 이름/대상 능력치/범위를 자동 추출한 초안입니다."
+      ],
+      "verification": {
+        "status": "needs_review"
+      }
+    }
+  ]
+}

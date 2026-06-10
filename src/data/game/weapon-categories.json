@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "0.1.0",
+  "lastReviewedAt": "2026-06-10",
+  "sources": [
+    {
+      "id": "namu-weapon-categories",
+      "title": "명일방주: 엔드필드/무기",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC:%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C/%EB%AC%B4%EA%B8%B0",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "Used for Korean weapon category axes: rarity, weapon type, skill, growth, potential, essence, and essence engraving."
+    }
+  ],
+  "axes": [
+    {
+      "id": "rarity",
+      "labelKo": "레어도",
+      "descriptionKo": "3★에서 6★ 무기까지 존재하며, 레어도가 높을수록 기본 공격력이 높고 더 많은 무기 스킬을 가진다."
+    },
+    {
+      "id": "type",
+      "labelKo": "무기 타입",
+      "descriptionKo": "한손검, 양손검, 장병기, 권총, 아츠 유닛으로 구분한다."
+    },
+    {
+      "id": "skill",
+      "labelKo": "무기 스킬",
+      "descriptionKo": "3★ 무기는 2개, 4★ 이상 무기는 3개의 스킬을 가진다."
+    },
+    {
+      "id": "growth",
+      "labelKo": "육성",
+      "descriptionKo": "무기 레벨 최대치는 20/40/60/80/90으로 나뉜다."
+    },
+    {
+      "id": "potential",
+      "labelKo": "잠재능력",
+      "descriptionKo": "무기 잠재능력이 증가하면 세 번째 스킬의 레벨과 최대치가 증가한다."
+    },
+    {
+      "id": "essence",
+      "labelKo": "기질",
+      "descriptionKo": "무기에 장착해 무기 스킬 레벨을 올리는 아이템. 무기 옵션과 맞는 기질을 장착하면 발광원이 추가된다."
+    },
+    {
+      "id": "essenceEngraving",
+      "labelKo": "기질 식각",
+      "descriptionKo": "5성 기질을 소모해 기질의 스킬 레벨 증가치를 확률적으로 강화하는 시스템."
+    }
+  ],
+  "rarities": [
+    {
+      "id": "3",
+      "stars": 3,
+      "labelKo": "3★",
+      "skillSlots": 2
+    },
+    {
+      "id": "4",
+      "stars": 4,
+      "labelKo": "4★",
+      "skillSlots": 3
+    },
+    {
+      "id": "5",
+      "stars": 5,
+      "labelKo": "5★",
+      "skillSlots": 3
+    },
+    {
+      "id": "6",
+      "stars": 6,
+      "labelKo": "6★",
+      "skillSlots": 3
+    }
+  ],
+  "types": [
+    {
+      "id": "Sword",
+      "labelKo": "한손검",
+      "labelEn": "Sword",
+      "sourcePathKo": "명일방주: 엔드필드/무기/한손검"
+    },
+    {
+      "id": "Greatsword",
+      "labelKo": "양손검",
+      "labelEn": "Great Sword",
+      "sourcePathKo": "명일방주: 엔드필드/무기/양손검"
+    },
+    {
+      "id": "Polearm",
+      "labelKo": "장병기",
+      "labelEn": "Polearm",
+      "sourcePathKo": "명일방주: 엔드필드/무기/장병기"
+    },
+    {
+      "id": "Handcannon",
+      "labelKo": "권총",
+      "labelEn": "Handcannon",
+      "sourcePathKo": "명일방주: 엔드필드/무기/권총"
+    },
+    {
+      "id": "Arts Unit",
+      "labelKo": "아츠 유닛",
+      "labelEn": "Arts Unit",
+      "sourcePathKo": "명일방주: 엔드필드/무기/아츠 유닛"
+    }
+  ],
+  "acquisitionGroups": [
+    {
+      "id": "arsenal-exchange-standard",
+      "labelKo": "무기고 거래소 - 상시"
+    },
+    {
+      "id": "arsenal-exchange-limited",
+      "labelKo": "무기고 거래소 - 한정"
+    },
+    {
+      "id": "protocol-pass",
+      "labelKo": "프로토콜 통행증"
+    },
+    {
+      "id": "standard",
+      "labelKo": "일반"
+    },
+    {
+      "id": "unknown",
+      "labelKo": "미확인"
+    }
+  ],
+  "growth": {
+    "levelCaps": [20, 40, 60, 80, 90],
+    "notesKo": [
+      "레벨 최대치 한계를 돌파할 때마다 첫 번째 및 두 번째 스킬의 레벨 최대치가 1 증가한다.",
+      "40/80 돌파 시 첫 번째 스킬의 기본 레벨이 1 증가한다.",
+      "60/90 돌파 시 두 번째 스킬의 기본 레벨이 1 증가한다.",
+      "3성 무기는 첫 번째 스킬만 해당 증가 규칙을 따른다."
+    ]
+  },
+  "essence": {
+    "baseDropRateWithoutVoucher": "1/320",
+    "baseDropRateWithVoucher": "1/24",
+    "bestMatchSkillIncrease": {
+      "skill1": 6,
+      "skill2": 6,
+      "skill3": 3
+    },
+    "notesKo": [
+      "최고 기질과 잠재능력 0단계 기준 무기 스킬 1/2/3은 9/9/4까지 올라간다.",
+      "잠재능력 5단계 기준 무기 스킬 1/2/3은 9/9/9까지 올라간다."
+    ]
+  },
+  "engraving": {
+    "skill1And2": [
+      {
+        "increase": 2,
+        "successRatePercent": 60,
+        "coolantCost": 30
+      },
+      {
+        "increase": 3,
+        "successRatePercent": 24,
+        "coolantCost": 60
+      },
+      {
+        "increase": 4,
+        "successRatePercent": 10.9,
+        "coolantCost": 120
+      },
+      {
+        "increase": 5,
+        "successRatePercent": 5,
+        "coolantCost": 250
+      },
+      {
+        "increase": 6,
+        "successRatePercent": 2.7,
+        "coolantCost": 450
+      }
+    ],
+    "skill3": [
+      {
+        "increase": 2,
+        "successRatePercent": 10.9,
+        "coolantCost": 120
+      },
+      {
+        "increase": 3,
+        "successRatePercent": 4.2,
+        "coolantCost": 300
+      }
+    ]
+  }
+}

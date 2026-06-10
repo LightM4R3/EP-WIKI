@@ -1,0 +1,204 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://epwiki.local/schemas/weapon.schema.json",
+  "title": "EPWIKI Weapon Dataset",
+  "type": "object",
+  "required": ["schemaVersion", "game", "sources", "categoriesRef", "optionCategoriesRef", "weapons"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "game": {
+      "type": "string"
+    },
+    "categoriesRef": {
+      "type": "string"
+    },
+    "optionCategoriesRef": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "weapons": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/weapon"
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["id", "title", "url", "type", "language", "lastCheckedAt"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "lastCheckedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "weapon": {
+      "type": "object",
+      "required": [
+        "id",
+        "sortOrder",
+        "names",
+        "rarity",
+        "type",
+        "typeLabelKo",
+        "acquisition",
+        "stats",
+        "traits",
+        "sourceRefs",
+        "verification"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "sortOrder": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "names": {
+          "type": "object",
+          "required": ["ko"],
+          "additionalProperties": false,
+          "properties": {
+            "ko": {
+              "type": "string"
+            },
+            "en": {
+              "type": "string"
+            },
+            "aliases": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "rarity": {
+          "type": "integer",
+          "enum": [3, 4, 5, 6]
+        },
+        "type": {
+          "type": "string",
+          "enum": ["Sword", "Greatsword", "Polearm", "Handcannon", "Arts Unit"]
+        },
+        "typeLabelKo": {
+          "type": "string"
+        },
+        "acquisition": {
+          "type": "object",
+          "required": ["group", "labelKo"],
+          "additionalProperties": false,
+          "properties": {
+            "group": {
+              "type": "string",
+              "enum": ["arsenal-exchange-standard", "arsenal-exchange-limited", "protocol-pass", "standard", "unknown"]
+            },
+            "labelKo": {
+              "type": "string"
+            }
+          }
+        },
+        "stats": {
+          "type": "object",
+          "required": ["baseAttack"],
+          "additionalProperties": false,
+          "properties": {
+            "baseAttack": {
+              "type": "number",
+              "minimum": 0
+            }
+          }
+        },
+        "traits": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/trait"
+          }
+        },
+        "sourceRefs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        }
+      }
+    },
+    "trait": {
+      "type": "object",
+      "required": ["slot", "categoryId"],
+      "additionalProperties": false,
+      "properties": {
+        "slot": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 3
+        },
+        "categoryId": {
+          "type": "string"
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": ["status"],
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["placeholder", "needs_review", "verified"]
+        },
+        "reviewedBy": {
+          "type": "string"
+        },
+        "reviewedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://epwiki.local/schemas/weapon-essence-categories.schema.json",
+  "title": "EPWIKI Weapon Essence Categories",
+  "type": "object",
+  "required": ["schemaVersion", "game", "lastReviewedAt", "sources", "categories"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "game": {
+      "type": "string"
+    },
+    "lastReviewedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/category"
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["id", "title", "url", "type", "language", "lastCheckedAt"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "lastCheckedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "category": {
+      "type": "object",
+      "required": ["id", "labelKo", "labelEn", "appliesTo", "descriptionKo"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "labelKo": {
+          "type": "string"
+        },
+        "labelEn": {
+          "type": "string"
+        },
+        "appliesTo": {
+          "type": "string",
+          "enum": ["weaponSkill"]
+        },
+        "descriptionKo": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
