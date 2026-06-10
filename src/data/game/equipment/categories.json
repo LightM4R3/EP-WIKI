@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "0.1.0",
+  "game": "Arknights: Endfield",
+  "lastReviewedAt": "2026-06-10",
+  "sources": [
+    {
+      "id": "namu-equipment-main",
+      "title": "명일방주: 엔드필드/장비",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC:%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C/%EC%9E%A5%EB%B9%84",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "장비 개요, 세트 효과, 장비별 방어력/옵션/단조 수치를 1차 출처로 정리."
+    }
+  ],
+  "parts": [
+    {
+      "id": "armor",
+      "labelKo": "방어구",
+      "labelEn": "Armor",
+      "equipLimit": 1,
+      "sortOrder": 1
+    },
+    {
+      "id": "gloves",
+      "labelKo": "보호 장갑",
+      "labelEn": "Gloves",
+      "equipLimit": 1,
+      "sortOrder": 2
+    },
+    {
+      "id": "kit",
+      "labelKo": "부품",
+      "labelEn": "Kit",
+      "equipLimit": 2,
+      "sortOrder": 3,
+      "duplicateEquipAllowed": true
+    }
+  ],
+  "groups": [
+    {
+      "id": "set",
+      "labelKo": "세트 장비",
+      "descriptionKo": "같은 세트에 속한 장비 3개 이상 착용 시 세트 효과 발동."
+    },
+    {
+      "id": "single",
+      "labelKo": "단일 장비",
+      "descriptionKo": "세트 효과에 포함되지 않는 장비."
+    }
+  ],
+  "rarities": [
+    {
+      "stars": 3,
+      "labelKo": "3성",
+      "sourceStatus": "observed"
+    },
+    {
+      "stars": 4,
+      "labelKo": "4성",
+      "sourceStatus": "observed"
+    },
+    {
+      "stars": 5,
+      "labelKo": "5성",
+      "sourceStatus": "observed"
+    }
+  ],
+  "forgeRules": {
+    "baseStage": 0,
+    "maxStage": 3,
+    "appliesTo": {
+      "rarity": 5,
+      "level": 70
+    },
+    "materialRuleKo": "스탯과 부위가 동일한 장비와 단조체 1개를 소비해 스탯을 강화.",
+    "failureRuleKo": "실패 시 재료 장비는 소실되고 정밀 단조 누적치가 쌓임."
+  },
+  "materialPartCategories": [
+    {
+      "id": "amethyst-equipment-part",
+      "sortOrder": 1,
+      "nameKo": "자수정 장비 부품",
+      "sourceNameKo": "자수정",
+      "itemKindKo": "장비 부품",
+      "sourceStatus": "placeholder",
+      "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+    },
+    {
+      "id": "perium-equipment-part",
+      "sortOrder": 2,
+      "nameKo": "페리움 장비 부품",
+      "sourceNameKo": "페리움",
+      "itemKindKo": "장비 부품",
+      "sourceStatus": "placeholder",
+      "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+    },
+    {
+      "id": "christon-equipment-part",
+      "sortOrder": 3,
+      "nameKo": "크리스톤 장비 부품",
+      "sourceNameKo": "크리스톤",
+      "itemKindKo": "장비 부품",
+      "sourceStatus": "placeholder",
+      "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+    },
+    {
+      "id": "shikyang-equipment-part",
+      "sortOrder": 4,
+      "nameKo": "식양 장비 부품",
+      "sourceNameKo": "식양",
+      "itemKindKo": "장비 부품",
+      "sourceStatus": "placeholder",
+      "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+    },
+    {
+      "id": "red-copper-equipment-part",
+      "sortOrder": 5,
+      "nameKo": "적동 장비 부품",
+      "sourceNameKo": "적동",
+      "itemKindKo": "장비 부품",
+      "sourceStatus": "placeholder",
+      "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+    },
+    {
+      "id": "hyukdong-equipment-part",
+      "sortOrder": 6,
+      "nameKo": "혁동 장비 부품",
+      "sourceNameKo": "혁동",
+      "itemKindKo": "장비 부품",
+      "sourceStatus": "placeholder",
+      "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+    }
+  ]
+}

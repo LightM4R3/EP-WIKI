@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://epwiki.local/schemas/equipment-option-categories.schema.json",
+  "title": "EPWIKI Equipment Option Categories",
+  "type": "object",
+  "required": ["schemaVersion", "game", "lastReviewedAt", "sources", "categories"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "game": {
+      "type": "string"
+    },
+    "lastReviewedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/category"
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["id", "title", "url", "type", "language", "lastCheckedAt"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "lastCheckedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "category": {
+      "type": "object",
+      "required": [
+        "id",
+        "sortOrder",
+        "kind",
+        "partId",
+        "optionSlot",
+        "statKo",
+        "baseValue",
+        "forgeStatus",
+        "forgeStages",
+        "sourceStatus"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "sortOrder": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "kind": {
+          "type": "string",
+          "const": "equipmentStat"
+        },
+        "partId": {
+          "type": "string",
+          "enum": ["armor", "gloves", "kit"]
+        },
+        "optionSlot": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 3
+        },
+        "statKo": {
+          "type": "string"
+        },
+        "baseValue": {
+          "type": "string"
+        },
+        "forgeStatus": {
+          "type": "string",
+          "enum": ["available", "not_applicable", "needs_review"]
+        },
+        "forgeStages": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 4,
+          "items": {
+            "$ref": "#/$defs/forgeStage"
+          }
+        },
+        "sourceStatus": {
+          "type": "string",
+          "enum": ["verified_from_source", "needs_review", "placeholder"]
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "forgeStage": {
+      "type": "object",
+      "required": ["stage", "value"],
+      "additionalProperties": false,
+      "properties": {
+        "stage": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 3
+        },
+        "value": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

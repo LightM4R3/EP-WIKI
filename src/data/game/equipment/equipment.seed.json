@@ -1,0 +1,7728 @@
+{
+  "schemaVersion": "0.1.0",
+  "game": "Arknights: Endfield",
+  "categoriesRef": "./categories.json",
+  "setCategoriesRef": "./set-categories.json",
+  "optionCategoriesRef": "./option-categories.json",
+  "sources": [
+    {
+      "id": "namu-equipment-main",
+      "title": "명일방주: 엔드필드/장비",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC:%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C/%EC%9E%A5%EB%B9%84",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "장비 개요, 세트 효과, 장비별 방어력/옵션/단조 수치를 1차 출처로 정리."
+    }
+  ],
+  "equipment": [
+    {
+      "id": "equipment-001-exy2q8",
+      "sortOrder": 1,
+      "names": {
+        "ko": "고검의 잔향 단검"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-001-uwb8is",
+      "setOrder": 1,
+      "sourceSection": "3.1.1",
+      "sourceSectionTitleKo": "고검의 잔향",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-001-1wxt4yj"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-002-1vl73on"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-003-1n541rj"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-002-2p8zx3",
+      "sortOrder": 2,
+      "names": {
+        "ko": "고검의 잔향 단검 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-001-uwb8is",
+      "setOrder": 2,
+      "sourceSection": "3.1.1",
+      "sourceSectionTitleKo": "고검의 잔향",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-003-1n541rj"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-003-kpqqgn",
+      "sortOrder": 3,
+      "names": {
+        "ko": "고검의 잔향 금속 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-001-uwb8is",
+      "setOrder": 3,
+      "sourceSection": "3.1.1",
+      "sourceSectionTitleKo": "고검의 잔향",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-006-33c0nm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-007-142alc9"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-008-r7bzch"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-004-1le4udg",
+      "sortOrder": 4,
+      "names": {
+        "ko": "고검의 잔향 금속 장갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-001-uwb8is",
+      "setOrder": 4,
+      "sourceSection": "3.1.1",
+      "sourceSectionTitleKo": "고검의 잔향",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-009-czufpb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-010-v0qnad"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-008-r7bzch"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-005-8karo7",
+      "sortOrder": 5,
+      "names": {
+        "ko": "고검의 잔향 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-001-uwb8is",
+      "setOrder": 5,
+      "sourceSection": "3.1.1",
+      "sourceSectionTitleKo": "고검의 잔향",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-011-t6hvju"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-012-3jxc2l"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-013-v3j27p"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-006-4lamj4",
+      "sortOrder": 6,
+      "names": {
+        "ko": "고검의 잔향 장갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-001-uwb8is",
+      "setOrder": 6,
+      "sourceSection": "3.1.1",
+      "sourceSectionTitleKo": "고검의 잔향",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-014-ob03f5"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-015-1a1iypf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-016-1wce5r2"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-007-1fs7keu",
+      "sortOrder": 7,
+      "names": {
+        "ko": "식양의 흐름 단봉"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-002-lpvg3a",
+      "setOrder": 1,
+      "sourceSection": "3.1.2",
+      "sourceSectionTitleKo": "식양의 흐름",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-017-6d3nnd"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-018-11knlso"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-019-alze4s"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-008-10sg346",
+      "sortOrder": 8,
+      "names": {
+        "ko": "식양의 흐름 보호 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-002-lpvg3a",
+      "setOrder": 2,
+      "sourceSection": "3.1.2",
+      "sourceSectionTitleKo": "식양의 흐름",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-020-ng1tpw"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-021-1nhizku"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-022-1r6hojt"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-009-a74ocy",
+      "sortOrder": 9,
+      "names": {
+        "ko": "식양의 흐름 경갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-002-lpvg3a",
+      "setOrder": 3,
+      "sourceSection": "3.1.2",
+      "sourceSectionTitleKo": "식양의 흐름",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-023-szgsqm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-024-1x0guzm"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-025-1emhnpw"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-010-lqhf15",
+      "sortOrder": 10,
+      "names": {
+        "ko": "청파죽인"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-003-1t05u20",
+      "setOrder": 1,
+      "sourceSection": "3.1.3",
+      "sourceSectionTitleKo": "청파",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-001-1wxt4yj"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-026-1mt960g"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-027-bvpz1v"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-011-17cv5c2",
+      "sortOrder": 11,
+      "names": {
+        "ko": "청파 위치 지정기"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-003-1t05u20",
+      "setOrder": 2,
+      "sourceSection": "3.1.3",
+      "sourceSectionTitleKo": "청파",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-019-alze4s"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-012-s0x875",
+      "sortOrder": 12,
+      "names": {
+        "ko": "청파 위치 지정기 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-003-1t05u20",
+      "setOrder": 3,
+      "sourceSection": "3.1.3",
+      "sourceSectionTitleKo": "청파",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-003-1n541rj"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-013-10ltsze",
+      "sortOrder": 13,
+      "names": {
+        "ko": "청파 물 항아리"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-003-1t05u20",
+      "setOrder": 4,
+      "sourceSection": "3.1.3",
+      "sourceSectionTitleKo": "청파",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-028-14jg8ae"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-002-1vl73on"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-029-1e1pkzi"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-014-1xiryko",
+      "sortOrder": 14,
+      "names": {
+        "ko": "청파 보호 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-003-1t05u20",
+      "setOrder": 5,
+      "sourceSection": "3.1.3",
+      "sourceSectionTitleKo": "청파",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-030-1cig5j"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-007-142alc9"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-031-fco1d0"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-015-maguau",
+      "sortOrder": 15,
+      "names": {
+        "ko": "청파 금속 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-003-1t05u20",
+      "setOrder": 6,
+      "sourceSection": "3.1.3",
+      "sourceSectionTitleKo": "청파",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-009-czufpb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-010-v0qnad"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-032-1rrsitv"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-016-1u09yr1",
+      "sortOrder": 16,
+      "names": {
+        "ko": "청파 경갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-003-1t05u20",
+      "setOrder": 7,
+      "sourceSection": "3.1.3",
+      "sourceSectionTitleKo": "청파",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-033-1lwgp5t"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-012-3jxc2l"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-016-1wce5r2"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-017-1ek8fq6",
+      "sortOrder": 17,
+      "names": {
+        "ko": "청파 중갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-003-1t05u20",
+      "setOrder": 8,
+      "sourceSection": "3.1.3",
+      "sourceSectionTitleKo": "청파",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-014-ob03f5"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-015-1a1iypf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-034-1w59ij0"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-018-1uq46z7",
+      "sortOrder": 18,
+      "names": {
+        "ko": "식양의 숨결 보조 어깨"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-004-1rur1r8",
+      "setOrder": 1,
+      "sourceSection": "3.1.4",
+      "sourceSectionTitleKo": "식양의 숨결",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-017-6d3nnd"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-018-11knlso"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-035-189pysf"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-019-19vbekz",
+      "sortOrder": 19,
+      "names": {
+        "ko": "식양의 숨결 충전 코어 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-004-1rur1r8",
+      "setOrder": 2,
+      "sourceSection": "3.1.4",
+      "sourceSectionTitleKo": "식양의 숨결",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-028-14jg8ae"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-002-1vl73on"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-036-by3v5j"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-020-18jqaq5",
+      "sortOrder": 20,
+      "names": {
+        "ko": "식양의 숨결 충전 코어"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-004-1rur1r8",
+      "setOrder": 3,
+      "sourceSection": "3.1.4",
+      "sourceSectionTitleKo": "식양의 숨결",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-028-14jg8ae"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-035-189pysf"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-021-jcikol",
+      "sortOrder": 21,
+      "names": {
+        "ko": "식양의 숨결 보호 장갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-004-1rur1r8",
+      "setOrder": 4,
+      "sourceSection": "3.1.4",
+      "sourceSectionTitleKo": "식양의 숨결",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-030-1cig5j"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-007-142alc9"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-031-fco1d0"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-022-13i1cqy",
+      "sortOrder": 22,
+      "names": {
+        "ko": "식양의 숨결 보호 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-004-1rur1r8",
+      "setOrder": 5,
+      "sourceSection": "3.1.4",
+      "sourceSectionTitleKo": "식양의 숨결",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-030-1cig5j"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-010-v0qnad"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-031-fco1d0"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-023-165tjgx",
+      "sortOrder": 23,
+      "names": {
+        "ko": "식양의 숨결 경장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-004-1rur1r8",
+      "setOrder": 6,
+      "sourceSection": "3.1.4",
+      "sourceSectionTitleKo": "식양의 숨결",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-023-szgsqm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-024-1x0guzm"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-016-1wce5r2"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-024-10kxe8x",
+      "sortOrder": 24,
+      "names": {
+        "ko": "탁류 화염 절단기"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-005-11ve5cr",
+      "setOrder": 1,
+      "sourceSection": "3.1.5",
+      "sourceSectionTitleKo": "조류의 물결",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-028-14jg8ae"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-037-ke7fw1"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-025-1aonn0e",
+      "sortOrder": 25,
+      "names": {
+        "ko": "현하 산소 공급 장치"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-005-11ve5cr",
+      "setOrder": 2,
+      "sourceSection": "3.1.5",
+      "sourceSectionTitleKo": "조류의 물결",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-001-1wxt4yj"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-002-1vl73on"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-038-ksrwxi"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-026-15yi2n1",
+      "sortOrder": 26,
+      "names": {
+        "ko": "조류의 물결 금속 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-005-11ve5cr",
+      "setOrder": 3,
+      "sourceSection": "3.1.5",
+      "sourceSectionTitleKo": "조류의 물결",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-006-33c0nm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-007-142alc9"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-022-1r6hojt"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-027-14zwp79",
+      "sortOrder": 27,
+      "names": {
+        "ko": "낙조 경갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-005-11ve5cr",
+      "setOrder": 4,
+      "sourceSection": "3.1.5",
+      "sourceSectionTitleKo": "조류의 물결",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-033-1lwgp5t"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-015-1a1iypf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-034-1w59ij0"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-028-f7f4x",
+      "sortOrder": 28,
+      "names": {
+        "ko": "응룡 50식 탐지기 · II"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-006-4l31ma",
+      "setOrder": 1,
+      "sourceSection": "3.1.6",
+      "sourceSectionTitleKo": "응룡 50식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-018-11knlso"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-039-7uq9lc"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-029-1y7a9ct",
+      "sortOrder": 29,
+      "names": {
+        "ko": "응룡 50식 탐지기 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-006-4l31ma",
+      "setOrder": 2,
+      "sourceSection": "3.1.6",
+      "sourceSectionTitleKo": "응룡 50식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-040-m6ufqp"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-030-1rp76yd",
+      "sortOrder": 30,
+      "names": {
+        "ko": "응룡 50식 탐지기"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-006-4l31ma",
+      "setOrder": 3,
+      "sourceSection": "3.1.6",
+      "sourceSectionTitleKo": "응룡 50식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-001-1wxt4yj"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-002-1vl73on"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-003-1n541rj"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-031-8wrvt2",
+      "sortOrder": 31,
+      "names": {
+        "ko": "응룡 50식 단검 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-006-4l31ma",
+      "setOrder": 4,
+      "sourceSection": "3.1.6",
+      "sourceSectionTitleKo": "응룡 50식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-028-14jg8ae"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-041-12ktqfr"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-032-1p1c6nx",
+      "sortOrder": 32,
+      "names": {
+        "ko": "응룡 50식 단검"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-006-4l31ma",
+      "setOrder": 5,
+      "sourceSection": "3.1.6",
+      "sourceSectionTitleKo": "응룡 50식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-017-6d3nnd"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-026-1mt960g"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-039-7uq9lc"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-033-1pztmj6",
+      "sortOrder": 33,
+      "names": {
+        "ko": "응룡 50식 보호 장갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-006-4l31ma",
+      "setOrder": 6,
+      "sourceSection": "3.1.6",
+      "sourceSectionTitleKo": "응룡 50식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-020-ng1tpw"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-042-1ngzj72"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-043-1034ftv"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-034-1f2fnp1",
+      "sortOrder": 34,
+      "names": {
+        "ko": "응룡 50식 보호 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-006-4l31ma",
+      "setOrder": 7,
+      "sourceSection": "3.1.6",
+      "sourceSectionTitleKo": "응룡 50식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-009-czufpb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-021-1nhizku"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-043-1034ftv"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-035-1eraiq3",
+      "sortOrder": 35,
+      "names": {
+        "ko": "응룡 50식 경갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-006-4l31ma",
+      "setOrder": 8,
+      "sourceSection": "3.1.6",
+      "sourceSectionTitleKo": "응룡 50식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-023-szgsqm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-015-1a1iypf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-044-9vod7"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-036-106q8ql",
+      "sortOrder": 36,
+      "names": {
+        "ko": "응룡 50식 중갑 · II"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-006-4l31ma",
+      "setOrder": 9,
+      "sourceSection": "3.1.6",
+      "sourceSectionTitleKo": "응룡 50식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-014-ob03f5"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-024-1x0guzm"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-045-rzynwu"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-037-17zxwwb",
+      "sortOrder": 37,
+      "names": {
+        "ko": "응룡 50식 중갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-006-4l31ma",
+      "setOrder": 10,
+      "sourceSection": "3.1.6",
+      "sourceSectionTitleKo": "응룡 50식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-014-ob03f5"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-015-1a1iypf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-034-1w59ij0"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-038-1trrb60",
+      "sortOrder": 38,
+      "names": {
+        "ko": "응룡 50식 중갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-006-4l31ma",
+      "setOrder": 11,
+      "sourceSection": "3.1.6",
+      "sourceSectionTitleKo": "응룡 50식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-011-t6hvju"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-012-3jxc2l"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-013-v3j27p"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-039-1b9psfk",
+      "sortOrder": 39,
+      "names": {
+        "ko": "M. I. 경찰용 단검 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 1,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-017-6d3nnd"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-026-1mt960g"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-019-alze4s"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-040-vvhc4a",
+      "sortOrder": 40,
+      "names": {
+        "ko": "M. I. 경찰용 단검"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 2,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-017-6d3nnd"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-018-11knlso"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-027-bvpz1v"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-041-1h4webn",
+      "sortOrder": 41,
+      "names": {
+        "ko": "M. I. 경찰용 다용도 공구"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 3,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-028-14jg8ae"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-026-1mt960g"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-046-10ymqwk"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-042-15b6noo",
+      "sortOrder": 42,
+      "names": {
+        "ko": "M. I. 경찰용 조준기 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 4,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-018-11knlso"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-046-10ymqwk"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-043-1v2hb2h",
+      "sortOrder": 43,
+      "names": {
+        "ko": "M. I. 경찰용 조준기"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 5,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-019-alze4s"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-044-1o565vs",
+      "sortOrder": 44,
+      "names": {
+        "ko": "M. I. 경찰용 암밴드"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 6,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-001-1wxt4yj"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-002-1vl73on"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-038-ksrwxi"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-045-1xfmccs",
+      "sortOrder": 45,
+      "names": {
+        "ko": "M. I. 경찰용 장갑(팔찌) · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 7,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-030-1cig5j"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-007-142alc9"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-047-tbzs3i"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-046-1tqgcjz",
+      "sortOrder": 46,
+      "names": {
+        "ko": "M. I. 경찰용 장갑(팔찌)"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 8,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-030-1cig5j"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-042-1ngzj72"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-048-snk0ed"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-047-1f5p855",
+      "sortOrder": 47,
+      "names": {
+        "ko": "M. I. 경찰용 장갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 9,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-009-czufpb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-021-1nhizku"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-049-k1hdxw"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-048-10diite",
+      "sortOrder": 48,
+      "names": {
+        "ko": "M. I. 경찰용 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 10,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-009-czufpb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-010-v0qnad"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-050-mfaknz"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-049-5jma60",
+      "sortOrder": 49,
+      "names": {
+        "ko": "M. I. 경찰용 망토 · II"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 11,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-023-szgsqm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-051-wdnuju"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-052-19jvjmi"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-050-1v5c5i5",
+      "sortOrder": 50,
+      "names": {
+        "ko": "M. I. 경찰용 망토 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 12,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-033-1lwgp5t"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-012-3jxc2l"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-053-1q0hhk6"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-051-efs0q8",
+      "sortOrder": 51,
+      "names": {
+        "ko": "M. I. 경찰용 망토"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 13,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-033-1lwgp5t"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-051-wdnuju"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-054-9mn0zl"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-052-c1h7gv",
+      "sortOrder": 52,
+      "names": {
+        "ko": "M. I. 경찰용 방어구 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 14,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-014-ob03f5"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-024-1x0guzm"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-034-1w59ij0"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-053-fcao9q",
+      "sortOrder": 53,
+      "names": {
+        "ko": "M. I. 경찰용 방어구"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-007-qdvgcj",
+      "setOrder": 15,
+      "sourceSection": "3.1.7",
+      "sourceSectionTitleKo": "M. I. 경찰용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-014-ob03f5"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-015-1a1iypf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-016-1wce5r2"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-054-10ja1y4",
+      "sortOrder": 54,
+      "names": {
+        "ko": "열 작업용 전력 상자"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-008-1ut6vdt",
+      "setOrder": 1,
+      "sourceSection": "3.1.8",
+      "sourceSectionTitleKo": "열 작업용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-017-6d3nnd"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-018-11knlso"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-029-1e1pkzi"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-055-7dv4vw",
+      "sortOrder": 55,
+      "names": {
+        "ko": "열 작업용 에너지 저장함"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-008-1ut6vdt",
+      "setOrder": 2,
+      "sourceSection": "3.1.8",
+      "sourceSectionTitleKo": "열 작업용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-001-1wxt4yj"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-026-1mt960g"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-029-1e1pkzi"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-056-fil8ck",
+      "sortOrder": 56,
+      "names": {
+        "ko": "열 작업용 온도 측정기"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-008-1ut6vdt",
+      "setOrder": 3,
+      "sourceSection": "3.1.8",
+      "sourceSectionTitleKo": "열 작업용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-055-er7b12"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-056-s8lubl"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-019-alze4s"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-057-ek4dtn",
+      "sortOrder": 57,
+      "names": {
+        "ko": "열 작업용 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-008-1ut6vdt",
+      "setOrder": 4,
+      "sourceSection": "3.1.8",
+      "sourceSectionTitleKo": "열 작업용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-006-33c0nm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-007-142alc9"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-008-r7bzch"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-058-1aq2rx9",
+      "sortOrder": 58,
+      "names": {
+        "ko": "열 작업용 금속 장갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-008-1ut6vdt",
+      "setOrder": 5,
+      "sourceSection": "3.1.8",
+      "sourceSectionTitleKo": "열 작업용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-020-ng1tpw"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-021-1nhizku"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-057-21j8zg"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-059-1ej5n2w",
+      "sortOrder": 59,
+      "names": {
+        "ko": "열 작업용 금속 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-008-1ut6vdt",
+      "setOrder": 6,
+      "sourceSection": "3.1.8",
+      "sourceSectionTitleKo": "열 작업용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-030-1cig5j"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-010-v0qnad"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-057-21j8zg"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-060-5ji9s7",
+      "sortOrder": 60,
+      "names": {
+        "ko": "열 작업용 보조 골격"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-008-1ut6vdt",
+      "setOrder": 7,
+      "sourceSection": "3.1.8",
+      "sourceSectionTitleKo": "열 작업용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-033-1lwgp5t"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-012-3jxc2l"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-058-ufd97l"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-061-1t2y8oj",
+      "sortOrder": 61,
+      "names": {
+        "ko": "열 작업용 강화 골격"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-008-1ut6vdt",
+      "setOrder": 8,
+      "sourceSection": "3.1.8",
+      "sourceSectionTitleKo": "열 작업용",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-011-t6hvju"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-051-wdnuju"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-058-ufd97l"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-062-1d16770",
+      "sortOrder": 62,
+      "names": {
+        "ko": "개척자 산소 공급 장치"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 1,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-059-1ro3xv1"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-056-s8lubl"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-003-1n541rj"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-063-6er1mj",
+      "sortOrder": 63,
+      "names": {
+        "ko": "개척자 증량 산소 공급 장치 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 2,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-028-14jg8ae"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-026-1mt960g"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-060-1opzajr"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-064-19uv5to",
+      "sortOrder": 64,
+      "names": {
+        "ko": "개척자 증량 산소 공급 장치"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 3,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-018-11knlso"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-060-1opzajr"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-065-eohsig",
+      "sortOrder": 65,
+      "names": {
+        "ko": "개척자 분석 장치"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 4,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-061-1px0d9f"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-056-s8lubl"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-040-m6ufqp"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-066-kfh7qy",
+      "sortOrder": 66,
+      "names": {
+        "ko": "개척자 통신기 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 5,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-001-1wxt4yj"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-018-11knlso"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-038-ksrwxi"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-067-1qy4qb3",
+      "sortOrder": 67,
+      "names": {
+        "ko": "개척자 통신기"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 6,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-001-1wxt4yj"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-026-1mt960g"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-039-7uq9lc"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-068-yl9tr7",
+      "sortOrder": 68,
+      "names": {
+        "ko": "개척자 섬유 장갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 7,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-030-1cig5j"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-042-1ngzj72"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-031-fco1d0"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-069-1562yza",
+      "sortOrder": 69,
+      "names": {
+        "ko": "개척자 섬유 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 8,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-020-ng1tpw"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-010-v0qnad"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-032-1rrsitv"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-070-11vbgk6",
+      "sortOrder": 70,
+      "names": {
+        "ko": "개척자 내부식성 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 9,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-009-czufpb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-021-1nhizku"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-050-mfaknz"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-071-ima9u2",
+      "sortOrder": 71,
+      "names": {
+        "ko": "개척자 방호복"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 10,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-033-1lwgp5t"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-051-wdnuju"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-034-1w59ij0"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-072-qz8cpw",
+      "sortOrder": 72,
+      "names": {
+        "ko": "개척자 방어구 · III"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 11,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-014-ob03f5"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-024-1x0guzm"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-062-yqczc3"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-073-1weo6l0",
+      "sortOrder": 73,
+      "names": {
+        "ko": "개척자 방어구 · II"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 12,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-014-ob03f5"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-024-1x0guzm"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-052-19jvjmi"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-074-8qhduc",
+      "sortOrder": 74,
+      "names": {
+        "ko": "개척자 방어구 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 13,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-011-t6hvju"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-051-wdnuju"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-052-19jvjmi"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-075-b5bg5t",
+      "sortOrder": 75,
+      "names": {
+        "ko": "개척자 방어구"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-009-youyy0",
+      "setOrder": 14,
+      "sourceSection": "3.1.9",
+      "sourceSectionTitleKo": "개척",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-011-t6hvju"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-024-1x0guzm"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-063-1vsica5"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-076-1o57wt9",
+      "sortOrder": 76,
+      "names": {
+        "ko": "펄스식 침입 코어"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-010-1nqc37c",
+      "setOrder": 1,
+      "sourceSection": "3.1.10",
+      "sourceSectionTitleKo": "펄스식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-059-1ro3xv1"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-056-s8lubl"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-040-m6ufqp"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-077-m5kwt",
+      "sortOrder": 77,
+      "names": {
+        "ko": "펄스식 시험침"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-010-1nqc37c",
+      "setOrder": 2,
+      "sourceSection": "3.1.10",
+      "sourceSectionTitleKo": "펄스식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-028-14jg8ae"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-026-1mt960g"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-029-1e1pkzi"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-078-znj05n",
+      "sortOrder": 78,
+      "names": {
+        "ko": "펄스식 교정기"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-010-1nqc37c",
+      "setOrder": 3,
+      "sourceSection": "3.1.10",
+      "sourceSectionTitleKo": "펄스식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-055-er7b12"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-056-s8lubl"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-029-1e1pkzi"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-079-1yay7kt",
+      "sortOrder": 79,
+      "names": {
+        "ko": "펄스식 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-010-1nqc37c",
+      "setOrder": 4,
+      "sourceSection": "3.1.10",
+      "sourceSectionTitleKo": "펄스식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-020-ng1tpw"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-021-1nhizku"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-022-1r6hojt"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-080-170hu3b",
+      "sortOrder": 80,
+      "names": {
+        "ko": "펄스식 교란 방어구"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-010-1nqc37c",
+      "setOrder": 5,
+      "sourceSection": "3.1.10",
+      "sourceSectionTitleKo": "펄스식",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-033-1lwgp5t"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-012-3jxc2l"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-016-1wce5r2"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-081-1qzn3su",
+      "sortOrder": 81,
+      "names": {
+        "ko": "본 크러셔 조각상 · II"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 1,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-017-6d3nnd"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-018-11knlso"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-019-alze4s"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-082-wzeeek",
+      "sortOrder": 82,
+      "names": {
+        "ko": "본 크러셔 조각상 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 2,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-017-6d3nnd"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-018-11knlso"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-039-7uq9lc"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-083-kqsio5",
+      "sortOrder": 83,
+      "names": {
+        "ko": "본 크러셔 조각상"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 3,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-017-6d3nnd"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-026-1mt960g"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-019-alze4s"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-084-nf3glf",
+      "sortOrder": 84,
+      "names": {
+        "ko": "본 크러셔 마스크 · II"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 4,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-019-alze4s"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-085-9yzumr",
+      "sortOrder": 85,
+      "names": {
+        "ko": "본 크러셔 마스크 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 5,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-046-10ymqwk"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-086-1gapojk",
+      "sortOrder": 86,
+      "names": {
+        "ko": "본 크러셔 마스크"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 6,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-064-1e86t9m"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-087-1yryikh",
+      "sortOrder": 87,
+      "names": {
+        "ko": "본 크러셔 장갑(손목) · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 7,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-009-czufpb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-010-v0qnad"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-022-1r6hojt"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-088-1jppkoa",
+      "sortOrder": 88,
+      "names": {
+        "ko": "본 크러셔 장갑(손목)"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 8,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-006-33c0nm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-042-1ngzj72"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-057-21j8zg"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-089-y1d207",
+      "sortOrder": 89,
+      "names": {
+        "ko": "본 크러셔 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 9,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-020-ng1tpw"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-042-1ngzj72"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-022-1r6hojt"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-090-hx0rqs",
+      "sortOrder": 90,
+      "names": {
+        "ko": "본 크러셔 머플러 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 10,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-023-szgsqm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-051-wdnuju"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-034-1w59ij0"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-091-221ycp",
+      "sortOrder": 91,
+      "names": {
+        "ko": "본 크러셔 머플러"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 11,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-023-szgsqm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-015-1a1iypf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-045-rzynwu"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-092-1j2kpqm",
+      "sortOrder": 92,
+      "names": {
+        "ko": "본 크러셔 중갑 방어구 · II"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 12,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-014-ob03f5"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-015-1a1iypf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-025-1emhnpw"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-093-13qmkea",
+      "sortOrder": 93,
+      "names": {
+        "ko": "본 크러셔 중갑 방어구 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 13,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-014-ob03f5"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-015-1a1iypf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-045-rzynwu"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-094-t5c4bh",
+      "sortOrder": 94,
+      "names": {
+        "ko": "본 크러셔 중갑 방어구"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-011-6rnek0",
+      "setOrder": 14,
+      "sourceSection": "3.1.11",
+      "sourceSectionTitleKo": "본 크러셔",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-014-ob03f5"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-024-1x0guzm"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-034-1w59ij0"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-095-4rzpx3",
+      "sortOrder": 95,
+      "names": {
+        "ko": "경량 초자연 손목시계"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-012-e3j6i7",
+      "setOrder": 1,
+      "sourceSection": "3.1.12",
+      "sourceSectionTitleKo": "경량 초자연",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-001-1wxt4yj"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-026-1mt960g"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-019-alze4s"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-096-5w2xc4",
+      "sortOrder": 96,
+      "names": {
+        "ko": "경량 초자연 안정판 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-012-e3j6i7",
+      "setOrder": 2,
+      "sourceSection": "3.1.12",
+      "sourceSectionTitleKo": "경량 초자연",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-003-1n541rj"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-097-rzae8l",
+      "sortOrder": 97,
+      "names": {
+        "ko": "경량 초자연 안정판"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-012-e3j6i7",
+      "setOrder": 3,
+      "sourceSection": "3.1.12",
+      "sourceSectionTitleKo": "경량 초자연",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-029-1e1pkzi"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-098-1t3go5o",
+      "sortOrder": 98,
+      "names": {
+        "ko": "경량 초자연 분석 반지"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-012-e3j6i7",
+      "setOrder": 4,
+      "sourceSection": "3.1.12",
+      "sourceSectionTitleKo": "경량 초자연",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-001-1wxt4yj"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-002-1vl73on"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-003-1n541rj"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-099-1z0novs",
+      "sortOrder": 99,
+      "names": {
+        "ko": "경량 초자연 경량 보호 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-012-e3j6i7",
+      "setOrder": 5,
+      "sourceSection": "3.1.12",
+      "sourceSectionTitleKo": "경량 초자연",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-020-ng1tpw"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-042-1ngzj72"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-032-1rrsitv"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-100-9acrql",
+      "sortOrder": 100,
+      "names": {
+        "ko": "경량 초자연 보호 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-012-e3j6i7",
+      "setOrder": 6,
+      "sourceSection": "3.1.12",
+      "sourceSectionTitleKo": "경량 초자연",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-009-czufpb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-010-v0qnad"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-065-189n237"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-101-mag9a9",
+      "sortOrder": 101,
+      "names": {
+        "ko": "경량 초자연 보호판"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-012-e3j6i7",
+      "setOrder": 7,
+      "sourceSection": "3.1.12",
+      "sourceSectionTitleKo": "경량 초자연",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-011-t6hvju"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-012-3jxc2l"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-066-1i7jre"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-102-loxgj8",
+      "sortOrder": 102,
+      "names": {
+        "ko": "생체 보조 보호 주사기"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-013-1582zml",
+      "setOrder": 1,
+      "sourceSection": "3.1.13",
+      "sourceSectionTitleKo": "생체 보조",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-059-1ro3xv1"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-056-s8lubl"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-036-by3v5j"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-103-hme7dj",
+      "sortOrder": 103,
+      "names": {
+        "ko": "생체 보조 보호판"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-013-1582zml",
+      "setOrder": 2,
+      "sourceSection": "3.1.13",
+      "sourceSectionTitleKo": "생체 보조",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-017-6d3nnd"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-018-11knlso"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-067-1lanonf"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-104-17469r5",
+      "sortOrder": 104,
+      "names": {
+        "ko": "생체 보조 접속기 · II"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-013-1582zml",
+      "setOrder": 3,
+      "sourceSection": "3.1.13",
+      "sourceSectionTitleKo": "생체 보조",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-061-1px0d9f"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-056-s8lubl"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-068-xrlrp"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-105-1he7aj5",
+      "sortOrder": 105,
+      "names": {
+        "ko": "생체 보조 접속기 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-013-1582zml",
+      "setOrder": 4,
+      "sourceSection": "3.1.13",
+      "sourceSectionTitleKo": "생체 보조",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-001-1wxt4yj"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-002-1vl73on"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-068-xrlrp"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-106-djz18y",
+      "sortOrder": 106,
+      "names": {
+        "ko": "생체 보조 접속기"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-013-1582zml",
+      "setOrder": 5,
+      "sourceSection": "3.1.13",
+      "sourceSectionTitleKo": "생체 보조",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-001-1wxt4yj"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-002-1vl73on"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-069-17dn8cf"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-107-hofn8y",
+      "sortOrder": 107,
+      "names": {
+        "ko": "생체 보조 금속 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-013-1582zml",
+      "setOrder": 6,
+      "sourceSection": "3.1.13",
+      "sourceSectionTitleKo": "생체 보조",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-020-ng1tpw"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-010-v0qnad"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-070-u4jwca"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-108-hdp01a",
+      "sortOrder": 108,
+      "names": {
+        "ko": "생체 보조 장갑(팔목)"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-013-1582zml",
+      "setOrder": 7,
+      "sourceSection": "3.1.13",
+      "sourceSectionTitleKo": "생체 보조",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-006-33c0nm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-007-142alc9"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-031-fco1d0"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-109-1efc27i",
+      "sortOrder": 109,
+      "names": {
+        "ko": "생체 보조 흉갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-013-1582zml",
+      "setOrder": 8,
+      "sourceSection": "3.1.13",
+      "sourceSectionTitleKo": "생체 보조",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-023-szgsqm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-024-1x0guzm"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-071-o4fzqp"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-110-c4wooo",
+      "sortOrder": 110,
+      "names": {
+        "ko": "생체 보조 중갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-013-1582zml",
+      "setOrder": 9,
+      "sourceSection": "3.1.13",
+      "sourceSectionTitleKo": "생체 보조",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-011-t6hvju"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-012-3jxc2l"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-071-o4fzqp"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-111-1bfq4ts",
+      "sortOrder": 111,
+      "names": {
+        "ko": "검술사 초소형 필터"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-014-17hc2cr",
+      "setOrder": 1,
+      "sourceSection": "3.1.14",
+      "sourceSectionTitleKo": "검술사",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-001-1wxt4yj"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-002-1vl73on"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-003-1n541rj"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-112-7c0qwk",
+      "sortOrder": 112,
+      "names": {
+        "ko": "검술사 단검"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-014-17hc2cr",
+      "setOrder": 2,
+      "sourceSection": "3.1.14",
+      "sourceSectionTitleKo": "검술사",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-040-m6ufqp"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-113-go7avn",
+      "sortOrder": 113,
+      "names": {
+        "ko": "검술사 위치 신호기"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-014-17hc2cr",
+      "setOrder": 3,
+      "sourceSection": "3.1.14",
+      "sourceSectionTitleKo": "검술사",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-061-1px0d9f"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-056-s8lubl"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-029-1e1pkzi"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-114-218hbf",
+      "sortOrder": 114,
+      "names": {
+        "ko": "검술사 부싯돌"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-014-17hc2cr",
+      "setOrder": 4,
+      "sourceSection": "3.1.14",
+      "sourceSectionTitleKo": "검술사",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-004-by8x8u"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-005-tuvl3"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-003-1n541rj"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-115-10zdbx8",
+      "sortOrder": 115,
+      "names": {
+        "ko": "검술사 전술 금속 장갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-014-17hc2cr",
+      "setOrder": 5,
+      "sourceSection": "3.1.14",
+      "sourceSectionTitleKo": "검술사",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-006-33c0nm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-007-142alc9"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-008-r7bzch"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-116-pgiofn",
+      "sortOrder": 116,
+      "names": {
+        "ko": "검술사 전술 금속 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-014-17hc2cr",
+      "setOrder": 6,
+      "sourceSection": "3.1.14",
+      "sourceSectionTitleKo": "검술사",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-009-czufpb"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-010-v0qnad"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-049-k1hdxw"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-117-a9znmp",
+      "sortOrder": 117,
+      "names": {
+        "ko": "검술사 전술 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-014-17hc2cr",
+      "setOrder": 7,
+      "sourceSection": "3.1.14",
+      "sourceSectionTitleKo": "검술사",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-006-33c0nm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-007-142alc9"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-072-1skzg8"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-118-1xt8lvk",
+      "sortOrder": 118,
+      "names": {
+        "ko": "검술사 경장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-014-17hc2cr",
+      "setOrder": 8,
+      "sourceSection": "3.1.14",
+      "sourceSectionTitleKo": "검술사",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-011-t6hvju"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-012-3jxc2l"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-034-1w59ij0"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-119-1kqmb1h",
+      "sortOrder": 119,
+      "names": {
+        "ko": "검술사 중장갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-014-17hc2cr",
+      "setOrder": 9,
+      "sourceSection": "3.1.14",
+      "sourceSectionTitleKo": "검술사",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-014-ob03f5"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-015-1a1iypf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-013-v3j27p"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-120-1l73ulb",
+      "sortOrder": 120,
+      "names": {
+        "ko": "검술사 중장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-014-17hc2cr",
+      "setOrder": 10,
+      "sourceSection": "3.1.14",
+      "sourceSectionTitleKo": "검술사",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-014-ob03f5"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-015-1a1iypf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-016-1wce5r2"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-121-1sxr5ho",
+      "sortOrder": 121,
+      "names": {
+        "ko": "검술사 섬유 방어구"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-014-17hc2cr",
+      "setOrder": 11,
+      "sourceSection": "3.1.14",
+      "sourceSectionTitleKo": "검술사",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-011-t6hvju"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-012-3jxc2l"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-013-v3j27p"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-122-sdoy9i",
+      "sortOrder": 122,
+      "names": {
+        "ko": "재앙 방호 정화 코어 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-015-1wqcjri",
+      "setOrder": 1,
+      "sourceSection": "3.2.1",
+      "sourceSectionTitleKo": "재앙 방호",
+      "level": 50,
+      "rarity": 4,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+15"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-073-w4wslp"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-074-1lp2ygo"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-075-q9fy8p"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-123-10lcsmf",
+      "sortOrder": 123,
+      "names": {
+        "ko": "재앙 방호 정화 코어"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-015-1wqcjri",
+      "setOrder": 2,
+      "sourceSection": "3.2.1",
+      "sourceSectionTitleKo": "재앙 방호",
+      "level": 50,
+      "rarity": 4,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+15"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-073-w4wslp"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-076-1kxutph"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-077-z4emd9"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-124-6rm9qj",
+      "sortOrder": 124,
+      "names": {
+        "ko": "재앙 방호 필터"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-015-1wqcjri",
+      "setOrder": 3,
+      "sourceSection": "3.2.1",
+      "sourceSectionTitleKo": "재앙 방호",
+      "level": 50,
+      "rarity": 4,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+15"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-078-1oswr1r"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-076-1kxutph"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-079-18irvyu"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-125-1t7buy8",
+      "sortOrder": 125,
+      "names": {
+        "ko": "재앙 방호 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-015-1wqcjri",
+      "setOrder": 4,
+      "sourceSection": "3.2.1",
+      "sourceSectionTitleKo": "재앙 방호",
+      "level": 50,
+      "rarity": 4,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+30"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-080-1ogdp03"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-081-1hjr4h9"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-082-9bc9zy"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-126-16mreae",
+      "sortOrder": 126,
+      "names": {
+        "ko": "재앙 방호 중갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-015-1wqcjri",
+      "setOrder": 5,
+      "sourceSection": "3.2.1",
+      "sourceSectionTitleKo": "재앙 방호",
+      "level": 50,
+      "rarity": 4,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+40"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-083-okjo08"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-084-jtn2cp"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-085-1krnh5"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-127-hrnoqb",
+      "sortOrder": 127,
+      "names": {
+        "ko": "재앙 방호 중갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-015-1wqcjri",
+      "setOrder": 6,
+      "sourceSection": "3.2.1",
+      "sourceSectionTitleKo": "재앙 방호",
+      "level": 50,
+      "rarity": 4,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+40"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-083-okjo08"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-086-1m255pc"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-087-1kwii6y"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-128-1y7ryrg",
+      "sortOrder": 128,
+      "names": {
+        "ko": "아부레이 센서 칩 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-016-83mhf3",
+      "setOrder": 1,
+      "sourceSection": "3.2.2",
+      "sourceSectionTitleKo": "아부레이의 메아리",
+      "level": 50,
+      "rarity": 4,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+15"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-078-1oswr1r"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-076-1kxutph"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-088-d62fhr"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-129-xavf35",
+      "sortOrder": 129,
+      "names": {
+        "ko": "아부레이 센서 칩"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-016-83mhf3",
+      "setOrder": 2,
+      "sourceSection": "3.2.2",
+      "sourceSectionTitleKo": "아부레이의 메아리",
+      "level": 50,
+      "rarity": 4,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+15"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-078-1oswr1r"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-089-klq4wt"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-088-d62fhr"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-130-1okhzqy",
+      "sortOrder": 130,
+      "names": {
+        "ko": "아부레이 도청 칩 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-016-83mhf3",
+      "setOrder": 3,
+      "sourceSection": "3.2.2",
+      "sourceSectionTitleKo": "아부레이의 메아리",
+      "level": 50,
+      "rarity": 4,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+15"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-090-22avqm"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-091-cmry0o"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-092-1wj60ej"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-131-1lniupj",
+      "sortOrder": 131,
+      "names": {
+        "ko": "아부레이 도청 칩"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-016-83mhf3",
+      "setOrder": 4,
+      "sourceSection": "3.2.2",
+      "sourceSectionTitleKo": "아부레이의 메아리",
+      "level": 50,
+      "rarity": 4,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+15"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-073-w4wslp"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-074-1lp2ygo"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-093-qr25k1"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-132-jij5d4",
+      "sortOrder": 132,
+      "names": {
+        "ko": "아부레이 조명 장치"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-016-83mhf3",
+      "setOrder": 5,
+      "sourceSection": "3.2.2",
+      "sourceSectionTitleKo": "아부레이의 메아리",
+      "level": 50,
+      "rarity": 4,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+15"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-094-1x7l686"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-091-cmry0o"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-095-162vm7a"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-133-1yzxx6a",
+      "sortOrder": 133,
+      "names": {
+        "ko": "아부레이 UV 램프"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-016-83mhf3",
+      "setOrder": 6,
+      "sourceSection": "3.2.2",
+      "sourceSectionTitleKo": "아부레이의 메아리",
+      "level": 50,
+      "rarity": 4,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+15"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-073-w4wslp"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-089-klq4wt"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-096-d4bqif"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-134-4szy7l",
+      "sortOrder": 134,
+      "names": {
+        "ko": "아부레이 금속 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-016-83mhf3",
+      "setOrder": 7,
+      "sourceSection": "3.2.2",
+      "sourceSectionTitleKo": "아부레이의 메아리",
+      "level": 50,
+      "rarity": 4,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+30"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-097-b8wb6t"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-098-wwfd9c"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-099-3cle57"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-135-119dr1w",
+      "sortOrder": 135,
+      "names": {
+        "ko": "아부레이 경갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-016-83mhf3",
+      "setOrder": 8,
+      "sourceSection": "3.2.2",
+      "sourceSectionTitleKo": "아부레이의 메아리",
+      "level": 50,
+      "rarity": 4,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+40"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-100-djybfg"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-101-1ufos8"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-102-flgfew"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-136-p99jdf",
+      "sortOrder": 136,
+      "names": {
+        "ko": "아부레이 경갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-016-83mhf3",
+      "setOrder": 9,
+      "sourceSection": "3.2.2",
+      "sourceSectionTitleKo": "아부레이의 메아리",
+      "level": 50,
+      "rarity": 4,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+40"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-103-1fmc4dt"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-104-10mbo5n"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-085-1krnh5"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-137-td2jq6",
+      "sortOrder": 137,
+      "names": {
+        "ko": "아부레이 중갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-016-83mhf3",
+      "setOrder": 10,
+      "sourceSection": "3.2.2",
+      "sourceSectionTitleKo": "아부레이의 메아리",
+      "level": 50,
+      "rarity": 4,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+40"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-105-iy2dvl"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-104-10mbo5n"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-106-qc19b8"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-138-1n8lb9d",
+      "sortOrder": 138,
+      "names": {
+        "ko": "아부레이 중갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-016-83mhf3",
+      "setOrder": 11,
+      "sourceSection": "3.2.2",
+      "sourceSectionTitleKo": "아부레이의 메아리",
+      "level": 50,
+      "rarity": 4,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+40"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-083-okjo08"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-101-1ufos8"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-107-1nw12tg"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-139-bo4dgt",
+      "sortOrder": 139,
+      "names": {
+        "ko": "침식 방호 배터리 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-017-1fng7jt",
+      "setOrder": 1,
+      "sourceSection": "3.3.1",
+      "sourceSectionTitleKo": "침식 방호",
+      "level": 50,
+      "rarity": 4,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+15"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-078-1oswr1r"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-089-klq4wt"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-108-16b7xl5"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-140-qza0at",
+      "sortOrder": 140,
+      "names": {
+        "ko": "침식 방호 스패너 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-017-1fng7jt",
+      "setOrder": 2,
+      "sourceSection": "3.3.1",
+      "sourceSectionTitleKo": "침식 방호",
+      "level": 50,
+      "rarity": 4,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+15"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-078-1oswr1r"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-076-1kxutph"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-109-7yusby"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-141-b1ei9w",
+      "sortOrder": 141,
+      "names": {
+        "ko": "침식 방호 장갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-017-1fng7jt",
+      "setOrder": 3,
+      "sourceSection": "3.3.1",
+      "sourceSectionTitleKo": "침식 방호",
+      "level": 50,
+      "rarity": 4,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+30"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-080-1ogdp03"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-110-1evzjod"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-111-1qtamv4"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-142-1k4igkq",
+      "sortOrder": 142,
+      "names": {
+        "ko": "침식 방호 조끼 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-017-1fng7jt",
+      "setOrder": 4,
+      "sourceSection": "3.3.1",
+      "sourceSectionTitleKo": "침식 방호",
+      "level": 50,
+      "rarity": 4,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+30"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-100-djybfg"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-086-1m255pc"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-112-7ipw6f"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-143-eikr2a",
+      "sortOrder": 143,
+      "names": {
+        "ko": "침식 방호 배터리"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-017-1fng7jt",
+      "setOrder": 5,
+      "sourceSection": "3.3.1",
+      "sourceSectionTitleKo": "침식 방호",
+      "level": 36,
+      "rarity": 3,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+10"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-113-1wmmndv"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-114-17zd4rg"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-115-1nyqwhd"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-144-ynhsaj",
+      "sortOrder": 144,
+      "names": {
+        "ko": "침식 방호 스패너"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-017-1fng7jt",
+      "setOrder": 6,
+      "sourceSection": "3.3.1",
+      "sourceSectionTitleKo": "침식 방호",
+      "level": 36,
+      "rarity": 3,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+10"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-113-1wmmndv"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-114-17zd4rg"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-116-3c5vja"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-145-1ah9xhi",
+      "sortOrder": 145,
+      "names": {
+        "ko": "침식 방호 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-017-1fng7jt",
+      "setOrder": 7,
+      "sourceSection": "3.3.1",
+      "sourceSectionTitleKo": "침식 방호",
+      "level": 36,
+      "rarity": 3,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-117-13fl13n"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-118-n9xe9n"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-119-m5ym1h"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-146-1f7ypus",
+      "sortOrder": 146,
+      "names": {
+        "ko": "침식 방호 조끼"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-017-1fng7jt",
+      "setOrder": 8,
+      "sourceSection": "3.3.1",
+      "sourceSectionTitleKo": "침식 방호",
+      "level": 36,
+      "rarity": 3,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+28"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-120-164qcd6"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-121-xfslpw"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-122-1r6rvrz"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-147-hckfv9",
+      "sortOrder": 147,
+      "names": {
+        "ko": "침식 차단 배터리 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-018-j2nrox",
+      "setOrder": 1,
+      "sourceSection": "3.3.2",
+      "sourceSectionTitleKo": "침식 차단",
+      "level": 50,
+      "rarity": 4,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+15"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-123-1rifi6"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-114-17zd4rg"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-124-11abt3e"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-148-1qttecb",
+      "sortOrder": 148,
+      "names": {
+        "ko": "침식 차단 스패너 · II"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-018-j2nrox",
+      "setOrder": 2,
+      "sourceSection": "3.3.2",
+      "sourceSectionTitleKo": "침식 차단",
+      "level": 50,
+      "rarity": 4,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+15"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-094-1x7l686"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-089-klq4wt"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-109-7yusby"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-149-1eyw599",
+      "sortOrder": 149,
+      "names": {
+        "ko": "침식 차단 장갑 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-018-j2nrox",
+      "setOrder": 3,
+      "sourceSection": "3.3.2",
+      "sourceSectionTitleKo": "침식 차단",
+      "level": 50,
+      "rarity": 4,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+30"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-125-b4kzju"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-126-1cw9mbo"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-111-1qtamv4"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-150-1foyoid",
+      "sortOrder": 150,
+      "names": {
+        "ko": "침식 차단 조끼 · II"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-018-j2nrox",
+      "setOrder": 4,
+      "sourceSection": "3.3.2",
+      "sourceSectionTitleKo": "침식 차단",
+      "level": 50,
+      "rarity": 4,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+30"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-103-1fmc4dt"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-084-jtn2cp"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-112-7ipw6f"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-151-151w7q7",
+      "sortOrder": 151,
+      "names": {
+        "ko": "침식 차단 조끼 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-018-j2nrox",
+      "setOrder": 5,
+      "sourceSection": "3.3.2",
+      "sourceSectionTitleKo": "침식 차단",
+      "level": 50,
+      "rarity": 4,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+30"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-103-1fmc4dt"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-101-1ufos8"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-127-1f1lf52"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-152-1m99j5",
+      "sortOrder": 152,
+      "names": {
+        "ko": "침식 차단 배터리"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-018-j2nrox",
+      "setOrder": 6,
+      "sourceSection": "3.3.2",
+      "sourceSectionTitleKo": "침식 차단",
+      "level": 36,
+      "rarity": 3,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+10"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-128-14rdz4e"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-114-17zd4rg"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-129-1912abb"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-153-1x7zirc",
+      "sortOrder": 153,
+      "names": {
+        "ko": "침식 차단 스패너 · I"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-018-j2nrox",
+      "setOrder": 7,
+      "sourceSection": "3.3.2",
+      "sourceSectionTitleKo": "침식 차단",
+      "level": 36,
+      "rarity": 3,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+10"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-128-14rdz4e"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-114-17zd4rg"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-130-eqoxw0"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-154-1qpf7cf",
+      "sortOrder": 154,
+      "names": {
+        "ko": "침식 차단 스패너"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-018-j2nrox",
+      "setOrder": 8,
+      "sourceSection": "3.3.2",
+      "sourceSectionTitleKo": "침식 차단",
+      "level": 36,
+      "rarity": 3,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+10"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-128-14rdz4e"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-114-17zd4rg"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-116-3c5vja"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-155-d1wl6m",
+      "sortOrder": 155,
+      "names": {
+        "ko": "침식 차단 장갑"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-018-j2nrox",
+      "setOrder": 9,
+      "sourceSection": "3.3.2",
+      "sourceSectionTitleKo": "침식 차단",
+      "level": 36,
+      "rarity": 3,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-131-14peczi"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-132-6vrl2e"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-133-15qvb2j"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-156-1fx2ia8",
+      "sortOrder": 156,
+      "names": {
+        "ko": "침식 차단 조끼"
+      },
+      "group": "set",
+      "setCategoryId": "equipment-set-018-j2nrox",
+      "setOrder": 10,
+      "sourceSection": "3.3.2",
+      "sourceSectionTitleKo": "침식 차단",
+      "level": 36,
+      "rarity": 3,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+28"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-134-z6yemn"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-135-1rau8pn"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-136-1l51bsl"
+        }
+      ],
+      "forgeable": false,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문에서 일차 수집한 값. 추후 인게임/공식 데이터로 교차 검수 필요."
+      }
+    },
+    {
+      "id": "equipment-157-tp4d62",
+      "sortOrder": 157,
+      "names": {
+        "ko": "위기 탈출 도장 · I"
+      },
+      "group": "single",
+      "setCategoryId": null,
+      "setOrder": null,
+      "sourceSection": "4.1.1",
+      "sourceSectionTitleKo": "위기 탈출",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-137-yzzltg"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-056-s8lubl"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-138-vhwt9k"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-158-gdeydd",
+      "sortOrder": 158,
+      "names": {
+        "ko": "위기 탈출 도장"
+      },
+      "group": "single",
+      "setCategoryId": null,
+      "setOrder": null,
+      "sourceSection": "4.1.1",
+      "sourceSectionTitleKo": "위기 탈출",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-139-2wysmn"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-056-s8lubl"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-140-13ehzhq"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-159-1xe0bxe",
+      "sortOrder": 159,
+      "names": {
+        "ko": "위기 탈출 식별 패널 · I"
+      },
+      "group": "single",
+      "setCategoryId": null,
+      "setOrder": null,
+      "sourceSection": "4.1.1",
+      "sourceSectionTitleKo": "위기 탈출",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-141-1qmok8n"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-056-s8lubl"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-142-cqt16p"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-160-uksuzg",
+      "sortOrder": 160,
+      "names": {
+        "ko": "위기 탈출 식별 패널"
+      },
+      "group": "single",
+      "setCategoryId": null,
+      "setOrder": null,
+      "sourceSection": "4.1.1",
+      "sourceSectionTitleKo": "위기 탈출",
+      "level": 70,
+      "rarity": 5,
+      "partId": "kit",
+      "partLabelKo": "부품",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+21"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-143-1n7n736"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-056-s8lubl"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-144-12vxa2d"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-161-e584wa",
+      "sortOrder": 161,
+      "names": {
+        "ko": "위기 탈출 장갑"
+      },
+      "group": "single",
+      "setCategoryId": null,
+      "setOrder": null,
+      "sourceSection": "4.1.1",
+      "sourceSectionTitleKo": "위기 탈출",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-145-guhdpd"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-146-7zutgf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-147-1s5nnda"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-162-1olldw5",
+      "sortOrder": 162,
+      "names": {
+        "ko": "위기 탈출 보호 장갑"
+      },
+      "group": "single",
+      "setCategoryId": null,
+      "setOrder": null,
+      "sourceSection": "4.1.1",
+      "sourceSectionTitleKo": "위기 탈출",
+      "level": 70,
+      "rarity": 5,
+      "partId": "gloves",
+      "partLabelKo": "보호 장갑",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+42"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-148-wmo1dw"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-146-7zutgf"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-149-tdgfcb"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-163-188lx0o",
+      "sortOrder": 163,
+      "names": {
+        "ko": "위기 탈출 방어구"
+      },
+      "group": "single",
+      "setCategoryId": null,
+      "setOrder": null,
+      "sourceSection": "4.1.1",
+      "sourceSectionTitleKo": "위기 탈출",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-150-5spwv4"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-151-1df2io6"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-152-sogtn6"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    },
+    {
+      "id": "equipment-164-1drh7rn",
+      "sortOrder": 164,
+      "names": {
+        "ko": "위기 탈출 중장갑"
+      },
+      "group": "single",
+      "setCategoryId": null,
+      "setOrder": null,
+      "sourceSection": "4.1.1",
+      "sourceSectionTitleKo": "위기 탈출",
+      "level": 70,
+      "rarity": 5,
+      "partId": "armor",
+      "partLabelKo": "방어구",
+      "defense": {
+        "statKo": "방어력",
+        "value": "+56"
+      },
+      "options": [
+        {
+          "slot": 1,
+          "categoryId": "equipment-option-153-d9xis0"
+        },
+        {
+          "slot": 2,
+          "categoryId": "equipment-option-151-1df2io6"
+        },
+        {
+          "slot": 3,
+          "categoryId": "equipment-option-154-6p7zvw"
+        }
+      ],
+      "forgeable": true,
+      "crafting": {
+        "materialPartCategoryId": null,
+        "sourceStatus": "placeholder",
+        "notes": "소모량은 원문에서 확인되지 않아 부품 카테고리 row만 생성함."
+      },
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+      }
+    }
+  ]
+}

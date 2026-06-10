@@ -10,12 +10,14 @@ import type {
 } from '../domain/types'
 import operatorCategoryData from './game/operator/categories.json'
 import operatorDataset from './game/operator/operators.seed.json'
+import equipmentSetDataset from './game/equipment/set-categories.json'
 import weaponCategoryData from './game/weapon-categories.json'
 import weaponDataset from './game/weapons.seed.json'
 import weaponOptionCategoryData from './game/weapon/option-categories.json'
 
 type SeedOperator = (typeof operatorDataset.operators)[number]
 type SeedWeapon = (typeof weaponDataset.weapons)[number]
+type SeedEquipmentSet = (typeof equipmentSetDataset.sets)[number]
 type SeedWeaponOptionCategory = (typeof weaponOptionCategoryData.categories)[number]
 type CategoryOption = {
   id: string
@@ -77,6 +79,14 @@ function getWeaponTraitSummary(weapon: SeedWeapon) {
     .join(' / ')
 }
 
+function getEquipmentSetPieces(set: SeedEquipmentSet): EquipmentSet['pieces'] {
+  if (set.piecesRequired === 2 || set.piecesRequired === 4) {
+    return set.piecesRequired
+  }
+
+  return 3
+}
+
 export const operators: Operator[] = operatorDataset.operators.map((operator) => {
   const latestStats = getLatestStats(operator)
   const role = operator.profile.class as OperatorClass
@@ -134,32 +144,14 @@ export const weapons: Weapon[] = weaponDataset.weapons.map((weapon) => {
   }
 })
 
-export const equipmentSets: EquipmentSet[] = [
-  {
-    id: 'hot-work-preview',
-    name: 'Hot Work',
-    pieces: 3,
-    flatAttack: 42,
-    attackPercent: 8,
-    effect: 'Heat 빌드 추천 세트 기반 임시 계산 옵션',
-  },
-  {
-    id: 'bone-crusher-preview',
-    name: '본 크러셔',
-    pieces: 3,
-    flatAttack: 24,
-    attackPercent: 14,
-    effect: '스킬 사용 후 능력치 증가형 세트 컨셉',
-  },
-  {
-    id: 'energy-guide-preview',
-    name: '에너지 유도',
-    pieces: 3,
-    flatAttack: 18,
-    attackPercent: 6,
-    effect: '궁극기 에너지/보조 능력치 계열 임시 계산 옵션',
-  },
-]
+export const equipmentSets: EquipmentSet[] = equipmentSetDataset.sets.map((set) => ({
+  id: set.id,
+  name: set.nameKo,
+  pieces: getEquipmentSetPieces(set),
+  flatAttack: 0,
+  attackPercent: 0,
+  effect: set.effectKo,
+}))
 
 export const crisisRisks: CrisisRisk[] = [
   {

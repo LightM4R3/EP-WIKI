@@ -1,0 +1,3684 @@
+{
+  "schemaVersion": "0.1.0",
+  "game": "Arknights: Endfield",
+  "lastReviewedAt": "2026-06-10",
+  "sources": [
+    {
+      "id": "namu-equipment-main",
+      "title": "명일방주: 엔드필드/장비",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC:%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C/%EC%9E%A5%EB%B9%84",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "장비 개요, 세트 효과, 장비별 방어력/옵션/단조 수치를 1차 출처로 정리."
+    }
+  ],
+  "categories": [
+    {
+      "id": "equipment-option-001-1wxt4yj",
+      "sortOrder": 1,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "힘",
+      "baseValue": "+32",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+32"
+        },
+        {
+          "stage": 1,
+          "value": "+35"
+        },
+        {
+          "stage": 2,
+          "value": "+38"
+        },
+        {
+          "stage": 3,
+          "value": "+41"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-002-1vl73on",
+      "sortOrder": 2,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 2,
+      "statKo": "의지",
+      "baseValue": "+21",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+21"
+        },
+        {
+          "stage": 1,
+          "value": "+23"
+        },
+        {
+          "stage": 2,
+          "value": "+25"
+        },
+        {
+          "stage": 3,
+          "value": "+27"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-003-1n541rj",
+      "sortOrder": 3,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "물리 피해 보너스",
+      "baseValue": "+23%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+23%"
+        },
+        {
+          "stage": 1,
+          "value": "+25.3%"
+        },
+        {
+          "stage": 2,
+          "value": "+27.6%"
+        },
+        {
+          "stage": 3,
+          "value": "+29.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-004-by8x8u",
+      "sortOrder": 4,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "민첩",
+      "baseValue": "+32",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+32"
+        },
+        {
+          "stage": 1,
+          "value": "+35"
+        },
+        {
+          "stage": 2,
+          "value": "+38"
+        },
+        {
+          "stage": 3,
+          "value": "+41"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-005-tuvl3",
+      "sortOrder": 5,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 2,
+      "statKo": "힘",
+      "baseValue": "+21",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+21"
+        },
+        {
+          "stage": 1,
+          "value": "+23"
+        },
+        {
+          "stage": 2,
+          "value": "+25"
+        },
+        {
+          "stage": 3,
+          "value": "+27"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-006-33c0nm",
+      "sortOrder": 6,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 1,
+      "statKo": "힘",
+      "baseValue": "+65",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+65"
+        },
+        {
+          "stage": 1,
+          "value": "+71"
+        },
+        {
+          "stage": 2,
+          "value": "+78"
+        },
+        {
+          "stage": 3,
+          "value": "+84"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-007-142alc9",
+      "sortOrder": 7,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 2,
+      "statKo": "의지",
+      "baseValue": "+43",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+43"
+        },
+        {
+          "stage": 1,
+          "value": "+47"
+        },
+        {
+          "stage": 2,
+          "value": "+51"
+        },
+        {
+          "stage": 3,
+          "value": "+55"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-008-r7bzch",
+      "sortOrder": 8,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "오리지늄 아츠 강도",
+      "baseValue": "+34",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+34"
+        },
+        {
+          "stage": 1,
+          "value": "+37"
+        },
+        {
+          "stage": 2,
+          "value": "+41"
+        },
+        {
+          "stage": 3,
+          "value": "+44"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-009-czufpb",
+      "sortOrder": 9,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 1,
+      "statKo": "민첩",
+      "baseValue": "+65",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+65"
+        },
+        {
+          "stage": 1,
+          "value": "+71"
+        },
+        {
+          "stage": 2,
+          "value": "+78"
+        },
+        {
+          "stage": 3,
+          "value": "+84"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-010-v0qnad",
+      "sortOrder": 10,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 2,
+      "statKo": "힘",
+      "baseValue": "+43",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+43"
+        },
+        {
+          "stage": 1,
+          "value": "+47"
+        },
+        {
+          "stage": 2,
+          "value": "+51"
+        },
+        {
+          "stage": 3,
+          "value": "+55"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-011-t6hvju",
+      "sortOrder": 11,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 1,
+      "statKo": "힘",
+      "baseValue": "+87",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+87"
+        },
+        {
+          "stage": 1,
+          "value": "+95"
+        },
+        {
+          "stage": 2,
+          "value": "+104"
+        },
+        {
+          "stage": 3,
+          "value": "+113"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-012-3jxc2l",
+      "sortOrder": 12,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 2,
+      "statKo": "의지",
+      "baseValue": "+58",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+58"
+        },
+        {
+          "stage": 1,
+          "value": "+63"
+        },
+        {
+          "stage": 2,
+          "value": "+69"
+        },
+        {
+          "stage": 3,
+          "value": "+75"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-013-v3j27p",
+      "sortOrder": 13,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "물리 피해 보너스",
+      "baseValue": "+11.5%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+11.5%"
+        },
+        {
+          "stage": 1,
+          "value": "+12.7%"
+        },
+        {
+          "stage": 2,
+          "value": "+13.8%"
+        },
+        {
+          "stage": 3,
+          "value": "+14.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-014-ob03f5",
+      "sortOrder": 14,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 1,
+      "statKo": "민첩",
+      "baseValue": "+87",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+87"
+        },
+        {
+          "stage": 1,
+          "value": "+95"
+        },
+        {
+          "stage": 2,
+          "value": "+104"
+        },
+        {
+          "stage": 3,
+          "value": "+113"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-015-1a1iypf",
+      "sortOrder": 15,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 2,
+      "statKo": "힘",
+      "baseValue": "+58",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+58"
+        },
+        {
+          "stage": 1,
+          "value": "+63"
+        },
+        {
+          "stage": 2,
+          "value": "+69"
+        },
+        {
+          "stage": 3,
+          "value": "+75"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-016-1wce5r2",
+      "sortOrder": 16,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "오리지늄 아츠 강도",
+      "baseValue": "+20",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+20"
+        },
+        {
+          "stage": 1,
+          "value": "+22"
+        },
+        {
+          "stage": 2,
+          "value": "+24"
+        },
+        {
+          "stage": 3,
+          "value": "+27"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-017-6d3nnd",
+      "sortOrder": 17,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "의지",
+      "baseValue": "+32",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+32"
+        },
+        {
+          "stage": 1,
+          "value": "+35"
+        },
+        {
+          "stage": 2,
+          "value": "+38"
+        },
+        {
+          "stage": 3,
+          "value": "+41"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-018-11knlso",
+      "sortOrder": 18,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 2,
+      "statKo": "지능",
+      "baseValue": "+21",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+21"
+        },
+        {
+          "stage": 1,
+          "value": "+23"
+        },
+        {
+          "stage": 2,
+          "value": "+25"
+        },
+        {
+          "stage": 3,
+          "value": "+27"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-019-alze4s",
+      "sortOrder": 19,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "배틀 스킬 피해 보너스",
+      "baseValue": "+41.4%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+41.4%"
+        },
+        {
+          "stage": 1,
+          "value": "+45.5%"
+        },
+        {
+          "stage": 2,
+          "value": "+49.7%"
+        },
+        {
+          "stage": 3,
+          "value": "+53.8%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-020-ng1tpw",
+      "sortOrder": 20,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 1,
+      "statKo": "의지",
+      "baseValue": "+65",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+65"
+        },
+        {
+          "stage": 1,
+          "value": "+71"
+        },
+        {
+          "stage": 2,
+          "value": "+78"
+        },
+        {
+          "stage": 3,
+          "value": "+84"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-021-1nhizku",
+      "sortOrder": 21,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 2,
+      "statKo": "지능",
+      "baseValue": "+43",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+43"
+        },
+        {
+          "stage": 1,
+          "value": "+47"
+        },
+        {
+          "stage": 2,
+          "value": "+51"
+        },
+        {
+          "stage": 3,
+          "value": "+55"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-022-1r6hojt",
+      "sortOrder": 22,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "냉기와 전기 피해 보너스",
+      "baseValue": "+19.2%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+19.2%"
+        },
+        {
+          "stage": 1,
+          "value": "+21.1%"
+        },
+        {
+          "stage": 2,
+          "value": "+23%"
+        },
+        {
+          "stage": 3,
+          "value": "+24.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-023-szgsqm",
+      "sortOrder": 23,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 1,
+      "statKo": "의지",
+      "baseValue": "+87",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+87"
+        },
+        {
+          "stage": 1,
+          "value": "+95"
+        },
+        {
+          "stage": 2,
+          "value": "+104"
+        },
+        {
+          "stage": 3,
+          "value": "+113"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-024-1x0guzm",
+      "sortOrder": 24,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 2,
+      "statKo": "지능",
+      "baseValue": "+58",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+58"
+        },
+        {
+          "stage": 1,
+          "value": "+63"
+        },
+        {
+          "stage": 2,
+          "value": "+69"
+        },
+        {
+          "stage": 3,
+          "value": "+75"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-025-1emhnpw",
+      "sortOrder": 25,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "냉기와 전기 피해 보너스",
+      "baseValue": "+11.5%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+11.5%"
+        },
+        {
+          "stage": 1,
+          "value": "+12.7%"
+        },
+        {
+          "stage": 2,
+          "value": "+13.8%"
+        },
+        {
+          "stage": 3,
+          "value": "+14.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-026-1mt960g",
+      "sortOrder": 26,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 2,
+      "statKo": "민첩",
+      "baseValue": "+21",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+21"
+        },
+        {
+          "stage": 1,
+          "value": "+23"
+        },
+        {
+          "stage": 2,
+          "value": "+25"
+        },
+        {
+          "stage": 3,
+          "value": "+27"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-027-bvpz1v",
+      "sortOrder": 27,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "열기와 자연 피해 보너스",
+      "baseValue": "+23%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+23%"
+        },
+        {
+          "stage": 1,
+          "value": "+25.3%"
+        },
+        {
+          "stage": 2,
+          "value": "+27.6%"
+        },
+        {
+          "stage": 3,
+          "value": "+29.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-028-14jg8ae",
+      "sortOrder": 28,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "지능",
+      "baseValue": "+32",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+32"
+        },
+        {
+          "stage": 1,
+          "value": "+35"
+        },
+        {
+          "stage": 2,
+          "value": "+38"
+        },
+        {
+          "stage": 3,
+          "value": "+41"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-029-1e1pkzi",
+      "sortOrder": 29,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "오리지늄 아츠 강도",
+      "baseValue": "+41",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+41"
+        },
+        {
+          "stage": 1,
+          "value": "+45"
+        },
+        {
+          "stage": 2,
+          "value": "+49"
+        },
+        {
+          "stage": 3,
+          "value": "+53"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-030-1cig5j",
+      "sortOrder": 30,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 1,
+      "statKo": "지능",
+      "baseValue": "+65",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+65"
+        },
+        {
+          "stage": 1,
+          "value": "+71"
+        },
+        {
+          "stage": 2,
+          "value": "+78"
+        },
+        {
+          "stage": 3,
+          "value": "+84"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-031-fco1d0",
+      "sortOrder": 31,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "궁극기 충전 효율",
+      "baseValue": "+20.5%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+20.5%"
+        },
+        {
+          "stage": 1,
+          "value": "+22.6%"
+        },
+        {
+          "stage": 2,
+          "value": "+24.6%"
+        },
+        {
+          "stage": 3,
+          "value": "+26.7%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-032-1rrsitv",
+      "sortOrder": 32,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "모든 스킬 피해 보너스",
+      "baseValue": "+23%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+23%"
+        },
+        {
+          "stage": 1,
+          "value": "+25.3%"
+        },
+        {
+          "stage": 2,
+          "value": "+27.6%"
+        },
+        {
+          "stage": 3,
+          "value": "+29.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-033-1lwgp5t",
+      "sortOrder": 33,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 1,
+      "statKo": "지능",
+      "baseValue": "+87",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+87"
+        },
+        {
+          "stage": 1,
+          "value": "+95"
+        },
+        {
+          "stage": 2,
+          "value": "+104"
+        },
+        {
+          "stage": 3,
+          "value": "+113"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-034-1w59ij0",
+      "sortOrder": 34,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "궁극기 충전 효율",
+      "baseValue": "+12.3%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+12.3%"
+        },
+        {
+          "stage": 1,
+          "value": "+13.6%"
+        },
+        {
+          "stage": 2,
+          "value": "+14.8%"
+        },
+        {
+          "stage": 3,
+          "value": "+16%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-035-189pysf",
+      "sortOrder": 35,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "궁극기 충전 효율",
+      "baseValue": "+24.6%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+24.6%"
+        },
+        {
+          "stage": 1,
+          "value": "+27.1%"
+        },
+        {
+          "stage": 2,
+          "value": "+29.6%"
+        },
+        {
+          "stage": 3,
+          "value": "+32%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-036-by3v5j",
+      "sortOrder": 36,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "치유 효율 보너스",
+      "baseValue": "+20.7%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+20.7%"
+        },
+        {
+          "stage": 1,
+          "value": "+22.8%"
+        },
+        {
+          "stage": 2,
+          "value": "+24.8%"
+        },
+        {
+          "stage": 3,
+          "value": "+26.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-037-ke7fw1",
+      "sortOrder": 37,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "일반 공격 피해 보너스",
+      "baseValue": "+27.6%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+27.6%"
+        },
+        {
+          "stage": 1,
+          "value": "+30.4%"
+        },
+        {
+          "stage": 2,
+          "value": "+33.1%"
+        },
+        {
+          "stage": 3,
+          "value": "+35.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-038-ksrwxi",
+      "sortOrder": 38,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "냉기와 전기 피해 보너스",
+      "baseValue": "+23%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+23%"
+        },
+        {
+          "stage": 1,
+          "value": "+25.3%"
+        },
+        {
+          "stage": 2,
+          "value": "+27.6%"
+        },
+        {
+          "stage": 3,
+          "value": "+29.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-039-7uq9lc",
+      "sortOrder": 39,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "연계 스킬 피해 보너스",
+      "baseValue": "+41.4%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+41.4%"
+        },
+        {
+          "stage": 1,
+          "value": "+45.5%"
+        },
+        {
+          "stage": 2,
+          "value": "+49.7%"
+        },
+        {
+          "stage": 3,
+          "value": "+53.8%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-040-m6ufqp",
+      "sortOrder": 40,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "궁극기 피해 보너스",
+      "baseValue": "+51.7%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+51.7%"
+        },
+        {
+          "stage": 1,
+          "value": "+56.9%"
+        },
+        {
+          "stage": 2,
+          "value": "+62.1%"
+        },
+        {
+          "stage": 3,
+          "value": "+67.3%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-041-12ktqfr",
+      "sortOrder": 41,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "모든 스킬 피해 보너스",
+      "baseValue": "+27.6%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+27.6%"
+        },
+        {
+          "stage": 1,
+          "value": "+30.4%"
+        },
+        {
+          "stage": 2,
+          "value": "+33.1%"
+        },
+        {
+          "stage": 3,
+          "value": "+35.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-042-1ngzj72",
+      "sortOrder": 42,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 2,
+      "statKo": "민첩",
+      "baseValue": "+43",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+43"
+        },
+        {
+          "stage": 1,
+          "value": "+47"
+        },
+        {
+          "stage": 2,
+          "value": "+51"
+        },
+        {
+          "stage": 3,
+          "value": "+55"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-043-1034ftv",
+      "sortOrder": 43,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "연계 스킬 피해 보너스",
+      "baseValue": "+34.5%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+34.5%"
+        },
+        {
+          "stage": 1,
+          "value": "+38%"
+        },
+        {
+          "stage": 2,
+          "value": "+41.4%"
+        },
+        {
+          "stage": 3,
+          "value": "+44.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-044-9vod7",
+      "sortOrder": 44,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "모든 스킬 피해 보너스",
+      "baseValue": "+13.8%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+13.8%"
+        },
+        {
+          "stage": 1,
+          "value": "+15.2%"
+        },
+        {
+          "stage": 2,
+          "value": "+16.6%"
+        },
+        {
+          "stage": 3,
+          "value": "+17.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-045-rzynwu",
+      "sortOrder": 45,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "연계 스킬 피해 보너스",
+      "baseValue": "+20.7%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+20.7%"
+        },
+        {
+          "stage": 1,
+          "value": "+22.8%"
+        },
+        {
+          "stage": 2,
+          "value": "+24.8%"
+        },
+        {
+          "stage": 3,
+          "value": "+26.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-046-10ymqwk",
+      "sortOrder": 46,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "치명타 확률",
+      "baseValue": "+10.4%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+10.4%"
+        },
+        {
+          "stage": 1,
+          "value": "+11.4%"
+        },
+        {
+          "stage": 2,
+          "value": "+12.4%"
+        },
+        {
+          "stage": 3,
+          "value": "+13.5%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-047-tbzs3i",
+      "sortOrder": 47,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "치명타 확률",
+      "baseValue": "+8.6%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+8.6%"
+        },
+        {
+          "stage": 1,
+          "value": "+9.5%"
+        },
+        {
+          "stage": 2,
+          "value": "+10.3%"
+        },
+        {
+          "stage": 3,
+          "value": "+11.2%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-048-snk0ed",
+      "sortOrder": 48,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "일반 공격 피해 보너스",
+      "baseValue": "+23%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+23%"
+        },
+        {
+          "stage": 1,
+          "value": "+25.3%"
+        },
+        {
+          "stage": 2,
+          "value": "+27.6%"
+        },
+        {
+          "stage": 3,
+          "value": "+29.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-049-k1hdxw",
+      "sortOrder": 49,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "궁극기 피해 보너스",
+      "baseValue": "+43.1%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+43.1%"
+        },
+        {
+          "stage": 1,
+          "value": "+47.4%"
+        },
+        {
+          "stage": 2,
+          "value": "+51.7%"
+        },
+        {
+          "stage": 3,
+          "value": "+56.1%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-050-mfaknz",
+      "sortOrder": 50,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "배틀 스킬 피해 보너스",
+      "baseValue": "+34.5%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+34.5%"
+        },
+        {
+          "stage": 1,
+          "value": "+38%"
+        },
+        {
+          "stage": 2,
+          "value": "+41.4%"
+        },
+        {
+          "stage": 3,
+          "value": "+44.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-051-wdnuju",
+      "sortOrder": 51,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 2,
+      "statKo": "민첩",
+      "baseValue": "+58",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+58"
+        },
+        {
+          "stage": 1,
+          "value": "+63"
+        },
+        {
+          "stage": 2,
+          "value": "+69"
+        },
+        {
+          "stage": 3,
+          "value": "+75"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-052-19jvjmi",
+      "sortOrder": 52,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "배틀 스킬 피해 보너스",
+      "baseValue": "+20.7%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+20.7%"
+        },
+        {
+          "stage": 1,
+          "value": "+22.8%"
+        },
+        {
+          "stage": 2,
+          "value": "+24.8%"
+        },
+        {
+          "stage": 3,
+          "value": "+26.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-053-1q0hhk6",
+      "sortOrder": 53,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "치명타 확률",
+      "baseValue": "+5.2%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+5.2%"
+        },
+        {
+          "stage": 1,
+          "value": "+5.7%"
+        },
+        {
+          "stage": 2,
+          "value": "+6.2%"
+        },
+        {
+          "stage": 3,
+          "value": "+6.7%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-054-9mn0zl",
+      "sortOrder": 54,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "일반 공격 피해 보너스",
+      "baseValue": "+13.8%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+13.8%"
+        },
+        {
+          "stage": 1,
+          "value": "+15.2%"
+        },
+        {
+          "stage": 2,
+          "value": "+16.6%"
+        },
+        {
+          "stage": 3,
+          "value": "+17.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-055-er7b12",
+      "sortOrder": 55,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "지능",
+      "baseValue": "+41",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+41"
+        },
+        {
+          "stage": 1,
+          "value": "+45"
+        },
+        {
+          "stage": 2,
+          "value": "+49"
+        },
+        {
+          "stage": 3,
+          "value": "+53"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-056-s8lubl",
+      "sortOrder": 56,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 2,
+      "statKo": "미확인",
+      "baseValue": "+125",
+      "forgeStatus": "needs_review",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+125"
+        }
+      ],
+      "sourceStatus": "needs_review",
+      "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+    },
+    {
+      "id": "equipment-option-057-21j8zg",
+      "sortOrder": 57,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "열기와 자연 피해 보너스",
+      "baseValue": "+19.2%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+19.2%"
+        },
+        {
+          "stage": 1,
+          "value": "+21.1%"
+        },
+        {
+          "stage": 2,
+          "value": "+23%"
+        },
+        {
+          "stage": 3,
+          "value": "+24.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-058-ufd97l",
+      "sortOrder": 58,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "열기와 자연 피해 보너스",
+      "baseValue": "+11.5%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+11.5%"
+        },
+        {
+          "stage": 1,
+          "value": "+12.7%"
+        },
+        {
+          "stage": 2,
+          "value": "+13.8%"
+        },
+        {
+          "stage": 3,
+          "value": "+14.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-059-1ro3xv1",
+      "sortOrder": 59,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "의지",
+      "baseValue": "+41",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+41"
+        },
+        {
+          "stage": 1,
+          "value": "+45"
+        },
+        {
+          "stage": 2,
+          "value": "+49"
+        },
+        {
+          "stage": 3,
+          "value": "+53"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-060-1opzajr",
+      "sortOrder": 60,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "보조 능력치",
+      "baseValue": "+20.7%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+20.7%"
+        },
+        {
+          "stage": 1,
+          "value": "+22.8%"
+        },
+        {
+          "stage": 2,
+          "value": "+24.8%"
+        },
+        {
+          "stage": 3,
+          "value": "+26.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-061-1px0d9f",
+      "sortOrder": 61,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "힘",
+      "baseValue": "+41",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+41"
+        },
+        {
+          "stage": 1,
+          "value": "+45"
+        },
+        {
+          "stage": 2,
+          "value": "+49"
+        },
+        {
+          "stage": 3,
+          "value": "+53"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-062-yqczc3",
+      "sortOrder": 62,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "보조 능력치",
+      "baseValue": "+10.4%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+10.4%"
+        },
+        {
+          "stage": 1,
+          "value": "+11.4%"
+        },
+        {
+          "stage": 2,
+          "value": "+12.4%"
+        },
+        {
+          "stage": 3,
+          "value": "+13.5%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-063-1vsica5",
+      "sortOrder": 63,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "궁극기 피해 보너스",
+      "baseValue": "+25.9%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+25.9%"
+        },
+        {
+          "stage": 1,
+          "value": "+28.5%"
+        },
+        {
+          "stage": 2,
+          "value": "+31.1%"
+        },
+        {
+          "stage": 3,
+          "value": "+33.6%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-064-1e86t9m",
+      "sortOrder": 64,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "불균형 목표에 주는 피해 보너스",
+      "baseValue": "+41.4%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+41.4%"
+        },
+        {
+          "stage": 1,
+          "value": "+45.5%"
+        },
+        {
+          "stage": 2,
+          "value": "+49.7%"
+        },
+        {
+          "stage": 3,
+          "value": "+53.8%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-065-189n237",
+      "sortOrder": 65,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "오리지늄 아츠 강도",
+      "baseValue": "+34",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+34"
+        },
+        {
+          "stage": 1,
+          "value": "+38"
+        },
+        {
+          "stage": 2,
+          "value": "+41"
+        },
+        {
+          "stage": 3,
+          "value": "+45"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-066-1i7jre",
+      "sortOrder": 66,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "불균형 목표에 주는 피해 보너스",
+      "baseValue": "+20.7%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+20.7%"
+        },
+        {
+          "stage": 1,
+          "value": "+22.8%"
+        },
+        {
+          "stage": 2,
+          "value": "+24.8%"
+        },
+        {
+          "stage": 3,
+          "value": "+26.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-067-1lanonf",
+      "sortOrder": 67,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "주요 능력치",
+      "baseValue": "+20.7%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+20.7%"
+        },
+        {
+          "stage": 1,
+          "value": "+22.8%"
+        },
+        {
+          "stage": 2,
+          "value": "+24.8%"
+        },
+        {
+          "stage": 3,
+          "value": "+26.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-068-xrlrp",
+      "sortOrder": 68,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "생명력",
+      "baseValue": "+41.4%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+41.4%"
+        },
+        {
+          "stage": 1,
+          "value": "+45.5%"
+        },
+        {
+          "stage": 2,
+          "value": "+49.7%"
+        },
+        {
+          "stage": 3,
+          "value": "+53.8%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-069-17dn8cf",
+      "sortOrder": 69,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "모든 피해 감소",
+      "baseValue": "17.2%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "17.2%"
+        },
+        {
+          "stage": 1,
+          "value": "18.5%"
+        },
+        {
+          "stage": 2,
+          "value": "19.9%"
+        },
+        {
+          "stage": 3,
+          "value": "21.2%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-070-u4jwca",
+      "sortOrder": 70,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "치유 효율 보너스",
+      "baseValue": "+17.3%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+17.3%"
+        },
+        {
+          "stage": 1,
+          "value": "19%"
+        },
+        {
+          "stage": 2,
+          "value": "20.7%"
+        },
+        {
+          "stage": 3,
+          "value": "22.4%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-071-o4fzqp",
+      "sortOrder": 71,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "치유 효율 보너스",
+      "baseValue": "+10.4%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+10.4%"
+        },
+        {
+          "stage": 1,
+          "value": "+11.4%"
+        },
+        {
+          "stage": 2,
+          "value": "+12.4%"
+        },
+        {
+          "stage": 3,
+          "value": "+13.5%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-072-1skzg8",
+      "sortOrder": 72,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "물리 피해 보너스",
+      "baseValue": "+19.2%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+19.2%"
+        },
+        {
+          "stage": 1,
+          "value": "+21.1%"
+        },
+        {
+          "stage": 2,
+          "value": "+23%"
+        },
+        {
+          "stage": 3,
+          "value": "+24.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-073-w4wslp",
+      "sortOrder": 73,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "힘",
+      "baseValue": "+23",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+23"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-074-1lp2ygo",
+      "sortOrder": 74,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 2,
+      "statKo": "의지",
+      "baseValue": "+15",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+15"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-075-q9fy8p",
+      "sortOrder": 75,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "보조 능력치",
+      "baseValue": "+14.7%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+14.7%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-076-1kxutph",
+      "sortOrder": 76,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 2,
+      "statKo": "지능",
+      "baseValue": "+15",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+15"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-077-z4emd9",
+      "sortOrder": 77,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "궁극기 피해 보너스",
+      "baseValue": "+36.8%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+36.8%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-078-1oswr1r",
+      "sortOrder": 78,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "의지",
+      "baseValue": "+23",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+23"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-079-18irvyu",
+      "sortOrder": 79,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "오리지늄 아츠 강도",
+      "baseValue": "+29",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+29"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-080-1ogdp03",
+      "sortOrder": 80,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 1,
+      "statKo": "의지",
+      "baseValue": "+46",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+46"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-081-1hjr4h9",
+      "sortOrder": 81,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 2,
+      "statKo": "지능",
+      "baseValue": "+30",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+30"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-082-9bc9zy",
+      "sortOrder": 82,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "오리지늄 아츠 강도",
+      "baseValue": "+24",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+24"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-083-okjo08",
+      "sortOrder": 83,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 1,
+      "statKo": "힘",
+      "baseValue": "+61",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+61"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-084-jtn2cp",
+      "sortOrder": 84,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 2,
+      "statKo": "의지",
+      "baseValue": "+41",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+41"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-085-1krnh5",
+      "sortOrder": 85,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "궁극기 충전 효율",
+      "baseValue": "+8.8%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+8.8%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-086-1m255pc",
+      "sortOrder": 86,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 2,
+      "statKo": "지능",
+      "baseValue": "+41",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+41"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-087-1kwii6y",
+      "sortOrder": 87,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "궁극기 피해 보너스",
+      "baseValue": "+18.4%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+18.4%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-088-d62fhr",
+      "sortOrder": 88,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "배틀 스킬 피해 보너스",
+      "baseValue": "+29.4%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+29.4%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-089-klq4wt",
+      "sortOrder": 89,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 2,
+      "statKo": "민첩",
+      "baseValue": "+15",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+15"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-090-22avqm",
+      "sortOrder": 90,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "민첩",
+      "baseValue": "+23",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+23"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-091-cmry0o",
+      "sortOrder": 91,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 2,
+      "statKo": "힘",
+      "baseValue": "+15",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+15"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-092-1wj60ej",
+      "sortOrder": 92,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "연계 스킬 피해 보너스",
+      "baseValue": "+29.4%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+29.4%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-093-qr25k1",
+      "sortOrder": 93,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "불균형 목표에 주는 피해 보너스",
+      "baseValue": "+29.4%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+29.4%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-094-1x7l686",
+      "sortOrder": 94,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "지능",
+      "baseValue": "+23",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+23"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-095-162vm7a",
+      "sortOrder": 95,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "궁극기 충전 효율",
+      "baseValue": "+17.5%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+17.5%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-096-d4bqif",
+      "sortOrder": 96,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "모든 스킬 피해 보너스",
+      "baseValue": "+19.6%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+19.6%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-097-b8wb6t",
+      "sortOrder": 97,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 1,
+      "statKo": "힘",
+      "baseValue": "+46",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+46"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-098-wwfd9c",
+      "sortOrder": 98,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 2,
+      "statKo": "의지",
+      "baseValue": "+30",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+30"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-099-3cle57",
+      "sortOrder": 99,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "불균형 목표에 주는 피해 보너스",
+      "baseValue": "+24.5%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+24.5%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-100-djybfg",
+      "sortOrder": 100,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 1,
+      "statKo": "의지",
+      "baseValue": "+61",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+61"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-101-1ufos8",
+      "sortOrder": 101,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 2,
+      "statKo": "민첩",
+      "baseValue": "+41",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+41"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-102-flgfew",
+      "sortOrder": 102,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "배틀 스킬 피해 보너스",
+      "baseValue": "+14.7%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+14.7%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-103-1fmc4dt",
+      "sortOrder": 103,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 1,
+      "statKo": "지능",
+      "baseValue": "+61",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+61"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-104-10mbo5n",
+      "sortOrder": 104,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 2,
+      "statKo": "힘",
+      "baseValue": "+41",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+41"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-105-iy2dvl",
+      "sortOrder": 105,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 1,
+      "statKo": "민첩",
+      "baseValue": "+61",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+61"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-106-qc19b8",
+      "sortOrder": 106,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "연계 스킬 피해 보너스",
+      "baseValue": "+14.7%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+14.7%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-107-1nw12tg",
+      "sortOrder": 107,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "모든 스킬 피해 보너스",
+      "baseValue": "+9.8%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+9.8%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-108-16b7xl5",
+      "sortOrder": 108,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "치유 효율 보너스",
+      "baseValue": "+14.7%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+14.7%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-109-7yusby",
+      "sortOrder": 109,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "공격력",
+      "baseValue": "+14.7%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+14.7%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-110-1evzjod",
+      "sortOrder": 110,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 2,
+      "statKo": "민첩",
+      "baseValue": "+30",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+30"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-111-1qtamv4",
+      "sortOrder": 111,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "공격력",
+      "baseValue": "+12.3%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+12.3%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-112-7ipw6f",
+      "sortOrder": 112,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "생명력",
+      "baseValue": "+14.7%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+14.7%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-113-1wmmndv",
+      "sortOrder": 113,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "의지",
+      "baseValue": "+21",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+21"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-114-17zd4rg",
+      "sortOrder": 114,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 2,
+      "statKo": "미확인",
+      "baseValue": "+125",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+125"
+        }
+      ],
+      "sourceStatus": "needs_review",
+      "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+    },
+    {
+      "id": "equipment-option-115-1nyqwhd",
+      "sortOrder": 115,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "치유 효율 보너스",
+      "baseValue": "+10.5%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+10.5%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-116-3c5vja",
+      "sortOrder": 116,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "공격력",
+      "baseValue": "+10.5%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+10.5%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-117-13fl13n",
+      "sortOrder": 117,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 1,
+      "statKo": "의지",
+      "baseValue": "+33",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+33"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-118-n9xe9n",
+      "sortOrder": 118,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 2,
+      "statKo": "지능",
+      "baseValue": "+22",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+22"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-119-m5ym1h",
+      "sortOrder": 119,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "치유 효율 보너스",
+      "baseValue": "+8.8%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+8.8%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-120-164qcd6",
+      "sortOrder": 120,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 1,
+      "statKo": "의지",
+      "baseValue": "+44",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+44"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-121-xfslpw",
+      "sortOrder": 121,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 2,
+      "statKo": "민첩",
+      "baseValue": "+29",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+29"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-122-1r6rvrz",
+      "sortOrder": 122,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "생명력",
+      "baseValue": "+10.5%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+10.5%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-123-1rifi6",
+      "sortOrder": 123,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "지능",
+      "baseValue": "+29",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+29"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-124-11abt3e",
+      "sortOrder": 124,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "궁극기 충전 효율",
+      "baseValue": "+14.7%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+14.7%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-125-b4kzju",
+      "sortOrder": 125,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 1,
+      "statKo": "지능",
+      "baseValue": "+46",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+46"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-126-1cw9mbo",
+      "sortOrder": 126,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 2,
+      "statKo": "힘",
+      "baseValue": "+30",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+30"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-127-1f1lf52",
+      "sortOrder": 127,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "일반 공격 피해 보너스",
+      "baseValue": "+9.8%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+9.8%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-128-14rdz4e",
+      "sortOrder": 128,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "지능",
+      "baseValue": "+21",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+21"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-129-1912abb",
+      "sortOrder": 129,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "치명타 확률",
+      "baseValue": "+5.3%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+5.3%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-130-eqoxw0",
+      "sortOrder": 130,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "냉기와 전기 피해 보너스",
+      "baseValue": "+11.7%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+11.7%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-131-14peczi",
+      "sortOrder": 131,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 1,
+      "statKo": "지능",
+      "baseValue": "+33",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+33"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-132-6vrl2e",
+      "sortOrder": 132,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 2,
+      "statKo": "의지",
+      "baseValue": "+22",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+22"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-133-15qvb2j",
+      "sortOrder": 133,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "아츠 피해 보너스",
+      "baseValue": "+9.2%",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+9.2%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-134-z6yemn",
+      "sortOrder": 134,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 1,
+      "statKo": "지능",
+      "baseValue": "+44",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+44"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-135-1rau8pn",
+      "sortOrder": 135,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 2,
+      "statKo": "힘",
+      "baseValue": "+29",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+29"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-136-1l51bsl",
+      "sortOrder": 136,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "공격력",
+      "baseValue": "+16",
+      "forgeStatus": "not_applicable",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+16"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-137-yzzltg",
+      "sortOrder": 137,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "의지",
+      "baseValue": "+43",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+43"
+        },
+        {
+          "stage": 1,
+          "value": "+47"
+        },
+        {
+          "stage": 2,
+          "value": "+51"
+        },
+        {
+          "stage": 3,
+          "value": "+55"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-138-vhwt9k",
+      "sortOrder": 138,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "치명타 확률",
+      "baseValue": "+10.8%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+10.8%"
+        },
+        {
+          "stage": 1,
+          "value": "+11.9%"
+        },
+        {
+          "stage": 2,
+          "value": "+13%"
+        },
+        {
+          "stage": 3,
+          "value": "+14%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-139-2wysmn",
+      "sortOrder": 139,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "지능",
+      "baseValue": "+43",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+43"
+        },
+        {
+          "stage": 1,
+          "value": "+47"
+        },
+        {
+          "stage": 2,
+          "value": "+51"
+        },
+        {
+          "stage": 3,
+          "value": "+55"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-140-13ehzhq",
+      "sortOrder": 140,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "궁극기 충전 효율",
+      "baseValue": "+25.7%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+25.7%"
+        },
+        {
+          "stage": 1,
+          "value": "+28.3%"
+        },
+        {
+          "stage": 2,
+          "value": "+30.9%"
+        },
+        {
+          "stage": 3,
+          "value": "+33.4%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-141-1qmok8n",
+      "sortOrder": 141,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "민첩",
+      "baseValue": "+43",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+43"
+        },
+        {
+          "stage": 1,
+          "value": "+47"
+        },
+        {
+          "stage": 2,
+          "value": "+51"
+        },
+        {
+          "stage": 3,
+          "value": "+55"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-142-cqt16p",
+      "sortOrder": 142,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "연계 스킬 피해 보너스",
+      "baseValue": "+43.2%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+43.2%"
+        },
+        {
+          "stage": 1,
+          "value": "+47.5%"
+        },
+        {
+          "stage": 2,
+          "value": "+51.8%"
+        },
+        {
+          "stage": 3,
+          "value": "+56.2%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-143-1n7n736",
+      "sortOrder": 143,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 1,
+      "statKo": "힘",
+      "baseValue": "+43",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+43"
+        },
+        {
+          "stage": 1,
+          "value": "+47"
+        },
+        {
+          "stage": 2,
+          "value": "+51"
+        },
+        {
+          "stage": 3,
+          "value": "+55"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-144-12vxa2d",
+      "sortOrder": 144,
+      "kind": "equipmentStat",
+      "partId": "kit",
+      "optionSlot": 3,
+      "statKo": "모든 피해 감소",
+      "baseValue": "17.8%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "17.8%"
+        },
+        {
+          "stage": 1,
+          "value": "19.2%"
+        },
+        {
+          "stage": 2,
+          "value": "20.6%"
+        },
+        {
+          "stage": 3,
+          "value": "21.9%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-145-guhdpd",
+      "sortOrder": 145,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 1,
+      "statKo": "힘",
+      "baseValue": "+86",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+86"
+        },
+        {
+          "stage": 1,
+          "value": "+94"
+        },
+        {
+          "stage": 2,
+          "value": "+103"
+        },
+        {
+          "stage": 3,
+          "value": "+111"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-146-7zutgf",
+      "sortOrder": 146,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 2,
+      "statKo": "미확인",
+      "baseValue": "+125",
+      "forgeStatus": "needs_review",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+125"
+        }
+      ],
+      "sourceStatus": "needs_review",
+      "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+    },
+    {
+      "id": "equipment-option-147-1s5nnda",
+      "sortOrder": 147,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "모든 스킬 피해 보너스",
+      "baseValue": "+24%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+24%"
+        },
+        {
+          "stage": 1,
+          "value": "+26.4%"
+        },
+        {
+          "stage": 2,
+          "value": "+28.8%"
+        },
+        {
+          "stage": 3,
+          "value": "+31.2%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-148-wmo1dw",
+      "sortOrder": 148,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 1,
+      "statKo": "민첩",
+      "baseValue": "+86",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+86"
+        },
+        {
+          "stage": 1,
+          "value": "+94"
+        },
+        {
+          "stage": 2,
+          "value": "+103"
+        },
+        {
+          "stage": 3,
+          "value": "+111"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-149-tdgfcb",
+      "sortOrder": 149,
+      "kind": "equipmentStat",
+      "partId": "gloves",
+      "optionSlot": 3,
+      "statKo": "궁극기 피해 보너스",
+      "baseValue": "+45%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+45%"
+        },
+        {
+          "stage": 1,
+          "value": "+49.5%"
+        },
+        {
+          "stage": 2,
+          "value": "+54%"
+        },
+        {
+          "stage": 3,
+          "value": "+58.5%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-150-5spwv4",
+      "sortOrder": 150,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 1,
+      "statKo": "지능",
+      "baseValue": "+115",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+115"
+        },
+        {
+          "stage": 1,
+          "value": "+126"
+        },
+        {
+          "stage": 2,
+          "value": "+138"
+        },
+        {
+          "stage": 3,
+          "value": "+149"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-151-1df2io6",
+      "sortOrder": 151,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 2,
+      "statKo": "미확인",
+      "baseValue": "+125",
+      "forgeStatus": "needs_review",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+125"
+        }
+      ],
+      "sourceStatus": "needs_review",
+      "notes": "원문 HTML에서 옵션명이 숨김/누락되고 값만 표시된 항목."
+    },
+    {
+      "id": "equipment-option-152-sogtn6",
+      "sortOrder": 152,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "궁극기 충전 효율",
+      "baseValue": "+12.9%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+12.9%"
+        },
+        {
+          "stage": 1,
+          "value": "+14.1%"
+        },
+        {
+          "stage": 2,
+          "value": "+15.4%"
+        },
+        {
+          "stage": 3,
+          "value": "+16.7%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-153-d9xis0",
+      "sortOrder": 153,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 1,
+      "statKo": "민첩",
+      "baseValue": "+115",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+115"
+        },
+        {
+          "stage": 1,
+          "value": "+126"
+        },
+        {
+          "stage": 2,
+          "value": "+138"
+        },
+        {
+          "stage": 3,
+          "value": "+149"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    },
+    {
+      "id": "equipment-option-154-6p7zvw",
+      "sortOrder": 154,
+      "kind": "equipmentStat",
+      "partId": "armor",
+      "optionSlot": 3,
+      "statKo": "일반 공격 피해 보너스",
+      "baseValue": "+14.4%",
+      "forgeStatus": "available",
+      "forgeStages": [
+        {
+          "stage": 0,
+          "value": "+14.4%"
+        },
+        {
+          "stage": 1,
+          "value": "+15.8%"
+        },
+        {
+          "stage": 2,
+          "value": "+17.3%"
+        },
+        {
+          "stage": 3,
+          "value": "+18.7%"
+        }
+      ],
+      "sourceStatus": "verified_from_source"
+    }
+  ]
+}

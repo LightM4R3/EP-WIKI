@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://epwiki.local/schemas/equipment-set-categories.schema.json",
+  "title": "EPWIKI Equipment Set Categories",
+  "type": "object",
+  "required": ["schemaVersion", "game", "lastReviewedAt", "sources", "setRules", "sets"],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "game": {
+      "type": "string"
+    },
+    "lastReviewedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "setRules": {
+      "type": "object",
+      "required": ["requiredPieces", "duplicateKitCounts"],
+      "additionalProperties": false,
+      "properties": {
+        "requiredPieces": {
+          "type": "integer",
+          "const": 3
+        },
+        "duplicateKitCounts": {
+          "type": "boolean"
+        }
+      }
+    },
+    "sets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/set"
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["id", "title", "url", "type", "language", "lastCheckedAt"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "lastCheckedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "set": {
+      "type": "object",
+      "required": [
+        "id",
+        "sortOrder",
+        "nameKo",
+        "group",
+        "sourceSection",
+        "levelBand",
+        "piecesRequired",
+        "duplicateKitCounts",
+        "effectKo",
+        "sourceRefs",
+        "verification"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "sortOrder": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "nameKo": {
+          "type": "string"
+        },
+        "group": {
+          "type": "string",
+          "const": "set"
+        },
+        "sourceSection": {
+          "type": "string"
+        },
+        "levelBand": {
+          "type": ["string", "null"]
+        },
+        "piecesRequired": {
+          "type": "integer",
+          "const": 3
+        },
+        "duplicateKitCounts": {
+          "type": "boolean"
+        },
+        "effectKo": {
+          "type": "string"
+        },
+        "sourceRefs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": ["status"],
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["placeholder", "needs_review", "verified"]
+        },
+        "reviewedBy": {
+          "type": "string"
+        },
+        "reviewedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

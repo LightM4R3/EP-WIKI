@@ -29,8 +29,14 @@ npm.cmd run dev
 - `src/data/game/weapon/option-categories.schema.json`: 무기 옵션 카테고리 JSON 입력 스키마
 - `src/data/game/weapon.schema.json`: 무기 JSON 입력 스키마
 - `src/data/game/weapons.seed.json`: 나무위키 기반 무기 seed 데이터. 2026-06-10 기준 71개 레코드와 레어도/타입/획득 그룹/기본 공격력/옵션 카테고리 참조 포함
+- `src/data/game/equipment/categories.json`: 장비 부위, 희귀도, 단조 규칙, 장비 부품 카테고리
+- `src/data/game/equipment/set-categories.json`: 장비 세트 18종의 이름과 3세트 효과
+- `src/data/game/equipment/option-categories.json`: 장비 옵션과 부위별 단조 단계 수치 카테고리
+- `src/data/game/equipment/equipment.seed.json`: 나무위키 기반 장비 seed 데이터. 2026-06-10 기준 164개 레코드와 세트/부위/방어력/옵션 참조 포함
+- `src/data/game/equipment/*.schema.json`: 장비 카테고리, 세트, 옵션, seed JSON 입력 스키마
 - `docs/operator-data-model.md`: 오퍼레이터가 가져야 할 항목과 검증 플로우
 - `docs/weapon-data-model.md`: 무기가 가져야 할 항목과 검증 플로우
+- `docs/equipment-data-model.md`: 장비가 가져야 할 항목과 단조/소재 검증 플로우
 - `docs/project-plan.md`: 데이터 모델과 다음 구현 순서 구상안
 
 ## 개발 원칙

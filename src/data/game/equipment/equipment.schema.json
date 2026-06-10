@@ -1,0 +1,250 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://epwiki.local/schemas/equipment.schema.json",
+  "title": "EPWIKI Equipment Dataset",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "game",
+    "categoriesRef",
+    "setCategoriesRef",
+    "optionCategoriesRef",
+    "sources",
+    "equipment"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string"
+    },
+    "game": {
+      "type": "string"
+    },
+    "categoriesRef": {
+      "type": "string"
+    },
+    "setCategoriesRef": {
+      "type": "string"
+    },
+    "optionCategoriesRef": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "equipment": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/equipment"
+      }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["id", "title", "url", "type", "language", "lastCheckedAt"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "type": "string"
+        },
+        "language": {
+          "type": "string"
+        },
+        "lastCheckedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "equipment": {
+      "type": "object",
+      "required": [
+        "id",
+        "sortOrder",
+        "names",
+        "group",
+        "setCategoryId",
+        "setOrder",
+        "sourceSection",
+        "sourceSectionTitleKo",
+        "level",
+        "rarity",
+        "partId",
+        "partLabelKo",
+        "defense",
+        "options",
+        "forgeable",
+        "crafting",
+        "sourceRefs",
+        "verification"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "sortOrder": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "names": {
+          "type": "object",
+          "required": ["ko"],
+          "additionalProperties": false,
+          "properties": {
+            "ko": {
+              "type": "string"
+            },
+            "en": {
+              "type": "string"
+            },
+            "aliases": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "group": {
+          "type": "string",
+          "enum": ["set", "single", "unknown"]
+        },
+        "setCategoryId": {
+          "type": ["string", "null"]
+        },
+        "setOrder": {
+          "type": ["integer", "null"],
+          "minimum": 1
+        },
+        "sourceSection": {
+          "type": ["string", "null"]
+        },
+        "sourceSectionTitleKo": {
+          "type": ["string", "null"]
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "rarity": {
+          "type": "integer",
+          "enum": [3, 4, 5]
+        },
+        "partId": {
+          "type": "string",
+          "enum": ["armor", "gloves", "kit"]
+        },
+        "partLabelKo": {
+          "type": "string"
+        },
+        "defense": {
+          "type": "object",
+          "required": ["statKo", "value"],
+          "additionalProperties": false,
+          "properties": {
+            "statKo": {
+              "type": "string"
+            },
+            "value": {
+              "type": ["string", "null"]
+            }
+          }
+        },
+        "options": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "$ref": "#/$defs/optionRef"
+          }
+        },
+        "forgeable": {
+          "type": "boolean"
+        },
+        "crafting": {
+          "$ref": "#/$defs/crafting"
+        },
+        "sourceRefs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        }
+      }
+    },
+    "optionRef": {
+      "type": "object",
+      "required": ["slot", "categoryId"],
+      "additionalProperties": false,
+      "properties": {
+        "slot": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 3
+        },
+        "categoryId": {
+          "type": "string"
+        }
+      }
+    },
+    "crafting": {
+      "type": "object",
+      "required": ["materialPartCategoryId", "sourceStatus", "notes"],
+      "additionalProperties": false,
+      "properties": {
+        "materialPartCategoryId": {
+          "type": ["string", "null"]
+        },
+        "sourceStatus": {
+          "type": "string",
+          "enum": ["placeholder", "needs_review", "verified"]
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "required": ["status"],
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["placeholder", "needs_review", "verified"]
+        },
+        "reviewedBy": {
+          "type": "string"
+        },
+        "reviewedAt": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

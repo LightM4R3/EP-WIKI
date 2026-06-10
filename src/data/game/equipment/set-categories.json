@@ -1,0 +1,346 @@
+{
+  "schemaVersion": "0.1.0",
+  "game": "Arknights: Endfield",
+  "lastReviewedAt": "2026-06-10",
+  "sources": [
+    {
+      "id": "namu-equipment-main",
+      "title": "명일방주: 엔드필드/장비",
+      "url": "https://namu.wiki/w/%EB%AA%85%EC%9D%BC%EB%B0%A9%EC%A3%BC:%20%EC%97%94%EB%93%9C%ED%95%84%EB%93%9C/%EC%9E%A5%EB%B9%84",
+      "type": "wiki",
+      "language": "ko",
+      "lastCheckedAt": "2026-06-10",
+      "notes": "장비 개요, 세트 효과, 장비별 방어력/옵션/단조 수치를 1차 출처로 정리."
+    }
+  ],
+  "setRules": {
+    "requiredPieces": 3,
+    "duplicateKitCounts": true
+  },
+  "sets": [
+    {
+      "id": "equipment-set-001-uwb8is",
+      "sortOrder": 1,
+      "nameKo": "고검의 잔향",
+      "group": "set",
+      "sourceSection": "3.1.1",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 공격력 +8% 장착자가 강타 , 갑옷 파괴 피해를 줄 때, 소모 한 최대 방어 불능 스택 수치에 따라 자신의 물리 피해 +[6%×소모한 스택 수치] , 20초 동안 지속. 만약 목표가 물리 취약 , 불균형 상태거나 오리지늄 결정 이 부착된 상태라면 위의 버프 효과가 1.5 배로 변경됩니다. 버프 효과는 중첩되지 않습니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-002-lpvg3a",
+      "sortOrder": 2,
+      "nameKo": "식양의 흐름",
+      "group": "set",
+      "sourceSection": "3.1.2",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 공격력 +10% 장착자가 감전 혹은 부식 을 소모할 때마다, 이상 레벨 에 따른 같은 스택 수치의 강화 상태를 획득합니다. 스택이 중첩될 때마다 전기 피해 및 자연 피해 +15% , 25초 동안 지속. 강화 상태는 최대 3스택까지 중첩되며 중첩될 때마다 지속 시간은 따로 계산됩니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-003-1t05u20",
+      "sortOrder": 3,
+      "nameKo": "청파",
+      "group": "set",
+      "sourceSection": "3.1.3",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 연계 스킬 쿨타임 감소 +15% 장착자가 연계 스킬을 사용할 때, 모든 스킬 피해 +20% , 15초 동안 지속. 해당 효과는 최대 2스택까지 중첩되며 중첩될 때마다 지속 시간은 따로 계산됩니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-004-1rur1r8",
+      "sortOrder": 4,
+      "nameKo": "식양의 숨결",
+      "group": "set",
+      "sourceSection": "3.1.4",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 생명력 +1000 장착자가 증폭 , 비호 , 취약 , 허약 을 부여한 후, 다른 팀원이 주는 피해 +16% , 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-005-11ve5cr",
+      "sortOrder": 5,
+      "nameKo": "조류의 물결",
+      "group": "set",
+      "sourceSection": "3.1.5",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 모든 스킬 피해 +20% 장착자가 적에게 2 스택 혹은 그 이상의 아츠 부착 을 부여한 후, 주는 아츠 피해 +35% , 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-006-4l31ma",
+      "sortOrder": 6,
+      "nameKo": "응룡 50식",
+      "group": "set",
+      "sourceSection": "3.1.6",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 공격력 +15% 팀 내 임의의 오퍼레이터가 배틀 스킬을 사용할 때, 장착자가 응룡의 예리함 1스택 획득, 해당 오퍼레이터의 다음 연계 스킬 피해 +20% . 응룡의 예리함 은 최대 3스택까지만 중첩됩니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-007-qdvgcj",
+      "sortOrder": 7,
+      "nameKo": "M. I. 경찰용",
+      "group": "set",
+      "sourceSection": "3.1.7",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 치명타 확률 +5% 장착자가 적에게 치명타를 준 후, 5초 동안 공격력 +5% , 최대 중첩 5스택. 최대 중첩 시, 치명타 확률 추가 +5% , 해당 효과는 중첩되지 않습니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-008-1ut6vdt",
+      "sortOrder": 8,
+      "nameKo": "열 작업용",
+      "group": "set",
+      "sourceSection": "3.1.8",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 오리지늄 아츠 강도 +30 장착자가 적에게 연소 를 부여한 후, 열기 피해 +50% , 10초 동안 지속, 해당 효과는 중첩되지 않습니다.장착자가 적에게 부식 을 부여한 후, 자연 피해 +50% , 10초 동안 지속, 해당 효과는 중첩되지 않습니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-009-youyy0",
+      "sortOrder": 9,
+      "nameKo": "개척",
+      "group": "set",
+      "sourceSection": "3.1.9",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 연계 스킬 쿨타임 감소 +15% 장착자가 스킬을 사용하여 스킬 게이지를 회복한 후, 팀 전체가 주는 피해 +16% , 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-010-1nqc37c",
+      "sortOrder": 10,
+      "nameKo": "펄스식",
+      "group": "set",
+      "sourceSection": "3.1.10",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 오리지늄 아츠 강도 +30 장착자가 적에게 감전 을 부여한 후, 전기 피해 +50% , 10초 동안 지속, 해당 효과는 중첩되지 않습니다.장착자가 적에게 동결 을 부여한 후, 냉기 피해 +50% , 10초 동안 지속, 해당 효과는 중첩되지 않습니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-011-6rnek0",
+      "sortOrder": 11,
+      "nameKo": "본 크러셔",
+      "group": "set",
+      "sourceSection": "3.1.11",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 공격력 +15% 장착자가 연계 스킬을 사용할 때, 본 크러셔의 압박 1스택 획득, 다음 배틀 스킬의 피해 +30% . 본 크러셔의 압박 은 최대 2스택까지만 중첩됩니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-012-e3j6i7",
+      "sortOrder": 12,
+      "nameKo": "경량 초자연",
+      "group": "set",
+      "sourceSection": "3.1.12",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 공격력 +8% 장착자가 적에게 방어 불능 을 부여한 후, 물리 피해 +8% , 15초 동안 지속, 최대 중첩 4스택. 목표의 방어 불능 스택이 4스택에 도달할 경우, 추가 물리 피해 +16% , 10초 동안 지속, 해당 효과는 중첩되지 않습니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-013-1582zml",
+      "sortOrder": 13,
+      "nameKo": "생체 보조",
+      "group": "set",
+      "sourceSection": "3.1.13",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 치유 효율 +20% 장착자가 아군을 치유할 때, 목표가 10초 동안 받는 모든 유형 피해 -15% , 해당 목표가 받는 치유량이 최대치를 넘을 경우, 받는 모든 유형 피해 -30% , 해당 효과는 중첩되지 않습니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-014-17hc2cr",
+      "sortOrder": 14,
+      "nameKo": "검술사",
+      "group": "set",
+      "sourceSection": "3.1.14",
+      "levelBand": "Lv. 70",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 불균형 효율 보너스 +20% 장착자가 물리 이상 효과를 부여한 후, 공격력 250%만큼의 추가 물리 피해[10 포인트 불균형치]. 해당 효과는 15초마다 최대 1회만 발동합니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-015-1wqcjri",
+      "sortOrder": 15,
+      "nameKo": "재앙 방호",
+      "group": "set",
+      "sourceSection": "3.2.1",
+      "levelBand": "Lv. 50",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 궁극기 충전 효율 +20% 장착자가 배틀 스킬을 사용할 때, 반환 하는 스킬 게이지 50 포인트. 해당 효과는 전투마다 최대 1회만 발동합니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-016-83mhf3",
+      "sortOrder": 16,
+      "nameKo": "아부레이의 메아리",
+      "group": "set",
+      "sourceSection": "3.2.2",
+      "levelBand": "Lv. 50",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 모든 스킬 피해 +24% 장착자가 배틀 스킬, 연계 스킬, 궁극기를 사용할 때, 각각 공격력 +5% , 15초 동안 지속. 세 가지 버프는 독립적으로 존재하며 스택 수치는 중첩되지 않습니다.",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-017-1fng7jt",
+      "sortOrder": 17,
+      "nameKo": "침식 방호",
+      "group": "set",
+      "sourceSection": "3.3.1",
+      "levelBand": "Lv. 36 ~ 50",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 의지 +50 장착자의 생명력이 50% 미만일 때, 주는 치유 효과 +30%",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    },
+    {
+      "id": "equipment-set-018-j2nrox",
+      "sortOrder": 18,
+      "nameKo": "침식 차단",
+      "group": "set",
+      "sourceSection": "3.3.2",
+      "levelBand": "Lv. 36 ~ 50",
+      "piecesRequired": 3,
+      "duplicateKitCounts": true,
+      "effectKo": "장착자의 지능 +50 장착자의 생명력이 80% 이상일 때, 주는 아츠 피해 +20%",
+      "sourceRefs": [
+        "namu-equipment-main"
+      ],
+      "verification": {
+        "status": "needs_review",
+        "notes": "원문 세트 효과를 일차 수집."
+      }
+    }
+  ]
+}
