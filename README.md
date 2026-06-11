@@ -40,6 +40,7 @@ npm.cmd run dev
 - `docs/weapon-data-model.md`: 무기가 가져야 할 항목과 검증 플로우
 - `docs/equipment-data-model.md`: 장비가 가져야 할 항목과 단조/소재 검증 플로우
 - `docs/project-plan.md`: 데이터 모델과 다음 구현 순서 구상안
+- `TODO.md`: RAG 세팅과 인포그래픽 구현 계획 체크리스트
 
 ## 개발 원칙
 
