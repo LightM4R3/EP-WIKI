@@ -1,18 +1,90 @@
+import { useMemo, useState } from 'react'
 import { operators } from '../../data/catalog'
 import { SectionHeader } from '../../shared/components/SectionHeader'
 import { StatPill } from '../../shared/components/StatPill'
 
 export function OperatorsPage() {
+  const [searchTerm, setSearchTerm] = useState('')
+  const [roleFilter, setRoleFilter] = useState('all')
+  const [rarityFilter, setRarityFilter] = useState('all')
+
+  const roleOptions = useMemo(
+    () =>
+      Array.from(new Map(operators.map((operator) => [operator.role, operator.roleLabel])).entries()).map(
+        ([id, label]) => ({ id, label }),
+      ),
+    [],
+  )
+  const rarityOptions = useMemo(
+    () =>
+      Array.from(new Map(operators.map((operator) => [String(operator.rarity), operator.rarityLabel])).entries()).map(
+        ([id, label]) => ({ id, label }),
+      ),
+    [],
+  )
+
+  const filteredOperators = useMemo(() => {
+    const normalizedSearchTerm = searchTerm.trim().toLowerCase()
+
+    return operators.filter((operator) => {
+      const matchesSearch =
+        normalizedSearchTerm.length === 0 ||
+        [operator.name, operator.faction, operator.roleLabel, operator.damageTypeLabel, operator.weaponTypeLabel]
+          .join(' ')
+          .toLowerCase()
+          .includes(normalizedSearchTerm)
+      const matchesRole = roleFilter === 'all' || operator.role === roleFilter
+      const matchesRarity = rarityFilter === 'all' || String(operator.rarity) === rarityFilter
+
+      return matchesSearch && matchesRole && matchesRarity
+    })
+  }, [rarityFilter, roleFilter, searchTerm])
+
   return (
     <section className="section-block" id="operators">
       <SectionHeader
         eyebrow="Database"
         title="오퍼레이터 기본 정보"
-        description="실제 데이터가 확보되면 이 영역은 검색, 필터, 상세 스탯표, 스킬/재능 비교 화면으로 확장됩니다."
+        description="오퍼레이터의 기본 분류, 능력치, 재능, 스킬을 확인합니다. 현재 데이터는 검수 상태를 함께 표시합니다."
       />
 
+      <div className="catalog-toolbar" aria-label="오퍼레이터 필터">
+        <label>
+          검색
+          <input
+            onChange={(event) => setSearchTerm(event.target.value)}
+            placeholder="이름, 진영, 역할 검색"
+            type="search"
+            value={searchTerm}
+          />
+        </label>
+        <label>
+          역할
+          <select onChange={(event) => setRoleFilter(event.target.value)} value={roleFilter}>
+            <option value="all">전체 역할</option>
+            {roleOptions.map((option) => (
+              <option key={option.id} value={option.id}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </label>
+        <label>
+          희귀도
+          <select onChange={(event) => setRarityFilter(event.target.value)} value={rarityFilter}>
+            <option value="all">전체 희귀도</option>
+            {rarityOptions.map((option) => (
+              <option key={option.id} value={option.id}>
+                {option.label}
+              </option>
+            ))}
+          </select>
+        </label>
+        <span className="catalog-count">{filteredOperators.length}명</span>
+      </div>
+
       <div className="operator-grid">
-        {operators.map((operator) => (
+        {filteredOperators.map((operator) => (
           <article className="operator-card" key={operator.id}>
             <div className="card-heading">
               <div>

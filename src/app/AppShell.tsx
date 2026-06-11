@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react'
 import { CrisisContractPage } from '../features/crisis-contract/CrisisContractPage'
 import { DamageCalculatorPage } from '../features/damage-calculator/DamageCalculatorPage'
+import { EquipmentPage } from '../features/equipment/EquipmentPage'
 import { OperatorsPage } from '../features/operators/OperatorsPage'
+import { WeaponsPage } from '../features/weapons/WeaponsPage'
 import { SectionHeader } from '../shared/components/SectionHeader'
 import {
   defaultNavigationId,
@@ -85,6 +87,10 @@ function renderActivePage(activePage: NavigationId) {
   switch (activePage) {
     case 'operators':
       return <OperatorsPage />
+    case 'weapons':
+      return <WeaponsPage />
+    case 'equipment':
+      return <EquipmentPage />
     case 'damage-calculator':
       return <DamageCalculatorPage />
     case 'crisis-contract':

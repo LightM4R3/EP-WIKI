@@ -16,6 +16,8 @@ npm.cmd run dev
 - `src/domain`: 오퍼레이터, 무기, 장비, 피해 계산, 위기 협약 제약 타입
 - `src/data`: 실제 데이터 적재 전 화면 검증용 샘플 카탈로그
 - `src/features/operators`: 오퍼레이터 기본 정보 화면
+- `src/features/weapons`: 무기 카탈로그 화면
+- `src/features/equipment`: 장비와 세트 효과 카탈로그 화면
 - `src/features/damage-calculator`: 빌드 선택 UI와 임시 피해량 계산 모델
 - `src/features/crisis-contract`: 위기 협약 제약 선택 및 검증 UI
 - `src/app/navigation.ts`: 우측 상단 카테고리 전환 메뉴 정의
