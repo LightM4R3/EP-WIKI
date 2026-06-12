@@ -118,6 +118,9 @@
         "names": {
           "$ref": "#/$defs/localizedName"
         },
+        "localizationStatus": {
+          "$ref": "#/$defs/localizationStatus"
+        },
         "rarity": {
           "type": "integer",
           "minimum": 1,
@@ -545,6 +548,30 @@
           "items": {
             "$ref": "#/$defs/multiplier"
           }
+        },
+        "sourceText": {
+          "$ref": "#/$defs/sourceText"
+        },
+        "effectRows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/effectRow"
+          }
+        },
+        "calculationRows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/calculationRow"
+          }
+        },
+        "totalDamageRows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/totalDamageRow"
+          }
+        },
+        "localizationStatus": {
+          "$ref": "#/$defs/localizationStatus"
         }
       }
     },
@@ -622,6 +649,24 @@
           "items": {
             "$ref": "#/$defs/progressionEffectLevel"
           }
+        },
+        "sourceText": {
+          "$ref": "#/$defs/sourceText"
+        },
+        "effectRows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/effectRow"
+          }
+        },
+        "calculationRows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/calculationRow"
+          }
+        },
+        "localizationStatus": {
+          "$ref": "#/$defs/localizationStatus"
         }
       }
     },
@@ -659,6 +704,229 @@
           "items": {
             "type": "string"
           }
+        },
+        "sourceText": {
+          "$ref": "#/$defs/sourceText"
+        },
+        "effectRows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/effectRow"
+          }
+        },
+        "calculationRows": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/calculationRow"
+          }
+        }
+      }
+    },
+    "localizationStatus": {
+      "type": "object",
+      "required": ["primaryLanguage", "nameKoStatus", "textKoStatus"],
+      "additionalProperties": false,
+      "properties": {
+        "primaryLanguage": {
+          "const": "ko"
+        },
+        "nameKoStatus": {
+          "enum": ["verified", "needs_review", "needs_translation"]
+        },
+        "textKoStatus": {
+          "enum": ["verified", "needs_review", "needs_translation"]
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "sourceText": {
+      "type": "object",
+      "required": ["primaryLanguage", "originalLanguage", "status"],
+      "additionalProperties": false,
+      "properties": {
+        "primaryLanguage": {
+          "const": "ko"
+        },
+        "originalLanguage": {
+          "enum": ["ko", "en", "mixed", "unknown"]
+        },
+        "status": {
+          "enum": ["verified", "needs_review", "needs_translation"]
+        },
+        "ko": {
+          "type": "string"
+        },
+        "en": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "effectRow": {
+      "type": "object",
+      "required": ["id", "kind", "sourceId", "sourceText", "sourceStatus"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "kind": {
+          "type": "string",
+          "enum": ["stat_modifier", "damage_modifier", "resource_modifier", "status_application", "healing_formula", "trigger", "other"]
+        },
+        "sourceId": {
+          "type": "string"
+        },
+        "labelKo": {
+          "type": "string"
+        },
+        "labelEn": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        },
+        "stat": {
+          "type": "string"
+        },
+        "statKo": {
+          "type": "string"
+        },
+        "operation": {
+          "type": "string"
+        },
+        "value": {
+          "type": "number"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "durationSeconds": {
+          "type": "number"
+        },
+        "maxStacks": {
+          "type": "number"
+        },
+        "valueAtMaxStacks": {
+          "type": "number"
+        },
+        "formula": {
+          "type": "string"
+        },
+        "conditionKo": {
+          "type": "string"
+        },
+        "conditionEn": {
+          "type": "string"
+        },
+        "sourceText": {
+          "type": "string"
+        },
+        "sourceStatus": {
+          "enum": ["verified", "parsed_from_ko", "parsed_from_en_needs_ko_review", "needs_review"]
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "calculationRow": {
+      "type": "object",
+      "required": ["id", "sourceRowIds", "kind", "stat", "operation", "value", "unit", "sourceStatus"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "sourceRowIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "kind": {
+          "type": "string",
+          "enum": ["stat_modifier", "damage_modifier", "resource_modifier", "healing_formula", "other"]
+        },
+        "labelKo": {
+          "type": "string"
+        },
+        "labelEn": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        },
+        "stat": {
+          "type": "string"
+        },
+        "statKo": {
+          "type": "string"
+        },
+        "operation": {
+          "type": "string"
+        },
+        "value": {
+          "type": "number"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "conditionState": {
+          "type": "string"
+        },
+        "formula": {
+          "type": "string"
+        },
+        "sourceStatus": {
+          "enum": ["verified", "parsed_from_ko", "parsed_from_en_needs_ko_review", "needs_review"]
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "totalDamageRow": {
+      "type": "object",
+      "required": ["id", "labelKo", "damageType", "formulaStatus", "sourceStatus"],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "labelKo": {
+          "type": "string"
+        },
+        "labelEn": {
+          "type": "string"
+        },
+        "damageType": {
+          "enum": ["Physical", "Heat", "Electric", "Cryo", "Nature", "Unknown"]
+        },
+        "hitCount": {
+          "type": "number"
+        },
+        "knownMultiplierTotal": {
+          "type": "number"
+        },
+        "unit": {
+          "type": "string"
+        },
+        "formula": {
+          "type": "string"
+        },
+        "formulaStatus": {
+          "enum": ["ready", "partial", "needs_multiplier_data", "not_damage_skill"]
+        },
+        "sourceStatus": {
+          "enum": ["verified", "parsed_from_ko", "parsed_from_en_needs_ko_review", "needs_review"]
+        },
+        "notes": {
+          "type": "string"
         }
       }
     },

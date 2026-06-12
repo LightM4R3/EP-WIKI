@@ -8,12 +8,26 @@
 
 ## 현재 seed 범위
 
-`src/data/game/operator/operators.seed.json`은 2026-06-09 기준 28개 오퍼레이터 레코드를 포함한다.
+`src/data/game/operator/operators.seed.json`은 2026-06-12 기준 28개 오퍼레이터 레코드를 포함한다.
 
 - perlica.moe 현재 목록은 29개 오퍼레이터 레코드를 노출하지만, `Camille`은 2026-06-09 시점에서 추후 배너로 표시되어 출시 seed에서 제외했다.
 - `Endministrator`는 perlica.moe에서 남/여 변형이 `endministrator-a`, `endministrator-b`로 분리되어 있어 현재 seed도 두 레코드로 보존했다.
 - 28명 전원은 perlica.moe 상세 페이지 기준으로 기본 공격, 전투 스킬, 콤보 스킬, 궁극기, 재능, 패시브, 잠재, 공업/기지 스킬, 기본 스탯, 레벨당 성장치를 포함한다.
 - 자동 추출 데이터이므로 `verification.status`는 우선 `needs_review`로 유지한다. 한국어 표기, 정식 번역, 세부 수치 검수 이후 `verified`로 올린다.
+- `schemaVersion: 0.3.0`부터 스킬, 재능, 잠재, 패시브, 기지 스킬에는 `sourceText`, `effectRows`, `calculationRows`를 추가한다. 스킬에는 별도로 `totalDamageRows`를 둔다.
+
+## 한국어 원칙
+
+EPWIKI의 기본 언어는 한국어다. 오퍼레이터 이름과 화면 표시명은 `names.ko` 및 `nameKo`를 우선 사용한다.
+
+다만 현재 공개 웹 출처에서는 오퍼레이터 목록과 프로필 한국어명은 확인되지만, 모든 스킬/재능/잠재의 인게임 한국어 원문은 한 번에 확인되지 않는다. 따라서 전투 텍스트에는 다음 상태를 명시한다.
+
+- `localizationStatus.primaryLanguage`: 항상 `ko`
+- `nameKoStatus`: 한국어 명칭 검수 상태
+- `textKoStatus`: 한국어 원문 검수 상태
+- `sourceText.status`: 원문이 한국어인지, 영문 원천을 임시 보존한 것인지 표시
+
+한국어 원문이 확인되지 않은 항목은 영문 텍스트를 임의 번역하지 않고 `needs_translation`으로 남긴다. 이는 계산식과 출처 검수를 섞지 않기 위한 규칙이다.
 
 ## 오퍼레이터 기본 항목
 
@@ -68,6 +82,19 @@
 
 스킬 원문은 출처마다 번역과 버전 차이가 생길 수 있으므로, JSON에는 정리된 `description`, 짧은 `summary`, 줄 단위 `effects`, `damageType`, `icon`, 추출 가능한 `multipliers`를 함께 저장한다.
 
+추가로 계산기/RAG를 위해 아래 row를 둔다.
+
+- `sourceText`: 원문 보존 영역. 한국어 원문이 있으면 `ko`, 영문 원천이 있으면 `en`을 저장한다.
+- `effectRows`: 텍스트에서 직접 추출한 효과 단위. 예: `공격력 +8%`, `10초`, `최대 5스택`.
+- `calculationRows`: 조건이 충족되었을 때 계산기에 적용할 최종 효과. 예: 최대 5스택 기준 `공격력 +40%`.
+- `totalDamageRows`: 스킬의 총합 피해량 계산용 row. 현재는 타격 수와 피해 타입만 확인된 항목이 많아 `formulaStatus: "needs_multiplier_data"`로 둔다.
+
+예를 들어 진천우의 재능 `칼날 베기`는 원문과 계산 row를 분리해 저장한다.
+
+- 원문: `스킬이 적에게 명중할 때마다 공격력 +8%, 10초 동안 지속, 해당 효과는 최대 5스택까지 중첩됩니다.`
+- 효과 row: `공격력 +8%`, `durationSeconds: 10`, `maxStacks: 5`
+- 계산 row: 조건 충족 및 최대 중첩 기준 `공격력 +40%`
+
 ## 재능과 잠재
 
 재능과 잠재는 둘 다 `progressionEffect` 형태로 저장한다.
@@ -78,6 +105,8 @@
 - `baseSkills`: 제조/공업/시설 배치 효과
 
 이 구조는 추후 피해 계산기가 특정 잠재 등급만 활성화하거나, 공업 계산기가 기지 스킬만 읽는 방식으로 확장하기 쉽다.
+
+`progressionEffect`에도 스킬과 동일하게 `sourceText`, `effectRows`, `calculationRows`를 둔다. 레벨별 재능 효과가 있는 경우 `levels[]` 안에도 같은 row를 둔다. 이렇게 해야 “재능 1레벨 효과”와 “최종 재능 효과”를 계산기에서 분리해서 읽을 수 있다.
 
 ## 장비와 무기 연결
 
@@ -101,5 +130,7 @@
 
 1. 새 오퍼레이터가 나오면 `operators.seed.json`에 `verification.status: "placeholder"`로 추가한다.
 2. 공식 또는 DB에서 기본 프로필과 스탯을 확인하면 `needs_review`로 올린다.
-3. 스킬, 재능, 잠재, 재료, 장비 추천을 2개 이상 출처로 대조하면 `verified`로 올린다.
-4. 패치가 바뀌면 기존 항목을 덮어쓰지 말고 `reviewedAt`, `sourceRefs`, `notes`를 갱신한다.
+3. 한국어 스킬/재능/잠재 원문을 인게임 또는 공식 한국어 출처에서 확인하면 `sourceText.status`를 `verified`로 올린다.
+4. 효과 row와 계산 row가 원문과 일치하면 각 row의 `sourceStatus`를 `verified`로 올린다.
+5. 스킬, 재능, 잠재, 재료, 장비 추천을 2개 이상 출처로 대조하면 오퍼레이터의 `verification.status`를 `verified`로 올린다.
+6. 패치가 바뀌면 기존 항목을 덮어쓰지 말고 `reviewedAt`, `sourceRefs`, `notes`를 갱신한다.
