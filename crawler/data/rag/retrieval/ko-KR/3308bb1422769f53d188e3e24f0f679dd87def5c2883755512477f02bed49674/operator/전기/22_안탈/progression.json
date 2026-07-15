@@ -1,0 +1,262 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.22.progression",
+  "semanticKey": "ko-KR|operator|22|progression",
+  "locale": "ko-KR",
+  "documentType": "operator_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_22",
+    "name": "안탈",
+    "aliases": [],
+    "gameEntryId": 22
+  },
+  "title": "안탈 — 레벨 능력치와 재료",
+  "content": "안탈 오퍼레이터의 레벨별 기본 능력치.\nLV.1: 힘 15, 민첩 9, 지능 15, 의지 9, 기초 공격력 30, 기초 생명력 500\nLV.20: 힘 40, 민첩 25, 지능 47, 의지 25, 기초 공격력 87, 기초 생명력 1566\nLV.40: 힘 65, 민첩 43, 지능 81, 의지 41, 기초 공격력 147, 기초 생명력 2689\nLV.60: 힘 91, 민첩 60, 지능 114, 의지 58, 기초 공격력 207, 기초 생명력 3811\nLV.80: 힘 116, 민첩 78, 지능 148, 의지 74, 기초 공격력 267, 기초 생명력 4934\nLV.90: 힘 129, 민첩 86, 지능 165, 의지 82, 기초 공격력 297, 기초 생명력 5495\n안탈의 레벨 돌파 재료.\nLV.20 도달: 초급 작전 기록 5개, 중급 작전 기록 2개, 고급 작전 기록 2개, 탈로시안 화폐 820개.\nLV.40 도달: 초급 작전 기록 3개, 중급 작전 기록 8개, 고급 작전 기록 24개, 탈로시안 화폐 12540개.\nLV.60 도달: 초급 작전 기록 4개, 중급 작전 기록 5개, 고급 작전 기록 47개, 탈로시안 화폐 23900개.\nLV.80 도달: 초급 인지 매개체 6개, 고급 인지 매개체 46개, 탈로시안 화폐 109180개.\nLV.90 도달: 고급 인지 매개체 58개, 탈로시안 화폐 238980개.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "stats": {
+          "strength": 15,
+          "agility": 9,
+          "intellect": 15,
+          "will": 9,
+          "baseAttack": 30,
+          "baseHp": 500
+        }
+      },
+      {
+        "level": 20,
+        "stats": {
+          "strength": 40,
+          "agility": 25,
+          "intellect": 47,
+          "will": 25,
+          "baseAttack": 87,
+          "baseHp": 1566
+        }
+      },
+      {
+        "level": 40,
+        "stats": {
+          "strength": 65,
+          "agility": 43,
+          "intellect": 81,
+          "will": 41,
+          "baseAttack": 147,
+          "baseHp": 2689
+        }
+      },
+      {
+        "level": 60,
+        "stats": {
+          "strength": 91,
+          "agility": 60,
+          "intellect": 114,
+          "will": 58,
+          "baseAttack": 207,
+          "baseHp": 3811
+        }
+      },
+      {
+        "level": 80,
+        "stats": {
+          "strength": 116,
+          "agility": 78,
+          "intellect": 148,
+          "will": 74,
+          "baseAttack": 267,
+          "baseHp": 4934
+        }
+      },
+      {
+        "level": 90,
+        "stats": {
+          "strength": 129,
+          "agility": 86,
+          "intellect": 165,
+          "will": 82,
+          "baseAttack": 297,
+          "baseHp": 5495
+        }
+      }
+    ],
+    "materialCosts": [
+      {
+        "targetLevel": 20,
+        "items": [
+          {
+            "id": 1,
+            "code": "beginner_combat_record",
+            "name": "초급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 5
+          },
+          {
+            "id": 2,
+            "code": "intermediate_combat_record",
+            "name": "중급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 2
+          },
+          {
+            "id": 3,
+            "code": "advanced_combat_record",
+            "name": "고급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 2
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 820
+          }
+        ]
+      },
+      {
+        "targetLevel": 40,
+        "items": [
+          {
+            "id": 1,
+            "code": "beginner_combat_record",
+            "name": "초급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 3
+          },
+          {
+            "id": 2,
+            "code": "intermediate_combat_record",
+            "name": "중급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 8
+          },
+          {
+            "id": 3,
+            "code": "advanced_combat_record",
+            "name": "고급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 24
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 12540
+          }
+        ]
+      },
+      {
+        "targetLevel": 60,
+        "items": [
+          {
+            "id": 1,
+            "code": "beginner_combat_record",
+            "name": "초급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 4
+          },
+          {
+            "id": 2,
+            "code": "intermediate_combat_record",
+            "name": "중급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 5
+          },
+          {
+            "id": 3,
+            "code": "advanced_combat_record",
+            "name": "고급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 47
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 23900
+          }
+        ]
+      },
+      {
+        "targetLevel": 80,
+        "items": [
+          {
+            "id": 4,
+            "code": "beginner_cognitive_medium",
+            "name": "초급 인지 매개체",
+            "catalogStatus": "mapped",
+            "amount": 6
+          },
+          {
+            "id": 5,
+            "code": "advanced_cognitive_medium",
+            "name": "고급 인지 매개체",
+            "catalogStatus": "mapped",
+            "amount": 46
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 109180
+          }
+        ]
+      },
+      {
+        "targetLevel": 90,
+        "items": [
+          {
+            "id": 5,
+            "code": "advanced_cognitive_medium",
+            "name": "고급 인지 매개체",
+            "catalogStatus": "mapped",
+            "amount": 58
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 238980
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_progression",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/22_안탈.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=22&header=0",
+    "sourceSha256": "6aff68dbcd9f30961e9b0f621fb665be356853ce7740fbc1f77ae1c104d37b5d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_22.progression.c3.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "394ad5d36d6d927efbfb8eb6481d240080c3b03aaf7c8f3bb417c15b68ae9359",
+    "payloadSha256": "49991959fa27fcd5721564ab0015f3d6372eedb0b1217c79e2d2b8e61a883bfc"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.288.profile",
+  "semanticKey": "ko-KR|gear|288|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_288",
+    "name": "열 작업용 온도 측정기",
+    "aliases": [],
+    "gameEntryId": 288
+  },
+  "title": "열 작업용 온도 측정기 — 장비 기본 정보",
+  "content": "열 작업용 온도 측정기 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 열 작업용이다. LV.70, 방어력 21. 옵션은 1번 지능 41, 3번 배틀 스킬 피해 보너스 41.4%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "열 작업용 온도 측정기",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 3358174061,
+      "code": "gear_set_c82824cda56b",
+      "label": "열 작업용"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "배틀 스킬 피해 보너스",
+        "baseValue": {
+          "value": 41.4,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-c82824cda56b.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_c82824cda56b",
+    "groupLabel": "열 작업용",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_c82824cda56b"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/288_열_작업용_온도_측정기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=288&header=0",
+    "sourceSha256": "53b97935bb82136d8eca11f0c384701a7ad508e56fe5f6befd11d14722cccebc",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_288.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_288.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "40c9ff8e99edea28fe29cd1d477d289349a891aba1e7ae136ae198aa24a29b7a",
+    "payloadSha256": "afb76bbb5ce79c6dc5a7965b50dac6cef7097e9304e269fca5ec1eac76e144c4"
+  }
+}

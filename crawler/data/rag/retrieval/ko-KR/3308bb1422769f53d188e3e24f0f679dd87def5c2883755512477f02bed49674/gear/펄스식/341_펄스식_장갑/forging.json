@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.341.forging",
+  "semanticKey": "ko-KR|gear|341|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_341",
+    "name": "펄스식 장갑",
+    "aliases": [],
+    "gameEntryId": 341
+  },
+  "title": "펄스식 장갑 — 정밀 단조",
+  "content": "펄스식 장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 의지: +0 65, +1 71, +2 78, +3 84.\n2번 지능: +0 43, +1 47, +2 51, +3 55.\n3번 냉기와 전기 피해 보너스: +0 19.2%, +1 21.1%, +2 23%, +3 24.9%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "냉기와 전기 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 19.2,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 21.1,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 23,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 24.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_aa70a0a9b381",
+    "groupLabel": "펄스식",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/펄스식/341_펄스식_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=341&header=0",
+    "sourceSha256": "381aae4da3d3bd99e2dd7f99a6297e3abb423206a2d93ce873bf3caa82ec3eae",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_341.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d2027070b0e0093de6bba636d3ae94ddbfe5b5457be03c17fdbd09cbd0097bf4",
+    "payloadSha256": "4a45381a0218c4b72a0a6a9f76540a81483b7416b769a9b24bce64c0dfbfed1d"
+  }
+}

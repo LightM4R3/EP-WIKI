@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.98.option-2",
+  "semanticKey": "ko-KR|weapon|98|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_98",
+    "name": "선교의 자유",
+    "aliases": [],
+    "gameEntryId": 98
+  },
+  "title": "선교의 자유 — 2번 옵션 치유 효율 증가 · 중",
+  "content": "선교의 자유 무기의 2번 옵션 ‘치유 효율 증가 · 중’.\nRANK1: 치유 효율 +4.8%.\nRANK2: 치유 효율 +8.6%.\nRANK3: 치유 효율 +12.4%.\nRANK4: 치유 효율 +16.2%.\nRANK5: 치유 효율 +20.0%.\nRANK6: 치유 효율 +23.8%.\nRANK7: 치유 효율 +27.6%.\nRANK8: 치유 효율 +31.4%.\nRANK9: 치유 효율 +37.1%.",
+  "facts": {
+    "slot": 2,
+    "name": "치유 효율 증가 · 중",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "치유 효율",
+        "value": 4.8,
+        "unit": "percent",
+        "display": "+4.8%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "치유 효율",
+        "value": 8.6,
+        "unit": "percent",
+        "display": "+8.6%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "치유 효율",
+        "value": 12.4,
+        "unit": "percent",
+        "display": "+12.4%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "치유 효율",
+        "value": 16.2,
+        "unit": "percent",
+        "display": "+16.2%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "치유 효율",
+        "value": 20,
+        "unit": "percent",
+        "display": "+20.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "치유 효율",
+        "value": 23.8,
+        "unit": "percent",
+        "display": "+23.8%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "치유 효율",
+        "value": 27.6,
+        "unit": "percent",
+        "display": "+27.6%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "치유 효율",
+        "value": 31.4,
+        "unit": "percent",
+        "display": "+31.4%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "치유 효율",
+        "value": 37.1,
+        "unit": "percent",
+        "display": "+37.1%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/98_선교의_자유.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=98&header=0",
+    "sourceSha256": "a29081bca2b195229f982d45e3ecbe24893dab66dabbcf90a7f8837cf5fba1bd",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_98.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7d2ddffe654c3123ed24a7fab386def8a4488dc17e21ad338c5472ec185a8c7e",
+    "payloadSha256": "c74fc414bca42206f35e53fb259e3da55d38114b820f6b207b2b10b2e6485a18"
+  }
+}

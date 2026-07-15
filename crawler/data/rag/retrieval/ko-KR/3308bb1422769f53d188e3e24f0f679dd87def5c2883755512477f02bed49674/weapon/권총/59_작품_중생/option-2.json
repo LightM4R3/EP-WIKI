@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.59.option-2",
+  "semanticKey": "ko-KR|weapon|59|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_59",
+    "name": "작품: 중생",
+    "aliases": [],
+    "gameEntryId": 59
+  },
+  "title": "작품: 중생 — 2번 옵션 아츠 피해 증가 · 중",
+  "content": "작품: 중생 무기의 2번 옵션 ‘아츠 피해 증가 · 중’.\nRANK1: 아츠 피해 +4.4%.\nRANK2: 아츠 피해 +8.0%.\nRANK3: 아츠 피해 +11.6%.\nRANK4: 아츠 피해 +15.1%.\nRANK5: 아츠 피해 +18.7%.\nRANK6: 아츠 피해 +22.2%.\nRANK7: 아츠 피해 +25.8%.\nRANK8: 아츠 피해 +29.3%.\nRANK9: 아츠 피해 +34.7%.",
+  "facts": {
+    "slot": 2,
+    "name": "아츠 피해 증가 · 중",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "아츠 피해",
+        "value": 4.4,
+        "unit": "percent",
+        "display": "+4.4%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "아츠 피해",
+        "value": 8,
+        "unit": "percent",
+        "display": "+8.0%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "아츠 피해",
+        "value": 11.6,
+        "unit": "percent",
+        "display": "+11.6%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "아츠 피해",
+        "value": 15.1,
+        "unit": "percent",
+        "display": "+15.1%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "아츠 피해",
+        "value": 18.7,
+        "unit": "percent",
+        "display": "+18.7%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "아츠 피해",
+        "value": 22.2,
+        "unit": "percent",
+        "display": "+22.2%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "아츠 피해",
+        "value": 25.8,
+        "unit": "percent",
+        "display": "+25.8%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "아츠 피해",
+        "value": 29.3,
+        "unit": "percent",
+        "display": "+29.3%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "아츠 피해",
+        "value": 34.7,
+        "unit": "percent",
+        "display": "+34.7%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/59_작품_중생.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=59&header=0",
+    "sourceSha256": "91a138f4be8f9500c8564196f794897a659543a6ae055c78ac810ac322934780",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_59.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f53b6520a204fe051007cf227fd104f8b80fe44ae7fd7d27e8d320520895c61b",
+    "payloadSha256": "54c6a061c797cfd0939ff14b784871756c1b48bf68861f3cbc10a6ae2cb574d4"
+  }
+}

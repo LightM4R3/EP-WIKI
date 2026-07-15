@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-aa70a0a9b381.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_aa70a0a9b381|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_aa70a0a9b381",
+    "name": "펄스식",
+    "aliases": []
+  },
+  "title": "펄스식 — 장비 세트 효과",
+  "content": "펄스식 장비 세트의 3개 세트 효과. 장착자의 오리지늄 아츠 강도 +30 장착자가 적에게 감전을 부여한 후, 전기 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다. 장착자가 적에게 동결을 부여한 후, 냉기 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다.",
+  "facts": {
+    "gearSet": {
+      "id": 2859607881,
+      "code": "gear_set_aa70a0a9b381",
+      "label": "펄스식"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 오리지늄 아츠 강도 +30 장착자가 적에게 감전을 부여한 후, 전기 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다. 장착자가 적에게 동결을 부여한 후, 냉기 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다.",
+    "memberGameEntryIds": [
+      338,
+      341,
+      353,
+      781,
+      782
+    ],
+    "evidenceCopyCount": 5
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_aa70a0a9b381",
+    "groupLabel": "펄스식",
+    "gearSetCode": "gear_set_aa70a0a9b381",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=338&header=0",
+    "sourceSha256": "91f2adcd1925a24f20d4c754d0bbe31d53304c6077140a809f9b5587c31e2f03",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_338.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_341.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_353.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_781.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_782.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f9ba9bec4a49f5a5646ca364b956ed18eb35eb47095692b54f6acf3175d11324",
+    "payloadSha256": "84a4f428d9db0d8189958fd3805f09c21fa5b287c8d3ba80e479d716612e0cc9"
+  }
+}

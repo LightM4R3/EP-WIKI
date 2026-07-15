@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.258.profile",
+  "semanticKey": "ko-KR|gear|258|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_258",
+    "name": "광산 장갑 · II",
+    "aliases": [],
+    "gameEntryId": 258
+  },
+  "title": "광산 장갑 · II — 장비 기본 정보",
+  "content": "광산 장갑 · II 장비의 기본 정보. 유형은 글러브, 품질은 보라색 품질, 세트는 세트 없음이다. LV.50, 방어력 30. 옵션은 1번 지능 49, 2번 민첩 32, 3번 공격력 13%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 장갑 · II",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 50,
+    "defense": 30,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 49,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "공격력",
+        "baseValue": {
+          "value": 13,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "gloves",
+    "qualityCode": "purple",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/258_광산_장갑_·_II.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=258&header=0",
+    "sourceSha256": "a3ddfab177786dc3435ae2e1b6a84470780c75d5ef31ff0f5b41e43c79608eb4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_258.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_258.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "26c80fb7e6435814398fe3ed44816fdc6541071d1ab7662dfa51fa06da062715",
+    "payloadSha256": "bb9053a268c129016f5530ae1775591a7763fa27e557b6ebafa89d2c33bb0626"
+  }
+}

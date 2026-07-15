@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.8.potential-3",
+  "semanticKey": "ko-KR|operator|8|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_8",
+    "name": "판",
+    "aliases": [],
+    "gameEntryId": 8
+  },
+  "title": "판 — 잠재능력 3 모범 직원",
+  "content": "판 오퍼레이터의 잠재능력 3 ‘모범 직원’. 힘 +15, 주는 물리 피해 +8% 오퍼레이터 기념사진 \"고요한 산중에 앉아 풍류를 즐기네\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "모범 직원",
+    "status": "rule_validated",
+    "effect": "힘 +15, 주는 물리 피해 +8% 오퍼레이터 기념사진 \"고요한 산중에 앉아 풍류를 즐기네\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+    "sourceSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_8.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "2849c58353b525e334f847bab8ae388449e64a32b3334d0667feda8a5cfe7f56",
+    "payloadSha256": "07bee17251f4ee67ecb89f83eb665bad4d602b448a07aeb300dc5af4d18abbbe"
+  }
+}

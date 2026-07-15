@@ -1,0 +1,249 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityType": "weapon",
+  "entityId": "rebellion",
+  "source": {
+    "provider": "wiki.skport.com",
+    "entityId": "skport:endfield:1:2:732",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+    "mainTypeId": 1,
+    "subTypeId": 2,
+    "gameEntryId": 732,
+    "locale": "ko-KR",
+    "observedAt": "2026-07-14T13:32:34+09:00",
+    "contentStatus": "verified"
+  },
+  "identity": {
+    "names": { "ko-KR": "반항" },
+    "rarity": 6,
+    "imageUrl": "https://static.skport.com/image/rm42wiki/20260318/4559012616678/69b9f2bbc58d404e53cf4c01_2f76db19.png",
+    "introductionBlocks": [
+      "엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.",
+      "홍산 선검국이 개발한 총기, 디자인은 간단하지만 재료가 탄탄하고, 휴대가 편리하여 각종 복잡한 환경에서도 제약 없이 사용할 수 있습니다."
+    ],
+    "acquisition": "구매 센터 - 무기고 교환소"
+  },
+  "taxonomy": {
+    "weaponType": {
+      "id": 3,
+      "code": "handcannon",
+      "sourceLabel": "권총",
+      "mappingStatus": "verified"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 51,
+      "materialCosts": []
+    },
+    {
+      "level": 20,
+      "baseAttack": 148,
+      "materialCosts": [
+        { "materialId": 15, "quantity": 5 },
+        { "materialId": 16, "quantity": 3 },
+        { "materialId": 0, "quantity": 2200 }
+      ]
+    },
+    {
+      "level": 40,
+      "baseAttack": 250,
+      "materialCosts": [
+        { "materialId": 15, "quantity": 18 },
+        { "materialId": 17, "quantity": 5 },
+        { "materialId": 0, "quantity": 8500 }
+      ]
+    },
+    {
+      "level": 60,
+      "baseAttack": 352,
+      "materialCosts": [
+        { "materialId": 18, "quantity": 20 },
+        { "materialId": 19, "quantity": 5 },
+        { "materialId": 0, "quantity": 25000 }
+      ]
+    },
+    {
+      "level": 80,
+      "baseAttack": 454,
+      "materialCosts": [
+        { "materialId": 18, "quantity": 30 },
+        { "materialId": 13, "quantity": 16 },
+        { "materialId": 20, "quantity": 8 },
+        { "materialId": 0, "quantity": 90000 }
+      ]
+    },
+    {
+      "level": 90,
+      "baseAttack": 505,
+      "materialCosts": []
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "optionId": 0,
+      "optionCode": "agility_increase_large",
+      "categoryId": 0,
+      "categoryCode": "attribute_increase",
+      "levels": [
+        { "level": 1, "sourceLabel": "RANK 1", "values": { "agility_flat": 20 } },
+        { "level": 2, "sourceLabel": "RANK 2", "values": { "agility_flat": 36 } },
+        { "level": 3, "sourceLabel": "RANK 3", "values": { "agility_flat": 52 } },
+        { "level": 4, "sourceLabel": "RANK 4", "values": { "agility_flat": 68 } },
+        { "level": 5, "sourceLabel": "RANK 5", "values": { "agility_flat": 84 } },
+        { "level": 6, "sourceLabel": "RANK 6", "values": { "agility_flat": 100 } },
+        { "level": 7, "sourceLabel": "RANK 7", "values": { "agility_flat": 116 } },
+        { "level": 8, "sourceLabel": "RANK 8", "values": { "agility_flat": 132 } },
+        { "level": 9, "sourceLabel": "RANK 9", "values": { "agility_flat": 156 } }
+      ],
+      "effectRules": [
+        {
+          "code": "increase_operator_agility",
+          "metricCode": "agility_flat",
+          "targetCode": "operator.agility"
+        }
+      ],
+      "stackingRule": "stat_bonus"
+    },
+    {
+      "slot": 2,
+      "optionId": 1,
+      "optionCode": "attack_increase_large",
+      "categoryId": 1,
+      "categoryCode": "attack_increase",
+      "levels": [
+        { "level": 1, "sourceLabel": "RANK 1", "values": { "attack_percent": 5.0 } },
+        { "level": 2, "sourceLabel": "RANK 2", "values": { "attack_percent": 9.0 } },
+        { "level": 3, "sourceLabel": "RANK 3", "values": { "attack_percent": 13.0 } },
+        { "level": 4, "sourceLabel": "RANK 4", "values": { "attack_percent": 17.0 } },
+        { "level": 5, "sourceLabel": "RANK 5", "values": { "attack_percent": 21.0 } },
+        { "level": 6, "sourceLabel": "RANK 6", "values": { "attack_percent": 25.0 } },
+        { "level": 7, "sourceLabel": "RANK 7", "values": { "attack_percent": 29.0 } },
+        { "level": 8, "sourceLabel": "RANK 8", "values": { "attack_percent": 33.0 } },
+        { "level": 9, "sourceLabel": "RANK 9", "values": { "attack_percent": 39.0 } }
+      ],
+      "effectRules": [
+        {
+          "code": "increase_operator_attack",
+          "metricCode": "attack_percent",
+          "targetCode": "operator.attack"
+        }
+      ],
+      "stackingRule": "stat_bonus"
+    },
+    {
+      "slot": 3,
+      "optionId": 2,
+      "optionCode": "release_conquest_grudge",
+      "categoryId": 2,
+      "categoryCode": "release",
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK 1",
+          "values": {
+            "cryo_damage_percent": 16.0,
+            "cryo_damage_on_chill_percent": 20.0,
+            "arts_damage_taken_on_susceptibility_percent": 6.0
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK 2",
+          "values": {
+            "cryo_damage_percent": 19.2,
+            "cryo_damage_on_chill_percent": 24.0,
+            "arts_damage_taken_on_susceptibility_percent": 7.2
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK 3",
+          "values": {
+            "cryo_damage_percent": 22.4,
+            "cryo_damage_on_chill_percent": 28.0,
+            "arts_damage_taken_on_susceptibility_percent": 8.4
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK 4",
+          "values": {
+            "cryo_damage_percent": 25.6,
+            "cryo_damage_on_chill_percent": 32.0,
+            "arts_damage_taken_on_susceptibility_percent": 9.6
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK 5",
+          "values": {
+            "cryo_damage_percent": 28.8,
+            "cryo_damage_on_chill_percent": 36.0,
+            "arts_damage_taken_on_susceptibility_percent": 10.8
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK 6",
+          "values": {
+            "cryo_damage_percent": 32.0,
+            "cryo_damage_on_chill_percent": 40.0,
+            "arts_damage_taken_on_susceptibility_percent": 12.0
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK 7",
+          "values": {
+            "cryo_damage_percent": 35.2,
+            "cryo_damage_on_chill_percent": 44.0,
+            "arts_damage_taken_on_susceptibility_percent": 13.2
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK 8",
+          "values": {
+            "cryo_damage_percent": 38.4,
+            "cryo_damage_on_chill_percent": 48.0,
+            "arts_damage_taken_on_susceptibility_percent": 14.4
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK 9",
+          "values": {
+            "cryo_damage_percent": 44.8,
+            "cryo_damage_on_chill_percent": 56.0,
+            "arts_damage_taken_on_susceptibility_percent": 16.8
+          }
+        }
+      ],
+      "effectRules": [
+        {
+          "code": "increase_cryo_damage",
+          "metricCode": "cryo_damage_percent",
+          "targetCode": "equipped_operator.cryo_damage"
+        },
+        {
+          "code": "increase_cryo_damage_after_chill_application",
+          "metricCode": "cryo_damage_on_chill_percent",
+          "triggerCode": "battle_skill_or_ultimate_applies_chill",
+          "targetCode": "equipped_operator.cryo_damage",
+          "durationSeconds": 20
+        },
+        {
+          "code": "increase_arts_damage_taken_after_arts_susceptibility",
+          "metricCode": "arts_damage_taken_on_susceptibility_percent",
+          "triggerCode": "battle_skill_or_ultimate_applies_arts_susceptibility",
+          "targetCode": "affected_enemy.arts_damage_taken",
+          "durationSeconds": 20
+        }
+      ],
+      "stackingRule": "independent_non_stacking"
+    }
+  ]
+}

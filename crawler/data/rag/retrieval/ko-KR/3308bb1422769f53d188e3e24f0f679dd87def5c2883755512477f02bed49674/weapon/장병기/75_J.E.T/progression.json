@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.75.progression",
+  "semanticKey": "ko-KR|weapon|75|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_75",
+    "name": "J.E.T.",
+    "aliases": [],
+    "gameEntryId": 75
+  },
+  "title": "J.E.T. — 기초 공격력",
+  "content": "J.E.T. 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 51.\nLV.20: 기초 공격력 146.\nLV.40: 기초 공격력 247.\nLV.60: 기초 공격력 348.\nLV.80: 기초 공격력 449.\nLV.90: 기초 공격력 500.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 51
+      },
+      {
+        "level": 20,
+        "baseAttack": 146
+      },
+      {
+        "level": 40,
+        "baseAttack": 247
+      },
+      {
+        "level": 60,
+        "baseAttack": 348
+      },
+      {
+        "level": 80,
+        "baseAttack": 449
+      },
+      {
+        "level": 90,
+        "baseAttack": 500
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/75_J.E.T.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=75&header=0",
+    "sourceSha256": "3ebcf2cbff38226c08332696d2b3abd08d41d343c14ecd7c8ab39f2326474b02",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_75.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "6cfdffab79d0abe0ee6accc8a003c8b95ab20a9e1f01dc363a5251e4fbef2b4b",
+    "payloadSha256": "a23199d7068e00083ef7c8ef33effad9daba7c59e06ffe0bf1e16857b9efd5a6"
+  }
+}

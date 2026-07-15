@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.341.profile",
+  "semanticKey": "ko-KR|gear|341|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_341",
+    "name": "펄스식 장갑",
+    "aliases": [],
+    "gameEntryId": 341
+  },
+  "title": "펄스식 장갑 — 장비 기본 정보",
+  "content": "펄스식 장갑 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 펄스식이다. LV.70, 방어력 42. 옵션은 1번 의지 65, 2번 지능 43, 3번 냉기와 전기 피해 보너스 19.2%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "펄스식 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2859607881,
+      "code": "gear_set_aa70a0a9b381",
+      "label": "펄스식"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "냉기와 전기 피해 보너스",
+        "baseValue": {
+          "value": 19.2,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-aa70a0a9b381.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_aa70a0a9b381",
+    "groupLabel": "펄스식",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_aa70a0a9b381"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/펄스식/341_펄스식_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=341&header=0",
+    "sourceSha256": "381aae4da3d3bd99e2dd7f99a6297e3abb423206a2d93ce873bf3caa82ec3eae",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_341.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_341.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "901a190e65b2446b3993194c1eb38296a50e41eb000701d0396d3fb6f8b7d4ae",
+    "payloadSha256": "0f8060bd90e3e6b49a4e36ba74ac20232a98df7cb5090ce0217105605b7b1d29"
+  }
+}

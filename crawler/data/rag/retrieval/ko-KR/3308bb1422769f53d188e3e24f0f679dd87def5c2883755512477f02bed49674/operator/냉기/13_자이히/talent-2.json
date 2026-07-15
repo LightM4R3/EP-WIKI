@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.13.talent-2",
+  "semanticKey": "ko-KR|operator|13|talent-2",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_13",
+    "name": "자이히",
+    "aliases": [],
+    "gameEntryId": 13
+  },
+  "title": "자이히 — 프리징 프로토콜",
+  "content": "자이히 오퍼레이터의 오퍼레이터 재능 ‘프리징 프로토콜’.\n단계 1: 궁극기 스택 오버플로는 추가로 팀 전체의 냉기 부착과 동결 상태를 정화합니다. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 36개, 탈로시안 화폐 32000개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 2,
+    "name": "프리징 프로토콜",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "궁극기 스택 오버플로는 추가로 팀 전체의 냉기 부착과 동결 상태를 정화합니다.",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 36
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 32000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "talentKind": "combat_talent",
+    "talentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+    "sourceSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_13.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "945524eb19ca228719d4561f19fed302e418206874c0eebb724eeceb49ce8fca",
+    "payloadSha256": "f3ae725bb29937b01535f4c6f1ba0bd5f0b2959f726a5381fb46b8a172cc94e3"
+  }
+}

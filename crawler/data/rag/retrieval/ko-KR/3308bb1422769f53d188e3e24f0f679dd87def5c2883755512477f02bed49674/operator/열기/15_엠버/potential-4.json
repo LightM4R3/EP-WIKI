@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.15.potential-4",
+  "semanticKey": "ko-KR|operator|15|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_15",
+    "name": "엠버",
+    "aliases": [],
+    "gameEntryId": 15
+  },
+  "title": "엠버 — 잠재능력 4 불멸의 불꽃",
+  "content": "엠버 오퍼레이터의 잠재능력 4 ‘불멸의 불꽃’. 궁극기 다시 불타오르는 맹세의 사용에 필요한 궁극기 에너지 -15%",
+  "facts": {
+    "stage": 4,
+    "name": "불멸의 불꽃",
+    "status": "rule_validated",
+    "effect": "궁극기 다시 불타오르는 맹세의 사용에 필요한 궁극기 에너지 -15%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+    "sourceSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_15.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "6ebeb34ad340b03b34f0f3aeb4aa96ed1ecb686aacc6d9ef29e4350ad2f1b8f8",
+    "payloadSha256": "cc9eaf2cc76b155a30941bf8b2b8b32c184a3390cf317c9bbd31c160ba2918f5"
+  }
+}

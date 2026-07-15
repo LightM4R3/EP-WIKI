@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.1001.profile",
+  "semanticKey": "ko-KR|weapon|1001|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_1001",
+    "name": "적영",
+    "aliases": [],
+    "gameEntryId": 1001
+  },
+  "title": "적영 — 무기 기본 정보",
+  "content": "적영 무기의 기본 정보. 무기 유형은 양손검이다. 옵션은 1번 힘 증가 · 대, 2번 공격력 증가 · 대, 3번 기예 · 붉은색의 단절이다.",
+  "facts": {
+    "name": "적영",
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.1001.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "공격력 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.1001.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "기예 · 붉은색의 단절",
+        "documentRef": "epwiki.ko-kr.weapon.1001.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "weaponTypeCode": "greatsword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/1001_적영.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1001&header=0",
+    "sourceSha256": "e55ceaaab1d2b47018fbd58e8bb3efe61ae7a514a34c46326cc43bd17c93c549",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_1001.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_1001.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "db683a53c10a135b04dafdf62105b6e6d8ed02bd933206c7d000aaca411a4170",
+    "payloadSha256": "257058a629e8410b768c82861edac9ee33597834966a02382e2d8608afacc374"
+  }
+}

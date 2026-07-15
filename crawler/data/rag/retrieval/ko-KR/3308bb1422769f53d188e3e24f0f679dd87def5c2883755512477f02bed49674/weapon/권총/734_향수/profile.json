@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.734.profile",
+  "semanticKey": "ko-KR|weapon|734|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_734",
+    "name": "향수",
+    "aliases": [],
+    "gameEntryId": 734
+  },
+  "title": "향수 — 무기 기본 정보",
+  "content": "향수 무기의 기본 정보. 무기 유형은 권총이다. 옵션은 1번 민첩 증가 · 대, 2번 냉기 피해 증가 · 대, 3번 억제 · 옛 시절의 달이다.",
+  "facts": {
+    "name": "향수",
+    "weaponType": {
+      "id": 3,
+      "code": "handcannon",
+      "label": "권총"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.734.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "냉기 피해 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.734.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "억제 · 옛 시절의 달",
+        "documentRef": "epwiki.ko-kr.weapon.734.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "weaponTypeCode": "handcannon"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/734_향수.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=734&header=0",
+    "sourceSha256": "6ec731749cb1ce765a453503c670d0244d65354a52935e6f6d147a92663619a5",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_734.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_734.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "78d524e3491b80b01c95ba1a4a03e62d25a6d41213a178f472eb95870810b0b0",
+    "payloadSha256": "1a3011c32b90f9175a5eeb1992d30391664fdb9e403edc84f1d4badaeda08268"
+  }
+}

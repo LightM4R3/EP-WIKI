@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.797.profile",
+  "semanticKey": "ko-KR|gear|797|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_797",
+    "name": "위기 탈출 중장갑",
+    "aliases": [],
+    "gameEntryId": 797
+  },
+  "title": "위기 탈출 중장갑 — 장비 기본 정보",
+  "content": "위기 탈출 중장갑 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 세트 없음이다. LV.70, 방어력 56. 옵션은 1번 민첩 115, 3번 일반 공격 피해 보너스 14.4%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "위기 탈출 중장갑",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 115,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "일반 공격 피해 보너스",
+        "baseValue": {
+          "value": 14.4,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/797_위기_탈출_중장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=797&header=0",
+    "sourceSha256": "a134ae8eb7d0d9b2e0e73016084247960860566cb88f7b0c43cb0af08280e580",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_797.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_797.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "a811114c3904019c520b52f4ba92594c5e28b9531eb67bad8e29c18ca8b5909f",
+    "payloadSha256": "4fa3332617bd194f692ea3a4ac9a886502d6c03b890589b1a8b926520850e300"
+  }
+}

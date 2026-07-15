@@ -1,0 +1,502 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_20",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 20,
+    "name": "포그라니치니크"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=20&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "b9dd6b37ef97deae4fe45fa40664c8ba12ac906f7b19d5819e5bc1efe3350100",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_20.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 포그라니치니크\ngameEntryId: 20\n정규화 상태: query_ready\n속성: 물리 (id=0, code=physical)\n무기 유형: 한손검 (id=0, code=sword)\n주요 능력치: 의지 (id=3, code=will)\n보조 능력치: 민첩 (id=1, code=agility)\nLV.1: 힘=12, 민첩=13, 지능=10, 의지=20, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=31, 민첩=34, 지능=28, 의지=52, 기초 공격력=92, 기초 생명력=1566\nLV.40: 힘=51, 민첩=55, 지능=48, 의지=87, 기초 공격력=157, 기초 생명력=2689\nLV.60: 힘=71, 민첩=77, 지능=67, 의지=121, 기초 공격력=223, 기초 생명력=3811\nLV.80: 힘=91, 민첩=99, 지능=87, 의지=156, 기초 공격력=288, 기초 생명력=4934\nLV.90: 힘=101, 민첩=110, 지능=97, 의지=173, 기초 공격력=321, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_20",
+        "gameEntryId": 20,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=20&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/20_포그라니치니크.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 0,
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "evidenceDocumentIds": [
+          "auto.operator_20.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_20.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_20.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_20.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_20.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_20.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_20.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_20.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_20.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_20.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_20.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 포그라니치니크\ncategory: operator\nsection: profile\n포그라니치니크\n진영\n로도스 아일랜드\n무기 유형\n한손검\n\"긴급한 상황인 만큼, 최대한 빨리 당신의 작전 계획을 알고 싶군... 가능하다면 지금 당장.\"\n포그라니치니크는 로도스 아일랜드 소속으로, 로도스 아일랜드와 엔드필드 공업 간의 협력에 관한 협약에 따라 군사 고문으로 엔드필드 공업에 협력하고 있다.\n그는 풍부한 군사 이론 지식과 팀 전투 경험을 가지고 있어, 전장에서 발생하는 다양한 돌발 상황을 지휘 및 대응할 수 있다. 엔드필드 공업에 오기 전에는 철의 서약군 방패병 부대 지휘관을 맡아 아겔로스와 맞서 최전선에서 싸워왔다. 당시 포그라니치니크와 그의 방패병들은 가장 신뢰받는 전투 부대 중 하나로 꼽혔다. 점점 복잡해지는 탈로스 II의 시국에 대응하기 위해 그는 주저 없이 엔드필드 공업에 합류했다.\n그는 관리자가 탈로스 II를 새로운 길로 이끌 것이라 굳게 믿고 있다. 그것이 과거에 자신이 품었던 믿음 그대로이기에.\n\"난 믿네, 관리자 자네가 한 모든 것들이 이 비극의 순환에 장엄한 마침표를 찍게 될 거라고 말이야.\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_20",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=20&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 20,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:59.599481+00:00",
+        "contentSha256": "b9dd6b37ef97deae4fe45fa40664c8ba12ac906f7b19d5819e5bc1efe3350100",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/20_포그라니치니크.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "포그라니치니크"
+      }
+    },
+    {
+      "documentId": "auto.operator_20.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 포그라니치니크\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n포그라니치니크\n성별\n남\n진영\n로도스 아일랜드\n생일\n7월 23일\n속성\n물리\n종족\n리베리\n한국어 CV\n권성혁\n일본어 CV\n速水 奨\n영어 CV\nSergey Ponomaryov\n중국어 CV\n刘若班",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_20",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=20&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 20,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:59.599481+00:00",
+        "contentSha256": "b9dd6b37ef97deae4fe45fa40664c8ba12ac906f7b19d5819e5bc1efe3350100",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/20_포그라니치니크.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "포그라니치니크"
+      }
+    },
+    {
+      "documentId": "auto.operator_20.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 포그라니치니크\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘\n12\n31\n51\n71\n91\n101\n민첩 (보조 능력치)\n13\n34\n55\n77\n99\n110\n지능\n10\n28\n48\n67\n87\n97\n의지 (주요 능력치)\n20\n52\n87\n121\n156\n173\n기초 공격력\n30\n92\n157\n223\n288\n321\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘\n12\n-\n민첩 (보조 능력치)\n13\n지능\n10\n의지 (주요 능력치)\n20\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘\n31\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩 (보조 능력치)\n34\n지능\n28\n의지 (주요 능력치)\n52\n기초 공격력\n92\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘\n51\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩 (보조 능력치)\n55\n지능\n48\n의지 (주요 능력치)\n87\n기초 공격력\n157\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘\n71\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩 (보조 능력치)\n77\n지능\n67\n의지 (주요 능력치)\n121\n기초 공격력\n223\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘\n91\n일괄 채우기 :\n7\n초급 인지 매개체\n*\n7\n56\n고급 인지 매개체\n*\n56\n132890\n탈로시안 화폐\n*\n132890\n민첩 (보조 능력치)\n99\n지능\n87\n의지 (주요 능력치)\n156\n기초 공격력\n288\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘\n101\n일괄 채우기 :\n8\n초급 인지 매개체\n*\n8\n176\n고급 인지 매개체\n*\n176\n952160\n탈로시안 화폐\n*\n952160\n민첩 (보조 능력치)\n110\n지능\n97\n의지 (주요 능력치)\n173\n기초 공격력\n321\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_20",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=20&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 20,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:59.599481+00:00",
+        "contentSha256": "b9dd6b37ef97deae4fe45fa40664c8ba12ac906f7b19d5819e5bc1efe3350100",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/20_포그라니치니크.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "포그라니치니크"
+      }
+    },
+    {
+      "documentId": "auto.operator_20.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 포그라니치니크\ncategory: operator\nsection: combat_skill\n전투 스킬\n전면 공세\n일반 공격\n일반 공격:\n적에게 최대 5단 공격을 하여\n물리 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면,\n강력한 일격\n에\n18\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n물리 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n물리 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n23%\n25%\n28%\n30%\n32%\n35%\n37%\n39%\n41%\n44%\n48%\n52%\n일반 공격 제2단계 배율\n28%\n31%\n34%\n36%\n39%\n42%\n45%\n48%\n50%\n54%\n58%\n63%\n일반 공격 제3단계 배율\n33%\n36%\n40%\n43%\n46%\n50%\n53%\n56%\n59%\n64%\n68%\n74%\n일반 공격 제4단계 배율\n38%\n42%\n46%\n50%\n53%\n57%\n61%\n65%\n69%\n73%\n79%\n86%\n일반 공격 제5단계 배율\n43%\n47%\n52%\n56%\n60%\n65%\n69%\n73%\n77%\n83%\n89%\n97%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n전선 분쇄\n배틀 스킬\n전방 범위 내의 적에게 두 번의 베기 공격을 진행합니다.\n물리 피해\n와\n갑옷 파괴\n피해를 주며,\n소모\n한 방어 불능 스택 수치에 따라 스킬 게이지를 회복합니다. 여러 목표를 명중했을 경우, 1회만 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n제1단계 피해 배율\n86%\n94%\n103%\n111%\n120%\n128%\n137%\n145%\n154%\n165%\n177%\n192%\n제1단계 불균형치\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n제2단계 피해 배율\n106%\n116%\n127%\n137%\n148%\n158%\n169%\n180%\n190%\n203%\n219%\n238%\n제2단계 불균형치\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n방어 불능 1스택 소모 시 회복하는 스킬 게이지\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n방어 불능 2스택 소모 시 회복하는 스킬 게이지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n15\n15\n15\n방어 불능 3스택 소모 시 회복하는 스킬 게이지\n20\n20\n20\n20\n20\n20\n20\n20\n20\n25\n25\n25\n방어 불능 4스택 소모 시 회복하는 스킬 게이지\n30\n30\n30\n30\n30\n30\n30\n30\n30\n35\n35\n35\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_20",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=20&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 20,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:59.599481+00:00",
+        "contentSha256": "b9dd6b37ef97deae4fe45fa40664c8ba12ac906f7b19d5819e5bc1efe3350100",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/20_포그라니치니크.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "포그라니치니크"
+      }
+    },
+    {
+      "documentId": "auto.operator_20.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 포그라니치니크\ncategory: operator\nsection: combat_skill\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n3상 나노플레이크 칩\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n3상 나노플레이크 칩\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n3상 나노플레이크 칩\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n보름달 참격\n연계 스킬\n적이\n강타\n혹은\n갑옷 파괴\n피해로 인해\n방어 불능\n스택 수치를\n소모\n한 후 사용할 수 있습니다.\n소모\n한 최대\n방어 불능\n스택 수치에 따라, 적에게 동일 단계의 베기 공격(최대 3단계)을 하여\n물리 피해\n를 주고, 일정량의 스킬 게이지를 회복하며 베기 공격마다 주는 피해와 스킬 게이지 회복 효과가 증가합니다.\n만약 방어 불능 4스택을 소모할 경우, 3단계 베기 공격이 강화됩니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n17초\n제1단계 피해 배율\n42%\n46%\n50%\n55%\n59%\n63%\n67%\n71%\n76%\n81%\n87%\n95%\n제1단계 불균형치\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n제1단계 스킬 게이지 회복\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n제2단계 피해 배율\n54%\n59%\n65%\n70%\n76%\n81%\n86%\n92%\n97%\n104%\n112%\n122%\n제2단계 불균형치\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n제2단계 스킬 게이지 회복\n7\n7\n7\n7\n7\n7\n7\n7\n7\n7\n7\n7\n제3단계 피해 배율\n66%\n73%\n79%\n86%\n92%\n99%\n106%\n112%\n119%\n127%\n137%\n149%\n제3단계 불균형치\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n제3단계 스킬 게이지 회복\n13\n13\n13\n13\n13\n13\n13\n13\n13\n13\n13\n13\n제3단계 피해 배율 강화\n132%\n145%\n158%\n172%\n185%\n198%\n211%\n224\n238%\n254%\n274%\n297%\n제3단계 불균형치 강화\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n9\n제3단계 스킬 게이지 회복 강화\n23\n23\n23\n23\n23\n23\n23\n23\n23\n23\n23\n23\n획득하는 궁극기 에너지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n방패병 부대, 전진\n궁극기\n목표를 중심으로 방패병 네 명을 소환해 목표를 향해 진군시킵니다. 진군 경로의 적들을 목표 방향으로 밀쳐내며\n물리 피해\n를 주고\n철의 서약\n5포인트를 생성합니다. 적이\n물리 이상\n효과를 받거나, 포그라니치니크의 연계 스킬이 주는 피해를 받은 후,\n철의 서약\n1포인트를 소모해 방패병 한 명을 추가 소환하여 대상을 교란하며\n물리 피해\n를 주고, 일정량의 스킬 게이지를 회복합니다. 소모한\n철의 서약\n이 마지막 1포인트일 때, 방패병 네 명이 최후의 승부를 사용하며, 대상에게 대량의\n물리 피해\n를 주고 대량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_20",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=20&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 20,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:25:59.599481+00:00",
+        "contentSha256": "b9dd6b37ef97deae4fe45fa40664c8ba12ac906f7b19d5819e5bc1efe3350100",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/20_포그라니치니크.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "포그라니치니크"
+      }
+    },
+    {
+      "documentId": "auto.operator_20.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 포그라니치니크\ncategory: operator\nsection: combat_skill\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n쿨타임\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n철의 서약 지속 시간\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n진군 피해 배율\n133%\n147%\n160%\n173%\n186%\n200%\n213%\n226%\n240%\n256%\n276%\n300%\n진군 불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n교란 피해 배율\n45%\n49%\n53%\n58%\n62%\n67%\n71%\n76%\n80%\n86%\n92%\n100%\n교란 스킬 게이지 회복\n7.5\n7.5\n7.5\n7.5\n7.5\n7.5\n7.5\n7.5\n7.5\n10\n10\n10\n최후의 승부 피해 배율\n200%\n220%\n240%\n260%\n280%\n300%\n320%\n340%\n360%\n385%\n415%\n450%\n최후의 승부 불균형치\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n최후의 승부 스킬 게이지 회복\n30\n30\n30\n30\n30\n30\n30\n30\n30\n40\n40\n40\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n3상 나노플레이크 칩\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n3상 나노플레이크 칩\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n3상 나노플레이크 칩\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_20",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=20&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 20,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T06:25:59.599481+00:00",
+        "contentSha256": "b9dd6b37ef97deae4fe45fa40664c8ba12ac906f7b19d5819e5bc1efe3350100",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/20_포그라니치니크.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "포그라니치니크"
+      }
+    },
+    {
+      "documentId": "auto.operator_20.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 포그라니치니크\ncategory: operator\nsection: operator_talent\n재능 배열\n맹세\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 의지 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 의지 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 의지 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 의지 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n생존의 깃발\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n전투 중, 자신의 스킬로 스킬 게이지를\n80\n포인트 회복할 때마다\n20\n초 동안\n사기 격양\n을 획득합니다.\n사기 격양\n효과: 공격력\n+4%\n, 오리지늄 아츠 강도\n+4\n해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 시간은 따로 계산됩니다.\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n전투 중, 자신의 스킬로 스킬 게이지를\n80\n포인트 회복할 때마다\n20\n초 동안\n사기 격양\n을 획득합니다.\n사기 격양\n효과: 공격력\n+8%\n, 오리지늄 아츠 강도\n+8\n해당 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 시간은 따로 계산됩니다.\n정예화 단계 2 돌파\n40\n프로토콜 프리즘\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n전술 지도\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n임의의 오퍼레이터가 궁극기\n방패병 부대, 전진\n의 후속 효과를 발동하면,\n5\n초\n동안 지속되는\n사기 격양\n상태를 획득합니다.\n재능: '생존의 깃발'을 활성화 해야 합니다.\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n임의의 오퍼레이터가 궁극기\n방패병 부대, 전진\n의 후속 효과를 발동하면,\n10\n초 동안 지속되는\n사기 격양\n상태를 획득합니다.\n재능: '생존의 깃발'을 활성화 해야 합니다.\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n24000\n탈로시안 화폐\n*\n24000\n무기 정비",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_20",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=20&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 20,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:59.599481+00:00",
+        "contentSha256": "b9dd6b37ef97deae4fe45fa40664c8ba12ac906f7b19d5819e5bc1efe3350100",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/20_포그라니치니크.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "포그라니치니크"
+      }
+    },
+    {
+      "documentId": "auto.operator_20.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 포그라니치니크\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n무기 정비 · β\n제조실에 배치 시, 무기 경험치 재료의 생산 효율 20% 증가\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n무기 정비 · γ\n제조실에 배치 시, 무기 경험치 재료의 생산 효율 30% 증가\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n사기 충전\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n사기 충전 · β\n제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n사기 충전 · γ\n제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 18% 감소\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_20",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=20&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 20,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:59.599481+00:00",
+        "contentSha256": "b9dd6b37ef97deae4fe45fa40664c8ba12ac906f7b19d5819e5bc1efe3350100",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/20_포그라니치니크.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "포그라니치니크"
+      }
+    },
+    {
+      "documentId": "auto.operator_20.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 포그라니치니크\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\n초거리 빛 반사 파이프\n*\n20\n8\n스타게이트 버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_20",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=20&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 20,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:59.599481+00:00",
+        "contentSha256": "b9dd6b37ef97deae4fe45fa40664c8ba12ac906f7b19d5819e5bc1efe3350100",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/20_포그라니치니크.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "포그라니치니크"
+      }
+    },
+    {
+      "documentId": "auto.operator_20.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 포그라니치니크\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n전선 소탕\n잠재능력 01\n배틀 스킬\n전선 분쇄\n가 두 명 이상의 적에게 명중했을 때,\n반환\n하는 스킬 게이지\n15\n포인트\n오퍼레이터 기념사진 \"퀸사이드 캐슬링\" 잠금 해제\n'행군'\n잠재능력 02\n의지\n+20\n, 주는 물리 피해\n+10%\n휘날리는 전장의 깃발\n잠재능력 03\n재능\n'생존의 깃발'\n효과 강화:\n사기 격양\n의 획득에 필요한 스킬 게이지 회복량이\n60\n포인트로 감소합니다. 자신의\n사기 격양\n의 최대 중첩 스택 수치\n+2\n오퍼레이터 기념사진 \"킹과 나이트\" 잠금 해제\n탈로스 II의 방패\n잠재능력 04\n궁극기\n방패병 부대, 전진\n의 사용에 필요한 궁극기 에너지\n-15%\n새로 단조한 검날\n잠재능력 05\n연계 스킬\n보름달 참격\n의 쿨타임이\n-2\n초, 스킬 게이지 회복량이 기존의\n1.2\n배로 변경됩니다.\n오퍼레이터 기념사진 \"체크메이트\" 잠금 해제\n명함 테마 \"체크메이트\" 잠금 해제\n오퍼레이터 기념사진\n퀸사이드 캐슬링\n일러스트레이터: FE\n전 언제나 저를 필요로 하는 곳을 향할 뿐입니다.\n킹과 나이트\n일러스트레이터: Kala\n제국을 증오하진 않습니다. '황제'께서 사망하시고 백 년이 지나고... 그저 지나간 길에 방패의 벽을 세울 뿐이죠.\n체크메이트\n일러스트레이터: 大明\n연기가 자욱하군요. 하지만 삶이란 이런 연기 속에서도 정확한 길을 찾아야 하는 법입니다. 땅을 짚은 검날은 철의 서약과 모두의 희망을 지탱하는 존재니까요. 그리고 이제... 체크메이트입니다.",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_20",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=20&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 20,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:59.599481+00:00",
+        "contentSha256": "b9dd6b37ef97deae4fe45fa40664c8ba12ac906f7b19d5819e5bc1efe3350100",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/20_포그라니치니크.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "포그라니치니크"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 0,
+      "code": "physical",
+      "label": "물리"
+    },
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    },
+    "secondary": {
+      "id": 1,
+      "code": "agility",
+      "label": "민첩"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 12,
+        "agility": 13,
+        "intellect": 10,
+        "will": 20,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 31,
+        "agility": 34,
+        "intellect": 28,
+        "will": 52,
+        "baseAttack": 92,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 51,
+        "agility": 55,
+        "intellect": 48,
+        "will": 87,
+        "baseAttack": 157,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 71,
+        "agility": 77,
+        "intellect": 67,
+        "will": 121,
+        "baseAttack": 223,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 91,
+        "agility": 99,
+        "intellect": 87,
+        "will": 156,
+        "baseAttack": 288,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 101,
+        "agility": 110,
+        "intellect": 97,
+        "will": 173,
+        "baseAttack": 321,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_20.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_20.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2"
+        ]
+      },
+      {
+        "documentId": "auto.operator_20.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": [
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_20.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_20.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_20.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 0,
+    "code": "physical",
+    "label": "물리"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/물리/20_포그라니치니크.json"
+}

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.838.profile",
+  "semanticKey": "ko-KR|operator|838|profile",
+  "locale": "ko-KR",
+  "documentType": "operator_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_838",
+    "name": "장방이",
+    "aliases": [],
+    "gameEntryId": 838
+  },
+  "title": "장방이 — 오퍼레이터 기본 정보",
+  "content": "장방이 오퍼레이터의 기본 정보. 속성은 전기, 무기 유형은 아츠 유닛이다. 주요 능력치는 지능, 보조 능력치는 의지이다.",
+  "facts": {
+    "name": "장방이",
+    "element": {
+      "id": 2,
+      "code": "electric",
+      "label": "전기"
+    },
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "primaryAttribute": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    },
+    "secondaryAttribute": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    },
+    "attributeCatalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_profile",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "elementCode": "electric",
+    "weaponTypeCode": "arts_unit",
+    "primaryAttributeCode": "intellect",
+    "secondaryAttributeCode": "will"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/838_장방이.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=838&header=0",
+    "sourceSha256": "ccdae3966bde94c9b63200b3a967536b36b510c500d389b62b007105d2ee778b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_838.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.operator_838.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문에서 희귀도를 텍스트로 확정할 수 없음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.class",
+        "reason": "클래스 이미지 매핑이 검증되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.portraitUrl",
+        "reason": "초상화 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5f7f03de3b2fc0a6d4130c5d94881f176c2b9f5c1042d562925d9c94a61ef2e6",
+    "payloadSha256": "bbfcef4127728d42cd92d3a390d164e990ee1657f0b631c5c681bfd2f497127b"
+  }
+}

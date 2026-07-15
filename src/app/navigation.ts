@@ -4,6 +4,7 @@ export const navigationItems = [
   { id: 'weapons', href: '#weapons', label: '무기' },
   { id: 'equipment', href: '#equipment', label: '장비' },
   { id: 'damage-calculator', href: '#damage-calculator', label: '피해량 계산' },
+  { id: 'rag-inspector', href: '#rag-inspector', label: 'RAG 검증' },
   { id: 'crisis-contract', href: '#crisis-contract', label: '위기 협약' },
 ] as const
 

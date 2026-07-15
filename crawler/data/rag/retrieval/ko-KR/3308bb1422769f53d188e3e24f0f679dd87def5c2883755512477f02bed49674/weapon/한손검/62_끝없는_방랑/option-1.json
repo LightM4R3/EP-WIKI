@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.62.option-1",
+  "semanticKey": "ko-KR|weapon|62|option-1",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_62",
+    "name": "끝없는 방랑",
+    "aliases": [],
+    "gameEntryId": 62
+  },
+  "title": "끝없는 방랑 — 1번 옵션 의지 증가 · 대",
+  "content": "끝없는 방랑 무기의 1번 옵션 ‘의지 증가 · 대’.\nRANK1: 의지 +20.\nRANK2: 의지 +36.\nRANK3: 의지 +52.\nRANK4: 의지 +68.\nRANK5: 의지 +84.\nRANK6: 의지 +100.\nRANK7: 의지 +116.\nRANK8: 의지 +132.\nRANK9: 의지 +156.",
+  "facts": {
+    "slot": 1,
+    "name": "의지 증가 · 대",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "의지",
+        "value": 20,
+        "unit": "flat",
+        "display": "+20"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "의지",
+        "value": 36,
+        "unit": "flat",
+        "display": "+36"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "의지",
+        "value": 52,
+        "unit": "flat",
+        "display": "+52"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "의지",
+        "value": 68,
+        "unit": "flat",
+        "display": "+68"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "의지",
+        "value": 84,
+        "unit": "flat",
+        "display": "+84"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "의지",
+        "value": 100,
+        "unit": "flat",
+        "display": "+100"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "의지",
+        "value": 116,
+        "unit": "flat",
+        "display": "+116"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "의지",
+        "value": 132,
+        "unit": "flat",
+        "display": "+132"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "의지",
+        "value": 156,
+        "unit": "flat",
+        "display": "+156"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "optionSlot": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/62_끝없는_방랑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=62&header=0",
+    "sourceSha256": "c21f8211460fcba7ef49dfba18e75b3ab5edcc4b034b19b9541002f3c01705ea",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_62.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "6e0b7bfadc86cf4e9137d8cd9bf50ea5ed8b6768737424f53cff059e5098cafb",
+    "payloadSha256": "c3ba73b61af2c2526e4274b2cb62d4288a98494e63016aafda67b55f3d841807"
+  }
+}

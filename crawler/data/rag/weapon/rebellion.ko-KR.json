@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityId": "rebellion",
+  "locale": "ko-KR",
+  "documents": [
+    {
+      "documentId": "weapon.rebellion.profile.ko-kr",
+      "section": "profile",
+      "content": "무기 프로필\n이름: 반항\n희귀도: 6성\n무기 유형: 권총 (id=3, code=handcannon)\n획득 방식: 구매 센터 - 무기고 교환소\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n홍산 선검국이 개발한 총기, 디자인은 간단하지만 재료가 탄탄하고, 휴대가 편리하여 각종 복잡한 환경에서도 제약 없이 사용할 수 있습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "rebellion",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+        "canonicalRef": "data/canonical/weapon/rebellion.json#",
+        "localizationRef": "data/localization/weapon/rebellion.ko-KR.json#",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon"
+      }
+    },
+    {
+      "documentId": "weapon.rebellion.progression.ko-kr",
+      "section": "progression",
+      "content": "무기 레벨별 기초 공격력과 돌파 재료\nLV.1: 기초 공격력=51; 재료: 없음\nLV.20: 기초 공격력=148; 재료: 모형 틀 ×5, 연한 흑암석 ×3, 탈로시안 화폐 ×2200\nLV.40: 기초 공격력=250; 재료: 모형 틀 ×18, 일반 흑암석 ×5, 탈로시안 화폐 ×8500\nLV.60: 기초 공격력=352; 재료: 중형 모형 틀 ×20, 진한 흑암석 ×5, 탈로시안 화폐 ×25000\nLV.80: 기초 공격력=454; 재료: 중형 모형 틀 ×30, 정합용 유체 ×16, 화염석 ×8, 탈로시안 화폐 ×90000\nLV.90: 기초 공격력=505; 재료: 없음",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "rebellion",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+        "canonicalRef": "data/canonical/weapon/rebellion.json#/progression",
+        "localizationRef": "data/localization/weapon/rebellion.ko-KR.json#/progression",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon"
+      }
+    },
+    {
+      "documentId": "weapon.rebellion.option.agility_increase_large.ko-kr",
+      "section": "weapon_option",
+      "content": "무기 옵션 슬롯 1: 민첩 증가 · 대\n분류: 능력치 증가 (categoryId=0, categoryCode=attribute_increase)\n옵션 ID: 0; 옵션 코드: agility_increase_large; 재사용 범위: shared_stat_option\nRANK 1: 민첩=+20; 효과: 민첩 +20.\nRANK 2: 민첩=+36; 효과: 민첩 +36.\nRANK 3: 민첩=+52; 효과: 민첩 +52.\nRANK 4: 민첩=+68; 효과: 민첩 +68.\nRANK 5: 민첩=+84; 효과: 민첩 +84.\nRANK 6: 민첩=+100; 효과: 민첩 +100.\nRANK 7: 민첩=+116; 효과: 민첩 +116.\nRANK 8: 민첩=+132; 효과: 민첩 +132.\nRANK 9: 민첩=+156; 효과: 민첩 +156.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "rebellion",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+        "canonicalRef": "data/canonical/weapon/rebellion.json#/options/0",
+        "localizationRef": "data/localization/weapon/rebellion.ko-KR.json#/options/0",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "optionId": 0,
+        "optionCode": "agility_increase_large",
+        "optionCategoryId": 0,
+        "optionCategoryCode": "attribute_increase",
+        "optionSlot": 1,
+        "optionLevelCount": 9
+      }
+    },
+    {
+      "documentId": "weapon.rebellion.option.attack_increase_large.ko-kr",
+      "section": "weapon_option",
+      "content": "무기 옵션 슬롯 2: 공격력 증가 · 대\n분류: 공격력 증가 (categoryId=1, categoryCode=attack_increase)\n옵션 ID: 1; 옵션 코드: attack_increase_large; 재사용 범위: shared_stat_option\nRANK 1: 공격력=+5.0%; 효과: 공격력 +5.0%.\nRANK 2: 공격력=+9.0%; 효과: 공격력 +9.0%.\nRANK 3: 공격력=+13.0%; 효과: 공격력 +13.0%.\nRANK 4: 공격력=+17.0%; 효과: 공격력 +17.0%.\nRANK 5: 공격력=+21.0%; 효과: 공격력 +21.0%.\nRANK 6: 공격력=+25.0%; 효과: 공격력 +25.0%.\nRANK 7: 공격력=+29.0%; 효과: 공격력 +29.0%.\nRANK 8: 공격력=+33.0%; 효과: 공격력 +33.0%.\nRANK 9: 공격력=+39.0%; 효과: 공격력 +39.0%.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "rebellion",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+        "canonicalRef": "data/canonical/weapon/rebellion.json#/options/1",
+        "localizationRef": "data/localization/weapon/rebellion.ko-KR.json#/options/1",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "optionId": 1,
+        "optionCode": "attack_increase_large",
+        "optionCategoryId": 1,
+        "optionCategoryCode": "attack_increase",
+        "optionSlot": 2,
+        "optionLevelCount": 9
+      }
+    },
+    {
+      "documentId": "weapon.rebellion.option.release_conquest_grudge.ko-kr",
+      "section": "weapon_option",
+      "content": "무기 옵션 슬롯 3: 방출 · 토벌의 원한\n분류: 방출 (categoryId=2, categoryCode=release)\n옵션 ID: 2; 옵션 코드: release_conquest_grudge; 재사용 범위: named_weapon_trait\nRANK 1: 냉기 피해=+16.0%; 냉기 부착 시 냉기 피해=+20.0%; 아츠 취약 시 적이 받는 아츠 피해=+6.0%; 효과: 냉기 피해 +16.0%. 장착자가 배틀 스킬 또는 궁극기로 냉기 부착을 부여하면 냉기 피해 +20.0%, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로 아츠 취약을 부여하면 적이 받는 아츠 피해 +6.0%, 20초 동안 지속. 두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 2: 냉기 피해=+19.2%; 냉기 부착 시 냉기 피해=+24.0%; 아츠 취약 시 적이 받는 아츠 피해=+7.2%; 효과: 냉기 피해 +19.2%. 장착자가 배틀 스킬 또는 궁극기로 냉기 부착을 부여하면 냉기 피해 +24.0%, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로 아츠 취약을 부여하면 적이 받는 아츠 피해 +7.2%, 20초 동안 지속. 두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 3: 냉기 피해=+22.4%; 냉기 부착 시 냉기 피해=+28.0%; 아츠 취약 시 적이 받는 아츠 피해=+8.4%; 효과: 냉기 피해 +22.4%. 장착자가 배틀 스킬 또는 궁극기로 냉기 부착을 부여하면 냉기 피해 +28.0%, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로 아츠 취약을 부여하면 적이 받는 아츠 피해 +8.4%, 20초 동안 지속. 두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 4: 냉기 피해=+25.6%; 냉기 부착 시 냉기 피해=+32.0%; 아츠 취약 시 적이 받는 아츠 피해=+9.6%; 효과: 냉기 피해 +25.6%. 장착자가 배틀 스킬 또는 궁극기로 냉기 부착을 부여하면 냉기 피해 +32.0%, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로 아츠 취약을 부여하면 적이 받는 아츠 피해 +9.6%, 20초 동안 지속. 두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 5: 냉기 피해=+28.8%; 냉기 부착 시 냉기 피해=+36.0%; 아츠 취약 시 적이 받는 아츠 피해=+10.8%; 효과: 냉기 피해 +28.8%. 장착자가 배틀 스킬 또는 궁극기로 냉기 부착을 부여하면 냉기 피해 +36.0%, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로 아츠 취약을 부여하면 적이 받는 아츠 피해 +10.8%, 20초 동안 지속. 두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 6: 냉기 피해=+32.0%; 냉기 부착 시 냉기 피해=+40.0%; 아츠 취약 시 적이 받는 아츠 피해=+12.0%; 효과: 냉기 피해 +32.0%. 장착자가 배틀 스킬 또는 궁극기로 냉기 부착을 부여하면 냉기 피해 +40.0%, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로 아츠 취약을 부여하면 적이 받는 아츠 피해 +12.0%, 20초 동안 지속. 두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 7: 냉기 피해=+35.2%; 냉기 부착 시 냉기 피해=+44.0%; 아츠 취약 시 적이 받는 아츠 피해=+13.2%; 효과: 냉기 피해 +35.2%. 장착자가 배틀 스킬 또는 궁극기로 냉기 부착을 부여하면 냉기 피해 +44.0%, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로 아츠 취약을 부여하면 적이 받는 아츠 피해 +13.2%, 20초 동안 지속. 두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 8: 냉기 피해=+38.4%; 냉기 부착 시 냉기 피해=+48.0%; 아츠 취약 시 적이 받는 아츠 피해=+14.4%; 효과: 냉기 피해 +38.4%. 장착자가 배틀 스킬 또는 궁극기로 냉기 부착을 부여하면 냉기 피해 +48.0%, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로 아츠 취약을 부여하면 적이 받는 아츠 피해 +14.4%, 20초 동안 지속. 두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 9: 냉기 피해=+44.8%; 냉기 부착 시 냉기 피해=+56.0%; 아츠 취약 시 적이 받는 아츠 피해=+16.8%; 효과: 냉기 피해 +44.8%. 장착자가 배틀 스킬 또는 궁극기로 냉기 부착을 부여하면 냉기 피해 +56.0%, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로 아츠 취약을 부여하면 적이 받는 아츠 피해 +16.8%, 20초 동안 지속. 두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "rebellion",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+        "canonicalRef": "data/canonical/weapon/rebellion.json#/options/2",
+        "localizationRef": "data/localization/weapon/rebellion.ko-KR.json#/options/2",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "optionId": 2,
+        "optionCode": "release_conquest_grudge",
+        "optionCategoryId": 2,
+        "optionCategoryCode": "release",
+        "optionSlot": 3,
+        "optionLevelCount": 9
+      }
+    }
+  ]
+}

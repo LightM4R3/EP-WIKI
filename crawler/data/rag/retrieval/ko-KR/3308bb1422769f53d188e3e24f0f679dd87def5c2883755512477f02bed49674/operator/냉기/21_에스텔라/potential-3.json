@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.21.potential-3",
+  "semanticKey": "ko-KR|operator|21|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_21",
+    "name": "에스텔라",
+    "aliases": [],
+    "gameEntryId": 21
+  },
+  "title": "에스텔라 — 잠재능력 3 작업 연기",
+  "content": "에스텔라 오퍼레이터의 잠재능력 3 ‘작업 연기’. 배틀 스킬 서스테인이 방출하는 냉기 음파의 비행 거리 +50%, 첫 번째로 명중한 적에게 주는 피해 +40% 오퍼레이터 기념사진 \"공유욕\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "작업 연기",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 서스테인이 방출하는 냉기 음파의 비행 거리 +50%, 첫 번째로 명중한 적에게 주는 피해 +40% 오퍼레이터 기념사진 \"공유욕\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+    "sourceSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_21.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "2e29a2f651f1de25426f9fa653f19dc471e688d9da40f137817a68c815deaaeb",
+    "payloadSha256": "487e0736c712388679c3517f288d2f5cea703cedaa3dc11711b3c141d558265a"
+  }
+}

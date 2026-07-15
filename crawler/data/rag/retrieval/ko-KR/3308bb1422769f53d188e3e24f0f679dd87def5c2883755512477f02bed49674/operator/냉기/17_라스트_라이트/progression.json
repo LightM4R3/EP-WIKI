@@ -1,0 +1,262 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.17.progression",
+  "semanticKey": "ko-KR|operator|17|progression",
+  "locale": "ko-KR",
+  "documentType": "operator_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_17",
+    "name": "라스트 라이트",
+    "aliases": [],
+    "gameEntryId": 17
+  },
+  "title": "라스트 라이트 — 레벨 능력치와 재료",
+  "content": "라스트 라이트 오퍼레이터의 레벨별 기본 능력치.\nLV.1: 힘 21, 민첩 8, 의지 15, 기초 공격력 30, 기초 생명력 500\nLV.20: 힘 50, 민첩 29, 의지 35, 기초 공격력 95, 기초 생명력 1566\nLV.40: 힘 80, 민첩 50, 의지 56, 기초 공격력 162, 기초 생명력 2689\nLV.60: 힘 110, 민첩 72, 의지 77, 기초 공격력 230, 기초 생명력 3811\nLV.80: 힘 140, 민첩 93, 의지 98, 기초 공격력 298, 기초 생명력 4934\nLV.90: 힘 155, 민첩 104, 의지 109, 기초 공격력 332, 기초 생명력 5495\n라스트 라이트의 레벨 돌파 재료.\nLV.20 도달: 초급 작전 기록 5개, 중급 작전 기록 2개, 고급 작전 기록 2개, 탈로시안 화폐 820개.\nLV.40 도달: 초급 작전 기록 3개, 중급 작전 기록 8개, 고급 작전 기록 24개, 탈로시안 화폐 12540개.\nLV.60 도달: 초급 작전 기록 4개, 중급 작전 기록 5개, 고급 작전 기록 47개, 탈로시안 화폐 23900개.\nLV.80 도달: 초급 인지 매개체 6개, 고급 인지 매개체 46개, 탈로시안 화폐 109180개.\nLV.90 도달: 고급 인지 매개체 58개, 탈로시안 화폐 238980개.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "stats": {
+          "strength": 21,
+          "agility": 8,
+          "will": 15,
+          "baseAttack": 30,
+          "baseHp": 500
+        }
+      },
+      {
+        "level": 20,
+        "stats": {
+          "strength": 50,
+          "agility": 29,
+          "will": 35,
+          "baseAttack": 95,
+          "baseHp": 1566
+        }
+      },
+      {
+        "level": 40,
+        "stats": {
+          "strength": 80,
+          "agility": 50,
+          "will": 56,
+          "baseAttack": 162,
+          "baseHp": 2689
+        }
+      },
+      {
+        "level": 60,
+        "stats": {
+          "strength": 110,
+          "agility": 72,
+          "will": 77,
+          "baseAttack": 230,
+          "baseHp": 3811
+        }
+      },
+      {
+        "level": 80,
+        "stats": {
+          "strength": 140,
+          "agility": 93,
+          "will": 98,
+          "baseAttack": 298,
+          "baseHp": 4934
+        }
+      },
+      {
+        "level": 90,
+        "stats": {
+          "strength": 155,
+          "agility": 104,
+          "will": 109,
+          "baseAttack": 332,
+          "baseHp": 5495
+        }
+      }
+    ],
+    "materialCosts": [
+      {
+        "targetLevel": 20,
+        "items": [
+          {
+            "id": 1,
+            "code": "beginner_combat_record",
+            "name": "초급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 5
+          },
+          {
+            "id": 2,
+            "code": "intermediate_combat_record",
+            "name": "중급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 2
+          },
+          {
+            "id": 3,
+            "code": "advanced_combat_record",
+            "name": "고급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 2
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 820
+          }
+        ]
+      },
+      {
+        "targetLevel": 40,
+        "items": [
+          {
+            "id": 1,
+            "code": "beginner_combat_record",
+            "name": "초급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 3
+          },
+          {
+            "id": 2,
+            "code": "intermediate_combat_record",
+            "name": "중급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 8
+          },
+          {
+            "id": 3,
+            "code": "advanced_combat_record",
+            "name": "고급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 24
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 12540
+          }
+        ]
+      },
+      {
+        "targetLevel": 60,
+        "items": [
+          {
+            "id": 1,
+            "code": "beginner_combat_record",
+            "name": "초급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 4
+          },
+          {
+            "id": 2,
+            "code": "intermediate_combat_record",
+            "name": "중급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 5
+          },
+          {
+            "id": 3,
+            "code": "advanced_combat_record",
+            "name": "고급 작전 기록",
+            "catalogStatus": "mapped",
+            "amount": 47
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 23900
+          }
+        ]
+      },
+      {
+        "targetLevel": 80,
+        "items": [
+          {
+            "id": 4,
+            "code": "beginner_cognitive_medium",
+            "name": "초급 인지 매개체",
+            "catalogStatus": "mapped",
+            "amount": 6
+          },
+          {
+            "id": 5,
+            "code": "advanced_cognitive_medium",
+            "name": "고급 인지 매개체",
+            "catalogStatus": "mapped",
+            "amount": 46
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 109180
+          }
+        ]
+      },
+      {
+        "targetLevel": 90,
+        "items": [
+          {
+            "id": 5,
+            "code": "advanced_cognitive_medium",
+            "name": "고급 인지 매개체",
+            "catalogStatus": "mapped",
+            "amount": 58
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 238980
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_progression",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+    "sourceSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_17.progression.c3.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.progression[].stats.intellect",
+        "reason": "지능 값이 두 원문 표에서 충돌하고 자동 선택 근거가 부족함",
+        "status": "source_conflict"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0c0afb4d173cf8d2b8debe2eab77eb2288f822890478c550238746d55db874d6",
+    "payloadSha256": "a15cdcc5238013e174989830bae9a77e0b1c4f292d3d4d6a60b2bd3006889ee7"
+  }
+}

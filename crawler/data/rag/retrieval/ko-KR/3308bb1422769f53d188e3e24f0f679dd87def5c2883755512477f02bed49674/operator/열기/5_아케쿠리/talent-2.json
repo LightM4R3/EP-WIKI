@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.5.talent-2",
+  "semanticKey": "ko-KR|operator|5|talent-2",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_5",
+    "name": "아케쿠리",
+    "aliases": [],
+    "gameEntryId": 5
+  },
+  "title": "아케쿠리 — 몰입의 시간",
+  "content": "아케쿠리 오퍼레이터의 오퍼레이터 재능 ‘몰입의 시간’.\n단계 1: 궁극기 소대, 집합!이 지속되는 동안 연타 상태를 획득합니다. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 36개, 탈로시안 화폐 32000개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 2,
+    "name": "몰입의 시간",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "궁극기 소대, 집합!이 지속되는 동안 연타 상태를 획득합니다.",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 36
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 32000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "talentKind": "combat_talent",
+    "talentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/5_아케쿠리.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=5&header=0",
+    "sourceSha256": "1d32fb2a32cd175406743463d61a07b698b38b73717039f7510313cb4f8f62a0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_5.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "39ede88b62027cde6457cabef30cdb61772a42264ba5be046ee753cc93ab8b97",
+    "payloadSha256": "503c39c1a575913cd224c41d3fd89a0e055272a6a37e0b6661b391667ee83e74"
+  }
+}

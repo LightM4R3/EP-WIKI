@@ -1,0 +1,508 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_25",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 25,
+    "name": "탕탕",
+    "rarity": 6,
+    "portraitUrl": "https://static.skport.com/image/rm42wiki/20260313/4559012616678/69b2e5e47c2305399ff6a873_56331367.png"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_25.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 탕탕\ngameEntryId: 25\n정규화 상태: query_ready\n속성: 냉기 (id=3, code=cryo)\n무기 유형: 권총 (id=3, code=handcannon)\n주요 능력치: 민첩 (id=1, code=agility)\n보조 능력치: 힘 (id=0, code=strength)\nLV.1: 힘=13, 민첩=23, 지능=8, 의지=10, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=37, 민첩=56, 지능=25, 의지=29, 기초 공격력=92, 기초 생명력=1566\nLV.40: 힘=61, 민첩=91, 지능=42, 의지=50, 기초 공격력=157, 기초 생명력=2689\nLV.60: 힘=86, 민첩=126, 지능=59, 의지=71, 기초 공격력=223, 기초 생명력=3811\nLV.80: 힘=111, 민첩=162, 지능=77, 의지=91, 기초 공격력=288, 기초 생명력=4934\nLV.90: 힘=123, 민첩=179, 지능=85, 의지=102, 기초 공격력=321, 기초 생명력=5495\n현재 원문에서 확정 불가: progression.materialCosts, skills.structuredValues",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_25",
+        "gameEntryId": 25,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 3,
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "evidenceDocumentIds": [
+          "auto.operator_25.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_25.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_25.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_25.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_25.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_25.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_25.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_25.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_25.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_25.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_25.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 탕탕\ncategory: operator\nsection: profile\n탕탕\n진영\n엔드필드 공업\n무기 유형\n권총\n\"대당가 나가신다! 너랑 너, 그리고 너! 잘 들어, 이제 지휘는 내가 한다!\"\n청파채의 대당가 탕탕은 성격이 시원시원하고 의리를 중시하며, 행동이 거침없는 인물이다. 물놀이를 좋아하고 자유를 갈망하지만, 배신만큼은 절대 용납하지 않는다. 한번 친구라고 인정하면 상대를 위해 어떠한 희생도 마다하지 않는다.\n갓난아기 시절, 대나무 바구니에 담겨 강물을 따라 청파채로 떠내려온 탕탕은 청파채 주민들의 손에 거두어져 이곳의 일원이 되었다. 주민들의 눈에는 여전히 보살핌이 필요한 어린 아이처럼 보일지 모르지만, 탕탕은 오래 전부터 청파채의 미래를 짊어지겠다는 포부를 품고 있다.\n많은 좌절을 겪으면서도 세상에 대한 열정은 잃지 않은 채, 문제의 해답을 찾고 청파채를 더 발전시키기 위해 엔드필드 공업에 합류하게 된다.\n미브 씨랑은 절대 마주치게 하면 안 돼요. 남아나는 물건이 없을 테니까요. ─ 익명의 총지원 부서 소속 오퍼레이터\n\"뭐야, 나 칭찬해 주려고 부른 거였어? 그럼 맘껏 해봐, 그런 말은 아무리 들어도 안 질리거든!\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_25",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 25,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:19.565513+00:00",
+        "contentSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "탕탕"
+      }
+    },
+    {
+      "documentId": "auto.operator_25.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 탕탕\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n탕탕\n성별\n여\n진영\n엔드필드 공업\n생일\n11월 29일\n속성\n냉기\n종족\n필라인\n한국어 CV\n김채린\n일본어 CV\nファイルーズあい\n영어 CV\nJing Chen\n중국어 CV\n靜宸",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_25",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 25,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:19.565513+00:00",
+        "contentSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "탕탕"
+      }
+    },
+    {
+      "documentId": "auto.operator_25.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 탕탕\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘 (보조 능력치)\n13\n37\n61\n86\n111\n123\n민첩 (주요 능력치)\n23\n56\n91\n126\n162\n179\n지능\n8\n25\n42\n59\n77\n85\n의지\n10\n29\n50\n71\n91\n102\n기초 공격력\n30\n92\n157\n223\n288\n321\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘 (보조 능력치)\n13\n-\n민첩 (주요 능력치)\n23\n지능\n8\n의지\n10\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘 (보조 능력치)\n37\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩 (주요 능력치)\n56\n지능\n25\n의지\n29\n기초 공격력\n92\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘 (보조 능력치)\n61\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩 (주요 능력치)\n91\n지능\n42\n의지\n50\n기초 공격력\n157\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘 (보조 능력치)\n86\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩 (주요 능력치)\n126\n지능\n59\n의지\n71\n기초 공격력\n223\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘 (보조 능력치)\n111\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩 (주요 능력치)\n162\n지능\n77\n의지\n91\n기초 공격력\n288\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘 (보조 능력치)\n123\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩 (주요 능력치)\n179\n지능\n85\n의지\n102\n기초 공격력\n321\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_25",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 25,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:19.565513+00:00",
+        "contentSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "탕탕"
+      }
+    },
+    {
+      "documentId": "auto.operator_25.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 탕탕\ncategory: operator\nsection: combat_skill\n전투 스킬\n정신 똑바로 차려!\n일반 공격\n일반 공격:\n적에게 최대 5단 공격을 하여\n냉기 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n18\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n냉기 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n냉기 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n23%\n25%\n27%\n29%\n32%\n34%\n36%\n39%\n41%\n44%\n47%\n51%\n일반 공격 제2단계 배율\n25%\n28%\n30%\n33%\n35%\n38%\n40%\n43%\n45%\n48%\n52%\n56%\n일반 공격 제3단계 배율\n35%\n39%\n42%\n46%\n49%\n53%\n56%\n60%\n63%\n67%\n73%\n79%\n일반 공격 제4단계 배율\n37%\n40%\n44%\n47%\n51%\n55%\n58%\n62%\n66%\n70%\n76%\n82%\n일반 공격 제5단계 배율\n50%\n55%\n60%\n65%\n70%\n75%\n80%\n85%\n90%\n96%\n104%\n113%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\nD96강 시제품 4번\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\nD96강 시제품 4번\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\nD96강 시제품 4번\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n우당탕탕 파도!\n배틀 스킬\n물속에서 뛰어올라 적에게 근접하여 사격하며\n냉기 피해\n를 주고,\n용오름\n을 생성합니다.\n동시에 근처의 모든\n와류\n를 소모하여 추가로\n용오름\n을 생성하고, 생성된 개수에 따라 일정량의 스킬 게이지를\n반환\n합니다.\n용오름\n: 범위 내의 적에게\n냉기 부착\n1스택을 부여하고, 지속적으로\n냉기 피해\n를 줍니다. 만약 여러 개의\n용오름\n이 생성됐다면 적에게 추가로\n아츠 취약\n을 부여하지만,\n냉기 부착\n이 중복으로 부여되진 않습니다.\n용오름이 주는 피해는 배틀 스킬의 피해로 간주됩니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n사격 피해 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n사격 불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n단일 용오름 피해 배율\n133%\n147%\n160%\n174%\n187%\n200%\n214%\n227%\n240%\n257%\n277%\n300%\n용오름 지속 시간(초)\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n와류마다 스킬 게이지 반환\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n용오름 2개일 시 부여하는 아츠 취약\n3%\n3%\n3%\n3.5%\n3.5%\n3.5%\n4%\n4%\n4%\n4.5%\n4.5%\n5%\n용오름 3개일 시 부여하는 아츠 취약\n6%\n6%\n6%\n7%\n7%\n7%\n8%\n8%\n8%\n9%\n9%\n10%\n아츠 취약 지속 시간(초)\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_25",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 25,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:19.565513+00:00",
+        "contentSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "탕탕"
+      }
+    },
+    {
+      "documentId": "auto.operator_25.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 탕탕\ncategory: operator\nsection: combat_skill\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n야, 강물! 도와줘!\n연계 스킬\n적이\n냉기 부착\n을 부여받았거나\n아츠 폭발\n피해를 받았을 때 발동할 수 있습니다.\n강력한 물줄기를 방출해 전방의 적을 관통하며\n냉기 피해\n를 주고,\n와류\n하나를 생성합니다.\n필드에는 최대 두 개의 와류만 존재할 수 있습니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n14초\n14초\n14초\n14초\n14초\n14초\n14초\n14초\n13초\n13초\n13초\n12초\n피해 배율\n107%\n117%\n128%\n139%\n149%\n160%\n171%\n181%\n192%\n205%\n221%\n240%\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n와류 지속 시간(초)\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n획득하는 궁극기 에너지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\nD96강 시제품 4번\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\nD96강 시제품 4번\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\nD96강 시제품 4번\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n대당가께서 지켜보고 계신다!\n궁극기\n탕탕이 안대를 벗어 던지고 눈 속에 깃든\n고대의 진\n을 발동합니다. 범위 내의 적은 일정 시간 동안 움직일 수 없으며, 지속적으로\n냉기 피해\n를 받습니다.\n고대의 진\n은 나타난 직후부터 서서히 변화를 시작해 변화가 끝날 때 거대한 파도를 일으키고 범위 내의 적에게 대량의\n냉기 피해\n를 줍니다.\n메인 컨트롤 오퍼레이터가 고대의 진 내에서 낙하 공격을 사용하면, 변화하던\n고대의 진\n이 그 변화를 중단합니다. 이어서 예정보다 일찍 거대한 파도를 일으키고, 이때 파도가 주는\n냉기 피해\n가 증가합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n쿨타임\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n지속 피해 총 배율\n142%\n156%\n171%\n185%\n199%\n213%\n228%\n242%\n256%\n274%\n295%\n320%\n고대의 진 지속 시간(초)\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n4\n거대한 파도 피해 배율\n178%\n196%\n213%\n231%\n249%\n267%\n284%\n302%\n320%\n342%\n369%\n400%",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_25",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 25,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:26:19.565513+00:00",
+        "contentSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "탕탕"
+      }
+    },
+    {
+      "documentId": "auto.operator_25.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 탕탕\ncategory: operator\nsection: combat_skill\n일찍 일으킨 거대한 파도의 피해 배율\n311%\n342%\n373%\n404%\n436%\n467%\n498%\n529%\n560%\n599%\n646%\n700%\n거대한 파도의 불균형치\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n일찍 일으킨 거대한 파도의 불균형치\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_25",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 25,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T06:26:19.565513+00:00",
+        "contentSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "탕탕"
+      }
+    },
+    {
+      "documentId": "auto.operator_25.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 탕탕\ncategory: operator\nsection: operator_talent\n재능 배열\n능숙\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 민첩 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 민첩 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 민첩 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 민첩 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n의기투합\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n와류\n주변\n5\n미터 범위 내, 아군 오퍼레이터는\n10%\n가속\n을 획득하고, 적은\n20%\n감속\n을 받습니다. 범위를 벗어난 뒤에도 해당 효과는 3초 동안 지속됩니다.\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n와류\n주변\n5\n미터 범위 내, 아군 오퍼레이터는\n20%\n가속\n을 획득하고, 적은\n40%\n감속\n을 받습니다. 범위를 벗어난 뒤에도 해당 효과는 3초 동안 지속됩니다.\n정예화 단계 2 돌파\n40\n프로토콜 프리즘\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n풍랑의 주재자\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n메인 컨트롤 오퍼레이터가\n고대의 진\n내에서 낙하 공격을 사용하면, 변화하던 고대의 진이 그 변화를 중단합니다. 이어서\n용오름\n1개를 생성하며, 주변에\n와류\n가 존재할 경우 이를 소모하여 추가로\n용오름\n을 생성합니다.\n이때 생성한\n용오름\n은 배틀 스킬\n우당탕탕 파도!\n와 동일한 효과를 가지고 있으며, 주는 피해\n+40%\n.\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n메인 컨트롤 오퍼레이터가\n고대의 진\n내에서 낙하 공격을 사용하면, 변화하던 고대의 진이 그 변화를 중단합니다. 이어서\n용오름\n1개를 생성하며, 주변에\n와류\n가 존재할 경우 이를 소모하여 추가로\n용오름\n을 생성합니다.\n이때 생성한\n용오름\n은 배틀 스킬\n우당탕탕 파도!\n와 동일한 효과를 가지고 있으며, 주는 피해\n+60%\n.\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n24000\n탈로시안 화폐\n*\n24000\n대당가",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_25",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 25,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:19.565513+00:00",
+        "contentSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "탕탕"
+      }
+    },
+    {
+      "documentId": "auto.operator_25.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 탕탕\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n대당가 · β\n재배실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n대당가 · γ\n재배실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 18% 감소\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n강에서 태어난 소녀\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n강에서 태어난 소녀 · β\n재배실에 배치 시, 결정화 식물 재료의 육성 속도 20% 증가\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n강에서 태어난 소녀 · γ\n재배실에 배치 시, 결정화 식물 재료의 육성 속도 30% 증가\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_25",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 25,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:19.565513+00:00",
+        "contentSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "탕탕"
+      }
+    },
+    {
+      "documentId": "auto.operator_25.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 탕탕\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\n초거리 빛 반사 파이프\n*\n20\n8\n피버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_25",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 25,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:19.565513+00:00",
+        "contentSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "탕탕"
+      }
+    },
+    {
+      "documentId": "auto.operator_25.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 탕탕\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n무한한 재보\n잠재능력 01\n연계 스킬\n야, 강물! 도와줘!\n의 피해 배율이 기존의\n1.2\n배로 증가하며, 쿨타임\n-2\n초.\n배틀 스킬\n우당탕탕 파도!\n로\n와류\n한 곳을 소모하여\n용오름\n이 생성될 때마다, 추가로 스킬 게이지\n5\n포인트를\n반환\n합니다.\n오퍼레이터 기념사진 \"물에 비친 본심\" 잠금 해제\n강에서 태어난 소녀\n잠재능력 02\n민첩\n+20\n, 냉기 피해\n+10%\n.\n대당가의 기백\n잠재능력 03\n배틀 스킬\n우당탕탕 파도!\n의 피해 배율이 기존의\n1.1\n배로 증가하며, 동시에 여러 개의\n용오름\n이 생성될 때 부여하는\n아츠 취약\n효과가 추가로\n+5%\n.\n오퍼레이터 기념사진 \"절균\" 잠금 해제\n청파 수련법\n잠재능력 04\n궁극기\n대당가께서 지켜보고 계신다!\n의 사용에 필요한 궁극기 에너지\n-15%\n.\n마안의 권능\n잠재능력 05\n궁극기\n대당가께서 지켜보고 계신다!\n의 피해 배율이 기존의\n1.15\n배로 증가합니다.\n재능\n풍랑의 주재자\n효과 강화: 궁극기\n대당가께서 지켜보고 계신다!\n로 생성된\n용오름\n의 피해 증가 효과 추가로\n+80%\n.\n오퍼레이터 기념사진 \"절대적인 명령\" 잠금 해제\n명함 테마 \"절대적인 명령\" 잠금 해제\n오퍼레이터 기념사진\n물에 비친 본심\n일러스트레이터: Samail\n누가 그랬어, 내 마음은 달빛 아래 맑은 파도처럼 밝고 빛이 흐르는 물 같다고. 근데 이게 무슨 뜻이야?\n절균\n일러스트레이터: 二值笔战士\n대나무에서 은은한 향이 난다는 거 알아? 난 그 향을 맡으면 뭔가 아무것도 일어나지 않은 평범한 오후가 떠올라. 평화롭게 옷을 만드는 사람들이 있고, 그 사람들 위로 햇살이 내려앉는 느낌이랄까?\n절대적인 명령\n일러스트레이터: 수줍(Sjoop)\n검은 가면! 너 대당가의 동료가 돼라! 이몸이 널 데리고 세상의 끝까지 가줄 테니까!",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_25",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 25,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:19.565513+00:00",
+        "contentSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "탕탕"
+      }
+    }
+  ],
+  "canonicalRef": "data/canonical/operator/tangtang.json",
+  "taxonomy": {
+    "element": {
+      "id": 3,
+      "code": "cryo",
+      "label": "냉기"
+    },
+    "weaponType": {
+      "id": 3,
+      "code": "handcannon",
+      "label": "권총"
+    },
+    "class": {
+      "id": 4,
+      "code": "caster",
+      "sourceLabel": "Caster",
+      "sourceIconSha256": "6a321062bd23b62e745c7fe6e959b37f3b68640ee86f9ee27a06d1cf75cc0b42",
+      "mappingStatus": "verified"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 1,
+      "code": "agility",
+      "label": "민첩"
+    },
+    "secondary": {
+      "id": 0,
+      "code": "strength",
+      "label": "힘"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 13,
+        "agility": 23,
+        "intellect": 8,
+        "will": 10,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 37,
+        "agility": 56,
+        "intellect": 25,
+        "will": 29,
+        "baseAttack": 92,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 61,
+        "agility": 91,
+        "intellect": 42,
+        "will": 50,
+        "baseAttack": 157,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 86,
+        "agility": 126,
+        "intellect": 59,
+        "will": 71,
+        "baseAttack": 223,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 111,
+        "agility": 162,
+        "intellect": 77,
+        "will": 91,
+        "baseAttack": 288,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 123,
+        "agility": 179,
+        "intellect": 85,
+        "will": 102,
+        "baseAttack": 321,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_25.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_25.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_25.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": []
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_25.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_25.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_25.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 3,
+    "code": "cryo",
+    "label": "냉기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "progression.materialCosts",
+      "skills.structuredValues"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json"
+}

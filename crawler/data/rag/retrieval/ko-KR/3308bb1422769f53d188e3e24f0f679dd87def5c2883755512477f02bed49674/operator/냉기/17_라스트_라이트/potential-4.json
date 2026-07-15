@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.17.potential-4",
+  "semanticKey": "ko-KR|operator|17|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_17",
+    "name": "라스트 라이트",
+    "aliases": [],
+    "gameEntryId": 17
+  },
+  "title": "라스트 라이트 — 잠재능력 4 진심 어린 작별",
+  "content": "라스트 라이트 오퍼레이터의 잠재능력 4 ‘진심 어린 작별’. 궁극기 마지막 인사의 사용에 필요한 궁극기 에너지 -15%",
+  "facts": {
+    "stage": 4,
+    "name": "진심 어린 작별",
+    "status": "rule_validated",
+    "effect": "궁극기 마지막 인사의 사용에 필요한 궁극기 에너지 -15%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+    "sourceSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_17.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "870c6613ca4dc4963aa49b3e7d1f81e6eab05cb6864edac5608cbbb81521c13d",
+    "payloadSha256": "a0e49973c7987c9263c30df44e1b904ab22f8f622d4e1d7202792c02362a2ac5"
+  }
+}

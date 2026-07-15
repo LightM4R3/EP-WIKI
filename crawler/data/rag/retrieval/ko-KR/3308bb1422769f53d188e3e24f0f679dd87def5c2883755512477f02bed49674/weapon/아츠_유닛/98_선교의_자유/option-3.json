@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.98.option-3",
+  "semanticKey": "ko-KR|weapon|98|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_98",
+    "name": "선교의 자유",
+    "aliases": [],
+    "gameEntryId": 98
+  },
+  "title": "선교의 자유 — 3번 옵션 의료 · 신앙의 구원",
+  "content": "선교의 자유 무기의 3번 옵션 ‘의료 · 신앙의 구원’.\nRANK1: 주요 능력치 +5.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [60+의지×0.5] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다.\nRANK2: 주요 능력치 +6.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [72+의지×0.6] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다.\nRANK3: 주요 능력치 +7.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [84+의지×0.7] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다.\nRANK4: 주요 능력치 +8.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [96+의지×0.8] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다.\nRANK5: 주요 능력치 +9.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [108+의지×0.9] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다.\nRANK6: 주요 능력치 +10.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [120+의지×1.0] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다.\nRANK7: 주요 능력치 +11.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [132+의지×1.1] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다.\nRANK8: 주요 능력치 +12.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [144+의지×1.2] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다.\nRANK9: 주요 능력치 +14.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [168+의지×1.4] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다.",
+  "facts": {
+    "slot": 3,
+    "name": "의료 · 신앙의 구원",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "주요 능력치 +5.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [60+의지×0.5] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "주요 능력치 +6.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [72+의지×0.6] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "주요 능력치 +7.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [84+의지×0.7] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "주요 능력치 +8.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [96+의지×0.8] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "주요 능력치 +9.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [108+의지×0.9] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "주요 능력치 +10.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [120+의지×1.0] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "주요 능력치 +11.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [132+의지×1.1] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "주요 능력치 +12.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [144+의지×1.2] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "주요 능력치 +14.0% 장착자가 자신의 배틀 스킬로 치유한 후, 메인 컨트롤 오퍼레이터의 생명력을 [168+의지×1.4] 포인트만큼 추가로 회복. 15초마다 최대 1회만 발동합니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/98_선교의_자유.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=98&header=0",
+    "sourceSha256": "a29081bca2b195229f982d45e3ecbe24893dab66dabbcf90a7f8837cf5fba1bd",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_98.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "be03fe52116ab6639bdd2b06b0888ed99892d255b3c39a1fe4467ba1559244dd",
+    "payloadSha256": "3908ae026870352928c82cff3f56d0b37050dbe49a35b14e75b56b035eb5fa58"
+  }
+}

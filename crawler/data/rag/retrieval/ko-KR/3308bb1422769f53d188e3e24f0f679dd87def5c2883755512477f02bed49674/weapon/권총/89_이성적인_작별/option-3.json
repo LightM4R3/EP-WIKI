@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.89.option-3",
+  "semanticKey": "ko-KR|weapon|89|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_89",
+    "name": "이성적인 작별",
+    "aliases": [],
+    "gameEntryId": 89
+  },
+  "title": "이성적인 작별 — 3번 옵션 추격 · 옛 시절의 원조",
+  "content": "이성적인 작별 무기의 3번 옵션 ‘추격 · 옛 시절의 원조’.\nRANK1: 배틀 스킬 피해 +10.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +16.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 배틀 스킬 피해 +12.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +19.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 배틀 스킬 피해 +14.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +22.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 배틀 스킬 피해 +16.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +25.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 배틀 스킬 피해 +18.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +28.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 배틀 스킬 피해 +20.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +32.0%, 15초 동안 지속.은 이름의 효과는 중첩되지 않습니다.\nRANK7: 배틀 스킬 피해 +22.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +35.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 배틀 스킬 피해 +24.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +38.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 배틀 스킬 피해 +28.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +44.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "추격 · 옛 시절의 원조",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "배틀 스킬 피해 +10.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +16.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "배틀 스킬 피해 +12.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +19.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "배틀 스킬 피해 +14.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +22.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "배틀 스킬 피해 +16.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +25.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "배틀 스킬 피해 +18.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +28.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "배틀 스킬 피해 +20.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +32.0%, 15초 동안 지속.은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "배틀 스킬 피해 +22.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +35.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "배틀 스킬 피해 +24.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +38.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "배틀 스킬 피해 +28.0% 장착자가 연계 스킬로 아츠 폭발 피해를 주거나 연소를 부여할 때, 공격력 +44.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/89_이성적인_작별.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=89&header=0",
+    "sourceSha256": "78b02c1f9ab6a96ec70b7082efdb1cda31eac951f04e3680b17b90593320d637",
+    "authority": "human_override",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.weapon_89.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "48fbdd51e3378726ab5c8513c57441a01b9dece50af823d3ae94980fb0867e8b",
+    "payloadSha256": "3491e8781316c0420c0fe783387e336c18b6e28087cb50ecd50b27174cc69fc8"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.227.profile",
+  "semanticKey": "ko-KR|gear|227|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_227",
+    "name": "광산 장갑(손목)",
+    "aliases": [],
+    "gameEntryId": 227
+  },
+  "title": "광산 장갑(손목) — 장비 기본 정보",
+  "content": "광산 장갑(손목) 장비의 기본 정보. 유형은 글러브, 품질은 초록색 품질, 세트는 세트 없음이다. LV.28, 방어력 16. 옵션은 1번 민첩 28, 2번 힘 18, 3번 생명력 15%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 장갑(손목)",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 28,
+    "defense": 16,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 28,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 18,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "생명력",
+        "baseValue": {
+          "value": 15,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "gloves",
+    "qualityCode": "green",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/227_광산_장갑(손목).json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=227&header=0",
+    "sourceSha256": "1beddc05fec791e10cf52c2811d634960333d9b51895ac99fcad00a6ea6f751e",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_227.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_227.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "801740f6fb8c7df218a9831def8189303d61de83739dfe16f37eb8975a251284",
+    "payloadSha256": "6cba00646ef2b77603208144d8c51748b59afbc19824b72e961deeec74c23164"
+  }
+}

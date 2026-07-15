@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.25.talent-2",
+  "semanticKey": "ko-KR|operator|25|talent-2",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_25",
+    "name": "탕탕",
+    "aliases": [],
+    "gameEntryId": 25
+  },
+  "title": "탕탕 — 풍랑의 주재자",
+  "content": "탕탕 오퍼레이터의 오퍼레이터 재능 ‘풍랑의 주재자’.\n단계 1: 메인 컨트롤 오퍼레이터가 고대의 진 내에서 낙하 공격을 사용하면, 변화하던 고대의 진이 그 변화를 중단합니다. 이어서 용오름 1개를 생성하며, 주변에 와류가 존재할 경우 이를 소모하여 추가로 용오름을 생성합니다. 이때 생성한 용오름은 배틀 스킬 우당탕탕 파도!와 동일한 효과를 가지고 있으며, 주는 피해 +40%. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 48개, 탈로시안 화폐 10000개.\n단계 2: 메인 컨트롤 오퍼레이터가 고대의 진 내에서 낙하 공격을 사용하면, 변화하던 고대의 진이 그 변화를 중단합니다. 이어서 용오름 1개를 생성하며, 주변에 와류가 존재할 경우 이를 소모하여 추가로 용오름을 생성합니다. 이때 생성한 용오름은 배틀 스킬 우당탕탕 파도!와 동일한 효과를 가지고 있으며, 주는 피해 +60%. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 28개, 탈로시안 화폐 24000개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 2,
+    "name": "풍랑의 주재자",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "메인 컨트롤 오퍼레이터가 고대의 진 내에서 낙하 공격을 사용하면, 변화하던 고대의 진이 그 변화를 중단합니다. 이어서 용오름 1개를 생성하며, 주변에 와류가 존재할 경우 이를 소모하여 추가로 용오름을 생성합니다. 이때 생성한 용오름은 배틀 스킬 우당탕탕 파도!와 동일한 효과를 가지고 있으며, 주는 피해 +40%.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 48
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 10000
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "메인 컨트롤 오퍼레이터가 고대의 진 내에서 낙하 공격을 사용하면, 변화하던 고대의 진이 그 변화를 중단합니다. 이어서 용오름 1개를 생성하며, 주변에 와류가 존재할 경우 이를 소모하여 추가로 용오름을 생성합니다. 이때 생성한 용오름은 배틀 스킬 우당탕탕 파도!와 동일한 효과를 가지고 있으며, 주는 피해 +60%.",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 28
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 24000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "talentKind": "combat_talent",
+    "talentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+    "sourceSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+    "authority": "canonical",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.operator_25.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b29fea65ab3baf9c8625066f7654a087dd5dc8a409528b5c36f2a4b0bede669a",
+    "payloadSha256": "04649d2ca854081936148884e9ec7357deb379fd4e5cc268cd78698d7eff0f4d"
+  }
+}

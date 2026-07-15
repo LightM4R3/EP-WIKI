@@ -1,0 +1,501 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_7",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 7,
+    "name": "아크라이트"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_7.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 아크라이트\ngameEntryId: 7\n정규화 상태: query_ready\n속성: 전기 (id=2, code=electric)\n무기 유형: 한손검 (id=0, code=sword)\n주요 능력치: 민첩 (id=1, code=agility)\n보조 능력치: 지능 (id=2, code=intellect)\nLV.1: 힘=14, 민첩=14, 지능=12, 의지=10, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=33, 민첩=42, 지능=36, 의지=29, 기초 공격력=89, 기초 생명력=1566\nLV.40: 힘=54, 민첩=71, 지능=61, 의지=49, 기초 공격력=151, 기초 생명력=2689\nLV.60: 힘=75, 민첩=101, 지능=86, 의지=69, 기초 공격력=213, 기초 생명력=3811\nLV.80: 힘=96, 민첩=130, 지능=111, 의지=89, 기초 공격력=275, 기초 생명력=4934\nLV.90: 힘=107, 민첩=145, 지능=123, 의지=100, 기초 공격력=306, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_7",
+        "gameEntryId": 7,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 2,
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "evidenceDocumentIds": [
+          "auto.operator_7.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_7.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_7.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_7.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_7.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_7.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_7.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_7.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_7.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_7.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_7.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 아크라이트\ncategory: operator\nsection: profile\n아크라이트\n진영\n만물의 대지\n무기 유형\n한손검\n\"안녕, 나는 에쿠트야, 코드네임은 아크라이트. 난 허울 좋은 말을 잘 못해. 그냥 네가 강물처럼 힘차게 흐르길 바랄게.\"\n아크라이트는 방랑자로 오리사 사자의 소개로 엔드필드 공업에 합류해 현장 오퍼레이터이자 장비, 차량의 기술 고문으로 활동하고 있다.\n황무지를 떠도는 자들이 아무리 영리해도, 굶주림과 재앙은 결국 그들을 덮친다. 아크라이트는 불행하게도 황무지에서 가족을 모두 잃었지만, 살아남았다. 그러나 동시에 행운이기도 했다. 죽음의 문턱에서 만물의 대지 방랑자를 만나게 된 것이다.\n그들은 아크라이트를 받아들였고, 그녀는 곧 자연 속에서 살아남는 법을 배웠다. 또한 노래 속 강자들처럼 어려움에 처한 이들을 구하는 법도 깨달았다. 그녀는 황무지를 떠돌며 더 많은 생명들이 탈로스 II에서 살아가는 법을 알 수 있도록 돕는다.\n아크라이트는 다소 차갑게 보일 수 있으나, 이런 솔직함과 직설적인 태도는 황무지에서 오히려 탁월한 힘을 발휘한다.\n\"바이크를 수리하는 건 치스티비스트를 치료하는 거랑 똑같아. 소리를 잘 듣고 세심하게 움직여야 하거든.\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_7",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 7,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:05.519226+00:00",
+        "contentSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아크라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_7.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 아크라이트\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n아크라이트\n성별\n여\n진영\n만물의 대지\n생일\n1월 3일\n속성\n전기\n종족\n쿠란타\n한국어 CV\n김아롱\n일본어 CV\n藤原夏海\n영어 CV\nAndrea Gatchalian\n중국어 CV\n钟可",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_7",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 7,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:05.519226+00:00",
+        "contentSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아크라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_7.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 아크라이트\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘\n14\n33\n54\n75\n96\n107\n민첩 (주요 능력치)\n14\n42\n71\n101\n130\n145\n지능 (보조 능력치)\n12\n36\n61\n86\n111\n123\n의지\n10\n29\n49\n69\n89\n100\n기초 공격력\n30\n89\n151\n213\n275\n306\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘\n14\n-\n민첩 (주요 능력치)\n14\n지능 (보조 능력치)\n12\n의지\n10\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘\n33\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩 (주요 능력치)\n42\n지능 (보조 능력치)\n36\n의지\n29\n기초 공격력\n89\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘\n54\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩 (주요 능력치)\n71\n지능 (보조 능력치)\n61\n의지\n49\n기초 공격력\n151\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘\n75\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩 (주요 능력치)\n101\n지능 (보조 능력치)\n86\n의지\n69\n기초 공격력\n213\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘\n96\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩 (주요 능력치)\n130\n지능 (보조 능력치)\n111\n의지\n89\n기초 공격력\n275\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘\n107\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩 (주요 능력치)\n145\n지능 (보조 능력치)\n123\n의지\n100\n기초 공격력\n306\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_7",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 7,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:05.519226+00:00",
+        "contentSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아크라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_7.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 아크라이트\ncategory: operator\nsection: combat_skill\n전투 스킬\n추적 사냥\n일반 공격\n일반 공격:\n적에게 최대 5단 공격을 하여\n물리 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n16\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n물리 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n물리 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n10%\n11%\n12%\n13%\n14%\n15%\n16%\n17%\n18%\n19%\n21%\n23%\n일반 공격 제2단계 배율\n13%\n14%\n15%\n16%\n18%\n19%\n20%\n21%\n23%\n24%\n26%\n28%\n일반 공격 제3단계 배율\n26%\n29%\n31%\n34%\n36%\n39%\n42%\n44%\n47%\n50%\n54%\n59%\n일반 공격 제4단계 배율\n36%\n40%\n43%\n47%\n50%\n54%\n58%\n61%\n65%\n69%\n75%\n81%\n일반 공격 제5단계 배율\n48%\n52%\n57%\n62%\n67%\n71%\n76%\n81%\n86%\n91%\n99%\n107%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\nD96강 시제품 4번\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\nD96강 시제품 4번\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\nD96강 시제품 4번\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n질풍 섬광\n배틀 스킬\n적의 옆으로 순간 이동해 2회의 베기 공격을 하며 소량의\n물리 피해\n를 줍니다. 적이\n감전\n상태일 경우,\n감전\n상태를\n소모\n하여 추가로 1회 공격하고\n전기 피해\n를 주며 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n제1단계 피해 배율\n45%\n50%\n54%\n59%\n63%\n68%\n72%\n77%\n81%\n87%\n93%\n101%\n제2단계 피해 배율\n45%\n50%\n54%\n59%\n63%\n68%\n72%\n77%\n81%\n87%\n93%\n101%\n제2단계 피해 불균형치\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n추가 피해 배율\n180%\n198%\n216%\n234%\n252%\n270%\n288%\n306%\n324%\n347%\n374%\n405%\n추가 불균형치\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n스킬 게이지 회복\n30\n30\n30\n30\n30\n35\n35\n35\n35\n35\n35\n40\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_7",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 7,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:05.519226+00:00",
+        "contentSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아크라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_7.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 아크라이트\ncategory: operator\nsection: combat_skill\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n15\n타키온 차폐 구조체\n*\n15\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n천둥의 울림\n연계 스킬\n적이\n감전\n상태거나,\n감전\n상태가 소모되었을 때 사용할 수 있습니다.\n적의 옆으로 순간 이동해 연속으로 베기 공격을 하여\n물리 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n3초\n3초\n3초\n3초\n3초\n3초\n3초\n3초\n3초\n3초\n3초\n3초\n피해 배율\n155%\n171%\n186%\n202%\n218%\n233%\n249%\n264%\n280%\n299%\n322%\n350%\n스킬 게이지 회복\n8\n8\n8\n8\n8\n9\n9\n9\n9\n10\n10\n10\n불균형치\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n획득하는 궁극기 에너지\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\nD96강 시제품 4번\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\nD96강 시제품 4번\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\nD96강 시제품 4번\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n천둥 번개\n궁극기\n전기 아크로 자신을 둘러싼 다음, 전방 일정 거리를 돌진하여 경로 상의 적에게\n전기 피해\n를 주고\n전기 부착\n상태를 부여합니다. 일정 시간이 지나면, 남겨 둔 전기 아크를 폭파시켜 다시\n전기 피해\n를 줍니다. 적이\n전기 부착\n상태일 경우,\n전기 부착\n상태를\n소모\n하여\n감전\n상태를 부여합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n쿨타임\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n제1단계 피해 배율\n156%\n171%\n187%\n202%\n218%\n234%\n249%\n265%\n280%\n300%\n323%\n350%\n제1단계 불균형치\n7\n7\n7\n7\n7\n7\n7\n7\n7\n10\n10\n10\n제2단계 피해 배율\n244%\n269%\n293%\n318%\n342%\n367%\n391%\n415%\n440%\n470%\n507%\n550%\n제2단계 불균형치\n7\n7\n7\n7\n7\n7\n7\n7\n7\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_7",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 7,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:25:05.519226+00:00",
+        "contentSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아크라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_7.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 아크라이트\ncategory: operator\nsection: combat_skill\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_7",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 7,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T06:25:05.519226+00:00",
+        "contentSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아크라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_7.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 아크라이트\ncategory: operator\nsection: operator_talent\n재능 배열\n능숙\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 민첩 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 민첩 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 민첩 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 민첩 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n황무지의 여행자\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n배틀 스킬\n질풍 섬광\n을 사용하여\n3\n회의 추가 효과를 발동한 후, 자신의 지능에 따라 팀 전체의\n전기 피해\n가 증가합니다. 지능 1포인트당\n+0.05%\n,\n15\n초 동안 지속. 해당 효과는 중첩되지 않습니다.\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n배틀 스킬\n질풍 섬광\n을 사용하여\n3\n회의 추가 효과를 발동한 후, 자신의 지능에 따라 팀 전체의\n전기 피해\n가 증가합니다. 지능 1포인트당\n+0.08%\n,\n15\n초 동안 지속. 해당 효과는 중첩되지 않습니다.\n정예화 단계 2 돌파\n40\n프로토콜 프리즘\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n만물의 지혜\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n아츠 부착\n상태가 부여될 때,\n30%\n의 확률로 해당 효과에 면역됩니다.\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n아츠 부착\n상태가 부여될 때,\n50%\n의 확률로 해당 효과에 면역됩니다.\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n24000\n탈로시안 화폐\n*\n24000\n황무지의 칼날",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_7",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 7,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:05.519226+00:00",
+        "contentSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아크라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_7.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 아크라이트\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n황무지의 칼날\n· α\n제조실에 배치 시, 무기 경험치 재료의 생산 효율 10% 증가\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n황무지의 칼날\n· β\n제조실에 배치 시, 무기 경험치 재료의 생산 효율 20% 증가\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n노래의 전승\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n노래의 전승 · α\n응접실에 배치 시, 오퍼레이터가 단서 6 - 만물의 대지를 수집할 확률 약간 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n노래의 전승 · β\n응접실에 배치 시, 오퍼레이터가 단서 6 - 만물의 대지를 수집할 확률 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_7",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 7,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:05.519226+00:00",
+        "contentSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아크라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_7.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 아크라이트\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\n초거리 빛 반사 파이프\n*\n20\n8\n스타게이트 버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_7",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 7,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:05.519226+00:00",
+        "contentSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아크라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_7.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 아크라이트\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n폭풍의 아이\n잠재능력 01\n배틀 스킬\n질풍 섬광\n으로 추가 효과를\n발동한 후\n, 추가로 스킬 게이지\n10\n포인트를 회복합니다.\n오퍼레이터 기념사진 \"해 질 녘\" 잠금 해제\n속전속결\n잠재능력 02\n민첩\n+15\n, 지능\n+15\n'노래'\n잠재능력 03\n재능\n'황무지의 여행자'\n효과 강화: 피해 증가 효과가 기존의\n1.3\n배로 증가합니다.\n오퍼레이터 기념사진 \"영속\" 잠금 해제\n사자의 가르침\n잠재능력 04\n궁극기\n천둥 번개\n의 사용에 필요한 궁극기 에너지\n-15%\n황무지의 수행자\n잠재능력 05\n재능\n'황무지의 여행자'\n효과 강화: 발동에 필요한 횟수가\n2\n회로 감소합니다.\n오퍼레이터 기념사진 \"호월선 참격\" 잠금 해제\n오퍼레이터 기념사진\n해 질 녘\n일러스트레이터: 直立行走\n길이 보이지 않을 때, 난 노래를 불러. 노래가 나한테 길을 보여줄 거거든.\n영속\n일러스트레이터: またよし\n폭풍? 그런 걸로 내 발걸음을 막을 순 없어.\n호월선 참격\n일러스트레이터: Z3zz\n난 그냥 평범한 수행자일 뿐이야. 하지만 내가 구해준 사람들은 날 '사자'라고 부르더라고.",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_7",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 7,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:05.519226+00:00",
+        "contentSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아크라이트"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 2,
+      "code": "electric",
+      "label": "전기"
+    },
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 1,
+      "code": "agility",
+      "label": "민첩"
+    },
+    "secondary": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 14,
+        "agility": 14,
+        "intellect": 12,
+        "will": 10,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 33,
+        "agility": 42,
+        "intellect": 36,
+        "will": 29,
+        "baseAttack": 89,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 54,
+        "agility": 71,
+        "intellect": 61,
+        "will": 49,
+        "baseAttack": 151,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 75,
+        "agility": 101,
+        "intellect": 86,
+        "will": 69,
+        "baseAttack": 213,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 96,
+        "agility": 130,
+        "intellect": 111,
+        "will": 89,
+        "baseAttack": 275,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 107,
+        "agility": 145,
+        "intellect": 123,
+        "will": 100,
+        "baseAttack": 306,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_7.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_7.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_7.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": []
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_7.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_7.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_7.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 2,
+    "code": "electric",
+    "label": "전기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json"
+}

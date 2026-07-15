@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.18.potential-1",
+  "semanticKey": "ko-KR|operator|18|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_18",
+    "name": "알레쉬",
+    "aliases": [],
+    "gameEntryId": 18
+  },
+  "title": "알레쉬 — 잠재능력 1 린수의 반격",
+  "content": "알레쉬 오퍼레이터의 잠재능력 1 ‘린수의 반격’. 배틀 스킬 비정규 루어가 스킬 게이지 회복 효과를 발동했을 떄, 추가로 스킬 게이지 10 포인트를 회복합니다. 오퍼레이터 기념사진 \"낚시 친구\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "린수의 반격",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 비정규 루어가 스킬 게이지 회복 효과를 발동했을 떄, 추가로 스킬 게이지 10 포인트를 회복합니다. 오퍼레이터 기념사진 \"낚시 친구\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+    "sourceSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_18.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f573a6433109fd52e9bddd7ffc1da3b9c7dee97b614fef82df4e966df05ca3cc",
+    "payloadSha256": "6ecde45eccee70fcc7349f1aeb42110bd005505bd82479d747abc5de198604d7"
+  }
+}

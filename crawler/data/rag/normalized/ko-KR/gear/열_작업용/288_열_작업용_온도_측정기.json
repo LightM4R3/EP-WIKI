@@ -1,0 +1,273 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_288",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 288,
+    "name": "열 작업용 온도 측정기"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=288&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "53b97935bb82136d8eca11f0c384701a7ad508e56fe5f6befd11d14722cccebc",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_288.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 열 작업용 온도 측정기\ngameEntryId: 288\n정규화 상태: query_ready\n장비 세트: 열 작업용 (id=3358174061, code=gear_set_c82824cda56b)\n장비 유형: 부품 (id=2, code=component)\n품질: 노란색 품질 (id=0, code=yellow)\nLV: 70\n방어력: 21\n장비 옵션: 1번=지능 41; 3번=배틀 스킬 피해 보너스 41.4%\n정밀 단조 지원: 예\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_288",
+        "gameEntryId": 288,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=288&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/288_열_작업용_온도_측정기.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 3358174061,
+        "groupCode": "gear_set_c82824cda56b",
+        "groupLabel": "열 작업용",
+        "evidenceDocumentIds": [
+          "auto.gear_288.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_288.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_288.gear_option.c2.chapter.s2.p0.ko-kr",
+          "auto.gear_288.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_288.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 열 작업용 온도 측정기\ncategory: gear\nsection: profile\n열 작업용 온도 측정기\n품질\n노란색 품질\n장비 유형\n부품\n세트\n열 작업용\n이 장비는 엔드필드 공업에서 자체 연구하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n극도의 내열성을 자랑하는 장비.\n극도의 고온 환경은 두려워할 필요가 없지만, 이유 없이 온도가 변하는 환경이라면 경계할 필요가 있습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_288",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=288&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 288,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:44.305314+00:00",
+        "contentSha256": "53b97935bb82136d8eca11f0c384701a7ad508e56fe5f6befd11d14722cccebc",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/288_열_작업용_온도_측정기.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_c82824cda56b",
+        "groupLabel": "열 작업용",
+        "entityName": "열 작업용 온도 측정기"
+      }
+    },
+    {
+      "documentId": "auto.gear_288.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 열 작업용 온도 측정기\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n8000\n*\n8000\n및\n50\n*\n50\n장비 템플릿\n장비 템플릿 상자\n속성\nLV\n70\n방어력\n+21\n지능\n+41\n배틀 스킬 피해 보너스\n+41.4%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_288",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=288&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 288,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:44.305314+00:00",
+        "contentSha256": "53b97935bb82136d8eca11f0c384701a7ad508e56fe5f6befd11d14722cccebc",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/288_열_작업용_온도_측정기.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_c82824cda56b",
+        "groupLabel": "열 작업용",
+        "entityName": "열 작업용 온도 측정기"
+      }
+    },
+    {
+      "documentId": "auto.gear_288.gear_option.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_option",
+      "content": "entity: 열 작업용 온도 측정기\ncategory: gear\nsection: gear_option\n정밀 단조\n정밀 단조\n적합 단조제 : 무릉 정밀 단조제\n단일 능력치 단조 시, 기본 정밀 단조 필요 누적 단계의 차이가 있음\n정밀 단조 단계\n기본\n1단계\n2단계\n3단계\n지능\n+41\n+45\n+49\n+53\n배틀 스킬 피해 보너스\n+41.4%\n+45.5%\n+49.7%\n+53.8%\n정밀 단조 누적 단계\n12 (6)\n24 (12)\n40 (20)",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_288",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=288&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 288,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:44.305314+00:00",
+        "contentSha256": "53b97935bb82136d8eca11f0c384701a7ad508e56fe5f6befd11d14722cccebc",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/288_열_작업용_온도_측정기.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_c82824cda56b",
+        "groupLabel": "열 작업용",
+        "entityName": "열 작업용 온도 측정기"
+      }
+    },
+    {
+      "documentId": "auto.gear_288.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 열 작업용 온도 측정기\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n열 작업용\n부품\n3개 세트 효과:\n장착자의 오리지늄 아츠 강도\n+30\n장착자가 적에게\n연소\n를 부여한 후,\n열기 피해\n+50%\n, 10초 동안 지속, 해당 효과는 중첩되지 않습니다.\n장착자가 적에게\n부식\n을 부여한 후,\n자연 피해\n+50%\n, 10초 동안 지속, 해당 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_288",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=288&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 288,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:44.305314+00:00",
+        "contentSha256": "53b97935bb82136d8eca11f0c384701a7ad508e56fe5f6befd11d14722cccebc",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/288_열_작업용_온도_측정기.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_c82824cda56b",
+        "groupLabel": "열 작업용",
+        "entityName": "열 작업용 온도 측정기"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 3358174061,
+      "code": "gear_set_c82824cda56b",
+      "label": "열 작업용"
+    },
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    }
+  },
+  "level": 70,
+  "defense": 21,
+  "options": [
+    {
+      "slot": 1,
+      "name": "지능",
+      "baseValue": {
+        "value": 41,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 2,
+        "code": "intellect",
+        "label": "지능"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "배틀 스킬 피해 보너스",
+      "baseValue": {
+        "value": 41.4,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": true,
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 41,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 45,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 49,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 53,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "배틀 스킬 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 41.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 45.5,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 49.7,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 53.8,
+            "unit": "percent"
+          }
+        ]
+      }
+    ],
+    "evidenceDocumentId": "auto.gear_288.gear_option.c2.chapter.s2.p0.ko-kr"
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_288.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 3358174061,
+    "code": "gear_set_c82824cda56b",
+    "label": "열 작업용"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/열_작업용/288_열_작업용_온도_측정기.json"
+}

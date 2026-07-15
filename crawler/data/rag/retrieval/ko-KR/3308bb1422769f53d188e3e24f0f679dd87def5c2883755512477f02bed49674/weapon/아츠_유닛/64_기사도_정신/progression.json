@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.64.progression",
+  "semanticKey": "ko-KR|weapon|64|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_64",
+    "name": "기사도 정신",
+    "aliases": [],
+    "gameEntryId": 64
+  },
+  "title": "기사도 정신 — 기초 공격력",
+  "content": "기사도 정신 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 49.\nLV.20: 기초 공격력 142.\nLV.40: 기초 공격력 240.\nLV.60: 기초 공격력 338.\nLV.80: 기초 공격력 436.\nLV.90: 기초 공격력 485.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 49
+      },
+      {
+        "level": 20,
+        "baseAttack": 142
+      },
+      {
+        "level": 40,
+        "baseAttack": 240
+      },
+      {
+        "level": 60,
+        "baseAttack": 338
+      },
+      {
+        "level": 80,
+        "baseAttack": 436
+      },
+      {
+        "level": 90,
+        "baseAttack": 485
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/64_기사도_정신.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=64&header=0",
+    "sourceSha256": "9f898278aa145107e992969e08ec420a8961f0127945d7f3a8126db6793f6b63",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_64.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "a165df88687ce89b3b5b15220e29bc52fcb7aa27758582bcee922bf768196e58",
+    "payloadSha256": "91749ee1381fda2725ac2b0fb2bb0d7cfc7f010cdc6846188c346e365b879fb8"
+  }
+}

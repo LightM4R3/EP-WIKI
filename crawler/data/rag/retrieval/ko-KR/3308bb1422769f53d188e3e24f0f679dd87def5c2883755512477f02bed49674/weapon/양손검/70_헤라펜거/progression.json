@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.70.progression",
+  "semanticKey": "ko-KR|weapon|70|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_70",
+    "name": "헤라펜거",
+    "aliases": [],
+    "gameEntryId": 70
+  },
+  "title": "헤라펜거 — 기초 공격력",
+  "content": "헤라펜거 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 51.\nLV.20: 기초 공격력 148.\nLV.40: 기초 공격력 250.\nLV.60: 기초 공격력 352.\nLV.80: 기초 공격력 454.\nLV.90: 기초 공격력 505.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 51
+      },
+      {
+        "level": 20,
+        "baseAttack": 148
+      },
+      {
+        "level": 40,
+        "baseAttack": 250
+      },
+      {
+        "level": 60,
+        "baseAttack": 352
+      },
+      {
+        "level": 80,
+        "baseAttack": 454
+      },
+      {
+        "level": 90,
+        "baseAttack": 505
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/70_헤라펜거.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=70&header=0",
+    "sourceSha256": "009f005f5e8d6e60bd4c1593def09c4ee5ded625380f37fa139d62d52379b5e2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_70.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "6d3bd395b3a35b2b4d6ccb8540d8925e0c5e9bf697a3a932b2f6c18107225278",
+    "payloadSha256": "0f8cb441a492e79a39df152cc52abbb7f1ebbeaf224a73612d85a25d73a4bd65"
+  }
+}

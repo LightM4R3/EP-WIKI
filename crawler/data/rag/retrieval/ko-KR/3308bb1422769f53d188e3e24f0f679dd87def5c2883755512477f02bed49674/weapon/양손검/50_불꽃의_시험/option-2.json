@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.50.option-2",
+  "semanticKey": "ko-KR|weapon|50|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_50",
+    "name": "불꽃의 시험",
+    "aliases": [],
+    "gameEntryId": 50
+  },
+  "title": "불꽃의 시험 — 2번 옵션 생명력 증가 · 소",
+  "content": "불꽃의 시험 무기의 2번 옵션 ‘생명력 증가 · 소’.\nRANK1: 최대 생명력 +6.0%.\nRANK2: 최대 생명력 +10.8%.\nRANK3: 최대 생명력 +15.6%.\nRANK4: 최대 생명력 +20.4%.\nRANK5: 최대 생명력 +25.2%.\nRANK6: 최대 생명력 +30.0%.\nRANK7: 최대 생명력 +34.8%.\nRANK8: 최대 생명력 +39.6%.\nRANK9: 최대 생명력 +46.8%.",
+  "facts": {
+    "slot": 2,
+    "name": "생명력 증가 · 소",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "최대 생명력",
+        "value": 6,
+        "unit": "percent",
+        "display": "+6.0%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "최대 생명력",
+        "value": 10.8,
+        "unit": "percent",
+        "display": "+10.8%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "최대 생명력",
+        "value": 15.6,
+        "unit": "percent",
+        "display": "+15.6%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "최대 생명력",
+        "value": 20.4,
+        "unit": "percent",
+        "display": "+20.4%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "최대 생명력",
+        "value": 25.2,
+        "unit": "percent",
+        "display": "+25.2%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "최대 생명력",
+        "value": 30,
+        "unit": "percent",
+        "display": "+30.0%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "최대 생명력",
+        "value": 34.8,
+        "unit": "percent",
+        "display": "+34.8%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "최대 생명력",
+        "value": 39.6,
+        "unit": "percent",
+        "display": "+39.6%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "최대 생명력",
+        "value": 46.8,
+        "unit": "percent",
+        "display": "+46.8%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/50_불꽃의_시험.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=50&header=0",
+    "sourceSha256": "c4f626445d771483a0d2f31758bd6f1e6711ed5c20005e6b2deeb401d659a943",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_50.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7a1552fdbda428f591080be38fada8b999e4c3ba72585429429369c47064d464",
+    "payloadSha256": "d7f2bcb3a0c4abfa4324dd5682eb117f1a42dce07776c58133c40bc28e1f6871"
+  }
+}

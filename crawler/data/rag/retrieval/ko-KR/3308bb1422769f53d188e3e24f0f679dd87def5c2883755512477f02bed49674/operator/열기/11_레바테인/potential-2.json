@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.11.potential-2",
+  "semanticKey": "ko-KR|operator|11|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_11",
+    "name": "레바테인",
+    "aliases": [],
+    "gameEntryId": 11
+  },
+  "title": "레바테인 — 잠재능력 2 기억을 찾는 여정",
+  "content": "레바테인 오퍼레이터의 잠재능력 2 ‘기억을 찾는 여정’. 지능 +20, 일반 공격 피해 +15%",
+  "facts": {
+    "stage": 2,
+    "name": "기억을 찾는 여정",
+    "status": "rule_validated",
+    "effect": "지능 +20, 일반 공격 피해 +15%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/11_레바테인.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=11&header=0",
+    "sourceSha256": "6b76bc23ee1929d6d5da560bc66fe044c58fa1de186cbcacff5bd3ff1e01bad7",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_11.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0a0429c24720bd38afb5ca8bed692164dba9d66b39aba55285f6a76ef574c91b",
+    "payloadSha256": "9a2cf142f98b068f13771b69780a27c5468acc55300195d9dd7280c79cb4d7c1"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.305.profile",
+  "semanticKey": "ko-KR|gear|305|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_305",
+    "name": "재앙 방호 정화 코어 · I",
+    "aliases": [],
+    "gameEntryId": 305
+  },
+  "title": "재앙 방호 정화 코어 · I — 장비 기본 정보",
+  "content": "재앙 방호 정화 코어 · I 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 재앙 방호이다. LV.50, 방어력 15. 옵션은 1번 힘 23, 2번 의지 15, 3번 보조 능력치 14.7%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "재앙 방호 정화 코어 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 963247953,
+      "code": "gear_set_396878b1d89a",
+      "label": "재앙 방호"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 15,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "보조 능력치",
+        "baseValue": {
+          "value": 14.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-396878b1d89a.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_396878b1d89a",
+    "groupLabel": "재앙 방호",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_396878b1d89a"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/재앙_방호/305_재앙_방호_정화_코어_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=305&header=0",
+    "sourceSha256": "34cd3da69eb5f3366931b285faec226febb836cee30eb69818d68e7073bb3531",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_305.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_305.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3e34ef98b7d21a22b9d1f33fa0adecd3701835ae52465e35b20dc2c09019428a",
+    "payloadSha256": "644229a8146f8c202f2ed934cbda1c71b9f7d6e941713625c3e33d831a93fec3"
+  }
+}

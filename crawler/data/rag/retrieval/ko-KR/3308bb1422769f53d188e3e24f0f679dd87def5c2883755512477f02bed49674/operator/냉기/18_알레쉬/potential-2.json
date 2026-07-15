@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.18.potential-2",
+  "semanticKey": "ko-KR|operator|18|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_18",
+    "name": "알레쉬",
+    "aliases": [],
+    "gameEntryId": 18
+  },
+  "title": "알레쉬 — 잠재능력 2 마음의 평온",
+  "content": "알레쉬 오퍼레이터의 잠재능력 2 ‘마음의 평온’. 힘 +15, 지능 +15",
+  "facts": {
+    "stage": 2,
+    "name": "마음의 평온",
+    "status": "rule_validated",
+    "effect": "힘 +15, 지능 +15"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+    "sourceSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_18.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "02b2cfc259ed0fe98fcd951c3dcbbedb7e644d0008e62d62c8adfe9b5921b84a",
+    "payloadSha256": "1323518a86b937f68fdf4e091e1d78271825bacdffef37e4bf64e46c406e3f91"
+  }
+}

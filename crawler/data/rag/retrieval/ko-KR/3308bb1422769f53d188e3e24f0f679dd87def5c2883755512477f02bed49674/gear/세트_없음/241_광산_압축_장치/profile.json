@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.241.profile",
+  "semanticKey": "ko-KR|gear|241|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_241",
+    "name": "광산 압축 장치",
+    "aliases": [],
+    "gameEntryId": 241
+  },
+  "title": "광산 압축 장치 — 장비 기본 정보",
+  "content": "광산 압축 장치 장비의 기본 정보. 유형은 부품, 품질은 파란색 품질, 세트는 세트 없음이다. LV.36, 방어력 10. 옵션은 1번 지능 22, 3번 치명타 확률 5.7%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 압축 장치",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 36,
+    "defense": 10,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 22,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "치명타 확률",
+        "baseValue": {
+          "value": 5.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "component",
+    "qualityCode": "blue",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/241_광산_압축_장치.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=241&header=0",
+    "sourceSha256": "456a0a8883b2868d933bc5ce368711969c205c015f9a168bdd0b7fab1861bb9b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_241.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_241.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d894cd70d87f8a4dedc47249ba8c817d561788f6ce8b3b1ac6f208e6a1dc3dcd",
+    "payloadSha256": "75ec8d774f0a837ce3a56d1824b14eac13f8954a33d3dd6390e5aa35aff38506"
+  }
+}

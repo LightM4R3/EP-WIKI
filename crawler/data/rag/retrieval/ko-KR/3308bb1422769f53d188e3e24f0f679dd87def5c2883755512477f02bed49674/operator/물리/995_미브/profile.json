@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.995.profile",
+  "semanticKey": "ko-KR|operator|995|profile",
+  "locale": "ko-KR",
+  "documentType": "operator_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_995",
+    "name": "미브",
+    "aliases": [],
+    "gameEntryId": 995
+  },
+  "title": "미브 — 오퍼레이터 기본 정보",
+  "content": "미브 오퍼레이터의 기본 정보. 속성은 물리, 무기 유형은 양손검이다. 주요 능력치는 지능, 보조 능력치는 의지이다.",
+  "facts": {
+    "name": "미브",
+    "element": {
+      "id": 0,
+      "code": "physical",
+      "label": "물리"
+    },
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    "primaryAttribute": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    },
+    "secondaryAttribute": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    },
+    "attributeCatalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_profile",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "elementCode": "physical",
+    "weaponTypeCode": "greatsword",
+    "primaryAttributeCode": "intellect",
+    "secondaryAttributeCode": "will"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+    "sourceSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_995.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.operator_995.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문에서 희귀도를 텍스트로 확정할 수 없음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.class",
+        "reason": "클래스 이미지 매핑이 검증되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.portraitUrl",
+        "reason": "초상화 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "647e5cfeac89f3045aa5fa025908c25eddd4927c32d034004af99d168b6f6968",
+    "payloadSha256": "d617e08df836223b0cb08535ad0806089fa56e26f6bf1575ea9ad044887561e8"
+  }
+}

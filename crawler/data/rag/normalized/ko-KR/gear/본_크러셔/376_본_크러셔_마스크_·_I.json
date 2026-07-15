@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_376",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 376,
+    "name": "본 크러셔 마스크 · I"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=376&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "7a6a96bd243619bcf393c071295ec6e53527601ec69ffa230e26d2c24c829e5f",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_376.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 본 크러셔 마스크 · I\ngameEntryId: 376\n정규화 상태: query_ready\n장비 세트: 본 크러셔 (id=529339492, code=gear_set_1f8b8dc4f539)\n장비 유형: 부품 (id=2, code=component)\n품질: 노란색 품질 (id=0, code=yellow)\nLV: 70\n방어력: 21\n장비 옵션: 1번=민첩 32; 2번=힘 21; 3번=치명타 확률 10.4%\n정밀 단조 지원: 예\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_376",
+        "gameEntryId": 376,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=376&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/본_크러셔/376_본_크러셔_마스크_·_I.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 529339492,
+        "groupCode": "gear_set_1f8b8dc4f539",
+        "groupLabel": "본 크러셔",
+        "evidenceDocumentIds": [
+          "auto.gear_376.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_376.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_376.gear_option.c2.chapter.s2.p0.ko-kr",
+          "auto.gear_376.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_376.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 본 크러셔 마스크 · I\ncategory: gear\nsection: profile\n본 크러셔 마스크 · I\n품질\n노란색 품질\n장비 유형\n부품\n세트\n본 크러셔\n이 장비는 엔드필드 공업에서 황무지 수공예품을 참고하여 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n본 크러셔 집단의 장비에서 디자인 영감을 받은 장비.\n어떤 광적인 믿음을 상징하는 마스크입니다.\n하지만 단순히 신념만으로는 침식 환경에서 오래 살아남을 수 없습니다. 허리에 차든 얼굴에 쓰든, 결국 나무 쪼가리에 불과하니까요.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_376",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=376&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 376,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:37:29.642663+00:00",
+        "contentSha256": "7a6a96bd243619bcf393c071295ec6e53527601ec69ffa230e26d2c24c829e5f",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/본_크러셔/376_본_크러셔_마스크_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_1f8b8dc4f539",
+        "groupLabel": "본 크러셔",
+        "entityName": "본 크러셔 마스크 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_376.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 본 크러셔 마스크 · I\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n8000\n*\n8000\n및\n50\n*\n50\n장비 템플릿\n장비 템플릿 상자\n속성\nLV\n70\n방어력\n+21\n민첩\n+32\n힘\n+21\n치명타 확률\n+10.4%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_376",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=376&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 376,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:37:29.642663+00:00",
+        "contentSha256": "7a6a96bd243619bcf393c071295ec6e53527601ec69ffa230e26d2c24c829e5f",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/본_크러셔/376_본_크러셔_마스크_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_1f8b8dc4f539",
+        "groupLabel": "본 크러셔",
+        "entityName": "본 크러셔 마스크 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_376.gear_option.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_option",
+      "content": "entity: 본 크러셔 마스크 · I\ncategory: gear\nsection: gear_option\n정밀 단조\n정밀 단조\n적합 단조제 : 무릉 정밀 단조제\n정밀 단조 단계\n기본\n1단계\n2단계\n3단계\n민첩\n+32\n+35\n+38\n+41\n힘\n+21\n+23\n+25\n+27\n치명타 확률\n+10.4%\n+11.4%\n+12.4%\n+13.5%\n정밀 단조 누적 단계\n6\n12\n20",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_376",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=376&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 376,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:37:29.642663+00:00",
+        "contentSha256": "7a6a96bd243619bcf393c071295ec6e53527601ec69ffa230e26d2c24c829e5f",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/본_크러셔/376_본_크러셔_마스크_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_1f8b8dc4f539",
+        "groupLabel": "본 크러셔",
+        "entityName": "본 크러셔 마스크 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_376.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 본 크러셔 마스크 · I\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n본 크러셔\n부품\n3개 세트 효과:\n장착자의 공격력\n+15%\n장착자가 연계 스킬을 사용할 때,\n본 크러셔의 압박\n1스택 획득, 다음 배틀 스킬의 피해\n+30%\n.\n본 크러셔의 압박\n은 최대 2스택까지만 중첩됩니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_376",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=376&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 376,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:37:29.642663+00:00",
+        "contentSha256": "7a6a96bd243619bcf393c071295ec6e53527601ec69ffa230e26d2c24c829e5f",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/본_크러셔/376_본_크러셔_마스크_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_1f8b8dc4f539",
+        "groupLabel": "본 크러셔",
+        "entityName": "본 크러셔 마스크 · I"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 529339492,
+      "code": "gear_set_1f8b8dc4f539",
+      "label": "본 크러셔"
+    },
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    }
+  },
+  "level": 70,
+  "defense": 21,
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩",
+      "baseValue": {
+        "value": 32,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "힘",
+      "baseValue": {
+        "value": 21,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "치명타 확률",
+      "baseValue": {
+        "value": 10.4,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": true,
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "치명타 확률",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 10.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 11.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 12.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 13.5,
+            "unit": "percent"
+          }
+        ]
+      }
+    ],
+    "evidenceDocumentId": "auto.gear_376.gear_option.c2.chapter.s2.p0.ko-kr"
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_376.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 529339492,
+    "code": "gear_set_1f8b8dc4f539",
+    "label": "본 크러셔"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/본_크러셔/376_본_크러셔_마스크_·_I.json"
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.330.forging",
+  "semanticKey": "ko-KR|gear|330|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_330",
+    "name": "식양의 숨결 보호 장갑",
+    "aliases": [],
+    "gameEntryId": 330
+  },
+  "title": "식양의 숨결 보호 장갑 — 정밀 단조",
+  "content": "식양의 숨결 보호 장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 지능: +0 65, +1 71, +2 78, +3 84.\n2번 힘: +0 43, +1 47, +2 51, +3 55.\n3번 궁극기 충전 효율: +0 20.5%, +1 22.6%, +2 24.6%, +3 26.7%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 20.5,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 22.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 24.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 26.7,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_3a9437540d70",
+    "groupLabel": "식양의 숨결",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_숨결/330_식양의_숨결_보호_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=330&header=0",
+    "sourceSha256": "81fb109afda64890e1180eb258b0f82c87439093efaf77c522652769a3a6553c",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_330.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "621f14e678d172bd2c5bda7cf62df812b5767b34061f1efceac1695ea51d55ac",
+    "payloadSha256": "b38464c90831162e1865adda8620622a268933f5cd9c77ce02284b96dbc3203f"
+  }
+}

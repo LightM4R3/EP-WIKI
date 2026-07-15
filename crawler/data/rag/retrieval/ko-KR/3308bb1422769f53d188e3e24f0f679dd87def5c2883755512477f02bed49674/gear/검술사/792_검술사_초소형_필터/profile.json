@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.792.profile",
+  "semanticKey": "ko-KR|gear|792|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_792",
+    "name": "검술사 초소형 필터",
+    "aliases": [],
+    "gameEntryId": 792
+  },
+  "title": "검술사 초소형 필터 — 장비 기본 정보",
+  "content": "검술사 초소형 필터 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 검술사이다. LV.70, 방어력 21. 옵션은 1번 힘 32, 2번 의지 21, 3번 물리 피해 보너스 23%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "검술사 초소형 필터",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2042367052,
+      "code": "gear_set_79ba85ac519a",
+      "label": "검술사"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "물리 피해 보너스",
+        "baseValue": {
+          "value": 23,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-79ba85ac519a.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_79ba85ac519a",
+    "groupLabel": "검술사",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_79ba85ac519a"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/792_검술사_초소형_필터.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=792&header=0",
+    "sourceSha256": "4a6dbc0b7118f2fa0ba6694a2ab645f6d1682d0c75ec7f968ec9c6eb096b077b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_792.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_792.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "27ccc352555e38555f1957f0738cee2ba8eff50b582ad7fea8617e61db84687a",
+    "payloadSha256": "f2f426c93eef5e46fe77f9f8dee4d063a36427a208183ec36dbc471485649dd6"
+  }
+}

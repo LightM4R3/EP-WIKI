@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.780.forging",
+  "semanticKey": "ko-KR|gear|780|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_780",
+    "name": "개척자 섬유 장갑",
+    "aliases": [],
+    "gameEntryId": 780
+  },
+  "title": "개척자 섬유 장갑 — 정밀 단조",
+  "content": "개척자 섬유 장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 의지: +0 65, +1 71, +2 78, +3 84.\n2번 힘: +0 43, +1 47, +2 51, +3 55.\n3번 모든 스킬 피해 보너스: +0 23%, +1 25.3%, +2 27.6%, +3 29.9%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "모든 스킬 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 23,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 25.3,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 27.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 29.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_443e330e6735",
+    "groupLabel": "개척",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/780_개척자_섬유_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=780&header=0",
+    "sourceSha256": "ad76d994544184d96fa1a15a3d553bc161f12d57204ba5f17f4f0b0349a1e5da",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_780.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3abf9e94df22cedbd3cd8e657ab3fda2b36b0dbf9199fb645ea33178022b8b22",
+    "payloadSha256": "de87f6f02f43b5616c71ca04a6c2232cd40c9c48bb16a210112f0ab890efc529"
+  }
+}

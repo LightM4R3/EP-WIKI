@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.615.potential-3",
+  "semanticKey": "ko-KR|operator|615|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_615",
+    "name": "로시",
+    "aliases": [],
+    "gameEntryId": 615
+  },
+  "title": "로시 — 잠재능력 3 가시화된 책임",
+  "content": "로시 오퍼레이터의 잠재능력 3 ‘가시화된 책임’. 재능 끓어오르는 피 효과 강화: 기초 피해 배율 +8%, 기초 생명력을 +[지능×0.04] 만큼 회복. 오퍼레이터 기념사진 \"무한한 미래\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "가시화된 책임",
+    "status": "rule_validated",
+    "effect": "재능 끓어오르는 피 효과 강화: 기초 피해 배율 +8%, 기초 생명력을 +[지능×0.04] 만큼 회복. 오퍼레이터 기념사진 \"무한한 미래\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+    "sourceSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_615.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "85a89a17489a75a80cdffb18ceb8db553f73f9f0e3766673120954e5460116d0",
+    "payloadSha256": "27b9c514596e066636539de66bd111f56d116f10263e379031b7f68e13939341"
+  }
+}

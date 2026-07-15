@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.233.profile",
+  "semanticKey": "ko-KR|gear|233|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_233",
+    "name": "통합형 경갑",
+    "aliases": [],
+    "gameEntryId": 233
+  },
+  "title": "통합형 경갑 — 장비 기본 정보",
+  "content": "통합형 경갑 장비의 기본 정보. 유형은 방어구, 품질은 초록색 품질, 세트는 통합 경량형 모델이다. LV.28, 방어력 22. 옵션은 1번 지능 30, 2번 의지 30, 3번 배틀 스킬 피해 보너스 8.1%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "통합형 경갑",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    "gearSet": {
+      "id": 3549914494,
+      "code": "gear_set_d395deded81d",
+      "label": "통합 경량형 모델"
+    },
+    "level": 28,
+    "defense": 22,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 30,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 30,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "배틀 스킬 피해 보너스",
+        "baseValue": {
+          "value": 8.1,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-d395deded81d.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_d395deded81d",
+    "groupLabel": "통합 경량형 모델",
+    "gearTypeCode": "armor",
+    "qualityCode": "green",
+    "gearSetCode": "gear_set_d395deded81d"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/통합_경량형_모델/233_통합형_경갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=233&header=0",
+    "sourceSha256": "5054757a3430ebeeebcfbfdff4b4c89a3fad9de04e7124ce54bcbf96f72cac40",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_233.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_233.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "a72461de299501c26131be49e50aeeb337f0d6171a6e5bb8baa1e14611fd5d74",
+    "payloadSha256": "ca962d11bfa6c9199dfa07c9c43dd6d217d6da360531aebd7fa4484e39bca670"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.7.talent-attribute",
+  "semanticKey": "ko-KR|operator|7|talent-attribute",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_7",
+    "name": "아크라이트",
+    "aliases": [],
+    "gameEntryId": 7
+  },
+  "title": "아크라이트 — 능숙",
+  "content": "아크라이트 오퍼레이터의 능력치 재능 ‘능숙’.\n단계 1: 오퍼레이터 민첩 능력치 10 증가. 활성화 조건: 오퍼레이터 신뢰도 20% 도달, 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 5개, 탈로시안 화폐 1000개.\n단계 2: 오퍼레이터 민첩 능력치 15 증가. 활성화 조건: 오퍼레이터 신뢰도 50% 도달, 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 10개, 탈로시안 화폐 1800개.\n단계 3: 오퍼레이터 민첩 능력치 15 증가. 활성화 조건: 오퍼레이터 신뢰도 100% 도달, 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 10개, 탈로시안 화폐 6000개.\n단계 4: 오퍼레이터 민첩 능력치 20 증가. 활성화 조건: 오퍼레이터 신뢰도 100% 도달, 정예화 단계 4 돌파. 재료: 프로토콜 프리즘 세트 20개, 탈로시안 화폐 12000개.",
+  "facts": {
+    "kind": "attribute_talent",
+    "name": "능숙",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "오퍼레이터 민첩 능력치 10 증가",
+        "conditions": [
+          "오퍼레이터 신뢰도 20% 도달",
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 5
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "오퍼레이터 민첩 능력치 15 증가",
+        "conditions": [
+          "오퍼레이터 신뢰도 50% 도달",
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 10
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1800
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "effect": "오퍼레이터 민첩 능력치 15 증가",
+        "conditions": [
+          "오퍼레이터 신뢰도 100% 도달",
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 10
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 6000
+          }
+        ]
+      },
+      {
+        "stage": 4,
+        "effect": "오퍼레이터 민첩 능력치 20 증가",
+        "conditions": [
+          "오퍼레이터 신뢰도 100% 도달",
+          "정예화 단계 4 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 20
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 12000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "talentKind": "attribute_talent"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+    "sourceSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_7.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3ef65e01b0b62b4412d75d32e10baa74bebb1ab42506cf1263e756e9dceeab5c",
+    "payloadSha256": "4fa3e491edf155dae64dc712ceea80e7c3d1a6cebc4e833cc2a19d82c18c6eb2"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.55.option-2",
+  "semanticKey": "ko-KR|weapon|55|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_55",
+    "name": "개척자의 이정표",
+    "aliases": [],
+    "gameEntryId": 55
+  },
+  "title": "개척자의 이정표 — 2번 옵션 공격력 증가 · 소",
+  "content": "개척자의 이정표 무기의 2번 옵션 ‘공격력 증가 · 소’.\nRANK1: 공격력 +3.0%.\nRANK2: 공격력 +5.4%.\nRANK3: 공격력 +7.8%.\nRANK4: 공격력 +10.2%.\nRANK5: 공격력 +12.6%.\nRANK6: 공격력 +15.0%.\nRANK7: 공격력 +17.4%.\nRANK8: 공격력 +19.8%.\nRANK9: 공격력 +23.4%.",
+  "facts": {
+    "slot": 2,
+    "name": "공격력 증가 · 소",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "공격력",
+        "value": 3,
+        "unit": "percent",
+        "display": "+3.0%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "공격력",
+        "value": 5.4,
+        "unit": "percent",
+        "display": "+5.4%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "공격력",
+        "value": 7.8,
+        "unit": "percent",
+        "display": "+7.8%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "공격력",
+        "value": 10.2,
+        "unit": "percent",
+        "display": "+10.2%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "공격력",
+        "value": 12.6,
+        "unit": "percent",
+        "display": "+12.6%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "공격력",
+        "value": 15,
+        "unit": "percent",
+        "display": "+15.0%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "공격력",
+        "value": 17.4,
+        "unit": "percent",
+        "display": "+17.4%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "공격력",
+        "value": 19.8,
+        "unit": "percent",
+        "display": "+19.8%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "공격력",
+        "value": 23.4,
+        "unit": "percent",
+        "display": "+23.4%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/55_개척자의_이정표.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=55&header=0",
+    "sourceSha256": "abbab11b3eff57bccf1ac4188c75cd6a0ec39978e10caa299d1a034924e69305",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_55.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9952a2315f078fc360a312c1af9fa5560aa5f56e48bddf56b029748f7749da60",
+    "payloadSha256": "5b667aa7a0034621a77e6c954a4e819000866babdef58fe3b8d908df57bb7c5d"
+  }
+}

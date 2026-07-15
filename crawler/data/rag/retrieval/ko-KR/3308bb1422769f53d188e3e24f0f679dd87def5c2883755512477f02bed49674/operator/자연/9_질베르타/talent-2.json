@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.9.talent-2",
+  "semanticKey": "ko-KR|operator|9|talent-2",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_9",
+    "name": "질베르타",
+    "aliases": [],
+    "gameEntryId": 9
+  },
+  "title": "질베르타 — 뒤늦은 편지",
+  "content": "질베르타 오퍼레이터의 오퍼레이터 재능 ‘뒤늦은 편지’.\n단계 1: 배틀 스킬 아케인스태프 · 중력 모드와 연계 스킬 아케인스태프 · 매트릭스 이동 효과 강화: 배틀 스킬 아케인스태프 · 중력 모드의 마지막 공격 또는 연계 스킬 아케인스태프 · 매트릭스 이동이 최소 2명의 적에게 명중한 후, 메인 컨트롤 오퍼레이터의 생명력을 [72+지능×0.60] 만큼 회복합니다. 메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 48개, 탈로시안 화폐 10000개.\n단계 2: 배틀 스킬 아케인스태프 · 중력 모드와 연계 스킬 아케인스태프 · 매트릭스 이동 효과 강화: 배틀 스킬 아케인스태프 · 중력 모드의 마지막 공격 또는 연계 스킬 아케인스태프 · 매트릭스 이동이 최소 2명의 적에게 명중한 후, 메인 컨트롤 오퍼레이터의 생명력을 [108+지능×0.90] 만큼 회복합니다. 메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 28개, 탈로시안 화폐 8600개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 2,
+    "name": "뒤늦은 편지",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "배틀 스킬 아케인스태프 · 중력 모드와 연계 스킬 아케인스태프 · 매트릭스 이동 효과 강화: 배틀 스킬 아케인스태프 · 중력 모드의 마지막 공격 또는 연계 스킬 아케인스태프 · 매트릭스 이동이 최소 2명의 적에게 명중한 후, 메인 컨트롤 오퍼레이터의 생명력을 [72+지능×0.60] 만큼 회복합니다. 메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 48
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 10000
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "배틀 스킬 아케인스태프 · 중력 모드와 연계 스킬 아케인스태프 · 매트릭스 이동 효과 강화: 배틀 스킬 아케인스태프 · 중력 모드의 마지막 공격 또는 연계 스킬 아케인스태프 · 매트릭스 이동이 최소 2명의 적에게 명중한 후, 메인 컨트롤 오퍼레이터의 생명력을 [108+지능×0.90] 만큼 회복합니다. 메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다.",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 28
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8600
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "talentKind": "combat_talent",
+    "talentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+    "sourceSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_9.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e8f672f63ea06b18182558720d9b5752b6a9ba2afb1660008c8734e3c1d0f7d2",
+    "payloadSha256": "e42045c58bf0931340043475547e3fa75c41b35478b15c3f1e83217dcde96785"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.64.option-3",
+  "semanticKey": "ko-KR|weapon|64|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_64",
+    "name": "기사도 정신",
+    "aliases": [],
+    "gameEntryId": 64
+  },
+  "title": "기사도 정신 — 3번 옵션 의료 · 침식성 광기의 불꽃",
+  "content": "기사도 정신 무기의 3번 옵션 ‘의료 · 침식성 광기의 불꽃’.\nRANK1: 치유 효율 +10.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +9.0%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 치유 효율 +12.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +10.8%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 치유 효율 +14.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +12.6%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 치유 효율 +16.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +14.4%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 치유 효율 +18.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +16.2%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 치유 효율 +20.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +18.0%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK7: 치유 효율 +22.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +19.8%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 치유 효율 +24.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +21.6%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 치유 효율 +28.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +25.2%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "의료 · 침식성 광기의 불꽃",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "치유 효율 +10.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +9.0%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "치유 효율 +12.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +10.8%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "치유 효율 +14.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +12.6%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "치유 효율 +16.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +14.4%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "치유 효율 +18.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +16.2%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "치유 효율 +20.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +18.0%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "치유 효율 +22.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +19.8%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "치유 효율 +24.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +21.6%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "치유 효율 +28.0% 장착자가 자신의 스킬로 치유한 후, 팀 전체의 공격력 +25.2%, 15초동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/64_기사도_정신.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=64&header=0",
+    "sourceSha256": "9f898278aa145107e992969e08ec420a8961f0127945d7f3a8126db6793f6b63",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_64.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "1a6e891557c50f6ed0168eb5caf10ab4078897c4e5381db2feec8db5ca9e22c3",
+    "payloadSha256": "fd0c7b8e0d188c3c77b18020a31c01a0c56155023bb3b7c279fdb962ac0b847b"
+  }
+}

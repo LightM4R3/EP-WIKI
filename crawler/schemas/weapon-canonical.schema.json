@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ep-wiki.local/schemas/weapon-canonical.schema.json",
+  "title": "EP-WIKI canonical weapon",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "entityType",
+    "entityId",
+    "source",
+    "identity",
+    "taxonomy",
+    "progression",
+    "options"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "entityType": { "const": "weapon" },
+    "entityId": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "source": { "$ref": "#/$defs/source" },
+    "identity": { "$ref": "#/$defs/identity" },
+    "taxonomy": { "$ref": "#/$defs/taxonomy" },
+    "progression": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": { "$ref": "#/$defs/progressionLevel" }
+    },
+    "options": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": { "$ref": "#/$defs/weaponOption" }
+    }
+  },
+  "$defs": {
+    "localizedText": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "provider",
+        "entityId",
+        "url",
+        "mainTypeId",
+        "subTypeId",
+        "gameEntryId",
+        "locale",
+        "observedAt",
+        "contentStatus"
+      ],
+      "properties": {
+        "provider": { "const": "wiki.skport.com" },
+        "entityId": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "mainTypeId": { "const": 1 },
+        "subTypeId": { "const": 2 },
+        "gameEntryId": { "type": "integer", "minimum": 1 },
+        "locale": { "enum": ["ko-KR", "en-US", "ja-JP", "zh-TW"] },
+        "observedAt": { "type": "string", "format": "date-time" },
+        "contentStatus": {
+          "enum": ["verified", "cross_checked", "needs_review", "has_source_gaps"]
+        }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["names", "rarity", "imageUrl", "introductionBlocks", "acquisition"],
+      "properties": {
+        "names": { "$ref": "#/$defs/localizedText" },
+        "rarity": { "type": "integer", "minimum": 1, "maximum": 6 },
+        "imageUrl": { "type": "string", "format": "uri" },
+        "introductionBlocks": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "acquisition": { "type": "string", "minLength": 1 }
+      }
+    },
+    "taxonomyReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "code", "sourceLabel", "mappingStatus"],
+      "properties": {
+        "id": { "type": "integer", "minimum": 0 },
+        "code": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "sourceLabel": { "type": "string", "minLength": 1 },
+        "mappingStatus": { "enum": ["verified", "needs_review"] }
+      }
+    },
+    "taxonomy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["weaponType"],
+      "properties": {
+        "weaponType": { "$ref": "#/$defs/taxonomyReference" }
+      }
+    },
+    "materialCost": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["materialId", "quantity"],
+      "properties": {
+        "materialId": { "type": "integer", "minimum": 0 },
+        "quantity": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "progressionLevel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "baseAttack", "materialCosts"],
+      "properties": {
+        "level": { "type": "integer", "minimum": 1 },
+        "baseAttack": { "type": "integer", "minimum": 0 },
+        "materialCosts": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/materialCost" }
+        }
+      }
+    },
+    "optionLevel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "sourceLabel", "values"],
+      "properties": {
+        "level": { "type": "integer", "minimum": 1, "maximum": 9 },
+        "sourceLabel": { "type": "string", "pattern": "^RANK [1-9]$" },
+        "values": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "type": "number" }
+        }
+      }
+    },
+    "effectRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "metricCode"],
+      "properties": {
+        "code": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "metricCode": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "triggerCode": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "targetCode": { "type": "string", "pattern": "^[a-z0-9_.]+$" },
+        "durationSeconds": { "type": "number", "minimum": 0 }
+      }
+    },
+    "weaponOption": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "slot",
+        "optionId",
+        "optionCode",
+        "categoryId",
+        "categoryCode",
+        "levels",
+        "effectRules",
+        "stackingRule"
+      ],
+      "properties": {
+        "slot": { "type": "integer", "minimum": 1, "maximum": 3 },
+        "optionId": { "type": "integer", "minimum": 0 },
+        "optionCode": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "categoryId": { "type": "integer", "minimum": 0 },
+        "categoryCode": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "levels": {
+          "type": "array",
+          "minItems": 9,
+          "maxItems": 9,
+          "items": { "$ref": "#/$defs/optionLevel" }
+        },
+        "effectRules": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/effectRule" }
+        },
+        "stackingRule": {
+          "enum": ["stat_bonus", "independent_non_stacking"]
+        }
+      }
+    }
+  }
+}

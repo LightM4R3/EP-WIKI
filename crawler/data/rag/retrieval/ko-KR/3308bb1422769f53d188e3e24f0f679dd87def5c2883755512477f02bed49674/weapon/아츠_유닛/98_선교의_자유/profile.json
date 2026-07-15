@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.98.profile",
+  "semanticKey": "ko-KR|weapon|98|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_98",
+    "name": "선교의 자유",
+    "aliases": [],
+    "gameEntryId": 98
+  },
+  "title": "선교의 자유 — 무기 기본 정보",
+  "content": "선교의 자유 무기의 기본 정보. 무기 유형은 아츠 유닛이다. 옵션은 1번 의지 증가 · 중, 2번 치유 효율 증가 · 중, 3번 의료 · 신앙의 구원이다.",
+  "facts": {
+    "name": "선교의 자유",
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.98.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "치유 효율 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.98.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "의료 · 신앙의 구원",
+        "documentRef": "epwiki.ko-kr.weapon.98.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "weaponTypeCode": "arts_unit"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/98_선교의_자유.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=98&header=0",
+    "sourceSha256": "a29081bca2b195229f982d45e3ecbe24893dab66dabbcf90a7f8837cf5fba1bd",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_98.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_98.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5e06746d727a26614446490c968929473d08807622a99e7d7ae855ea9ed359d5",
+    "payloadSha256": "6521c2a2556cb0dc583631ec44fba568cff4866757d9c356990be5b562079948"
+  }
+}

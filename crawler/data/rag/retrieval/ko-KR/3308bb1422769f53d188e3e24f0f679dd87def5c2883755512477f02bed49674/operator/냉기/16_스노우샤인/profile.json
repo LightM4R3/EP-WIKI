@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.16.profile",
+  "semanticKey": "ko-KR|operator|16|profile",
+  "locale": "ko-KR",
+  "documentType": "operator_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_16",
+    "name": "스노우샤인",
+    "aliases": [],
+    "gameEntryId": 16
+  },
+  "title": "스노우샤인 — 오퍼레이터 기본 정보",
+  "content": "스노우샤인 오퍼레이터의 기본 정보. 속성은 냉기, 무기 유형은 양손검이다. 주요 능력치는 힘, 보조 능력치는 의지이다.",
+  "facts": {
+    "name": "스노우샤인",
+    "element": {
+      "id": 3,
+      "code": "cryo",
+      "label": "냉기"
+    },
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    "primaryAttribute": {
+      "id": 0,
+      "code": "strength",
+      "label": "힘"
+    },
+    "secondaryAttribute": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    },
+    "attributeCatalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_profile",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "elementCode": "cryo",
+    "weaponTypeCode": "greatsword",
+    "primaryAttributeCode": "strength",
+    "secondaryAttributeCode": "will"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+    "sourceSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_16.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.operator_16.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문에서 희귀도를 텍스트로 확정할 수 없음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.class",
+        "reason": "클래스 이미지 매핑이 검증되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.portraitUrl",
+        "reason": "초상화 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "239bf1b41b16f85cad9e7c836cc239c073cb5423ae6d3eedf5a0df0105b6ac06",
+    "payloadSha256": "43608d2114f6ebd2b0146d70672e9d732e3e48a4a21527af6a5dd369a1459cd5"
+  }
+}

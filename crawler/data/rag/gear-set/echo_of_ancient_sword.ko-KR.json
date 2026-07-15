@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityId": "echo_of_ancient_sword",
+  "locale": "ko-KR",
+  "documents": [
+    {
+      "documentId": "gear-set.echo_of_ancient_sword.three_piece.ko-kr",
+      "section": "gear_set_effect",
+      "content": "장비 세트: 고검의 잔향 (id=0, code=echo_of_ancient_sword)\n필요 장비 수: 3개\n원문 효과: 장착자의 공격력 +8%. 장착자가 강타 또는 갑옷 파괴 피해를 줄 때, 소모한 최대 방어 불능 스택 수치에 따라 자신의 물리 피해 +[6% × 소모한 스택 수치], 20초 동안 지속. 목표가 물리 취약, 불균형 상태이거나 오리지늄 결정이 부착된 상태라면 위 버프 효과가 1.5배로 변경됩니다. 버프 효과는 중첩되지 않습니다.\n구조화 수치: 공격력 +8%; 소모 스택당 물리 피해 +6%; 지속 20초; 조건 충족 시 1.5배; 중첩 불가",
+      "metadata": {
+        "entityType": "gear_set",
+        "entityId": "echo_of_ancient_sword",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1023&header=0",
+        "canonicalRef": "data/canonical/gear-set/echo_of_ancient_sword.json#/effects/0",
+        "localizationRef": "data/localization/gear-set/echo_of_ancient_sword.ko-KR.json#/effects/0",
+        "contentStatus": "verified",
+        "gearSetId": 0,
+        "gearSetCode": "echo_of_ancient_sword",
+        "requiredPieces": 3,
+        "effectId": "echo_of_ancient_sword.three_piece"
+      }
+    }
+  ]
+}

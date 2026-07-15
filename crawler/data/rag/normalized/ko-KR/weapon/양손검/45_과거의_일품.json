@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_45",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 45,
+    "name": "과거의 일품"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=45&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "696d542602ff81cbdfbdc7c793e19324383596b00a9d5c207aa4b4164bb7320a",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_45.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 과거의 일품\ngameEntryId: 45\n정규화 상태: query_ready\n무기 유형: 양손검 (id=1, code=greatsword)\n기초 공격력: LV.1=50, LV.20=145, LV.40=245, LV.60=345, LV.80=445, LV.90=495\n무기 옵션: 1번=의지 증가 · 대; 2번=생명력 증가 · 대; 3번=효율 · 절개 의료법\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_45",
+        "gameEntryId": 45,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=45&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/45_과거의_일품.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 1,
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "evidenceDocumentIds": [
+          "auto.weapon_45.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_45.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_45.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_45.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_45.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_45.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 과거의 일품\ncategory: weapon\nsection: profile\n과거의 일품\n유형\n양손검\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n노스마치 중공업 지원소의 고급 제품, 구식 기술로 설계된 체인 커터로, 현재는 대규모 생산이 이루어지고 있지 않지만, 여전히 신뢰할 수 있는 설계와 품질을 자랑합니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_45",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=45&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 45,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:59.284093+00:00",
+        "contentSha256": "696d542602ff81cbdfbdc7c793e19324383596b00a9d5c207aa4b4164bb7320a",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/45_과거의_일품.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "과거의 일품"
+      }
+    },
+    {
+      "documentId": "auto.weapon_45.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 과거의 일품\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n과거의 일풉\n양손검\n·획득 방식\n구매 센터 - 무기고 교환소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n50\n495\n의지 증가 · 대\n의지\n+20\n1/3\n의지\n+156\n9/9\n생명력 증가 · 대\n최대 생명력\n+10.0%\n1/3\n최대 생명력\n+78.0%\n9/9\n효율 · 절개 의료법\n치유 효율\n+10.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[84+의지×0.70]\n포인트.\n15초마다 최대 1회만 발동합니다.\n1/4\n치유 효율\n+28.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[235+의지×1.96]\n포인트.\n15초마다 최대 1회만 발동합니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_45",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=45&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 45,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:59.284093+00:00",
+        "contentSha256": "696d542602ff81cbdfbdc7c793e19324383596b00a9d5c207aa4b4164bb7320a",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/45_과거의_일품.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "과거의 일품"
+      }
+    },
+    {
+      "documentId": "auto.weapon_45.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 과거의 일품\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n50\n의지 증가 · 대\n의지\n+20\n1/3\n생명력 증가 · 대\n최대 생명력\n+10.0%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n145\n145\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n의지 증가 · 대\n의지\n+20\n1/3\n의지\n+36\n2/5\n생명력 증가 · 대\n최대 생명력\n+10.0%\n1/3\n최대 생명력\n+10.0%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n245\n245\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n의지 증가 · 대\n의지\n+36\n2/5\n의지\n+36\n2/6\n생명력 증가 · 대\n최대 생명력\n+10.0%\n1/4\n최대 생명력\n+18.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n345\n345\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n의지 증가 · 대\n의지\n+36\n2/6\n의지\n+52\n3/8\n생명력 증가 · 대\n최대 생명력\n+18.0%\n2/6\n최대 생명력\n+18.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n445\n445\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n의지 증가 · 대\n의지\n+52\n3/8\n의지\n+52\n3/9\n생명력 증가 · 대\n최대 생명력\n+18.0%\n2/7\n최대 생명력\n+26.0%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n495\n의지 증가 · 대\n의지\n+52\n3/9\n생명력 증가 · 대\n최대 생명력\n+26.0%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_45",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=45&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 45,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:59.284093+00:00",
+        "contentSha256": "696d542602ff81cbdfbdc7c793e19324383596b00a9d5c207aa4b4164bb7320a",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/45_과거의_일품.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "과거의 일품"
+      }
+    },
+    {
+      "documentId": "auto.weapon_45.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 과거의 일품\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n의지 증가 · 대\n생명력 증가 · 대\n효율 · 절개 의료법\nRANK 1\n의지\n+20\n최대 생명력\n+10.0%\n치유 효율\n+10.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[84+의지×0.70]\n포인트.\n15초마다 최대 1회만 발동합니다.\nRANK 2\n의지\n+36\n최대 생명력\n+18.0%\n치유 효율\n+12.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[101+의지×0.84]\n포인트.\n15초마다 최대 1회만 발동합니다.\nRANK 3\n의지\n+52\n최대 생명력\n+26.0%\n치유 효율\n+14.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[118+의지×0.98]\n포인트.\n15초마다 최대 1회만 발동합니다.\nRANK 4\n의지\n+68\n최대 생명력\n+34.0%\n치유 효율\n+16.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[134+의지×1.12]\n포인트.\n15초마다 최대 1회만 발동합니다.\nRANK 5\n의지\n+84\n최대 생명력\n+42.0%\n치유 효율\n+18.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[151+의지×1.26]\n포인트.\n15초마다 최대 1회만 발동합니다.\nRANK 6\n의지\n+100\n최대 생명력\n+50.0%\n치유 효율\n+20.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[168+의지×1.40]\n포인트.\n15초마다 최대 1회만 발동합니다.\nRANK 7\n의지\n+116\n최대 생명력\n+58.0%\n치유 효율\n+22.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[185+의지×1.54]\n포인트.\n15초마다 최대 1회만 발동합니다.\nRANK 8\n의지\n+132\n최대 생명력\n+66.0%\n치유 효율\n+24.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[202+의지×1.68]\n포인트.\n15초마다 최대 1회만 발동합니다.\nRANK 9\n의지\n+156\n최대 생명력\n+78.0%\n치유 효율\n+28.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[235+의지×1.96]\n포인트.\n15초마다 최대 1회만 발동합니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n의지 증가\n최대 생명력 증가\n효율",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_45",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=45&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 45,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:59.284093+00:00",
+        "contentSha256": "696d542602ff81cbdfbdc7c793e19324383596b00a9d5c207aa4b4164bb7320a",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/45_과거의_일품.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "과거의 일품"
+      }
+    },
+    {
+      "documentId": "auto.weapon_45.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 과거의 일품\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n효율 · 절개 의료법\n기본/최대\n효율 · 절개 의료법\n잠재능력 1\n1/4\n치유 효율\n+10.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[84+의지×0.70]\n포인트.\n15초마다 최대 1회만 발동합니다.\n잠재능력 2\n2/5\n치유 효율\n+12.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[101+의지×0.84]\n포인트.\n15초마다 최대 1회만 발동합니다.\n잠재능력 3\n3/6\n치유 효율\n+14.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[118+의지×0.98]\n포인트.\n15초마다 최대 1회만 발동합니다.\n잠재능력 4\n4/7\n치유 효율\n+16.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[134+의지×1.12]\n포인트.\n15초마다 최대 1회만 발동합니다.\n잠재능력 5\n5/8\n치유 효율\n+18.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[151+의지×1.26]\n포인트.\n15초마다 최대 1회만 발동합니다.\n잠재능력 6\n6/9\n치유 효율\n+20.0%\n비호\n상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력\n[168+의지×1.40]\n포인트.\n15초마다 최대 1회만 발동합니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_45",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=45&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 45,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:59.284093+00:00",
+        "contentSha256": "696d542602ff81cbdfbdc7c793e19324383596b00a9d5c207aa4b4164bb7320a",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/45_과거의_일품.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "과거의 일품"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 50
+    },
+    {
+      "level": 20,
+      "baseAttack": 145
+    },
+    {
+      "level": 40,
+      "baseAttack": 245
+    },
+    {
+      "level": 60,
+      "baseAttack": 345
+    },
+    {
+      "level": 80,
+      "baseAttack": 445
+    },
+    {
+      "level": 90,
+      "baseAttack": 495
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "의지 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_45.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "생명력 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_45.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "효율 · 절개 의료법",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_45.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 1,
+    "code": "greatsword",
+    "label": "양손검"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/양손검/45_과거의_일품.json"
+}

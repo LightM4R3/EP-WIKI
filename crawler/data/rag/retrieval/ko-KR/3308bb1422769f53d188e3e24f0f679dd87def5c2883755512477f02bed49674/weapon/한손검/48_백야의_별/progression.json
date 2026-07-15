@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.48.progression",
+  "semanticKey": "ko-KR|weapon|48|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_48",
+    "name": "백야의 별",
+    "aliases": [],
+    "gameEntryId": 48
+  },
+  "title": "백야의 별 — 기초 공격력",
+  "content": "백야의 별 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 51.\nLV.20: 기초 공격력 148.\nLV.40: 기초 공격력 250.\nLV.60: 기초 공격력 352.\nLV.80: 기초 공격력 454.\nLV.90: 기초 공격력 505.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 51
+      },
+      {
+        "level": 20,
+        "baseAttack": 148
+      },
+      {
+        "level": 40,
+        "baseAttack": 250
+      },
+      {
+        "level": 60,
+        "baseAttack": 352
+      },
+      {
+        "level": 80,
+        "baseAttack": 454
+      },
+      {
+        "level": 90,
+        "baseAttack": 505
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/48_백야의_별.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=48&header=0",
+    "sourceSha256": "bb2756de6ec496f533a3584c137e3534c805f2b2b3201d1bb1cc8c8025fb6bc9",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_48.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "20b8e9fe36204feb9283f64cfa46a97f7f89d895c9ade1270af8dfbe2af0b310",
+    "payloadSha256": "0bfa68652d8c2ed7cac5f3fb3ee25fd9ace4b7da36aa34fc9aa45c9ab3d56653"
+  }
+}

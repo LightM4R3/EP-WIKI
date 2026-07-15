@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "weaponOptionCategories",
+  "entries": [
+    {
+      "id": 0,
+      "code": "attribute_increase",
+      "labels": { "ko-KR": "능력치 증가" },
+      "description": "힘·민첩·지능·의지 중 하나를 고정 수치로 증가시키는 공용 옵션군"
+    },
+    {
+      "id": 1,
+      "code": "attack_increase",
+      "labels": { "ko-KR": "공격력 증가" },
+      "description": "공격력을 백분율로 증가시키는 공용 옵션군"
+    },
+    {
+      "id": 2,
+      "code": "release",
+      "labels": { "ko-KR": "방출" },
+      "description": "조건부 피해 증가 효과를 제공하는 방출 기질 옵션군"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.19.infrastructure-1",
+  "semanticKey": "ko-KR|operator|19|infrastructure-1",
+  "locale": "ko-KR",
+  "documentType": "operator_infrastructure_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_19",
+    "name": "아델리아",
+    "aliases": [],
+    "gameEntryId": 19
+  },
+  "title": "아델리아 — 인프라 재능 대지의 이야기",
+  "content": "아델리아 오퍼레이터의 인프라 재능 ‘대지의 이야기’.\n대지의 이야기 · β: 응접실에 배치 시, 오퍼레이터의 단서 수집 기본 효율 20% 증가. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 6개, 탈로시안 화폐 1600개.\n대지의 이야기 · γ: 응접실에 배치 시, 오퍼레이터의 단서 수집 기본 효율 30% 증가. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 12개, 탈로시안 화폐 8000개.",
+  "facts": {
+    "index": 1,
+    "name": "대지의 이야기",
+    "variants": [
+      {
+        "grade": "β",
+        "name": "대지의 이야기 · β",
+        "description": "응접실에 배치 시, 오퍼레이터의 단서 수집 기본 효율 20% 증가",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 6
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1600
+          }
+        ]
+      },
+      {
+        "grade": "γ",
+        "name": "대지의 이야기 · γ",
+        "description": "응접실에 배치 시, 오퍼레이터의 단서 수집 기본 효율 30% 증가",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_infrastructure_talent",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "infrastructureTalentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+    "sourceSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_19.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b19d3d79160f6065ea393618d5826167530414094832dde51cfda18ff0de0128",
+    "payloadSha256": "58d97cd7da0e2b88ad4eadf626057ae47d33c9b56d3eec7f3a99cdb4a8bff8f1"
+  }
+}

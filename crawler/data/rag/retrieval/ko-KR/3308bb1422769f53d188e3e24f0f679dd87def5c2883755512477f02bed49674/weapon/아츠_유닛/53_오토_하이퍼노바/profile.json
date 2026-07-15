@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.53.profile",
+  "semanticKey": "ko-KR|weapon|53|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_53",
+    "name": "오토 하이퍼노바",
+    "aliases": [],
+    "gameEntryId": 53
+  },
+  "title": "오토 하이퍼노바 — 무기 기본 정보",
+  "content": "오토 하이퍼노바 무기의 기본 정보. 무기 유형은 아츠 유닛이다. 옵션은 1번 지능 증가 · 소, 2번 아츠 피해 증가 · 소, 3번 사기 · 원정의 시작이다.",
+  "facts": {
+    "name": "오토 하이퍼노바",
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능 증가 · 소",
+        "documentRef": "epwiki.ko-kr.weapon.53.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "아츠 피해 증가 · 소",
+        "documentRef": "epwiki.ko-kr.weapon.53.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "사기 · 원정의 시작",
+        "documentRef": "epwiki.ko-kr.weapon.53.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "weaponTypeCode": "arts_unit"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/53_오토_하이퍼노바.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=53&header=0",
+    "sourceSha256": "288da12d622e4a598824ca2dcd77d3ff9ad33862ce343897e50449d57efa5908",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_53.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_53.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "28d1095605ade43f8866fc50bfd3b310a7d00b36fe05e68f914e2ba6e6f48e97",
+    "payloadSha256": "dc26d1f68c0455494d4f6eb999f4dce0c019c12f72cfcf09632efd124ff429f0"
+  }
+}

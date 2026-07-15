@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.18.potential-5",
+  "semanticKey": "ko-KR|operator|18|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_18",
+    "name": "알레쉬",
+    "aliases": [],
+    "gameEntryId": 18
+  },
+  "title": "알레쉬 — 잠재능력 5 초특급 입질",
+  "content": "알레쉬 오퍼레이터의 잠재능력 5 ‘초특급 입질’. 궁극기 월척이다!가 생명력 50% 이하인 목표에게 명중했을 때, 피해 배율이 기존의 1.5 배로 증가합니다. 오퍼레이터 기념사진 \"낚시의 날\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "초특급 입질",
+    "status": "rule_validated",
+    "effect": "궁극기 월척이다!가 생명력 50% 이하인 목표에게 명중했을 때, 피해 배율이 기존의 1.5 배로 증가합니다. 오퍼레이터 기념사진 \"낚시의 날\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+    "sourceSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_18.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3b19de4ef2483dde4a0ebdfc64d25690b81bc01e81d978c7e811a53f803b81af",
+    "payloadSha256": "6ad2e051f07ede17d10f58a92daa0bd4e442b8a29c8525d05ceabd8ff1aabf92"
+  }
+}

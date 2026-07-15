@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.995.talent-1",
+  "semanticKey": "ko-KR|operator|995|talent-1",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_995",
+    "name": "미브",
+    "aliases": [],
+    "gameEntryId": 995
+  },
+  "title": "미브 — 냉정",
+  "content": "미브 오퍼레이터의 오퍼레이터 재능 ‘냉정’.\n단계 1: 배틀 스킬 개천이 명중했을 때, 만약 목표가 물리 취약 또는 불균형 상태에 빠질 경우, 피해 배율이 기존의 1.1 배로 증가합니다. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 2400개.\n단계 2: 배틀 스킬 개천이 명중했을 때, 만약 목표가 물리 취약 또는 불균형 상태에 빠질 경우, 피해 배율이 기존의 1.2 배로 증가합니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 40개, 탈로시안 화폐 8600개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 1,
+    "name": "냉정",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "배틀 스킬 개천이 명중했을 때, 만약 목표가 물리 취약 또는 불균형 상태에 빠질 경우, 피해 배율이 기존의 1.1 배로 증가합니다.",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 2400
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "배틀 스킬 개천이 명중했을 때, 만약 목표가 물리 취약 또는 불균형 상태에 빠질 경우, 피해 배율이 기존의 1.2 배로 증가합니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 40
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8600
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "talentKind": "combat_talent",
+    "talentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+    "sourceSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_995.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e4de6472b00443d3805d63065433562d6a09e0cf12b76fe83e4ff5dbde9651dc",
+    "payloadSha256": "ce3be9833ca4b2d5c1d643861f755fce3a901745d00b9c41d223b3d7fd7c9e1b"
+  }
+}

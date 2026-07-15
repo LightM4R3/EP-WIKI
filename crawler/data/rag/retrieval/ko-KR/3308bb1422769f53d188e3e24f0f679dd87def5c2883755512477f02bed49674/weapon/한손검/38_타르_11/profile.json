@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.38.profile",
+  "semanticKey": "ko-KR|weapon|38|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_38",
+    "name": "타르 11",
+    "aliases": [],
+    "gameEntryId": 38
+  },
+  "title": "타르 11 — 무기 기본 정보",
+  "content": "타르 11 무기의 기본 정보. 무기 유형은 한손검이다. 옵션은 1번 주요 능력치 증가 · 소, 2번 강공 · 무장 정비이다.",
+  "facts": {
+    "name": "타르 11",
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "주요 능력치 증가 · 소",
+        "documentRef": "epwiki.ko-kr.weapon.38.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "강공 · 무장 정비",
+        "documentRef": "epwiki.ko-kr.weapon.38.option-2"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "weaponTypeCode": "sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/38_타르_11.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=38&header=0",
+    "sourceSha256": "461d28f0713dab8e0e8b051364200dbda31728d82e9b37b6d40cd68fcd3f984d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_38.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_38.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "aa0c73c4cece921c0d615a3afbc64c177d2f742144fe08920409e47aad0099d7",
+    "payloadSha256": "ec0f64f76c93a9afb106a81082bd54bf6164169000e70aa43739ddde00c20487"
+  }
+}

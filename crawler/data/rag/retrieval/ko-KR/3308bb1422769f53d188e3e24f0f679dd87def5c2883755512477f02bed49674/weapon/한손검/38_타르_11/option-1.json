@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.38.option-1",
+  "semanticKey": "ko-KR|weapon|38|option-1",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_38",
+    "name": "타르 11",
+    "aliases": [],
+    "gameEntryId": 38
+  },
+  "title": "타르 11 — 1번 옵션 주요 능력치 증가 · 소",
+  "content": "타르 11 무기의 1번 옵션 ‘주요 능력치 증가 · 소’.\nRANK1: 주요 능력치 +10.\nRANK2: 주요 능력치 +18.\nRANK3: 주요 능력치 +26.\nRANK4: 주요 능력치 +34.\nRANK5: 주요 능력치 +42.\nRANK6: 주요 능력치 +51.\nRANK7: 주요 능력치 +59.\nRANK8: 주요 능력치 +67.\nRANK9: 주요 능력치 +79.",
+  "facts": {
+    "slot": 1,
+    "name": "주요 능력치 증가 · 소",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "주요 능력치",
+        "value": 10,
+        "unit": "flat",
+        "display": "+10"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "주요 능력치",
+        "value": 18,
+        "unit": "flat",
+        "display": "+18"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "주요 능력치",
+        "value": 26,
+        "unit": "flat",
+        "display": "+26"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "주요 능력치",
+        "value": 34,
+        "unit": "flat",
+        "display": "+34"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "주요 능력치",
+        "value": 42,
+        "unit": "flat",
+        "display": "+42"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "주요 능력치",
+        "value": 51,
+        "unit": "flat",
+        "display": "+51"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "주요 능력치",
+        "value": 59,
+        "unit": "flat",
+        "display": "+59"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "주요 능력치",
+        "value": 67,
+        "unit": "flat",
+        "display": "+67"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "주요 능력치",
+        "value": 79,
+        "unit": "flat",
+        "display": "+79"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "optionSlot": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/38_타르_11.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=38&header=0",
+    "sourceSha256": "461d28f0713dab8e0e8b051364200dbda31728d82e9b37b6d40cd68fcd3f984d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_38.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "eb50dd649fe3fc2aa385b232017fcf9998254dcbf7979c047a22b44a77caf5b1",
+    "payloadSha256": "58af767408fce6f07750e547a8f0687187f26b0f2dd73423e0f1f91d9c1648d7"
+  }
+}

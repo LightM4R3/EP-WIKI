@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.4.infrastructure-2",
+  "semanticKey": "ko-KR|operator|4|infrastructure-2",
+  "locale": "ko-KR",
+  "documentType": "operator_infrastructure_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_4",
+    "name": "진천우",
+    "aliases": [],
+    "gameEntryId": 4
+  },
+  "title": "진천우 — 인프라 재능 탁옥",
+  "content": "진천우 오퍼레이터의 인프라 재능 ‘탁옥’.\n탁옥 · β: 재배실에 배치 시, 광물 재료의 육성 속도 20% 증가. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 3000개.\n탁옥 · γ: 재배실에 배치 시, 광물 재료의 육성 속도 30% 증가. 활성화 조건: 정예화 단계 4 돌파. 재료: 프로토콜 프리즘 세트 20개, 탈로시안 화폐 20000개.",
+  "facts": {
+    "index": 2,
+    "name": "탁옥",
+    "variants": [
+      {
+        "grade": "β",
+        "name": "탁옥 · β",
+        "description": "재배실에 배치 시, 광물 재료의 육성 속도 20% 증가",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 3000
+          }
+        ]
+      },
+      {
+        "grade": "γ",
+        "name": "탁옥 · γ",
+        "description": "재배실에 배치 시, 광물 재료의 육성 속도 30% 증가",
+        "conditions": [
+          "정예화 단계 4 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 20
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 20000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_infrastructure_talent",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "infrastructureTalentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/4_진천우.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=4&header=0",
+    "sourceSha256": "64f046fe559117e3b77a47aaf14c24296e264dc17aa1ee3c126893330dd5e3ca",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_4.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e0fb71e8811c4491523f0045cfb37350e8124883e32795f441609a084c833adc",
+    "payloadSha256": "3d093791dc5eb95c5131d7a5e5414140f6e9e44b8d10fdac037ff13a7f627a4a"
+  }
+}

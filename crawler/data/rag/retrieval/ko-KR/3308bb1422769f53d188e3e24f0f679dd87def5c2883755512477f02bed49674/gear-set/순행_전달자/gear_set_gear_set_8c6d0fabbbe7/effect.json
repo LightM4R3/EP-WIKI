@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-8c6d0fabbbe7.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_8c6d0fabbbe7|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_8c6d0fabbbe7",
+    "name": "순행 전달자",
+    "aliases": []
+  },
+  "title": "순행 전달자 — 장비 세트 효과",
+  "content": "순행 전달자 장비 세트의 3개 세트 효과. 장착자의 민첩 +50 장착자의 생명력이 80%보다 높을 때, 주는 물리 피해 +20%",
+  "facts": {
+    "gearSet": {
+      "id": 2356057675,
+      "code": "gear_set_8c6d0fabbbe7",
+      "label": "순행 전달자"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 민첩 +50 장착자의 생명력이 80%보다 높을 때, 주는 물리 피해 +20%",
+    "memberGameEntryIds": [
+      247,
+      248,
+      249,
+      251,
+      316,
+      317,
+      318,
+      319,
+      320
+    ],
+    "evidenceCopyCount": 9
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_8c6d0fabbbe7",
+    "groupLabel": "순행 전달자",
+    "gearSetCode": "gear_set_8c6d0fabbbe7",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=247&header=0",
+    "sourceSha256": "0a947c3f24c483c501c1a352d8d4fbbe5422a1109d0ae70c9be22dbff9adb409",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_247.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_248.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_249.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_251.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_316.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_317.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_318.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_319.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_320.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "75554d11793f32fc1180d576f540c558905ba0b6cb4d42a7b1385a33b48502cb",
+    "payloadSha256": "15fd8615eb6389cd8aa550b2ac1d4a2b819b7eabb5787cd564fbd1740207c5a9"
+  }
+}

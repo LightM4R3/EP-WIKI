@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_999",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 999,
+    "name": "등불의 사명"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=999&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "ac22eef24928c82b7fc19ba294980d262549b7cc6a56dfbb135ea417edde941e",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_999.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 등불의 사명\ngameEntryId: 999\n정규화 상태: query_ready\n무기 유형: 장병기 (id=2, code=polearm)\n기초 공격력: LV.1=49, LV.20=142, LV.40=240, LV.60=338, LV.80=436, LV.90=485\n무기 옵션: 1번=민첩 증가 · 대; 2번=궁극기 충전 효율 증가 · 대; 3번=효율 · 불빛 연소\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_999",
+        "gameEntryId": 999,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=999&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/999_등불의_사명.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 2,
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "evidenceDocumentIds": [
+          "auto.weapon_999.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_999.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_999.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_999.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_999.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_999.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 등불의 사명\ncategory: weapon\nsection: profile\n등불의 사명\n유형\n장병기\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n노스마치 중공업 지원소의 구형 제품, 조작성은 떨어지지만 놀라운 위력을 자랑합니다. 지나친 무게 탓에 대중에게 환영받지는 못하지만, 과감한 전투 스타일을 선호하는 이들에게는 큰 인기를 끌고 있습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_999",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=999&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 999,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:54.828779+00:00",
+        "contentSha256": "ac22eef24928c82b7fc19ba294980d262549b7cc6a56dfbb135ea417edde941e",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/999_등불의_사명.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "등불의 사명"
+      }
+    },
+    {
+      "documentId": "auto.weapon_999.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 등불의 사명\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n등불의 사명\n장병기\n·획득 방법\n프로토콜 통행증 보상\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n49\n485\n민첩 증가 · 대\n민첩\n+20\n1/3\n민첩\n+156\n9/9\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+6.0%\n1/3\n궁극기 충전 효율\n+46.4%\n9/9\n효율 · 불빛 연소\n열기 피해\n+7.0%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+8.0%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+4.0%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n1/4\n열기 피해\n+19.6%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+22.4%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+11.2%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_999",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=999&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 999,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:54.828779+00:00",
+        "contentSha256": "ac22eef24928c82b7fc19ba294980d262549b7cc6a56dfbb135ea417edde941e",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/999_등불의_사명.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "등불의 사명"
+      }
+    },
+    {
+      "documentId": "auto.weapon_999.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 등불의 사명\ncategory: weapon\nsection: progression\n업그레이드\n돌파\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n49\n-\n민첩 증가 · 대\n민첩\n+20\n1/3\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+6.0%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n142\n142\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n민첩 증가 · 대\n민첩\n+20\n1/3\n민첩\n+36\n2/5\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+6.0%\n1/3\n궁극기 충전 효율\n+6.0%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n240\n240\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n민첩 증가 · 대\n민첩\n+36\n2/5\n민첩\n+36\n2/6\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+6.0%\n1/4\n궁극기 충전 효율\n+10.7%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n338\n338\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n민첩 증가 · 대\n민첩\n+36\n2/6\n민첩\n+52\n3/8\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+10.7%\n2/6\n궁극기 충전 효율\n+10.7%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n436\n436\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n민첩 증가 · 대\n민첩\n+52\n3/8\n민첩\n+52\n3/9\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+10.7%\n2/7\n궁극기 충전 효율\n+15.5%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n485\n-\n민첩 증가 · 대\n민첩\n+52\n3/9\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+15.5%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_999",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=999&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 999,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:54.828779+00:00",
+        "contentSha256": "ac22eef24928c82b7fc19ba294980d262549b7cc6a56dfbb135ea417edde941e",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/999_등불의_사명.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "등불의 사명"
+      }
+    },
+    {
+      "documentId": "auto.weapon_999.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 등불의 사명\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n민첩 증가 · 대\n궁극기 충전 효율 증가 · 대\n효율 · 불빛 연소\nRANK 1\n민첩\n+20\n궁극기 충전 효율\n+6.0%\n열기 피해\n+7.0%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+8.0%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+4.0%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 2\n민첩\n+36\n궁극기 충전 효율\n+10.7%\n열기 피해\n+8.4%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+9.6%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+4.8%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 3\n민첩\n+52\n궁극기 충전 효율\n+15.5%\n열기 피해\n+9.8%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+11.2%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+5.6%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 4\n민첩\n+68\n궁극기 충전 효율\n+20.2%\n열기 피해\n+11.2%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+12.8%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+6.4%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 5\n민첩\n+84\n궁극기 충전 효율\n+25.0%\n열기 피해\n+12.6%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+14.4%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+7.2%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 6\n민첩\n+100\n궁극기 충전 효율\n+29.8%\n열기 피해\n+14.0%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+16.0%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+8.0%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 7\n민첩\n+116\n궁극기 충전 효율\n+34.5%\n열기 피해\n+15.4%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+17.6%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+8.8%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 8\n민첩\n+132\n궁극기 충전 효율\n+39.3%\n열기 피해\n+16.8%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+19.2%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+9.6%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 9\n민첩\n+156\n궁극기 충전 효율\n+46.4%\n열기 피해\n+19.6%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+22.4%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+11.2%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n민첩 증가\n궁극기 충전 효율 증가\n효율",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_999",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=999&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 999,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:54.828779+00:00",
+        "contentSha256": "ac22eef24928c82b7fc19ba294980d262549b7cc6a56dfbb135ea417edde941e",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/999_등불의_사명.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "등불의 사명"
+      }
+    },
+    {
+      "documentId": "auto.weapon_999.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 등불의 사명\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n효율 · 불빛 연소\n기본/최대\n효율 · 불빛 연소\n잠재능력 1\n1/4\n열기 피해\n+7.0%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+8.0%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+4.0%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 2\n2/5\n열기 피해\n+8.4%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+9.6%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+4.8%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 3\n3/6\n열기 피해\n+9.8%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+11.2%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+5.6%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 4\n4/7\n열기 피해\n+11.2%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+12.8%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+6.4%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 5\n5/8\n열기 피해\n+12.6%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+14.4%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+7.2%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 6\n6/9\n열기 피해\n+14.0%\n장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 자신의 물리 및 열기 피해\n+16.0%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 취약\n을 부여할 때, 팀 전체의 물리 및 열기 피해\n+8.0%\n, 30초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_999",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=999&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 999,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:54.828779+00:00",
+        "contentSha256": "ac22eef24928c82b7fc19ba294980d262549b7cc6a56dfbb135ea417edde941e",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/999_등불의_사명.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "등불의 사명"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 49
+    },
+    {
+      "level": 20,
+      "baseAttack": 142
+    },
+    {
+      "level": 40,
+      "baseAttack": 240
+    },
+    {
+      "level": 60,
+      "baseAttack": 338
+    },
+    {
+      "level": 80,
+      "baseAttack": 436
+    },
+    {
+      "level": 90,
+      "baseAttack": 485
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_999.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "궁극기 충전 효율 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_999.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "효율 · 불빛 연소",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_999.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 2,
+    "code": "polearm",
+    "label": "장병기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/장병기/999_등불의_사명.json"
+}

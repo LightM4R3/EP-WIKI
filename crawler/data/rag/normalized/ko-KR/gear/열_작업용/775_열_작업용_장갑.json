@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_775",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 775,
+    "name": "열 작업용 장갑"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=775&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "7c7fa986f646b28c638409d8d7ba5639054efe6aa77899b5a26432d4365f238b",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_775.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 열 작업용 장갑\ngameEntryId: 775\n정규화 상태: query_ready\n장비 세트: 열 작업용 (id=3358174061, code=gear_set_c82824cda56b)\n장비 유형: 글러브 (id=0, code=gloves)\n품질: 노란색 품질 (id=0, code=yellow)\nLV: 70\n방어력: 42\n장비 옵션: 1번=힘 65; 2번=의지 43; 3번=오리지늄 아츠 강도 34\n정밀 단조 지원: 예\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_775",
+        "gameEntryId": 775,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=775&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/775_열_작업용_장갑.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 3358174061,
+        "groupCode": "gear_set_c82824cda56b",
+        "groupLabel": "열 작업용",
+        "evidenceDocumentIds": [
+          "auto.gear_775.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_775.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_775.gear_option.c2.chapter.s2.p0.ko-kr",
+          "auto.gear_775.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_775.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 열 작업용 장갑\ncategory: gear\nsection: profile\n열 작업용 장갑\n품질\n노란색 품질\n장비 유형\n글러브\n세트\n열 작업용\n이 장비는 엔드필드 공업에서 자체 연구하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n극도의 내열성을 자랑하는 장비.\n연맹 공단과 엔드필드 공업이 고온 환경 심층 탐사를 위해 협력하여 개발한 열 작업용 시리즈 장비입니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_775",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=775&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 775,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:51:18.218368+00:00",
+        "contentSha256": "7c7fa986f646b28c638409d8d7ba5639054efe6aa77899b5a26432d4365f238b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/775_열_작업용_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_c82824cda56b",
+        "groupLabel": "열 작업용",
+        "entityName": "열 작업용 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_775.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 열 작업용 장갑\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n16000\n*\n16000\n및\n50\n*\n50\n장비 템플릿\n장비 템플릿 상자\n속성\nLV\n70\n방어력\n+42\n힘\n+65\n의지\n+43\n오리지늄 아츠 강도\n+34",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_775",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=775&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 775,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:51:18.218368+00:00",
+        "contentSha256": "7c7fa986f646b28c638409d8d7ba5639054efe6aa77899b5a26432d4365f238b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/775_열_작업용_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_c82824cda56b",
+        "groupLabel": "열 작업용",
+        "entityName": "열 작업용 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_775.gear_option.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_option",
+      "content": "entity: 열 작업용 장갑\ncategory: gear\nsection: gear_option\n정밀 단조\n정밀 단조\n적합 단조제 : 무릉 정밀 단조제\n정밀 단조 단계\n기본\n1단계\n2단계\n3단계\n힘\n+65\n+71\n+78\n+84\n의지\n+43\n+47\n+51\n+55\n오리지늄 아츠 강도\n+34\n+37\n+41\n+44\n정밀 단조 누적 단계\n6\n12\n20",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_775",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=775&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 775,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:51:18.218368+00:00",
+        "contentSha256": "7c7fa986f646b28c638409d8d7ba5639054efe6aa77899b5a26432d4365f238b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/775_열_작업용_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_c82824cda56b",
+        "groupLabel": "열 작업용",
+        "entityName": "열 작업용 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_775.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 열 작업용 장갑\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n열 작업용\n보호 장갑\n3개 세트 효과:\n장착자의 오리지늄 아츠 강도\n+30\n장착자가 적에게\n연소\n를 부여한 후,\n열기 피해\n+\n50%\n,\n10초 동안 지속, 해당 효과는 중첩되지 않습니다.\n장착자가 적에게\n부식\n을 부여한 후,\n자연 피해\n+\n50%\n,\n10초 동안 지속, 해당 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_775",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=775&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 775,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:51:18.218368+00:00",
+        "contentSha256": "7c7fa986f646b28c638409d8d7ba5639054efe6aa77899b5a26432d4365f238b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/775_열_작업용_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_c82824cda56b",
+        "groupLabel": "열 작업용",
+        "entityName": "열 작업용 장갑"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 3358174061,
+      "code": "gear_set_c82824cda56b",
+      "label": "열 작업용"
+    },
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    }
+  },
+  "level": 70,
+  "defense": 42,
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘",
+      "baseValue": {
+        "value": 65,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "의지",
+      "baseValue": {
+        "value": 43,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 3,
+        "code": "will",
+        "label": "의지"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "오리지늄 아츠 강도",
+      "baseValue": {
+        "value": 34,
+        "unit": "flat"
+      }
+    }
+  ],
+  "forging": {
+    "supported": true,
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 34,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 37,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 41,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 44,
+            "unit": "flat"
+          }
+        ]
+      }
+    ],
+    "evidenceDocumentId": "auto.gear_775.gear_option.c2.chapter.s2.p0.ko-kr"
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_775.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 3358174061,
+    "code": "gear_set_c82824cda56b",
+    "label": "열 작업용"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/열_작업용/775_열_작업용_장갑.json"
+}

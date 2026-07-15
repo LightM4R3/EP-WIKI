@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.871.forging",
+  "semanticKey": "ko-KR|gear|871|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_871",
+    "name": "본 크러셔 조각상 · II",
+    "aliases": [],
+    "gameEntryId": 871
+  },
+  "title": "본 크러셔 조각상 · II — 정밀 단조",
+  "content": "본 크러셔 조각상 · II 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 의지: +0 32, +1 35, +2 38, +3 41.\n2번 지능: +0 21, +1 23, +2 25, +3 27.\n3번 배틀 스킬 피해 보너스: +0 41.4%, +1 45.5%, +2 49.7%, +3 53.8%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "배틀 스킬 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 41.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 45.5,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 49.7,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 53.8,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1f8b8dc4f539",
+    "groupLabel": "본 크러셔",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/본_크러셔/871_본_크러셔_조각상_·_II.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=871&header=0",
+    "sourceSha256": "843a5efe7dcf9c353ab3e1295957f1720420c7c21c474394a81bcd4385b553d6",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_871.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "fb1c27d7384f7d248e0902960b2a1896f880b2453db132e9bb3149f2f5ada403",
+    "payloadSha256": "3f1880a504fc5da3f772177efb7bf05114b4559a6ea7a834e8038f276847c439"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_248",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 248,
+    "name": "순행 전달자 장갑"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=248&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "1714388a73b06e79a0cbc253103a732c94e3dbb5a06a267cee85d2cdb3b0793b",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_248.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 순행 전달자 장갑\ngameEntryId: 248\n정규화 상태: query_ready\n장비 세트: 순행 전달자 (id=2356057675, code=gear_set_8c6d0fabbbe7)\n장비 유형: 글러브 (id=0, code=gloves)\n품질: 파란색 품질 (id=2, code=blue)\nLV: 36\n방어력: 21\n장비 옵션: 1번=민첩 33; 2번=힘 22; 3번=물리 피해 보너스 9.7%\n정밀 단조 지원: 아니오\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_248",
+        "gameEntryId": 248,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=248&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/순행_전달자/248_순행_전달자_장갑.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 2356057675,
+        "groupCode": "gear_set_8c6d0fabbbe7",
+        "groupLabel": "순행 전달자",
+        "evidenceDocumentIds": [
+          "auto.gear_248.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_248.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_248.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_248.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 순행 전달자 장갑\ncategory: gear\nsection: profile\n순행 전달자 장갑\n품질\n파란색 품질\n장비 유형\n글러브\n세트\n순행 전달자\n이 장비는 엔드필드 공업에서 황무지 수공예품을 참고하여 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n전달자들이 즐겨 쓰는 보호 장갑.\n링 위에 올라가 실력을 겨루는 것도 전달자들의 취미 중 하나라고 합니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_248",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=248&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 248,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:33:27.777978+00:00",
+        "contentSha256": "1714388a73b06e79a0cbc253103a732c94e3dbb5a06a267cee85d2cdb3b0793b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/순행_전달자/248_순행_전달자_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_8c6d0fabbbe7",
+        "groupLabel": "순행 전달자",
+        "entityName": "순행 전달자 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_248.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 순행 전달자 장갑\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n1200\n*\n1200\n및\n50\n*\n50\n장비 템플릿\n권한 등급 18레벨 보상\n속성\nLV\n36\n방어력\n+21\n민첩\n+33\n힘\n+22\n물리 피해 보너스\n+9.7%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_248",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=248&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 248,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:33:27.777978+00:00",
+        "contentSha256": "1714388a73b06e79a0cbc253103a732c94e3dbb5a06a267cee85d2cdb3b0793b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/순행_전달자/248_순행_전달자_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_8c6d0fabbbe7",
+        "groupLabel": "순행 전달자",
+        "entityName": "순행 전달자 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_248.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 순행 전달자 장갑\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n순행 전달자\n보호 장갑\n3개 세트 효과:\n장착자의 민첩\n+50\n장착자의 생명력이 80%보다 높을 때, 주는\n물리 피해\n+20%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_248",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=248&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 248,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:33:27.777978+00:00",
+        "contentSha256": "1714388a73b06e79a0cbc253103a732c94e3dbb5a06a267cee85d2cdb3b0793b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/순행_전달자/248_순행_전달자_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_8c6d0fabbbe7",
+        "groupLabel": "순행 전달자",
+        "entityName": "순행 전달자 장갑"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 2356057675,
+      "code": "gear_set_8c6d0fabbbe7",
+      "label": "순행 전달자"
+    },
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    }
+  },
+  "level": 36,
+  "defense": 21,
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩",
+      "baseValue": {
+        "value": 33,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "힘",
+      "baseValue": {
+        "value": 22,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "물리 피해 보너스",
+      "baseValue": {
+        "value": 9.7,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": false,
+    "levels": []
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_248.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 2356057675,
+    "code": "gear_set_8c6d0fabbbe7",
+    "label": "순행 전달자"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/순행_전달자/248_순행_전달자_장갑.json"
+}

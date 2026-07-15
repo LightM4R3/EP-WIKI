@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.15.potential-2",
+  "semanticKey": "ko-KR|operator|15|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_15",
+    "name": "엠버",
+    "aliases": [],
+    "gameEntryId": 15
+  },
+  "title": "엠버 — 잠재능력 2 무쇠의 전사",
+  "content": "엠버 오퍼레이터의 잠재능력 2 ‘무쇠의 전사’. 힘 +20, 의지 +20",
+  "facts": {
+    "stage": 2,
+    "name": "무쇠의 전사",
+    "status": "rule_validated",
+    "effect": "힘 +20, 의지 +20"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+    "sourceSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_15.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "80cfaefea22f7844c8d7d98b54e9f50dd8857aefbb92c214e201cab54b022d96",
+    "payloadSha256": "11f5c9af23649d4297c5eb823dcca167de6957c441244692da5084c368c80ecf"
+  }
+}

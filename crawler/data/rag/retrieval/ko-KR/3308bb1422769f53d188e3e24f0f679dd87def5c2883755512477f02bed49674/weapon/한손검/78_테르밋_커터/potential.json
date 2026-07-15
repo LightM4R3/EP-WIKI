@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.78.potential",
+  "semanticKey": "ko-KR|weapon|78|potential",
+  "locale": "ko-KR",
+  "documentType": "weapon_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_78",
+    "name": "테르밋 커터",
+    "aliases": [],
+    "gameEntryId": 78
+  },
+  "title": "테르밋 커터 — 잠재능력",
+  "content": "테르밋 커터 무기의 잠재능력은 마지막 옵션 ‘흐름 · 고열 방출’의 기본/최대 RANK를 올린다. 잠재 1는 RANK 1/4, 잠재 2는 RANK 2/5, 잠재 3는 RANK 3/6, 잠재 4는 RANK 4/7, 잠재 5는 RANK 5/8, 잠재 6는 RANK 6/9.",
+  "facts": {
+    "traitRef": "epwiki.ko-kr.weapon.78.option-3",
+    "stages": [
+      {
+        "stage": 1,
+        "baseRank": 1,
+        "maxRank": 4,
+        "effectRef": "epwiki.ko-kr.weapon.78.option-3#rank-1"
+      },
+      {
+        "stage": 2,
+        "baseRank": 2,
+        "maxRank": 5,
+        "effectRef": "epwiki.ko-kr.weapon.78.option-3#rank-2"
+      },
+      {
+        "stage": 3,
+        "baseRank": 3,
+        "maxRank": 6,
+        "effectRef": "epwiki.ko-kr.weapon.78.option-3#rank-3"
+      },
+      {
+        "stage": 4,
+        "baseRank": 4,
+        "maxRank": 7,
+        "effectRef": "epwiki.ko-kr.weapon.78.option-3#rank-4"
+      },
+      {
+        "stage": 5,
+        "baseRank": 5,
+        "maxRank": 8,
+        "effectRef": "epwiki.ko-kr.weapon.78.option-3#rank-5"
+      },
+      {
+        "stage": 6,
+        "baseRank": 6,
+        "maxRank": 9,
+        "effectRef": "epwiki.ko-kr.weapon.78.option-3#rank-6"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_potential",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/78_테르밋_커터.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=78&header=0",
+    "sourceSha256": "0612756d4c3d2192216cdd217195335a41849b818d5a5f18ef1b3fe3f1388819",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_78.potential.c4.chapter.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "37f04499c1492752f0c7c0d441ec4805c4eada9ad5f7bff8946cdd4448d704d1",
+    "payloadSha256": "da2a4967abcebaadb28ba6b1ce2b41ee665b066341ddbaeaf1816695e162e02c"
+  }
+}

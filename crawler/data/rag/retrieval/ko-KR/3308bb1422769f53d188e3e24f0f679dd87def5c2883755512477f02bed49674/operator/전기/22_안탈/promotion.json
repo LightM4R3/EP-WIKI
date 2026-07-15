@@ -1,0 +1,224 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.22.promotion",
+  "semanticKey": "ko-KR|operator|22|promotion",
+  "locale": "ko-KR",
+  "documentType": "operator_promotion",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_22",
+    "name": "안탈",
+    "aliases": [],
+    "gameEntryId": 22
+  },
+  "title": "안탈 — 정예화와 장비 해금",
+  "content": "안탈 오퍼레이터의 정예화와 장비 품질 해금.\n정예화 I: 최대 레벨 40, 조건 오퍼레이터 Lv.20 도달, 재료 프로토콜 디스크 8개, 연한 붉은 기둥 버섯 3개, 탈로시안 화폐 1600개.\n정예화 II: 최대 레벨 60, 조건 오퍼레이터 Lv.40 도달, 재료 프로토콜 디스크 25개, 보통 붉은 기둥 버섯 5개, 탈로시안 화폐 6500개.\n정예화 III: 최대 레벨 80, 조건 오퍼레이터 Lv.60 도달, 재료 프로토콜 디스크 세트 24개, 진한 붉은 기둥 버섯 5개, 탈로시안 화폐 18000개.\n정예화 IV: 최대 레벨 90, 조건 오퍼레이터 Lv.80 도달, 재료 프로토콜 디스크 세트 36개, 초거리 빛 반사 파이프 20개, 스타게이트 버섯 8개, 탈로시안 화폐 100000개.\n장비 조합 I: 활성화 후, 파란색 품질 장비 착용 가능, 조건 정예화 단계 1 돌파, 재료 탈로시안 화폐 1600개.\n장비 조합 II: 활성화 후, 보라색 품질 장비 착용 가능, 조건 정예화 단계 2 돌파, 재료 탈로시안 화폐 6500개.\n장비 조합 III: 활성화 후, 노란색 품질 장비 착용 가능, 조건 정예화 단계 3 돌파, 재료 탈로시안 화폐 18000개.",
+  "facts": {
+    "promotions": [
+      {
+        "stage": 1,
+        "label": "정예화 I",
+        "maxLevel": 40,
+        "condition": "오퍼레이터 Lv.20 도달",
+        "materials": [
+          {
+            "id": null,
+            "code": null,
+            "name": "프로토콜 디스크",
+            "amount": 8,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "연한 붉은 기둥 버섯",
+            "amount": 3,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1600
+          }
+        ],
+        "status": "rule_validated"
+      },
+      {
+        "stage": 2,
+        "label": "정예화 II",
+        "maxLevel": 60,
+        "condition": "오퍼레이터 Lv.40 도달",
+        "materials": [
+          {
+            "id": null,
+            "code": null,
+            "name": "프로토콜 디스크",
+            "amount": 25,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "보통 붉은 기둥 버섯",
+            "amount": 5,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 6500
+          }
+        ],
+        "status": "rule_validated"
+      },
+      {
+        "stage": 3,
+        "label": "정예화 III",
+        "maxLevel": 80,
+        "condition": "오퍼레이터 Lv.60 도달",
+        "materials": [
+          {
+            "id": null,
+            "code": null,
+            "name": "프로토콜 디스크 세트",
+            "amount": 24,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "진한 붉은 기둥 버섯",
+            "amount": 5,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 18000
+          }
+        ],
+        "status": "rule_validated"
+      },
+      {
+        "stage": 4,
+        "label": "정예화 IV",
+        "maxLevel": 90,
+        "condition": "오퍼레이터 Lv.80 도달",
+        "materials": [
+          {
+            "id": null,
+            "code": null,
+            "name": "프로토콜 디스크 세트",
+            "amount": 36,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "초거리 빛 반사 파이프",
+            "amount": 20,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "스타게이트 버섯",
+            "amount": 8,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 100000
+          }
+        ],
+        "status": "rule_validated"
+      }
+    ],
+    "equipmentUnlocks": [
+      {
+        "stage": 1,
+        "label": "장비 조합 I",
+        "effect": "활성화 후, 파란색 품질 장비 착용 가능",
+        "condition": "정예화 단계 1 돌파",
+        "materials": [
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1600
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "label": "장비 조합 II",
+        "effect": "활성화 후, 보라색 품질 장비 착용 가능",
+        "condition": "정예화 단계 2 돌파",
+        "materials": [
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 6500
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "label": "장비 조합 III",
+        "effect": "활성화 후, 노란색 품질 장비 착용 가능",
+        "condition": "정예화 단계 3 돌파",
+        "materials": [
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 18000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_promotion",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/22_안탈.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=22&header=0",
+    "sourceSha256": "6aff68dbcd9f30961e9b0f621fb665be356853ce7740fbc1f77ae1c104d37b5d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_22.progression.c4.w2.s6.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "ea1e458ac386945db43052d91ccc689f4d2b9fc7f60d79209a8055525bc5c78d",
+    "payloadSha256": "14f03f6532abc029509a2c63ae1d5ed5018bd533e2436c73c2ffb04dd21267da"
+  }
+}

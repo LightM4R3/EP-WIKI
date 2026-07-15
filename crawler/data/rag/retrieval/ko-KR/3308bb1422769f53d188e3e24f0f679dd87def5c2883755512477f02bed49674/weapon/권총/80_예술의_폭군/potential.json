@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.80.potential",
+  "semanticKey": "ko-KR|weapon|80|potential",
+  "locale": "ko-KR",
+  "documentType": "weapon_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_80",
+    "name": "예술의 폭군",
+    "aliases": [],
+    "gameEntryId": 80
+  },
+  "title": "예술의 폭군 — 잠재능력",
+  "content": "예술의 폭군 무기의 잠재능력은 마지막 옵션 ‘골절 · 예술적 폭론’의 기본/최대 RANK를 올린다. 잠재 1는 RANK 1/4, 잠재 2는 RANK 2/5, 잠재 3는 RANK 3/6, 잠재 4는 RANK 4/7, 잠재 5는 RANK 5/8, 잠재 6는 RANK 6/9.",
+  "facts": {
+    "traitRef": "epwiki.ko-kr.weapon.80.option-3",
+    "stages": [
+      {
+        "stage": 1,
+        "baseRank": 1,
+        "maxRank": 4,
+        "effectRef": "epwiki.ko-kr.weapon.80.option-3#rank-1"
+      },
+      {
+        "stage": 2,
+        "baseRank": 2,
+        "maxRank": 5,
+        "effectRef": "epwiki.ko-kr.weapon.80.option-3#rank-2"
+      },
+      {
+        "stage": 3,
+        "baseRank": 3,
+        "maxRank": 6,
+        "effectRef": "epwiki.ko-kr.weapon.80.option-3#rank-3"
+      },
+      {
+        "stage": 4,
+        "baseRank": 4,
+        "maxRank": 7,
+        "effectRef": "epwiki.ko-kr.weapon.80.option-3#rank-4"
+      },
+      {
+        "stage": 5,
+        "baseRank": 5,
+        "maxRank": 8,
+        "effectRef": "epwiki.ko-kr.weapon.80.option-3#rank-5"
+      },
+      {
+        "stage": 6,
+        "baseRank": 6,
+        "maxRank": 9,
+        "effectRef": "epwiki.ko-kr.weapon.80.option-3#rank-6"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_potential",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/80_예술의_폭군.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=80&header=0",
+    "sourceSha256": "4dce7fe3d951b29878c30d669cdd730ff613dbb9f8c9a039a75d95d58de7d93a",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_80.potential.c4.chapter.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "de3c3b74e899c38f6ef776212f172d9c0a682a815779268f298aaceb6f337f56",
+    "payloadSha256": "3c89aca5d30750a23b830c52349e45d6c671fd57d0b0e1fd094501dae7a16f81"
+  }
+}

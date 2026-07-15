@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.21.potential-4",
+  "semanticKey": "ko-KR|operator|21|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_21",
+    "name": "에스텔라",
+    "aliases": [],
+    "gameEntryId": 21
+  },
+  "title": "에스텔라 — 잠재능력 4 임무보다는 목숨을",
+  "content": "에스텔라 오퍼레이터의 잠재능력 4 ‘임무보다는 목숨을’. 의지 +10, 힘 +10",
+  "facts": {
+    "stage": 4,
+    "name": "임무보다는 목숨을",
+    "status": "rule_validated",
+    "effect": "의지 +10, 힘 +10"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+    "sourceSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_21.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d3bd5e7b2d6959b40a22d6086dadb874b928436040a7cbe2939ea29384ccaa24",
+    "payloadSha256": "27750fb8a3b92ac1b1791c4f9c5577a48f6376f602be08435193de9d06aaf73c"
+  }
+}

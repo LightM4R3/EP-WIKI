@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.343.profile",
+  "semanticKey": "ko-KR|gear|343|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_343",
+    "name": "응룡 50식 단검",
+    "aliases": [],
+    "gameEntryId": 343
+  },
+  "title": "응룡 50식 단검 — 장비 기본 정보",
+  "content": "응룡 50식 단검 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 응룡 50식이다. LV.70, 방어력 21. 옵션은 1번 의지 32, 2번 민첩 21, 3번 연계 스킬 피해 보너스 41.4%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "응룡 50식 단검",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 1172323551,
+      "code": "gear_set_45deb63f9684",
+      "label": "응룡 50식"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "연계 스킬 피해 보너스",
+        "baseValue": {
+          "value": 41.4,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-45deb63f9684.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_45deb63f9684",
+    "groupLabel": "응룡 50식",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_45deb63f9684"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/응룡_50식/343_응룡_50식_단검.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=343&header=0",
+    "sourceSha256": "d6fe11e2a1d548d1339ec22b0b71c8028eb0f0e9c2ae489df0531af62a3bc6dd",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_343.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_343.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0f93dedff9adb4184382cd28843a12c9b4da346efbefbbe9fc3a4845b8ef496a",
+    "payloadSha256": "7fb59326a66efb865c896e986899e983fd6c546d9cdc0aa19873d25f7620b9a7"
+  }
+}

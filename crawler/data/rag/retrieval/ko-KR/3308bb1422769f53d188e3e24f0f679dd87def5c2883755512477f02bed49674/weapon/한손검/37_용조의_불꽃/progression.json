@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.37.progression",
+  "semanticKey": "ko-KR|weapon|37|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_37",
+    "name": "용조의 불꽃",
+    "aliases": [],
+    "gameEntryId": 37
+  },
+  "title": "용조의 불꽃 — 기초 공격력",
+  "content": "용조의 불꽃 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 52.\nLV.20: 기초 공격력 149.\nLV.40: 기초 공격력 252.\nLV.60: 기초 공격력 355.\nLV.80: 기초 공격력 458.\nLV.90: 기초 공격력 510.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 52
+      },
+      {
+        "level": 20,
+        "baseAttack": 149
+      },
+      {
+        "level": 40,
+        "baseAttack": 252
+      },
+      {
+        "level": 60,
+        "baseAttack": 355
+      },
+      {
+        "level": 80,
+        "baseAttack": 458
+      },
+      {
+        "level": 90,
+        "baseAttack": 510
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/37_용조의_불꽃.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=37&header=0",
+    "sourceSha256": "a8af632cef44b3d2bbf7f4ca29096df1c8e919ada5756da8599144990c36e04b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_37.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "dc98463efcf358809fb1a33e5a09f5a5b0476f4b744bb80668b630f5f62161c3",
+    "payloadSha256": "b7442d12c0a105f886d56359745c46a250b92e686f9d9fa3cc96ef105014e13c"
+  }
+}

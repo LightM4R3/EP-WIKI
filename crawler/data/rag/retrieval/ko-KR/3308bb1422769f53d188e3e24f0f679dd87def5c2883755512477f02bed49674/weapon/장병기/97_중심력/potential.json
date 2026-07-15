@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.97.potential",
+  "semanticKey": "ko-KR|weapon|97|potential",
+  "locale": "ko-KR",
+  "documentType": "weapon_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_97",
+    "name": "중심력",
+    "aliases": [],
+    "gameEntryId": 97
+  },
+  "title": "중심력 — 잠재능력",
+  "content": "중심력 무기의 잠재능력은 마지막 옵션 ‘억제 · 동심원’의 기본/최대 RANK를 올린다. 잠재 1는 RANK 1/4, 잠재 2는 RANK 2/5, 잠재 3는 RANK 3/6, 잠재 4는 RANK 4/7, 잠재 5는 RANK 5/8, 잠재 6는 RANK 6/9.",
+  "facts": {
+    "traitRef": "epwiki.ko-kr.weapon.97.option-3",
+    "stages": [
+      {
+        "stage": 1,
+        "baseRank": 1,
+        "maxRank": 4,
+        "effectRef": "epwiki.ko-kr.weapon.97.option-3#rank-1"
+      },
+      {
+        "stage": 2,
+        "baseRank": 2,
+        "maxRank": 5,
+        "effectRef": "epwiki.ko-kr.weapon.97.option-3#rank-2"
+      },
+      {
+        "stage": 3,
+        "baseRank": 3,
+        "maxRank": 6,
+        "effectRef": "epwiki.ko-kr.weapon.97.option-3#rank-3"
+      },
+      {
+        "stage": 4,
+        "baseRank": 4,
+        "maxRank": 7,
+        "effectRef": "epwiki.ko-kr.weapon.97.option-3#rank-4"
+      },
+      {
+        "stage": 5,
+        "baseRank": 5,
+        "maxRank": 8,
+        "effectRef": "epwiki.ko-kr.weapon.97.option-3#rank-5"
+      },
+      {
+        "stage": 6,
+        "baseRank": 6,
+        "maxRank": 9,
+        "effectRef": "epwiki.ko-kr.weapon.97.option-3#rank-6"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_potential",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/97_중심력.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=97&header=0",
+    "sourceSha256": "da2da97738758169ec1f0abafa153a555ae61da4a2bb938bd4a8694e003876c4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_97.potential.c4.chapter.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "95d3890263cb5a612d31c5567d1d43d538937b925594eab77cf957f2d0c93403",
+    "payloadSha256": "03ae155e9d102919be2a1e5171ca9ade58c09a0daee619b45b3ddb49213834d4"
+  }
+}

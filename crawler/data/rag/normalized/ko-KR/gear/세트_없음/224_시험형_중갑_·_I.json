@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_224",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 224,
+    "name": "시험형 중갑 · I"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=224&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "775a8a0569fee9ae98a29993a3ab73164dab1857ba0cda2d4e69bdd2c0c1b34c",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_224.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 시험형 중갑 · I\ngameEntryId: 224\n정규화 상태: query_ready\n장비 세트: 세트 없음 (id=-1, code=none)\n장비 유형: 방어구 (id=1, code=armor)\n품질: 초록색 품질 (id=3, code=green)\nLV: 28\n방어력: 22\n장비 옵션: 1번=민첩 37; 2번=의지 25; 3번=공격력 11\n정밀 단조 지원: 아니오\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_224",
+        "gameEntryId": 224,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=224&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/224_시험형_중갑_·_I.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": -1,
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "evidenceDocumentIds": [
+          "auto.gear_224.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_224.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_224.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_224.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 시험형 중갑 · I\ncategory: gear\nsection: profile\n시험형 중갑 · I\n품질\n초록색 품질\n장비 유형\n방어구\n세트\n세트 없음\n이 장비는 엔드필드 공업에서 자체 연구하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n주로 광산 작업에 사용하는 방호 장비.\n<4번 협곡 안전 방호 표준>에서는 노동 작업 방호 장비에 대해, 연성 보호층과 경성 보호층으로 구성된 최소 이중의 방호 구조를 갖출 것을 명시하고 있습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_224",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=224&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 224,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:32:41.165021+00:00",
+        "contentSha256": "775a8a0569fee9ae98a29993a3ab73164dab1857ba0cda2d4e69bdd2c0c1b34c",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/224_시험형_중갑_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "entityName": "시험형 중갑 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_224.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 시험형 중갑 · I\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n단일 장비 제작\n소모 재료 :\n160\n*\n160\n및\n20\n*\n20\n장비 템플릿\n권한 등급 13레벨 보상\n속성\nLV\n28\n방어력\n+22\n민첩\n+37\n의지\n+25\n공격력\n+11",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_224",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=224&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 224,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:32:41.165021+00:00",
+        "contentSha256": "775a8a0569fee9ae98a29993a3ab73164dab1857ba0cda2d4e69bdd2c0c1b34c",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/224_시험형_중갑_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "entityName": "시험형 중갑 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_224.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 시험형 중갑 · I\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n세트 없음\n세트 효과 없음",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_224",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=224&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 224,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:32:41.165021+00:00",
+        "contentSha256": "775a8a0569fee9ae98a29993a3ab73164dab1857ba0cda2d4e69bdd2c0c1b34c",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/224_시험형_중갑_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "entityName": "시험형 중갑 · I"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    }
+  },
+  "level": 28,
+  "defense": 22,
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩",
+      "baseValue": {
+        "value": 37,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "의지",
+      "baseValue": {
+        "value": 25,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 3,
+        "code": "will",
+        "label": "의지"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "공격력",
+      "baseValue": {
+        "value": 11,
+        "unit": "flat"
+      }
+    }
+  ],
+  "forging": {
+    "supported": false,
+    "levels": []
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_224.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": -1,
+    "code": "none",
+    "label": "세트 없음"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/세트_없음/224_시험형_중갑_·_I.json"
+}

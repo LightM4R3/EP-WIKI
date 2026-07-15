@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "weaponOptions",
+  "entries": [
+    {
+      "id": 0,
+      "code": "agility_increase_large",
+      "categoryId": 0,
+      "categoryCode": "attribute_increase",
+      "scope": "shared_stat_option",
+      "parameters": { "attributeId": 1, "size": "large" },
+      "rankRange": { "min": 1, "max": 9 },
+      "metrics": [
+        { "code": "agility_flat", "unit": "flat" }
+      ]
+    },
+    {
+      "id": 1,
+      "code": "attack_increase_large",
+      "categoryId": 1,
+      "categoryCode": "attack_increase",
+      "scope": "shared_stat_option",
+      "parameters": { "size": "large" },
+      "rankRange": { "min": 1, "max": 9 },
+      "metrics": [
+        { "code": "attack_percent", "unit": "percent" }
+      ]
+    },
+    {
+      "id": 2,
+      "code": "release_conquest_grudge",
+      "categoryId": 2,
+      "categoryCode": "release",
+      "scope": "named_weapon_trait",
+      "parameters": { "elementId": 3 },
+      "rankRange": { "min": 1, "max": 9 },
+      "metrics": [
+        { "code": "cryo_damage_percent", "unit": "percent" },
+        { "code": "cryo_damage_on_chill_percent", "unit": "percent" },
+        { "code": "arts_damage_taken_on_susceptibility_percent", "unit": "percent" }
+      ]
+    }
+  ]
+}

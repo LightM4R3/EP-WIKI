@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.22.infrastructure-1",
+  "semanticKey": "ko-KR|operator|22|infrastructure-1",
+  "locale": "ko-KR",
+  "documentType": "operator_infrastructure_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_22",
+    "name": "안탈",
+    "aliases": [],
+    "gameEntryId": 22
+  },
+  "title": "안탈 — 인프라 재능 실험적 아츠 유닛",
+  "content": "안탈 오퍼레이터의 인프라 재능 ‘실험적 아츠 유닛’.\n실험적 아츠 유닛 · α: 제조실에 배치 시, 무기 경험치 재료의 생산 효율 10% 증가. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 6개, 탈로시안 화폐 1600개.\n실험적 아츠 유닛 · β: 제조실에 배치 시, 무기 경험치 재료의 생산 효율 20% 증가. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 12개, 탈로시안 화폐 8000개.",
+  "facts": {
+    "index": 1,
+    "name": "실험적 아츠 유닛",
+    "variants": [
+      {
+        "grade": "α",
+        "name": "실험적 아츠 유닛 · α",
+        "description": "제조실에 배치 시, 무기 경험치 재료의 생산 효율 10% 증가",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 6
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1600
+          }
+        ]
+      },
+      {
+        "grade": "β",
+        "name": "실험적 아츠 유닛 · β",
+        "description": "제조실에 배치 시, 무기 경험치 재료의 생산 효율 20% 증가",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_infrastructure_talent",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "infrastructureTalentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/22_안탈.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=22&header=0",
+    "sourceSha256": "6aff68dbcd9f30961e9b0f621fb665be356853ce7740fbc1f77ae1c104d37b5d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_22.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0b978170c330e4f01657b519831039ca48c276ff7f110f9b8a7e27ad8029643a",
+    "payloadSha256": "4aabeae88afd8101befb54373e6fea51e01171cf1e97dd525497fe9f07d12526"
+  }
+}

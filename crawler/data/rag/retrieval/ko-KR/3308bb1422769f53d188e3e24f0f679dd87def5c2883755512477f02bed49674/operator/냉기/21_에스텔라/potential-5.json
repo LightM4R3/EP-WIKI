@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.21.potential-5",
+  "semanticKey": "ko-KR|operator|21|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_21",
+    "name": "에스텔라",
+    "aliases": [],
+    "gameEntryId": 21
+  },
+  "title": "에스텔라 — 잠재능력 5 생존이 승리다",
+  "content": "에스텔라 오퍼레이터의 잠재능력 5 ‘생존이 승리다’. 적에게 매번 동결을 부여한 후, 획득하는 궁극기 에너지 5 포인트, 해당 효과는 1초마다 최대 1회만 발동합니다. 오퍼레이터 기념사진 \"비밀의 시간\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "생존이 승리다",
+    "status": "rule_validated",
+    "effect": "적에게 매번 동결을 부여한 후, 획득하는 궁극기 에너지 5 포인트, 해당 효과는 1초마다 최대 1회만 발동합니다. 오퍼레이터 기념사진 \"비밀의 시간\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+    "sourceSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_21.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5e4188ef54bb03d84294b3da57e528d40677dc91f7ad06b1e2e6142f47cfb9d3",
+    "payloadSha256": "89f9608e5b9aff781bdb818a2a554e29482973e2f941defa7776594e0e1781a6"
+  }
+}

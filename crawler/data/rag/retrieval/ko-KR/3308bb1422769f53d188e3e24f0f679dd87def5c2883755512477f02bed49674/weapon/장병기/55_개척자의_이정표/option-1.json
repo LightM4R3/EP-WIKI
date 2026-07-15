@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.55.option-1",
+  "semanticKey": "ko-KR|weapon|55|option-1",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_55",
+    "name": "개척자의 이정표",
+    "aliases": [],
+    "gameEntryId": 55
+  },
+  "title": "개척자의 이정표 — 1번 옵션 민첩 증가 · 소",
+  "content": "개척자의 이정표 무기의 1번 옵션 ‘민첩 증가 · 소’.\nRANK1: 민첩 +12.\nRANK2: 민첩 +21.\nRANK3: 민첩 +31.\nRANK4: 민첩 +40.\nRANK5: 민첩 +50.\nRANK6: 민첩 +60.\nRANK7: 민첩 +69.\nRANK8: 민첩 +79.\nRANK9: 민첩 +93.",
+  "facts": {
+    "slot": 1,
+    "name": "민첩 증가 · 소",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "민첩",
+        "value": 12,
+        "unit": "flat",
+        "display": "+12"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "민첩",
+        "value": 21,
+        "unit": "flat",
+        "display": "+21"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "민첩",
+        "value": 31,
+        "unit": "flat",
+        "display": "+31"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "민첩",
+        "value": 40,
+        "unit": "flat",
+        "display": "+40"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "민첩",
+        "value": 50,
+        "unit": "flat",
+        "display": "+50"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "민첩",
+        "value": 60,
+        "unit": "flat",
+        "display": "+60"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "민첩",
+        "value": 69,
+        "unit": "flat",
+        "display": "+69"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "민첩",
+        "value": 79,
+        "unit": "flat",
+        "display": "+79"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "민첩",
+        "value": 93,
+        "unit": "flat",
+        "display": "+93"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "optionSlot": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/55_개척자의_이정표.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=55&header=0",
+    "sourceSha256": "abbab11b3eff57bccf1ac4188c75cd6a0ec39978e10caa299d1a034924e69305",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_55.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "61f69c9fd614a012e86b6203725b9666090dd1136dd1722a5f65b8ca30aae513",
+    "payloadSha256": "5ce9429421f3b2f9de0b22e8b28555ad311bc00e84d9a40b9eda6c2d1b3dc515"
+  }
+}

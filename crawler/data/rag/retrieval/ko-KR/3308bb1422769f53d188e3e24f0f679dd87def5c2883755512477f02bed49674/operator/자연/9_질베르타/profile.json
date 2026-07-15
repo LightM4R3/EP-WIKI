@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.9.profile",
+  "semanticKey": "ko-KR|operator|9|profile",
+  "locale": "ko-KR",
+  "documentType": "operator_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_9",
+    "name": "질베르타",
+    "aliases": [],
+    "gameEntryId": 9
+  },
+  "title": "질베르타 — 오퍼레이터 기본 정보",
+  "content": "질베르타 오퍼레이터의 기본 정보. 속성은 자연, 무기 유형은 아츠 유닛이다. 주요 능력치는 의지, 보조 능력치는 지능이다.",
+  "facts": {
+    "name": "질베르타",
+    "element": {
+      "id": 4,
+      "code": "nature",
+      "label": "자연"
+    },
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "primaryAttribute": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    },
+    "secondaryAttribute": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    },
+    "attributeCatalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_profile",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "elementCode": "nature",
+    "weaponTypeCode": "arts_unit",
+    "primaryAttributeCode": "will",
+    "secondaryAttributeCode": "intellect"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+    "sourceSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_9.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.operator_9.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문에서 희귀도를 텍스트로 확정할 수 없음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.class",
+        "reason": "클래스 이미지 매핑이 검증되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.portraitUrl",
+        "reason": "초상화 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e516f5ccb0276237b5847fffe68e3ec3dc304d7c67f35c39f20f3d77c523e2c4",
+    "payloadSha256": "9d5d4a2fe3dcf0ac3cf7d48df5c5378c4478fc4db10de535579be53308a71480"
+  }
+}

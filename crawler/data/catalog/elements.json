@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "elements",
+  "entries": [
+    { "id": 0, "code": "physical", "labels": { "ko-KR": "물리", "en-US": "Physical" } },
+    { "id": 1, "code": "heat", "labels": { "ko-KR": "열기", "en-US": "Heat" } },
+    { "id": 2, "code": "electric", "labels": { "ko-KR": "전기", "en-US": "Electric" } },
+    { "id": 3, "code": "cryo", "labels": { "ko-KR": "냉기", "en-US": "Cryo" } },
+    { "id": 4, "code": "nature", "labels": { "ko-KR": "자연", "en-US": "Nature" } }
+  ]
+}

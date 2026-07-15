@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.env
+
+# 실행 중 생성되는 원본, 스크린샷, 로그는 저장소에 올리지 않습니다.
+output/*
+!output/.gitkeep

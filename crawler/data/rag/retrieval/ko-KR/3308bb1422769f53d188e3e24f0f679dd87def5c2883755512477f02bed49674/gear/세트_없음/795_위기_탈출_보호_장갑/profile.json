@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.795.profile",
+  "semanticKey": "ko-KR|gear|795|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_795",
+    "name": "위기 탈출 보호 장갑",
+    "aliases": [],
+    "gameEntryId": 795
+  },
+  "title": "위기 탈출 보호 장갑 — 장비 기본 정보",
+  "content": "위기 탈출 보호 장갑 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 세트 없음이다. LV.70, 방어력 42. 옵션은 1번 민첩 86, 3번 궁극기 피해 보너스 45%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "위기 탈출 보호 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 86,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 피해 보너스",
+        "baseValue": {
+          "value": 45,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/795_위기_탈출_보호_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=795&header=0",
+    "sourceSha256": "b2526a3b5fd66fc997e29733e8af3645225d47e982186573af56bd5e92f566d5",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_795.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_795.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "28dcbcdc7c18a9e9f39ee8a84457b446394c977c7d37e275c31732847e327f82",
+    "payloadSha256": "6d5f9bda1c94ccae224c3682e160a706137064bc8613d303912016b3b3c0b37f"
+  }
+}

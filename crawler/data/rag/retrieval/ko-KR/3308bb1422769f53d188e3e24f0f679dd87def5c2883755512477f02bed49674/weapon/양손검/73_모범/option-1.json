@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.73.option-1",
+  "semanticKey": "ko-KR|weapon|73|option-1",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_73",
+    "name": "모범",
+    "aliases": [],
+    "gameEntryId": 73
+  },
+  "title": "모범 — 1번 옵션 주요 능력치 증가 · 대",
+  "content": "모범 무기의 1번 옵션 ‘주요 능력치 증가 · 대’.\nRANK1: 주요 능력치 +17.\nRANK2: 주요 능력치 +30.\nRANK3: 주요 능력치 +44.\nRANK4: 주요 능력치 +57.\nRANK5: 주요 능력치 +71.\nRANK6: 주요 능력치 +85.\nRANK7: 주요 능력치 +98.\nRANK8: 주요 능력치 +112.\nRANK9: 주요 능력치 +132.",
+  "facts": {
+    "slot": 1,
+    "name": "주요 능력치 증가 · 대",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "주요 능력치",
+        "value": 17,
+        "unit": "flat",
+        "display": "+17"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "주요 능력치",
+        "value": 30,
+        "unit": "flat",
+        "display": "+30"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "주요 능력치",
+        "value": 44,
+        "unit": "flat",
+        "display": "+44"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "주요 능력치",
+        "value": 57,
+        "unit": "flat",
+        "display": "+57"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "주요 능력치",
+        "value": 71,
+        "unit": "flat",
+        "display": "+71"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "주요 능력치",
+        "value": 85,
+        "unit": "flat",
+        "display": "+85"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "주요 능력치",
+        "value": 98,
+        "unit": "flat",
+        "display": "+98"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "주요 능력치",
+        "value": 112,
+        "unit": "flat",
+        "display": "+112"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "주요 능력치",
+        "value": 132,
+        "unit": "flat",
+        "display": "+132"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/73_모범.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=73&header=0",
+    "sourceSha256": "c2519dbd2d86edb6e7df7478cb2c456e06e7f6eb49da0d7f00b3a28adc09481f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_73.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "cc742a63e7d16d989705e8861e695e6dded80da8711b8d2caf28804b9b747269",
+    "payloadSha256": "e1831f67c8ae8cdb7b17679a99ac7e0af8925f71d6c0e2e27a0d556dab7fa59c"
+  }
+}

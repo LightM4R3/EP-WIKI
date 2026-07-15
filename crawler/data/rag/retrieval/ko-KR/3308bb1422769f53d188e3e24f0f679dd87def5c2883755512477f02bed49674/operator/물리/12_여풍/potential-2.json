@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.12.potential-2",
+  "semanticKey": "ko-KR|operator|12|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_12",
+    "name": "여풍",
+    "aliases": [],
+    "gameEntryId": 12
+  },
+  "title": "여풍 — 잠재능력 2 수신",
+  "content": "여풍 오퍼레이터의 잠재능력 2 ‘수신’. 모든 능력치 +15",
+  "facts": {
+    "stage": 2,
+    "name": "수신",
+    "status": "rule_validated",
+    "effect": "모든 능력치 +15"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/12_여풍.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=12&header=0",
+    "sourceSha256": "9626ab3c4c237cebbf643ec7445b806db5b590e92aa287f9a9c9a9bbec71f9aa",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_12.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "05f3582e7cdc74f028c302ca8103ec714d47ab8af9c1907b438cff2497ecfdca",
+    "payloadSha256": "b40393bc1b8704840bfdb04d1cf7ecde8e1310cf690e9aa3fb567955cfb74153"
+  }
+}

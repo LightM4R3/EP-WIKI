@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.779.profile",
+  "semanticKey": "ko-KR|gear|779|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_779",
+    "name": "개척자 분석 장치",
+    "aliases": [],
+    "gameEntryId": 779
+  },
+  "title": "개척자 분석 장치 — 장비 기본 정보",
+  "content": "개척자 분석 장치 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 개척이다. LV.70, 방어력 21. 옵션은 1번 힘 41, 3번 궁극기 피해 보너스 51.8%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "개척자 분석 장치",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 1145026990,
+      "code": "gear_set_443e330e6735",
+      "label": "개척"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 피해 보너스",
+        "baseValue": {
+          "value": 51.8,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-443e330e6735.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_443e330e6735",
+    "groupLabel": "개척",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_443e330e6735"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/779_개척자_분석_장치.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=779&header=0",
+    "sourceSha256": "afc7a5b6f6bace787985f2aff1bbd02dbc3bfa05171bb789ce44f2ff468491cc",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_779.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_779.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5ffd920f84aabea34cc3791fba2cabec11a92cb9194324e6c07a6388b15149e2",
+    "payloadSha256": "0bbeb9aaae3d1b39e7e95473f56182a8bc97f38846afcd43dbe22975a76e6adb"
+  }
+}

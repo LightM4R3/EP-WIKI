@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.330.profile",
+  "semanticKey": "ko-KR|gear|330|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_330",
+    "name": "식양의 숨결 보호 장갑",
+    "aliases": [],
+    "gameEntryId": 330
+  },
+  "title": "식양의 숨결 보호 장갑 — 장비 기본 정보",
+  "content": "식양의 숨결 보호 장갑 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 식양의 숨결이다. LV.70, 방어력 42. 옵션은 1번 지능 65, 2번 힘 43, 3번 궁극기 충전 효율 20.5%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "식양의 숨결 보호 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 982892020,
+      "code": "gear_set_3a9437540d70",
+      "label": "식양의 숨결"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 20.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-3a9437540d70.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_3a9437540d70",
+    "groupLabel": "식양의 숨결",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_3a9437540d70"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_숨결/330_식양의_숨결_보호_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=330&header=0",
+    "sourceSha256": "81fb109afda64890e1180eb258b0f82c87439093efaf77c522652769a3a6553c",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_330.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_330.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "431d6dee1c2da045154e9c714e190c77e5b0b1368555db3d6e04cb2d70990ddc",
+    "payloadSha256": "937ac055c3dfff3996f32e3d6e61312bc240ed56151d88d1512b265419b48c54"
+  }
+}

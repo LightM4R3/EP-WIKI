@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.6.talent-2",
+  "semanticKey": "ko-KR|operator|6|talent-2",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_6",
+    "name": "울프가드",
+    "aliases": [],
+    "gameEntryId": 6
+  },
+  "title": "울프가드 — 절제의 원칙",
+  "content": "울프가드 오퍼레이터의 오퍼레이터 재능 ‘절제의 원칙’.\n단계 1: 배틀 스킬 탄흔의 열기로 아츠 이상 효과를 소모했을 때, 반환 하는 스킬 게이지 5 포인트. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 48개, 탈로시안 화폐 10800개.\n단계 2: 배틀 스킬 탄흔의 열기로 아츠 이상 효과를 소모했을 때, 반환 하는 스킬 게이지 10 포인트. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 28개, 탈로시안 화폐 24000개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 2,
+    "name": "절제의 원칙",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "배틀 스킬 탄흔의 열기로 아츠 이상 효과를 소모했을 때, 반환 하는 스킬 게이지 5 포인트",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 48
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 10800
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "배틀 스킬 탄흔의 열기로 아츠 이상 효과를 소모했을 때, 반환 하는 스킬 게이지 10 포인트",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 28
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 24000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "talentKind": "combat_talent",
+    "talentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/6_울프가드.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=6&header=0",
+    "sourceSha256": "492ece7d684a23a664abd89e05442e827d963e2742f2b546bfa1d3fcfaa297d1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_6.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "157f3d370d59f512bcf94777c38eb5d57da0dd4ee815ab7df3b41af939e93b04",
+    "payloadSha256": "9d67723c5aa41a127f972c7c04791b32369b49e57c5f531742fbc6ea49751bc7"
+  }
+}

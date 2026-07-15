@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.8.potential-1",
+  "semanticKey": "ko-KR|operator|8|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_8",
+    "name": "판",
+    "aliases": [],
+    "gameEntryId": 8
+  },
+  "title": "판 — 잠재능력 1 정교한 요리",
+  "content": "판 오퍼레이터의 잠재능력 1 ‘정교한 요리’. 궁극기 채 썰어 웍에 넣기!로 1명 이상의 적을 처치했을 때, 판이 주는 물리 피해 +30%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다. 오퍼레이터 기념사진 \"여행의 시작\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "정교한 요리",
+    "status": "rule_validated",
+    "effect": "궁극기 채 썰어 웍에 넣기!로 1명 이상의 적을 처치했을 때, 판이 주는 물리 피해 +30%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다. 오퍼레이터 기념사진 \"여행의 시작\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+    "sourceSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_8.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "8d4df85d6cab1af9d5c7404c3f97fcbeb7659accb68f023015599ae0b7291a16",
+    "payloadSha256": "43f2a1c83e2e6ae8532ed981f264c4f0f1cbc3b4140d010c7d42381241575549"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.879.forging",
+  "semanticKey": "ko-KR|gear|879|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_879",
+    "name": "청파 보호 장갑",
+    "aliases": [],
+    "gameEntryId": 879
+  },
+  "title": "청파 보호 장갑 — 정밀 단조",
+  "content": "청파 보호 장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 지능: +0 65, +1 71, +2 78, +3 84.\n2번 의지: +0 43, +1 47, +2 51, +3 55.\n3번 궁극기 충전 효율: +0 20.5%, +1 22.6%, +2 24.6%, +3 26.7%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 20.5,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 22.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 24.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 26.7,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_25f6b0eb60d9",
+    "groupLabel": "청파",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/청파/879_청파_보호_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=879&header=0",
+    "sourceSha256": "00f271a47178aa80d0211f012c930593f82f72a1408796662859c75d5c04ae8a",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_879.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "63cb8ff7d7814369e887fd6f8ad367932ca67d118ac510bbbd310721cbcbee34",
+    "payloadSha256": "27176adb60990eda85d9716d19f7a700af2c46d273ab7e194aecc1a91daa7147"
+  }
+}

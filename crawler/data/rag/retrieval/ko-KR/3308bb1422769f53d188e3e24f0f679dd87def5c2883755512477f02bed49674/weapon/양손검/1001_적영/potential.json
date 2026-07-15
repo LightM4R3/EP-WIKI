@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.1001.potential",
+  "semanticKey": "ko-KR|weapon|1001|potential",
+  "locale": "ko-KR",
+  "documentType": "weapon_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_1001",
+    "name": "적영",
+    "aliases": [],
+    "gameEntryId": 1001
+  },
+  "title": "적영 — 잠재능력",
+  "content": "적영 무기의 잠재능력은 마지막 옵션 ‘기예 · 붉은색의 단절’의 기본/최대 RANK를 올린다. 잠재 1는 RANK 1/4, 잠재 2는 RANK 2/5, 잠재 3는 RANK 3/6, 잠재 4는 RANK 4/7, 잠재 5는 RANK 5/8, 잠재 6는 RANK 6/9.",
+  "facts": {
+    "traitRef": "epwiki.ko-kr.weapon.1001.option-3",
+    "stages": [
+      {
+        "stage": 1,
+        "baseRank": 1,
+        "maxRank": 4,
+        "effectRef": "epwiki.ko-kr.weapon.1001.option-3#rank-1"
+      },
+      {
+        "stage": 2,
+        "baseRank": 2,
+        "maxRank": 5,
+        "effectRef": "epwiki.ko-kr.weapon.1001.option-3#rank-2"
+      },
+      {
+        "stage": 3,
+        "baseRank": 3,
+        "maxRank": 6,
+        "effectRef": "epwiki.ko-kr.weapon.1001.option-3#rank-3"
+      },
+      {
+        "stage": 4,
+        "baseRank": 4,
+        "maxRank": 7,
+        "effectRef": "epwiki.ko-kr.weapon.1001.option-3#rank-4"
+      },
+      {
+        "stage": 5,
+        "baseRank": 5,
+        "maxRank": 8,
+        "effectRef": "epwiki.ko-kr.weapon.1001.option-3#rank-5"
+      },
+      {
+        "stage": 6,
+        "baseRank": 6,
+        "maxRank": 9,
+        "effectRef": "epwiki.ko-kr.weapon.1001.option-3#rank-6"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_potential",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/1001_적영.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1001&header=0",
+    "sourceSha256": "e55ceaaab1d2b47018fbd58e8bb3efe61ae7a514a34c46326cc43bd17c93c549",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_1001.potential.c4.chapter.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f2374652c99f5aacde248fb9263bf968f2edfaae945b0d31374a04528dc4138a",
+    "payloadSha256": "0dc5d3f4a02d20abeac10f3098be0b17abe295656e38ba27aaf374d0c6d99730"
+  }
+}

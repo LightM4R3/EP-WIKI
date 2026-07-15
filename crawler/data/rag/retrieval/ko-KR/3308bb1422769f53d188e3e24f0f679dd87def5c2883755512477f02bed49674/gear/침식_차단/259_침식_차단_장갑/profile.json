@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.259.profile",
+  "semanticKey": "ko-KR|gear|259|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_259",
+    "name": "침식 차단 장갑",
+    "aliases": [],
+    "gameEntryId": 259
+  },
+  "title": "침식 차단 장갑 — 장비 기본 정보",
+  "content": "침식 차단 장갑 장비의 기본 정보. 유형은 글러브, 품질은 파란색 품질, 세트는 침식 차단이다. LV.36, 방어력 21. 옵션은 1번 지능 33, 2번 의지 22, 3번 아츠 피해 보너스 9.2%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "침식 차단 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    "gearSet": {
+      "id": 2234615965,
+      "code": "gear_set_853001fd8069",
+      "label": "침식 차단"
+    },
+    "level": 36,
+    "defense": 21,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 33,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 22,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "아츠 피해 보너스",
+        "baseValue": {
+          "value": 9.2,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-853001fd8069.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_853001fd8069",
+    "groupLabel": "침식 차단",
+    "gearTypeCode": "gloves",
+    "qualityCode": "blue",
+    "gearSetCode": "gear_set_853001fd8069"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_차단/259_침식_차단_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=259&header=0",
+    "sourceSha256": "6fe15047350a210d3e8062201a9c12b961d8307f284ffefd5813af66d5a695ff",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_259.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_259.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "bea383e8b690dc1416b821b5cc7a3d83409aa3ce2e87d1bf992786f1681fdf76",
+    "payloadSha256": "7be830f19748f7db52bc9554b6024af417ccbbc434c9b3d5136652c3ad774789"
+  }
+}

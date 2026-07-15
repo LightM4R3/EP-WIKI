@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.96.option-3",
+  "semanticKey": "ko-KR|weapon|96|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_96",
+    "name": "무가내하",
+    "aliases": [],
+    "gameEntryId": 96
+  },
+  "title": "무가내하 — 3번 옵션 사기 · 순묘 분석법",
+  "content": "무가내하 무기의 3번 옵션 ‘사기 · 순묘 분석법’.\nRANK1: 주요 능력치 +5.0% 오리지늄 아츠 강도 +25\nRANK2: 주요 능력치 +6.0% 오리지늄 아츠 강도 +30\nRANK3: 주요 능력치 +7.0% 오리지늄 아츠 강도 +35\nRANK4: 주요 능력치 +8.0% 오리지늄 아츠 강도 +40\nRANK5: 주요 능력치 +9.0% 오리지늄 아츠 강도 +45\nRANK6: 주요 능력치 +10.0% 오리지늄 아츠 강도 +50\nRANK7: 주요 능력치 +11.0% 오리지늄 아츠 강도 +55\nRANK8: 주요 능력치 +12.0% 오리지늄 아츠 강도 +60\nRANK9: 주요 능력치 +14.0% 오리지늄 아츠 강도 +70",
+  "facts": {
+    "slot": 3,
+    "name": "사기 · 순묘 분석법",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "주요 능력치 +5.0% 오리지늄 아츠 강도 +25"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "주요 능력치 +6.0% 오리지늄 아츠 강도 +30"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "주요 능력치 +7.0% 오리지늄 아츠 강도 +35"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "주요 능력치 +8.0% 오리지늄 아츠 강도 +40"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "주요 능력치 +9.0% 오리지늄 아츠 강도 +45"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "주요 능력치 +10.0% 오리지늄 아츠 강도 +50"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "주요 능력치 +11.0% 오리지늄 아츠 강도 +55"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "주요 능력치 +12.0% 오리지늄 아츠 강도 +60"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "주요 능력치 +14.0% 오리지늄 아츠 강도 +70"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/96_무가내하.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=96&header=0",
+    "sourceSha256": "98f5318d6b3028ae3ca7a6c4ee51dfa77543b5f0dadaef43fcda8c2711a07347",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_96.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "ee47260484dfec8661852f911c444561139462fae12b103fc6676ed21addc4ae",
+    "payloadSha256": "38a5f5717474a697655b44d3c723f9a2a1b6de65168c29542768428794b705b6"
+  }
+}

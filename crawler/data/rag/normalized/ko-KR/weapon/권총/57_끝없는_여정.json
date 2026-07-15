@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_57",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 57,
+    "name": "끝없는 여정"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=57&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "2ed95ffe79ba943f50a7fad554272cf36c843be643303f7842180dc20d0ca2fd",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_57.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 끝없는 여정\ngameEntryId: 57\n정규화 상태: query_ready\n무기 유형: 권총 (id=3, code=handcannon)\n기초 공격력: LV.1=34, LV.20=100, LV.40=169, LV.60=238, LV.80=307, LV.90=341\n무기 옵션: 1번=힘 증가 · 소; 2번=아츠 피해 증가 · 소; 3번=추격 · 끝없는 순환\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_57",
+        "gameEntryId": 57,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=57&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/57_끝없는_여정.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 3,
+        "groupCode": "handcannon",
+        "groupLabel": "권총",
+        "evidenceDocumentIds": [
+          "auto.weapon_57.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_57.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_57.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_57.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_57.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_57.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 끝없는 여정\ncategory: weapon\nsection: profile\n끝없는 여정\n유형\n권총\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n용광로 요새에서 철의 서약군 일반 병사들을 위해 생산한 제식 총기, 단순한 구조와 높은 출력으로 인기가 높습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_57",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=57&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 57,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:25.541712+00:00",
+        "contentSha256": "2ed95ffe79ba943f50a7fad554272cf36c843be643303f7842180dc20d0ca2fd",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/57_끝없는_여정.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "handcannon",
+        "groupLabel": "권총",
+        "entityName": "끝없는 여정"
+      }
+    },
+    {
+      "documentId": "auto.weapon_57.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 끝없는 여정\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n끝없는 여정\n권총\n·획득 방법\n구매 센터 - 무기고 거래소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n34\n341\n힘 증가 · 소\n힘\n+12\n1/3\n힘\n+93\n9/9\n아츠 피해 증가 · 소\n아츠 피해\n+3.3%\n1/3\n아츠 피해\n+26.0%\n9/9\n추격 · 끝없는 순환\n장착자가 연계 스킬을 사용할 때, 공격력\n+12.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n1/4\n장착자가 연계 스킬을 사용할 때, 공격력\n+33.6%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_57",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=57&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 57,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:25.541712+00:00",
+        "contentSha256": "2ed95ffe79ba943f50a7fad554272cf36c843be643303f7842180dc20d0ca2fd",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/57_끝없는_여정.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "handcannon",
+        "groupLabel": "권총",
+        "entityName": "끝없는 여정"
+      }
+    },
+    {
+      "documentId": "auto.weapon_57.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 끝없는 여정\ncategory: weapon\nsection: progression\n업그레이드\n돌파\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n34\n-\n힘 증가 · 소\n힘\n+12\n1/3\n아츠 피해 증가 · 소\n아츠 피해\n+3.3%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n100\n100\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n힘 증가 · 소\n힘\n+12\n1/3\n힘\n+21\n2/5\n아츠 피해 증가 · 소\n아츠 피해\n+3.3%\n1/3\n아츠 피해\n+3.3%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n169\n169\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n힘 증가 · 소\n힘\n+21\n2/5\n힘\n+21\n2/6\n아츠 피해 증가 · 소\n아츠 피해\n+3.3%\n1/4\n아츠 피해\n+6.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n238\n238\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n힘 증가 · 소\n힘\n+21\n2/6\n힘\n+31\n3/8\n아츠 피해 증가 · 소\n아츠 피해\n+6.0%\n2/6\n아츠 피해\n+6.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n307\n307\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n힘 증가 · 소\n힘\n+31\n3/8\n힘\n+31\n3/9\n아츠 피해 증가 · 소\n아츠 피해\n+6.0%\n2/7\n아츠 피해\n+8.7%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n341\n-\n힘 증가 · 소\n힘\n+31\n3/9\n아츠 피해 증가 · 소\n아츠 피해\n+8.7%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_57",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=57&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 57,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:25.541712+00:00",
+        "contentSha256": "2ed95ffe79ba943f50a7fad554272cf36c843be643303f7842180dc20d0ca2fd",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/57_끝없는_여정.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "handcannon",
+        "groupLabel": "권총",
+        "entityName": "끝없는 여정"
+      }
+    },
+    {
+      "documentId": "auto.weapon_57.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 끝없는 여정\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n힘 증가 · 소\n아츠 피해 증가 · 소\n추격 · 끝없는 순환\nRANK 1\n힘\n+12\n아츠 피해\n+3.3%\n장착자가 연계 스킬을 사용할 때, 공격력\n+12.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 2\n힘\n+21\n아츠 피해\n+6.0%\n장착자가 연계 스킬을 사용할 때, 공격력\n+14.4%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 3\n힘\n+31\n아츠 피해\n+8.7%\n장착자가 연계 스킬을 사용할 때, 공격력\n+16.8%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 4\n힘\n+40\n아츠 피해\n+11.3%\n장착자가 연계 스킬을 사용할 때, 공격력\n+19.2%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 5\n힘\n+50\n아츠 피해\n+14.0%\n장착자가 연계 스킬을 사용할 때, 공격력\n+21.6%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 6\n힘\n+60\n아츠 피해\n+16.7%\n장착자가 연계 스킬을 사용할 때, 공격력\n+24.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 7\n힘\n+69\n아츠 피해\n+19.3%\n장착자가 연계 스킬을 사용할 때, 공격력\n+26.4%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 8\n힘\n+79\n아츠 피해\n+22.0%\n장착자가 연계 스킬을 사용할 때, 공격력\n+28.8%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 9\n힘\n+93\n아츠 피해\n+26.0%\n장착자가 연계 스킬을 사용할 때, 공격력\n+33.6%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n힘 증가\n아츠 피해 증가\n추격",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_57",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=57&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 57,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:25.541712+00:00",
+        "contentSha256": "2ed95ffe79ba943f50a7fad554272cf36c843be643303f7842180dc20d0ca2fd",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/57_끝없는_여정.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "handcannon",
+        "groupLabel": "권총",
+        "entityName": "끝없는 여정"
+      }
+    },
+    {
+      "documentId": "auto.weapon_57.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 끝없는 여정\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n추격 · 끝없는 순환\n기본/최대\n추격 · 끝없는 순환\n잠재능력 1\n1/4\n장착자가 연계 스킬을 사용할 때, 공격력\n+12.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 2\n2/5\n장착자가 연계 스킬을 사용할 때, 공격력\n+14.4%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 3\n3/6\n장착자가 연계 스킬을 사용할 때, 공격력\n+16.8%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 4\n4/7\n장착자가 연계 스킬을 사용할 때, 공격력\n+19.2%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 5\n5/8\n장착자가 연계 스킬을 사용할 때, 공격력\n+21.6%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 6\n6/9\n장착자가 연계 스킬을 사용할 때, 공격력\n+24.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_57",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=57&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 57,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:25.541712+00:00",
+        "contentSha256": "2ed95ffe79ba943f50a7fad554272cf36c843be643303f7842180dc20d0ca2fd",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/57_끝없는_여정.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "handcannon",
+        "groupLabel": "권총",
+        "entityName": "끝없는 여정"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 3,
+      "code": "handcannon",
+      "label": "권총"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 34
+    },
+    {
+      "level": 20,
+      "baseAttack": 100
+    },
+    {
+      "level": 40,
+      "baseAttack": 169
+    },
+    {
+      "level": 60,
+      "baseAttack": 238
+    },
+    {
+      "level": 80,
+      "baseAttack": 307
+    },
+    {
+      "level": 90,
+      "baseAttack": 341
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘 증가 · 소",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_57.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "아츠 피해 증가 · 소",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_57.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "추격 · 끝없는 순환",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_57.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 3,
+    "code": "handcannon",
+    "label": "권총"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/권총/57_끝없는_여정.json"
+}

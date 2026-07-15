@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.82.option-3",
+  "semanticKey": "ko-KR|weapon|82|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_82",
+    "name": "최후의 메아리",
+    "aliases": [],
+    "gameEntryId": 82
+  },
+  "title": "최후의 메아리 — 3번 옵션 의료 · 기사의 영광",
+  "content": "최후의 메아리 무기의 3번 옵션 ‘의료 · 기사의 영광’.\nRANK1: 보조 능력치 +5.0% 연계 스킬로 주는 치유 효과 +20.0%\nRANK2: 보조 능력치 +6.0% 연계 스킬로 주는 치유 효과 +24.0%\nRANK3: 보조 능력치 +7.0% 연계 스킬로 주는 치유 효과 +28.0%\nRANK4: 보조 능력치 +8.0% 연계 스킬로 주는 치유 효과 +32%\nRANK5: 보조 능력치 +9.0% 연계 스킬로 주는 치유 효과 +36.0%\nRANK6: 보조 능력치 +10.0% 연계 스킬로 주는 치유 효과 +40.0%\nRANK7: 보조 능력치 +11.0% 연계 스킬로 주는 치유 효과 +44.0%\nRANK8: 보조 능력치 +12.0% 연계 스킬로 주는 치유 효과 +48.0%\nRANK9: 보조 능력치 +14.0% 연계 스킬로 주는 치유 효과 +56.0%",
+  "facts": {
+    "slot": 3,
+    "name": "의료 · 기사의 영광",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "보조 능력치 +5.0% 연계 스킬로 주는 치유 효과 +20.0%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "보조 능력치 +6.0% 연계 스킬로 주는 치유 효과 +24.0%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "보조 능력치 +7.0% 연계 스킬로 주는 치유 효과 +28.0%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "보조 능력치 +8.0% 연계 스킬로 주는 치유 효과 +32%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "보조 능력치 +9.0% 연계 스킬로 주는 치유 효과 +36.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "보조 능력치 +10.0% 연계 스킬로 주는 치유 효과 +40.0%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "보조 능력치 +11.0% 연계 스킬로 주는 치유 효과 +44.0%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "보조 능력치 +12.0% 연계 스킬로 주는 치유 효과 +48.0%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "보조 능력치 +14.0% 연계 스킬로 주는 치유 효과 +56.0%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/82_최후의_메아리.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=82&header=0",
+    "sourceSha256": "28098833c8cf2030307d0087bd9aa4a32a3ca76524a15ffca830bbe429e26740",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_82.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "72b81cc1f395ddefb6fe60596b5a89a499dd10fcae86811faf8ca93824d51f63",
+    "payloadSha256": "14062bdfdff3cbcc19f70e42161f7e5bfd91011edd558f7c7287f19514e2bce0"
+  }
+}

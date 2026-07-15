@@ -1,0 +1,1096 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityType": "operatorLocalization",
+  "entityId": "tangtang",
+  "locale": "ja-JP",
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+    "htmlLang": "ja",
+    "xmlLang": "ja",
+    "observedAt": "2026-07-13T17:37:39+09:00",
+    "contentStatus": "has_source_gaps"
+  },
+  "identity": {
+    "name": "タンタン",
+    "rarity": 6
+  },
+  "taxonomy": {
+    "classId": 4,
+    "classCode": "caster",
+    "classLabel": "Caster",
+    "classMappingStatus": "verified",
+    "elementId": 3,
+    "elementCode": "cryo",
+    "elementLabel": "寒冷",
+    "weaponTypeId": 3,
+    "weaponTypeCode": "handcannon",
+    "weaponTypeLabel": "拳銃"
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primaryId": 1,
+    "secondaryId": 0,
+    "labels": {
+      "strength": "筋力(サブ能力)",
+      "agility": "敏捷(メイン能力)",
+      "intellect": "知性",
+      "will": "意志",
+      "baseAttack": "基礎攻撃力",
+      "baseHp": "基礎HP"
+    }
+  },
+  "progression": {
+    "levelLabels": [
+      "LV.1",
+      "LV.20",
+      "LV.40",
+      "LV.60",
+      "LV.80",
+      "LV.90"
+    ]
+  },
+  "materialLabels": {
+    "0": "折金券",
+    "1": "初級作戦記録",
+    "2": "中級作戦記録",
+    "3": "上級作戦記録",
+    "4": "初級認識媒体",
+    "5": "上級認識媒体",
+    "6": "協約角柱",
+    "7": "結晶鋭葉",
+    "8": "純晶鋭葉",
+    "9": "至晶鋭葉",
+    "10": "協約角柱セット",
+    "11": "存続の痕跡",
+    "12": "D96鋼試料Ⅳ",
+    "13": "象限適合液",
+    "14": "侵蝕玉化葉"
+  },
+  "combatSkills": [
+    {
+      "id": "tangtang.basic_attack",
+      "order": 0,
+      "typeId": 0,
+      "typeCode": "basic_attack",
+      "name": "脳天ぶち抜く！",
+      "sourceType": "通常攻撃",
+      "descriptionBlocks": [
+        "通常攻撃：",
+        "最大5段の攻撃で敵に寒冷ダメージを与える。操作中のオペレーターの場合、重攻撃はブレイク値18を与える。",
+        "落下攻撃：",
+        "空中で通常攻撃を使用すると、落下して周囲の敵に寒冷ダメージを与える。",
+        "終撃：",
+        "近くにブレイク状態の敵がいるときに通常攻撃を使用すると、その敵に終撃を行い、高い寒冷ダメージを与えてSPを一定量回復する。"
+      ],
+      "metrics": [
+        {
+          "code": "normal_attack_stage_1_multiplier",
+          "sourceLabel": "通常攻撃1段目ダメージ倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_2_multiplier",
+          "sourceLabel": "通常攻撃2段目ダメージ倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_3_multiplier",
+          "sourceLabel": "通常攻撃3段目ダメージ倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_4_multiplier",
+          "sourceLabel": "通常攻撃4段目ダメージ倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_5_multiplier",
+          "sourceLabel": "通常攻撃5段目ダメージ倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "finisher_multiplier",
+          "sourceLabel": "終撃ダメージ倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "dive_attack_multiplier",
+          "sourceLabel": "落下攻撃ダメージ倍率",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK1",
+          "values": {
+            "normal_attack_stage_1_multiplier": "23%",
+            "normal_attack_stage_2_multiplier": "25%",
+            "normal_attack_stage_3_multiplier": "35%",
+            "normal_attack_stage_4_multiplier": "37%",
+            "normal_attack_stage_5_multiplier": "50%",
+            "finisher_multiplier": "400%",
+            "dive_attack_multiplier": "80%"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK2",
+          "values": {
+            "normal_attack_stage_1_multiplier": "25%",
+            "normal_attack_stage_2_multiplier": "28%",
+            "normal_attack_stage_3_multiplier": "39%",
+            "normal_attack_stage_4_multiplier": "40%",
+            "normal_attack_stage_5_multiplier": "55%",
+            "finisher_multiplier": "440%",
+            "dive_attack_multiplier": "88%"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK3",
+          "values": {
+            "normal_attack_stage_1_multiplier": "27%",
+            "normal_attack_stage_2_multiplier": "30%",
+            "normal_attack_stage_3_multiplier": "42%",
+            "normal_attack_stage_4_multiplier": "44%",
+            "normal_attack_stage_5_multiplier": "60%",
+            "finisher_multiplier": "480%",
+            "dive_attack_multiplier": "96%"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK4",
+          "values": {
+            "normal_attack_stage_1_multiplier": "29%",
+            "normal_attack_stage_2_multiplier": "33%",
+            "normal_attack_stage_3_multiplier": "46%",
+            "normal_attack_stage_4_multiplier": "47%",
+            "normal_attack_stage_5_multiplier": "65%",
+            "finisher_multiplier": "520%",
+            "dive_attack_multiplier": "104%"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK5",
+          "values": {
+            "normal_attack_stage_1_multiplier": "32%",
+            "normal_attack_stage_2_multiplier": "35%",
+            "normal_attack_stage_3_multiplier": "49%",
+            "normal_attack_stage_4_multiplier": "51%",
+            "normal_attack_stage_5_multiplier": "70%",
+            "finisher_multiplier": "560%",
+            "dive_attack_multiplier": "112%"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK6",
+          "values": {
+            "normal_attack_stage_1_multiplier": "34%",
+            "normal_attack_stage_2_multiplier": "38%",
+            "normal_attack_stage_3_multiplier": "53%",
+            "normal_attack_stage_4_multiplier": "55%",
+            "normal_attack_stage_5_multiplier": "75%",
+            "finisher_multiplier": "600%",
+            "dive_attack_multiplier": "120%"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK7",
+          "values": {
+            "normal_attack_stage_1_multiplier": "36%",
+            "normal_attack_stage_2_multiplier": "40%",
+            "normal_attack_stage_3_multiplier": "56%",
+            "normal_attack_stage_4_multiplier": "58%",
+            "normal_attack_stage_5_multiplier": "80%",
+            "finisher_multiplier": "640%",
+            "dive_attack_multiplier": "128%"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK8",
+          "values": {
+            "normal_attack_stage_1_multiplier": "39%",
+            "normal_attack_stage_2_multiplier": "43%",
+            "normal_attack_stage_3_multiplier": "60%",
+            "normal_attack_stage_4_multiplier": "62%",
+            "normal_attack_stage_5_multiplier": "85%",
+            "finisher_multiplier": "680%",
+            "dive_attack_multiplier": "136%"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK9",
+          "values": {
+            "normal_attack_stage_1_multiplier": "41%",
+            "normal_attack_stage_2_multiplier": "45%",
+            "normal_attack_stage_3_multiplier": "63%",
+            "normal_attack_stage_4_multiplier": "66%",
+            "normal_attack_stage_5_multiplier": "90%",
+            "finisher_multiplier": "720%",
+            "dive_attack_multiplier": "144%"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "スキル特化1",
+          "values": {
+            "normal_attack_stage_1_multiplier": "44%",
+            "normal_attack_stage_2_multiplier": "48%",
+            "normal_attack_stage_3_multiplier": "67%",
+            "normal_attack_stage_4_multiplier": "70%",
+            "normal_attack_stage_5_multiplier": "96%",
+            "finisher_multiplier": "770%",
+            "dive_attack_multiplier": "154%"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "スキル特化2",
+          "values": {
+            "normal_attack_stage_1_multiplier": "47%",
+            "normal_attack_stage_2_multiplier": "52%",
+            "normal_attack_stage_3_multiplier": "73%",
+            "normal_attack_stage_4_multiplier": "76%",
+            "normal_attack_stage_5_multiplier": "104%",
+            "finisher_multiplier": "830%",
+            "dive_attack_multiplier": "166%"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "スキル特化3",
+          "values": {
+            "normal_attack_stage_1_multiplier": "51%",
+            "normal_attack_stage_2_multiplier": "56%",
+            "normal_attack_stage_3_multiplier": "79%",
+            "normal_attack_stage_4_multiplier": "82%",
+            "normal_attack_stage_5_multiplier": "113%",
+            "finisher_multiplier": "900%",
+            "dive_attack_multiplier": "180%"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tangtang.battle_skill",
+      "order": 1,
+      "typeId": 1,
+      "typeCode": "battle_skill",
+      "name": "波が来るぜ！",
+      "sourceType": "戦技",
+      "descriptionBlocks": [
+        "水中から飛び出して敵に接近し、射撃を行う。寒冷ダメージを与え、水竜巻を1つ発生させる。",
+        "同時に、周囲の湍水をすべて消費し、追加の水竜巻を発生させる。発生した数に応じて、SPが一定量返還される。",
+        "水竜巻：範囲内の敵に寒冷付着を1段階付与し、持続的に寒冷ダメージを与える。一度に複数の水竜巻を発生させた場合、追加で敵にアーツ脆弱を付与するが、寒冷付着は重複して付与されない。",
+        "水竜巻によるダメージは戦技ダメージと見なされる。"
+      ],
+      "metrics": [
+        {
+          "code": "skill_gauge_cost",
+          "sourceLabel": null,
+          "sourceStatus": "missing_in_locale_dom",
+          "fallbackLocale": "ko-KR"
+        },
+        {
+          "code": "shot_damage_multiplier",
+          "sourceLabel": "射撃ダメージ倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "shot_imbalance",
+          "sourceLabel": "射撃ブレイク値",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "single_tornado_damage_multiplier",
+          "sourceLabel": "1つの水竜巻によるダメージ倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "tornado_duration",
+          "sourceLabel": "水竜巻持続時間（秒）",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "skill_gauge_return_per_vortex",
+          "sourceLabel": "湍水1つごとのSP返還量",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "arts_vulnerability_two_tornadoes",
+          "sourceLabel": "2つの水竜巻によるアーツ脆弱",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "arts_vulnerability_three_tornadoes",
+          "sourceLabel": "タ3つの水竜巻によるアーツ脆弱イトル",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "arts_vulnerability_duration",
+          "sourceLabel": "アーツ脆弱持続時間（秒）",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK1",
+          "values": {
+            "shot_damage_multiplier": "80%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "133%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3%",
+            "arts_vulnerability_three_tornadoes": "6%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK2",
+          "values": {
+            "shot_damage_multiplier": "88%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "147%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3%",
+            "arts_vulnerability_three_tornadoes": "6%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK3",
+          "values": {
+            "shot_damage_multiplier": "96%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "160%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3%",
+            "arts_vulnerability_three_tornadoes": "6%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK4",
+          "values": {
+            "shot_damage_multiplier": "104%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "174%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3.5%",
+            "arts_vulnerability_three_tornadoes": "7%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK5",
+          "values": {
+            "shot_damage_multiplier": "112%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "187%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3.5%",
+            "arts_vulnerability_three_tornadoes": "7%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK6",
+          "values": {
+            "shot_damage_multiplier": "120%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "200%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3.5%",
+            "arts_vulnerability_three_tornadoes": "7%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK7",
+          "values": {
+            "shot_damage_multiplier": "128%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "214%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4%",
+            "arts_vulnerability_three_tornadoes": "8%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK8",
+          "values": {
+            "shot_damage_multiplier": "136%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "227%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4%",
+            "arts_vulnerability_three_tornadoes": "8%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK9",
+          "values": {
+            "shot_damage_multiplier": "144%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "240%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4%",
+            "arts_vulnerability_three_tornadoes": "8%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "スキル特化1",
+          "values": {
+            "shot_damage_multiplier": "154%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "257%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4.5%",
+            "arts_vulnerability_three_tornadoes": "9%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "スキル特化2",
+          "values": {
+            "shot_damage_multiplier": "166%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "277%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4.5%",
+            "arts_vulnerability_three_tornadoes": "9%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "スキル特化3",
+          "values": {
+            "shot_damage_multiplier": "180%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "300%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "5%",
+            "arts_vulnerability_three_tornadoes": "10%",
+            "arts_vulnerability_duration": "15"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tangtang.combo_skill",
+      "order": 2,
+      "typeId": 2,
+      "typeCode": "combo_skill",
+      "name": "川よ、俺様に従え！",
+      "sourceType": "連携技",
+      "descriptionBlocks": [
+        "敵が寒冷付着またはアーツ爆発のダメージを受けたときに発動可能。",
+        "激流を放ち、前方の敵を貫いて寒冷ダメージを与え、湍水を1カ所生成する。",
+        "同時に存在できる湍水は2カ所まで。"
+      ],
+      "metrics": [
+        {
+          "code": "cooldown",
+          "sourceLabel": "クールタイム",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "damage_multiplier",
+          "sourceLabel": "ダメージ倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "imbalance",
+          "sourceLabel": "ブレイク値",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "vortex_duration",
+          "sourceLabel": "湍水持続時間（秒）",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "ultimate_energy_gain",
+          "sourceLabel": "必殺チャージ回復量",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK1",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "107%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK2",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "117%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK3",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "128%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK4",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "139%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK5",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "149%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK6",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "160%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK7",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "171%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK8",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "181%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK9",
+          "values": {
+            "cooldown": "13秒",
+            "damage_multiplier": "192%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "スキル特化1",
+          "values": {
+            "cooldown": "13秒",
+            "damage_multiplier": "205%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "スキル特化2",
+          "values": {
+            "cooldown": "13秒",
+            "damage_multiplier": "221%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "スキル特化3",
+          "values": {
+            "cooldown": "12秒",
+            "damage_multiplier": "240%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tangtang.ultimate",
+      "order": 3,
+      "typeId": 3,
+      "typeCode": "ultimate",
+      "name": "大親分が見てっぞ！",
+      "sourceType": "必殺技",
+      "descriptionBlocks": [
+        "タンタンが眼帯を外し、目に宿る古の紋様を解放する。紋様の範囲内にいる敵を封鎖し、一定時間行動不能にすると同時に、持続的に寒冷ダメージを与える。",
+        "古の紋様の変化が終了したときに、大波が発生し、範囲内の敵に高い寒冷ダメージを与える。",
+        "操作中のオペレーターが古の紋様の範囲内で落下攻撃を行った場合、その時点で紋様の変化は終了し、大波が発生する。この場合、大波による寒冷ダメージがアップする。"
+      ],
+      "metrics": [
+        {
+          "code": "ultimate_energy_cost",
+          "sourceLabel": "必殺チャージ消費",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "cooldown",
+          "sourceLabel": null,
+          "sourceStatus": "missing_in_locale_dom",
+          "fallbackLocale": "ko-KR"
+        },
+        {
+          "code": "total_dot_multiplier",
+          "sourceLabel": "持続ダメージ総倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "ancient_array_duration",
+          "sourceLabel": "古の紋様持続時間（秒）",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "giant_wave_damage_multiplier",
+          "sourceLabel": "大波ダメージ倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "early_giant_wave_damage_multiplier",
+          "sourceLabel": "大波早期発生のダメージ倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "giant_wave_imbalance",
+          "sourceLabel": "大波ブレイク値",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "early_giant_wave_imbalance",
+          "sourceLabel": "大波早期発生のブレイク値",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK1",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "142%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "178%",
+            "early_giant_wave_damage_multiplier": "311%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK2",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "156%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "196%",
+            "early_giant_wave_damage_multiplier": "342%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK3",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "171%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "213%",
+            "early_giant_wave_damage_multiplier": "373%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK4",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "185%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "231%",
+            "early_giant_wave_damage_multiplier": "404%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK5",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "199%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "249%",
+            "early_giant_wave_damage_multiplier": "436%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK6",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "213%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "267%",
+            "early_giant_wave_damage_multiplier": "467%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK7",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "228%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "284%",
+            "early_giant_wave_damage_multiplier": "498%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK8",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "242%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "302%",
+            "early_giant_wave_damage_multiplier": "529%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK9",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "256%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "320%",
+            "early_giant_wave_damage_multiplier": "560%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "スキル特化1",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "274%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "342%",
+            "early_giant_wave_damage_multiplier": "599%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "スキル特化2",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "295%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "369%",
+            "early_giant_wave_damage_multiplier": "646%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "スキル特化3",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "320%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "400%",
+            "early_giant_wave_damage_multiplier": "700%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        }
+      ]
+    }
+  ],
+  "talents": {
+    "operator": [
+      {
+        "id": "tangtang.talent.proficiency",
+        "order": 0,
+        "category": "stat_bonus",
+        "name": "遊刃",
+        "sourceType": "能力値強化",
+        "stages": [
+          {
+            "sourceLabel": "段階効果1",
+            "effect": "敏捷が10アップする",
+            "activationConditions": [
+              "昇進段階1",
+              "信頼度：20%"
+            ]
+          },
+          {
+            "sourceLabel": "段階効果2",
+            "effect": "敏捷が15アップする",
+            "activationConditions": [
+              "昇進段階2",
+              "信頼度：50%"
+            ]
+          },
+          {
+            "sourceLabel": "段階効果3",
+            "effect": "敏捷が15アップする",
+            "activationConditions": [
+              "昇進段階3",
+              "信頼度：100%"
+            ]
+          },
+          {
+            "sourceLabel": "段階効果4",
+            "effect": "敏捷が20アップする",
+            "activationConditions": [
+              "昇進段階4",
+              "信頼度：100%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tangtang.talent.kindred_spirits",
+        "order": 1,
+        "category": "combat_talent",
+        "name": "肝胆相照らす",
+        "sourceType": "素質",
+        "stages": [
+          {
+            "sourceLabel": "段階効果1",
+            "effect": "湍水付近5mの範囲内で、味方オペレーターは10%の加速効果を獲得し、敵は20%のスロー効果を受ける\n\n効果は範囲から離れたあとも3秒間持続する。",
+            "activationConditions": [
+              "昇進段階1"
+            ]
+          },
+          {
+            "sourceLabel": "段階効果2",
+            "effect": "湍水付近5mの範囲内で、味方オペレーターは20%の加速効果を獲得し、敵は40%のスロー効果を受ける\n\n効果は範囲から離れたあとも3秒間持続する",
+            "activationConditions": [
+              "昇進段階2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tangtang.talent.master_of_wind_and_waves",
+        "order": 2,
+        "category": "combat_talent",
+        "name": "嵐を呼ぶ娘",
+        "sourceType": "素質",
+        "stages": [
+          {
+            "sourceLabel": "段階効果1",
+            "effect": "操作中のオペレーターが古の紋様の範囲内で落下攻撃を行い、その時点で紋様の変化を終了させたとき、水竜巻を1つ発生させる\n\n同時に、周囲の湍水をすべて消費し、その数に応じて追加の水竜巻を発生させる\n\n発生した水竜巻のダメージの効果は戦技「波が来るぜ！」と同様のものと見なされ、与えるダメージ+40%",
+            "activationConditions": [
+              "昇進段階2"
+            ]
+          },
+          {
+            "sourceLabel": "段階効果2",
+            "effect": "操作中のオペレーターが古の紋様の範囲内で落下攻撃を行い、その時点で紋様の変化を終了させたとき、水竜巻を1つ発生させる\n\n同時に、周囲の湍水をすべて消費し、その数に応じて追加の水竜巻を発生させる\n\n発生した水竜巻のダメージの効果は戦技「波が来るぜ！」と同様のものと見なされ、与えるダメージ+60%",
+            "activationConditions": [
+              "昇進段階3"
+            ]
+          }
+        ]
+      }
+    ],
+    "infrastructure": [
+      {
+        "id": "tangtang.infrastructure.chieftain",
+        "order": 3,
+        "category": "infrastructure_skill",
+        "name": "大親分",
+        "sourceType": "配属スキル",
+        "stages": [
+          {
+            "sourceLabel": "大親分・β",
+            "effect": "培養室配属時、船室内全員の体力消耗-14%",
+            "activationConditions": [
+              "昇進段階1"
+            ]
+          },
+          {
+            "sourceLabel": "大親分・γ",
+            "effect": "培養室配属時、船室内全員の体力消耗-18%",
+            "activationConditions": [
+              "昇進段階3"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tangtang.infrastructure.girl_born_from_the_river",
+        "order": 4,
+        "category": "infrastructure_skill",
+        "name": "水の申し子",
+        "sourceType": "配属スキル",
+        "stages": [
+          {
+            "sourceLabel": "水の申し子・β",
+            "effect": "培養室配属時、晶植素材の培養速度+20%",
+            "activationConditions": [
+              "昇進段階2"
+            ]
+          },
+          {
+            "sourceLabel": "水の申し子・γ",
+            "effect": "培養室配属時、晶植素材の培養速度+30%",
+            "activationConditions": [
+              "昇進段階4"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "potentials": [
+    {
+      "level": 1,
+      "name": "お宝たんまり",
+      "sourceLabel": "POTENTIAL 01",
+      "description": "連携技「川よ、俺様に従え！」のダメージ倍率は1.2倍までアップし、CD時間-2秒\n\n戦技「波が来るぜ！」で湍水を消費して水竜巻を発生させるたびに、追加でSPが5返還される。\n\n記念画像「心映す清流」を解放"
+    },
+    {
+      "level": 2,
+      "name": "水の申し子",
+      "sourceLabel": "POTENTIAL 02",
+      "description": "敏捷+20、寒冷ダメージ+10%"
+    },
+    {
+      "level": 3,
+      "name": "大親分の貫禄",
+      "sourceLabel": "POTENTIAL 03",
+      "description": "戦技「波が来るぜ！」のダメージ倍率は1.1倍までアップし、同時に複数の水竜巻を発生させるときの与えるアーツ脆弱効果がさらに+5%\n\n記念画像「竹を編み」を解放"
+    },
+    {
+      "level": 4,
+      "name": "清波流の修行",
+      "sourceLabel": "POTENTIAL 04",
+      "description": "必殺技「大親分が見てっぞ！」に必要な必殺チャージ-15%"
+    },
+    {
+      "level": 5,
+      "name": "魔眼パワー",
+      "sourceLabel": "POTENTIAL 05",
+      "description": "必殺技「大親分が見てっぞ！」のダメージ倍率が1.15倍までアップする\n\n素質「嵐を呼ぶ娘」強化：必殺技「大親分が見てっぞ！」で発生させた水竜巻のダメージUP効果がさらに+80%\n\n \n\n記念画像「大親分の命令は絶対だ！」を解放\n\nプロファイルテーマ「大親分の命令は絶対だ！」を解放"
+    }
+  ],
+  "sourceAnomalies": [
+    {
+      "path": "/combatSkills/1/metrics/skill_gauge_cost",
+      "kind": "missing_in_locale_dom",
+      "fallbackLocale": "ko-KR"
+    },
+    {
+      "path": "/combatSkills/3/metrics/cooldown",
+      "kind": "missing_in_locale_dom",
+      "fallbackLocale": "ko-KR"
+    },
+    {
+      "path": "/combatSkills/1/metrics/arts_vulnerability_three_tornadoes/sourceLabel",
+      "kind": "suspected_source_typo",
+      "sourceText": "タ3つの水竜巻によるアーツ脆弱イトル"
+    }
+  ]
+}

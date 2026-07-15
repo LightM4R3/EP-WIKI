@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.298.profile",
+  "semanticKey": "ko-KR|gear|298|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_298",
+    "name": "개척자 증량 산소 공급 장치",
+    "aliases": [],
+    "gameEntryId": 298
+  },
+  "title": "개척자 증량 산소 공급 장치 — 장비 기본 정보",
+  "content": "개척자 증량 산소 공급 장치 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 개척이다. LV.70, 방어력 21. 옵션은 1번 민첩 32, 2번 지능 21, 3번 보조 능력치 20.7%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "개척자 증량 산소 공급 장치",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 1145026990,
+      "code": "gear_set_443e330e6735",
+      "label": "개척"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "보조 능력치",
+        "baseValue": {
+          "value": 20.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-443e330e6735.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_443e330e6735",
+    "groupLabel": "개척",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_443e330e6735"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/298_개척자_증량_산소_공급_장치.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=298&header=0",
+    "sourceSha256": "a63c8a700453c54369643b53b5bec36ee2a37e4da06fe10f3361056e64f40275",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_298.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_298.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "74153c2bd0ef900eefc6c617badb775b9e23dd5d6a60f095e12916e6fd8062da",
+    "payloadSha256": "51d6bf211f1d15196fbf5d80b79e5df543dec8e2b6e1d3c6ef005f6c001170b2"
+  }
+}

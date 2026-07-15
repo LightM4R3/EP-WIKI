@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_885",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 885,
+    "name": "식양의 흐름 경갑"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=885&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "fa3f0bc3419d28729c29ed61b209b4ce8864cad972f982d9e3800943c67bb2f0",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_885.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 식양의 흐름 경갑\ngameEntryId: 885\n정규화 상태: query_ready\n장비 세트: 식양의 흐름 (id=231878540, code=gear_set_0dd0a8ecab1f)\n장비 유형: 방어구 (id=1, code=armor)\n품질: 노란색 품질 (id=0, code=yellow)\nLV: 70\n방어력: 56\n장비 옵션: 1번=의지 87; 2번=지능 58; 3번=냉기와 전기 피해 보너스 11.5%\n정밀 단조 지원: 예\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_885",
+        "gameEntryId": 885,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=885&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_흐름/885_식양의_흐름_경갑.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 231878540,
+        "groupCode": "gear_set_0dd0a8ecab1f",
+        "groupLabel": "식양의 흐름",
+        "evidenceDocumentIds": [
+          "auto.gear_885.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_885.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_885.gear_option.c2.chapter.s2.p0.ko-kr",
+          "auto.gear_885.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_885.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 식양의 흐름 경갑\ncategory: gear\nsection: profile\n식양의 흐름 경갑\n품질\n노란색 품질\n장비 유형\n방어구\n세트\n식양의 흐름\n이 장비는 홍산 선검국에서 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n무릉성 순찰대원 무기로 도입 예정인 실험형 장비.\n식양 생산량이 안정권에 접어들자, 잠시 중단되었던 식양 장비 연구 개발이 재개되었습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_885",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=885&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 885,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:56:18.153756+00:00",
+        "contentSha256": "fa3f0bc3419d28729c29ed61b209b4ce8864cad972f982d9e3800943c67bb2f0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_흐름/885_식양의_흐름_경갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_0dd0a8ecab1f",
+        "groupLabel": "식양의 흐름",
+        "entityName": "식양의 흐름 경갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_885.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 식양의 흐름 경갑\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n25000\n*\n25000\n및\n50\n*\n50\n장비 템플릿\n장비 템플릿 상자\n속성\nLV\n70\n방어력\n+56\n의지\n+87\n지능\n+58\n냉기와 전기 피해 보너스\n+11.5%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_885",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=885&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 885,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:56:18.153756+00:00",
+        "contentSha256": "fa3f0bc3419d28729c29ed61b209b4ce8864cad972f982d9e3800943c67bb2f0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_흐름/885_식양의_흐름_경갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_0dd0a8ecab1f",
+        "groupLabel": "식양의 흐름",
+        "entityName": "식양의 흐름 경갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_885.gear_option.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_option",
+      "content": "entity: 식양의 흐름 경갑\ncategory: gear\nsection: gear_option\n정밀 단조\n정밀 단조\n적합 단조제 : 무릉 정밀 단조제\n정밀 단조 단계\n기본\n1단계\n2단계\n3단계\n의지\n+87\n+95\n+104\n+113\n지능\n+58\n+63\n+69\n+75\n냉기와 전기 피해 보너스\n+11.5%\n+12.7%\n+13.8%\n+14.9%\n정밀 단조 누적 단계\n6\n12\n20",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_885",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=885&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 885,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:56:18.153756+00:00",
+        "contentSha256": "fa3f0bc3419d28729c29ed61b209b4ce8864cad972f982d9e3800943c67bb2f0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_흐름/885_식양의_흐름_경갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_0dd0a8ecab1f",
+        "groupLabel": "식양의 흐름",
+        "entityName": "식양의 흐름 경갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_885.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 식양의 흐름 경갑\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n식양의 흐름\n방어구\n3개 세트 효과:\n장착자의 공격력\n+10%\n장착자가\n감전\n혹은\n부식\n을\n소모\n할 때마다,\n이상 레벨\n에 따른 같은 스택 수치의 강화 상태를 획득합니다.\n스택이 중첩될 때마다\n전기 피해\n및\n자연 피해\n+15%\n, 25초 동안 지속. 강화 상태는 최대 3스택까지 중첩되며 중첩될 때마다 지속 시간은 따로 계산됩니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_885",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=885&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 885,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:56:18.153756+00:00",
+        "contentSha256": "fa3f0bc3419d28729c29ed61b209b4ce8864cad972f982d9e3800943c67bb2f0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_흐름/885_식양의_흐름_경갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_0dd0a8ecab1f",
+        "groupLabel": "식양의 흐름",
+        "entityName": "식양의 흐름 경갑"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 231878540,
+      "code": "gear_set_0dd0a8ecab1f",
+      "label": "식양의 흐름"
+    },
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    }
+  },
+  "level": 70,
+  "defense": 56,
+  "options": [
+    {
+      "slot": 1,
+      "name": "의지",
+      "baseValue": {
+        "value": 87,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 3,
+        "code": "will",
+        "label": "의지"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "지능",
+      "baseValue": {
+        "value": 58,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 2,
+        "code": "intellect",
+        "label": "지능"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "냉기와 전기 피해 보너스",
+      "baseValue": {
+        "value": 11.5,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": true,
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 58,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 63,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 69,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 75,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "냉기와 전기 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 11.5,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 12.7,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 13.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 14.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ],
+    "evidenceDocumentId": "auto.gear_885.gear_option.c2.chapter.s2.p0.ko-kr"
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_885.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 231878540,
+    "code": "gear_set_0dd0a8ecab1f",
+    "label": "식양의 흐름"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/식양의_흐름/885_식양의_흐름_경갑.json"
+}

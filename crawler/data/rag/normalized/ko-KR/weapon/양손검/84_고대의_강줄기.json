@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_84",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 84,
+    "name": "고대의 강줄기"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=84&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "4d7ea0a0dd71255eb6bbb23d1a865dd32562023e3cc7612f80ba4aa7b292f2e8",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_84.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 고대의 강줄기\ngameEntryId: 84\n정규화 상태: query_ready\n무기 유형: 양손검 (id=1, code=greatsword)\n기초 공격력: LV.1=42, LV.20=120, LV.40=203, LV.60=286, LV.80=369, LV.90=411\n무기 옵션: 1번=힘 증가 · 중; 2번=오리지늄 아츠 강도 증가 · 중; 3번=잔혹 · 천추의 대지\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_84",
+        "gameEntryId": 84,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=84&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/84_고대의_강줄기.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 1,
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "evidenceDocumentIds": [
+          "auto.weapon_84.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_84.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_84.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_84.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_84.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_84.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 고대의 강줄기\ncategory: weapon\nsection: profile\n고대의 강줄기\n유형\n양손검\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n홍산 무기 대장간에서 제작한 고급 대검, 동급 제품보다 가벼우면서 살상력은 조금도 떨어지지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_84",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=84&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 84,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:23.129617+00:00",
+        "contentSha256": "4d7ea0a0dd71255eb6bbb23d1a865dd32562023e3cc7612f80ba4aa7b292f2e8",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/84_고대의_강줄기.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "고대의 강줄기"
+      }
+    },
+    {
+      "documentId": "auto.weapon_84.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 고대의 강줄기\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n고대의 강줄기\n양손검\n·획득 방식\n구매 센터 - 무기고 교환소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n42\n411\n힘 증가 · 중\n힘\n+16\n1/3\n힘\n+124\n9/9\n오리지늄 아츠 강도 증가 · 중\n오리지늄 아츠 강도\n+8\n1/3\n오리지늄 아츠 강도\n+62\n9/9\n잔혹 · 천추의 대지\n오리지늄 아츠 강도\n+10\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[5.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n1/4\n오리지늄 아츠 강도\n+28\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[14.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_84",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=84&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 84,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:23.129617+00:00",
+        "contentSha256": "4d7ea0a0dd71255eb6bbb23d1a865dd32562023e3cc7612f80ba4aa7b292f2e8",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/84_고대의_강줄기.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "고대의 강줄기"
+      }
+    },
+    {
+      "documentId": "auto.weapon_84.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 고대의 강줄기\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성 (기본/최대)\n재료 소모\n기초 공격력\n42\n힘 증가 · 중\n힘\n+16\n1/3\n오리지늄 아츠 강도 증가 · 중\n오리지늄 아츠 강도\n+8\n1/3\n돌파 전 (기본/최대)\n돌파 후 (기본/최대)\n재료 소모\n기초 공격력\n120\n120\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n힘 증가 · 중\n힘\n+16\n1/3\n힘\n+28\n2/5\n오리지늄 아츠 강도 증가 · 중\n오리지늄 아츠 강도\n+8\n1/3\n오리지늄 아츠 강도\n+8\n1/4\n돌파 전 (기본/최대)\n돌파 후 (기본/최대)\n재료 소모\n기초 공격력\n203\n203\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n힘 증가 · 중\n힘\n+28\n2/5\n힘\n+28\n2/6\n오리지늄 아츠 강도 증가 · 중\n오리지늄 아츠 강도\n+8\n1/4\n오리지늄 아츠 강도\n+14\n2/6\n돌파 전 (기본/최대)\n돌파 후 (기본/최대)\n재료 소모\n기초 공격력\n286\n286\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n힘 증가 · 중\n힘\n+28\n2/6\n힘\n+41\n3/8\n오리지늄 아츠 강도 증가 · 중\n오리지늄 아츠 강도\n+14\n2/6\n오리지늄 아츠 강도\n+14\n2/7\n돌파 전 (기본/최대)\n돌파 후 (기본/최대)\n재료 소모\n기초 공격력\n369\n369\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n힘 증가 · 중\n힘\n+41\n3/8\n힘\n+41\n3/9\n오리지늄 아츠 강도 증가 · 중\n오리지늄 아츠 강도\n+14\n2/7\n오리지늄 아츠 강도\n+20\n3/9\n최대 레벨 속성 (기본/최대)\n재료 소모\n기초 공격력\n411\n힘 증가 · 중\n힘\n+41\n3/9\n오리지늄 아츠 강도 증가 · 중\n오리지늄 아츠 강도\n+20\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_84",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=84&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 84,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:23.129617+00:00",
+        "contentSha256": "4d7ea0a0dd71255eb6bbb23d1a865dd32562023e3cc7612f80ba4aa7b292f2e8",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/84_고대의_강줄기.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "고대의 강줄기"
+      }
+    },
+    {
+      "documentId": "auto.weapon_84.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 고대의 강줄기\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n힘 증가 · 중\n오리지늄 아츠 강도 증가 · 중\n잔혹 · 천추의 대지\nRANK 1\n힘\n+16\n오리지늄 아츠 강도\n+8\n오리지늄 아츠 강도\n+10\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[5.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 2\n힘\n+28\n오리지늄 아츠 강도\n+14\n오리지늄 아츠 강도\n+12\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[6.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 3\n힘\n+41\n오리지늄 아츠 강도\n+20\n오리지늄 아츠 강도\n+14\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[7.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 4\n힘\n+54\n오리지늄 아츠 강도\n+27\n오리지늄 아츠 강도\n+16\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[8.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 5\n힘\n+67\n오리지늄 아츠 강도\n+33\n오리지늄 아츠 강도\n+18\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[9.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 6\n힘\n+80\n오리지늄 아츠 강도\n+40\n오리지늄 아츠 강도\n+20\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[10.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 7\n힘\n+92\n오리지늄 아츠 강도\n+46\n오리지늄 아츠 강도\n+22\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[11.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 8\n힘\n+105\n오리지늄 아츠 강도\n+52\n오리지늄 아츠 강도\n+24\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[12.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 9\n힘\n+124\n오리지늄 아츠 강도\n+62\n오리지늄 아츠 강도\n+28\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[14.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n힘 증가\n오리지늄 아츠 강도 증가\n잔혹",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_84",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=84&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 84,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:23.129617+00:00",
+        "contentSha256": "4d7ea0a0dd71255eb6bbb23d1a865dd32562023e3cc7612f80ba4aa7b292f2e8",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/84_고대의_강줄기.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "고대의 강줄기"
+      }
+    },
+    {
+      "documentId": "auto.weapon_84.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 고대의 강줄기\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n잔혹 · 천추의 대지\n기본/최대\n잔혹 · 천추의 대지\n잠재능력 1\n1/4\n오리지늄 아츠 강도\n+10\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[5.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 2\n2/5\n오리지늄 아츠 강도\n+12\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[6.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 3\n3/6\n오리지늄 아츠 강도\n+14\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[7.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 4\n4/7\n오리지늄 아츠 강도\n+16\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[8.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 5\n5/8\n오리지늄 아츠 강도\n+18\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[9.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 6\n6/9\n오리지늄 아츠 강도\n+20\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 물리 피해\n+[10.0%×소모 스택 수치]\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_84",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=84&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 84,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:23.129617+00:00",
+        "contentSha256": "4d7ea0a0dd71255eb6bbb23d1a865dd32562023e3cc7612f80ba4aa7b292f2e8",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/84_고대의_강줄기.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "고대의 강줄기"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 42
+    },
+    {
+      "level": 20,
+      "baseAttack": 120
+    },
+    {
+      "level": 40,
+      "baseAttack": 203
+    },
+    {
+      "level": 60,
+      "baseAttack": 286
+    },
+    {
+      "level": 80,
+      "baseAttack": 369
+    },
+    {
+      "level": 90,
+      "baseAttack": 411
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘 증가 · 중",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_84.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "오리지늄 아츠 강도 증가 · 중",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_84.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "잔혹 · 천추의 대지",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_84.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 1,
+    "code": "greatsword",
+    "label": "양손검"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/양손검/84_고대의_강줄기.json"
+}

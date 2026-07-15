@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.12.potential-1",
+  "semanticKey": "ko-KR|operator|12|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_12",
+    "name": "여풍",
+    "aliases": [],
+    "gameEntryId": 12
+  },
+  "title": "여풍 — 잠재능력 1 파집",
+  "content": "여풍 오퍼레이터의 잠재능력 1 ‘파집’. 배틀 스킬 신체 정화가 부여하는 물리 취약 효과 +5%, 방어 불능 스택 수치가 2 스택을 초과하지 않은 적에게도이 추가 효과가 발동합니다. 오퍼레이터 기념사진 \"증과\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "파집",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 신체 정화가 부여하는 물리 취약 효과 +5%, 방어 불능 스택 수치가 2 스택을 초과하지 않은 적에게도이 추가 효과가 발동합니다. 오퍼레이터 기념사진 \"증과\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/12_여풍.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=12&header=0",
+    "sourceSha256": "9626ab3c4c237cebbf643ec7445b806db5b590e92aa287f9a9c9a9bbec71f9aa",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_12.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f477be448de14d5be42f4ea50a4912d4a8aab4f8e5d30bfc0f8dee3df7901a37",
+    "payloadSha256": "393ced6d4a0ac36b04e0db41c3d02a709f1feee9dffd2e5a5fa52b274a8d26c3"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_41",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 41,
+    "name": "오페로 77"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=41&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "b7e26b85153013390f10496f2e77b96b9cb28ed1e3292a8dedd6e7cfd38f7bf3",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_41.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 오페로 77\ngameEntryId: 41\n정규화 상태: query_ready\n무기 유형: 장병기 (id=2, code=polearm)\n기초 공격력: LV.1=29, LV.20=83, LV.40=140, LV.60=197, LV.80=254, LV.90=283\n무기 옵션: 1번=주요 능력치 증가 · 소; 2번=강공 · 무장 정비\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_41",
+        "gameEntryId": 41,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=41&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/41_오페로_77.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 2,
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "evidenceDocumentIds": [
+          "auto.weapon_41.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_41.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_41.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_41.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_41.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_41.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 오페로 77\ncategory: weapon\nsection: profile\n오페로 77\n유형\n장병기\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n엔드필드 공업에서 제작한 오퍼레이터 기본 장비 중 하나, 베테랑 무기고 공학자 오페로가 설계를 담당했습니다. 편안한 그립감 덕분에 신입 오퍼레이터도 쉽게 다룰 수 있습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_41",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=41&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 41,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:51.292531+00:00",
+        "contentSha256": "b7e26b85153013390f10496f2e77b96b9cb28ed1e3292a8dedd6e7cfd38f7bf3",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/41_오페로_77.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "오페로 77"
+      }
+    },
+    {
+      "documentId": "auto.weapon_41.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 오페로 77\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n오페로 77\n장병기\n·획득 방법\n구매 센터 - 무기고 거래소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n29\n283\n주요 능력치 증가 · 소\n주요 능력치\n+10\n1/3\n주요 능력치\n+79\n9/9\n강공 · 무장 정비\n공격력\n+12\n1/4\n공격력\n+34\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_41",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=41&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 41,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:51.292531+00:00",
+        "contentSha256": "b7e26b85153013390f10496f2e77b96b9cb28ed1e3292a8dedd6e7cfd38f7bf3",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/41_오페로_77.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "오페로 77"
+      }
+    },
+    {
+      "documentId": "auto.weapon_41.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 오페로 77\ncategory: weapon\nsection: progression\n업그레이드\n돌파\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n29\n-\n주요 능력치 증가 · 소\n주요 능력치\n+10\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n83\n83\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n주요 능력치 증가 · 소\n주요 능력치\n+10\n1/3\n주요 능력치\n+18\n2/5\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n140\n140\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n주요 능력치 증가 · 소\n주요 능력치\n+18\n2/5\n주요 능력치\n+26\n3/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n197\n197\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n주요 능력치 증가 · 소\n주요 능력치\n+26\n3/6\n주요 능력치\n+34\n4/8\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n254\n254\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n주요 능력치 증가 · 소\n주요 능력치\n+34\n4/8\n주요 능력치\n+42\n5/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n283\n-\n주요 능력치 증가 · 소\n주요 능력치\n+42\n5/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_41",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=41&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 41,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:51.292531+00:00",
+        "contentSha256": "b7e26b85153013390f10496f2e77b96b9cb28ed1e3292a8dedd6e7cfd38f7bf3",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/41_오페로_77.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "오페로 77"
+      }
+    },
+    {
+      "documentId": "auto.weapon_41.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 오페로 77\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n주요 능력치 증가 · 소\n강공 · 무장 정비\nRANK 1\n주요 능력치\n+10\n공격력\n+12\nRANK 2\n주요 능력치\n+18\n공격력\n+14\nRANK 3\n주요 능력치\n+26\n공격력\n+17\nRANK 4\n주요 능력치\n+34\n공격력\n+19\nRANK 5\n주요 능력치\n+42\n공격력\n+22\nRANK 6\n주요 능력치\n+51\n공격력\n+24\nRANK 7\n주요 능력치\n+59\n공격력\n+26\nRANK 8\n주요 능력치\n+67\n공격력\n+29\nRANK 9\n주요 능력치\n+79\n공격력\n+34\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n주요 능력치 증가\n강공",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_41",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=41&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 41,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:51.292531+00:00",
+        "contentSha256": "b7e26b85153013390f10496f2e77b96b9cb28ed1e3292a8dedd6e7cfd38f7bf3",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/41_오페로_77.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "오페로 77"
+      }
+    },
+    {
+      "documentId": "auto.weapon_41.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 오페로 77\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n강공 · 무장 정비\n기본/최대\n강공 · 무장 정비\n잠재능력 1\n1/4\n공격력\n+12\n잠재능력 2\n2/5\n공격력\n+14\n잠재능력 3\n3/6\n공격력\n+17\n잠재능력 4\n4/7\n공격력\n+19\n잠재능력 5\n5/8\n공격력\n+22\n잠재능력 6\n6/9\n공격력\n+24",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_41",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=41&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 41,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:51.292531+00:00",
+        "contentSha256": "b7e26b85153013390f10496f2e77b96b9cb28ed1e3292a8dedd6e7cfd38f7bf3",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/41_오페로_77.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "오페로 77"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 29
+    },
+    {
+      "level": 20,
+      "baseAttack": 83
+    },
+    {
+      "level": 40,
+      "baseAttack": 140
+    },
+    {
+      "level": 60,
+      "baseAttack": 197
+    },
+    {
+      "level": 80,
+      "baseAttack": 254
+    },
+    {
+      "level": 90,
+      "baseAttack": 283
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "주요 능력치 증가 · 소",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_41.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "강공 · 무장 정비",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_41.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 2,
+    "code": "polearm",
+    "label": "장병기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/장병기/41_오페로_77.json"
+}

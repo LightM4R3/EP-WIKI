@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.350.profile",
+  "semanticKey": "ko-KR|gear|350|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_350",
+    "name": "위기 탈출 식별 패널 · I",
+    "aliases": [],
+    "gameEntryId": 350
+  },
+  "title": "위기 탈출 식별 패널 · I — 장비 기본 정보",
+  "content": "위기 탈출 식별 패널 · I 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 세트 없음이다. LV.70, 방어력 21. 옵션은 1번 민첩 43, 3번 연계 스킬 피해 보너스 43.2%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "위기 탈출 식별 패널 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "연계 스킬 피해 보너스",
+        "baseValue": {
+          "value": 43.2,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/350_위기_탈출_식별_패널_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=350&header=0",
+    "sourceSha256": "35290a5db7b16225bffd87267c42a71bb7b0df98ccd30dabd87067b00ee3c4d0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_350.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_350.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "1501494854df6406107178bf1aeac37099709f7ca3da4509b0dd2730e9a634ae",
+    "payloadSha256": "01a252785e231d74205862915c8779061c3d5563e5610afb2a6edaaa7dd6ecb9"
+  }
+}

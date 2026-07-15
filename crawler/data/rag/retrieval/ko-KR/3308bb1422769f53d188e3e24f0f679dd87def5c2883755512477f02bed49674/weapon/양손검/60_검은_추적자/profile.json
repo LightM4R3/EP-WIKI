@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.60.profile",
+  "semanticKey": "ko-KR|weapon|60|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_60",
+    "name": "검은 추적자",
+    "aliases": [],
+    "gameEntryId": 60
+  },
+  "title": "검은 추적자 — 무기 기본 정보",
+  "content": "검은 추적자 무기의 기본 정보. 무기 유형은 양손검이다. 옵션은 1번 힘 증가 · 중, 2번 궁극기 충전 효율 증가 · 중, 3번 방출 · 꿰뚫는 이치이다.",
+  "facts": {
+    "name": "검은 추적자",
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.60.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "궁극기 충전 효율 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.60.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "방출 · 꿰뚫는 이치",
+        "documentRef": "epwiki.ko-kr.weapon.60.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "weaponTypeCode": "greatsword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/60_검은_추적자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=60&header=0",
+    "sourceSha256": "abd7cdc8a25dee1a3081b0f7402a8fb9b1905e3ef522ccd6241e73dc7a2169b6",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_60.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_60.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "912c9a9d82c9aa8f840a04376c912f54894b779089cc281429642e694eb2a32f",
+    "payloadSha256": "a13ea3490e28e6fc7e239e9b4c9736159bab3331688c859ee6e5ddb5ea9dca2a"
+  }
+}

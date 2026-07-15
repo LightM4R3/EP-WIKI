@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.43.profile",
+  "semanticKey": "ko-KR|weapon|43|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_43",
+    "name": "린수를 찾아서 3.0",
+    "aliases": [],
+    "gameEntryId": 43
+  },
+  "title": "린수를 찾아서 3.0 — 무기 기본 정보",
+  "content": "린수를 찾아서 3.0 무기의 기본 정보. 무기 유형은 한손검이다. 옵션은 1번 힘 증가 · 중, 2번 냉기 피해 증가 · 중, 3번 억제 · 린수를 향한 의지이다.",
+  "facts": {
+    "name": "린수를 찾아서 3.0",
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.43.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "냉기 피해 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.43.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "억제 · 린수를 향한 의지",
+        "documentRef": "epwiki.ko-kr.weapon.43.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "weaponTypeCode": "sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/43_린수를_찾아서_3.0.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=43&header=0",
+    "sourceSha256": "b473287e9d00e64cf0f591a3cf507097f442897d19a0109f3305bd8868f97809",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_43.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_43.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "05a5fd7cc069cd27a3f4bbc9824ab59fa74a0bc0ca41c396c0a3b8af527c334e",
+    "payloadSha256": "13244e016748dc3e9b1f382ee333e63cdc1fb55686eb91196feb809c957ac698"
+  }
+}

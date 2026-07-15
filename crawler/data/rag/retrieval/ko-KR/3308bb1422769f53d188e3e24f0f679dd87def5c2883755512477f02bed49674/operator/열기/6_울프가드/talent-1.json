@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.6.talent-1",
+  "semanticKey": "ko-KR|operator|6|talent-1",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_6",
+    "name": "울프가드",
+    "aliases": [],
+    "gameEntryId": 6
+  },
+  "title": "울프가드 — 불타는 송곳니",
+  "content": "울프가드 오퍼레이터의 오퍼레이터 재능 ‘불타는 송곳니’.\n단계 1: 매번 연소 상태를 부여한 후 불타는 송곳니 상태를 획득하고, 10초 동안 지속, 해당 상태는 중첩할 수 없습니다. 상태가 지속되는 동안, 자신이 적에게 주는 열기 피해 +20%. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 2400개.\n단계 2: 매번 연소 상태를 부여한 후 불타는 송곳니 상태를 획득하고, 10초 동안 지속, 해당 상태는 중첩할 수 없습니다. 상태가 지속되는 동안, 자신이 적에게 주는 열기 피해 +30%. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 40개, 탈로시안 화폐 8600개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 1,
+    "name": "불타는 송곳니",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "매번 연소 상태를 부여한 후 불타는 송곳니 상태를 획득하고, 10초 동안 지속, 해당 상태는 중첩할 수 없습니다. 상태가 지속되는 동안, 자신이 적에게 주는 열기 피해 +20%",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 2400
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "매번 연소 상태를 부여한 후 불타는 송곳니 상태를 획득하고, 10초 동안 지속, 해당 상태는 중첩할 수 없습니다. 상태가 지속되는 동안, 자신이 적에게 주는 열기 피해 +30%",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 40
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8600
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "talentKind": "combat_talent",
+    "talentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/6_울프가드.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=6&header=0",
+    "sourceSha256": "492ece7d684a23a664abd89e05442e827d963e2742f2b546bfa1d3fcfaa297d1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_6.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "744071535b84fbffc6f8c0b079e877b0011d63e478b4ab64293a0fb6683068b5",
+    "payloadSha256": "1cc985b639b6e31672e031d10d08e89f83f587034e7a8b055abb089e2467d75e"
+  }
+}

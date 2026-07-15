@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.996.profile",
+  "semanticKey": "ko-KR|operator|996|profile",
+  "locale": "ko-KR",
+  "documentType": "operator_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_996",
+    "name": "카뮤",
+    "aliases": [],
+    "gameEntryId": 996
+  },
+  "title": "카뮤 — 오퍼레이터 기본 정보",
+  "content": "카뮤 오퍼레이터의 기본 정보. 속성은 열기, 무기 유형은 장병기이다. 주요 능력치는 민첩, 보조 능력치는 지능이다.",
+  "facts": {
+    "name": "카뮤",
+    "element": {
+      "id": 1,
+      "code": "heat",
+      "label": "열기"
+    },
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    },
+    "primaryAttribute": {
+      "id": 1,
+      "code": "agility",
+      "label": "민첩"
+    },
+    "secondaryAttribute": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    },
+    "attributeCatalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_profile",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "elementCode": "heat",
+    "weaponTypeCode": "polearm",
+    "primaryAttributeCode": "agility",
+    "secondaryAttributeCode": "intellect"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+    "sourceSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_996.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.operator_996.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문에서 희귀도를 텍스트로 확정할 수 없음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.class",
+        "reason": "클래스 이미지 매핑이 검증되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.portraitUrl",
+        "reason": "초상화 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "93828ddb2088fdd1bf7695148ab96ab518e4fa2d97e467cab28a83ed983022fc",
+    "payloadSha256": "78c44531e5e7dc8c42c8be3ef513ba3923aa8755f1dc93c37d0fc3f152933b57"
+  }
+}

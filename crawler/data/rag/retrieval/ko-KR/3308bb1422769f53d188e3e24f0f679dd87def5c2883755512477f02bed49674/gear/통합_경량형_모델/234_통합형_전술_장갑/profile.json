@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.234.profile",
+  "semanticKey": "ko-KR|gear|234|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_234",
+    "name": "통합형 전술 장갑",
+    "aliases": [],
+    "gameEntryId": 234
+  },
+  "title": "통합형 전술 장갑 — 장비 기본 정보",
+  "content": "통합형 전술 장갑 장비의 기본 정보. 유형은 글러브, 품질은 초록색 품질, 세트는 통합 경량형 모델이다. LV.28, 방어력 16. 옵션은 1번 지능 23, 2번 민첩 23, 3번 연계 스킬 피해 보너스 13.5%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "통합형 전술 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    "gearSet": {
+      "id": 3549914494,
+      "code": "gear_set_d395deded81d",
+      "label": "통합 경량형 모델"
+    },
+    "level": 28,
+    "defense": 16,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "연계 스킬 피해 보너스",
+        "baseValue": {
+          "value": 13.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-d395deded81d.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_d395deded81d",
+    "groupLabel": "통합 경량형 모델",
+    "gearTypeCode": "gloves",
+    "qualityCode": "green",
+    "gearSetCode": "gear_set_d395deded81d"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/통합_경량형_모델/234_통합형_전술_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=234&header=0",
+    "sourceSha256": "c4a6f07da7019972897a859ae816c56d27b08cd57dc933a9ec93bcff3702d744",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_234.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_234.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "be87c3d11f0531e768a65669c617ccae03aaa61620239dd796157e9a46bd41e6",
+    "payloadSha256": "0a3254029558b0882d64593fdb1064c1d2c529c4ca6d03a12fefeb1f5a49740c"
+  }
+}

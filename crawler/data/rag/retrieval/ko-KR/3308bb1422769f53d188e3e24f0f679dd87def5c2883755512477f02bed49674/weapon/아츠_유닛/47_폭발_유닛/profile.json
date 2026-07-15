@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.47.profile",
+  "semanticKey": "ko-KR|weapon|47|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_47",
+    "name": "폭발 유닛",
+    "aliases": [],
+    "gameEntryId": 47
+  },
+  "title": "폭발 유닛 — 무기 기본 정보",
+  "content": "폭발 유닛 무기의 기본 정보. 무기 유형은 아츠 유닛이다. 옵션은 1번 주요 능력치 증가 · 대, 2번 오리지늄 아츠 강도 증가 · 대, 3번 방출 · 우승자의 위세이다.",
+  "facts": {
+    "name": "폭발 유닛",
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "주요 능력치 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.47.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "오리지늄 아츠 강도 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.47.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "방출 · 우승자의 위세",
+        "documentRef": "epwiki.ko-kr.weapon.47.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "weaponTypeCode": "arts_unit"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/47_폭발_유닛.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=47&header=0",
+    "sourceSha256": "03f4bf79b5c251470d9abe1217148dafc99810797dd6a447bc2868cb2fa51adb",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_47.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_47.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0116c684dc31b07e0a551fa5d9bb6519c8abef4ea6f4cd98b176a4a03c7377de",
+    "payloadSha256": "9b926138cd1e5a0a76c4a6ccbd604b2c9910caeaeb1c4e3fff7f68613115dd3a"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.290.forging",
+  "semanticKey": "ko-KR|gear|290|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_290",
+    "name": "열 작업용 에너지 저장함",
+    "aliases": [],
+    "gameEntryId": 290
+  },
+  "title": "열 작업용 에너지 저장함 — 정밀 단조",
+  "content": "열 작업용 에너지 저장함 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 힘: +0 32, +1 35, +2 38, +3 41.\n2번 민첩: +0 21, +1 23, +2 25, +3 27.\n3번 오리지늄 아츠 강도: +0 41, +1 45, +2 49, +3 53.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 41,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 45,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 49,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 53,
+            "unit": "flat"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_c82824cda56b",
+    "groupLabel": "열 작업용",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/290_열_작업용_에너지_저장함.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=290&header=0",
+    "sourceSha256": "80d60a1619cd66b71bb397d27f19a4ba8851fbb6d219ec7e59585e8be522dac2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_290.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "789839664a3b3ad6c90fef4e24a0b69223bbe9c9148cf8a533dd9146b37f57f4",
+    "payloadSha256": "15edbb7260dd73f1d3b0da776f7fb506c80cc216e51a2a3165e260d34d27ba74"
+  }
+}

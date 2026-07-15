@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.6.infrastructure-1",
+  "semanticKey": "ko-KR|operator|6|infrastructure-1",
+  "locale": "ko-KR",
+  "documentType": "operator_infrastructure_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_6",
+    "name": "울프가드",
+    "aliases": [],
+    "gameEntryId": 6
+  },
+  "title": "울프가드 — 인프라 재능 울프팀의 기술",
+  "content": "울프가드 오퍼레이터의 인프라 재능 ‘울프팀의 기술’.\n울프팀의 기술 · α: 제조실에 배치 시, 오퍼레이터 경험치 재료의 생산 효율 10% 증가. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 6개, 탈로시안 화폐 1600개.\n울프팀의 기술 · β: 제조실에 배치 시, 오퍼레이터 경험치 재료의 생산 효율 20% 증가. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 12개, 탈로시안 화폐 8000개.",
+  "facts": {
+    "index": 1,
+    "name": "울프팀의 기술",
+    "variants": [
+      {
+        "grade": "α",
+        "name": "울프팀의 기술 · α",
+        "description": "제조실에 배치 시, 오퍼레이터 경험치 재료의 생산 효율 10% 증가",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 6
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1600
+          }
+        ]
+      },
+      {
+        "grade": "β",
+        "name": "울프팀의 기술 · β",
+        "description": "제조실에 배치 시, 오퍼레이터 경험치 재료의 생산 효율 20% 증가",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_infrastructure_talent",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "infrastructureTalentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/6_울프가드.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=6&header=0",
+    "sourceSha256": "492ece7d684a23a664abd89e05442e827d963e2742f2b546bfa1d3fcfaa297d1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_6.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "59ced4f44e4d848d704a45237e5aac4688d8575b4dc1b9ade348f901c72acfc1",
+    "payloadSha256": "beb71b5b6c5b3318ec739d373f31c9fc9d1b373728288e42d979c860592d6362"
+  }
+}

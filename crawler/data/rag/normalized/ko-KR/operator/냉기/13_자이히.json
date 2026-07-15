@@ -1,0 +1,501 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_13",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 13,
+    "name": "자이히"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_13.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 자이히\ngameEntryId: 13\n정규화 상태: query_ready\n속성: 냉기 (id=3, code=cryo)\n무기 유형: 아츠 유닛 (id=4, code=arts_unit)\n주요 능력치: 의지 (id=3, code=will)\n보조 능력치: 지능 (id=2, code=intellect)\nLV.1: 힘=9, 민첩=9, 지능=15, 의지=15, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=26, 민첩=26, 지능=39, 의지=43, 기초 공격력=86, 기초 생명력=1566\nLV.40: 힘=44, 민첩=45, 지능=64, 의지=74, 기초 공격력=144, 기초 생명력=2689\nLV.60: 힘=62, 민첩=64, 지능=89, 의지=104, 기초 공격력=203, 기초 생명력=3811\nLV.80: 힘=80, 민첩=82, 지능=114, 의지=134, 기초 공격력=262, 기초 생명력=4934\nLV.90: 힘=89, 민첩=91, 지능=127, 의지=150, 기초 공격력=291, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_13",
+        "gameEntryId": 13,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 3,
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "evidenceDocumentIds": [
+          "auto.operator_13.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_13.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_13.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_13.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_13.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_13.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_13.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_13.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_13.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_13.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_13.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 자이히\ncategory: operator\nsection: profile\n자이히\n진영\n고요한 수도회\n무기 유형\n아츠 유닛\n\"우리가 하나 될 때, 지혜가 빛을 발할 거예요.\"\n자이히는 고요한 수도회 출신으로 라테라노에서 탈로스 II로 파견된 기술 연수 조직에 소속되어 있다. 그녀가 몸담은 회화파는 연산과 언어 분석을 진리에 이르는 길로 여긴다.\n자이히는 사람과의 교류보다는 정보 기술에 능숙했다. 고요한 수도회의 원장조차도 그녀의 특별한 재능을 부정할 수 없었다. 그래서 그녀가 한때 대성당의 돔을 \"함부로\" 업그레이드하여 연쇄 사고를 일으켰음에도, 원장은 진심으로 그녀를 엔드필드 공업에 추천했다. 그녀가 더 큰 무대에서 능력을 발휘할 수 있도록 말이다.\n현재 자이히는 제강호에 탑승하여 프로토콜 오리지늄 네트워크의 구축과 시스템 통합 등 다양한 정보 공학 분야의 업무를 맡고 있다. 그녀가 가진 네트워크에 대한 독창적 통찰과 수도회의 방대한 지식은 자이히를 엔드필드에서 없어서는 안 될 존재로 만들었다.\n\"오래된 지식이여, 우리를 유혹에 빠트리지 마시고, 악에서 구하소서... 안녕하세요, 관리자님. 자이히라고 해요. 진리의 가호가 함께하길...\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_13",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 13,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:29.993978+00:00",
+        "contentSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "자이히"
+      }
+    },
+    {
+      "documentId": "auto.operator_13.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 자이히\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n자이히\n성별\n여\n진영\n고요한 수도회\n생일\n5월 16일\n속성\n냉기\n종족\n살카즈\n한국어 CV\n장예나\n일본어 CV\n宫本侑芽\n영어 CV\nElsie Lovelock\n중국어 CV\n潘丹妮",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_13",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 13,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:29.993978+00:00",
+        "contentSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "자이히"
+      }
+    },
+    {
+      "documentId": "auto.operator_13.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 자이히\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘\n9\n26\n44\n62\n80\n89\n민첩\n9\n26\n45\n64\n82\n91\n지능 (보조 능력치)\n15\n39\n64\n89\n114\n127\n의지 (주요 능력치)\n15\n43\n74\n104\n134\n150\n기초 공격력\n30\n86\n144\n203\n262\n291\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘\n9\n-\n민첩\n9\n지능 (보조 능력치)\n15\n의지 (주요 능력치)\n15\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘\n26\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩\n26\n지능 (보조 능력치)\n39\n의지 (주요 능력치)\n43\n기초 공격력\n86\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘\n44\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩\n45\n지능 (보조 능력치)\n64\n의지 (주요 능력치)\n74\n기초 공격력\n144\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘\n62\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩\n64\n지능 (보조 능력치)\n89\n의지 (주요 능력치)\n104\n기초 공격력\n203\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘\n80\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩\n82\n지능 (보조 능력치)\n114\n의지 (주요 능력치)\n134\n기초 공격력\n262\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘\n89\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩\n91\n지능 (보조 능력치)\n127\n의지 (주요 능력치)\n150\n기초 공격력\n291\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_13",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 13,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:29.993978+00:00",
+        "contentSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "자이히"
+      }
+    },
+    {
+      "documentId": "auto.operator_13.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 자이히\ncategory: operator\nsection: combat_skill\n전투 스킬\n쿨타임\n일반 공격\n일반 공격:\n적에게 최대 5단 공격을 하여\n냉기 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n15\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n냉기 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n냉기 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n15%\n17%\n18%\n20%\n21%\n23%\n24%\n26%\n27%\n29%\n31%\n34%\n일반 공격 제2단계 배율\n16%\n18%\n19%\n21%\n22%\n24%\n26%\n27%\n29%\n31%\n33%\n36%\n일반 공격 제3단계 배율\n21%\n23%\n25%\n27%\n29%\n32%\n34%\n36%\n38%\n40%\n44%\n47%\n일반 공격 제4단계 배율\n33%\n36%\n40%\n43%\n46%\n50%\n53%\n56%\n59%\n64%\n68%\n74%\n일반 공격 제5단계 배율\n55%\n61%\n66%\n72%\n77%\n83%\n88%\n94%\n99%\n106%\n114%\n124%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n디도스\n배틀 스킬\n지원 결정체\n를 소환하여 일정 시간 메인 컨트롤 오퍼레이터를 따라다닙니다.\n메인 컨트롤 오퍼레이터가 적에게\n강력한 일격\n피해를 준 후,\n지원 결정체\n가 생명력을 회복시켜 줍니다. 해당 효과는 최대 2회 발동하며, 의지는 치유량을 추가로 증가시킵니다.\n만약 회복 효과가 발동했을 때, 메인 컨트롤 오퍼레이터의 생명력이 최대치에 도달한 상태라면, 일정 시간 대상에게\n아츠 증폭\n을 부여합니다. 해당 효과는 중첩되지 않습니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n기초 치유 수치\n144\n173\n202\n230\n245\n259\n274\n288\n302\n310\n317\n324\n의지 1포인트마다 증가하는 치유 수치\n0.34\n0.4\n0.47\n0.54\n0.57\n0.6\n0.64\n0.67\n0.71\n0.72\n0.74\n0.76\n지원 결정체 지속 시간(초)\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n아츠 증폭 효과\n9%\n9%\n9%\n9%\n9%\n11%\n11%\n11%\n13%\n13%\n13%\n15%\n아츠 증폭 지속 시간(초)\n25\n25\n25\n25\n25\n25\n25\n25\n25\n25\n25\n25\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_13",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 13,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:29.993978+00:00",
+        "contentSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "자이히"
+      }
+    },
+    {
+      "documentId": "auto.operator_13.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 자이히\ncategory: operator\nsection: combat_skill\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n스트레스 테스트\n연계 스킬\n지원 결정체\n의 생명력 회복 횟수를 모두 소모했을 때 사용할 수 있습니다.\n짧게 차지하여\n지원 결정체\n를 적에게 투척해\n냉기 피해\n를 주고\n냉기 부착\n상태를 부여합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n8초\n8초\n8초\n8초\n8초\n8초\n8초\n8초\n8초\n8초\n8초\n7초\n피해 배율\n200%\n220%\n240%\n260%\n280%\n300%\n320%\n340%\n360%\n385%\n415%\n450%\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n획득하는 궁극기 에너지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n스택 오버플로\n궁극기\n팀 전체에게 일정 시간\n냉기 증폭\n과\n자연 증폭\n상태를 부여합니다. 지능은 해당 증폭 효과를 추가로 강화시킵니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n80\n80\n80\n80\n80\n80\n80\n80\n80\n80\n80\n80\n쿨타임\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n기초 냉기 증폭 효과\n11%\n12%\n13%\n14%\n15%\n16%\n17%\n18%\n19%\n21%\n22%\n24%\n기초 자연 증폭 효과\n11%\n12%\n13%\n14%\n15%\n16%\n17%\n18%\n19%\n21%\n22%\n24%\n지능 1포인트마다 증가하는 증폭 효과\n0.014%\n0.015%\n0.016%\n0.018%\n0.019%\n0.02%\n0.022%\n0.023%\n0.024%\n0.026%\n0.028%\n0.03%\n지능 증가 증폭 최대치\n30%\n30%\n30%\n30%\n30%\n30%\n30%\n30%\n30%\n30%\n30%\n36%\n지속 시간(초)\n12\n12\n12\n12\n12\n12\n12\n12\n12\n12\n12\n12\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_13",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 13,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:25:29.993978+00:00",
+        "contentSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "자이히"
+      }
+    },
+    {
+      "documentId": "auto.operator_13.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 자이히\ncategory: operator\nsection: combat_skill\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_13",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 13,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T06:25:29.993978+00:00",
+        "contentSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "자이히"
+      }
+    },
+    {
+      "documentId": "auto.operator_13.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 자이히\ncategory: operator\nsection: operator_talent\n재능 배열\n맹세\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터\n의지\n능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터\n의지\n능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터\n의지\n능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터\n의지\n능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n가동 프로세스\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n연계 스킬\n스트레스 테스트\n가 적에게 명중했을 때, 목표가\n냉기 부착\n혹은\n동결\n상태일 경우, 받는\n냉기 피해\n+7%\n,\n5\n초 동안 지속. 해당 효과는 중첩되지 않습니다.\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n연계 스킬\n스트레스 테스트\n가 적에게 명중했을 때, 목표가\n냉기 부착\n혹은\n동결\n상태일 경우, 받는\n냉기 피해\n+10%\n,\n5\n초 동안 지속. 해당 효과는 중첩되지 않습니다.\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10800\n탈로시안 화폐\n*\n10800\n프리징 프로토콜\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n궁극기\n스택 오버플로\n는 추가로 팀 전체의\n냉기 부착\n과\n동결\n상태를\n정화\n합니다.\n정예화 단계 3 돌파\n36\n프로토콜 프리즘 세트\n*\n36\n32000\n탈로시안 화폐\n*\n32000\n표준화 컴파일",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_13",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 13,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:29.993978+00:00",
+        "contentSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "자이히"
+      }
+    },
+    {
+      "documentId": "auto.operator_13.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 자이히\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n표준화 컴파일\n· α\n제조실에 배치 시, 오퍼레이터 경험치 재료의 생산 효율 10% 증가\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n표준화 컴파일\n· β\n제조실에 배치 시, 오퍼레이터 경험치 재료의 생산 효율 20% 증가\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n대화와 속삭임\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n대화와 속삭임 · α\n응접실에 배치 시, 오퍼레이터가 단서 5 - 고요한 수도회를 수집할 확률 약간 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n대화와 속삭임\n· β\n응접실에 배치 시, 오퍼레이터가 단서 5 - 고요한 수도회를 수집할 확률 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_13",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 13,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:29.993978+00:00",
+        "contentSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "자이히"
+      }
+    },
+    {
+      "documentId": "auto.operator_13.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 자이히\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\nD96강 시제품 4번\n*\n20\n8\n피버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_13",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 13,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:29.993978+00:00",
+        "contentSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "자이히"
+      }
+    },
+    {
+      "documentId": "auto.operator_13.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 자이히\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n애자일 엑스큐션\n잠재능력 01\n지원 결정체\n가 제공하는\n아츠 증폭\n이 추가로\n5%\n증가합니다.\n오퍼레이터 기념사진 \"탐구욕\" 잠금 해제\n링크 어그리게이션\n잠재능력 02\n궁극기\n스택 오버플로\n의 사용에 필요한 궁극기 에너지\n-10%\n노드 매핑\n잠재능력 03\n연계 스킬\n스트레스 테스트\n가 목표에 명중했을 때, 주변의 다른 목표 하나에게\n1\n회 튕깁니다.\n오퍼레이터 기념사진 \"신앙심\" 잠금 해제\n그레이스케일 릴리스\n잠재능력 04\n지능\n+15\n, 치유 효율\n+10%\n리커전 컨트롤\n잠재능력 05\n궁극기\n스택 오버플로\n가 제공하는\n증폭\n효과가 기존의\n1.1\n배로 증가합니다.\n오퍼레이터 기념사진 \"진리를 향한 믿음\" 잠금 해제\n오퍼레이터 기념사진\n탐구욕\n일러스트레이터: 수줍(Sjoop)\n전, 세상에 존재하는 모든 지식을 알고 싶어요. 그리고... 당신에 대해서도요.\n신앙심\n일러스트레이터: 原野香久山\n율법, 기호, 논리, 연산... 제가 관심 있어 하는 것들이죠.\n진리를 향한 믿음\n일러스트레이터: se_eeeee\n미지를 두려워하지 않고, 혼란을 거부하지 않는 것... 그게 바로 제 신조예요.",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_13",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 13,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:29.993978+00:00",
+        "contentSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "자이히"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 3,
+      "code": "cryo",
+      "label": "냉기"
+    },
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    },
+    "secondary": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 9,
+        "agility": 9,
+        "intellect": 15,
+        "will": 15,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 26,
+        "agility": 26,
+        "intellect": 39,
+        "will": 43,
+        "baseAttack": 86,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 44,
+        "agility": 45,
+        "intellect": 64,
+        "will": 74,
+        "baseAttack": 144,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 62,
+        "agility": 64,
+        "intellect": 89,
+        "will": 104,
+        "baseAttack": 203,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 80,
+        "agility": 82,
+        "intellect": 114,
+        "will": 134,
+        "baseAttack": 262,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 89,
+        "agility": 91,
+        "intellect": 127,
+        "will": 150,
+        "baseAttack": 291,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_13.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_13.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_13.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": []
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_13.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_13.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_13.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 3,
+    "code": "cryo",
+    "label": "냉기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json"
+}

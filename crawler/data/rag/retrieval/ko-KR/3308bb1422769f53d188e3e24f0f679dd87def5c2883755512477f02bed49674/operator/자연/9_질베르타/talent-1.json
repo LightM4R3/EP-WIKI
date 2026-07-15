@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.9.talent-1",
+  "semanticKey": "ko-KR|operator|9|talent-1",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_9",
+    "name": "질베르타",
+    "aliases": [],
+    "gameEntryId": 9
+  },
+  "title": "질베르타 — 전달자의 노래",
+  "content": "질베르타 오퍼레이터의 오퍼레이터 재능 ‘전달자의 노래’.\n단계 1: 필드에 있을 때, 팀 내 모든 아군 가드, 캐스터, 서포터 오퍼레이터의 궁극기 충전 효율 +4%. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 2400개.\n단계 2: 필드에 있을 때, 팀 내 모든 아군 가드, 캐스터, 서포터 오퍼레이터의 궁극기 충전 효율 +4%. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 세트 40개, 탈로시안 화폐 8600개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 1,
+    "name": "전달자의 노래",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "필드에 있을 때, 팀 내 모든 아군 가드, 캐스터, 서포터 오퍼레이터의 궁극기 충전 효율 +4%",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 2400
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "필드에 있을 때, 팀 내 모든 아군 가드, 캐스터, 서포터 오퍼레이터의 궁극기 충전 효율 +4%",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 40
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8600
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "talentKind": "combat_talent",
+    "talentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+    "sourceSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_9.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "635285f5f13ef713837a63f101b88ec3c9751ea606de3b879c148bebc0e3556b",
+    "payloadSha256": "d4cf3b654d636e86fee542febf84d0077f940a225f4b923199bc7423eca7ddc0"
+  }
+}

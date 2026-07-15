@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.92.profile",
+  "semanticKey": "ko-KR|weapon|92|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_92",
+    "name": "십이문",
+    "aliases": [],
+    "gameEntryId": 92
+  },
+  "title": "십이문 — 무기 기본 정보",
+  "content": "십이문 무기의 기본 정보. 무기 유형은 한손검이다. 옵션은 1번 민첩 증가 · 중, 2번 공격력 증가 · 중, 3번 고통 · 파고드는 추궁이다.",
+  "facts": {
+    "name": "십이문",
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.92.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "공격력 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.92.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "고통 · 파고드는 추궁",
+        "documentRef": "epwiki.ko-kr.weapon.92.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "weaponTypeCode": "sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/92_십이문.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=92&header=0",
+    "sourceSha256": "980d5991432b992ad5adad39ecd379a23d72a51774bfa3f0a2ba9d6afcb39b0d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_92.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_92.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0b20f0832f6a06e1070d912e4bf1391fd9d3eb2971d610015604ea3e51190d90",
+    "payloadSha256": "72400c1996076f00949fc398987adeec5fd58705079d565c8418c30ea1168eeb"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.874.forging",
+  "semanticKey": "ko-KR|gear|874|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_874",
+    "name": "검술사 전술 금속 장갑 · I",
+    "aliases": [],
+    "gameEntryId": 874
+  },
+  "title": "검술사 전술 금속 장갑 · I — 정밀 단조",
+  "content": "검술사 전술 금속 장갑 · I 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 힘: +0 65, +1 71, +2 78, +3 84.\n2번 의지: +0 43, +1 47, +2 51, +3 55.\n3번 오리지늄 아츠 강도: +0 34, +1 37, +2 41, +3 44.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 34,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 37,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 41,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 44,
+            "unit": "flat"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_79ba85ac519a",
+    "groupLabel": "검술사",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/874_검술사_전술_금속_장갑_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=874&header=0",
+    "sourceSha256": "27b69d89d4136bae5b61829aadefc3830caea4fc5f244c95df86cae9d0553ff0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_874.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9ee60fb60f21f429e6cefc12ff377ed1dadaebf9251d1ee420d5f61f390b96b5",
+    "payloadSha256": "1ede3484c6255ba4784700017456ca6e0f86d54ac4269c760a377c81523d3e55"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.10.potential-3",
+  "semanticKey": "ko-KR|operator|10|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_10",
+    "name": "아비웨나",
+    "aliases": [],
+    "gameEntryId": 10
+  },
+  "title": "아비웨나 — 잠재능력 3 끝없는 저항",
+  "content": "아비웨나 오퍼레이터의 잠재능력 3 ‘끝없는 저항’. 의지 +15, 주는 전기 피해 +8% 오퍼레이터 기념사진 \"지금 내 생각해?\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "끝없는 저항",
+    "status": "rule_validated",
+    "effect": "의지 +15, 주는 전기 피해 +8% 오퍼레이터 기념사진 \"지금 내 생각해?\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+    "sourceSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_10.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b554b858c3d803f8ac41c29c50108b9491138a9a1630eff00fcc75ea994b71bd",
+    "payloadSha256": "2013240a2d8d96230b224b5a9b11e96be5ce9e1a7310e5db4acdaa5d2c129442"
+  }
+}

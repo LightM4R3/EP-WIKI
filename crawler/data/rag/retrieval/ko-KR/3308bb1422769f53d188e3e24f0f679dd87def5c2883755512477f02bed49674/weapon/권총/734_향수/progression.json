@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.734.progression",
+  "semanticKey": "ko-KR|weapon|734|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_734",
+    "name": "향수",
+    "aliases": [],
+    "gameEntryId": 734
+  },
+  "title": "향수 — 기초 공격력",
+  "content": "향수 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 50.\nLV.20: 기초 공격력 144.\nLV.40: 기초 공격력 243.\nLV.60: 기초 공격력 342.\nLV.80: 기초 공격력 441.\nLV.90: 기초 공격력 490.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 50
+      },
+      {
+        "level": 20,
+        "baseAttack": 144
+      },
+      {
+        "level": 40,
+        "baseAttack": 243
+      },
+      {
+        "level": 60,
+        "baseAttack": 342
+      },
+      {
+        "level": 80,
+        "baseAttack": 441
+      },
+      {
+        "level": 90,
+        "baseAttack": 490
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/734_향수.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=734&header=0",
+    "sourceSha256": "6ec731749cb1ce765a453503c670d0244d65354a52935e6f6d147a92663619a5",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_734.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9665b5bcffb211c0e1b00d90e6e032317e3abb09fbedbd3fa278c97c80166f30",
+    "payloadSha256": "26aa68ec59b7ca28efbe5d8e1a2dfb50b3b8087d3b5aa69ac7e7685922dac146"
+  }
+}

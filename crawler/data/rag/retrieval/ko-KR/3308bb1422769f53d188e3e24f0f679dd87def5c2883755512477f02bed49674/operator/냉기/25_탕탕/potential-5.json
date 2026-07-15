@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.25.potential-5",
+  "semanticKey": "ko-KR|operator|25|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_25",
+    "name": "탕탕",
+    "aliases": [],
+    "gameEntryId": 25
+  },
+  "title": "탕탕 — 잠재능력 5 마안의 권능",
+  "content": "탕탕 오퍼레이터의 잠재능력 5 ‘마안의 권능’. 궁극기 대당가께서 지켜보고 계신다!의 피해 배율이 기존의 1.15 배로 증가합니다. 재능 풍랑의 주재자 효과 강화: 궁극기 대당가께서 지켜보고 계신다!로 생성된 용오름의 피해 증가 효과 추가로 +80%. 오퍼레이터 기념사진 \"절대적인 명령\" 잠금 해제 명함 테마 \"절대적인 명령\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "마안의 권능",
+    "status": "rule_validated",
+    "effect": "궁극기 대당가께서 지켜보고 계신다!의 피해 배율이 기존의 1.15 배로 증가합니다. 재능 풍랑의 주재자 효과 강화: 궁극기 대당가께서 지켜보고 계신다!로 생성된 용오름의 피해 증가 효과 추가로 +80%. 오퍼레이터 기념사진 \"절대적인 명령\" 잠금 해제 명함 테마 \"절대적인 명령\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+    "sourceSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+    "authority": "canonical",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.operator_25.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "63f5654e4ae719eb98779c75ffa5d21961d2815383ea2d27b2c9621d23fc6b33",
+    "payloadSha256": "41844ebb158f152f591c3e00bc940d1ad592c7c62797f44b1aebf9e8f614fd39"
+  }
+}

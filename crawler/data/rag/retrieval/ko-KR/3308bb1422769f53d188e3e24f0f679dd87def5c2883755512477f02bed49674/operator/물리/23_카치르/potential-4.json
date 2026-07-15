@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.23.potential-4",
+  "semanticKey": "ko-KR|operator|23|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_23",
+    "name": "카치르",
+    "aliases": [],
+    "gameEntryId": 23
+  },
+  "title": "카치르 — 잠재능력 4 고난의 대가",
+  "content": "카치르 오퍼레이터의 잠재능력 4 ‘고난의 대가’. 궁극기 교과서적인 맹공의 사용에 필요한 궁극기 에너지 -10%",
+  "facts": {
+    "stage": 4,
+    "name": "고난의 대가",
+    "status": "rule_validated",
+    "effect": "궁극기 교과서적인 맹공의 사용에 필요한 궁극기 에너지 -10%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/23_카치르.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=23&header=0",
+    "sourceSha256": "bc0bfc7536d9836561ccdd2b8feeeba067fb28d44c332cf2d60746c0234bf642",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_23.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5dd334390fea97cd1f9fdf52324838f132efa41b5e8b455ffb8303d3a6797cde",
+    "payloadSha256": "cf7b184f64400fc62d89a3e641f9f2ab138b00cb1fb42165ff81f55bdc966e8c"
+  }
+}

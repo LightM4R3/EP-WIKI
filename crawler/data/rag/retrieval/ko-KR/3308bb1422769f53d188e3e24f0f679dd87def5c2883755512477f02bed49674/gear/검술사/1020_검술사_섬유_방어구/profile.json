@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.1020.profile",
+  "semanticKey": "ko-KR|gear|1020|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_1020",
+    "name": "검술사 섬유 방어구",
+    "aliases": [],
+    "gameEntryId": 1020
+  },
+  "title": "검술사 섬유 방어구 — 장비 기본 정보",
+  "content": "검술사 섬유 방어구 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 검술사이다. LV.70, 방어력 56. 옵션은 1번 힘 87, 2번 의지 58, 3번 물리 피해 보너스 11.5%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "검술사 섬유 방어구",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2042367052,
+      "code": "gear_set_79ba85ac519a",
+      "label": "검술사"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "물리 피해 보너스",
+        "baseValue": {
+          "value": 11.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-79ba85ac519a.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_79ba85ac519a",
+    "groupLabel": "검술사",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_79ba85ac519a"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/1020_검술사_섬유_방어구.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1020&header=0",
+    "sourceSha256": "57d7d2a67e9221c2b93adb4b1213754b67edb625fd3ebdc7b94dc5aac229c1ce",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_1020.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_1020.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "fd4ff54dafd1587a307d80e6a19be0b66a7553f3a47fd19233c1e80d547bdec2",
+    "payloadSha256": "8b74792c7a97ed21da0025f39cd26c4e5e6a92fbd809d005ce1456811c9312ee"
+  }
+}

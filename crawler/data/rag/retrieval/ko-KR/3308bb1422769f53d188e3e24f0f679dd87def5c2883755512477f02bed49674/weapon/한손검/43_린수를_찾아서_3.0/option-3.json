@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.43.option-3",
+  "semanticKey": "ko-KR|weapon|43|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_43",
+    "name": "린수를 찾아서 3.0",
+    "aliases": [],
+    "gameEntryId": 43
+  },
+  "title": "린수를 찾아서 3.0 — 3번 옵션 억제 · 린수를 향한 의지",
+  "content": "린수를 찾아서 3.0 무기의 3번 옵션 ‘억제 · 린수를 향한 의지’.\nRANK1: 공격력 +5.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +7.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 공격력 +6.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +8.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 공격력 +7.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +9.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 공격력 +8.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +11.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 공격력 +9.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +12.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 공격력 +10.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +14.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK7: 공격력 +11.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +15.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 공격력 +12.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +16.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 공격력 +14.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +19.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "억제 · 린수를 향한 의지",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "공격력 +5.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +7.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "공격력 +6.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +8.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "공격력 +7.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +9.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "공격력 +8.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +11.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "공격력 +9.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +12.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "공격력 +10.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +14.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "공격력 +11.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +15.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "공격력 +12.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +16.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "공격력 +14.0% 장착자가 배틀 스킬을 사용하여 적에게 동결을 부여할 때, 목표가 받는 냉기 피해 +19.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/43_린수를_찾아서_3.0.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=43&header=0",
+    "sourceSha256": "b473287e9d00e64cf0f591a3cf507097f442897d19a0109f3305bd8868f97809",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_43.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9287c60c62a787a53abde633a801ee3459e003081cfc9f2e58ad8100d3d6f6b0",
+    "payloadSha256": "c5d84b29c0892e29e0cffc62fec90f20ca65c8dcffd14e5f5a2cdb4f87d95803"
+  }
+}

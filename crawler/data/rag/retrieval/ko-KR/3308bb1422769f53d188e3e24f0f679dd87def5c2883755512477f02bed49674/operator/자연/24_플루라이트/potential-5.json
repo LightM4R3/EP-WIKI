@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.24.potential-5",
+  "semanticKey": "ko-KR|operator|24|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_24",
+    "name": "플루라이트",
+    "aliases": [],
+    "gameEntryId": 24
+  },
+  "title": "플루라이트 — 잠재능력 5 혼돈의 쾌락",
+  "content": "플루라이트 오퍼레이터의 잠재능력 5 ‘혼돈의 쾌락’. 적에게 냉기 부착 혹은 자연 부착을 부여할 때마다, 연계 스킬 특별 보너스의 쿨타임 -1 초. 해당 효과는 1초마다 최대 1회만 발동합니다. 오퍼레이터 기념사진 \"규칙의 경계선\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "혼돈의 쾌락",
+    "status": "rule_validated",
+    "effect": "적에게 냉기 부착 혹은 자연 부착을 부여할 때마다, 연계 스킬 특별 보너스의 쿨타임 -1 초. 해당 효과는 1초마다 최대 1회만 발동합니다. 오퍼레이터 기념사진 \"규칙의 경계선\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/24_플루라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=24&header=0",
+    "sourceSha256": "949fec33735758975e7f7af4c32fb5dd785d45c95620e4a9dc4a1cfdfe682b3d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_24.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9d3b9e96a252207baab0271cdbfe1c1b4614bc8ed8d2542bd80017e2cc728c5e",
+    "payloadSha256": "4bfa964800380514a054f2e630593d25f9fe7cd859669d0f371d99e03cbf2a8f"
+  }
+}

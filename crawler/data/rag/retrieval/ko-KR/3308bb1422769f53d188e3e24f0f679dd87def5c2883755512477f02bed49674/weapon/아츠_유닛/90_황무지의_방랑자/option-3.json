@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.90.option-3",
+  "semanticKey": "ko-KR|weapon|90|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_90",
+    "name": "황무지의 방랑자",
+    "aliases": [],
+    "gameEntryId": 90
+  },
+  "title": "황무지의 방랑자 — 3번 옵션 고통 · 황무지 군집",
+  "content": "황무지의 방랑자 무기의 3번 옵션 ‘고통 · 황무지 군집’.\nRANK1: 오리지늄 아츠 강도 +10 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +8.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 오리지늄 아츠 강도 +12 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +9.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 오리지늄 아츠 강도 +14 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +11.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 오리지늄 아츠 강도 +16 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +12.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 오리지늄 아츠 강도 +18 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +14.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 오리지늄 아츠 강도 +20 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +16.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK7: 오리지늄 아츠 강도 +22 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +17.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 오리지늄 아츠 강도 +24 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +19.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 오리지늄 아츠 강도 +28 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +22.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "고통 · 황무지 군집",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "오리지늄 아츠 강도 +10 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +8.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "오리지늄 아츠 강도 +12 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +9.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "오리지늄 아츠 강도 +14 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +11.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "오리지늄 아츠 강도 +16 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +12.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "오리지늄 아츠 강도 +18 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +14.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "오리지늄 아츠 강도 +20 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +16.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "오리지늄 아츠 강도 +22 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +17.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "오리지늄 아츠 강도 +24 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +19.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "오리지늄 아츠 강도 +28 장착자가 적에게 감전 효과를 부여할 때, 팀 전체가 주는 물리와 전기 피해 +22.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/90_황무지의_방랑자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=90&header=0",
+    "sourceSha256": "28f4fdc8b7906d627351b887eae0dc09886c377b74efedfa21bbcf22ffb79559",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_90.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "061ada71a7815f2a749acdd24d8631f916c729585f77af426f5b3b17de9a2aaa",
+    "payloadSha256": "a1c6e4742f613d9ab170a43bf861c125cb7900c0c0671743c5e5c377bf26ecde"
+  }
+}

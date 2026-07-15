@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.264.forging",
+  "semanticKey": "ko-KR|gear|264|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_264",
+    "name": "M. I. 경찰용 장갑(팔찌) · I",
+    "aliases": [],
+    "gameEntryId": 264
+  },
+  "title": "M. I. 경찰용 장갑(팔찌) · I — 정밀 단조",
+  "content": "M. I. 경찰용 장갑(팔찌) · I 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 지능: +0 65, +1 71, +2 78, +3 84.\n2번 의지: +0 43, +1 47, +2 51, +3 55.\n3번 치명타 확률: +0 8.6%, +1 9.5%, +2 10.3%, +3 11.2%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "치명타 확률",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 8.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 9.5,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 10.3,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 11.2,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_9bfa3d212476",
+    "groupLabel": "M. I. 경찰용",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/264_M._I._경찰용_장갑(팔찌)_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=264&header=0",
+    "sourceSha256": "fcd62e90aca3438e22d1ca4c74cc62e0c443fe7d8c72f643a69adf99b07eb942",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_264.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "86fedeb4eb2f35d5cf8460a05f13c5f0584802190c44733168dc170349844197",
+    "payloadSha256": "dda160d0b08e91e9e54980606094e4694049da5ec72e2bbd97cc16ad575d93c5"
+  }
+}

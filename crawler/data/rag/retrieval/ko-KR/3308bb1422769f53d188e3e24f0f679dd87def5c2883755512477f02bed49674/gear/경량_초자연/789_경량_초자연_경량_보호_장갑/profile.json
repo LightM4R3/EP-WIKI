@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.789.profile",
+  "semanticKey": "ko-KR|gear|789|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_789",
+    "name": "경량 초자연 경량 보호 장갑",
+    "aliases": [],
+    "gameEntryId": 789
+  },
+  "title": "경량 초자연 경량 보호 장갑 — 장비 기본 정보",
+  "content": "경량 초자연 경량 보호 장갑 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 경량 초자연이다. LV.70, 방어력 42. 옵션은 1번 의지 65, 2번 민첩 43, 3번 모든 스킬 피해 보너스 23%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "경량 초자연 경량 보호 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 4212229625,
+      "code": "gear_set_fb0fff599026",
+      "label": "경량 초자연"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "모든 스킬 피해 보너스",
+        "baseValue": {
+          "value": 23,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-fb0fff599026.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_fb0fff599026",
+    "groupLabel": "경량 초자연",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_fb0fff599026"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/경량_초자연/789_경량_초자연_경량_보호_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=789&header=0",
+    "sourceSha256": "505382e1f1b81a93d00ce94a80ec5ddcfcb87a99f1b22013f7c3c2f0d87aa49d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_789.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_789.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "79177a1ac9477fcb3daca8d40569a286a4e87160ff48a03db277a5364b0f5e13",
+    "payloadSha256": "d5efdab444dde8a3d478711ed0c2afea8ac1e78c468928aa4086c6ce0ab701ef"
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_43",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 43,
+    "name": "린수를 찾아서 3.0"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=43&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "b473287e9d00e64cf0f591a3cf507097f442897d19a0109f3305bd8868f97809",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_43.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 린수를 찾아서 3.0\ngameEntryId: 43\n정규화 상태: query_ready\n무기 유형: 한손검 (id=0, code=sword)\n기초 공격력: LV.1=42, LV.20=120, LV.40=203, LV.60=286, LV.80=369, LV.90=411\n무기 옵션: 1번=힘 증가 · 중; 2번=냉기 피해 증가 · 중; 3번=억제 · 린수를 향한 의지\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_43",
+        "gameEntryId": 43,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=43&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/43_린수를_찾아서_3.0.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 0,
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "evidenceDocumentIds": [
+          "auto.weapon_43.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_43.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_43.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_43.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_43.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_43.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 린수를 찾아서 3.0\ncategory: weapon\nsection: profile\n린수를 찾아서 3.0\n유형\n한손검\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n노스마치 중공업 지원소 '아웃도어 익스플로러' 시리즈의 주력 제품, 자연 친화적 설계 이념과 뛰어난 휴대성으로 많은 탐험가와 린수 사냥 마니아들에게 극찬받고 있습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_43",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=43&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 43,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:55.300625+00:00",
+        "contentSha256": "b473287e9d00e64cf0f591a3cf507097f442897d19a0109f3305bd8868f97809",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/43_린수를_찾아서_3.0.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "린수를 찾아서 3.0"
+      }
+    },
+    {
+      "documentId": "auto.weapon_43.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 린수를 찾아서 3.0\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n린수를 찾아서 3.0\n한손검\n·획득 방법\n구매 센터 - 무기고 거래소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n42\n411\n힘 증가 · 중\n힘\n+16\n1/3\n힘\n+124\n9/9\n냉기 피해 증가 · 중\n냉기 피해\n+4.4%\n1/3\n냉기 피해\n+34.7%\n9/9\n억제 · 린수를 향한 의지\n공격력\n+5.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+7.0%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n1/4\n공격력\n+14.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+19.6%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_43",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=43&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 43,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:55.300625+00:00",
+        "contentSha256": "b473287e9d00e64cf0f591a3cf507097f442897d19a0109f3305bd8868f97809",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/43_린수를_찾아서_3.0.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "린수를 찾아서 3.0"
+      }
+    },
+    {
+      "documentId": "auto.weapon_43.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 린수를 찾아서 3.0\ncategory: weapon\nsection: progression\n업그레이드\n돌파\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n42\n-\n힘 증가 · 중\n힘\n+16\n1/3\n냉기 피해 증가 · 중\n냉기 피해\n+4.4%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n120\n120\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n힘 증가 · 중\n힘\n+16\n1/3\n힘\n+28\n2/5\n냉기 피해 증가 · 중\n냉기 피해\n+4.4%\n1/3\n냉기 피해\n+4.4%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n203\n203\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n힘 증가 · 중\n힘\n+28\n2/5\n힘\n+28\n2/6\n냉기 피해 증가 · 중\n냉기 피해\n+4.4%\n1/4\n냉기 피해\n+8.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n286\n286\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n힘 증가 · 중\n힘\n+28\n2/6\n힘\n+41\n3/8\n냉기 피해 증가 · 중\n냉기 피해\n+8.0%\n2/6\n냉기 피해\n+8.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n369\n369\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n힘 증가 · 중\n힘\n+41\n3/8\n힘\n+41\n3/9\n냉기 피해 증가 · 중\n냉기 피해\n+8.0%\n2/7\n냉기 피해\n+11.6%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n411\n-\n힘 증가 · 중\n힘\n+41\n3/9\n냉기 피해 증가 · 중\n냉기 피해\n+11.6%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_43",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=43&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 43,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:55.300625+00:00",
+        "contentSha256": "b473287e9d00e64cf0f591a3cf507097f442897d19a0109f3305bd8868f97809",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/43_린수를_찾아서_3.0.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "린수를 찾아서 3.0"
+      }
+    },
+    {
+      "documentId": "auto.weapon_43.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 린수를 찾아서 3.0\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n힘 증가 · 중\n냉기 피해 증가 · 중\n억제 · 린수를 향한 의지\nRANK 1\n힘\n+16\n냉기 피해\n+4.4%\n공격력\n+5.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+7.0%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 2\n힘\n+28\n냉기 피해\n+8.0%\n공격력\n+6.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+8.4%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 3\n힘\n+41\n냉기 피해\n+11.6%\n공격력\n+7.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+9.8%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 4\n힘\n+54\n냉기 피해\n+15.1%\n공격력\n+8.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+11.2%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 5\n힘\n+67\n냉기 피해\n+18.7%\n공격력\n+9.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+12.6%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 6\n힘\n+80\n냉기 피해\n+22.2%\n공격력\n+10.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+14.0%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 7\n힘\n+92\n냉기 피해\n+25.8%\n공격력\n+11.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+15.4%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 8\n힘\n+105\n냉기 피해\n+29.3%\n공격력\n+12.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+16.8%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 9\n힘\n+124\n냉기 피해\n+34.7%\n공격력\n+14.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+19.6%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n힘 증가\n냉기 피해 증가\n억제",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_43",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=43&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 43,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:55.300625+00:00",
+        "contentSha256": "b473287e9d00e64cf0f591a3cf507097f442897d19a0109f3305bd8868f97809",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/43_린수를_찾아서_3.0.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "린수를 찾아서 3.0"
+      }
+    },
+    {
+      "documentId": "auto.weapon_43.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 린수를 찾아서 3.0\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n억제 · 린수를 향한 의지\n기본/최대\n억제 · 린수를 향한 의지\n잠재능력 1\n1/4\n공격력\n+5.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+7.0%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 2\n2/5\n공격력\n+6.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+8.4%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 3\n3/6\n공격력\n+7.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+9.8%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 4\n4/7\n공격력\n+8.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+11.2%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 5\n5/8\n공격력\n+9.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+12.6%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 6\n6/9\n공격력\n+10.0%\n장착자가 배틀 스킬을 사용하여 적에게\n동결\n을 부여할 때, 목표가 받는 냉기 피해\n+14.0%\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_43",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=43&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 43,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:55.300625+00:00",
+        "contentSha256": "b473287e9d00e64cf0f591a3cf507097f442897d19a0109f3305bd8868f97809",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/43_린수를_찾아서_3.0.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "린수를 찾아서 3.0"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 42
+    },
+    {
+      "level": 20,
+      "baseAttack": 120
+    },
+    {
+      "level": 40,
+      "baseAttack": 203
+    },
+    {
+      "level": 60,
+      "baseAttack": 286
+    },
+    {
+      "level": 80,
+      "baseAttack": 369
+    },
+    {
+      "level": 90,
+      "baseAttack": 411
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘 증가 · 중",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_43.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "냉기 피해 증가 · 중",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_43.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "억제 · 린수를 향한 의지",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_43.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 0,
+    "code": "sword",
+    "label": "한손검"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/한손검/43_린수를_찾아서_3.0.json"
+}

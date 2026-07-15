@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.10.potential-1",
+  "semanticKey": "ko-KR|operator|10|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_10",
+    "name": "아비웨나",
+    "aliases": [],
+    "gameEntryId": 10
+  },
+  "title": "아비웨나 — 잠재능력 1 더블 베팅",
+  "content": "아비웨나 오퍼레이터의 잠재능력 1 ‘더블 베팅’. 재능 '고효율 배송' 효과 강화: 획득하는 궁극기 에너지 +2 포인트 오퍼레이터 기념사진 \"너 여기 있었구나?\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "더블 베팅",
+    "status": "rule_validated",
+    "effect": "재능 '고효율 배송' 효과 강화: 획득하는 궁극기 에너지 +2 포인트 오퍼레이터 기념사진 \"너 여기 있었구나?\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+    "sourceSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_10.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "eebc20b1fa36e311cc514a2a7bdd1b7ecb6cc506e904e543baac9c43645cdb31",
+    "payloadSha256": "784f221261149016a7b8411f5560096c4c69596937810ed80582cc0a05c3f859"
+  }
+}

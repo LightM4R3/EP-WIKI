@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.5.infrastructure-1",
+  "semanticKey": "ko-KR|operator|5|infrastructure-1",
+  "locale": "ko-KR",
+  "documentType": "operator_infrastructure_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_5",
+    "name": "아케쿠리",
+    "aliases": [],
+    "gameEntryId": 5
+  },
+  "title": "아케쿠리 — 인프라 재능 커피 또는 차",
+  "content": "아케쿠리 오퍼레이터의 인프라 재능 ‘커피 또는 차’.\n커피 또는 차 · α: 제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 10% 감소. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 6개, 탈로시안 화폐 1600개.\n커피 또는 차 · β: 제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 12개, 탈로시안 화폐 8000개.",
+  "facts": {
+    "index": 1,
+    "name": "커피 또는 차",
+    "variants": [
+      {
+        "grade": "α",
+        "name": "커피 또는 차 · α",
+        "description": "제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 10% 감소",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 6
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1600
+          }
+        ]
+      },
+      {
+        "grade": "β",
+        "name": "커피 또는 차 · β",
+        "description": "제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_infrastructure_talent",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "infrastructureTalentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/5_아케쿠리.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=5&header=0",
+    "sourceSha256": "1d32fb2a32cd175406743463d61a07b698b38b73717039f7510313cb4f8f62a0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_5.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9d441f96129519e398e73dd220b404b1055383ba0d86ff5327f365083534338f",
+    "payloadSha256": "23556db1f2769d36b061d9bf18c5762b2e81069c12ed85040582ad9fc43a93b8"
+  }
+}

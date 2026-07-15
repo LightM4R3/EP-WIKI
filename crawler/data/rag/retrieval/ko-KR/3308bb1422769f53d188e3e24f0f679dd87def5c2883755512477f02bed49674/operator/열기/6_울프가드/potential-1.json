@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.6.potential-1",
+  "semanticKey": "ko-KR|operator|6|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_6",
+    "name": "울프가드",
+    "aliases": [],
+    "gameEntryId": 6
+  },
+  "title": "울프가드 — 잠재능력 1 떠돌이 늑대",
+  "content": "울프가드 오퍼레이터의 잠재능력 1 ‘떠돌이 늑대’. 힘 +15, 민첩 +15 오퍼레이터 기념사진 \"사냥의 시간\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "떠돌이 늑대",
+    "status": "rule_validated",
+    "effect": "힘 +15, 민첩 +15 오퍼레이터 기념사진 \"사냥의 시간\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/6_울프가드.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=6&header=0",
+    "sourceSha256": "492ece7d684a23a664abd89e05442e827d963e2742f2b546bfa1d3fcfaa297d1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_6.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "69142994c1229c50abea9fdde0277f7998d91954cbcfa613c340ac582b9a8fc3",
+    "payloadSha256": "417828e73bb8e8bda323553e945c97f3f6713ba864071310afeeeeb04c55edf6"
+  }
+}

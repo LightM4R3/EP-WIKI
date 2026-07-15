@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.18.infrastructure-1",
+  "semanticKey": "ko-KR|operator|18|infrastructure-1",
+  "locale": "ko-KR",
+  "documentType": "operator_infrastructure_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_18",
+    "name": "알레쉬",
+    "aliases": [],
+    "gameEntryId": 18
+  },
+  "title": "알레쉬 — 인프라 재능 여유로운 낚시",
+  "content": "알레쉬 오퍼레이터의 인프라 재능 ‘여유로운 낚시’.\n여유로운 낚시 · α: 핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 8% 증가. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 6개, 탈로시안 화폐 1600개.\n여유로운 낚시 · β: 핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 12% 증가. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 12개, 탈로시안 화폐 8000개.",
+  "facts": {
+    "index": 1,
+    "name": "여유로운 낚시",
+    "variants": [
+      {
+        "grade": "α",
+        "name": "여유로운 낚시 · α",
+        "description": "핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 8% 증가",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 6
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1600
+          }
+        ]
+      },
+      {
+        "grade": "β",
+        "name": "여유로운 낚시 · β",
+        "description": "핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 12% 증가",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_infrastructure_talent",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "infrastructureTalentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+    "sourceSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_18.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "11ebe1cb4118c92726695e239dd8e122a6edbdd18581212471f995fbd94f2e12",
+    "payloadSha256": "9d098bf1481e93d2b36c804fceced65982d3ca0213c6b5cc182315d170b33f12"
+  }
+}

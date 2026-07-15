@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.838.potential-5",
+  "semanticKey": "ko-KR|operator|838|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_838",
+    "name": "장방이",
+    "aliases": [],
+    "gameEntryId": 838
+  },
+  "title": "장방이 — 잠재능력 5 격변",
+  "content": "장방이 오퍼레이터의 잠재능력 5 ‘격변’. 천리의 경지 상태에서 자신이 주는 피해가 적의 전기 저항 15 포인트를 무시합니다. 오퍼레이터 기념사진 \"주사위는 던져졌다\" 잠금 해제 명함 테마 \"주사위는 던져졌다\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "격변",
+    "status": "rule_validated",
+    "effect": "천리의 경지 상태에서 자신이 주는 피해가 적의 전기 저항 15 포인트를 무시합니다. 오퍼레이터 기념사진 \"주사위는 던져졌다\" 잠금 해제 명함 테마 \"주사위는 던져졌다\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/838_장방이.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=838&header=0",
+    "sourceSha256": "ccdae3966bde94c9b63200b3a967536b36b510c500d389b62b007105d2ee778b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_838.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "865ba1d8ec7a9ee96c85865f281895176be3061951540fb6f2946fa688106de3",
+    "payloadSha256": "373f2027b5042515328b0129daba0a1c0f87779fa5fd0539ef15a3d3bc0944cd"
+  }
+}

@@ -1,0 +1,663 @@
+{
+  "schemaVersion": "1.0.0",
+  "dataset": {
+    "grain": "one normalized file per locale/domain/gameEntryId",
+    "entities": 320,
+    "sourceDocuments": 1421,
+    "byDomain": {
+      "gear": 220,
+      "operator": 28,
+      "weapon": 72
+    }
+  },
+  "checks": {
+    "uniqueEntityKeys": {
+      "passed": true,
+      "duplicates": 0
+    },
+    "queryReady": {
+      "passed": true,
+      "entities": 320,
+      "rate": 1.0
+    },
+    "groupingCoverage": {
+      "passed": true,
+      "byDomainAndLabel": {
+        "operator": {
+          "냉기": 7,
+          "물리": 8,
+          "열기": 5,
+          "자연": 3,
+          "전기": 5
+        },
+        "weapon": {
+          "권총": 12,
+          "아츠 유닛": 16,
+          "양손검": 14,
+          "장병기": 11,
+          "한손검": 19
+        },
+        "gear": {
+          "M. I. 경찰용": 15,
+          "개척": 14,
+          "검술사": 11,
+          "경량 초자연": 7,
+          "고검의 잔향": 6,
+          "본 크러셔": 14,
+          "생체 보조": 9,
+          "세트 없음": 38,
+          "순행 전달자": 9,
+          "식양의 숨결": 6,
+          "식양의 흐름": 3,
+          "아부레이의 메아리": 11,
+          "열 작업용": 8,
+          "응룡 50식": 11,
+          "재앙 방호": 6,
+          "조류의 물결": 4,
+          "중장갑 전달자": 9,
+          "청파": 8,
+          "침식 방호": 8,
+          "침식 차단": 10,
+          "통합 경량형 모델": 4,
+          "통합 중량형 모델": 4,
+          "펄스식": 5
+        }
+      }
+    },
+    "unresolvedFields": {
+      "crafting.materialCosts": 220,
+      "identity.imageUrl": 71,
+      "identity.portraitUrl": 27,
+      "identity.rarity": 98,
+      "options.structuredValues": 72,
+      "progression.materialCosts": 100,
+      "progression.sourceConflicts": 7,
+      "setEffect.structuredRules": 220,
+      "skills.structuredValues": 28,
+      "taxonomy.class": 27
+    },
+    "sourceConflicts": {
+      "count": 18,
+      "entities": 7,
+      "details": [
+        {
+          "entityType": "operator",
+          "gameEntryId": 6,
+          "name": "울프가드",
+          "field": "기초 생명력",
+          "headerValues": [
+            500,
+            1566,
+            2689,
+            3811,
+            4934,
+            5495
+          ],
+          "detailValues": [
+            500,
+            1566,
+            1689,
+            3811,
+            4934,
+            5495
+          ],
+          "selectedValues": [
+            500,
+            1566,
+            2689,
+            3811,
+            4934,
+            5495
+          ],
+          "resolution": "dataset_consensus_reference_selected",
+          "evidenceDocumentId": "auto.operator_6.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 12,
+          "name": "여풍",
+          "field": "힘",
+          "headerValues": [
+            14,
+            38,
+            62,
+            86,
+            86,
+            123
+          ],
+          "detailValues": [
+            14,
+            38,
+            62,
+            86,
+            111,
+            123
+          ],
+          "selectedValues": [
+            14,
+            38,
+            62,
+            86,
+            111,
+            123
+          ],
+          "resolution": "detail_table_selected_non_monotonic_header",
+          "evidenceDocumentId": "auto.operator_12.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 12,
+          "name": "여풍",
+          "field": "지능",
+          "headerValues": [
+            13,
+            35,
+            58,
+            81,
+            104,
+            110
+          ],
+          "detailValues": [
+            13,
+            35,
+            58,
+            81,
+            104,
+            115
+          ],
+          "selectedValues": [
+            13,
+            35,
+            58,
+            81,
+            104,
+            115
+          ],
+          "resolution": "detail_table_preferred_ambiguous_conflict",
+          "evidenceDocumentId": "auto.operator_12.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 14,
+          "name": "이본",
+          "field": "힘",
+          "headerValues": [
+            8,
+            24,
+            40,
+            57,
+            74,
+            82
+          ],
+          "detailValues": [
+            8,
+            24,
+            40,
+            40,
+            74,
+            82
+          ],
+          "selectedValues": [
+            8,
+            24,
+            40,
+            57,
+            74,
+            82
+          ],
+          "resolution": "header_table_selected_non_monotonic_detail",
+          "evidenceDocumentId": "auto.operator_14.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 14,
+          "name": "이본",
+          "field": "민첩",
+          "headerValues": [
+            14,
+            38,
+            64,
+            89,
+            115,
+            128
+          ],
+          "detailValues": [
+            14,
+            38,
+            64,
+            64,
+            115,
+            128
+          ],
+          "selectedValues": [
+            14,
+            38,
+            64,
+            89,
+            115,
+            128
+          ],
+          "resolution": "header_table_selected_non_monotonic_detail",
+          "evidenceDocumentId": "auto.operator_14.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 14,
+          "name": "이본",
+          "field": "지능",
+          "headerValues": [
+            24,
+            57,
+            91,
+            125,
+            159,
+            176
+          ],
+          "detailValues": [
+            24,
+            57,
+            91,
+            91,
+            159,
+            176
+          ],
+          "selectedValues": [
+            24,
+            57,
+            91,
+            125,
+            159,
+            176
+          ],
+          "resolution": "header_table_selected_non_monotonic_detail",
+          "evidenceDocumentId": "auto.operator_14.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 14,
+          "name": "이본",
+          "field": "의지",
+          "headerValues": [
+            10,
+            30,
+            52,
+            73,
+            94,
+            105
+          ],
+          "detailValues": [
+            10,
+            30,
+            52,
+            52,
+            94,
+            105
+          ],
+          "selectedValues": [
+            10,
+            30,
+            52,
+            73,
+            94,
+            105
+          ],
+          "resolution": "header_table_selected_non_monotonic_detail",
+          "evidenceDocumentId": "auto.operator_14.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 14,
+          "name": "이본",
+          "field": "기초 공격력",
+          "headerValues": [
+            30,
+            92,
+            157,
+            223,
+            288,
+            321
+          ],
+          "detailValues": [
+            30,
+            92,
+            157,
+            157,
+            288,
+            321
+          ],
+          "selectedValues": [
+            30,
+            92,
+            157,
+            223,
+            288,
+            321
+          ],
+          "resolution": "header_table_selected_non_monotonic_detail",
+          "evidenceDocumentId": "auto.operator_14.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 15,
+          "name": "엠버",
+          "field": "기초 공격력",
+          "headerValues": [
+            30,
+            93,
+            159,
+            159,
+            291,
+            323
+          ],
+          "detailValues": [
+            30,
+            93,
+            159,
+            225,
+            291,
+            323
+          ],
+          "selectedValues": [
+            30,
+            93,
+            159,
+            225,
+            291,
+            323
+          ],
+          "resolution": "detail_table_selected_non_monotonic_header",
+          "evidenceDocumentId": "auto.operator_15.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 15,
+          "name": "엠버",
+          "field": "기초 생명력",
+          "headerValues": [
+            500,
+            1566,
+            2689,
+            2689,
+            4934,
+            5495
+          ],
+          "detailValues": [
+            500,
+            1566,
+            2689,
+            3811,
+            4934,
+            5495
+          ],
+          "selectedValues": [
+            500,
+            1566,
+            2689,
+            3811,
+            4934,
+            5495
+          ],
+          "resolution": "dataset_consensus_reference_selected",
+          "evidenceDocumentId": "auto.operator_15.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 17,
+          "name": "라스트 라이트",
+          "field": "지능",
+          "headerValues": [
+            9,
+            27,
+            46,
+            65,
+            84,
+            93
+          ],
+          "detailValues": [
+            9,
+            27,
+            46,
+            65,
+            84,
+            94
+          ],
+          "selectedValues": [
+            9,
+            27,
+            46,
+            65,
+            84,
+            94
+          ],
+          "resolution": "detail_table_preferred_ambiguous_conflict",
+          "evidenceDocumentId": "auto.operator_17.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 22,
+          "name": "안탈",
+          "field": "힘",
+          "headerValues": [
+            15,
+            40,
+            65,
+            91,
+            116,
+            129
+          ],
+          "detailValues": [
+            15,
+            40,
+            65,
+            65,
+            91,
+            129
+          ],
+          "selectedValues": [
+            15,
+            40,
+            65,
+            91,
+            116,
+            129
+          ],
+          "resolution": "header_table_selected_non_monotonic_detail",
+          "evidenceDocumentId": "auto.operator_22.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 22,
+          "name": "안탈",
+          "field": "민첩",
+          "headerValues": [
+            9,
+            25,
+            43,
+            60,
+            78,
+            86
+          ],
+          "detailValues": [
+            9,
+            25,
+            43,
+            43,
+            60,
+            86
+          ],
+          "selectedValues": [
+            9,
+            25,
+            43,
+            60,
+            78,
+            86
+          ],
+          "resolution": "header_table_selected_non_monotonic_detail",
+          "evidenceDocumentId": "auto.operator_22.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 22,
+          "name": "안탈",
+          "field": "지능",
+          "headerValues": [
+            15,
+            47,
+            81,
+            114,
+            148,
+            165
+          ],
+          "detailValues": [
+            15,
+            47,
+            81,
+            81,
+            114,
+            165
+          ],
+          "selectedValues": [
+            15,
+            47,
+            81,
+            114,
+            148,
+            165
+          ],
+          "resolution": "header_table_selected_non_monotonic_detail",
+          "evidenceDocumentId": "auto.operator_22.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 22,
+          "name": "안탈",
+          "field": "의지",
+          "headerValues": [
+            9,
+            25,
+            41,
+            58,
+            74,
+            82
+          ],
+          "detailValues": [
+            9,
+            25,
+            41,
+            41,
+            58,
+            82
+          ],
+          "selectedValues": [
+            9,
+            25,
+            41,
+            58,
+            74,
+            82
+          ],
+          "resolution": "header_table_selected_non_monotonic_detail",
+          "evidenceDocumentId": "auto.operator_22.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 22,
+          "name": "안탈",
+          "field": "기초 공격력",
+          "headerValues": [
+            30,
+            87,
+            147,
+            207,
+            267,
+            297
+          ],
+          "detailValues": [
+            30,
+            87,
+            147,
+            147,
+            207,
+            297
+          ],
+          "selectedValues": [
+            30,
+            87,
+            147,
+            207,
+            267,
+            297
+          ],
+          "resolution": "header_table_selected_non_monotonic_detail",
+          "evidenceDocumentId": "auto.operator_22.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 22,
+          "name": "안탈",
+          "field": "기초 생명력",
+          "headerValues": [
+            500,
+            1566,
+            2689,
+            3811,
+            4934,
+            5495
+          ],
+          "detailValues": [
+            500,
+            1566,
+            2689,
+            2689,
+            3811,
+            5495
+          ],
+          "selectedValues": [
+            500,
+            1566,
+            2689,
+            3811,
+            4934,
+            5495
+          ],
+          "resolution": "dataset_consensus_reference_selected",
+          "evidenceDocumentId": "auto.operator_22.progression.c3.chapter.s2.p0.ko-kr"
+        },
+        {
+          "entityType": "operator",
+          "gameEntryId": 23,
+          "name": "카치르",
+          "field": "민첩",
+          "headerValues": [
+            9,
+            28,
+            47,
+            67,
+            87,
+            96
+          ],
+          "detailValues": [
+            9,
+            28,
+            47,
+            67,
+            87,
+            196
+          ],
+          "selectedValues": [
+            9,
+            28,
+            47,
+            67,
+            87,
+            196
+          ],
+          "resolution": "detail_table_preferred_ambiguous_conflict",
+          "evidenceDocumentId": "auto.operator_23.progression.c3.chapter.s2.p0.ko-kr"
+        }
+      ]
+    }
+  },
+  "verdict": "query_ready"
+}

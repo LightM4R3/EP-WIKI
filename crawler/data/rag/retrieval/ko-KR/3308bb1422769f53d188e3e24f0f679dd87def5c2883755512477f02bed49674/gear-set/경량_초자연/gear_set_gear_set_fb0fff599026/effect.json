@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-fb0fff599026.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_fb0fff599026|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_fb0fff599026",
+    "name": "경량 초자연",
+    "aliases": []
+  },
+  "title": "경량 초자연 — 장비 세트 효과",
+  "content": "경량 초자연 장비 세트의 3개 세트 효과. 장착자의 공격력 +8%. 장착자가 적에게 방어 불능을 부여한 후, 물리 피해 +8%, 15초 동안 지속, 최대 중첩 4스택, 목표의 방어 불능 스택이 4스택에 도달할 경우, 추가 물리 피해 +16%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다.",
+  "facts": {
+    "gearSet": {
+      "id": 4212229625,
+      "code": "gear_set_fb0fff599026",
+      "label": "경량 초자연"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 공격력 +8%. 장착자가 적에게 방어 불능을 부여한 후, 물리 피해 +8%, 15초 동안 지속, 최대 중첩 4스택, 목표의 방어 불능 스택이 4스택에 도달할 경우, 추가 물리 피해 +16%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다.",
+    "memberGameEntryIds": [
+      367,
+      368,
+      369,
+      370,
+      787,
+      788,
+      789
+    ],
+    "evidenceCopyCount": 7
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_fb0fff599026",
+    "groupLabel": "경량 초자연",
+    "gearSetCode": "gear_set_fb0fff599026",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=367&header=0",
+    "sourceSha256": "e8dcc55fafec976af4990721b22f03254bfb9025731c7c1250aa783d97c22581",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_367.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_368.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_369.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_370.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_787.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_788.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_789.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7e8ca5f161297e618eba70ee3358b0f1e16421741b0b1735023690a0b4d86ba7",
+    "payloadSha256": "88990555ef6f0f505598127aabe700e884821007a0bd957a0a4f494d9939e22e"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.285.profile",
+  "semanticKey": "ko-KR|gear|285|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_285",
+    "name": "아부레이 도청 칩",
+    "aliases": [],
+    "gameEntryId": 285
+  },
+  "title": "아부레이 도청 칩 — 장비 기본 정보",
+  "content": "아부레이 도청 칩 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 아부레이의 메아리이다. LV.50, 방어력 15. 옵션은 1번 힘 23, 2번 의지 15, 3번 불균형 목표에 주는 피해 보너스 29.4%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "아부레이 도청 칩",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 639192494,
+      "code": "gear_set_2617c70e3c51",
+      "label": "아부레이의 메아리"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 15,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "불균형 목표에 주는 피해 보너스",
+        "baseValue": {
+          "value": 29.4,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-2617c70e3c51.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_2617c70e3c51",
+    "groupLabel": "아부레이의 메아리",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_2617c70e3c51"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/아부레이의_메아리/285_아부레이_도청_칩.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=285&header=0",
+    "sourceSha256": "39f4eb7ddead5632cbfcf9bb1fda2dc0e5c61cb081f1176ee12fe4c4d2996215",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_285.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_285.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "bb35e17d0bc27188c452e358f192a6604efae59b474f1a00b5fc0059402e64db",
+    "payloadSha256": "1e920836d00aed83407ac96ce6605aa1dbc5c631546755bc905396b326653069"
+  }
+}

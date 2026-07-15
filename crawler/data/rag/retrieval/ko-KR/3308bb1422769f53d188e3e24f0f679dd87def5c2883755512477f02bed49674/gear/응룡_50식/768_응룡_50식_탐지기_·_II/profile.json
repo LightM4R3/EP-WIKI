@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.768.profile",
+  "semanticKey": "ko-KR|gear|768|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_768",
+    "name": "응룡 50식 탐지기 · II",
+    "aliases": [],
+    "gameEntryId": 768
+  },
+  "title": "응룡 50식 탐지기 · II — 장비 기본 정보",
+  "content": "응룡 50식 탐지기 · II 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 응룡 50식이다. LV.70, 방어력 21. 옵션은 1번 민첩 32, 2번 지능 21, 3번 연계 스킬 피해 보너스 41.4%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "응룡 50식 탐지기 · II",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 1172323551,
+      "code": "gear_set_45deb63f9684",
+      "label": "응룡 50식"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "연계 스킬 피해 보너스",
+        "baseValue": {
+          "value": 41.4,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-45deb63f9684.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_45deb63f9684",
+    "groupLabel": "응룡 50식",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_45deb63f9684"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/응룡_50식/768_응룡_50식_탐지기_·_II.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=768&header=0",
+    "sourceSha256": "3a084cbcb2d9c32da0da54525f7417f409f00f8acf0095a8545d12dbcf3601b1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_768.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_768.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7b4428d787d1c04d204362b3f2fc4c8438dc19281347be5ce3b805f6e0a5198d",
+    "payloadSha256": "7e5f8ed78f9973336bd1ffdf59d4d0647c488e536d73a30acab53e1835928a7d"
+  }
+}

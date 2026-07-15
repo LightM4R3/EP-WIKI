@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.221.profile",
+  "semanticKey": "ko-KR|gear|221|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_221",
+    "name": "응급 통신기",
+    "aliases": [],
+    "gameEntryId": 221
+  },
+  "title": "응급 통신기 — 장비 기본 정보",
+  "content": "응급 통신기 장비의 기본 정보. 유형은 부품, 품질은 초록색 품질, 세트는 세트 없음이다. LV.20, 방어력 6. 옵션은 1번 치명타 확률 6.6%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "응급 통신기",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 20,
+    "defense": 6,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "치명타 확률",
+        "baseValue": {
+          "value": 6.6,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "component",
+    "qualityCode": "green",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/221_응급_통신기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=221&header=0",
+    "sourceSha256": "4d63d5d2c88b430e2c861775b8f3b91ab02c1248dffd0aed1bbfb152473117be",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_221.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_221.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "35da0c0c96a0249ad04669d1b4dc9e2de53d5a94c7f724078c09b4cd17d50e9a",
+    "payloadSha256": "9a91100df79d970d82e8aa6ca8ce45b56d3b8b2ef648a235e19118d2551b3c32"
+  }
+}

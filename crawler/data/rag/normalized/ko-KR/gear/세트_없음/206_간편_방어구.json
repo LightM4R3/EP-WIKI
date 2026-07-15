@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_206",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 206,
+    "name": "간편 방어구"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=206&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "9b02b08160eb7c6e79957742daf857272cbe3e7ea953d6a5cea2adbed81e774a",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_206.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 간편 방어구\ngameEntryId: 206\n정규화 상태: query_ready\n장비 세트: 세트 없음 (id=-1, code=none)\n장비 유형: 방어구 (id=1, code=armor)\n품질: 회색 품질 (id=4, code=gray)\nLV: 10\n방어력: 8\n장비 옵션: 1번=힘 15; 2번=민첩 10; 3번=생명력 46\n정밀 단조 지원: 아니오\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_206",
+        "gameEntryId": 206,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=206&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/206_간편_방어구.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": -1,
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "evidenceDocumentIds": [
+          "auto.gear_206.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_206.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_206.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_206.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 간편 방어구\ncategory: gear\nsection: profile\n간편 방어구\n품질\n회색 품질\n장비 유형\n방어구\n세트\n세트 없음\n엔드필드 공업의 품질 검증을 거치지 않은 임시 장비로, 방어 성능을 보장할 수 없습니다.\n단순한 구조의 초급 방어구.\n실제 방어력보다는 장착자의 마음을 든든하게 해주는 효과가 더 큽니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_206",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=206&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 206,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:32:06.363895+00:00",
+        "contentSha256": "9b02b08160eb7c6e79957742daf857272cbe3e7ea953d6a5cea2adbed81e774a",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/206_간편_방어구.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "entityName": "간편 방어구"
+      }
+    },
+    {
+      "documentId": "auto.gear_206.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 간편 방어구\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n단일 장비 제작\n소모 재료 :\n10\n*\n10\n및\n2\n*\n2\n속성\nLV\n10\n방어력\n+8\n힘\n+15\n민첩\n+10\n생명력\n+46",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_206",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=206&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 206,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:32:06.363895+00:00",
+        "contentSha256": "9b02b08160eb7c6e79957742daf857272cbe3e7ea953d6a5cea2adbed81e774a",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/206_간편_방어구.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "entityName": "간편 방어구"
+      }
+    },
+    {
+      "documentId": "auto.gear_206.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 간편 방어구\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n세트 없음\n세트 효과 없음",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_206",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=206&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 206,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:32:06.363895+00:00",
+        "contentSha256": "9b02b08160eb7c6e79957742daf857272cbe3e7ea953d6a5cea2adbed81e774a",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/206_간편_방어구.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "entityName": "간편 방어구"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 4,
+      "code": "gray",
+      "label": "회색 품질"
+    }
+  },
+  "level": 10,
+  "defense": 8,
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘",
+      "baseValue": {
+        "value": 15,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "민첩",
+      "baseValue": {
+        "value": 10,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "생명력",
+      "baseValue": {
+        "value": 46,
+        "unit": "flat"
+      }
+    }
+  ],
+  "forging": {
+    "supported": false,
+    "levels": []
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_206.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": -1,
+    "code": "none",
+    "label": "세트 없음"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/세트_없음/206_간편_방어구.json"
+}

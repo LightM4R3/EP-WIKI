@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.286.profile",
+  "semanticKey": "ko-KR|gear|286|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_286",
+    "name": "열 작업용 전력 상자",
+    "aliases": [],
+    "gameEntryId": 286
+  },
+  "title": "열 작업용 전력 상자 — 장비 기본 정보",
+  "content": "열 작업용 전력 상자 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 열 작업용이다. LV.70, 방어력 21. 옵션은 1번 의지 32, 2번 지능 21, 3번 오리지늄 아츠 강도 41. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "열 작업용 전력 상자",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 3358174061,
+      "code": "gear_set_c82824cda56b",
+      "label": "열 작업용"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-c82824cda56b.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_c82824cda56b",
+    "groupLabel": "열 작업용",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_c82824cda56b"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/286_열_작업용_전력_상자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=286&header=0",
+    "sourceSha256": "127fce093125b7c5971944fc1affbfdbde735c768abb35195ac0459bc540e1c3",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_286.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_286.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "68872145497a9818ffe02207558a4822402e61e864c020f83b9c7a4a6c2d51ee",
+    "payloadSha256": "4996ad44e058f630863bdc30a3e002e268eecc75511eca5e3bdcd8d5e729a59b"
+  }
+}

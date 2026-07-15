@@ -1,0 +1,224 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.995.promotion",
+  "semanticKey": "ko-KR|operator|995|promotion",
+  "locale": "ko-KR",
+  "documentType": "operator_promotion",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_995",
+    "name": "미브",
+    "aliases": [],
+    "gameEntryId": 995
+  },
+  "title": "미브 — 정예화와 장비 해금",
+  "content": "미브 오퍼레이터의 정예화와 장비 품질 해금.\n정예화 I: 최대 레벨 40, 조건 오퍼레이터 Lv.20 도달, 재료 프로토콜 디스크 8개, 연한 붉은 기둥 버섯 3개, 탈로시안 화폐 1600개.\n정예화 II: 최대 레벨 60, 조건 오퍼레이터 Lv.40 도달, 재료 프로토콜 디스크 25개, 보통 붉은 기둥 버섯 5개, 탈로시안 화폐 6500개.\n정예화 III: 최대 레벨 80, 조건 오퍼레이터 Lv.60 도달, 재료 프로토콜 디스크 세트 24개, 진한 붉은 기둥 버섯 5개, 탈로시안 화폐 18000개.\n정예화 IV: 최대 레벨 90, 조건 오퍼레이터 Lv.80 도달, 재료 프로토콜 디스크 세트 36개, D96강 시제품 4번 20개, 피버섯 8개, 탈로시안 화폐 100000개.\n장비 조합 I: 활성화 후, 파란색 품질 장비 착용 가능, 조건 정예화 단계 1 돌파, 재료 탈로시안 화폐 1600개.\n장비 조합 II: 활성화 후, 보라색 품질 장비 착용 가능, 조건 정예화 단계 2 돌파, 재료 탈로시안 화폐 6500개.\n장비 조합 III: 활성화 후, 노란색 품질 장비 착용 가능, 조건 정예화 단계 3 돌파, 재료 탈로시안 화폐 18000개.",
+  "facts": {
+    "promotions": [
+      {
+        "stage": 1,
+        "label": "정예화 I",
+        "maxLevel": 40,
+        "condition": "오퍼레이터 Lv.20 도달",
+        "materials": [
+          {
+            "id": null,
+            "code": null,
+            "name": "프로토콜 디스크",
+            "amount": 8,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "연한 붉은 기둥 버섯",
+            "amount": 3,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1600
+          }
+        ],
+        "status": "rule_validated"
+      },
+      {
+        "stage": 2,
+        "label": "정예화 II",
+        "maxLevel": 60,
+        "condition": "오퍼레이터 Lv.40 도달",
+        "materials": [
+          {
+            "id": null,
+            "code": null,
+            "name": "프로토콜 디스크",
+            "amount": 25,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "보통 붉은 기둥 버섯",
+            "amount": 5,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 6500
+          }
+        ],
+        "status": "rule_validated"
+      },
+      {
+        "stage": 3,
+        "label": "정예화 III",
+        "maxLevel": 80,
+        "condition": "오퍼레이터 Lv.60 도달",
+        "materials": [
+          {
+            "id": null,
+            "code": null,
+            "name": "프로토콜 디스크 세트",
+            "amount": 24,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "진한 붉은 기둥 버섯",
+            "amount": 5,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 18000
+          }
+        ],
+        "status": "rule_validated"
+      },
+      {
+        "stage": 4,
+        "label": "정예화 IV",
+        "maxLevel": 90,
+        "condition": "오퍼레이터 Lv.80 도달",
+        "materials": [
+          {
+            "id": null,
+            "code": null,
+            "name": "프로토콜 디스크 세트",
+            "amount": 36,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 12,
+            "code": "d96_steel_prototype_no_4",
+            "name": "D96강 시제품 4번",
+            "catalogStatus": "mapped",
+            "amount": 20
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "피버섯",
+            "amount": 8,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 100000
+          }
+        ],
+        "status": "rule_validated"
+      }
+    ],
+    "equipmentUnlocks": [
+      {
+        "stage": 1,
+        "label": "장비 조합 I",
+        "effect": "활성화 후, 파란색 품질 장비 착용 가능",
+        "condition": "정예화 단계 1 돌파",
+        "materials": [
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1600
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "label": "장비 조합 II",
+        "effect": "활성화 후, 보라색 품질 장비 착용 가능",
+        "condition": "정예화 단계 2 돌파",
+        "materials": [
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 6500
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "label": "장비 조합 III",
+        "effect": "활성화 후, 노란색 품질 장비 착용 가능",
+        "condition": "정예화 단계 3 돌파",
+        "materials": [
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 18000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_promotion",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+    "sourceSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_995.progression.c4.w2.s6.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "24947d12adc4d71a91b6e7924f44c68cf66f3be2a0e03a5c40c96d96b3920c59",
+    "payloadSha256": "a3367147b84ab1a67d9ca54e7055c1b586c956e370cf0111202d2b724b32d987"
+  }
+}

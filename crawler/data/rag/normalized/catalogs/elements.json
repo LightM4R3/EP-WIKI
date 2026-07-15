@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "elements",
+  "entries": [
+    {
+      "id": 3,
+      "code": "cryo",
+      "label": "냉기"
+    },
+    {
+      "id": 0,
+      "code": "physical",
+      "label": "물리"
+    },
+    {
+      "id": 1,
+      "code": "heat",
+      "label": "열기"
+    },
+    {
+      "id": 4,
+      "code": "nature",
+      "label": "자연"
+    },
+    {
+      "id": 2,
+      "code": "electric",
+      "label": "전기"
+    }
+  ]
+}

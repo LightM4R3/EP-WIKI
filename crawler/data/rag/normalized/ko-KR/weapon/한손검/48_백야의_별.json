@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_48",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 48,
+    "name": "백야의 별"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=48&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "bb2756de6ec496f533a3584c137e3534c805f2b2b3201d1bb1cc8c8025fb6bc9",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_48.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 백야의 별\ngameEntryId: 48\n정규화 상태: query_ready\n무기 유형: 한손검 (id=0, code=sword)\n기초 공격력: LV.1=51, LV.20=148, LV.40=250, LV.60=352, LV.80=454, LV.90=505\n무기 옵션: 1번=주요 능력치 증가 · 대; 2번=오리지늄 아츠 강도 증가 · 대; 3번=고통 · 백야의 별\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_48",
+        "gameEntryId": 48,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=48&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/48_백야의_별.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 0,
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "evidenceDocumentIds": [
+          "auto.weapon_48.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_48.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_48.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_48.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_48.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_48.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 백야의 별\ncategory: weapon\nsection: profile\n백야의 별\n유형\n한손검\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n용광로 요새에서 제작한 무기 중 하나, 손잡이는 헤어라인 가공을 통해 마찰력을 높여, 훌륭한 그립감을 제공합니다. 검신은 황무지에서 채굴된 희귀 광석으로 만들어졌습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_48",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=48&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 48,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:07.303609+00:00",
+        "contentSha256": "bb2756de6ec496f533a3584c137e3534c805f2b2b3201d1bb1cc8c8025fb6bc9",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/48_백야의_별.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "백야의 별"
+      }
+    },
+    {
+      "documentId": "auto.weapon_48.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 백야의 별\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n백야의 별\n한손검\n·획득 방식\n구매 센터 - 무기고 교환소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n51\n505\n주요 능력치 증가 · 대\n주요 능력치\n+17\n1/3\n주요 능력치\n+132\n9/9\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+10\n1/3\n오리지늄 아츠 강도\n+78\n9/9\n고통 · 백야의 별\n아츠 피해\n+12.0%\n장착자가 적에게\n연소\n혹은\n감전\n을 부여한 후, 아츠 피해\n+12.0%\n, 오리지늄 아츠 강도\n+25\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n1/4\n아츠 피해\n+33.6%\n장착자가 적에게\n연소\n혹은\n감전\n을 부여한 후, 아츠 피해\n+33.6%\n, 오리지늄 아츠 강도\n+70\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_48",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=48&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 48,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:07.303609+00:00",
+        "contentSha256": "bb2756de6ec496f533a3584c137e3534c805f2b2b3201d1bb1cc8c8025fb6bc9",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/48_백야의_별.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "백야의 별"
+      }
+    },
+    {
+      "documentId": "auto.weapon_48.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 백야의 별\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n51\n-\n주요 능력치 증가 · 대\n주요 능력치\n+17\n1/3\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+10\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n148\n148\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n주요 능력치 증가 · 대\n주요 능력치\n+17\n1/3\n주요 능력치\n+30\n2/5\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+10\n1/3\n오리지늄 아츠 강도\n+10\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n250\n250\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n주요 능력치 증가 · 대\n주요 능력치\n+30\n2/5\n주요 능력치\n+30\n2/6\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+10\n1/4\n오리지늄 아츠 강도\n+18\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n352\n352\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n주요 능력치 증가 · 대\n주요 능력치\n+30\n2/6\n주요 능력치\n+44\n3/8\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+18\n2/6\n오리지늄 아츠 강도\n+18\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n454\n454\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n주요 능력치 증가 · 대\n주요 능력치\n+44\n3/8\n주요 능력치\n+44\n3/9\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+18\n2/7\n오리지늄 아츠 강도\n+26\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n505\n-\n주요 능력치 증가 · 대\n주요 능력치\n+44\n3/9\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+26\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_48",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=48&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 48,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:07.303609+00:00",
+        "contentSha256": "bb2756de6ec496f533a3584c137e3534c805f2b2b3201d1bb1cc8c8025fb6bc9",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/48_백야의_별.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "백야의 별"
+      }
+    },
+    {
+      "documentId": "auto.weapon_48.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 백야의 별\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n주요 능력치 증가 · 대\n오리지늄 아츠 강도 증가 · 대\n고통 · 백야의 별\nRANK 1\n주요 능력치\n+17\n오리지늄 아츠 강도\n+10\n아츠 피해\n+12.0%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을\n부여한 후\n, 아츠 피해\n+12.0%\n, 오리지늄 아츠 강도\n+25\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 2\n주요 능력치\n+30\n오리지늄 아츠 강도\n+18\n아츠 피해\n+14.4%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을\n부여한 후\n, 아츠 피해\n+14.4%\n, 오리지늄 아츠 강도\n+30\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 3\n주요 능력치\n+44\n오리지늄 아츠 강도\n+26\n아츠 피해\n+16.8%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을\n부여한 후\n, 아츠 피해\n+16.8%\n, 오리지늄 아츠 강도\n+35\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 4\n주요 능력치\n+57\n오리지늄 아츠 강도\n+34\n아츠 피해\n+19.2%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을\n부여한 후\n, 아츠 피해\n+19.2%\n, 오리지늄 아츠 강도\n+40\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 5\n주요 능력치\n+71\n오리지늄 아츠 강도\n+42\n아츠 피해\n+21.6%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을\n부여한 후\n, 아츠 피해\n+21.6%\n, 오리지늄 아츠 강도\n+45\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 6\n주요 능력치\n+85\n오리지늄 아츠 강도\n+50\n아츠 피해\n+24.0%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을\n부여한 후\n, 아츠 피해\n+24.0%\n, 오리지늄 아츠 강도\n+50\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 7\n주요 능력치\n+98\n오리지늄 아츠 강도\n+58\n아츠 피해\n+26.4%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을\n부여한 후\n, 아츠 피해\n+26.4%\n, 오리지늄 아츠 강도\n+55\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 8\n주요 능력치\n+112\n오리지늄 아츠 강도\n+66\n아츠 피해\n+28.8%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을\n부여한 후\n, 아츠 피해\n+28.8%\n, 오리지늄 아츠 강도\n+60\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 9\n주요 능력치\n+132\n오리지늄 아츠 강도\n+78\n아츠 피해\n+33.6%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을\n부여한 후\n, 아츠 피해\n+33.6%\n, 오리지늄 아츠 강도\n+70\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n주요 능력치 증가\n오리지늄 아츠 강도 증가\n고통",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_48",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=48&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 48,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:07.303609+00:00",
+        "contentSha256": "bb2756de6ec496f533a3584c137e3534c805f2b2b3201d1bb1cc8c8025fb6bc9",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/48_백야의_별.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "백야의 별"
+      }
+    },
+    {
+      "documentId": "auto.weapon_48.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 백야의 별\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n고통 · 백야의 별\n기본/최대\n고통 · 백야의 별\n잠재능력 1\n1/4\n아츠 피해\n+12.0%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을 부여한 후, 아츠 피해\n+12.0%\n, 오리지늄 아츠 강도\n+25\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 2\n2/5\n아츠 피해\n+14.4%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을 부여한 후, 아츠 피해\n+14.4%\n, 오리지늄 아츠 강도\n+30\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 3\n3/6\n아츠 피해\n+16.8%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을 부여한 후, 아츠 피해\n+16.8%\n, 오리지늄 아츠 강도\n+35\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 4\n4/7\n아츠 피해\n+19.2%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을 부여한 후, 아츠 피해\n+19.2%\n, 오리지늄 아츠 강도\n+40\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 5\n5/8\n아츠 피해\n+21.6%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을 부여한 후, 아츠 피해\n+21.6%\n, 오리지늄 아츠 강도\n+45\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 6\n6/9\n아츠 피해\n+24.0%\n.\n장착자가 적에게\n연소\n혹은\n감전\n을 부여한 후, 아츠 피해\n+24.0%\n, 오리지늄 아츠 강도\n+50\n, 15초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_48",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=48&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 48,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:07.303609+00:00",
+        "contentSha256": "bb2756de6ec496f533a3584c137e3534c805f2b2b3201d1bb1cc8c8025fb6bc9",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/48_백야의_별.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "백야의 별"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 51
+    },
+    {
+      "level": 20,
+      "baseAttack": 148
+    },
+    {
+      "level": 40,
+      "baseAttack": 250
+    },
+    {
+      "level": 60,
+      "baseAttack": 352
+    },
+    {
+      "level": 80,
+      "baseAttack": 454
+    },
+    {
+      "level": 90,
+      "baseAttack": 505
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "주요 능력치 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_48.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "오리지늄 아츠 강도 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_48.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "고통 · 백야의 별",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_48.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 0,
+    "code": "sword",
+    "label": "한손검"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/한손검/48_백야의_별.json"
+}

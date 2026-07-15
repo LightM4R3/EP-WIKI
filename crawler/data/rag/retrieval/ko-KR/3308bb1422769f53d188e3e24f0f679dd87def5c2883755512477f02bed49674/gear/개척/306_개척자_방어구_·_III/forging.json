@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.306.forging",
+  "semanticKey": "ko-KR|gear|306|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_306",
+    "name": "개척자 방어구 · III",
+    "aliases": [],
+    "gameEntryId": 306
+  },
+  "title": "개척자 방어구 · III — 정밀 단조",
+  "content": "개척자 방어구 · III 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 민첩: +0 87, +1 95, +2 104, +3 113.\n2번 지능: +0 58, +1 63, +2 69, +3 75.\n3번 보조 능력치: +0 10.4%, +1 11.4%, +2 12.4%, +3 13.5%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 58,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 63,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 69,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 75,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "보조 능력치",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 10.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 11.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 12.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 13.5,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_443e330e6735",
+    "groupLabel": "개척",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/306_개척자_방어구_·_III.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=306&header=0",
+    "sourceSha256": "0140987f361aa9a0f4a64d8c6e45c630f909f48ac3fc90371e55d0d1a99efec1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_306.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b7c49ebbd599cdf28ddffb9307619a5854cecae9ffe30282ed77d944954e6aeb",
+    "payloadSha256": "f1fdf3c4f38b7928915c6e28f51fd942d0cd2741196ccfe4b79fccc63604844e"
+  }
+}

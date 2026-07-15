@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.70.profile",
+  "semanticKey": "ko-KR|weapon|70|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_70",
+    "name": "헤라펜거",
+    "aliases": [],
+    "gameEntryId": 70
+  },
+  "title": "헤라펜거 — 무기 기본 정보",
+  "content": "헤라펜거 무기의 기본 정보. 무기 유형은 양손검이다. 옵션은 1번 힘 증가 · 대, 2번 공격력 증가 · 대, 3번 방출 · 사무치는 추위이다.",
+  "facts": {
+    "name": "헤라펜거",
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.70.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "공격력 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.70.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "방출 · 사무치는 추위",
+        "documentRef": "epwiki.ko-kr.weapon.70.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "weaponTypeCode": "greatsword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/70_헤라펜거.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=70&header=0",
+    "sourceSha256": "009f005f5e8d6e60bd4c1593def09c4ee5ded625380f37fa139d62d52379b5e2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_70.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_70.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b9a5ce9affe47b37cc880bba48cbcc1bc6dc1af874859878895f48b27a31eac8",
+    "payloadSha256": "34ba9957221a3ff4302127d5985814963038eb39edda74bd8750372c910ffd35"
+  }
+}

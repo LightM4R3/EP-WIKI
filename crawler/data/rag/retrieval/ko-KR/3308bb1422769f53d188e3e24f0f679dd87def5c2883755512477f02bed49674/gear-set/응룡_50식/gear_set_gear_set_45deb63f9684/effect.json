@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-45deb63f9684.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_45deb63f9684|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_45deb63f9684",
+    "name": "응룡 50식",
+    "aliases": []
+  },
+  "title": "응룡 50식 — 장비 세트 효과",
+  "content": "응룡 50식 장비 세트의 3개 세트 효과. 장착자의 공격력 +15% 팀 내 임의의 오퍼레이터가 배틀 스킬을 사용할 때, 장착자가 응룡의 예리함 1스택 획득, 해당 오퍼레이터의 다음 연계 스킬 피해 +20%. 응룡의 예리함은 최대 3스택까지만 중첩됩니다.",
+  "facts": {
+    "gearSet": {
+      "id": 1172323551,
+      "code": "gear_set_45deb63f9684",
+      "label": "응룡 50식"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 공격력 +15% 팀 내 임의의 오퍼레이터가 배틀 스킬을 사용할 때, 장착자가 응룡의 예리함 1스택 획득, 해당 오퍼레이터의 다음 연계 스킬 피해 +20%. 응룡의 예리함은 최대 3스택까지만 중첩됩니다.",
+    "memberGameEntryIds": [
+      342,
+      343,
+      344,
+      345,
+      347,
+      352,
+      411,
+      767,
+      768,
+      769,
+      770
+    ],
+    "evidenceCopyCount": 11
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_45deb63f9684",
+    "groupLabel": "응룡 50식",
+    "gearSetCode": "gear_set_45deb63f9684",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=342&header=0",
+    "sourceSha256": "d993dfc52696230c9f9462ec5edddaabc20fee896b1ecc88327dd28451a6d3c8",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_342.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_343.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_344.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_345.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_347.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_352.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_411.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_767.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_768.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_769.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_770.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "380fac279054bc91303813e402f465dd0b20edc63276506d00f5fe630b7e283c",
+    "payloadSha256": "048187c41ae5452b2aff41c3ced7817ccdbf406791c7dae93ada5db319a2d206"
+  }
+}

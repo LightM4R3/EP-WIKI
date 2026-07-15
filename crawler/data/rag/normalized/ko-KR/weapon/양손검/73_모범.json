@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_73",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 73,
+    "name": "모범"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=73&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "c2519dbd2d86edb6e7df7478cb2c456e06e7f6eb49da0d7f00b3a28adc09481f",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_73.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 모범\ngameEntryId: 73\n정규화 상태: query_ready\n무기 유형: 양손검 (id=1, code=greatsword)\n기초 공격력: LV.1=51, LV.20=146, LV.40=247, LV.60=348, LV.80=449, LV.90=500\n무기 옵션: 1번=주요 능력치 증가 · 대; 2번=공격력 증가 · 대; 3번=억제 · 다층 절단\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_73",
+        "gameEntryId": 73,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=73&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/73_모범.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 1,
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "evidenceDocumentIds": [
+          "auto.weapon_73.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_73.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_73.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_73.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_73.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_73.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 모범\ncategory: weapon\nsection: profile\n모범\n유형\n양손검\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n미에슈코 공업이 최근 출시한 독자 개발 제품, 고요한 수도회에서 발굴한 유물을 바탕으로 설계되었다는 소문이 있으며, 극비 기술을 내장하여 그 어떤 것도 파괴할 수 있다고 합니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_73",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=73&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 73,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:59.134209+00:00",
+        "contentSha256": "c2519dbd2d86edb6e7df7478cb2c456e06e7f6eb49da0d7f00b3a28adc09481f",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/73_모범.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "모범"
+      }
+    },
+    {
+      "documentId": "auto.weapon_73.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 모범\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n모범\n양손검\n·획득 방식\n구매 센터 - 무기고 교환소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n51\n500\n주요 능력치 증가 · 대\n주요 능력치\n+17\n1/3\n주요 능력치\n+132\n9/9\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n공격력\n+39.0%\n9/9\n억제 · 다층 절단\n물리 피해\n+10.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+10.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n1/4\n물리 피해\n+28.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+28.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_73",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=73&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 73,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:59.134209+00:00",
+        "contentSha256": "c2519dbd2d86edb6e7df7478cb2c456e06e7f6eb49da0d7f00b3a28adc09481f",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/73_모범.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "모범"
+      }
+    },
+    {
+      "documentId": "auto.weapon_73.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 모범\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n51\n주요 능력치 증가 · 대\n주요 능력치\n+17\n1/3\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n146\n146\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n주요 능력치 증가 · 대\n주요 능력치\n+17\n1/3\n주요 능력치\n+30\n2/5\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n공격력\n+5.0%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n247\n247\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n주요 능력치 증가 · 대\n주요 능력치\n+30\n2/5\n주요 능력치\n+30\n2/6\n공격력 증가 · 대\n공격력\n+5.0%\n1/4\n공격력\n+9.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n348\n348\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n주요 능력치 증가 · 대\n주요 능력치\n+30\n2/6\n주요 능력치\n+44\n3/8\n공격력 증가 · 대\n공격력\n+9.0%\n2/6\n공격력\n+9.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n449\n449\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n주요 능력치 증가 · 대\n주요 능력치\n+44\n3/8\n주요 능력치\n+44\n3/9\n공격력 증가 · 대\n공격력\n+9.0%\n2/7\n공격력\n+13.0%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n500\n주요 능력치 증가 · 대\n주요 능력치\n+44\n3/9\n공격력 증가 · 대\n공격력\n+13.0%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_73",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=73&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 73,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:59.134209+00:00",
+        "contentSha256": "c2519dbd2d86edb6e7df7478cb2c456e06e7f6eb49da0d7f00b3a28adc09481f",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/73_모범.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "모범"
+      }
+    },
+    {
+      "documentId": "auto.weapon_73.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 모범\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n주요 능력치 증가 · 대\n공격력 증가 · 대\n억제 · 다층 절단\nRANK 1\n주요 능력치\n+17\n공격력\n+5.0%\n물리 피해\n+10.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+10.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 2\n주요 능력치\n+30\n공격력\n+9.0%\n물리 피해\n+12.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+12.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 3\n주요 능력치\n+44\n공격력\n+13.0%\n물리 피해\n+14.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+14.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 4\n주요 능력치\n+57\n공격력\n+17.0%\n물리 피해\n+16.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+16.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 5\n주요 능력치\n+71\n공격력\n+21.0%\n물리 피해\n+18.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+18.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 6\n주요 능력치\n+85\n공격력\n+25.0%\n물리 피해\n+20.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+20.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 7\n주요 능력치\n+98\n공격력\n+29.0%\n물리 피해\n+22.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+22.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 8\n주요 능력치\n+112\n공격력\n+33.0%\n물리 피해\n+24.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+24.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 9\n주요 능력치\n+132\n공격력\n+39.0%\n물리 피해\n+28.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+28.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n주요 능력치 증가\n공격력 증가\n억제",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_73",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=73&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 73,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:59.134209+00:00",
+        "contentSha256": "c2519dbd2d86edb6e7df7478cb2c456e06e7f6eb49da0d7f00b3a28adc09481f",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/73_모범.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "모범"
+      }
+    },
+    {
+      "documentId": "auto.weapon_73.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 모범\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n억제 · 다층 절단\n기본/최대\n억제 · 다층 절단\n잠재능력 1\n1/4\n물리 피해\n+10.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+10.0%\n, 30초 동안 지속.\n같은\n이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n잠재능력 2\n2/5\n물리 피해\n+12.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+12.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n잠재능력 3\n3/6\n물리 피해\n+14.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+14.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n잠재능력 4\n4/7\n물리 피해\n+16.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+16.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n잠재능력 5\n5/8\n물리 피해\n+18.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+18.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n잠재능력 6\n6/9\n물리 피해\n+20.0%\n장착자의 배틀 스킬과 궁극기가 적에게 명중할 때, 물리 피해 추가\n+20.0%\n, 30초 동안 지속.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_73",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=73&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 73,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:59.134209+00:00",
+        "contentSha256": "c2519dbd2d86edb6e7df7478cb2c456e06e7f6eb49da0d7f00b3a28adc09481f",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/73_모범.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "모범"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 51
+    },
+    {
+      "level": 20,
+      "baseAttack": 146
+    },
+    {
+      "level": 40,
+      "baseAttack": 247
+    },
+    {
+      "level": 60,
+      "baseAttack": 348
+    },
+    {
+      "level": 80,
+      "baseAttack": 449
+    },
+    {
+      "level": 90,
+      "baseAttack": 500
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "주요 능력치 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_73.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "공격력 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_73.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "억제 · 다층 절단",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_73.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 1,
+    "code": "greatsword",
+    "label": "양손검"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/양손검/73_모범.json"
+}

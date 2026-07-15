@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.353.forging",
+  "semanticKey": "ko-KR|gear|353|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_353",
+    "name": "펄스식 교란 방어구",
+    "aliases": [],
+    "gameEntryId": 353
+  },
+  "title": "펄스식 교란 방어구 — 정밀 단조",
+  "content": "펄스식 교란 방어구 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 지능: +0 87, +1 95, +2 104, +3 113.\n2번 의지: +0 58, +1 63, +2 69, +3 75.\n3번 오리지늄 아츠 강도: +0 20, +1 22, +2 24, +3 26.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 58,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 63,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 69,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 75,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 20,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 22,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 24,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 26,
+            "unit": "flat"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_aa70a0a9b381",
+    "groupLabel": "펄스식",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/펄스식/353_펄스식_교란_방어구.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=353&header=0",
+    "sourceSha256": "f05c4c0b4e66702fd92c910eadfccbf1a4d92eae4380aea2b0b5d51f9453654e",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_353.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "52983d89314a17714a60c2281a3389b0105a8c71902ff721e161d2f3635c5356",
+    "payloadSha256": "08d66dcd4759088bf9805f7e9990f63d2d1c57010ac6f1542104ae1411ba0d02"
+  }
+}

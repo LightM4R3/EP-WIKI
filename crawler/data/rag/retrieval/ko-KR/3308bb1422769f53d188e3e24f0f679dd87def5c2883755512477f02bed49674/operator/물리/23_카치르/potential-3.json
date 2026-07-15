@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.23.potential-3",
+  "semanticKey": "ko-KR|operator|23|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_23",
+    "name": "카치르",
+    "aliases": [],
+    "gameEntryId": 23
+  },
+  "title": "카치르 — 잠재능력 3 불굴의 심장",
+  "content": "카치르 오퍼레이터의 잠재능력 3 ‘불굴의 심장’. 연계 스킬 실시간 억제가 제공하는 보호의 지속 시간 +5 초 오퍼레이터 기념사진 \"출전 준비\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "불굴의 심장",
+    "status": "rule_validated",
+    "effect": "연계 스킬 실시간 억제가 제공하는 보호의 지속 시간 +5 초 오퍼레이터 기념사진 \"출전 준비\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/23_카치르.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=23&header=0",
+    "sourceSha256": "bc0bfc7536d9836561ccdd2b8feeeba067fb28d44c332cf2d60746c0234bf642",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_23.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "2f58ce624175354b2928711e5896ede40937980e4755e15f2411e697f4a9d7a7",
+    "payloadSha256": "8cb8bad12f6f6bf7abef2c363efa41706a0160bc982006e64a5765f590b9950f"
+  }
+}

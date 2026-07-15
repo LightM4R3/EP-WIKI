@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.245.profile",
+  "semanticKey": "ko-KR|gear|245|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_245",
+    "name": "중장갑 전달자 손전등",
+    "aliases": [],
+    "gameEntryId": 245
+  },
+  "title": "중장갑 전달자 손전등 — 장비 기본 정보",
+  "content": "중장갑 전달자 손전등 장비의 기본 정보. 유형은 부품, 품질은 파란색 품질, 세트는 중장갑 전달자이다. LV.36, 방어력 10. 옵션은 1번 힘 21, 3번 생명력 21%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "중장갑 전달자 손전등",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    "gearSet": {
+      "id": 3226939140,
+      "code": "gear_set_c055a8649a73",
+      "label": "중장갑 전달자"
+    },
+    "level": 36,
+    "defense": 10,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "생명력",
+        "baseValue": {
+          "value": 21,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-c055a8649a73.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_c055a8649a73",
+    "groupLabel": "중장갑 전달자",
+    "gearTypeCode": "component",
+    "qualityCode": "blue",
+    "gearSetCode": "gear_set_c055a8649a73"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/중장갑_전달자/245_중장갑_전달자_손전등.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=245&header=0",
+    "sourceSha256": "c0643a78750bf69c020c8a5a96425e1e096b55c77f3725285ee71f3c75a518fb",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_245.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_245.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "957984e23547bfff7ec2532e8a0131d6a7a353764ce55736725e99b39e6ce0e5",
+    "payloadSha256": "b2c6dc490166c5f024b3106e070c3afff34b3a507e162e1d6ec96d84f225338c"
+  }
+}

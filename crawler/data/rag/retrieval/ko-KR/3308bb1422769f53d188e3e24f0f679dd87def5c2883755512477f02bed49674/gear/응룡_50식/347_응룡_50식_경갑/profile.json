@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.347.profile",
+  "semanticKey": "ko-KR|gear|347|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_347",
+    "name": "응룡 50식 경갑",
+    "aliases": [],
+    "gameEntryId": 347
+  },
+  "title": "응룡 50식 경갑 — 장비 기본 정보",
+  "content": "응룡 50식 경갑 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 응룡 50식이다. LV.70, 방어력 56. 옵션은 1번 의지 87, 2번 힘 58, 3번 모든 스킬 피해 보너스 13.8%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "응룡 50식 경갑",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 1172323551,
+      "code": "gear_set_45deb63f9684",
+      "label": "응룡 50식"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "모든 스킬 피해 보너스",
+        "baseValue": {
+          "value": 13.8,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-45deb63f9684.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_45deb63f9684",
+    "groupLabel": "응룡 50식",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_45deb63f9684"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/응룡_50식/347_응룡_50식_경갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=347&header=0",
+    "sourceSha256": "3288e550f6f962d63b52c1ba608518895332af15b786de9736de1633bb3e3eb0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_347.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_347.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b55f60c99074b633e0b5da8f430acf1c1b11a97a95db78b2d459fdffa247c948",
+    "payloadSha256": "02feb486c635fe5b5fbaa298ef6871494cb7f5616c8c51d1f545b8e6f01bc921"
+  }
+}

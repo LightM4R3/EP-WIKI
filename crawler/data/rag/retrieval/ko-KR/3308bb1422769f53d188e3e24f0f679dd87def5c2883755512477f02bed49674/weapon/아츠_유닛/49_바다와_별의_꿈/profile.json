@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.49.profile",
+  "semanticKey": "ko-KR|weapon|49|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_49",
+    "name": "바다와 별의 꿈",
+    "aliases": [],
+    "gameEntryId": 49
+  },
+  "title": "바다와 별의 꿈 — 무기 기본 정보",
+  "content": "바다와 별의 꿈 무기의 기본 정보. 무기 유형은 아츠 유닛이다. 옵션은 1번 지능 증가 · 대, 2번 치유 효율 증가 · 대, 3번 고통 · 밀물과 썰물의 속삭임이다.",
+  "facts": {
+    "name": "바다와 별의 꿈",
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.49.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "치유 효율 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.49.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "고통 · 밀물과 썰물의 속삭임",
+        "documentRef": "epwiki.ko-kr.weapon.49.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "weaponTypeCode": "arts_unit"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/49_바다와_별의_꿈.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=49&header=0",
+    "sourceSha256": "02adfb3fbe39abca60021e4b118075294a4b81f5e8e793f2802a7033c13917b2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_49.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_49.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7e37ea5bbb4108291b38cae40ef43799c04efa61af206eb846bbc0e25959cbfe",
+    "payloadSha256": "4e99edfc5b9e7712ab79ea34af07aa5a089c0878854e19fb33a4bf69dfd29a40"
+  }
+}

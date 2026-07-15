@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.1.potential-5",
+  "semanticKey": "ko-KR|operator|1|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_1",
+    "name": "펠리카",
+    "aliases": [],
+    "gameEntryId": 1
+  },
+  "title": "펠리카 — 잠재능력 5 재진입 통제 시스템",
+  "content": "펠리카 오퍼레이터의 잠재능력 5 ‘재진입 통제 시스템’. 궁극기 프로토콜ε · 70.41κ의 치명타 확률 +30% 오퍼레이터 기념사진 \"미래\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "재진입 통제 시스템",
+    "status": "rule_validated",
+    "effect": "궁극기 프로토콜ε · 70.41κ의 치명타 확률 +30% 오퍼레이터 기념사진 \"미래\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/1_펠리카.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=1&header=0",
+    "sourceSha256": "cc4378cdc012f097bada65658318a2701132ffcbdfd22ce19c4193a8cb1308b6",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_1.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "76efd477534cd978a62a58db4952d40ef7afadf1a84e183cdcfc30816e115be5",
+    "payloadSha256": "d72caeb2a60508e16bbb148160491d2abc9bed8cfabff6cc93240bc16b551e10"
+  }
+}

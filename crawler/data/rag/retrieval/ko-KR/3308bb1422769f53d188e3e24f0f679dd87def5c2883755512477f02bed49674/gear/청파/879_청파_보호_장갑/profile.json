@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.879.profile",
+  "semanticKey": "ko-KR|gear|879|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_879",
+    "name": "청파 보호 장갑",
+    "aliases": [],
+    "gameEntryId": 879
+  },
+  "title": "청파 보호 장갑 — 장비 기본 정보",
+  "content": "청파 보호 장갑 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 청파이다. LV.70, 방어력 42. 옵션은 1번 지능 65, 2번 의지 43, 3번 궁극기 충전 효율 20.5%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "청파 보호 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 637024139,
+      "code": "gear_set_25f6b0eb60d9",
+      "label": "청파"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 20.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-25f6b0eb60d9.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_25f6b0eb60d9",
+    "groupLabel": "청파",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_25f6b0eb60d9"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/청파/879_청파_보호_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=879&header=0",
+    "sourceSha256": "00f271a47178aa80d0211f012c930593f82f72a1408796662859c75d5c04ae8a",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_879.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_879.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7d760ba1d85d3622e3e0d4df57071acff375ef08cef21547b8a4889dfc9f8d69",
+    "payloadSha256": "7a53bbebbb7b8998c73a39d080270325af950896bca9c96f9da6cbcff1a49728"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-443e330e6735.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_443e330e6735|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_443e330e6735",
+    "name": "개척",
+    "aliases": []
+  },
+  "title": "개척 — 장비 세트 효과",
+  "content": "개척 장비 세트의 3개 세트 효과. 장착자의 연계 스킬 쿨타임 감소 +15% 장착자가 스킬을 사용하여 스킬 게이지를 회복한 후, 팀 전체가 주는 피해 +16%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+  "facts": {
+    "gearSet": {
+      "id": 1145026990,
+      "code": "gear_set_443e330e6735",
+      "label": "개척"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 연계 스킬 쿨타임 감소 +15% 장착자가 스킬을 사용하여 스킬 게이지를 회복한 후, 팀 전체가 주는 피해 +16%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+    "memberGameEntryIds": [
+      298,
+      300,
+      302,
+      304,
+      306,
+      308,
+      310,
+      312,
+      777,
+      778,
+      779,
+      780,
+      869,
+      870
+    ],
+    "evidenceCopyCount": 14
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_443e330e6735",
+    "groupLabel": "개척",
+    "gearSetCode": "gear_set_443e330e6735",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=298&header=0",
+    "sourceSha256": "f3ba274467e4f00ac68ae016a415d9a8bd2d41851935602e10011e3b45c97660",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_298.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_300.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_302.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_304.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_306.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_308.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_310.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_312.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_777.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_778.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_779.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_780.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_869.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_870.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "657abe8974739dbe5b9d31c9ed33a4b371dba0d13496433b4e1d43a57827f447",
+    "payloadSha256": "69e9ac58fcefe9ea6d4bcb4684f1b5d9ffb430ff1f4f6667498f5f0bfd4b2561"
+  }
+}

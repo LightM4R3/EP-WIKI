@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.47.option-3",
+  "semanticKey": "ko-KR|weapon|47|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_47",
+    "name": "폭발 유닛",
+    "aliases": [],
+    "gameEntryId": 47
+  },
+  "title": "폭발 유닛 — 3번 옵션 방출 · 우승자의 위세",
+  "content": "폭발 유닛 무기의 3번 옵션 ‘방출 · 우승자의 위세’.\nRANK1: 보조 능력치 +10.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +9.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 보조 능력치 +12.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +10.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 보조 능력치 +14.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +12.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 보조 능력치 +16.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +14.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 보조 능력치 +18.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +16.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 보조 능력치 +20.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +18.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK7: 보조 능력치 +22.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +19.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 보조 능력치 +24.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +21.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 보조 능력치 +28.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +25.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "방출 · 우승자의 위세",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "보조 능력치 +10.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +9.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "보조 능력치 +12.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +10.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "보조 능력치 +14.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +12.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "보조 능력치 +16.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +14.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "보조 능력치 +18.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +16.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "보조 능력치 +20.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +18.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "보조 능력치 +22.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +19.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "보조 능력치 +24.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +21.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "보조 능력치 +28.0% 장착자가 아츠 폭발 피해를 줄 때, 목표가 받는 아츠 피해 +25.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/47_폭발_유닛.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=47&header=0",
+    "sourceSha256": "03f4bf79b5c251470d9abe1217148dafc99810797dd6a447bc2868cb2fa51adb",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_47.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d920c66b8caa45821e62b94e95a9d0de9a8bf2aa4f0973fff98577253ee42986",
+    "payloadSha256": "3161dba6dd140e63b1944bb9d79ec5f91350e3fc2650b6d288274005c6b86f85"
+  }
+}

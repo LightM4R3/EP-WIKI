@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.77.profile",
+  "semanticKey": "ko-KR|weapon|77|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_77",
+    "name": "용사",
+    "aliases": [],
+    "gameEntryId": 77
+  },
+  "title": "용사 — 무기 기본 정보",
+  "content": "용사 무기의 기본 정보. 무기 유형은 장병기이다. 옵션은 1번 민첩 증가 · 대, 2번 물리 피해 증가 · 대, 3번 기예 · 좋은 품성의 결실이다.",
+  "facts": {
+    "name": "용사",
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.77.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "물리 피해 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.77.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "기예 · 좋은 품성의 결실",
+        "documentRef": "epwiki.ko-kr.weapon.77.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "weaponTypeCode": "polearm"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/77_용사.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=77&header=0",
+    "sourceSha256": "f582ce3e68999d9f668f102be3a4e935ae691f70949b4d2c50a4e811a79462b8",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_77.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_77.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f3df053f997fc200f62aa60beabd5919f3272b068b9ad36bd207f4e5857a27d4",
+    "payloadSha256": "0a8c1d1214bfa0b630d5e64d6e5e13002533875be8c79278e3247d00db0d96a5"
+  }
+}

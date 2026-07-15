@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.56.option-2",
+  "semanticKey": "ko-KR|weapon|56|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_56",
+    "name": "하울링 가드",
+    "aliases": [],
+    "gameEntryId": 56
+  },
+  "title": "하울링 가드 — 2번 옵션 공격력 증가 · 소",
+  "content": "하울링 가드 무기의 2번 옵션 ‘공격력 증가 · 소’.\nRANK1: 공격력 +3.0%.\nRANK2: 공격력 +5.4%.\nRANK3: 공격력 +7.8%.\nRANK4: 공격력 +10.2%.\nRANK5: 공격력 +12.6%.\nRANK6: 공격력 +15.0%.\nRANK7: 공격력 +17.4%.\nRANK8: 공격력 +19.8%.\nRANK9: 공격력 +23.4%.",
+  "facts": {
+    "slot": 2,
+    "name": "공격력 증가 · 소",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "공격력",
+        "value": 3,
+        "unit": "percent",
+        "display": "+3.0%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "공격력",
+        "value": 5.4,
+        "unit": "percent",
+        "display": "+5.4%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "공격력",
+        "value": 7.8,
+        "unit": "percent",
+        "display": "+7.8%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "공격력",
+        "value": 10.2,
+        "unit": "percent",
+        "display": "+10.2%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "공격력",
+        "value": 12.6,
+        "unit": "percent",
+        "display": "+12.6%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "공격력",
+        "value": 15,
+        "unit": "percent",
+        "display": "+15.0%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "공격력",
+        "value": 17.4,
+        "unit": "percent",
+        "display": "+17.4%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "공격력",
+        "value": 19.8,
+        "unit": "percent",
+        "display": "+19.8%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "공격력",
+        "value": 23.4,
+        "unit": "percent",
+        "display": "+23.4%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/56_하울링_가드.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=56&header=0",
+    "sourceSha256": "482593c558667d86885431011cc49a18cc74b9aa4529dafa67ab9b65ec7c8240",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_56.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f4c9a752334f7fd4f05fa04fc6e9c382fdfca03202989200a8459a966fbb6d9d",
+    "payloadSha256": "30cecb7adc3080718d05ce8fe89b33e2520ecb3cb9516783b07da86fd22224fa"
+  }
+}

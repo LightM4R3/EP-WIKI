@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "gear-sets",
+  "entries": [
+    {
+      "id": 2616968129,
+      "code": "gear_set_9bfa3d212476",
+      "label": "M. I. 경찰용"
+    },
+    {
+      "id": 1145026990,
+      "code": "gear_set_443e330e6735",
+      "label": "개척"
+    },
+    {
+      "id": 2042367052,
+      "code": "gear_set_79ba85ac519a",
+      "label": "검술사"
+    },
+    {
+      "id": 4212229625,
+      "code": "gear_set_fb0fff599026",
+      "label": "경량 초자연"
+    },
+    {
+      "id": 0,
+      "code": "echo_of_ancient_sword",
+      "label": "고검의 잔향"
+    },
+    {
+      "id": 529339492,
+      "code": "gear_set_1f8b8dc4f539",
+      "label": "본 크러셔"
+    },
+    {
+      "id": 447874150,
+      "code": "gear_set_1ab07dc6afcc",
+      "label": "생체 보조"
+    },
+    {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    {
+      "id": 2356057675,
+      "code": "gear_set_8c6d0fabbbe7",
+      "label": "순행 전달자"
+    },
+    {
+      "id": 982892020,
+      "code": "gear_set_3a9437540d70",
+      "label": "식양의 숨결"
+    },
+    {
+      "id": 231878540,
+      "code": "gear_set_0dd0a8ecab1f",
+      "label": "식양의 흐름"
+    },
+    {
+      "id": 639192494,
+      "code": "gear_set_2617c70e3c51",
+      "label": "아부레이의 메아리"
+    },
+    {
+      "id": 3358174061,
+      "code": "gear_set_c82824cda56b",
+      "label": "열 작업용"
+    },
+    {
+      "id": 1172323551,
+      "code": "gear_set_45deb63f9684",
+      "label": "응룡 50식"
+    },
+    {
+      "id": 963247953,
+      "code": "gear_set_396878b1d89a",
+      "label": "재앙 방호"
+    },
+    {
+      "id": 2727968106,
+      "code": "gear_set_a297f6ca3aa0",
+      "label": "조류의 물결"
+    },
+    {
+      "id": 3226939140,
+      "code": "gear_set_c055a8649a73",
+      "label": "중장갑 전달자"
+    },
+    {
+      "id": 637024139,
+      "code": "gear_set_25f6b0eb60d9",
+      "label": "청파"
+    },
+    {
+      "id": 1506308161,
+      "code": "gear_set_59c6e9a131ea",
+      "label": "침식 방호"
+    },
+    {
+      "id": 2234615965,
+      "code": "gear_set_853001fd8069",
+      "label": "침식 차단"
+    },
+    {
+      "id": 3549914494,
+      "code": "gear_set_d395deded81d",
+      "label": "통합 경량형 모델"
+    },
+    {
+      "id": 1435554510,
+      "code": "gear_set_558f4c2eee42",
+      "label": "통합 중량형 모델"
+    },
+    {
+      "id": 2859607881,
+      "code": "gear_set_aa70a0a9b381",
+      "label": "펄스식"
+    }
+  ]
+}

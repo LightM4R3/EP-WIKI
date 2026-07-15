@@ -1,0 +1,501 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_19",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 19,
+    "name": "아델리아"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_19.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 아델리아\ngameEntryId: 19\n정규화 상태: query_ready\n속성: 자연 (id=4, code=nature)\n무기 유형: 아츠 유닛 (id=4, code=arts_unit)\n주요 능력치: 지능 (id=2, code=intellect)\n보조 능력치: 의지 (id=3, code=will)\nLV.1: 힘=9, 민첩=9, 지능=20, 의지=15, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=31, 민첩=27, 지능=46, 의지=37, 기초 공격력=93, 기초 생명력=1566\nLV.40: 힘=54, 민첩=46, 지능=75, 의지=60, 기초 공격력=159, 기초 생명력=2689\nLV.60: 힘=77, 민첩=65, 지능=103, 의지=83, 기초 공격력=225, 기초 생명력=3811\nLV.80: 힘=100, 민첩=84, 지능=131, 의지=106, 기초 공격력=291, 기초 생명력=4934\nLV.90: 힘=112, 민첩=93, 지능=145, 의지=118, 기초 공격력=323, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_19",
+        "gameEntryId": 19,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 4,
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "evidenceDocumentIds": [
+          "auto.operator_19.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_19.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_19.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_19.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_19.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_19.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_19.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_19.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_19.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_19.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_19.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 아델리아\ncategory: operator\nsection: profile\n아델리아\n진영\n로도스 아일랜드\n무기 유형\n아츠 유닛\n\"이 땅에는 우리가 모르는 게 아직도 너무 많아요. 우리는 우리가 살고 있는 이 행성을 더 깊게 이해해야 하죠. 마치... 자기 자신을 더 잘 알아야 하는 것처럼요. 그렇죠, 선배?\"\n아델리아는 로도스 아일랜드 소속으로, 로도스 아일랜드와 엔드필드 공업 간의 협력에 관한 협약에 따라 지질 연구 전문가로 엔드필드 공업에 협력하고 있다.\n아델리아는 한때 화산 연구에 몰두했으나, 지금은 초자연 및 지질 재해 연구에 전념하고 있다. 수년간 홀로 재해 현장을 누비며 직접 표본을 채집하고 구조를 분석해 이론을 정리했다. 이러한 성과는 엔드필드가 침식 대응책을 마련하는데 중요한 근거가 되었다.\n그녀는 언제나 겸손하고 정중하며, 내면에는 마르지 않는 힘이 깃들어 있는 듯하다. 더 많은 산을 오르고, 더 많은 길을 걸으며, 이 세계의 목소리를 귀 기울여 듣고, 이 행성의 비밀을 마음껏 탐구할 수 있다면 그것만으로도 그녀는 충분히 행복하다.\n그리고 만약 아델리아와 좋은 친구가 된다면 돌리 씨도 분명히 당신을 좋아할 것이다.\n\"돌리 씨, 아무 데나 돌아다니면 안 돼요. 선배한테 인사해야죠.\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_19",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 19,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:55.468523+00:00",
+        "contentSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "아델리아"
+      }
+    },
+    {
+      "documentId": "auto.operator_19.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 아델리아\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n아델리아\n성별\n여\n진영\n로도스 아일랜드\n생일\n10월 18일\n속성\n자연\n종족\n카프리니\n한국어 CV\n김하루\n일본어 CV\n金元寿子\n영어 CV\nLindsay Sheppard\n중국어 CV\n降溫",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_19",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 19,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:55.468523+00:00",
+        "contentSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "아델리아"
+      }
+    },
+    {
+      "documentId": "auto.operator_19.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 아델리아\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘\n9\n31\n54\n77\n100\n112\n민첩\n9\n27\n46\n65\n84\n93\n지능 (주요 능력치)\n20\n46\n75\n103\n131\n145\n의지 (보조 능력치)\n15\n37\n60\n83\n106\n118\n기초 공격력\n30\n93\n159\n225\n291\n323\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘\n9\n-\n민첩\n9\n지능 (주요 능력치)\n20\n의지 (보조 능력치)\n15\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘\n31\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩\n27\n지능 (주요 능력치)\n46\n의지 (보조 능력치)\n37\n기초 공격력\n93\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘\n54\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩\n46\n지능 (주요 능력치)\n75\n의지 (보조 능력치)\n60\n기초 공격력\n159\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘\n77\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩\n65\n지능 (주요 능력치)\n103\n의지 (보조 능력치)\n83\n기초 공격력\n225\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘\n100\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩\n84\n지능 (주요 능력치)\n131\n의지 (보조 능력치)\n106\n기초 공격력\n291\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘\n112\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩\n93\n지능 (주요 능력치)\n145\n의지 (보조 능력치)\n118\n기초 공격력\n323\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_19",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 19,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:55.468523+00:00",
+        "contentSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "아델리아"
+      }
+    },
+    {
+      "documentId": "auto.operator_19.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 아델리아\ncategory: operator\nsection: combat_skill\n전투 스킬\n바위의 속삭임\n일반 공격\n일반 공격:\n적에게 최대 4단 공격을 하여\n자연 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n18\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n자연 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n자연 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n30%\n33%\n36%\n39%\n42%\n45%\n48%\n51%\n54%\n58%\n62%\n68%\n일반 공격 제2단계 배율\n40%\n44%\n48%\n52%\n56%\n60%\n64%\n68%\n72%\n77%\n83%\n90%\n일반 공격 제3단계 배율\n53%\n58%\n63%\n68%\n74%\n79%\n84%\n89%\n95%\n101%\n109%\n118%\n일반 공격 제4단계 배율\n55%\n61%\n66%\n72%\n77%\n83%\n88%\n94%\n99%\n106%\n114%\n124%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\nD96강 시제품 4번\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\nD96강 시제품 4번\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\nD96강 시제품 4번\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n질주하는 돌리\n배틀 스킬\n돌리 씨를 타고 목표를 향해 돌진하여\n자연 피해\n를 줍니다. 목표가\n부식\n상태일 때,\n부식\n상태를\n소모\n하고, 대상에게\n물리 취약\n과\n아츠 취약\n상태를 부여합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n피해 배율\n142%\n156%\n171%\n185%\n199%\n213%\n228%\n242%\n256%\n274%\n295%\n320%\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n취약 효과\n12%\n12%\n12%\n13%\n13%\n13%\n14%\n14%\n16%\n17%\n18%\n20%\n취약 지속 시간(초)\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_19",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 19,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:55.468523+00:00",
+        "contentSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "아델리아"
+      }
+    },
+    {
+      "documentId": "auto.operator_19.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 아델리아\ncategory: operator\nsection: combat_skill\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n화산 분화\n연계 스킬\n메인 컨트롤 오퍼레이터가\n방어 불능\n혹은\n아츠 부착\n상태에\n처해 있지 않은\n적에게\n강력한 일격\n을 준 후 사용할 수 있습니다.\n화산 구름 한 덩이를 목표에 던지고 목표와 가까워진 후,\n자연 피해\n를 주게 됩니다. 화산 구름은 목표를 추적한 다음, 일정 시간 뒤 폭발하며 주변의 다른 적에게 절반의\n자연 피해\n를 주고 강제로 잠깐\n부식\n상태를 부여합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n17초\n피해 배율\n45%\n49%\n54%\n58%\n62%\n67%\n71%\n76%\n80%\n86%\n93%\n100%\n폭발 피해 배율\n111%\n122%\n133%\n144%\n155%\n167%\n178%\n189%\n200%\n214%\n230%\n250%\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n부식 지속 시간(초)\n7\n7\n7\n7\n7\n7\n7\n7\n7\n7\n7\n7\n획득하는 궁극기 에너지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\nD96강 시제품 4번\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\nD96강 시제품 4번\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\nD96강 시제품 4번\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n복슬복슬 파티\n궁극기\n아델리아가 이동 가능한 지속 시전 상태에 들어가며, 돌리 씨를 소환하여 돌리 씨의 분신을 무작위로 사방에 던집니다. 각 분신이 적을 공격할 때마다\n자연 피해\n를 주고, 적은 0.3초마다 최대 1회만 피해를 받습니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n쿨타임\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n피해 배율\n73%\n81%\n88%\n95%\n103%\n110%\n117%\n125%\n132%\n141%\n152%\n165%\n불균형치\n2\n2\n2\n2\n2\n2\n2\n2\n2\n3\n3\n3\n지속 시간(초)\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_19",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 19,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:25:55.468523+00:00",
+        "contentSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "아델리아"
+      }
+    },
+    {
+      "documentId": "auto.operator_19.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 아델리아\ncategory: operator\nsection: combat_skill\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_19",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 19,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T06:25:55.468523+00:00",
+        "contentSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "아델리아"
+      }
+    },
+    {
+      "documentId": "auto.operator_19.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 아델리아\ncategory: operator\nsection: operator_talent\n재능 배열\n총명\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 지능 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 지능 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 지능 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 지능 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n친구의 그림자\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n배틀 스킬\n질주하는 돌리\n가 적에게 명중했을 때,\n돌리 씨의 그림자\n3개를 생성합니다. 궁극기\n복슬복슬 파티\n로 흩어진 돌리 씨의 분신이 지면에 착지할 때, 10% 확률로\n돌리 씨의 그림자\n를 생성합니다. 메인 컨트롤 오퍼레이터가\n돌리 씨의 그림자\n를 닿은 후, 아델리아가\n[45+의지×0.38]\n포인트의 생명력을 회복시킵니다.\n메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다.\n돌리 씨의 그림자는 10초 동안 지속되며, 동시에 최대 10개까지 존재할 수 있습니다.\n-\n-\n단계 효과 2\n배틀 스킬\n질주하는 돌리\n가 적에게 명중했을 때,\n돌리 씨의 그림자\n3개를 생성합니다. 궁극기\n복슬복슬 파티\n로 흩어진 돌리 씨의 분신이 지면에 착지할 때, 10% 확률로\n돌리 씨의 그림자\n를 생성합니다. 메인 컨트롤 오퍼레이터가\n돌리 씨의 그림자\n를 닿은 후, 아델리아가\n[63+의지×0.53]\n포인트의 생명력을 회복시킵니다.\n메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다.\n돌리 씨의 그림자는 10초 동안 지속되며, 동시에 최대 10개까지 존재할 수 있습니다.\n정예화 단계 1 돌파\n36\n프로토콜 프리즘\n*\n36\n7200\n탈로시안 화폐\n*\n7200\n단계 효과 3\n배틀 스킬\n질주하는 돌리\n가 적에게 명중했을 때,\n돌리 씨의 그림자\n3개를 생성합니다. 궁극기\n복슬복슬 파티\n로 흩어진 돌리 씨의 분신이 지면에 착지할 때, 10% 확률로\n돌리 씨의 그림자\n를 생성합니다. 메인 컨트롤 오퍼레이터가\n돌리 씨의 그림자\n를 닿은 후, 아델리아가\n[90+의지×0.75]\n포인트의 생명력을 회복시킵니다.\n메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다.\n돌리 씨의 그림자는 10초 동안 지속되며, 동시에 최대 10개까지 존재할 수 있습니다.\n정예화 단계 2 돌파\n86\n프로토콜 프리즘\n*\n86\n26000\n탈로시안 화폐\n*\n26000\n마운틴 서퍼\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n아델리아의 배틀 스킬\n질주하는 돌리\n가 추가 효과를 발동했을 때, 근처에\n부식\n상태인 다른 적이 있을 경우, 즉시 대상에게 한 번 더 배틀 스킬을 발동합니다.\n해당 효과는 주동적으로 배틀 스킬을 사용할 때마다 1회만 발동합니다.\n정예화 단계 2 돌파\n85\n프로토콜 프리즘\n*\n85\n26000\n탈로시안 화폐\n*\n26000\n대지의 이야기",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_19",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 19,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:55.468523+00:00",
+        "contentSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "아델리아"
+      }
+    },
+    {
+      "documentId": "auto.operator_19.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 아델리아\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n대지의 이야기 · β\n응접실에 배치 시, 오퍼레이터의 단서 수집 기본 효율 20% 증가\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n대지의 이야기 · γ\n응접실에 배치 시, 오퍼레이터의 단서 수집 기본 효율 30% 증가\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n돌리 씨의 게임\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n돌리 씨의 게임 · β\n응접실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n돌리 씨의 게임 · γ\n응접실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 18% 감소\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_19",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 19,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:55.468523+00:00",
+        "contentSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "아델리아"
+      }
+    },
+    {
+      "documentId": "auto.operator_19.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 아델리아\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1800\n탈로시안 화폐\n*\n1800\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\n정합용 유체\n*\n20\n8\n스타게이트 버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_19",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 19,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:55.468523+00:00",
+        "contentSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "아델리아"
+      }
+    },
+    {
+      "documentId": "auto.operator_19.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 아델리아\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n양들의 천국\n잠재능력 01\n배틀 스킬\n질주하는 돌리\n가\n부식\n을\n소모\n했을 때, 부여하는\n물리 취약\n과\n아츠 취약\n효과\n+8%\n오퍼레이터 기념사진 \"게임 시작\" 잠금 해제\n게임 보상\n잠재능력 02\n재능\n'친구의 그림자'\n효과 강화: 메인 컨트롤 오퍼레이터가\n돌리 씨의 그림자\n와 접촉한 후, 아델리아는 생명력 백분율이 가장 낮은 다른 아군 오퍼레이터 1명을 추가로 치유합니다. 해당 효과는 절반의 효과만 적용됩니다.\n격렬한 분출\n잠재능력 03\n궁극기\n복슬복슬 파티\n의 지속 시간\n+1\n초,\n돌리 씨의 그림자\n의 생성 확률이 기존의\n1.2\n배로 증가합니다.\n오퍼레이터 기념사진 \"무한한 공상\" 잠금 해제\n바위틈의 꽃\n잠재능력 04\n궁극기\n복슬복슬 파티\n의 사용에 필요한 궁극기 에너지\n-15%\n화산 증기\n잠재능력 05\n연계 스킬\n화산 분화\n쿨타임\n-2\n초, 피해 배율이 기존의\n1.2\n배로 증가합니다. 적에게 부여하는\n부식\n효과의 지속 시간\n+4\n초\n오퍼레이터 기념사진 \"소원\" 잠금 해제\n명함 테마 \"소원\" 잠금 해제\n오퍼레이터 기념사진\n게임 시작\n일러스트레이터: 温泉瓜\n돌리 씨가 당신이랑 같이 오라고 그랬어요... 저랑 같이... 게임하러 가실래요?\n무한한 공상\n일러스트레이터: 宇木敦哉\n저기 하늘에 뜬 분홍색 구름 말이에요... 예쁘지 않은가요? 누울 수 있다면 솜사탕처럼 엄청 포근할 것 같아요. 저기에 누워있으면 무슨 생각이 떠오를까요? 음... 기묘한 모양의 돌멩이? 아니면, 가본 적 없는 미지의 장소? 그리고 또...\n소원\n일러스트레이터: Eteru\n차갑고 단단한 바위 위에는 꽃이 만발해 있고, 황무지에는 생기랑 온기가 가득한 데다가 귓가에는 아름다운 선율이 은은하게 맴돌아요... 선배, 이 모든 게 꿈은 아니겠죠?",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_19",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 19,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:55.468523+00:00",
+        "contentSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "아델리아"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 4,
+      "code": "nature",
+      "label": "자연"
+    },
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    },
+    "secondary": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 9,
+        "agility": 9,
+        "intellect": 20,
+        "will": 15,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 31,
+        "agility": 27,
+        "intellect": 46,
+        "will": 37,
+        "baseAttack": 93,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 54,
+        "agility": 46,
+        "intellect": 75,
+        "will": 60,
+        "baseAttack": 159,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 77,
+        "agility": 65,
+        "intellect": 103,
+        "will": 83,
+        "baseAttack": 225,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 100,
+        "agility": 84,
+        "intellect": 131,
+        "will": 106,
+        "baseAttack": 291,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 112,
+        "agility": 93,
+        "intellect": 145,
+        "will": 118,
+        "baseAttack": 323,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_19.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_19.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_19.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": []
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_19.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_19.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_19.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 4,
+    "code": "nature",
+    "label": "자연"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json"
+}

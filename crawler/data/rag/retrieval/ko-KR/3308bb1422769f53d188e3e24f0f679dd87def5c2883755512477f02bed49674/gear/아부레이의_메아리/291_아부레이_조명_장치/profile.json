@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.291.profile",
+  "semanticKey": "ko-KR|gear|291|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_291",
+    "name": "아부레이 조명 장치",
+    "aliases": [],
+    "gameEntryId": 291
+  },
+  "title": "아부레이 조명 장치 — 장비 기본 정보",
+  "content": "아부레이 조명 장치 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 아부레이의 메아리이다. LV.50, 방어력 15. 옵션은 1번 지능 23, 2번 힘 15, 3번 궁극기 충전 효율 17.5%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "아부레이 조명 장치",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 639192494,
+      "code": "gear_set_2617c70e3c51",
+      "label": "아부레이의 메아리"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 15,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 17.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-2617c70e3c51.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_2617c70e3c51",
+    "groupLabel": "아부레이의 메아리",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_2617c70e3c51"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/아부레이의_메아리/291_아부레이_조명_장치.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=291&header=0",
+    "sourceSha256": "30f79df7b4e03df205c1e989196e486005756975abd14c196c46cd4aae94f39c",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_291.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_291.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "de8a6f715ec0d3652dfe6ca11edfb64b36eabedb434cb58cecbd604228b8e67a",
+    "payloadSha256": "0ee232d8ef493a532d8e4053bc11d1e91378b0b709fea685ba1281acd7209ab7"
+  }
+}

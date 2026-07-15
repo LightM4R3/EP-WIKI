@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.277.profile",
+  "semanticKey": "ko-KR|gear|277|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_277",
+    "name": "M. I. 경찰용 망토 · I",
+    "aliases": [],
+    "gameEntryId": 277
+  },
+  "title": "M. I. 경찰용 망토 · I — 장비 기본 정보",
+  "content": "M. I. 경찰용 망토 · I 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 M. I. 경찰용이다. LV.70, 방어력 56. 옵션은 1번 지능 87, 2번 의지 58, 3번 치명타 확률 5.2%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "M. I. 경찰용 망토 · I",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2616968129,
+      "code": "gear_set_9bfa3d212476",
+      "label": "M. I. 경찰용"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "치명타 확률",
+        "baseValue": {
+          "value": 5.2,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-9bfa3d212476.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_9bfa3d212476",
+    "groupLabel": "M. I. 경찰용",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_9bfa3d212476"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/277_M._I._경찰용_망토_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=277&header=0",
+    "sourceSha256": "f04c7709f834164671e2af5e8184b4e2e5c2ba6258c27151d286c6f408821623",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_277.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_277.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "de9f267bf697f60a469e4825fc80ddbf8d39c2bbe460bef626123a4e5330419d",
+    "payloadSha256": "4e08606881077aa68079baf7ba1bf75f4172e9b232cf1bfd04b52a4799a4e14e"
+  }
+}

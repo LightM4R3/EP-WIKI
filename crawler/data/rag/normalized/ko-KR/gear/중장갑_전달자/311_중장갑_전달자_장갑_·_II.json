@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_311",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 311,
+    "name": "중장갑 전달자 장갑 · II"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=311&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "0ea113ae49eaaaee390241280048db50b391d61fd605c95d0fa213e3163e6bdd",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_311.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 중장갑 전달자 장갑 · II\ngameEntryId: 311\n정규화 상태: query_ready\n장비 세트: 중장갑 전달자 (id=3226939140, code=gear_set_c055a8649a73)\n장비 유형: 글러브 (id=0, code=gloves)\n품질: 보라색 품질 (id=1, code=purple)\nLV: 50\n방어력: 30\n장비 옵션: 1번=힘 46; 2번=민첩 30; 3번=연계 스킬 피해 보너스 24.5%\n정밀 단조 지원: 아니오\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_311",
+        "gameEntryId": 311,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=311&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/중장갑_전달자/311_중장갑_전달자_장갑_·_II.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 3226939140,
+        "groupCode": "gear_set_c055a8649a73",
+        "groupLabel": "중장갑 전달자",
+        "evidenceDocumentIds": [
+          "auto.gear_311.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_311.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_311.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_311.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 중장갑 전달자 장갑 · II\ncategory: gear\nsection: profile\n중장갑 전달자 장갑 · II\n품질\n보라색 품질\n장비 유형\n글러브\n세트\n중장갑 전달자\n이 장비는 엔드필드 공업에서 황무지 수공예품을 참고하여 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n전달자들이 즐겨 쓰는 보호 장갑.\n대부분의 전달자는 갑작스러운 침식 재해가 닥쳤을 때 목숨을 지킬 수 있도록, 자신의 교통수단에 긴급 탈출 장치를 추가로 장착합니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_311",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=311&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 311,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:35:28.523001+00:00",
+        "contentSha256": "0ea113ae49eaaaee390241280048db50b391d61fd605c95d0fa213e3163e6bdd",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/중장갑_전달자/311_중장갑_전달자_장갑_·_II.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_c055a8649a73",
+        "groupLabel": "중장갑 전달자",
+        "entityName": "중장갑 전달자 장갑 · II"
+      }
+    },
+    {
+      "documentId": "auto.gear_311.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 중장갑 전달자 장갑 · II\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n9600\n*\n9600\n및\n50\n*\n50\n장비 템플릿\n권한 등급 32레벨 보상\n속성\nLV\n50\n방어력\n+30\n힘\n+46\n민첩\n+30\n연계 스킬 피해 보너스\n+24.5%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_311",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=311&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 311,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:35:28.523001+00:00",
+        "contentSha256": "0ea113ae49eaaaee390241280048db50b391d61fd605c95d0fa213e3163e6bdd",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/중장갑_전달자/311_중장갑_전달자_장갑_·_II.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_c055a8649a73",
+        "groupLabel": "중장갑 전달자",
+        "entityName": "중장갑 전달자 장갑 · II"
+      }
+    },
+    {
+      "documentId": "auto.gear_311.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 중장갑 전달자 장갑 · II\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n중장갑 전달자\n보호 장갑\n3개 세트 효과:\n장착자의 힘\n+50\n장착자의 생명력이 50% 미만일 때, 받는 모든 유형 피해\n-30%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_311",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=311&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 311,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:35:28.523001+00:00",
+        "contentSha256": "0ea113ae49eaaaee390241280048db50b391d61fd605c95d0fa213e3163e6bdd",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/중장갑_전달자/311_중장갑_전달자_장갑_·_II.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_c055a8649a73",
+        "groupLabel": "중장갑 전달자",
+        "entityName": "중장갑 전달자 장갑 · II"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 3226939140,
+      "code": "gear_set_c055a8649a73",
+      "label": "중장갑 전달자"
+    },
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    }
+  },
+  "level": 50,
+  "defense": 30,
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘",
+      "baseValue": {
+        "value": 46,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "민첩",
+      "baseValue": {
+        "value": 30,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "연계 스킬 피해 보너스",
+      "baseValue": {
+        "value": 24.5,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": false,
+    "levels": []
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_311.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 3226939140,
+    "code": "gear_set_c055a8649a73",
+    "label": "중장갑 전달자"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/중장갑_전달자/311_중장갑_전달자_장갑_·_II.json"
+}

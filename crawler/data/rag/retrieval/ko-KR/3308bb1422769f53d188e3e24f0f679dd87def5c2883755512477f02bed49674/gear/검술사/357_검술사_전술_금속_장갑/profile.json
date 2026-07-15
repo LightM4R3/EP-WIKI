@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.357.profile",
+  "semanticKey": "ko-KR|gear|357|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_357",
+    "name": "검술사 전술 금속 장갑",
+    "aliases": [],
+    "gameEntryId": 357
+  },
+  "title": "검술사 전술 금속 장갑 — 장비 기본 정보",
+  "content": "검술사 전술 금속 장갑 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 검술사이다. LV.70, 방어력 42. 옵션은 1번 민첩 65, 2번 힘 43, 3번 궁극기 피해 보너스 43.1%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "검술사 전술 금속 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2042367052,
+      "code": "gear_set_79ba85ac519a",
+      "label": "검술사"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 피해 보너스",
+        "baseValue": {
+          "value": 43.1,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-79ba85ac519a.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_79ba85ac519a",
+    "groupLabel": "검술사",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_79ba85ac519a"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/357_검술사_전술_금속_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=357&header=0",
+    "sourceSha256": "8dbd7b78132dbe07e8bc898dc9c3de3869e5bb9bc92b5e76a117437244212de1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_357.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_357.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "631a894762a0f5eab0d0a8ec969d76186723856f95188947c9507597ec71191a",
+    "payloadSha256": "fbcd02f0bb0df738015ea5d01455a29c80b55d0b53320d9c4a72ba84ddd9c3ff"
+  }
+}

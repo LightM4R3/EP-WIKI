@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.996.potential-1",
+  "semanticKey": "ko-KR|operator|996|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_996",
+    "name": "카뮤",
+    "aliases": [],
+    "gameEntryId": 996
+  },
+  "title": "카뮤 — 잠재능력 1 겁화의 세례",
+  "content": "카뮤 오퍼레이터의 잠재능력 1 ‘겁화의 세례’. 전투 스킬 사르는 불꽃이 부여하는 허약 효과 +5%, 열기 취약 효과 +5%, 타오르는 핏빛 날개의 배회 지속 시간 +15 초 오퍼레이터 기념사진 \"영원한 회귀\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "겁화의 세례",
+    "status": "rule_validated",
+    "effect": "전투 스킬 사르는 불꽃이 부여하는 허약 효과 +5%, 열기 취약 효과 +5%, 타오르는 핏빛 날개의 배회 지속 시간 +15 초 오퍼레이터 기념사진 \"영원한 회귀\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+    "sourceSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_996.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "58c8ad07c2336a21ddeb482475f02770598f04a337f554ac702ba76b851e3c0c",
+    "payloadSha256": "8c5c312cb2617d141c5be14818e4b6750297bd71dceb74caab83762faa2355c6"
+  }
+}

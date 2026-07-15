@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.4.talent-1",
+  "semanticKey": "ko-KR|operator|4|talent-1",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_4",
+    "name": "진천우",
+    "aliases": [],
+    "gameEntryId": 4
+  },
+  "title": "진천우 — 칼날 베기",
+  "content": "진천우 오퍼레이터의 오퍼레이터 재능 ‘칼날 베기’.\n단계 1: 매번 스킬이 적에게 명중할 때마다 공격력 +4%, 10초 동안 지속, 해당 효과는 최대 5스택까지 중첩됩니다. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 2400개.\n단계 2: 매번 스킬이 적에게 명중할 때마다 공격력 +8%, 10초 동안 지속, 해당 효과는 최대 5스택까지 중첩됩니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 40개, 탈로시안 화폐 8600개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 1,
+    "name": "칼날 베기",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "매번 스킬이 적에게 명중할 때마다 공격력 +4%, 10초 동안 지속, 해당 효과는 최대 5스택까지 중첩됩니다.",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 2400
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "매번 스킬이 적에게 명중할 때마다 공격력 +8%, 10초 동안 지속, 해당 효과는 최대 5스택까지 중첩됩니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 40
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8600
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "talentKind": "combat_talent",
+    "talentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/4_진천우.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=4&header=0",
+    "sourceSha256": "64f046fe559117e3b77a47aaf14c24296e264dc17aa1ee3c126893330dd5e3ca",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_4.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5e15784680c033b175e3b13031cfef5e764f0c13785ed76ad73760ef910e2c40",
+    "payloadSha256": "a8a05447b5c1bf7f5f294ee45c6537ba47cc532c233dede29f835472cacaf90a"
+  }
+}

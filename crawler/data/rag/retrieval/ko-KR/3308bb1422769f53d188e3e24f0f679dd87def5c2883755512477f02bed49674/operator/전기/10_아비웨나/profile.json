@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.10.profile",
+  "semanticKey": "ko-KR|operator|10|profile",
+  "locale": "ko-KR",
+  "documentType": "operator_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_10",
+    "name": "아비웨나",
+    "aliases": [],
+    "gameEntryId": 10
+  },
+  "title": "아비웨나 — 오퍼레이터 기본 정보",
+  "content": "아비웨나 오퍼레이터의 기본 정보. 속성은 전기, 무기 유형은 장병기이다. 주요 능력치는 의지, 보조 능력치는 민첩이다.",
+  "facts": {
+    "name": "아비웨나",
+    "element": {
+      "id": 2,
+      "code": "electric",
+      "label": "전기"
+    },
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    },
+    "primaryAttribute": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    },
+    "secondaryAttribute": {
+      "id": 1,
+      "code": "agility",
+      "label": "민첩"
+    },
+    "attributeCatalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_profile",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "elementCode": "electric",
+    "weaponTypeCode": "polearm",
+    "primaryAttributeCode": "will",
+    "secondaryAttributeCode": "agility"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+    "sourceSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_10.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.operator_10.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문에서 희귀도를 텍스트로 확정할 수 없음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.class",
+        "reason": "클래스 이미지 매핑이 검증되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.portraitUrl",
+        "reason": "초상화 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7c2084bfb0abb60f79b47a698b76299a440fc327834f8583acdce001b0183eb4",
+    "payloadSha256": "6f2514f8f9fec4288b1b72667007dcde29f9402f7a8b048632f719f1203e16d7"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.65.progression",
+  "semanticKey": "ko-KR|weapon|65|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_65",
+    "name": "작품: 침식 흔적",
+    "aliases": [],
+    "gameEntryId": 65
+  },
+  "title": "작품: 침식 흔적 — 기초 공격력",
+  "content": "작품: 침식 흔적 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 49.\nLV.20: 기초 공격력 142.\nLV.40: 기초 공격력 240.\nLV.60: 기초 공격력 338.\nLV.80: 기초 공격력 436.\nLV.90: 기초 공격력 485.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 49
+      },
+      {
+        "level": 20,
+        "baseAttack": 142
+      },
+      {
+        "level": 40,
+        "baseAttack": 240
+      },
+      {
+        "level": 60,
+        "baseAttack": 338
+      },
+      {
+        "level": 80,
+        "baseAttack": 436
+      },
+      {
+        "level": 90,
+        "baseAttack": 485
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/65_작품_침식_흔적.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=65&header=0",
+    "sourceSha256": "025e7d5e15f87735a41dbfe812a0534ecd3040589f2016ca74331e38e7547b72",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_65.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9da398767b2a932ea20a1da72ac31626bea0155f1e4324653fe38b8d315f10f9",
+    "payloadSha256": "a359dd2f9264e1764c1871de190e23890d17e2a4f2ec811959492a18e22136c4"
+  }
+}

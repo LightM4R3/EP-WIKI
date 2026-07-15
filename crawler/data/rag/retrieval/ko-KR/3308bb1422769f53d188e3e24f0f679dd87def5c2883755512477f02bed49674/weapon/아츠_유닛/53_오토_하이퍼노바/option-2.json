@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.53.option-2",
+  "semanticKey": "ko-KR|weapon|53|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_53",
+    "name": "오토 하이퍼노바",
+    "aliases": [],
+    "gameEntryId": 53
+  },
+  "title": "오토 하이퍼노바 — 2번 옵션 아츠 피해 증가 · 소",
+  "content": "오토 하이퍼노바 무기의 2번 옵션 ‘아츠 피해 증가 · 소’.\nRANK1: 아츠 피해 +3.3%.\nRANK2: 아츠 피해 +6.0%.\nRANK3: 아츠 피해 +8.7%.\nRANK4: 아츠 피해 +11.3%.\nRANK5: 아츠 피해 +14.0%.\nRANK6: 아츠 피해 +16.7%.\nRANK7: 아츠 피해 +19.3%.\nRANK8: 아츠 피해 +22.0%.\nRANK9: 아츠 피해 +26.0%.",
+  "facts": {
+    "slot": 2,
+    "name": "아츠 피해 증가 · 소",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "아츠 피해",
+        "value": 3.3,
+        "unit": "percent",
+        "display": "+3.3%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "아츠 피해",
+        "value": 6,
+        "unit": "percent",
+        "display": "+6.0%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "아츠 피해",
+        "value": 8.7,
+        "unit": "percent",
+        "display": "+8.7%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "아츠 피해",
+        "value": 11.3,
+        "unit": "percent",
+        "display": "+11.3%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "아츠 피해",
+        "value": 14,
+        "unit": "percent",
+        "display": "+14.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "아츠 피해",
+        "value": 16.7,
+        "unit": "percent",
+        "display": "+16.7%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "아츠 피해",
+        "value": 19.3,
+        "unit": "percent",
+        "display": "+19.3%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "아츠 피해",
+        "value": 22,
+        "unit": "percent",
+        "display": "+22.0%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "아츠 피해",
+        "value": 26,
+        "unit": "percent",
+        "display": "+26.0%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/53_오토_하이퍼노바.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=53&header=0",
+    "sourceSha256": "288da12d622e4a598824ca2dcd77d3ff9ad33862ce343897e50449d57efa5908",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_53.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "28a9f0e90b34d5078cd351bc47ca61196993cfebd807eadc50bc3e59e68363fc",
+    "payloadSha256": "6d22cef6a87560facd198f96d94a775faf6d326e9f0df1a95f8082acd4a30e6a"
+  }
+}

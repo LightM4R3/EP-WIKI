@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "targets": [
+    {
+      "subTypeId": 1,
+      "gameEntryIds": [25]
+    },
+    {
+      "subTypeId": 2,
+      "gameEntryIds": [732]
+    },
+    {
+      "subTypeId": 4,
+      "gameEntryIds": [1023]
+    }
+  ]
+}

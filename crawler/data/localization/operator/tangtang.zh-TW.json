@@ -1,0 +1,1097 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityType": "operatorLocalization",
+  "entityId": "tangtang",
+  "locale": "zh-TW",
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+    "htmlLang": "zh_Hant",
+    "xmlLang": "zh_Hant",
+    "observedAt": "2026-07-13T17:37:39+09:00",
+    "contentStatus": "has_source_gaps"
+  },
+  "identity": {
+    "name": "湯湯",
+    "rarity": 6
+  },
+  "taxonomy": {
+    "classId": 4,
+    "classCode": "caster",
+    "classLabel": "Caster",
+    "classMappingStatus": "verified",
+    "elementId": 3,
+    "elementCode": "cryo",
+    "elementLabel": "寒冷",
+    "weaponTypeId": 3,
+    "weaponTypeCode": "handcannon",
+    "weaponTypeLabel": "手銃"
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primaryId": 1,
+    "secondaryId": 0,
+    "labels": {
+      "strength": "力量（副能力）",
+      "agility": "敏捷（主能力）",
+      "intellect": "智識",
+      "will": "意志",
+      "baseAttack": "基礎攻擊力",
+      "baseHp": "基礎生命值"
+    }
+  },
+  "progression": {
+    "levelLabels": [
+      "LV.1",
+      "LV.20",
+      "LV.40",
+      "LV.60",
+      "LV.80",
+      "LV.90"
+    ]
+  },
+  "materialLabels": {
+    "0": "折金票",
+    "1": "初級作戰紀錄",
+    "2": "中級作戰紀錄",
+    "3": "高級作戰紀錄",
+    "4": "初級認知載體",
+    "5": "高級認知載體",
+    "6": "協議稜柱",
+    "7": "晶化多齒葉",
+    "8": "純晶多齒葉",
+    "9": "至晶多齒葉",
+    "10": "協議稜柱組",
+    "11": "存續的痕跡",
+    "12": "D96鋼樣品四",
+    "13": "象限擬合液",
+    "14": "受蝕玉化葉"
+  },
+  "combatSkills": [
+    {
+      "id": "tangtang.basic_attack",
+      "order": 0,
+      "typeId": 0,
+      "typeCode": "basic_attack",
+      "name": "崩你腦袋！",
+      "sourceType": "普通攻擊",
+      "descriptionBlocks": [
+        "普通攻擊：",
+        "對敵人進行最多5段攻擊，造成寒冷傷害。作為主控幹員時，重擊會造成18點失衡。",
+        "下墜攻擊：",
+        "處於空中時使用普通攻擊，會下落並攻擊附近敵人，造成寒冷傷害。",
+        "處決攻擊：",
+        "附近有敵人處於失衡狀態時使用普通攻擊，將處決該敵人，造成大量寒冷傷害並回復一定技力。"
+      ],
+      "metrics": [
+        {
+          "code": "normal_attack_stage_1_multiplier",
+          "sourceLabel": "普攻第一段倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_2_multiplier",
+          "sourceLabel": "普攻第二段倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_3_multiplier",
+          "sourceLabel": "普攻第三段倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_4_multiplier",
+          "sourceLabel": "普攻第四段倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_5_multiplier",
+          "sourceLabel": "普攻第五段倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "finisher_multiplier",
+          "sourceLabel": "處決攻擊倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "dive_attack_multiplier",
+          "sourceLabel": "下墜攻擊倍率",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK1",
+          "values": {
+            "normal_attack_stage_1_multiplier": "23%",
+            "normal_attack_stage_2_multiplier": "25%",
+            "normal_attack_stage_3_multiplier": "35%",
+            "normal_attack_stage_4_multiplier": "37%",
+            "normal_attack_stage_5_multiplier": "50%",
+            "finisher_multiplier": "400%",
+            "dive_attack_multiplier": "80%"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK2",
+          "values": {
+            "normal_attack_stage_1_multiplier": "25%",
+            "normal_attack_stage_2_multiplier": "28%",
+            "normal_attack_stage_3_multiplier": "39%",
+            "normal_attack_stage_4_multiplier": "40%",
+            "normal_attack_stage_5_multiplier": "55%",
+            "finisher_multiplier": "440%",
+            "dive_attack_multiplier": "88%"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK3",
+          "values": {
+            "normal_attack_stage_1_multiplier": "27%",
+            "normal_attack_stage_2_multiplier": "30%",
+            "normal_attack_stage_3_multiplier": "42%",
+            "normal_attack_stage_4_multiplier": "44%",
+            "normal_attack_stage_5_multiplier": "60%",
+            "finisher_multiplier": "480%",
+            "dive_attack_multiplier": "96%"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK4",
+          "values": {
+            "normal_attack_stage_1_multiplier": "29%",
+            "normal_attack_stage_2_multiplier": "33%",
+            "normal_attack_stage_3_multiplier": "46%",
+            "normal_attack_stage_4_multiplier": "47%",
+            "normal_attack_stage_5_multiplier": "65%",
+            "finisher_multiplier": "520%",
+            "dive_attack_multiplier": "104%"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK5",
+          "values": {
+            "normal_attack_stage_1_multiplier": "32%",
+            "normal_attack_stage_2_multiplier": "35%",
+            "normal_attack_stage_3_multiplier": "49%",
+            "normal_attack_stage_4_multiplier": "51%",
+            "normal_attack_stage_5_multiplier": "70%",
+            "finisher_multiplier": "560%",
+            "dive_attack_multiplier": "112%"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK6",
+          "values": {
+            "normal_attack_stage_1_multiplier": "34%",
+            "normal_attack_stage_2_multiplier": "38%",
+            "normal_attack_stage_3_multiplier": "53%",
+            "normal_attack_stage_4_multiplier": "55%",
+            "normal_attack_stage_5_multiplier": "75%",
+            "finisher_multiplier": "600%",
+            "dive_attack_multiplier": "120%"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK7",
+          "values": {
+            "normal_attack_stage_1_multiplier": "36%",
+            "normal_attack_stage_2_multiplier": "40%",
+            "normal_attack_stage_3_multiplier": "56%",
+            "normal_attack_stage_4_multiplier": "58%",
+            "normal_attack_stage_5_multiplier": "80%",
+            "finisher_multiplier": "640%",
+            "dive_attack_multiplier": "128%"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK8",
+          "values": {
+            "normal_attack_stage_1_multiplier": "39%",
+            "normal_attack_stage_2_multiplier": "43%",
+            "normal_attack_stage_3_multiplier": "60%",
+            "normal_attack_stage_4_multiplier": "62%",
+            "normal_attack_stage_5_multiplier": "85%",
+            "finisher_multiplier": "680%",
+            "dive_attack_multiplier": "136%"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK9",
+          "values": {
+            "normal_attack_stage_1_multiplier": "41%",
+            "normal_attack_stage_2_multiplier": "45%",
+            "normal_attack_stage_3_multiplier": "63%",
+            "normal_attack_stage_4_multiplier": "66%",
+            "normal_attack_stage_5_multiplier": "90%",
+            "finisher_multiplier": "720%",
+            "dive_attack_multiplier": "144%"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "技能專精I",
+          "values": {
+            "normal_attack_stage_1_multiplier": "44%",
+            "normal_attack_stage_2_multiplier": "48%",
+            "normal_attack_stage_3_multiplier": "67%",
+            "normal_attack_stage_4_multiplier": "70%",
+            "normal_attack_stage_5_multiplier": "96%",
+            "finisher_multiplier": "770%",
+            "dive_attack_multiplier": "154%"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "技能專精II",
+          "values": {
+            "normal_attack_stage_1_multiplier": "47%",
+            "normal_attack_stage_2_multiplier": "52%",
+            "normal_attack_stage_3_multiplier": "73%",
+            "normal_attack_stage_4_multiplier": "76%",
+            "normal_attack_stage_5_multiplier": "104%",
+            "finisher_multiplier": "830%",
+            "dive_attack_multiplier": "166%"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "技能專精III",
+          "values": {
+            "normal_attack_stage_1_multiplier": "51%",
+            "normal_attack_stage_2_multiplier": "56%",
+            "normal_attack_stage_3_multiplier": "79%",
+            "normal_attack_stage_4_multiplier": "82%",
+            "normal_attack_stage_5_multiplier": "113%",
+            "finisher_multiplier": "900%",
+            "dive_attack_multiplier": "180%"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tangtang.battle_skill",
+      "order": 1,
+      "typeId": 1,
+      "typeCode": "battle_skill",
+      "name": "踏潮捲浪！",
+      "sourceType": "戰技",
+      "descriptionBlocks": [
+        "從水中躍出，逼近敵人進行射擊，造成寒冷傷害，並掀起一個水龍捲。",
+        "同時消耗附近所有渦流使其形成額外的水龍捲，並根據形成數量返還一定技力。",
+        "水龍捲：對範圍內敵人施加1層寒冷附著，並持續造成寒冷傷害。若本次形成多個水龍捲，將對敵人額外施加法術脆弱，但無法重複施加寒冷附著。",
+        "水龍捲傷害視為戰技傷害。"
+      ],
+      "metrics": [
+        {
+          "code": "skill_gauge_cost",
+          "sourceLabel": "技力消耗",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "shot_damage_multiplier",
+          "sourceLabel": "射擊傷害倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "shot_imbalance",
+          "sourceLabel": "射擊失衡值",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "single_tornado_damage_multiplier",
+          "sourceLabel": "單個水龍捲傷害倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "tornado_duration",
+          "sourceLabel": "水龍捲持續時間（秒）",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "skill_gauge_return_per_vortex",
+          "sourceLabel": "每處渦流技力返還",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "arts_vulnerability_two_tornadoes",
+          "sourceLabel": "兩個水龍捲法術脆弱",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "arts_vulnerability_three_tornadoes",
+          "sourceLabel": "三個水龍捲法術脆弱",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "arts_vulnerability_duration",
+          "sourceLabel": "法術脆弱持續時間（秒）",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK1",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "80%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "133%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3%",
+            "arts_vulnerability_three_tornadoes": "6%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK2",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "88%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "147%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3%",
+            "arts_vulnerability_three_tornadoes": "6%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK3",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "96%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "160%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3%",
+            "arts_vulnerability_three_tornadoes": "6%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK4",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "104%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "174%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3.5%",
+            "arts_vulnerability_three_tornadoes": "7%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK5",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "112%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "187%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3.5%",
+            "arts_vulnerability_three_tornadoes": "7%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK6",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "120%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "200%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3.5%",
+            "arts_vulnerability_three_tornadoes": "7%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK7",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "128%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "214%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4%",
+            "arts_vulnerability_three_tornadoes": "8%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK8",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "136%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "227%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4%",
+            "arts_vulnerability_three_tornadoes": "8%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK9",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "144%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "240%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4%",
+            "arts_vulnerability_three_tornadoes": "8%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "技能專精I",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "154%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "257%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4.5%",
+            "arts_vulnerability_three_tornadoes": "9%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "技能專精II",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "166%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "277%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4.5%",
+            "arts_vulnerability_three_tornadoes": "9%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "技能專精III",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "180%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "300%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "5%",
+            "arts_vulnerability_three_tornadoes": "10%",
+            "arts_vulnerability_duration": "15"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tangtang.combo_skill",
+      "order": 2,
+      "typeId": 2,
+      "typeCode": "combo_skill",
+      "name": "河水，助我！",
+      "sourceType": "連攜技",
+      "descriptionBlocks": [
+        "當有敵人被施加寒冷附著或受到法術爆發傷害時可以發動。",
+        "釋放一道強力的水流，貫穿前方敵人造成寒冷傷害，並迸射出一處渦流。",
+        "場上最多存在2處渦流。"
+      ],
+      "metrics": [
+        {
+          "code": "cooldown",
+          "sourceLabel": "冷卻時間",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "damage_multiplier",
+          "sourceLabel": "傷害倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "imbalance",
+          "sourceLabel": "失衡值",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "vortex_duration",
+          "sourceLabel": "渦流持續時間（秒）",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "ultimate_energy_gain",
+          "sourceLabel": null,
+          "sourceStatus": "missing_in_locale_dom",
+          "fallbackLocale": "ko-KR"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK1",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "107%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK2",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "117%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK3",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "128%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK4",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "139%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK5",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "149%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK6",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "160%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK7",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "171%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK8",
+          "values": {
+            "cooldown": "14秒",
+            "damage_multiplier": "181%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK9",
+          "values": {
+            "cooldown": "13秒",
+            "damage_multiplier": "192%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "技能專精I",
+          "values": {
+            "cooldown": "13秒",
+            "damage_multiplier": "205%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "技能專精II",
+          "values": {
+            "cooldown": "13秒",
+            "damage_multiplier": "221%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "技能專精III",
+          "values": {
+            "cooldown": "12秒",
+            "damage_multiplier": "240%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tangtang.ultimate",
+      "order": 3,
+      "typeId": 3,
+      "typeCode": "ultimate",
+      "name": "大當家盯著呢！",
+      "sourceType": "終結技",
+      "descriptionBlocks": [
+        "湯湯揭開眼罩，釋放眼中的古老圖形封鎖範圍內的敵人，使其暫停行動一段時間，並造成持續的寒冷傷害。",
+        "古老圖形演化結束時降下巨浪，對範圍內敵人造成大量寒冷傷害。",
+        "若主控幹員在古老圖形中下墜攻擊，會提前結束演化降下巨浪，巨浪造成的寒冷傷害提升。"
+      ],
+      "metrics": [
+        {
+          "code": "ultimate_energy_cost",
+          "sourceLabel": "所需終結技能量",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "cooldown",
+          "sourceLabel": "冷卻時間",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "total_dot_multiplier",
+          "sourceLabel": "持續傷害總倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "ancient_array_duration",
+          "sourceLabel": "古老圖形持續時間（秒）",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "giant_wave_damage_multiplier",
+          "sourceLabel": "巨浪傷害倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "early_giant_wave_damage_multiplier",
+          "sourceLabel": "提前降下巨浪傷害倍率",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "giant_wave_imbalance",
+          "sourceLabel": "巨浪失衡值",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "early_giant_wave_imbalance",
+          "sourceLabel": "提前降下巨浪失衡值",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK1",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20秒",
+            "total_dot_multiplier": "142%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "178%",
+            "early_giant_wave_damage_multiplier": "311%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK2",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20秒",
+            "total_dot_multiplier": "156%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "196%",
+            "early_giant_wave_damage_multiplier": "342%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK3",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20秒",
+            "total_dot_multiplier": "171%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "213%",
+            "early_giant_wave_damage_multiplier": "373%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK4",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20秒",
+            "total_dot_multiplier": "185%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "231%",
+            "early_giant_wave_damage_multiplier": "404%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK5",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20秒",
+            "total_dot_multiplier": "199%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "249%",
+            "early_giant_wave_damage_multiplier": "436%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK6",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20秒",
+            "total_dot_multiplier": "213%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "267%",
+            "early_giant_wave_damage_multiplier": "467%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK7",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20秒",
+            "total_dot_multiplier": "228%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "284%",
+            "early_giant_wave_damage_multiplier": "498%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK8",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20秒",
+            "total_dot_multiplier": "242%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "302%",
+            "early_giant_wave_damage_multiplier": "529%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK9",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20秒",
+            "total_dot_multiplier": "256%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "320%",
+            "early_giant_wave_damage_multiplier": "560%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "技能專精I",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20秒",
+            "total_dot_multiplier": "274%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "342%",
+            "early_giant_wave_damage_multiplier": "599%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "技能專精II",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20秒",
+            "total_dot_multiplier": "295%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "369%",
+            "early_giant_wave_damage_multiplier": "646%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "技能專精III",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20秒",
+            "total_dot_multiplier": "320%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "400%",
+            "early_giant_wave_damage_multiplier": "700%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        }
+      ]
+    }
+  ],
+  "talents": {
+    "operator": [
+      {
+        "id": "tangtang.talent.proficiency",
+        "order": 0,
+        "category": "stat_bonus",
+        "name": "游刃",
+        "sourceType": "能力值提升",
+        "stages": [
+          {
+            "sourceLabel": "游刃·一",
+            "effect": "幹員力敏捷志能力值提升10。",
+            "activationConditions": [
+              "幹員信賴值達到20%",
+              "晉升至精英化階段1後解鎖"
+            ]
+          },
+          {
+            "sourceLabel": "游刃·二",
+            "effect": "幹員力敏捷志能力值提升15。",
+            "activationConditions": [
+              "幹員信賴值達到50%",
+              "晉升至精英化階段2後解鎖"
+            ]
+          },
+          {
+            "sourceLabel": "游刃·三",
+            "effect": "幹員力敏捷志能力值提升15。",
+            "activationConditions": [
+              "幹員信賴值達到100%",
+              "晉升至精英化階段3後解鎖"
+            ]
+          },
+          {
+            "sourceLabel": "游刃·四",
+            "effect": "幹員力敏捷志能力值提升20。",
+            "activationConditions": [
+              "幹員信賴值達到100%",
+              "晉升至精英化階段4後解鎖"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tangtang.talent.kindred_spirits",
+        "order": 1,
+        "category": "combat_talent",
+        "name": "肝膽相照",
+        "sourceType": "幹員天賦",
+        "stages": [
+          {
+            "sourceLabel": "肝膽相照·I",
+            "effect": "渦流附近5公尺範圍內，友方幹員獲得10%加速，敵人受到20%緩速，離開範圍後該效果持續3秒。",
+            "activationConditions": [
+              "晉升至精英化階段1後解鎖"
+            ]
+          },
+          {
+            "sourceLabel": "肝膽相照·II",
+            "effect": "渦流附近5公尺範圍內，友方幹員獲得20%加速，敵人受到40%緩速，離開範圍後該效果持續3秒。",
+            "activationConditions": [
+              "晉升至精英化階段2後解鎖"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tangtang.talent.master_of_wind_and_waves",
+        "order": 2,
+        "category": "combat_talent",
+        "name": "呼風喚浪",
+        "sourceType": "幹員天賦",
+        "stages": [
+          {
+            "sourceLabel": "呼風喚浪·I",
+            "effect": "主控幹員在古老圖形中進行下墜攻擊，提前結束演化時，形成一個水龍捲，並消耗附近所有渦流使其形成額外的水龍捲。\n\n此次形成的水龍捲效果同戰技踏潮捲浪！，造成的傷害+40%。",
+            "activationConditions": [
+              "晉升至精英化階段2後解鎖"
+            ]
+          },
+          {
+            "sourceLabel": "呼風喚浪·II",
+            "effect": "主控幹員在古老圖形中進行下墜攻擊，提前結束演化時，形成一個水龍捲，並消耗附近所有渦流使其形成額外的水龍捲。\n\n此次形成的水龍捲效果同戰技踏潮捲浪！，造成的傷害+60%。",
+            "activationConditions": [
+              "晉升至精英化階段3後解鎖"
+            ]
+          }
+        ]
+      }
+    ],
+    "infrastructure": [
+      {
+        "id": "tangtang.infrastructure.chieftain",
+        "order": 3,
+        "category": "infrastructure_skill",
+        "name": "大當家",
+        "sourceType": "後勤技能",
+        "stages": [
+          {
+            "sourceLabel": "大當家·β",
+            "effect": "進駐培養艙時，艙室內幹員心情消耗降低14%",
+            "activationConditions": [
+              "晉升至精英化階段1後解鎖"
+            ]
+          },
+          {
+            "sourceLabel": "大當家·γ",
+            "effect": "進駐培養艙時，艙室內幹員心情消耗降低18%",
+            "activationConditions": [
+              "晉升至精英化階段3後解鎖"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tangtang.infrastructure.girl_born_from_the_river",
+        "order": 4,
+        "category": "infrastructure_skill",
+        "name": "河流的女兒",
+        "sourceType": "後勤技能",
+        "stages": [
+          {
+            "sourceLabel": "河流的女兒·β",
+            "effect": "進駐培養艙時，晶植材料的培養速度提升20%",
+            "activationConditions": [
+              "晉升至精英化階段2後解鎖"
+            ]
+          },
+          {
+            "sourceLabel": "河流的女兒·γ",
+            "effect": "進駐培養艙時，晶植材料的培養速度提升30%",
+            "activationConditions": [
+              "晉升至精英化階段4後解鎖"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "potentials": [
+    {
+      "level": 1,
+      "name": "財寶儲備",
+      "sourceLabel": "POTENTIAL 01",
+      "description": "連攜技河水，助我！的傷害倍率提升至原本的1.2倍，冷卻時間-2秒。\n\n戰技踏潮捲浪！每消耗一處渦流形成水龍捲，額外返還5點技力。\n\n解鎖幹員留影「白水鑑心」"
+    },
+    {
+      "level": 2,
+      "name": "河流的女兒",
+      "sourceLabel": "POTENTIAL 02",
+      "description": "敏捷+20，寒冷傷害+10%。"
+    },
+    {
+      "level": 3,
+      "name": "當家氣魄",
+      "sourceLabel": "POTENTIAL 03",
+      "description": "戰技踏潮捲浪！傷害倍率提升至原本的1.1倍，且同時形成多個水龍捲時造成的法術脆弱效果額外+5%。\n\n解鎖幹員留影「折筠」"
+    },
+    {
+      "level": 4,
+      "name": "清波修煉法",
+      "sourceLabel": "POTENTIAL 04",
+      "description": "終結技大當家盯著呢！所需的終結技能量-15%。"
+    },
+    {
+      "level": 5,
+      "name": "魔眼效能",
+      "sourceLabel": "POTENTIAL 05",
+      "description": "終結技大當家盯著呢！的傷害倍率提升至原本的1.15倍。\n\n天賦呼風喚浪效果加強：終結技大當家盯著呢！形成的水龍捲傷害提升效果額外+80%。\n\n解鎖幹員留影「當家令如山」\n\n解鎖名片主題「當家令如山」"
+    }
+  ],
+  "sourceAnomalies": [
+    {
+      "path": "/combatSkills/2/metrics/ultimate_energy_gain",
+      "kind": "missing_in_locale_dom",
+      "fallbackLocale": "ko-KR"
+    }
+  ]
+}

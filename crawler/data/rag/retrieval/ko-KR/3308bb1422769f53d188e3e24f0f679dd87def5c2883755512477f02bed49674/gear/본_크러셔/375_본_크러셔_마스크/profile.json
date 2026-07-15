@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.375.profile",
+  "semanticKey": "ko-KR|gear|375|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_375",
+    "name": "본 크러셔 마스크",
+    "aliases": [],
+    "gameEntryId": 375
+  },
+  "title": "본 크러셔 마스크 — 장비 기본 정보",
+  "content": "본 크러셔 마스크 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 본 크러셔이다. LV.70, 방어력 21. 옵션은 1번 민첩 32, 2번 힘 21, 3번 불균형 목표에 주는 피해 보너스 41.4%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "본 크러셔 마스크",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 529339492,
+      "code": "gear_set_1f8b8dc4f539",
+      "label": "본 크러셔"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "불균형 목표에 주는 피해 보너스",
+        "baseValue": {
+          "value": 41.4,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-1f8b8dc4f539.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1f8b8dc4f539",
+    "groupLabel": "본 크러셔",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_1f8b8dc4f539"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/본_크러셔/375_본_크러셔_마스크.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=375&header=0",
+    "sourceSha256": "43c3b6110102383da19c244f5dec4ed92bf87fb074db02776d533c8f87d39718",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_375.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_375.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e5841d82784c10d7c6bd14bf2fecaf67958e660c59d0a3769a6df96122c71e7a",
+    "payloadSha256": "0b71f871d8fd8407032b9f12a466d578b34bba4ac22d92cb75887a0d8657ed97"
+  }
+}

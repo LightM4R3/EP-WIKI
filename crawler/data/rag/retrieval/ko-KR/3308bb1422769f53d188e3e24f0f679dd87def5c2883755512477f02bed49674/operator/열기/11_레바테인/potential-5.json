@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.11.potential-5",
+  "semanticKey": "ko-KR|operator|11|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_11",
+    "name": "레바테인",
+    "aliases": [],
+    "gameEntryId": 11
+  },
+  "title": "레바테인 — 잠재능력 5 존재의 증명",
+  "content": "레바테인 오퍼레이터의 잠재능력 5 ‘존재의 증명’. 궁극기 황혼의 일반 공격 강화 피해 배율이 기존의 1.2 배로 증가하고, 궁극기가 지속되는 동안 레바테인이 적 한 명을 처치할 때마다 궁극기 지속 시간 +1 초(최대 +7 초) 오퍼레이터 기념사진 \"불꽃의 초대\" 잠금 해제 명함 테마 \"불꽃의 초대\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "존재의 증명",
+    "status": "rule_validated",
+    "effect": "궁극기 황혼의 일반 공격 강화 피해 배율이 기존의 1.2 배로 증가하고, 궁극기가 지속되는 동안 레바테인이 적 한 명을 처치할 때마다 궁극기 지속 시간 +1 초(최대 +7 초) 오퍼레이터 기념사진 \"불꽃의 초대\" 잠금 해제 명함 테마 \"불꽃의 초대\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/11_레바테인.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=11&header=0",
+    "sourceSha256": "6b76bc23ee1929d6d5da560bc66fe044c58fa1de186cbcacff5bd3ff1e01bad7",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_11.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "96babbe8e10cd69b8d2b1f3fd522216f92e9b66db010de10c321b6549bfb29a6",
+    "payloadSha256": "ef74d9a3d741e96212bef7ad764d5c431b913a725ca06bb6b2fd36bfb8f893ef"
+  }
+}

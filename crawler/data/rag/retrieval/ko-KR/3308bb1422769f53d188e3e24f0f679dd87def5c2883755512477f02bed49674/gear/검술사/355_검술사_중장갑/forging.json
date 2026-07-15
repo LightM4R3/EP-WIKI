@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.355.forging",
+  "semanticKey": "ko-KR|gear|355|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_355",
+    "name": "검술사 중장갑",
+    "aliases": [],
+    "gameEntryId": 355
+  },
+  "title": "검술사 중장갑 — 정밀 단조",
+  "content": "검술사 중장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 민첩: +0 87, +1 95, +2 104, +3 113.\n2번 힘: +0 58, +1 63, +2 69, +3 75.\n3번 오리지늄 아츠 강도: +0 20, +1 22, +2 24, +3 26.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 58,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 63,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 69,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 75,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 20,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 22,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 24,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 26,
+            "unit": "flat"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_79ba85ac519a",
+    "groupLabel": "검술사",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/355_검술사_중장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=355&header=0",
+    "sourceSha256": "68eec65d9decbb6d12a13e4b7d2fc80d6b510e307289245f77b846b934a069e9",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_355.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "415d9db95504b8445dd4c38f26e25c367e1077b913767b49f8591fc661a0c1a1",
+    "payloadSha256": "5cb629004345a1a7d4cbcc860baad284d27c671f29b63f30f11b1e0c4111cdf2"
+  }
+}

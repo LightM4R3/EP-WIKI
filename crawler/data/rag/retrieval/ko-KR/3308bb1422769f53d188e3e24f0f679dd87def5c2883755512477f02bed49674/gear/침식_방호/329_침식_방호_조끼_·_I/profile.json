@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.329.profile",
+  "semanticKey": "ko-KR|gear|329|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_329",
+    "name": "침식 방호 조끼 · I",
+    "aliases": [],
+    "gameEntryId": 329
+  },
+  "title": "침식 방호 조끼 · I — 장비 기본 정보",
+  "content": "침식 방호 조끼 · I 장비의 기본 정보. 유형은 방어구, 품질은 보라색 품질, 세트는 침식 방호이다. LV.50, 방어력 40. 옵션은 1번 의지 61, 2번 지능 41, 3번 생명력 14.7%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "침식 방호 조끼 · I",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 1506308161,
+      "code": "gear_set_59c6e9a131ea",
+      "label": "침식 방호"
+    },
+    "level": 50,
+    "defense": 40,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 61,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "생명력",
+        "baseValue": {
+          "value": 14.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-59c6e9a131ea.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_59c6e9a131ea",
+    "groupLabel": "침식 방호",
+    "gearTypeCode": "armor",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_59c6e9a131ea"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_방호/329_침식_방호_조끼_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=329&header=0",
+    "sourceSha256": "87023cd932d4044947b0d189bb4572df5d521dd75d5aa7f5cf89823c6d0da15a",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_329.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_329.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "63603a0d34d4a8f630cf795752e544764fbf50a3946a8fb040f3165d6eacdbb1",
+    "payloadSha256": "6c8f7d8c9cc1c6a4ce9f10e173d768f9edad882fa58cd07b5d0ba15904ebf035"
+  }
+}

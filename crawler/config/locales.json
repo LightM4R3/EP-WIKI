@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "0.1.0",
+  "locales": [
+    {
+      "id": "ko-KR",
+      "browserLanguage": "ko-KR,ko;q=0.9",
+      "siteOptionLabel": "한국어",
+      "htmlLang": "ko"
+    },
+    {
+      "id": "en-US",
+      "browserLanguage": "en-US,en;q=0.9",
+      "siteOptionLabel": "English",
+      "htmlLang": "en"
+    },
+    {
+      "id": "ja-JP",
+      "browserLanguage": "ja-JP,ja;q=0.9",
+      "siteOptionLabel": "日本語",
+      "htmlLang": "ja"
+    },
+    {
+      "id": "zh-TW",
+      "browserLanguage": "zh-TW,zh-Hant;q=0.9,zh;q=0.8",
+      "siteOptionLabel": "繁體中文",
+      "htmlLang": "zh_Hant"
+    }
+  ]
+}

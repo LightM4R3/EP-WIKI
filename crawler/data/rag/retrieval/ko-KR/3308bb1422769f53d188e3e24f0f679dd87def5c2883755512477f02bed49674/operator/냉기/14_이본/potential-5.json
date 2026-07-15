@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.14.potential-5",
+  "semanticKey": "ko-KR|operator|14|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_14",
+    "name": "이본",
+    "aliases": [],
+    "gameEntryId": 14
+  },
+  "title": "이본 — 잠재능력 5 기교 전문가",
+  "content": "이본 오퍼레이터의 잠재능력 5 ‘기교 전문가’. 궁극기 아이스 슈터가 지속되는 동안, 공격력 +10%, 치명타 피해 +30% 오퍼레이터 기념사진 \"Win-Win!\" 잠금 해제 명함 테마 \"Win-Win!\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "기교 전문가",
+    "status": "rule_validated",
+    "effect": "궁극기 아이스 슈터가 지속되는 동안, 공격력 +10%, 치명타 피해 +30% 오퍼레이터 기념사진 \"Win-Win!\" 잠금 해제 명함 테마 \"Win-Win!\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/14_이본.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=14&header=0",
+    "sourceSha256": "3f37d24500fd241e34d9edb02f253b3a9eb2603fb488a55f40d74c29933359ef",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_14.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "14b4d184090ecaca71ffcf60a81238812f33c4a3be0285f1652f46645434f4b8",
+    "payloadSha256": "b55144461e2e046b60658c7a84e525356e830b0eb57321f0fd6eb1b9c7cd578c"
+  }
+}

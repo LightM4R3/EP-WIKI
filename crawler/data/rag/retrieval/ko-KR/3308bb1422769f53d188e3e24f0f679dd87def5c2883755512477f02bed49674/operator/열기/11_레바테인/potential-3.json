@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.11.potential-3",
+  "semanticKey": "ko-KR|operator|11|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_11",
+    "name": "레바테인",
+    "aliases": [],
+    "gameEntryId": 11
+  },
+  "title": "레바테인 — 잠재능력 3 추억의 조각",
+  "content": "레바테인 오퍼레이터의 잠재능력 3 ‘추억의 조각’. 배틀 스킬 불타오르는 화염으로 준 연소의 지속 시간 +50%, 연소의 피해 증가가 기존의 1.5 배로 증가 오퍼레이터 기념사진 \"1538℃\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "추억의 조각",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 불타오르는 화염으로 준 연소의 지속 시간 +50%, 연소의 피해 증가가 기존의 1.5 배로 증가 오퍼레이터 기념사진 \"1538℃\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/11_레바테인.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=11&header=0",
+    "sourceSha256": "6b76bc23ee1929d6d5da560bc66fe044c58fa1de186cbcacff5bd3ff1e01bad7",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_11.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "638ac90b8ab2c375871743346468916bccdbb1756ce8f273992d4d520f28c74a",
+    "payloadSha256": "f8e718873fb44d5e3d08a34561303ba75e0ad9250807576d7122711ce16d711b"
+  }
+}

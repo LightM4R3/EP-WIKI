@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.2.potential-5",
+  "semanticKey": "ko-KR|operator|2|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_2",
+    "name": "관리자",
+    "aliases": [
+      "관리자(남)",
+      "관리자(여)"
+    ],
+    "gameEntryId": 2
+  },
+  "title": "관리자 — 잠재능력 5 ???",
+  "content": "관리자 오퍼레이터의 잠재능력 5 ‘???’. ??? 기념사진 \"장악\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "???",
+    "status": "rule_validated",
+    "effect": "??? 기념사진 \"장악\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/2_관리자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=2&header=0",
+    "sourceSha256": "d14e416101c10ca374f77bb5f25c300607764fd58c07bab57524ffad8f331cb8",
+    "authority": "human_override",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.operator_2.potential.c5.chapter.s6.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "13a3da1890919afdc7cd6d022e6dcbaa950600509bdcd7b92608fe7cf0ad2513",
+    "payloadSha256": "a42b8d187e18313f6fdd69fdccc5d64c7612b6c0735687f4ea3a2c9b426ea909"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.14.potential-3",
+  "semanticKey": "ko-KR|operator|14|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_14",
+    "name": "이본",
+    "aliases": [],
+    "gameEntryId": 14
+  },
+  "title": "이본 — 잠재능력 3 똑딱 충전",
+  "content": "이본 오퍼레이터의 잠재능력 3 ‘똑딱 충전’. 재능 빙점 효과 강화: 냉기 부착 상태의 적에게 주는 추가 치명타 피해 +10%, 동결 상태의 적에게도 동일하게 효과가 두 배로 적용됩니다. 오퍼레이터 기념사진 \"셀카 타임\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "똑딱 충전",
+    "status": "rule_validated",
+    "effect": "재능 빙점 효과 강화: 냉기 부착 상태의 적에게 주는 추가 치명타 피해 +10%, 동결 상태의 적에게도 동일하게 효과가 두 배로 적용됩니다. 오퍼레이터 기념사진 \"셀카 타임\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/14_이본.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=14&header=0",
+    "sourceSha256": "3f37d24500fd241e34d9edb02f253b3a9eb2603fb488a55f40d74c29933359ef",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_14.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7eed5526704eee8cb10acb2571a9462d0b80540633e42c6fd987da89b70c7ef8",
+    "payloadSha256": "39c68fb801db71a680ddc5df02810c864b9c1e588fb49588a702b469c934fe84"
+  }
+}

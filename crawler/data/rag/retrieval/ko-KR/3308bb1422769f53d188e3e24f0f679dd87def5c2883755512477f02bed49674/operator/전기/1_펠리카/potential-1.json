@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.1.potential-1",
+  "semanticKey": "ko-KR|operator|1|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_1",
+    "name": "펠리카",
+    "aliases": [],
+    "gameEntryId": 1
+  },
+  "title": "펠리카 — 잠재능력 1 위기 대책",
+  "content": "펠리카 오퍼레이터의 잠재능력 1 ‘위기 대책’. 연계 스킬 실시간 프로토콜 · 연쇄 섬광이 부여하는 감전의 지속시간 +75% 오퍼레이터 기념사진 \"선구자\" 잠금 해제 오퍼레이터 기념사진 \"샛별\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "위기 대책",
+    "status": "rule_validated",
+    "effect": "연계 스킬 실시간 프로토콜 · 연쇄 섬광이 부여하는 감전의 지속시간 +75% 오퍼레이터 기념사진 \"선구자\" 잠금 해제 오퍼레이터 기념사진 \"샛별\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/1_펠리카.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=1&header=0",
+    "sourceSha256": "cc4378cdc012f097bada65658318a2701132ffcbdfd22ce19c4193a8cb1308b6",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_1.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d3296c350425045348db09bcf979f5d47a2336151767d3b73cfec1051a7d254c",
+    "payloadSha256": "b5171ccbe198721038253cc94c3fa0c4734be55662269dbebcab024bcbecb5e1"
+  }
+}

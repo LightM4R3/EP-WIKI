@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.310.profile",
+  "semanticKey": "ko-KR|gear|310|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_310",
+    "name": "개척자 방어구 · I",
+    "aliases": [],
+    "gameEntryId": 310
+  },
+  "title": "개척자 방어구 · I — 장비 기본 정보",
+  "content": "개척자 방어구 · I 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 개척이다. LV.70, 방어력 56. 옵션은 1번 힘 87, 2번 민첩 58, 3번 배틀 스킬 피해 보너스 20.7%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "개척자 방어구 · I",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 1145026990,
+      "code": "gear_set_443e330e6735",
+      "label": "개척"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "배틀 스킬 피해 보너스",
+        "baseValue": {
+          "value": 20.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-443e330e6735.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_443e330e6735",
+    "groupLabel": "개척",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_443e330e6735"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/310_개척자_방어구_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=310&header=0",
+    "sourceSha256": "3e044fd9ecfafd01bedf138eccd94f1ae88eb4a396dfa263426134ba13f5f704",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_310.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_310.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "ddcea650e85b52257663a64578bdae5a65ddc561738a02f8fb650aa92476eb2c",
+    "payloadSha256": "3317c671eac0cdc392774b6cf3b657406c71acd6c33d78e1d5e2574e127a292c"
+  }
+}

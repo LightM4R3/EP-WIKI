@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.840.profile",
+  "semanticKey": "ko-KR|weapon|840|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_840",
+    "name": "안개 속 불빛",
+    "aliases": [],
+    "gameEntryId": 840
+  },
+  "title": "안개 속 불빛 — 무기 기본 정보",
+  "content": "안개 속 불빛 무기의 기본 정보. 무기 유형은 아츠 유닛이다. 옵션은 1번 의지 증가 · 대, 2번 전기 피해 증가 · 대, 3번 효율 · 중첩된 빛이다.",
+  "facts": {
+    "name": "안개 속 불빛",
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.840.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "전기 피해 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.840.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "효율 · 중첩된 빛",
+        "documentRef": "epwiki.ko-kr.weapon.840.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "weaponTypeCode": "arts_unit"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/840_안개_속_불빛.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=840&header=0",
+    "sourceSha256": "45f1c004ab4e636858c9281b1b55c5143f094367cd17723604e9d7caf5f7050b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_840.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_840.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "36b3ba95c45aae61d761a6f80c774a5cf61f549869c92e01783886aa5d51dd9d",
+    "payloadSha256": "2b044cc3d4107f736e8023c8dc1b0600dcf1716332509ad079386b19b2772f90"
+  }
+}

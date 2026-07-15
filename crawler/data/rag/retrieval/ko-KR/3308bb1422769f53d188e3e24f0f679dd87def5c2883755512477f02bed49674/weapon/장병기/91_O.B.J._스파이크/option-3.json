@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.91.option-3",
+  "semanticKey": "ko-KR|weapon|91|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_91",
+    "name": "O.B.J. 스파이크",
+    "aliases": [],
+    "gameEntryId": 91
+  },
+  "title": "O.B.J. 스파이크 — 3번 옵션 고통 · 빙산을 넘어서",
+  "content": "O.B.J. 스파이크 무기의 3번 옵션 ‘고통 · 빙산을 넘어서’.\nRANK1: 장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +8.0%. 동결을 소모 한 후, 공격력 +12.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +9.6%. 동결을 소모 한 후, 공격력 +14.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +11.2%. 동결을 소모 한 후, 공격력 +16.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +12.8%. 동결을 소모 한 후, 공격력 +19.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +14.4%. 동결을 소모 한 후, 공격력 +21.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +16.0%. 동결을 소모 한 후, 공격력 +24.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK7: 장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +17.6%. 동결을 소모 한 후, 공격력 +26.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +19.2%. 동결을 소모 한 후, 공격력 +28.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +22.4%. 동결을 소모 한 후, 공격력 +33.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "고통 · 빙산을 넘어서",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +8.0%. 동결을 소모 한 후, 공격력 +12.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +9.6%. 동결을 소모 한 후, 공격력 +14.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +11.2%. 동결을 소모 한 후, 공격력 +16.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +12.8%. 동결을 소모 한 후, 공격력 +19.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +14.4%. 동결을 소모 한 후, 공격력 +21.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +16.0%. 동결을 소모 한 후, 공격력 +24.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +17.6%. 동결을 소모 한 후, 공격력 +26.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +19.2%. 동결을 소모 한 후, 공격력 +28.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "장착자가 냉기 부착과 동결 상태의 적에게 주는 피해 +22.4%. 동결을 소모 한 후, 공격력 +33.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/91_O.B.J._스파이크.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=91&header=0",
+    "sourceSha256": "235bdf7d52a4c6e7c4754f5d5a3b961462ae34a10852da45386051495abc0521",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_91.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "8cdc7fe77a4d3939156e663f8379a6c0baf9828040a95c484f6528983aa98bce",
+    "payloadSha256": "fded40015365a8e90fec6cb2f0b80dbf5bb054aba09f050ad203ed57c3604dc6"
+  }
+}

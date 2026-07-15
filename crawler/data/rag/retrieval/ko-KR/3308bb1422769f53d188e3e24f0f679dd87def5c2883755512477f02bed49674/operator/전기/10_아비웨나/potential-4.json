@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.10.potential-4",
+  "semanticKey": "ko-KR|operator|10|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_10",
+    "name": "아비웨나",
+    "aliases": [],
+    "gameEntryId": 10
+  },
+  "title": "아비웨나 — 잠재능력 4 숙련자의 여유",
+  "content": "아비웨나 오퍼레이터의 잠재능력 4 ‘숙련자의 여유’. 궁극기 썬더랜스 · 결전의 떨림의 사용에 필요한 궁극기 에너지 -15%",
+  "facts": {
+    "stage": 4,
+    "name": "숙련자의 여유",
+    "status": "rule_validated",
+    "effect": "궁극기 썬더랜스 · 결전의 떨림의 사용에 필요한 궁극기 에너지 -15%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+    "sourceSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_10.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "dd844de271af8b6b2388f9ba8b62ceecaab3f61bf9fce45e0624a02e85045121",
+    "payloadSha256": "fef96b803fdbd3488c1df6112b92023554905b44347a6ceb923ff22234a595b5"
+  }
+}

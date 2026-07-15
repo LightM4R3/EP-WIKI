@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_733",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 733,
+    "name": "늑대의 혈흔"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=733&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "2f999f47a2549a2ec4f706507f3bd2463c5d0616bdca5de1dcfbe40abb6a0291",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_733.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 늑대의 혈흔\ngameEntryId: 733\n정규화 상태: query_ready\n무기 유형: 한손검 (id=0, code=sword)\n기초 공격력: LV.1=51, LV.20=148, LV.40=250, LV.60=352, LV.80=454, LV.90=505\n무기 옵션: 1번=민첩 증가 · 대; 2번=치명타 확률 증가 · 대; 3번=골절 · 군랑의 포식\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_733",
+        "gameEntryId": 733,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=733&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/733_늑대의_혈흔.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 0,
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "evidenceDocumentIds": [
+          "auto.weapon_733.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_733.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_733.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_733.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_733.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_733.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 늑대의 혈흔\ncategory: weapon\nsection: profile\n늑대의 혈흔\n유형\n한손검\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n레이시언 공업이 생산한 인기 장검. 암시장 경로를 통해 문명 밴드 밖으로 유통되며, 랜드브레이커 사이에서 특히 인기가 높습니다. 많은 이들이 여기에 특수 개조 모듈을 추가하곤 합니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_733",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=733&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 733,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:49:39.114828+00:00",
+        "contentSha256": "2f999f47a2549a2ec4f706507f3bd2463c5d0616bdca5de1dcfbe40abb6a0291",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/733_늑대의_혈흔.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "늑대의 혈흔"
+      }
+    },
+    {
+      "documentId": "auto.weapon_733.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 늑대의 혈흔\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n늑대의 혈흔\n한손검\n·획득 방식\n구매 센터 - 무기고 교환소\n기초 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n51\n505\n민첩 증가\n·\n대\n민첩\n+20\n1/3\n민첩\n+156\n9/9\n치명타 확률 증가\n·\n대\n치명타 확률\n+2.5%\n1/3\n치명타 확률\n+19.5%\n9/9\n골절\n· 군랑의 포식\n공격력\n+16.0%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+1.0%\n, 최대 16스택까지 중첩됩니다.\n늑대의\n피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+24.0%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\n1/4\n공격력\n+44.8%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+2.8%\n, 최대 16스택까지 중첩됩니다.\n늑대의\n피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+67.2%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_733",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=733&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 733,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:49:39.114828+00:00",
+        "contentSha256": "2f999f47a2549a2ec4f706507f3bd2463c5d0616bdca5de1dcfbe40abb6a0291",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/733_늑대의_혈흔.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "늑대의 혈흔"
+      }
+    },
+    {
+      "documentId": "auto.weapon_733.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 늑대의 혈흔\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n기초 속성\n(기본/최대)\n재료 소모\n기초 공격력\n51\n민첩 증가 · 대\n민첩\n+20\n1/3\n치명타 확률 증가 · 대\n치명타 확률\n+2.5%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n148\n148\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n민첩 증가 · 대\n민첩\n+20\n1/3\n민첩\n+36\n2/5\n치명타 확률 증가 · 대\n치명타 확률\n+2.5%\n1/3\n치명타 확률\n+2.5%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n250\n250\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n민첩 증가 · 대\n민첩\n+36\n2/5\n민첩\n+36\n2/6\n치명타 확률 증가 · 대\n치명타 확률\n+2.5%\n1/4\n치명타 확률\n+4.5%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n352\n352\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n민첩 증가 · 대\n민첩\n+36\n2/6\n민첩\n+52\n3/8\n치명타 확률 증가 · 대\n치명타 확률\n+4.5%\n2/6\n치명타 확률\n+4.5%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n454\n454\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n민첩 증가 · 대\n민첩\n+52\n3/8\n민첩\n+52\n3/9\n치명타 확률 증가 · 대\n치명타 확률\n+4.5%\n2/7\n치명타 확률\n+6.5%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n505\n민첩 증가 · 대\n민첩\n+52\n3/9\n치명타 확률 증가 · 대\n치명타 확률\n+6.5%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_733",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=733&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 733,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:49:39.114828+00:00",
+        "contentSha256": "2f999f47a2549a2ec4f706507f3bd2463c5d0616bdca5de1dcfbe40abb6a0291",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/733_늑대의_혈흔.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "늑대의 혈흔"
+      }
+    },
+    {
+      "documentId": "auto.weapon_733.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 늑대의 혈흔\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n민첩 증가 · 대\n치명타 확률 증가 · 대\n골절 · 군랑의 포식\nRANK 1\n민첩\n+20\n치명타 확률\n+2.5%\n공격력\n+16.0%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+1.0%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+24.0%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\nRANK 2\n민첩\n+36\n치명타 확률\n+4.5%\n공격력\n+19.2%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+1.2%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+28.8%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\nRANK 3\n민첩\n+52\n치명타 확률\n+6.5%\n공격력\n+22.4%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+1.4%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+33.6%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\nRANK 4\n민첩\n+68\n치명타 확률\n+8.5%\n공격력\n+25.6%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+1.6%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+38.4%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\nRANK 5\n민첩\n+84\n치명타 확률\n+10.5%\n공격력\n+28.8%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+1.8%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+43.2%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\nRANK 6\n민첩\n+100\n치명타 확률\n+12.5%\n공격력\n+32.0%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+2.0%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+48.0%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\nRANK 7\n민첩\n+116\n치명타 확률\n+14.5%\n공격력\n+35.2%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+2.2%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+52.8%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\nRANK 8\n민첩\n+132\n치명타 확률\n+16.5%\n공격력\n+38.4%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+2.4%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+57.6%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\nRANK 9\n민첩\n+156\n치명타 확률\n+19.5%\n공격력\n+44.8%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+2.8%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+67.2%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n민첩 증가\n치명타 확률 증가\n골절",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_733",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=733&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 733,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:49:39.114828+00:00",
+        "contentSha256": "2f999f47a2549a2ec4f706507f3bd2463c5d0616bdca5de1dcfbe40abb6a0291",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/733_늑대의_혈흔.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "늑대의 혈흔"
+      }
+    },
+    {
+      "documentId": "auto.weapon_733.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 늑대의 혈흔\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n골절 · 군랑의 포식\n기본/최대\n골절 · 군랑의 포식\n잠재능력 1\n1/4\n공격력\n+16.0%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+1.0%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+24.0%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\n잠재능력 2\n2/5\n공격력\n+19.2%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+1.2%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+28.8%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\n잠재능력 3\n3/6\n공격력\n+22.4%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+1.4%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+33.6%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\n잠재능력 4\n4/7\n공격력\n+25.6%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+1.6%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+38.4%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\n잠재능력 5\n5/8\n공격력\n+28.8%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+1.8%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+43.2%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.\n잠재능력 6\n6/9\n공격력\n+32.0%\n장착자가 치명타 피해를 준 후,\n늑대의 피\n1스택을 획득하며,\n물리 및 열기 피해\n+2.0%\n, 최대 16스택까지 중첩됩니다.\n늑대의 피\n가\n16스택까지 중첩한 후,\n물리 및 열기 피해가 추가로\n+48.0%\n,\n20초 동안 지속. 지속 시간이 종료된 후, 모든\n늑대의 피\n중첩 스택 수치를 초기화합니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_733",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=733&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 733,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:49:39.114828+00:00",
+        "contentSha256": "2f999f47a2549a2ec4f706507f3bd2463c5d0616bdca5de1dcfbe40abb6a0291",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/733_늑대의_혈흔.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "늑대의 혈흔"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 51
+    },
+    {
+      "level": 20,
+      "baseAttack": 148
+    },
+    {
+      "level": 40,
+      "baseAttack": 250
+    },
+    {
+      "level": 60,
+      "baseAttack": 352
+    },
+    {
+      "level": 80,
+      "baseAttack": 454
+    },
+    {
+      "level": 90,
+      "baseAttack": 505
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_733.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "치명타 확률 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_733.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "골절 · 군랑의 포식",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_733.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 0,
+    "code": "sword",
+    "label": "한손검"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/한손검/733_늑대의_혈흔.json"
+}

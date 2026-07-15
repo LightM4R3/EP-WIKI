@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.270.profile",
+  "semanticKey": "ko-KR|gear|270|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_270",
+    "name": "광산 통신기 · I",
+    "aliases": [],
+    "gameEntryId": 270
+  },
+  "title": "광산 통신기 · I — 장비 기본 정보",
+  "content": "광산 통신기 · I 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 세트 없음이다. LV.50, 방어력 15. 옵션은 1번 의지 31, 3번 치유 효율 보너스 15.6%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 통신기 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 31,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "치유 효율 보너스",
+        "baseValue": {
+          "value": 15.6,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/270_광산_통신기_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=270&header=0",
+    "sourceSha256": "3e554c479382908d97ada276b9fc55ba5f3eb43a6573ea0012ca5160590b13a4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_270.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_270.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d7110b8bc17d908acba72414532ba22c4cfa51a4801b209ed6e43cdf62eba06b",
+    "payloadSha256": "35c05791a34a7fb8f28cbe091e17b53fc035a8bbda7087343758d76e41a21a9b"
+  }
+}

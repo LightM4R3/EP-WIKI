@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.44.potential",
+  "semanticKey": "ko-KR|weapon|44|potential",
+  "locale": "ko-KR",
+  "documentType": "weapon_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_44",
+    "name": "공업 0.1",
+    "aliases": [],
+    "gameEntryId": 44
+  },
+  "title": "공업 0.1 — 잠재능력",
+  "content": "공업 0.1 무기의 잠재능력은 마지막 옵션 ‘억제 · 비상 부스트’의 기본/최대 RANK를 올린다. 잠재 1는 RANK 1/4, 잠재 2는 RANK 2/5, 잠재 3는 RANK 3/6, 잠재 4는 RANK 4/7, 잠재 5는 RANK 5/8, 잠재 6는 RANK 6/9.",
+  "facts": {
+    "traitRef": "epwiki.ko-kr.weapon.44.option-3",
+    "stages": [
+      {
+        "stage": 1,
+        "baseRank": 1,
+        "maxRank": 4,
+        "effectRef": "epwiki.ko-kr.weapon.44.option-3#rank-1"
+      },
+      {
+        "stage": 2,
+        "baseRank": 2,
+        "maxRank": 5,
+        "effectRef": "epwiki.ko-kr.weapon.44.option-3#rank-2"
+      },
+      {
+        "stage": 3,
+        "baseRank": 3,
+        "maxRank": 6,
+        "effectRef": "epwiki.ko-kr.weapon.44.option-3#rank-3"
+      },
+      {
+        "stage": 4,
+        "baseRank": 4,
+        "maxRank": 7,
+        "effectRef": "epwiki.ko-kr.weapon.44.option-3#rank-4"
+      },
+      {
+        "stage": 5,
+        "baseRank": 5,
+        "maxRank": 8,
+        "effectRef": "epwiki.ko-kr.weapon.44.option-3#rank-5"
+      },
+      {
+        "stage": 6,
+        "baseRank": 6,
+        "maxRank": 9,
+        "effectRef": "epwiki.ko-kr.weapon.44.option-3#rank-6"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_potential",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/44_공업_0.1.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=44&header=0",
+    "sourceSha256": "f12333475e01361e826057e42067fe151359a1a1245d7daefab65929b57e4cff",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_44.potential.c4.chapter.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "211ba10998ec5b9b06ae100fee60301eac25be66113a2d386520b03ef322e329",
+    "payloadSha256": "1c4cfaf8f3709e466e784ef2e843b33d4520e1f8249b66852a2eca81d64f46b9"
+  }
+}

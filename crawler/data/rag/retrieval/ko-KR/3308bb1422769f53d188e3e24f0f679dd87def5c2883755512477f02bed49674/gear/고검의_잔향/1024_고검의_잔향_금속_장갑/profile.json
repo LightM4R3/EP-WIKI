@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.1024.profile",
+  "semanticKey": "ko-KR|gear|1024|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_1024",
+    "name": "고검의 잔향 금속 장갑",
+    "aliases": [],
+    "gameEntryId": 1024
+  },
+  "title": "고검의 잔향 금속 장갑 — 장비 기본 정보",
+  "content": "고검의 잔향 금속 장갑 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 고검의 잔향이다. LV.70, 방어력 42. 옵션은 1번 힘 65, 2번 의지 43, 3번 오리지늄 아츠 강도 34. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "고검의 잔향 금속 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 0,
+      "code": "echo_of_ancient_sword",
+      "label": "고검의 잔향"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "baseValue": {
+          "value": 34,
+          "unit": "flat"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.echo-of-ancient-sword.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "echo_of_ancient_sword",
+    "groupLabel": "고검의 잔향",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "echo_of_ancient_sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/고검의_잔향/1024_고검의_잔향_금속_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1024&header=0",
+    "sourceSha256": "5816a3c90563bd7192d7be72a9250e6d10a6e743879547054c231e4a5f4dbef5",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_1024.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_1024.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "42ac5ed42cd81cbe69e2daef6b097c919df9266be168804344b9bd22cf0e4a0d",
+    "payloadSha256": "4dfd95cb7ec84ae9e78ad84ab2db86ad5c1d417f6eb8e65c5a7c4a0c2846d461"
+  }
+}

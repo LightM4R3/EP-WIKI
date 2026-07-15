@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.86.option-2",
+  "semanticKey": "ko-KR|weapon|86|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_86",
+    "name": "O.B.J. 헤비 버든",
+    "aliases": [],
+    "gameEntryId": 86
+  },
+  "title": "O.B.J. 헤비 버든 — 2번 옵션 생명력 증가 · 중",
+  "content": "O.B.J. 헤비 버든 무기의 2번 옵션 ‘생명력 증가 · 중’.\nRANK1: 최대 생명력 +8.0%.\nRANK2: 최대 생명력 +14.4%.\nRANK3: 최대 생명력 +20.8%.\nRANK4: 최대 생명력 +27.2%.\nRANK5: 최대 생명력 +33.6%.\nRANK6: 최대 생명력 +40.0%.\nRANK7: 최대 생명력 +46.4%.\nRANK8: 최대 생명력 +52.8%.\nRANK9: 최대 생명력 +62.4%.",
+  "facts": {
+    "slot": 2,
+    "name": "생명력 증가 · 중",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "최대 생명력",
+        "value": 8,
+        "unit": "percent",
+        "display": "+8.0%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "최대 생명력",
+        "value": 14.4,
+        "unit": "percent",
+        "display": "+14.4%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "최대 생명력",
+        "value": 20.8,
+        "unit": "percent",
+        "display": "+20.8%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "최대 생명력",
+        "value": 27.2,
+        "unit": "percent",
+        "display": "+27.2%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "최대 생명력",
+        "value": 33.6,
+        "unit": "percent",
+        "display": "+33.6%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "최대 생명력",
+        "value": 40,
+        "unit": "percent",
+        "display": "+40.0%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "최대 생명력",
+        "value": 46.4,
+        "unit": "percent",
+        "display": "+46.4%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "최대 생명력",
+        "value": 52.8,
+        "unit": "percent",
+        "display": "+52.8%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "최대 생명력",
+        "value": 62.4,
+        "unit": "percent",
+        "display": "+62.4%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/86_O.B.J._헤비_버든.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=86&header=0",
+    "sourceSha256": "6e9dc79adbb310c7b2886719feea3c2a8f9bc72b5432002cf54cd28cc2ecc50f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_86.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "60d52e67f81e66bf434fbf5eb9bc89006b885ce276296e186382a0413f4f1d62",
+    "payloadSha256": "4872d877246e44aa5e72fb3bfdfb6c99bd2af7202fc5b77e58fcd6f49e7c962f"
+  }
+}

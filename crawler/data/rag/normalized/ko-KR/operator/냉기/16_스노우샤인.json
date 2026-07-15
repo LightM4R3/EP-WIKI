@@ -1,0 +1,501 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_16",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 16,
+    "name": "스노우샤인"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_16.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 스노우샤인\ngameEntryId: 16\n정규화 상태: query_ready\n속성: 냉기 (id=3, code=cryo)\n무기 유형: 양손검 (id=1, code=greatsword)\n주요 능력치: 힘 (id=0, code=strength)\n보조 능력치: 의지 (id=3, code=will)\nLV.1: 힘=18, 민첩=12, 지능=9, 의지=10, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=47, 민첩=32, 지능=27, 의지=31, 기초 공격력=87, 기초 생명력=1566\nLV.40: 힘=78, 민첩=52, 지능=46, 의지=53, 기초 공격력=147, 기초 생명력=2689\nLV.60: 힘=108, 민첩=73, 지능=65, 의지=75, 기초 공격력=207, 기초 생명력=3811\nLV.80: 힘=139, 민첩=94, 지능=84, 의지=97, 기초 공격력=267, 기초 생명력=4934\nLV.90: 힘=154, 민첩=104, 지능=93, 의지=108, 기초 공격력=297, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_16",
+        "gameEntryId": 16,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 3,
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "evidenceDocumentIds": [
+          "auto.operator_16.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_16.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_16.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_16.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_16.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_16.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_16.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_16.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_16.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_16.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_16.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 스노우샤인\ncategory: operator\nsection: profile\n스노우샤인\n진영\n로도스 아일랜드\n무기 유형\n양손검\n\"풍속도 적당하고, 시야도 양호하고... 보드 타기 딱 좋은 날씨네!\"\n스노우샤인은 로도스 아일랜드 소속으로, 로도스 아일랜드와 엔드필드 공업 간의 협력에 관한 협약에 따라 구조 전문가로 엔드필드 공업에 협력하고 있다.\n바로 이러한 인력 공백 때문에 특별한 임무가 없을 때도 스노우샤인과 그녀의 구조대는 매일 같이 분주하게 활동하고 있다.\n그럼에도 그녀는 틈틈이 자신의 경험을 정리해 <극지 생존 가이드>를 완성했고, 이 책은 현재 탈로스 II의 눈과 얼음이 있는 환경에서 생존과 구조를 위해 없어서는 안 될 핵심 참고서가 되었다.\n\"난 눈과 얼음, 설산과 혹독한 추위 속에서 반짝이는 것들이 좋아... 그래서 난 이런 것들이 누군가의 아픈 기억이 되지 않았으면 좋겠어.\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_16",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 16,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:43.411114+00:00",
+        "contentSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "스노우샤인"
+      }
+    },
+    {
+      "documentId": "auto.operator_16.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 스노우샤인\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n스노우샤인\n성별\n여\n진영\n로도스 아일랜드\n생일\n12월 19일\n속성\n냉기\n종족\n우르수스\n한국어 CV\n유영\n일본어 CV\n明坂聡美\n영어 CV\nStephanie Southerland\n중국어 CV\n刘十四",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_16",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 16,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:43.411114+00:00",
+        "contentSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "스노우샤인"
+      }
+    },
+    {
+      "documentId": "auto.operator_16.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 스노우샤인\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘 (주요 능력치)\n18\n47\n78\n108\n139\n154\n민첩\n12\n32\n52\n73\n94\n104\n지능\n9\n27\n46\n65\n84\n93\n의지 (보조 능력치)\n10\n31\n53\n75\n97\n108\n기초 공격력\n30\n87\n147\n207\n267\n297\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘 (주요 능력치)\n18\n-\n민첩\n12\n지능\n9\n의지 (보조 능력치)\n10\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n47\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩\n32\n지능\n27\n의지 (보조 능력치)\n31\n기초 공격력\n87\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n78\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩\n52\n지능\n46\n의지 (보조 능력치)\n53\n기초 공격력\n147\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n108\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩\n73\n지능\n65\n의지 (보조 능력치)\n75\n기초 공격력\n207\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n139\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩\n94\n지능\n84\n의지 (보조 능력치)\n97\n기초 공격력\n267\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘 (주요 능력치)\n154\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩\n104\n지능\n93\n의지 (보조 능력치)\n108\n기초 공격력\n297\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_16",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 16,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:43.411114+00:00",
+        "contentSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "스노우샤인"
+      }
+    },
+    {
+      "documentId": "auto.operator_16.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 스노우샤인\ncategory: operator\nsection: combat_skill\n전투 스킬\n저체온 강타\n일반 공격\n일반 공격:\n적에게 최대 3단 공격을 하여\n물리 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n23\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n물리 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n물리 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n55%\n61%\n66%\n72%\n77%\n83%\n88%\n94%\n99%\n106%\n114%\n124%\n일반 공격 제2단계 배율\n59%\n64%\n70%\n76%\n82%\n88%\n94%\n99%\n105%\n113%\n121%\n132%\n일반 공격 제3단계 배율\n100%\n110%\n120%\n130%\n140%\n150%\n160%\n170%\n180%\n193%\n208%\n225%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n3상 나노플레이크 칩\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n3상 나노플레이크 칩\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n3상 나노플레이크 칩\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n포화성 방어\n배틀 스킬\n방패를 들어 공격을 막으며 자신과 주변의 오퍼레이터에게\n비호\n를 부여하고, 일정 스킬 게이지를\n반환\n합니다.\n방패를 들고 있는 동안 공격을 받으면 반격하며 적에게\n냉기 피해\n를 주고\n냉기 부착\n을 부여합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n피해 배율\n200%\n220%\n240%\n260%\n280%\n300%\n320%\n340%\n360%\n385%\n415%\n450%\n불균형치\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n비호 효과\n90%\n90%\n90%\n90%\n90%\n90%\n90%\n90%\n90%\n90%\n90%\n90%\n스킬 게이지 반환\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n초거리 빛 반사 파이프\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n초거리 빛 반사 파이프\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_16",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 16,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:43.411114+00:00",
+        "contentSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "스노우샤인"
+      }
+    },
+    {
+      "documentId": "auto.operator_16.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 스노우샤인\ncategory: operator\nsection: combat_skill\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n초거리 빛 반사 파이프\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n극지 구조\n연계 스킬\n메인 컨트롤 오퍼레이터가 공격받아 생명력이 60% 이하일 때 사용할 수 있습니다.\n스노우샤인이 대상에게 설원 구조 조수를 던집니다. 목표에 명중하면 즉시 주변의 오퍼레이터를 대량으로\n치유\n하고, 일정 시간 동안 범위 내의 오퍼레이터를 지속적으로\n치유\n합니다.\n의지는 치유량을 추가로 증가시킵니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n25초\n25초\n25초\n25초\n25초\n25초\n25초\n25초\n24초\n24초\n24초\n23초\n초기 치유 기초 수치\n96\n115\n134\n154\n163\n173\n182\n192\n202\n206\n211\n216\n의지 1포인트마다 증가하는 초기 치유 수치\n0.22\n0.27\n0.31\n0.36\n0.38\n0.4\n0.43\n0.45\n0.47\n0.48\n0.49\n0.5\n지속 치유 기초 수치\n24\n29\n34\n38\n41\n43\n46\n48\n50\n52\n53\n54\n의지 1포인트마다 증가하는 지속 치유 수치\n0.06\n0.07\n0.08\n0.09\n0.1\n0.1\n0.11\n0.11\n0.12\n0.12\n0.12\n0.13\n지속 치유 간격(초)\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n지속 시간(초)\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n3\n획득하는 궁극기 에너지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n3상 나노플레이크 칩\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n3상 나노플레이크 칩\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n3상 나노플레이크 칩\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n살얼음 추위\n궁극기\n분사 장치를 이용하여 점프한 다음 앞으로 방패를 내리찍습니다. 범위 내의 적에게 대량의\n냉기 피해\n를 주고, 수초 동안 지속되는\n빙설 지대\n를 생성하여 지속적으로 적에게\n냉기 피해\n를 줍니다. 적이 일정 시간 동안\n빙설 지대\n에서 벗어나지 못할 경우, 강제\n동결\n됩니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n80\n80\n80\n80\n80\n80\n80\n80\n80\n80\n80\n80\n쿨타임\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n폭발 피해 배율\n200%\n220%\n240%\n260%\n280%\n300%\n320%\n340%\n360%\n385%\n415%\n450%\n불균형치\n15\n15\n15\n15\n15\n15\n15\n15\n15\n20\n20\n20\n지속 피해 배율\n29%\n32%\n35%\n37%\n40%\n43%\n46%\n49%\n52%\n55%\n60%\n65%\n지속 피해 간격(초)\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n0.5\n지속 시간(초)\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_16",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 16,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:25:43.411114+00:00",
+        "contentSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "스노우샤인"
+      }
+    },
+    {
+      "documentId": "auto.operator_16.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 스노우샤인\ncategory: operator\nsection: combat_skill\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n초거리 빛 반사 파이프\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n초거리 빛 반사 파이프\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n초거리 빛 반사 파이프\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_16",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 16,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T06:25:43.411114+00:00",
+        "contentSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "스노우샤인"
+      }
+    },
+    {
+      "documentId": "auto.operator_16.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 스노우샤인\ncategory: operator\nsection: operator_talent\n재능 배열\n단련\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 힘 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 힘 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 힘 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 힘 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n극지 생존\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n생명력이 45% 이하의 목표에 치유 효과\n+15%\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n생명력이 55% 이하의 목표에 치유 효과\n+25%\n정예화 단계 2 돌파\n40\n프로토콜 프리즘\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n구조 전문가\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n배틀 스킬\n포화성 방어\n가 적의 공격을 성공적으로 막은 후, 추가로 궁극기 에너지를\n6\n만큼 획득합니다.\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n배틀 스킬\n포화성 방어\n가 적의 공격을 성공적으로 막은 후, 추가로 궁극기 에너지를\n10\n만큼 획득합니다.\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n24000\n탈로시안 화폐\n*\n24000\n구조자의 굳건한 마음",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_16",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 16,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:43.411114+00:00",
+        "contentSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "스노우샤인"
+      }
+    },
+    {
+      "documentId": "auto.operator_16.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 스노우샤인\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n구조자의 굳건한 마음\n· α\n제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 10% 감소\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n구조자의 굳건한 마음\n· β\n제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n긍정파\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n긍정파 · β\n핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 12% 증가\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n긍정파 · γ\n핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 16% 증가\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_16",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 16,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:43.411114+00:00",
+        "contentSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "스노우샤인"
+      }
+    },
+    {
+      "documentId": "auto.operator_16.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 스노우샤인\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\n정합용 유체\n*\n20\n8\n피버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_16",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 16,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:43.411114+00:00",
+        "contentSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "스노우샤인"
+      }
+    },
+    {
+      "documentId": "auto.operator_16.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 스노우샤인\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n저체온 대피소\n잠재능력 01\n배틀 스킬\n포화성 방어\n의 막기 효과가 지속되는 동안\n비호\n상태의 아군 오퍼레이터에게\n아츠 부착\n효과를 부여할 수 없습니다.\n오퍼레이터 기념사진 \"찰나의 휴식\" 잠금 해제\n눈보라 지대\n잠재능력 02\n궁극기\n살얼음 추위\n의 범위\n+20%\n극지 생존 가이드\n잠재능력 03\n궁극기\n살얼음 추위\n가 부여하는\n동결\n의 지속 시간\n+2\n초\n오퍼레이터 기념사진 \"눈 오는 맑은 날\" 잠금 해제\n얼어붙은 대지의 방패\n잠재능력 04\n방어력\n+20\n, 의지\n+20\n한파 대응 전문가\n잠재능력 05\n배틀 스킬\n포화성 방어\n로 반격에 성공했을 때, 스킬 게이지\n10\n포인트를\n반환\n합니다.\n오퍼레이터 기념사진 \"눈 위를 가르는 비행\" 잠금 해제\n오퍼레이터 기념사진\n찰나의 휴식\n일러스트레이터: 수줍(Sjoop)\n다음 산봉우리를 넘기 전이나, 다음 구조 신호가 오기 전에 잠깐 쉬는 시간이 생길 때면 전 옐시 스타일의 핫초코 한 잔을 마시곤 해요... 그게 최고의 선택이라고 생각하거든요...\n눈 오는 맑은 날\n일러스트레이터: 一块二毛一斤\n혹독한 추위 속에서 희망을 잃어버린 사람들... 전 그런 사람들에게 설산 꼭대기에 비친 눈부신 햇살 같은 존재가 되고 싶어요.\n눈 위를 가르는 비행\n일러스트레이터: LAL!ROLE\n설산을 누비고 빙판 위를 활강한다는 게 쉽지 않긴 해요. 하지만, 누군가의 생명을 구할 수만 있다면 그 정도는 충분히 감수할 수 있죠...",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_16",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 16,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:43.411114+00:00",
+        "contentSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "스노우샤인"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 3,
+      "code": "cryo",
+      "label": "냉기"
+    },
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 0,
+      "code": "strength",
+      "label": "힘"
+    },
+    "secondary": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 18,
+        "agility": 12,
+        "intellect": 9,
+        "will": 10,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 47,
+        "agility": 32,
+        "intellect": 27,
+        "will": 31,
+        "baseAttack": 87,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 78,
+        "agility": 52,
+        "intellect": 46,
+        "will": 53,
+        "baseAttack": 147,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 108,
+        "agility": 73,
+        "intellect": 65,
+        "will": 75,
+        "baseAttack": 207,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 139,
+        "agility": 94,
+        "intellect": 84,
+        "will": 97,
+        "baseAttack": 267,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 154,
+        "agility": 104,
+        "intellect": 93,
+        "will": 108,
+        "baseAttack": 297,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_16.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_16.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_16.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": []
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_16.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_16.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_16.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 3,
+    "code": "cryo",
+    "label": "냉기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json"
+}

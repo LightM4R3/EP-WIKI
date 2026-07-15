@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.18.talent-attribute",
+  "semanticKey": "ko-KR|operator|18|talent-attribute",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_18",
+    "name": "알레쉬",
+    "aliases": [],
+    "gameEntryId": 18
+  },
+  "title": "알레쉬 — 단련",
+  "content": "알레쉬 오퍼레이터의 능력치 재능 ‘단련’.\n단계 1: 오퍼레이터 힘 능력치 10 증가. 활성화 조건: 오퍼레이터 신뢰도 20% 도달, 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 5개, 탈로시안 화폐 1000개.\n단계 2: 오퍼레이터 힘 능력치 15 증가. 활성화 조건: 오퍼레이터 신뢰도 50% 도달, 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 10개, 탈로시안 화폐 1800개.\n단계 3: 오퍼레이터 힘 능력치 15 증가. 활성화 조건: 오퍼레이터 신뢰도 100% 도달, 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 10개, 탈로시안 화폐 6000개.\n단계 4: 오퍼레이터 힘 능력치 20 증가. 활성화 조건: 오퍼레이터 신뢰도 100% 도달, 정예화 단계 4 돌파. 재료: 프로토콜 프리즘 세트 20개, 탈로시안 화폐 12000개.",
+  "facts": {
+    "kind": "attribute_talent",
+    "name": "단련",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "오퍼레이터 힘 능력치 10 증가",
+        "conditions": [
+          "오퍼레이터 신뢰도 20% 도달",
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 5
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "오퍼레이터 힘 능력치 15 증가",
+        "conditions": [
+          "오퍼레이터 신뢰도 50% 도달",
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 10
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1800
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "effect": "오퍼레이터 힘 능력치 15 증가",
+        "conditions": [
+          "오퍼레이터 신뢰도 100% 도달",
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 10
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 6000
+          }
+        ]
+      },
+      {
+        "stage": 4,
+        "effect": "오퍼레이터 힘 능력치 20 증가",
+        "conditions": [
+          "오퍼레이터 신뢰도 100% 도달",
+          "정예화 단계 4 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 20
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 12000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "talentKind": "attribute_talent"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+    "sourceSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_18.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "13cfd9f5e1f941953d6fca68afabc3c5c0dc4052f5e3d53a19302227b2616654",
+    "payloadSha256": "811df1c06feef4a7a86af1186c3aaa7b0020e54481f2ebeffc809f5ce824c8c6"
+  }
+}

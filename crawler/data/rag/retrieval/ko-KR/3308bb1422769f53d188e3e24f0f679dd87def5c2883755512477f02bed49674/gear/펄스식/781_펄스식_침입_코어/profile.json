@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.781.profile",
+  "semanticKey": "ko-KR|gear|781|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_781",
+    "name": "펄스식 침입 코어",
+    "aliases": [],
+    "gameEntryId": 781
+  },
+  "title": "펄스식 침입 코어 — 장비 기본 정보",
+  "content": "펄스식 침입 코어 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 펄스식이다. LV.70, 방어력 21. 옵션은 1번 의지 41, 3번 궁극기 피해 보너스 51.8%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "펄스식 침입 코어",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2859607881,
+      "code": "gear_set_aa70a0a9b381",
+      "label": "펄스식"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 피해 보너스",
+        "baseValue": {
+          "value": 51.8,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-aa70a0a9b381.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_aa70a0a9b381",
+    "groupLabel": "펄스식",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_aa70a0a9b381"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/펄스식/781_펄스식_침입_코어.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=781&header=0",
+    "sourceSha256": "fbe811dcdaac966da3b620cda973700bbfad681fb33ed5e01be5b97968e308de",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_781.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_781.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "69bc208f6ebe941cf07e598904820a2600b0eec618d875b689d823663d6d7a1f",
+    "payloadSha256": "9695dd34d8ea305335d709d5baefd9049443d0e6a3b0cd881505cd5a4df818fa"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.371.profile",
+  "semanticKey": "ko-KR|gear|371|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_371",
+    "name": "본 크러셔 중갑 방어구",
+    "aliases": [],
+    "gameEntryId": 371
+  },
+  "title": "본 크러셔 중갑 방어구 — 장비 기본 정보",
+  "content": "본 크러셔 중갑 방어구 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 본 크러셔이다. LV.70, 방어력 56. 옵션은 1번 민첩 87, 2번 지능 58, 3번 궁극기 충전 효율 12.3%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "본 크러셔 중갑 방어구",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 529339492,
+      "code": "gear_set_1f8b8dc4f539",
+      "label": "본 크러셔"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 12.3,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-1f8b8dc4f539.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1f8b8dc4f539",
+    "groupLabel": "본 크러셔",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_1f8b8dc4f539"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/본_크러셔/371_본_크러셔_중갑_방어구.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=371&header=0",
+    "sourceSha256": "207099c38051f4d240dcd076b00600fc11323d2035b13d0718ab724c35d77007",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_371.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_371.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0d7f5f0780bd476d386cea676b6976d55d06fafe02f6fcba8c016459efda59b1",
+    "payloadSha256": "d51189b0d41318a9b8f67e977c2e99e08276ca875a95ae0135dfebf7ba18531a"
+  }
+}

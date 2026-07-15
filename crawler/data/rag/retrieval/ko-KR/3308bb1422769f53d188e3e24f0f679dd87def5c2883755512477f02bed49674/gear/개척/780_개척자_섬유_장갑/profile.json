@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.780.profile",
+  "semanticKey": "ko-KR|gear|780|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_780",
+    "name": "개척자 섬유 장갑",
+    "aliases": [],
+    "gameEntryId": 780
+  },
+  "title": "개척자 섬유 장갑 — 장비 기본 정보",
+  "content": "개척자 섬유 장갑 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 개척이다. LV.70, 방어력 42. 옵션은 1번 의지 65, 2번 힘 43, 3번 모든 스킬 피해 보너스 23%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "개척자 섬유 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 1145026990,
+      "code": "gear_set_443e330e6735",
+      "label": "개척"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "모든 스킬 피해 보너스",
+        "baseValue": {
+          "value": 23,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-443e330e6735.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_443e330e6735",
+    "groupLabel": "개척",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_443e330e6735"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/780_개척자_섬유_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=780&header=0",
+    "sourceSha256": "ad76d994544184d96fa1a15a3d553bc161f12d57204ba5f17f4f0b0349a1e5da",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_780.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_780.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "882a8cf2baeb2d6a9f5fd720de496efe960abb021a682286f3815a12409ae77b",
+    "payloadSha256": "26e6d0cf5d229f8fc3b4d469d47ec986aa5ef61880e936fdf48e484925016039"
+  }
+}

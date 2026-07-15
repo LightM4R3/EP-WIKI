@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.230.profile",
+  "semanticKey": "ko-KR|gear|230|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_230",
+    "name": "통합형 금속 장갑",
+    "aliases": [],
+    "gameEntryId": 230
+  },
+  "title": "통합형 금속 장갑 — 장비 기본 정보",
+  "content": "통합형 금속 장갑 장비의 기본 정보. 유형은 글러브, 품질은 초록색 품질, 세트는 통합 중량형 모델이다. LV.28, 방어력 16. 옵션은 1번 힘 23, 2번 의지 23, 3번 모든 피해 감소 6.3%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "통합형 금속 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    "gearSet": {
+      "id": 1435554510,
+      "code": "gear_set_558f4c2eee42",
+      "label": "통합 중량형 모델"
+    },
+    "level": 28,
+    "defense": 16,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "모든 피해 감소",
+        "baseValue": {
+          "value": 6.3,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-558f4c2eee42.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_558f4c2eee42",
+    "groupLabel": "통합 중량형 모델",
+    "gearTypeCode": "gloves",
+    "qualityCode": "green",
+    "gearSetCode": "gear_set_558f4c2eee42"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/통합_중량형_모델/230_통합형_금속_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=230&header=0",
+    "sourceSha256": "281d449b916e2880f5eb9e856bca7181a556682a72138e31e9374b309476e5b9",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_230.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_230.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "96f2f711fa563946c1321ac434078d7441aa43f472ab70a144886adb3cf528a4",
+    "payloadSha256": "a6b013524dba524a0e88bafe787e1845f318b5dd699e1fc8df71eae577357e8c"
+  }
+}

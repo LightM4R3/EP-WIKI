@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.8.potential-2",
+  "semanticKey": "ko-KR|operator|8|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_8",
+    "name": "판",
+    "aliases": [],
+    "gameEntryId": 8
+  },
+  "title": "판 — 잠재능력 2 맛의 조화",
+  "content": "판 오퍼레이터의 잠재능력 2 ‘맛의 조화’. 재능 '간 맞추기' 효과 강화: 식재료 준비 상태 지속 시간 +10 초, 최대 중첩 스택 수치 +1",
+  "facts": {
+    "stage": 2,
+    "name": "맛의 조화",
+    "status": "rule_validated",
+    "effect": "재능 '간 맞추기' 효과 강화: 식재료 준비 상태 지속 시간 +10 초, 최대 중첩 스택 수치 +1"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+    "sourceSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_8.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "78052bb9f49a5d791ca309849371ea8a86b6134f44a3c87b19a8403d8a092dce",
+    "payloadSha256": "0a676a47653cf26c6f081b4595033089b5cccd8b15ce036329b93d877ffa9cd7"
+  }
+}

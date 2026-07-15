@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.58.option-1",
+  "semanticKey": "ko-KR|weapon|58|option-1",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_58",
+    "name": "거대한 격랑",
+    "aliases": [],
+    "gameEntryId": 58
+  },
+  "title": "거대한 격랑 — 1번 옵션 지능 증가 · 소",
+  "content": "거대한 격랑 무기의 1번 옵션 ‘지능 증가 · 소’.\nRANK1: 지능 +12.\nRANK2: 지능 +21.\nRANK3: 지능 +31.\nRANK4: 지능 +40.\nRANK5: 지능 +50.\nRANK6: 지능 +60.\nRANK7: 지능 +69.\nRANK8: 지능 +79.\nRANK9: 지능 +93.",
+  "facts": {
+    "slot": 1,
+    "name": "지능 증가 · 소",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "지능",
+        "value": 12,
+        "unit": "flat",
+        "display": "+12"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "지능",
+        "value": 21,
+        "unit": "flat",
+        "display": "+21"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "지능",
+        "value": 31,
+        "unit": "flat",
+        "display": "+31"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "지능",
+        "value": 40,
+        "unit": "flat",
+        "display": "+40"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "지능",
+        "value": 50,
+        "unit": "flat",
+        "display": "+50"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "지능",
+        "value": 60,
+        "unit": "flat",
+        "display": "+60"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "지능",
+        "value": 69,
+        "unit": "flat",
+        "display": "+69"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "지능",
+        "value": 79,
+        "unit": "flat",
+        "display": "+79"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "지능",
+        "value": 93,
+        "unit": "flat",
+        "display": "+93"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "optionSlot": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/58_거대한_격랑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=58&header=0",
+    "sourceSha256": "821acbc58b6b8d1a212640a9f568769d31eadc8c17f28300a1da04b0048119d9",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_58.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "fb9b72aa053339875f6a76a1f1823ca0b4e3251dfc792aef3acf41dde1712d0e",
+    "payloadSha256": "5db093f54dc8db2b0efc234dd6432a41d5d44ed58f0688f24160e87f97073061"
+  }
+}

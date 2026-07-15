@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.85.profile",
+  "semanticKey": "ko-KR|weapon|85|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_85",
+    "name": "강철의 여운",
+    "aliases": [],
+    "gameEntryId": 85
+  },
+  "title": "강철의 여운 — 무기 기본 정보",
+  "content": "강철의 여운 무기의 기본 정보. 무기 유형은 한손검이다. 옵션은 1번 민첩 증가 · 중, 2번 물리 피해 증가 · 중, 3번 기예 · 옛 불의 잔향이다.",
+  "facts": {
+    "name": "강철의 여운",
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.85.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "물리 피해 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.85.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "기예 · 옛 불의 잔향",
+        "documentRef": "epwiki.ko-kr.weapon.85.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "weaponTypeCode": "sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/85_강철의_여운.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=85&header=0",
+    "sourceSha256": "197525bb28d4468322204ce45c32776d91996155073bfeb3edd28acb67af951f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_85.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_85.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "047121f0258dac1643ef3224f9a68e2d88106c1acb39f63803599a6a3c924049",
+    "payloadSha256": "e189a5de8a4f5a7a490c3a1857ddb9900ee5fa6532b58fa6a210389a15a72da8"
+  }
+}

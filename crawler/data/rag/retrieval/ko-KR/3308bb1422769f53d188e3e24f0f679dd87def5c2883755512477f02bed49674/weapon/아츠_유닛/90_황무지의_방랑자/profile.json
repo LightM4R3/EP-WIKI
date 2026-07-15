@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.90.profile",
+  "semanticKey": "ko-KR|weapon|90|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_90",
+    "name": "황무지의 방랑자",
+    "aliases": [],
+    "gameEntryId": 90
+  },
+  "title": "황무지의 방랑자 — 무기 기본 정보",
+  "content": "황무지의 방랑자 무기의 기본 정보. 무기 유형은 아츠 유닛이다. 옵션은 1번 지능 증가 · 중, 2번 전기 피해 증가 · 중, 3번 고통 · 황무지 군집이다.",
+  "facts": {
+    "name": "황무지의 방랑자",
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.90.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "전기 피해 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.90.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "고통 · 황무지 군집",
+        "documentRef": "epwiki.ko-kr.weapon.90.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "weaponTypeCode": "arts_unit"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/90_황무지의_방랑자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=90&header=0",
+    "sourceSha256": "28f4fdc8b7906d627351b887eae0dc09886c377b74efedfa21bbcf22ffb79559",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_90.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_90.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "191a86512846b0ef6a68202d55ef7c5827cfe3c4718cd9b12e9d6ef221c3aa04",
+    "payloadSha256": "4391c070abad198df18fdd9ec359b081a10c1207d8518ac55f218b29a2b5b89e"
+  }
+}

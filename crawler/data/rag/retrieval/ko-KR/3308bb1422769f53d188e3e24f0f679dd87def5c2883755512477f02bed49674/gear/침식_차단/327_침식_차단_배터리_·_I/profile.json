@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.327.profile",
+  "semanticKey": "ko-KR|gear|327|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_327",
+    "name": "침식 차단 배터리 · I",
+    "aliases": [],
+    "gameEntryId": 327
+  },
+  "title": "침식 차단 배터리 · I — 장비 기본 정보",
+  "content": "침식 차단 배터리 · I 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 침식 차단이다. LV.50, 방어력 15. 옵션은 1번 지능 29, 3번 궁극기 충전 효율 17.5%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "침식 차단 배터리 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 2234615965,
+      "code": "gear_set_853001fd8069",
+      "label": "침식 차단"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 29,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 17.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-853001fd8069.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_853001fd8069",
+    "groupLabel": "침식 차단",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_853001fd8069"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_차단/327_침식_차단_배터리_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=327&header=0",
+    "sourceSha256": "da1e75e1d940c41ebd92dfd90aaf705a31d5933f113d8641f5128cc488db376f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_327.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_327.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3cf71a3f8ffe7a491016f17cbafc803343b62420278c25791e5655b382620376",
+    "payloadSha256": "c62b5094c3c609a0d10689724352c4a6d167a0847e03a609d7fb6660a99b2c6a"
+  }
+}

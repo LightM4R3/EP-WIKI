@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.79.progression",
+  "semanticKey": "ko-KR|weapon|79|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_79",
+    "name": "사명의 길",
+    "aliases": [],
+    "gameEntryId": 79
+  },
+  "title": "사명의 길 — 기초 공격력",
+  "content": "사명의 길 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 51.\nLV.20: 기초 공격력 146.\nLV.40: 기초 공격력 247.\nLV.60: 기초 공격력 348.\nLV.80: 기초 공격력 449.\nLV.90: 기초 공격력 500.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 51
+      },
+      {
+        "level": 20,
+        "baseAttack": 146
+      },
+      {
+        "level": 40,
+        "baseAttack": 247
+      },
+      {
+        "level": 60,
+        "baseAttack": 348
+      },
+      {
+        "level": 80,
+        "baseAttack": 449
+      },
+      {
+        "level": 90,
+        "baseAttack": 500
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/79_사명의_길.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=79&header=0",
+    "sourceSha256": "bc6274f291e0619ccaa8794e7c9ab487053fdf9dff6c7f59ce581ac756d3a8a2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_79.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "068250e9d84650aa9fb976cb5ce9ac471a43d1b314c1c0db533c1ffd309bff10",
+    "payloadSha256": "ccc0f833c7a2ffa2fbf281e493bab4b7c5bb8fcd3ecad4bd5d15fb8ff374db3d"
+  }
+}

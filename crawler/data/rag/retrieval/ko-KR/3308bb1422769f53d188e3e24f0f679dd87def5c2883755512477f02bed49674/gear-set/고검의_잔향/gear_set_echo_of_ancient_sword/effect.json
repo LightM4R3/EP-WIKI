@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.echo-of-ancient-sword.effect",
+  "semanticKey": "ko-KR|gear_set|echo_of_ancient_sword|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_echo_of_ancient_sword",
+    "name": "고검의 잔향",
+    "aliases": []
+  },
+  "title": "고검의 잔향 — 장비 세트 효과",
+  "content": "고검의 잔향 장비 세트의 3개 세트 효과. 장착자의 공격력 +8% 장착자가 강타, 갑옷 파괴 피해를 줄 때, 소모 한 최대 방어 불능 스택 수치에 따라 자신의 물리 피해 +[6%× 소모 한 스택 수치], 20초 동안 지속. 만약 목표가 물리 취약, 불균형 상태거나 오리지늄 결정이 부착된 상태라면 위의 버프 효과가 1.5 배로 변경됩니다. 버프 효과는 중첩되지 않습니다.",
+  "facts": {
+    "gearSet": {
+      "id": 0,
+      "code": "echo_of_ancient_sword",
+      "label": "고검의 잔향"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 공격력 +8% 장착자가 강타, 갑옷 파괴 피해를 줄 때, 소모 한 최대 방어 불능 스택 수치에 따라 자신의 물리 피해 +[6%× 소모 한 스택 수치], 20초 동안 지속. 만약 목표가 물리 취약, 불균형 상태거나 오리지늄 결정이 부착된 상태라면 위의 버프 효과가 1.5 배로 변경됩니다. 버프 효과는 중첩되지 않습니다.",
+    "memberGameEntryIds": [
+      1021,
+      1022,
+      1023,
+      1024,
+      1025,
+      1026
+    ],
+    "evidenceCopyCount": 6
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "echo_of_ancient_sword",
+    "groupLabel": "고검의 잔향",
+    "gearSetCode": "echo_of_ancient_sword",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1021&header=0",
+    "sourceSha256": "72b7c1b6be717cd2173dcc43d2191fa4f1b202e9272082ff2edc40a73f8ae0ad",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_1021.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_1022.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_1023.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_1024.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_1025.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_1026.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "a76550b80a1b78ce14713721444b6faba1ef13b39a85bdbcd4ffb9a1da869261",
+    "payloadSha256": "ec2456a9e761c25cb73491fa350cda397c61aedf0ea15bcb10b40313be78b74c"
+  }
+}

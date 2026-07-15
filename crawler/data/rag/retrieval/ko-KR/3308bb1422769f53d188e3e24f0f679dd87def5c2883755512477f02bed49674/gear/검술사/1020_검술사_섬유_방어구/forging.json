@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.1020.forging",
+  "semanticKey": "ko-KR|gear|1020|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_1020",
+    "name": "검술사 섬유 방어구",
+    "aliases": [],
+    "gameEntryId": 1020
+  },
+  "title": "검술사 섬유 방어구 — 정밀 단조",
+  "content": "검술사 섬유 방어구 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 힘: +0 87, +1 95, +2 104, +3 113.\n2번 의지: +0 58, +1 63, +2 69, +3 75.\n3번 물리 피해 보너스: +0 11.5%, +1 12.7%, +2 13.8%, +3 14.9%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 58,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 63,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 69,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 75,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "물리 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 11.5,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 12.7,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 13.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 14.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_79ba85ac519a",
+    "groupLabel": "검술사",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/1020_검술사_섬유_방어구.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1020&header=0",
+    "sourceSha256": "57d7d2a67e9221c2b93adb4b1213754b67edb625fd3ebdc7b94dc5aac229c1ce",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_1020.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "12eaccc654926b4246236e540a33d2db66f0c0b1043fff25fbd5774ad1a2cc29",
+    "payloadSha256": "e25cebcf1e4f368dd4c5e695785c6106b52109a83edca807ddb840408ed630b5"
+  }
+}

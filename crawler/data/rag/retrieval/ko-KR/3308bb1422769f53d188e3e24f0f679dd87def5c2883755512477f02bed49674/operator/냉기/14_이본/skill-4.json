@@ -1,0 +1,1312 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.14.skill-4",
+  "semanticKey": "ko-KR|operator|14|skill-4",
+  "locale": "ko-KR",
+  "documentType": "operator_combat_skill",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_14",
+    "name": "이본",
+    "aliases": [],
+    "gameEntryId": 14
+  },
+  "title": "이본 — 아이스 슈터",
+  "content": "이본 오퍼레이터의 궁극기 ‘아이스 슈터’. 삐삐를 배치하여 지원을 요청하고 메인 컨트롤 오퍼레이터로 전환합니다. 일정 시간 동안, 이본의 일반 공격이 강화 되며 일반 공격을 할 때마다 자신의 치명타 확률이 증가합니다. 스택 수치가 최대로 쌓였을 경우, 자신의 치명타 피해가 증가합니다. 지속 시간이 끝나기 전의 마지막 일반 공격은 강력한 일격으로 바뀌어 대량의 냉기 피해를 줍니다. 적이 동결 상태라면, 추가로 냉기 피해를 1회 준 후, 동결 상태를 소모합니다.\n필요한 궁극기 에너지: RANK1 220, RANK2 220, RANK3 220, RANK4 220, RANK5 220, RANK6 220, RANK7 220, RANK8 220, RANK9 220, 마스터리I 220, 마스터리II 220, 마스터리III 220.\n쿨타임: RANK1 10초, RANK2 10초, RANK3 10초, RANK4 10초, RANK5 10초, RANK6 10초, RANK7 10초, RANK8 10초, RANK9 10초, 마스터리I 10초, 마스터리II 10초, 마스터리III 10초.\n지속 시간(초): RANK1 7, RANK2 7, RANK3 7, RANK4 7, RANK5 7, RANK6 7, RANK7 7, RANK8 7, RANK9 7, 마스터리I 7, 마스터리II 7, 마스터리III 7.\n일반 공격 피해 배율: RANK1 8.9%, RANK2 9.8%, RANK3 10.7%, RANK4 11.6%, RANK5 12.5%, RANK6 13.4%, RANK7 14.3%, RANK8 15.1%, RANK9 16%, 마스터리I 17.2%, 마스터리II 18.5%, 마스터리III 20%.\n강력 공격 피해 배율: RANK1 133%, RANK2 147%, RANK3 160%, RANK4 173%, RANK5 186%, RANK6 200%, RANK7 213%, RANK8 226%, RANK9 240%, 마스터리I 256%, 마스터리II 276%, 마스터리III 300%.\n추가 공격 피해 배율: RANK1 267%, RANK2 294%, RANK3 320%, RANK4 347%, RANK5 374%, RANK6 400%, RANK7 427%, RANK8 454%, RANK9 480%, 마스터리I 514%, 마스터리II 554%, 마스터리III 600%.\n강력한 공격 불균형치: RANK1 20, RANK2 20, RANK3 20, RANK4 20, RANK5 20, RANK6 20, RANK7 20, RANK8 20, RANK9 20, 마스터리I 20, 마스터리II 20, 마스터리III 20.\n최대 중첩 스택 수치: RANK1 10, RANK2 10, RANK3 10, RANK4 10, RANK5 10, RANK6 10, RANK7 10, RANK8 10, RANK9 10, 마스터리I 10, 마스터리II 10, 마스터리III 10.\n1스택마다 증가하는 치명타 확률: RANK1 3%, RANK2 3%, RANK3 3%, RANK4 3%, RANK5 3%, RANK6 3%, RANK7 3%, RANK8 3%, RANK9 3%, 마스터리I 3%, 마스터리II 3%, 마스터리III 3%.\n최대 중첩 시 증가하는 치명타 피해: RANK1 60%, RANK2 60%, RANK3 60%, RANK4 60%, RANK5 60%, RANK6 60%, RANK7 60%, RANK8 60%, RANK9 60%, 마스터리I 60%, 마스터리II 60%, 마스터리III 60%.\n이본의 ‘아이스 슈터’ 강화 재료.\nRANK2: 프로토콜 프리즘 6개, 칼코덴드라 1개, 탈로시안 화폐 1000개.\nRANK3: 프로토콜 프리즘 12개, 칼코덴드라 2개, 탈로시안 화폐 2700개.\nRANK4: 프로토콜 프리즘 16개, 크리소덴드라 1개, 탈로시안 화폐 3200개.\nRANK5: 프로토콜 프리즘 21개, 크리소덴드라 1개, 탈로시안 화폐 4200개.\nRANK6: 프로토콜 프리즘 27개, 크리소덴드라 2개, 탈로시안 화폐 5400개.\nRANK7: 프로토콜 프리즘 세트 6개, 비트로덴드라 1개, 탈로시안 화폐 8200개.\nRANK8: 프로토콜 프리즘 세트 8개, 비트로덴드라 1개, 탈로시안 화폐 10500개.\nRANK9: 프로토콜 프리즘 세트 15개, 비트로덴드라 2개, 탈로시안 화폐 18000개.\n마스터리I: 존속의 흔적 1개, 프로토콜 프리즘 세트 15개, D96강 시제품 4번 6개, 바위아겔로스 잎 3개, 탈로시안 화폐 24000개.\n마스터리II: 존속의 흔적 2개, 프로토콜 프리즘 세트 24개, D96강 시제품 4번 16개, 바위아겔로스 잎 6개, 탈로시안 화폐 30000개.\n마스터리III: 존속의 흔적 3개, 프로토콜 프리즘 세트 50개, D96강 시제품 4번 36개, 바위아겔로스 잎 12개, 탈로시안 화폐 65000개.",
+  "facts": {
+    "index": 4,
+    "name": "아이스 슈터",
+    "type": {
+      "id": 3,
+      "code": "ultimate",
+      "label": "궁극기"
+    },
+    "description": "삐삐를 배치하여 지원을 요청하고 메인 컨트롤 오퍼레이터로 전환합니다. 일정 시간 동안, 이본의 일반 공격이 강화 되며 일반 공격을 할 때마다 자신의 치명타 확률이 증가합니다. 스택 수치가 최대로 쌓였을 경우, 자신의 치명타 피해가 증가합니다. 지속 시간이 끝나기 전의 마지막 일반 공격은 강력한 일격으로 바뀌어 대량의 냉기 피해를 줍니다. 적이 동결 상태라면, 추가로 냉기 피해를 1회 준 후, 동결 상태를 소모합니다.",
+    "rankLabels": [
+      "RANK1",
+      "RANK2",
+      "RANK3",
+      "RANK4",
+      "RANK5",
+      "RANK6",
+      "RANK7",
+      "RANK8",
+      "RANK9",
+      "마스터리I",
+      "마스터리II",
+      "마스터리III"
+    ],
+    "metrics": [
+      {
+        "label": "필요한 궁극기 에너지",
+        "values": [
+          {
+            "rankIndex": 1,
+            "rankLabel": "RANK1",
+            "value": 220,
+            "unit": "flat",
+            "display": "220"
+          },
+          {
+            "rankIndex": 2,
+            "rankLabel": "RANK2",
+            "value": 220,
+            "unit": "flat",
+            "display": "220"
+          },
+          {
+            "rankIndex": 3,
+            "rankLabel": "RANK3",
+            "value": 220,
+            "unit": "flat",
+            "display": "220"
+          },
+          {
+            "rankIndex": 4,
+            "rankLabel": "RANK4",
+            "value": 220,
+            "unit": "flat",
+            "display": "220"
+          },
+          {
+            "rankIndex": 5,
+            "rankLabel": "RANK5",
+            "value": 220,
+            "unit": "flat",
+            "display": "220"
+          },
+          {
+            "rankIndex": 6,
+            "rankLabel": "RANK6",
+            "value": 220,
+            "unit": "flat",
+            "display": "220"
+          },
+          {
+            "rankIndex": 7,
+            "rankLabel": "RANK7",
+            "value": 220,
+            "unit": "flat",
+            "display": "220"
+          },
+          {
+            "rankIndex": 8,
+            "rankLabel": "RANK8",
+            "value": 220,
+            "unit": "flat",
+            "display": "220"
+          },
+          {
+            "rankIndex": 9,
+            "rankLabel": "RANK9",
+            "value": 220,
+            "unit": "flat",
+            "display": "220"
+          },
+          {
+            "rankIndex": 10,
+            "rankLabel": "마스터리I",
+            "value": 220,
+            "unit": "flat",
+            "display": "220"
+          },
+          {
+            "rankIndex": 11,
+            "rankLabel": "마스터리II",
+            "value": 220,
+            "unit": "flat",
+            "display": "220"
+          },
+          {
+            "rankIndex": 12,
+            "rankLabel": "마스터리III",
+            "value": 220,
+            "unit": "flat",
+            "display": "220"
+          }
+        ]
+      },
+      {
+        "label": "쿨타임",
+        "values": [
+          {
+            "rankIndex": 1,
+            "rankLabel": "RANK1",
+            "value": 10,
+            "unit": "seconds",
+            "display": "10초"
+          },
+          {
+            "rankIndex": 2,
+            "rankLabel": "RANK2",
+            "value": 10,
+            "unit": "seconds",
+            "display": "10초"
+          },
+          {
+            "rankIndex": 3,
+            "rankLabel": "RANK3",
+            "value": 10,
+            "unit": "seconds",
+            "display": "10초"
+          },
+          {
+            "rankIndex": 4,
+            "rankLabel": "RANK4",
+            "value": 10,
+            "unit": "seconds",
+            "display": "10초"
+          },
+          {
+            "rankIndex": 5,
+            "rankLabel": "RANK5",
+            "value": 10,
+            "unit": "seconds",
+            "display": "10초"
+          },
+          {
+            "rankIndex": 6,
+            "rankLabel": "RANK6",
+            "value": 10,
+            "unit": "seconds",
+            "display": "10초"
+          },
+          {
+            "rankIndex": 7,
+            "rankLabel": "RANK7",
+            "value": 10,
+            "unit": "seconds",
+            "display": "10초"
+          },
+          {
+            "rankIndex": 8,
+            "rankLabel": "RANK8",
+            "value": 10,
+            "unit": "seconds",
+            "display": "10초"
+          },
+          {
+            "rankIndex": 9,
+            "rankLabel": "RANK9",
+            "value": 10,
+            "unit": "seconds",
+            "display": "10초"
+          },
+          {
+            "rankIndex": 10,
+            "rankLabel": "마스터리I",
+            "value": 10,
+            "unit": "seconds",
+            "display": "10초"
+          },
+          {
+            "rankIndex": 11,
+            "rankLabel": "마스터리II",
+            "value": 10,
+            "unit": "seconds",
+            "display": "10초"
+          },
+          {
+            "rankIndex": 12,
+            "rankLabel": "마스터리III",
+            "value": 10,
+            "unit": "seconds",
+            "display": "10초"
+          }
+        ]
+      },
+      {
+        "label": "지속 시간(초)",
+        "values": [
+          {
+            "rankIndex": 1,
+            "rankLabel": "RANK1",
+            "value": 7,
+            "unit": "flat",
+            "display": "7"
+          },
+          {
+            "rankIndex": 2,
+            "rankLabel": "RANK2",
+            "value": 7,
+            "unit": "flat",
+            "display": "7"
+          },
+          {
+            "rankIndex": 3,
+            "rankLabel": "RANK3",
+            "value": 7,
+            "unit": "flat",
+            "display": "7"
+          },
+          {
+            "rankIndex": 4,
+            "rankLabel": "RANK4",
+            "value": 7,
+            "unit": "flat",
+            "display": "7"
+          },
+          {
+            "rankIndex": 5,
+            "rankLabel": "RANK5",
+            "value": 7,
+            "unit": "flat",
+            "display": "7"
+          },
+          {
+            "rankIndex": 6,
+            "rankLabel": "RANK6",
+            "value": 7,
+            "unit": "flat",
+            "display": "7"
+          },
+          {
+            "rankIndex": 7,
+            "rankLabel": "RANK7",
+            "value": 7,
+            "unit": "flat",
+            "display": "7"
+          },
+          {
+            "rankIndex": 8,
+            "rankLabel": "RANK8",
+            "value": 7,
+            "unit": "flat",
+            "display": "7"
+          },
+          {
+            "rankIndex": 9,
+            "rankLabel": "RANK9",
+            "value": 7,
+            "unit": "flat",
+            "display": "7"
+          },
+          {
+            "rankIndex": 10,
+            "rankLabel": "마스터리I",
+            "value": 7,
+            "unit": "flat",
+            "display": "7"
+          },
+          {
+            "rankIndex": 11,
+            "rankLabel": "마스터리II",
+            "value": 7,
+            "unit": "flat",
+            "display": "7"
+          },
+          {
+            "rankIndex": 12,
+            "rankLabel": "마스터리III",
+            "value": 7,
+            "unit": "flat",
+            "display": "7"
+          }
+        ]
+      },
+      {
+        "label": "일반 공격 피해 배율",
+        "values": [
+          {
+            "rankIndex": 1,
+            "rankLabel": "RANK1",
+            "value": 8.9,
+            "unit": "percent",
+            "display": "8.9%"
+          },
+          {
+            "rankIndex": 2,
+            "rankLabel": "RANK2",
+            "value": 9.8,
+            "unit": "percent",
+            "display": "9.8%"
+          },
+          {
+            "rankIndex": 3,
+            "rankLabel": "RANK3",
+            "value": 10.7,
+            "unit": "percent",
+            "display": "10.7%"
+          },
+          {
+            "rankIndex": 4,
+            "rankLabel": "RANK4",
+            "value": 11.6,
+            "unit": "percent",
+            "display": "11.6%"
+          },
+          {
+            "rankIndex": 5,
+            "rankLabel": "RANK5",
+            "value": 12.5,
+            "unit": "percent",
+            "display": "12.5%"
+          },
+          {
+            "rankIndex": 6,
+            "rankLabel": "RANK6",
+            "value": 13.4,
+            "unit": "percent",
+            "display": "13.4%"
+          },
+          {
+            "rankIndex": 7,
+            "rankLabel": "RANK7",
+            "value": 14.3,
+            "unit": "percent",
+            "display": "14.3%"
+          },
+          {
+            "rankIndex": 8,
+            "rankLabel": "RANK8",
+            "value": 15.1,
+            "unit": "percent",
+            "display": "15.1%"
+          },
+          {
+            "rankIndex": 9,
+            "rankLabel": "RANK9",
+            "value": 16,
+            "unit": "percent",
+            "display": "16%"
+          },
+          {
+            "rankIndex": 10,
+            "rankLabel": "마스터리I",
+            "value": 17.2,
+            "unit": "percent",
+            "display": "17.2%"
+          },
+          {
+            "rankIndex": 11,
+            "rankLabel": "마스터리II",
+            "value": 18.5,
+            "unit": "percent",
+            "display": "18.5%"
+          },
+          {
+            "rankIndex": 12,
+            "rankLabel": "마스터리III",
+            "value": 20,
+            "unit": "percent",
+            "display": "20%"
+          }
+        ]
+      },
+      {
+        "label": "강력 공격 피해 배율",
+        "values": [
+          {
+            "rankIndex": 1,
+            "rankLabel": "RANK1",
+            "value": 133,
+            "unit": "percent",
+            "display": "133%"
+          },
+          {
+            "rankIndex": 2,
+            "rankLabel": "RANK2",
+            "value": 147,
+            "unit": "percent",
+            "display": "147%"
+          },
+          {
+            "rankIndex": 3,
+            "rankLabel": "RANK3",
+            "value": 160,
+            "unit": "percent",
+            "display": "160%"
+          },
+          {
+            "rankIndex": 4,
+            "rankLabel": "RANK4",
+            "value": 173,
+            "unit": "percent",
+            "display": "173%"
+          },
+          {
+            "rankIndex": 5,
+            "rankLabel": "RANK5",
+            "value": 186,
+            "unit": "percent",
+            "display": "186%"
+          },
+          {
+            "rankIndex": 6,
+            "rankLabel": "RANK6",
+            "value": 200,
+            "unit": "percent",
+            "display": "200%"
+          },
+          {
+            "rankIndex": 7,
+            "rankLabel": "RANK7",
+            "value": 213,
+            "unit": "percent",
+            "display": "213%"
+          },
+          {
+            "rankIndex": 8,
+            "rankLabel": "RANK8",
+            "value": 226,
+            "unit": "percent",
+            "display": "226%"
+          },
+          {
+            "rankIndex": 9,
+            "rankLabel": "RANK9",
+            "value": 240,
+            "unit": "percent",
+            "display": "240%"
+          },
+          {
+            "rankIndex": 10,
+            "rankLabel": "마스터리I",
+            "value": 256,
+            "unit": "percent",
+            "display": "256%"
+          },
+          {
+            "rankIndex": 11,
+            "rankLabel": "마스터리II",
+            "value": 276,
+            "unit": "percent",
+            "display": "276%"
+          },
+          {
+            "rankIndex": 12,
+            "rankLabel": "마스터리III",
+            "value": 300,
+            "unit": "percent",
+            "display": "300%"
+          }
+        ]
+      },
+      {
+        "label": "추가 공격 피해 배율",
+        "values": [
+          {
+            "rankIndex": 1,
+            "rankLabel": "RANK1",
+            "value": 267,
+            "unit": "percent",
+            "display": "267%"
+          },
+          {
+            "rankIndex": 2,
+            "rankLabel": "RANK2",
+            "value": 294,
+            "unit": "percent",
+            "display": "294%"
+          },
+          {
+            "rankIndex": 3,
+            "rankLabel": "RANK3",
+            "value": 320,
+            "unit": "percent",
+            "display": "320%"
+          },
+          {
+            "rankIndex": 4,
+            "rankLabel": "RANK4",
+            "value": 347,
+            "unit": "percent",
+            "display": "347%"
+          },
+          {
+            "rankIndex": 5,
+            "rankLabel": "RANK5",
+            "value": 374,
+            "unit": "percent",
+            "display": "374%"
+          },
+          {
+            "rankIndex": 6,
+            "rankLabel": "RANK6",
+            "value": 400,
+            "unit": "percent",
+            "display": "400%"
+          },
+          {
+            "rankIndex": 7,
+            "rankLabel": "RANK7",
+            "value": 427,
+            "unit": "percent",
+            "display": "427%"
+          },
+          {
+            "rankIndex": 8,
+            "rankLabel": "RANK8",
+            "value": 454,
+            "unit": "percent",
+            "display": "454%"
+          },
+          {
+            "rankIndex": 9,
+            "rankLabel": "RANK9",
+            "value": 480,
+            "unit": "percent",
+            "display": "480%"
+          },
+          {
+            "rankIndex": 10,
+            "rankLabel": "마스터리I",
+            "value": 514,
+            "unit": "percent",
+            "display": "514%"
+          },
+          {
+            "rankIndex": 11,
+            "rankLabel": "마스터리II",
+            "value": 554,
+            "unit": "percent",
+            "display": "554%"
+          },
+          {
+            "rankIndex": 12,
+            "rankLabel": "마스터리III",
+            "value": 600,
+            "unit": "percent",
+            "display": "600%"
+          }
+        ]
+      },
+      {
+        "label": "강력한 공격 불균형치",
+        "values": [
+          {
+            "rankIndex": 1,
+            "rankLabel": "RANK1",
+            "value": 20,
+            "unit": "flat",
+            "display": "20"
+          },
+          {
+            "rankIndex": 2,
+            "rankLabel": "RANK2",
+            "value": 20,
+            "unit": "flat",
+            "display": "20"
+          },
+          {
+            "rankIndex": 3,
+            "rankLabel": "RANK3",
+            "value": 20,
+            "unit": "flat",
+            "display": "20"
+          },
+          {
+            "rankIndex": 4,
+            "rankLabel": "RANK4",
+            "value": 20,
+            "unit": "flat",
+            "display": "20"
+          },
+          {
+            "rankIndex": 5,
+            "rankLabel": "RANK5",
+            "value": 20,
+            "unit": "flat",
+            "display": "20"
+          },
+          {
+            "rankIndex": 6,
+            "rankLabel": "RANK6",
+            "value": 20,
+            "unit": "flat",
+            "display": "20"
+          },
+          {
+            "rankIndex": 7,
+            "rankLabel": "RANK7",
+            "value": 20,
+            "unit": "flat",
+            "display": "20"
+          },
+          {
+            "rankIndex": 8,
+            "rankLabel": "RANK8",
+            "value": 20,
+            "unit": "flat",
+            "display": "20"
+          },
+          {
+            "rankIndex": 9,
+            "rankLabel": "RANK9",
+            "value": 20,
+            "unit": "flat",
+            "display": "20"
+          },
+          {
+            "rankIndex": 10,
+            "rankLabel": "마스터리I",
+            "value": 20,
+            "unit": "flat",
+            "display": "20"
+          },
+          {
+            "rankIndex": 11,
+            "rankLabel": "마스터리II",
+            "value": 20,
+            "unit": "flat",
+            "display": "20"
+          },
+          {
+            "rankIndex": 12,
+            "rankLabel": "마스터리III",
+            "value": 20,
+            "unit": "flat",
+            "display": "20"
+          }
+        ]
+      },
+      {
+        "label": "최대 중첩 스택 수치",
+        "values": [
+          {
+            "rankIndex": 1,
+            "rankLabel": "RANK1",
+            "value": 10,
+            "unit": "flat",
+            "display": "10"
+          },
+          {
+            "rankIndex": 2,
+            "rankLabel": "RANK2",
+            "value": 10,
+            "unit": "flat",
+            "display": "10"
+          },
+          {
+            "rankIndex": 3,
+            "rankLabel": "RANK3",
+            "value": 10,
+            "unit": "flat",
+            "display": "10"
+          },
+          {
+            "rankIndex": 4,
+            "rankLabel": "RANK4",
+            "value": 10,
+            "unit": "flat",
+            "display": "10"
+          },
+          {
+            "rankIndex": 5,
+            "rankLabel": "RANK5",
+            "value": 10,
+            "unit": "flat",
+            "display": "10"
+          },
+          {
+            "rankIndex": 6,
+            "rankLabel": "RANK6",
+            "value": 10,
+            "unit": "flat",
+            "display": "10"
+          },
+          {
+            "rankIndex": 7,
+            "rankLabel": "RANK7",
+            "value": 10,
+            "unit": "flat",
+            "display": "10"
+          },
+          {
+            "rankIndex": 8,
+            "rankLabel": "RANK8",
+            "value": 10,
+            "unit": "flat",
+            "display": "10"
+          },
+          {
+            "rankIndex": 9,
+            "rankLabel": "RANK9",
+            "value": 10,
+            "unit": "flat",
+            "display": "10"
+          },
+          {
+            "rankIndex": 10,
+            "rankLabel": "마스터리I",
+            "value": 10,
+            "unit": "flat",
+            "display": "10"
+          },
+          {
+            "rankIndex": 11,
+            "rankLabel": "마스터리II",
+            "value": 10,
+            "unit": "flat",
+            "display": "10"
+          },
+          {
+            "rankIndex": 12,
+            "rankLabel": "마스터리III",
+            "value": 10,
+            "unit": "flat",
+            "display": "10"
+          }
+        ]
+      },
+      {
+        "label": "1스택마다 증가하는 치명타 확률",
+        "values": [
+          {
+            "rankIndex": 1,
+            "rankLabel": "RANK1",
+            "value": 3,
+            "unit": "percent",
+            "display": "3%"
+          },
+          {
+            "rankIndex": 2,
+            "rankLabel": "RANK2",
+            "value": 3,
+            "unit": "percent",
+            "display": "3%"
+          },
+          {
+            "rankIndex": 3,
+            "rankLabel": "RANK3",
+            "value": 3,
+            "unit": "percent",
+            "display": "3%"
+          },
+          {
+            "rankIndex": 4,
+            "rankLabel": "RANK4",
+            "value": 3,
+            "unit": "percent",
+            "display": "3%"
+          },
+          {
+            "rankIndex": 5,
+            "rankLabel": "RANK5",
+            "value": 3,
+            "unit": "percent",
+            "display": "3%"
+          },
+          {
+            "rankIndex": 6,
+            "rankLabel": "RANK6",
+            "value": 3,
+            "unit": "percent",
+            "display": "3%"
+          },
+          {
+            "rankIndex": 7,
+            "rankLabel": "RANK7",
+            "value": 3,
+            "unit": "percent",
+            "display": "3%"
+          },
+          {
+            "rankIndex": 8,
+            "rankLabel": "RANK8",
+            "value": 3,
+            "unit": "percent",
+            "display": "3%"
+          },
+          {
+            "rankIndex": 9,
+            "rankLabel": "RANK9",
+            "value": 3,
+            "unit": "percent",
+            "display": "3%"
+          },
+          {
+            "rankIndex": 10,
+            "rankLabel": "마스터리I",
+            "value": 3,
+            "unit": "percent",
+            "display": "3%"
+          },
+          {
+            "rankIndex": 11,
+            "rankLabel": "마스터리II",
+            "value": 3,
+            "unit": "percent",
+            "display": "3%"
+          },
+          {
+            "rankIndex": 12,
+            "rankLabel": "마스터리III",
+            "value": 3,
+            "unit": "percent",
+            "display": "3%"
+          }
+        ]
+      },
+      {
+        "label": "최대 중첩 시 증가하는 치명타 피해",
+        "values": [
+          {
+            "rankIndex": 1,
+            "rankLabel": "RANK1",
+            "value": 60,
+            "unit": "percent",
+            "display": "60%"
+          },
+          {
+            "rankIndex": 2,
+            "rankLabel": "RANK2",
+            "value": 60,
+            "unit": "percent",
+            "display": "60%"
+          },
+          {
+            "rankIndex": 3,
+            "rankLabel": "RANK3",
+            "value": 60,
+            "unit": "percent",
+            "display": "60%"
+          },
+          {
+            "rankIndex": 4,
+            "rankLabel": "RANK4",
+            "value": 60,
+            "unit": "percent",
+            "display": "60%"
+          },
+          {
+            "rankIndex": 5,
+            "rankLabel": "RANK5",
+            "value": 60,
+            "unit": "percent",
+            "display": "60%"
+          },
+          {
+            "rankIndex": 6,
+            "rankLabel": "RANK6",
+            "value": 60,
+            "unit": "percent",
+            "display": "60%"
+          },
+          {
+            "rankIndex": 7,
+            "rankLabel": "RANK7",
+            "value": 60,
+            "unit": "percent",
+            "display": "60%"
+          },
+          {
+            "rankIndex": 8,
+            "rankLabel": "RANK8",
+            "value": 60,
+            "unit": "percent",
+            "display": "60%"
+          },
+          {
+            "rankIndex": 9,
+            "rankLabel": "RANK9",
+            "value": 60,
+            "unit": "percent",
+            "display": "60%"
+          },
+          {
+            "rankIndex": 10,
+            "rankLabel": "마스터리I",
+            "value": 60,
+            "unit": "percent",
+            "display": "60%"
+          },
+          {
+            "rankIndex": 11,
+            "rankLabel": "마스터리II",
+            "value": 60,
+            "unit": "percent",
+            "display": "60%"
+          },
+          {
+            "rankIndex": 12,
+            "rankLabel": "마스터리III",
+            "value": 60,
+            "unit": "percent",
+            "display": "60%"
+          }
+        ]
+      }
+    ],
+    "materialCosts": [
+      {
+        "rankIndex": 1,
+        "rankLabel": "RANK1",
+        "items": []
+      },
+      {
+        "rankIndex": 2,
+        "rankLabel": "RANK2",
+        "items": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 6
+          },
+          {
+            "id": 7,
+            "code": "kalcodendra",
+            "name": "칼코덴드라",
+            "catalogStatus": "mapped",
+            "amount": 1
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "rankIndex": 3,
+        "rankLabel": "RANK3",
+        "items": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 7,
+            "code": "kalcodendra",
+            "name": "칼코덴드라",
+            "catalogStatus": "mapped",
+            "amount": 2
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 2700
+          }
+        ]
+      },
+      {
+        "rankIndex": 4,
+        "rankLabel": "RANK4",
+        "items": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 16
+          },
+          {
+            "id": 8,
+            "code": "chrysodendra",
+            "name": "크리소덴드라",
+            "catalogStatus": "mapped",
+            "amount": 1
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 3200
+          }
+        ]
+      },
+      {
+        "rankIndex": 5,
+        "rankLabel": "RANK5",
+        "items": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 21
+          },
+          {
+            "id": 8,
+            "code": "chrysodendra",
+            "name": "크리소덴드라",
+            "catalogStatus": "mapped",
+            "amount": 1
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 4200
+          }
+        ]
+      },
+      {
+        "rankIndex": 6,
+        "rankLabel": "RANK6",
+        "items": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 27
+          },
+          {
+            "id": 8,
+            "code": "chrysodendra",
+            "name": "크리소덴드라",
+            "catalogStatus": "mapped",
+            "amount": 2
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 5400
+          }
+        ]
+      },
+      {
+        "rankIndex": 7,
+        "rankLabel": "RANK7",
+        "items": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 6
+          },
+          {
+            "id": 9,
+            "code": "vitrodendra",
+            "name": "비트로덴드라",
+            "catalogStatus": "mapped",
+            "amount": 1
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8200
+          }
+        ]
+      },
+      {
+        "rankIndex": 8,
+        "rankLabel": "RANK8",
+        "items": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 8
+          },
+          {
+            "id": 9,
+            "code": "vitrodendra",
+            "name": "비트로덴드라",
+            "catalogStatus": "mapped",
+            "amount": 1
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 10500
+          }
+        ]
+      },
+      {
+        "rankIndex": 9,
+        "rankLabel": "RANK9",
+        "items": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 15
+          },
+          {
+            "id": 9,
+            "code": "vitrodendra",
+            "name": "비트로덴드라",
+            "catalogStatus": "mapped",
+            "amount": 2
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 18000
+          }
+        ]
+      },
+      {
+        "rankIndex": 10,
+        "rankLabel": "마스터리I",
+        "items": [
+          {
+            "id": 11,
+            "code": "trace_of_persistence",
+            "name": "존속의 흔적",
+            "catalogStatus": "mapped",
+            "amount": 1
+          },
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 15
+          },
+          {
+            "id": 12,
+            "code": "d96_steel_prototype_no_4",
+            "name": "D96강 시제품 4번",
+            "catalogStatus": "mapped",
+            "amount": 6
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "바위아겔로스 잎",
+            "amount": 3,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 24000
+          }
+        ]
+      },
+      {
+        "rankIndex": 11,
+        "rankLabel": "마스터리II",
+        "items": [
+          {
+            "id": 11,
+            "code": "trace_of_persistence",
+            "name": "존속의 흔적",
+            "catalogStatus": "mapped",
+            "amount": 2
+          },
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 24
+          },
+          {
+            "id": 12,
+            "code": "d96_steel_prototype_no_4",
+            "name": "D96강 시제품 4번",
+            "catalogStatus": "mapped",
+            "amount": 16
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "바위아겔로스 잎",
+            "amount": 6,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 30000
+          }
+        ]
+      },
+      {
+        "rankIndex": 12,
+        "rankLabel": "마스터리III",
+        "items": [
+          {
+            "id": 11,
+            "code": "trace_of_persistence",
+            "name": "존속의 흔적",
+            "catalogStatus": "mapped",
+            "amount": 3
+          },
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 50
+          },
+          {
+            "id": 12,
+            "code": "d96_steel_prototype_no_4",
+            "name": "D96강 시제품 4번",
+            "catalogStatus": "mapped",
+            "amount": 36
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "바위아겔로스 잎",
+            "amount": 12,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 65000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_combat_skill",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "skillIndex": 4,
+    "skillTypeCode": "ultimate"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/14_이본.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=14&header=0",
+    "sourceSha256": "3f37d24500fd241e34d9edb02f253b3a9eb2603fb488a55f40d74c29933359ef",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_14.combat_skill.c4.w0.s3.p0.ko-kr",
+      "auto.operator_14.combat_skill.c4.w0.s3.p1.ko-kr",
+      "auto.operator_14.combat_skill.c4.w0.s3.p2.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "40463ee30e0e7810b1551fb3e039fa11240e0e3ee55a004341f7500793d748f7",
+    "payloadSha256": "ae36a4a29c86f230f0d0fac4a5b432d0c82e0b5da7043277e6dc09a5de1ca716"
+  }
+}

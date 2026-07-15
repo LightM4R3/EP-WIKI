@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.253.profile",
+  "semanticKey": "ko-KR|gear|253|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_253",
+    "name": "광산 방어구 · I",
+    "aliases": [],
+    "gameEntryId": 253
+  },
+  "title": "광산 방어구 · I — 장비 기본 정보",
+  "content": "광산 방어구 · I 장비의 기본 정보. 유형은 방어구, 품질은 보라색 품질, 세트는 세트 없음이다. LV.50, 방어력 40. 옵션은 1번 힘 65, 2번 의지 43, 3번 치명타 확률 3.9%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 방어구 · I",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 50,
+    "defense": 40,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "치명타 확률",
+        "baseValue": {
+          "value": 3.9,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "armor",
+    "qualityCode": "purple",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/253_광산_방어구_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=253&header=0",
+    "sourceSha256": "d1a79528bbd97157d200af32362af625c88b3a42646932f5c8d127c8f043aa1f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_253.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_253.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "2647d61aea1a072e22cb0a7ad8a6d0cf21474f7084518d9be97206f2403e1301",
+    "payloadSha256": "3b7664d4bca139d73e7cccf1543542b25f4021a65a5c9eb9e934daf299a4d2e6"
+  }
+}

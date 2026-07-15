@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.292.profile",
+  "semanticKey": "ko-KR|gear|292|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_292",
+    "name": "열 작업용 건틀릿 · I",
+    "aliases": [],
+    "gameEntryId": 292
+  },
+  "title": "열 작업용 건틀릿 · I — 장비 기본 정보",
+  "content": "열 작업용 건틀릿 · I 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 열 작업용이다. LV.70, 방어력 42. 옵션은 1번 의지 65, 2번 지능 43, 3번 열기와 자연 피해 보너스 19.2%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "열 작업용 건틀릿 · I",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 3358174061,
+      "code": "gear_set_c82824cda56b",
+      "label": "열 작업용"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "열기와 자연 피해 보너스",
+        "baseValue": {
+          "value": 19.2,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-c82824cda56b.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_c82824cda56b",
+    "groupLabel": "열 작업용",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_c82824cda56b"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/292_열_작업용_건틀릿_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=292&header=0",
+    "sourceSha256": "eab4bd750c3beadac293e3fd9e58f3201f818de239c03f55341b75d80beaf925",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_292.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_292.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "852c29aa8b3ad58aa3f768f05fb5194fd0d6cd02e1ce16f281298feab12f497b",
+    "payloadSha256": "e9fdf280351664272965b02ba83a88a2f3efe866be62034807ce8dd3cee0786c"
+  }
+}

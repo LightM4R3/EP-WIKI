@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-59c6e9a131ea.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_59c6e9a131ea|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_59c6e9a131ea",
+    "name": "침식 방호",
+    "aliases": []
+  },
+  "title": "침식 방호 — 장비 세트 효과",
+  "content": "침식 방호 장비 세트의 3개 세트 효과. 장착자의 의지 +50 장착자의 생명력이 50% 미만일 때, 주는 치유 효과 +30%",
+  "facts": {
+    "gearSet": {
+      "id": 1506308161,
+      "code": "gear_set_59c6e9a131ea",
+      "label": "침식 방호"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 의지 +50 장착자의 생명력이 50% 미만일 때, 주는 치유 효과 +30%",
+    "memberGameEntryIds": [
+      274,
+      278,
+      281,
+      284,
+      329,
+      331,
+      333,
+      335
+    ],
+    "evidenceCopyCount": 8
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_59c6e9a131ea",
+    "groupLabel": "침식 방호",
+    "gearSetCode": "gear_set_59c6e9a131ea",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=274&header=0",
+    "sourceSha256": "79842b8ce1967f86ebe04895efd67393bc29a5a31edc36184959c5bd1aa0028d",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_274.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_278.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_281.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_284.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_329.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_331.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_333.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_335.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9cc2f98064e17fce14a5d95aa69515bb2ba095f01b2b4b27026ca652a869c4b1",
+    "payloadSha256": "181724a765882784872a3b9c0187d42eb4fc4466d79744f7d07317ad7363cbcd"
+  }
+}

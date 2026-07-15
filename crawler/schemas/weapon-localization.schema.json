@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ep-wiki.local/schemas/weapon-localization.schema.json",
+  "title": "EP-WIKI localized weapon overlay",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "entityType",
+    "entityId",
+    "locale",
+    "source",
+    "identity",
+    "taxonomy",
+    "progression",
+    "materialLabels",
+    "options",
+    "sourceAnomalies"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "entityType": { "const": "weapon" },
+    "entityId": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "locale": { "enum": ["ko-KR", "en-US", "ja-JP", "zh-TW"] },
+    "source": { "$ref": "#/$defs/source" },
+    "identity": { "$ref": "#/$defs/identity" },
+    "taxonomy": { "$ref": "#/$defs/taxonomy" },
+    "progression": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["levelLabels"],
+      "properties": {
+        "levelLabels": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "materialLabels": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "options": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": { "$ref": "#/$defs/option" }
+    },
+    "sourceAnomalies": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/anomaly" }
+    }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "url", "htmlLang", "xmlLang", "observedAt"],
+      "properties": {
+        "provider": { "const": "wiki.skport.com" },
+        "url": { "type": "string", "format": "uri" },
+        "htmlLang": { "type": "string", "minLength": 1 },
+        "xmlLang": { "type": "string", "minLength": 1 },
+        "observedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "rarity", "introductionBlocks", "acquisitionLabel"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "rarity": { "type": "integer", "minimum": 1, "maximum": 6 },
+        "introductionBlocks": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "acquisitionLabel": { "type": "string", "minLength": 1 }
+      }
+    },
+    "taxonomy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["weaponTypeId", "weaponTypeCode", "weaponTypeLabel"],
+      "properties": {
+        "weaponTypeId": { "type": "integer", "minimum": 0 },
+        "weaponTypeCode": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "weaponTypeLabel": { "type": "string", "minLength": 1 }
+      }
+    },
+    "option": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "optionId",
+        "name",
+        "categoryLabel",
+        "metricLabels",
+        "descriptionTemplate"
+      ],
+      "properties": {
+        "optionId": { "type": "integer", "minimum": 0 },
+        "name": { "type": "string", "minLength": 1 },
+        "categoryLabel": { "type": "string", "minLength": 1 },
+        "metricLabels": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "type": "string", "minLength": 1 }
+        },
+        "descriptionTemplate": { "type": "string", "minLength": 1 }
+      }
+    },
+    "anomaly": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "kind"],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "kind": { "type": "string", "minLength": 1 },
+        "sourceText": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    }
+  }
+}

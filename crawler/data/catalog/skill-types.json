@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "skillTypes",
+  "entries": [
+    { "id": 0, "code": "basic_attack", "labels": { "ko-KR": "일반 공격", "en-US": "Basic Attack" } },
+    { "id": 1, "code": "battle_skill", "labels": { "ko-KR": "배틀 스킬", "en-US": "Battle Skill" } },
+    { "id": 2, "code": "combo_skill", "labels": { "ko-KR": "연계 스킬", "en-US": "Combo Skill" } },
+    { "id": 3, "code": "ultimate", "labels": { "ko-KR": "궁극기", "en-US": "Ultimate" } }
+  ]
+}

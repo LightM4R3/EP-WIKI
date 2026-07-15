@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.8.talent-2",
+  "semanticKey": "ko-KR|operator|8|talent-2",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_8",
+    "name": "판",
+    "aliases": [],
+    "gameEntryId": 8
+  },
+  "title": "판 — 간 맞추기",
+  "content": "판 오퍼레이터의 오퍼레이터 재능 ‘간 맞추기’.\n단계 1: 궁극기 채 썰어 웍에 넣기!의 마지막 공격이 적을 명중할 때마다 식재료 준비 상태 1스택을 획득합니다. 20초 동안 지속되며, 최대 1스택까지 중첩됩니다. 식재료 준비 상태일 때 연계 스킬이 적을 명중하면 쿨타임을 즉시 40% 회복하고 식재료 준비 상태 1스택을 소모합니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 48개, 탈로시안 화폐 10000개.\n단계 2: 궁극기 채 썰어 웍에 넣기!의 마지막 공격이 적을 명중할 때마다 식재료 준비 상태 1스택을 획득합니다. 20초 동안 지속되며, 최대 2스택까지 중첩됩니다. 식재료 준비 상태일 때 연계 스킬이 적을 명중하면 쿨타임을 즉시 40% 회복하고 식재료 준비 상태 1스택을 소모합니다. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 28개, 탈로시안 화폐 24000개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 2,
+    "name": "간 맞추기",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "궁극기 채 썰어 웍에 넣기!의 마지막 공격이 적을 명중할 때마다 식재료 준비 상태 1스택을 획득합니다. 20초 동안 지속되며, 최대 1스택까지 중첩됩니다. 식재료 준비 상태일 때 연계 스킬이 적을 명중하면 쿨타임을 즉시 40% 회복하고 식재료 준비 상태 1스택을 소모합니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 48
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 10000
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "궁극기 채 썰어 웍에 넣기!의 마지막 공격이 적을 명중할 때마다 식재료 준비 상태 1스택을 획득합니다. 20초 동안 지속되며, 최대 2스택까지 중첩됩니다. 식재료 준비 상태일 때 연계 스킬이 적을 명중하면 쿨타임을 즉시 40% 회복하고 식재료 준비 상태 1스택을 소모합니다.",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 28
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 24000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "talentKind": "combat_talent",
+    "talentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+    "sourceSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_8.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "97132fe99c539a64b5bcb060a514abaebb4c936d39835a2e8eb7cb122368ab01",
+    "payloadSha256": "6ed84c95cb24cd3a303d4f7154243a0d47bf8a72bdfe67366bb769f338957b1d"
+  }
+}

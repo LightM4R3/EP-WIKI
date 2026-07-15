@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.38.progression",
+  "semanticKey": "ko-KR|weapon|38|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_38",
+    "name": "타르 11",
+    "aliases": [],
+    "gameEntryId": 38
+  },
+  "title": "타르 11 — 기초 공격력",
+  "content": "타르 11 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 29.\nLV.20: 기초 공격력 83.\nLV.40: 기초 공격력 140.\nLV.60: 기초 공격력 197.\nLV.80: 기초 공격력 254.\nLV.90: 기초 공격력 283.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 29
+      },
+      {
+        "level": 20,
+        "baseAttack": 83
+      },
+      {
+        "level": 40,
+        "baseAttack": 140
+      },
+      {
+        "level": 60,
+        "baseAttack": 197
+      },
+      {
+        "level": 80,
+        "baseAttack": 254
+      },
+      {
+        "level": 90,
+        "baseAttack": 283
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/38_타르_11.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=38&header=0",
+    "sourceSha256": "461d28f0713dab8e0e8b051364200dbda31728d82e9b37b6d40cd68fcd3f984d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_38.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "fc5c3170f29814ccc30e81fc12f8b131abb329b4615c84fa7abaa3b65038f309",
+    "payloadSha256": "df19a1e7228de9fdae2baaf215a6ee7921e954b9290cd4c6816141eb1b2665fa"
+  }
+}

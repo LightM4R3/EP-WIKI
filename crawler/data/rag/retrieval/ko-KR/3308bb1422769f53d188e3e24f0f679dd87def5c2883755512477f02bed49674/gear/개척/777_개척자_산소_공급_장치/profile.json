@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.777.profile",
+  "semanticKey": "ko-KR|gear|777|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_777",
+    "name": "개척자 산소 공급 장치",
+    "aliases": [],
+    "gameEntryId": 777
+  },
+  "title": "개척자 산소 공급 장치 — 장비 기본 정보",
+  "content": "개척자 산소 공급 장치 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 개척이다. LV.70, 방어력 21. 옵션은 1번 의지 41, 3번 물리 피해 보너스 23%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "개척자 산소 공급 장치",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 1145026990,
+      "code": "gear_set_443e330e6735",
+      "label": "개척"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "물리 피해 보너스",
+        "baseValue": {
+          "value": 23,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-443e330e6735.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_443e330e6735",
+    "groupLabel": "개척",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_443e330e6735"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/777_개척자_산소_공급_장치.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=777&header=0",
+    "sourceSha256": "41f1edad7fc1b76a95b4040d0f5f2beecdc0e0933ae2aa38d43cd63ed9ebcbc3",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_777.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_777.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f229827a75aba4e08e7841c0b40f5806e8365dca6cffdd694019c7223611b088",
+    "payloadSha256": "b51c0b80edd525596d750e4ac7a6cc35c4392898963fa213d08a595b5d6e7cb4"
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_72",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 72,
+    "name": "위대한 이름"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=72&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "875fb8be5b5cc7350bc7aebdfd9348379ffe352ee3f4e06585992229fc831cbe",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_72.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 위대한 이름\ngameEntryId: 72\n정규화 상태: query_ready\n무기 유형: 한손검 (id=0, code=sword)\n기초 공격력: LV.1=50, LV.20=144, LV.40=243, LV.60=342, LV.80=441, LV.90=490\n무기 옵션: 1번=주요 능력치 증가 · 대; 2번=물리 피해 증가 · 대; 3번=잔혹 · 엄격한 규율\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_72",
+        "gameEntryId": 72,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=72&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/72_위대한_이름.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 0,
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "evidenceDocumentIds": [
+          "auto.weapon_72.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_72.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_72.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_72.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_72.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_72.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 위대한 이름\ncategory: weapon\nsection: profile\n위대한 이름\n유형\n한손검\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n미에슈코 공업에서 출시한 고품질 사브르, 탈로스 II 상업연합회 상류층 인사들 사이에서 큰 인기를 끌고 있습니다. 정교하게 다듬어진 외관만큼이나 그 성능 또한 믿을 수 있습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_72",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=72&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 72,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:56.793161+00:00",
+        "contentSha256": "875fb8be5b5cc7350bc7aebdfd9348379ffe352ee3f4e06585992229fc831cbe",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/72_위대한_이름.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "위대한 이름"
+      }
+    },
+    {
+      "documentId": "auto.weapon_72.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 위대한 이름\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n위대한 이름\n한손검\n·획득 방식\n구매 센터 - 무기고 교환소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n50\n490\n주요 능력치 증가 · 대\n주요 능력치\n+17\n1/3\n주요 능력치\n+132\n9/9\n물리 피해 증가 · 대\n물리 피해\n+5.6%\n1/3\n물리 피해\n+43.3%\n9/9\n잔혹 · 엄격한 규율\n공격력\n+10.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[5.0%+2.5%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n1/4\n공격력\n+28.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[14.0%+7.0%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_72",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=72&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 72,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:56.793161+00:00",
+        "contentSha256": "875fb8be5b5cc7350bc7aebdfd9348379ffe352ee3f4e06585992229fc831cbe",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/72_위대한_이름.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "위대한 이름"
+      }
+    },
+    {
+      "documentId": "auto.weapon_72.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 위대한 이름\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n50\n-\n주요 능력치 증가 · 대\n주요 능력치\n+17\n1/3\n물리 피해 증가 · 대\n물리 피해\n+5.6%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n144\n144\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n주요 능력치 증가 · 대\n주요 능력치\n+17\n1/3\n주요 능력치\n+30\n2/5\n물리 피해 증가 · 대\n물리 피해\n+5.6%\n1/3\n물리 피해\n+5.6%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n243\n243\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n주요 능력치 증가 · 대\n주요 능력치\n+30\n2/5\n주요 능력치\n+30\n2/6\n물리 피해 증가 · 대\n물리 피해\n+5.6%\n1/4\n물리 피해\n+10.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n342\n342\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n주요 능력치 증가 · 대\n주요 능력치\n+30\n2/6\n주요 능력치\n+44\n3/8\n물리 피해 증가 · 대\n물리 피해\n+10.0%\n2/6\n물리 피해\n+10.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n441\n441\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n주요 능력치 증가 · 대\n주요 능력치\n+44\n3/8\n주요 능력치\n+44\n3/9\n물리 피해 증가 · 대\n물리 피해\n+10.0%\n2/7\n물리 피해\n+14.4%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n490\n-\n주요 능력치 증가 · 대\n주요 능력치\n+44\n3/9\n물리 피해 증가 · 대\n물리 피해\n+14.4%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_72",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=72&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 72,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:56.793161+00:00",
+        "contentSha256": "875fb8be5b5cc7350bc7aebdfd9348379ffe352ee3f4e06585992229fc831cbe",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/72_위대한_이름.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "위대한 이름"
+      }
+    },
+    {
+      "documentId": "auto.weapon_72.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 위대한 이름\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n주요 능력치 증가 · 대\n물리 피해 증가 · 대\n잔혹 · 엄격한 규율\nRANK 1\n주요 능력치\n+17\n물리 피해\n+5.6%\n공격력\n+10.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[5.0%+2.5%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 2\n주요 능력치\n+30\n물리 피해\n+10.0%\n공격력\n+12.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[6.0%+3.0%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 3\n주요 능력치\n+44\n물리 피해\n+14.4%\n공격력\n+14.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[7.0%+3.5%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 4\n주요 능력치\n+57\n물리 피해\n+18.9%\n공격력\n+16.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[8.0%+4.0%×\n소모 스택\n수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 5\n주요 능력치\n+71\n물리 피해\n+23.3%\n공격력\n+18.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[9.0%+4.5%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 6\n주요 능력치\n+85\n물리 피해\n+27.8%\n공격력\n+20.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[10.0%+5.0%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 7\n주요 능력치\n+98\n물리 피해\n+32.2%\n공격력\n+22.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[11.0%+5.5%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 8\n주요 능력치\n+112\n물리 피해\n+36.7%\n공격력\n+24.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[12.0%+6.0%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 9\n주요 능력치\n+132\n물리 피해\n+43.3%\n공격력\n+28.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[14.0%+7.0%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n주요 능력치 증가\n물리 피해 증가\n잔혹",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_72",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=72&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 72,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:56.793161+00:00",
+        "contentSha256": "875fb8be5b5cc7350bc7aebdfd9348379ffe352ee3f4e06585992229fc831cbe",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/72_위대한_이름.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "위대한 이름"
+      }
+    },
+    {
+      "documentId": "auto.weapon_72.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 위대한 이름\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n잔혹 · 엄격한 규율\n기본/최대\n잔혹 · 엄격한 규율\n잠재능력 1\n1/4\n공격력\n+10.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[5.0%+2.5%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 2\n2/5\n공격력\n+12.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[6.0%+3.0%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 3\n3/6\n공격력\n+14.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[7.0%+3.5%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 4\n4/7\n공격력\n+16.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[8.0%+4.0%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 5\n5/8\n공격력\n+18.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[9.0%+4.5%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 6\n6/9\n공격력\n+20.0%\n장착자가\n방어 불능\n스택 수치를\n소모\n한 후, 자신의 공격력\n+[10.0%+5.0%×\n소모\n스택 수치]\n, 팀 내 다른 오퍼레이터는 절반의 효과를 획득함, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_72",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=72&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 72,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:56.793161+00:00",
+        "contentSha256": "875fb8be5b5cc7350bc7aebdfd9348379ffe352ee3f4e06585992229fc831cbe",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/72_위대한_이름.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "위대한 이름"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 50
+    },
+    {
+      "level": 20,
+      "baseAttack": 144
+    },
+    {
+      "level": 40,
+      "baseAttack": 243
+    },
+    {
+      "level": 60,
+      "baseAttack": 342
+    },
+    {
+      "level": 80,
+      "baseAttack": 441
+    },
+    {
+      "level": 90,
+      "baseAttack": 490
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "주요 능력치 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_72.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "물리 피해 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_72.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "잔혹 · 엄격한 규율",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_72.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 0,
+    "code": "sword",
+    "label": "한손검"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/한손검/72_위대한_이름.json"
+}

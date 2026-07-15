@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "gear-qualities",
+  "entries": [
+    {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    {
+      "id": 4,
+      "code": "gray",
+      "label": "회색 품질"
+    }
+  ]
+}

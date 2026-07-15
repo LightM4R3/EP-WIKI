@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.363.forging",
+  "semanticKey": "ko-KR|gear|363|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_363",
+    "name": "생체 보조 접속기",
+    "aliases": [],
+    "gameEntryId": 363
+  },
+  "title": "생체 보조 접속기 — 정밀 단조",
+  "content": "생체 보조 접속기 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 힘: +0 32, +1 35, +2 38, +3 41.\n2번 의지: +0 21, +1 23, +2 25, +3 27.\n3번 모든 피해 감소: +0 17.2%, +1 18.5%, +2 19.9%, +3 21.2%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "모든 피해 감소",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 17.2,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 18.5,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 19.9,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 21.2,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1ab07dc6afcc",
+    "groupLabel": "생체 보조",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/생체_보조/363_생체_보조_접속기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=363&header=0",
+    "sourceSha256": "25b2bd0cf21b75c598be749f64186a53e5851d06739a211e4b7bb77f5d52b603",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_363.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "fdd8a24e5335df6d50950489dce170b25090a13531e174c1a5b514f41505f952",
+    "payloadSha256": "f431d060eb569429d94839be2e140f75819dea48f59211b02a0f704ad3aeb4cd"
+  }
+}

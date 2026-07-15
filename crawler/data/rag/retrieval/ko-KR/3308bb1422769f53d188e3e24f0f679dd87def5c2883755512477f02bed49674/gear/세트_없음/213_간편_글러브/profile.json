@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.213.profile",
+  "semanticKey": "ko-KR|gear|213|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_213",
+    "name": "간편 글러브",
+    "aliases": [],
+    "gameEntryId": 213
+  },
+  "title": "간편 글러브 — 장비 기본 정보",
+  "content": "간편 글러브 장비의 기본 정보. 유형은 글러브, 품질은 회색 품질, 세트는 세트 없음이다. LV.10, 방어력 6. 옵션은 1번 지능 11, 2번 의지 7, 3번 생명력 77. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "간편 글러브",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 4,
+      "code": "gray",
+      "label": "회색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 10,
+    "defense": 6,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 11,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 7,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "생명력",
+        "baseValue": {
+          "value": 77,
+          "unit": "flat"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "gloves",
+    "qualityCode": "gray",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/213_간편_글러브.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=213&header=0",
+    "sourceSha256": "215fa589573537c02b7a0d3ecae6dc5e53d619bc869f57a561e9dc1d711d59be",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_213.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_213.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f28b2704a3f8b74fc85fc912cfe95f7192e4bd3165acb475bb47b26eac8b63c0",
+    "payloadSha256": "fe4fc3f2461669b8f9559d938312af97ba9b4532eba80f6f177c69a08e8a121e"
+  }
+}

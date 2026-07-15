@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.88.progression",
+  "semanticKey": "ko-KR|weapon|88|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_88",
+    "name": "불사의 성주",
+    "aliases": [],
+    "gameEntryId": 88
+  },
+  "title": "불사의 성주 — 기초 공격력",
+  "content": "불사의 성주 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 42.\nLV.20: 기초 공격력 120.\nLV.40: 기초 공격력 203.\nLV.60: 기초 공격력 286.\nLV.80: 기초 공격력 369.\nLV.90: 기초 공격력 411.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 42
+      },
+      {
+        "level": 20,
+        "baseAttack": 120
+      },
+      {
+        "level": 40,
+        "baseAttack": 203
+      },
+      {
+        "level": 60,
+        "baseAttack": 286
+      },
+      {
+        "level": 80,
+        "baseAttack": 369
+      },
+      {
+        "level": 90,
+        "baseAttack": 411
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/88_불사의_성주.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=88&header=0",
+    "sourceSha256": "338bc6511bcb90b4557ceb1e1c33fe59c69f8b56c9cb54efe544e2a9a6654683",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_88.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "1300fb31c372edf83bf691384635a3bc2019a1aeadb169247ef7f4db9781111e",
+    "payloadSha256": "af038af45d5203d6831de2d6a5c79883cc1bec3f2cb279aff9d8a1d13b517e97"
+  }
+}

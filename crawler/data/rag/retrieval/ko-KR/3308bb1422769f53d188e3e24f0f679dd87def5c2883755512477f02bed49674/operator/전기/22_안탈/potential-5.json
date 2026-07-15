@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.22.potential-5",
+  "semanticKey": "ko-KR|operator|22|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_22",
+    "name": "안탈",
+    "aliases": [],
+    "gameEntryId": 22
+  },
+  "title": "안탈 — 잠재능력 5 고사양 기술 테스트",
+  "content": "안탈 오퍼레이터의 잠재능력 5 ‘고사양 기술 테스트’. 같은 목표에 20 초 동안 포커싱 한 후, 전기 취약과 열기 취약 효과가 4% 증가합니다. 오퍼레이터 기념사진 \"극치\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "고사양 기술 테스트",
+    "status": "rule_validated",
+    "effect": "같은 목표에 20 초 동안 포커싱 한 후, 전기 취약과 열기 취약 효과가 4% 증가합니다. 오퍼레이터 기념사진 \"극치\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/22_안탈.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=22&header=0",
+    "sourceSha256": "6aff68dbcd9f30961e9b0f621fb665be356853ce7740fbc1f77ae1c104d37b5d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_22.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c4417024a8f28a84a596f4fe63f33996ec902bdbc5006df72aa14d6f23c8a3f3",
+    "payloadSha256": "6b9b0726c72e484b4279a3dbbcbae460c40257aa7ae4bd7c984d8dc8c842f856"
+  }
+}

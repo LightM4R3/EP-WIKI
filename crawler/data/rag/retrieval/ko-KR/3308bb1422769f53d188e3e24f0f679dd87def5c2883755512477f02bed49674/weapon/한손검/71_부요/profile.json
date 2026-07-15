@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.71.profile",
+  "semanticKey": "ko-KR|weapon|71|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_71",
+    "name": "부요",
+    "aliases": [],
+    "gameEntryId": 71
+  },
+  "title": "부요 — 무기 기본 정보",
+  "content": "부요 무기의 기본 정보. 무기 유형은 한손검이다. 옵션은 1번 주요 능력치 증가 · 대, 2번 치명타 확률 증가 · 대, 3번 어둠 · 청운이다.",
+  "facts": {
+    "name": "부요",
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "주요 능력치 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.71.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "치명타 확률 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.71.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "어둠 · 청운",
+        "documentRef": "epwiki.ko-kr.weapon.71.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "weaponTypeCode": "sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/71_부요.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=71&header=0",
+    "sourceSha256": "fce1533f4fb6a358a4c4be1905ed22e128fdcbcff79c122c04dc0ca650c843c0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_71.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_71.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "585528fc12501ecca5d61395b5d3636fe222d6d667cde0ec2ce1e5643b8064fc",
+    "payloadSha256": "19292538aee31ec49f8f097e72ab2332347900966621aba98399e88b37b4febe"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.71.progression",
+  "semanticKey": "ko-KR|weapon|71|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_71",
+    "name": "부요",
+    "aliases": [],
+    "gameEntryId": 71
+  },
+  "title": "부요 — 기초 공격력",
+  "content": "부요 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 50.\nLV.20: 기초 공격력 145.\nLV.40: 기초 공격력 245.\nLV.60: 기초 공격력 345.\nLV.80: 기초 공격력 445.\nLV.90: 기초 공격력 495.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 50
+      },
+      {
+        "level": 20,
+        "baseAttack": 145
+      },
+      {
+        "level": 40,
+        "baseAttack": 245
+      },
+      {
+        "level": 60,
+        "baseAttack": 345
+      },
+      {
+        "level": 80,
+        "baseAttack": 445
+      },
+      {
+        "level": 90,
+        "baseAttack": 495
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/71_부요.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=71&header=0",
+    "sourceSha256": "fce1533f4fb6a358a4c4be1905ed22e128fdcbcff79c122c04dc0ca650c843c0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_71.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3dc7a17359687cdd556d303e70ac7253cc30d8a7267f62748b67c8dae75dffcd",
+    "payloadSha256": "a43d68c241745b4d57bf26853caf6c8150746fe98661ee035317c0c5294d8d46"
+  }
+}

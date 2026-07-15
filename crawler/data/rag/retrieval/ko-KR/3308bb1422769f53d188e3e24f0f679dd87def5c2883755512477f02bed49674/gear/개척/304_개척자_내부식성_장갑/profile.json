@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.304.profile",
+  "semanticKey": "ko-KR|gear|304|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_304",
+    "name": "개척자 내부식성 장갑",
+    "aliases": [],
+    "gameEntryId": 304
+  },
+  "title": "개척자 내부식성 장갑 — 장비 기본 정보",
+  "content": "개척자 내부식성 장갑 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 개척이다. LV.70, 방어력 42. 옵션은 1번 민첩 65, 2번 지능 43, 3번 배틀 스킬 피해 보너스 34.5%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "개척자 내부식성 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 1145026990,
+      "code": "gear_set_443e330e6735",
+      "label": "개척"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "배틀 스킬 피해 보너스",
+        "baseValue": {
+          "value": 34.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-443e330e6735.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_443e330e6735",
+    "groupLabel": "개척",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_443e330e6735"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/304_개척자_내부식성_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=304&header=0",
+    "sourceSha256": "8f75742aa9b4dbf93103b3116dffd26814bf7d65c8b25e1d67dd01da06809780",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_304.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_304.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "110ab646e1f9529b03193ccd285bb339ae58e636c9b0f105fef5983cb3122e96",
+    "payloadSha256": "fe32acf87742793058ef324030e50644f362cac684e7d9a36dfbcb5874698acc"
+  }
+}

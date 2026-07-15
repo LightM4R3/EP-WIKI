@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.22.profile",
+  "semanticKey": "ko-KR|operator|22|profile",
+  "locale": "ko-KR",
+  "documentType": "operator_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_22",
+    "name": "안탈",
+    "aliases": [],
+    "gameEntryId": 22
+  },
+  "title": "안탈 — 오퍼레이터 기본 정보",
+  "content": "안탈 오퍼레이터의 기본 정보. 속성은 전기, 무기 유형은 아츠 유닛이다. 주요 능력치는 지능, 보조 능력치는 힘이다.",
+  "facts": {
+    "name": "안탈",
+    "element": {
+      "id": 2,
+      "code": "electric",
+      "label": "전기"
+    },
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "primaryAttribute": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    },
+    "secondaryAttribute": {
+      "id": 0,
+      "code": "strength",
+      "label": "힘"
+    },
+    "attributeCatalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_profile",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "elementCode": "electric",
+    "weaponTypeCode": "arts_unit",
+    "primaryAttributeCode": "intellect",
+    "secondaryAttributeCode": "strength"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/22_안탈.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=22&header=0",
+    "sourceSha256": "6aff68dbcd9f30961e9b0f621fb665be356853ce7740fbc1f77ae1c104d37b5d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_22.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.operator_22.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문에서 희귀도를 텍스트로 확정할 수 없음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.class",
+        "reason": "클래스 이미지 매핑이 검증되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.portraitUrl",
+        "reason": "초상화 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e3ed94bcdbf18d979248b262610a818ade36255667dd82e9852d2134e810e775",
+    "payloadSha256": "9860a8e4a5d96e67288087bc6e91aee3b664d504ff89bc2ebba3354c4b8096d6"
+  }
+}

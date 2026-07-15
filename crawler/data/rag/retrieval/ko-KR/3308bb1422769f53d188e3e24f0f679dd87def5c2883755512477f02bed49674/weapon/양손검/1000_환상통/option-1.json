@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.1000.option-1",
+  "semanticKey": "ko-KR|weapon|1000|option-1",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_1000",
+    "name": "환상통",
+    "aliases": [],
+    "gameEntryId": 1000
+  },
+  "title": "환상통 — 1번 옵션 힘 증가 · 대",
+  "content": "환상통 무기의 1번 옵션 ‘힘 증가 · 대’.\nRANK1: 힘 +20.\nRANK2: 힘 +36.\nRANK3: 힘 +52.\nRANK4: 힘 +68.\nRANK5: 힘 +84.\nRANK6: 힘 +100.\nRANK7: 힘 +116.\nRANK8: 힘 +132.\nRANK9: 힘 +156.",
+  "facts": {
+    "slot": 1,
+    "name": "힘 증가 · 대",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "힘",
+        "value": 20,
+        "unit": "flat",
+        "display": "+20"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "힘",
+        "value": 36,
+        "unit": "flat",
+        "display": "+36"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "힘",
+        "value": 52,
+        "unit": "flat",
+        "display": "+52"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "힘",
+        "value": 68,
+        "unit": "flat",
+        "display": "+68"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "힘",
+        "value": 84,
+        "unit": "flat",
+        "display": "+84"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "힘",
+        "value": 100,
+        "unit": "flat",
+        "display": "+100"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "힘",
+        "value": 116,
+        "unit": "flat",
+        "display": "+116"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "힘",
+        "value": 132,
+        "unit": "flat",
+        "display": "+132"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "힘",
+        "value": 156,
+        "unit": "flat",
+        "display": "+156"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/1000_환상통.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1000&header=0",
+    "sourceSha256": "c8ac0020a0a8b964bb821f435d11978f3501325e2d9b8e1eeb5684e7e5994994",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_1000.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "31e0ab8a856a47def45a3a18f232132334edd8121b665e69c637f33b5814705a",
+    "payloadSha256": "094c27d6339e1af3436d9331a6e27112be6ff5fe8439c169ae6d36d538733cef"
+  }
+}

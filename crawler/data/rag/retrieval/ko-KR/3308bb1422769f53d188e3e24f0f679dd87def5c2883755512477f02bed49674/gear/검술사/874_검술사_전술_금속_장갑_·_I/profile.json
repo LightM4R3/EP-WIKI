@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.874.profile",
+  "semanticKey": "ko-KR|gear|874|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_874",
+    "name": "검술사 전술 금속 장갑 · I",
+    "aliases": [],
+    "gameEntryId": 874
+  },
+  "title": "검술사 전술 금속 장갑 · I — 장비 기본 정보",
+  "content": "검술사 전술 금속 장갑 · I 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 검술사이다. LV.70, 방어력 42. 옵션은 1번 힘 65, 2번 의지 43, 3번 오리지늄 아츠 강도 34. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "검술사 전술 금속 장갑 · I",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2042367052,
+      "code": "gear_set_79ba85ac519a",
+      "label": "검술사"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "baseValue": {
+          "value": 34,
+          "unit": "flat"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-79ba85ac519a.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_79ba85ac519a",
+    "groupLabel": "검술사",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_79ba85ac519a"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/874_검술사_전술_금속_장갑_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=874&header=0",
+    "sourceSha256": "27b69d89d4136bae5b61829aadefc3830caea4fc5f244c95df86cae9d0553ff0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_874.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_874.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "8aec615046d5bf8fb7dec66db1e430787948947855688c9f03dd1883f465d64a",
+    "payloadSha256": "641454f1fe2cb370a40e550754f47a5b8a923de70f8494f858de9c5ad8117aeb"
+  }
+}

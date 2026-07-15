@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.62.progression",
+  "semanticKey": "ko-KR|weapon|62|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_62",
+    "name": "끝없는 방랑",
+    "aliases": [],
+    "gameEntryId": 62
+  },
+  "title": "끝없는 방랑 — 기초 공격력",
+  "content": "끝없는 방랑 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 51.\nLV.20: 기초 공격력 146.\nLV.40: 기초 공격력 247.\nLV.60: 기초 공격력 348.\nLV.80: 기초 공격력 449.\nLV.90: 기초 공격력 500.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 51
+      },
+      {
+        "level": 20,
+        "baseAttack": 146
+      },
+      {
+        "level": 40,
+        "baseAttack": 247
+      },
+      {
+        "level": 60,
+        "baseAttack": 348
+      },
+      {
+        "level": 80,
+        "baseAttack": 449
+      },
+      {
+        "level": 90,
+        "baseAttack": 500
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/62_끝없는_방랑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=62&header=0",
+    "sourceSha256": "c21f8211460fcba7ef49dfba18e75b3ab5edcc4b034b19b9541002f3c01705ea",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_62.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9f73f979e4765675e4553e15fce33f5b4a969f9fcff0dbcdbaaa6cca1088cd6c",
+    "payloadSha256": "29f2940540df5b65fd1e259be26c8ff32d2f755f730e08de00ccd9b7996d86c1"
+  }
+}

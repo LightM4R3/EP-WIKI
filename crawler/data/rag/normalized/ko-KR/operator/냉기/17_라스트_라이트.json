@@ -1,0 +1,562 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_17",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 17,
+    "name": "라스트 라이트"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_17.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 라스트 라이트\ngameEntryId: 17\n정규화 상태: query_ready\n속성: 냉기 (id=3, code=cryo)\n무기 유형: 양손검 (id=1, code=greatsword)\n주요 능력치: 힘 (id=0, code=strength)\n보조 능력치: 의지 (id=3, code=will)\nLV.1: 힘=21, 민첩=8, 지능=9, 의지=15, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=50, 민첩=29, 지능=27, 의지=35, 기초 공격력=95, 기초 생명력=1566\nLV.40: 힘=80, 민첩=50, 지능=46, 의지=56, 기초 공격력=162, 기초 생명력=2689\nLV.60: 힘=110, 민첩=72, 지능=65, 의지=77, 기초 공격력=230, 기초 생명력=3811\nLV.80: 힘=140, 민첩=93, 지능=84, 의지=98, 기초 공격력=298, 기초 생명력=4934\nLV.90: 힘=155, 민첩=104, 지능=94, 의지=109, 기초 공격력=332, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, progression.sourceConflicts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_17",
+        "gameEntryId": 17,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 3,
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "evidenceDocumentIds": [
+          "auto.operator_17.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_17.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_17.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_17.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_17.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_17.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_17.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_17.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_17.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_17.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_17.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 라스트 라이트\ncategory: operator\nsection: profile\n라스트 라이트\n진영\n세쉬카\n무기 유형\n양손검\n\"저는 저, 전쟁의... 뭐였죠?\"\n라스트 라이트는 공중 도시의 살카즈들에게 발견되지 전까지만 해도, 카프리니 묘지기 부부에게 입양되어 살아가던 선량한 소녀였다. 양부모의 가르침 덕분에 어린 나흐체러르는 누구의 죽음도 방해하기를 원치 않았고, 본능적인 '식사'의 충동조차 거부했다. 그 때문에 늘 배고픔에 시달리며 자존감이 낮은 편이다.\n그러던 어느 날, 우연한 만남으로 세쉬카는 라스트 라이트의 가성을 발견했다. '값싼 일거리'와 '본능 억제 훈련'이라는 유혹들 속에서 라스트 라이트는 상인들 사이에서 '전투 왕정의 공주'라 불리게 되었다. 지금의 그녀는 주술타임의 테스트용 작전복을 입고 엔드필드의 목표를 위해 서리와 칼날을 휘두른다. 이는 단순한 계약 이행일 뿐만 아니라 동시에 엔드필드가 그녀에게 보여준 생명이 평온하고 고요할 수 있는 내일을 향한 발걸음이기도 하다.\n\"만약 세쉬카의 계약이 끝나도 제가 계속 도와드릴 수 있어요... 아, 이건 말하면 안 되는 건데... 다, 다른 사람들한테는 비밀로 해주세요!\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_17",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 17,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:47.557957+00:00",
+        "contentSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "라스트 라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_17.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 라스트 라이트\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n라스트 라이트\n성별\n여\n진영\n세쉬카\n생일\n11월 12일\n속성\n냉기\n종족\n살카즈\n한국어 CV\n이이로\n일본어 CV\n白石晴香\n영어 CV\nAmber Hood\n중국어 CV\n闲踏梧桐",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_17",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 17,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:47.557957+00:00",
+        "contentSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "라스트 라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_17.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 라스트 라이트\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘 (주요 능력치)\n21\n50\n80\n110\n140\n155\n민첩\n8\n29\n50\n72\n93\n104\n지능\n9\n27\n46\n65\n84\n93\n의지 (보조 능력치)\n15\n35\n56\n77\n98\n109\n기초 공격력\n30\n95\n162\n230\n298\n332\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘 (주요 능력치)\n21\n-\n민첩\n8\n지능\n9\n의지 (보조 능력치)\n15\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n50\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩\n29\n지능\n27\n의지 (보조 능력치)\n35\n기초 공격력\n95\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n80\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩\n50\n지능\n46\n의지 (보조 능력치)\n56\n기초 공격력\n162\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n110\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩\n72\n지능\n65\n의지 (보조 능력치)\n77\n기초 공격력\n230\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n140\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩\n93\n지능\n84\n의지 (보조 능력치)\n98\n기초 공격력\n298\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘 (주요 능력치)\n155\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩\n104\n지능\n94\n의지 (보조 능력치)\n109\n기초 공격력\n332\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_17",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 17,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:47.557957+00:00",
+        "contentSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "라스트 라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_17.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 라스트 라이트\ncategory: operator\nsection: combat_skill\n전투 스킬\n혹한의 춤\n일반 공격\n일반 공격:\n적에게 최대 4단 공격을 하여\n냉기 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n25\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n냉기 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n냉기 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n30%\n33%\n36%\n39%\n42%\n45%\n48%\n51%\n54%\n58%\n62%\n68%\n일반 공격 제2단계 배율\n55%\n61%\n66%\n72%\n77%\n83%\n88%\n94%\n99%\n106%\n114%\n124%\n일반 공격 제3단계 배율\n68%\n75%\n82%\n88%\n95%\n102%\n109%\n116%\n122%\n131%\n141%\n153%\n일반 공격 제4단계 배율\n90%\n99%\n108%\n117%\n126%\n135%\n144%\n153%\n162%\n173%\n187%\n203%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n세쉬카의 비전\n배틀 스킬\n메인 컨트롤 오퍼레이터의 무기에\n저온 주입\n을 부여하고 일정량의 스킬 게이지를\n반환\n합니다.\n인정 시간 동안, 해당 메인 컨트롤 오퍼레이터가 사용한 1회의\n강력한 일격\n이 라스트 라이트의 환영을 소환해 목표를 추적하며,\n냉기 피해\n를 주고\n냉기 부착\n상태를 부여합니다.\n메인 컨트롤 오퍼레이터가 라스트 라이트라면, 해당 배틀 스킬을 사용하더라도 일반 공격이 중단되지 않습니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n환영 추격 피해 배율\n142%\n156%\n171%\n185%\n199%\n213%\n228%\n242%\n256%\n274%\n295%\n320%\n스킬 게이지 반환\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n지속 시간(초)\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n궁극기 에너지 획득\n16\n16\n16\n16\n16\n16\n16\n16\n16\n16\n16\n16\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_17",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 17,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:47.557957+00:00",
+        "contentSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "라스트 라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_17.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 라스트 라이트\ncategory: operator\nsection: combat_skill\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n겨울 포식자\n연계 스킬\n적에게\n냉기 부착\n3스택 혹은 그 이상이 쌓였을 때 사용할 수 있습니다.\n목표한 적에게 얼음송곳을 응결시킨 다음 산산이 조각냅니다. 목표에 쌓인\n냉기 부착\n을 전부\n소모\n하고, 대상에게\n냉기 부착\n의 스택 수치에 따른\n냉기 피해\n를 주며\n소모\n한 스택 수치에 따라 궁극기 에너지를 획득합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n9초\n9초\n9초\n9초\n9초\n9초\n9초\n9초\n9초\n9초\n9초\n8초\n얼음 가시 피해 비율\n71%\n78%\n85%\n92%\n99%\n107%\n114%\n121%\n128%\n137%\n147%\n160%\n베기 기초 피해 배율\n71%\n78%\n85%\n92%\n99%\n107%\n114%\n121%\n128%\n137%\n147%\n160%\n베기 불균형치\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n중첩된 부착 스택을 소모할 때마다 추가되는 피해 배율\n107%\n117%\n128%\n139%\n149%\n160%\n171%\n181%\n192%\n205%\n221%\n240%\n기초로 획득하는 궁극기 에너지\n40\n40\n40\n40\n40\n40\n40\n40\n40\n40\n40\n40\n중첩된 부착 스택을 소모할 때마다 추가로 획득하는 궁극기 에너지\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n마지막 인사\n궁극기\n서리 갑옷을 두르고 얼음 낫을 만들어 전방으로 3회의 베기 공격을 진행합니다. 해당 상태에서는 모든 피해에 면역됩니다.\n벨 때마다 대량의\n냉기 피해\n를 줍니다.\n라스트 라이트는 자신의 배틀 스킬, 연계 스킬을 통해서만 궁극기 에너지를 획득할 수 있습니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n240\n240\n240\n240\n240\n240\n240\n240\n240\n240\n240\n240\n쿨타임\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n제1단계 피해 배율\n178%\n196%\n213%\n231%\n249%\n267%\n284%\n302%\n320%\n342%\n369%\n400%\n제1단계 불균형치\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n제2단계 피해 배율\n178%\n196%\n213%\n231%\n249%\n267%\n284%\n302%\n320%\n342%\n369%\n400%\n제2단계 불균형치\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n제3단계 피해 배율\n356%\n391%\n427%\n462%\n498%\n533%\n569%\n604%\n640%\n684%\n738%\n800%\n제3단계 불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_17",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 17,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:25:47.557957+00:00",
+        "contentSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "라스트 라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_17.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 라스트 라이트\ncategory: operator\nsection: combat_skill\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_17",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 17,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T06:25:47.557957+00:00",
+        "contentSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "라스트 라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_17.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 라스트 라이트\ncategory: operator\nsection: operator_talent\n재능 배열\n단련\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 힘 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 힘 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 힘 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 힘 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n저체온증\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n라스트 라이트가 임의의\n아츠 부착\n을\n소모\n한 후, 해당 목표에\n냉기 취약\n을 부여합니다.\n소모\n한\n아츠 부착\n의 스택 수치×\n2%\n,\n15\n초 동안 지속. 해당 효과는 중첩되지 않습니다.\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n라스트 라이트가 임의의\n아츠 부착\n을\n소모\n한 후, 해당 목표에\n냉기 취약\n을 부여합니다.\n소모\n한\n아츠 부착\n의 스택 수치×\n4%\n,\n15\n초 동안 지속. 해당 효과는 중첩되지 않습니다.\n정예화 단계 2 돌파\n40\n프로토콜 프리즘\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n저온 취성\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n궁극기\n마지막 인사\n가 피해를 줄 때, 적이\n냉기 취약\n상태일 경우, 해당\n냉기 취약\n효과를 기존의\n1.2\n배로 간주합니다.\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n궁극기\n마지막 인사\n가 피해를 줄 때, 적이\n냉기 취약\n상태일 경우, 해당\n냉기 취약\n효과를 기존의\n1.5\n배로 간주합니다.\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n24000\n탈로시안 화폐\n*\n24000\n묘지 원예",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_17",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 17,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:47.557957+00:00",
+        "contentSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "라스트 라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_17.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 라스트 라이트\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n묘지 원예 · β\n재배실에 배치 시, 결정화 식물 재료의 육성 속도 20% 증가\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n묘지 원예 · γ\n재배실에 배치 시, 결정화 식물 재료의 육성 속도 30% 증가\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n왕실의 명성\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n왕실의 명성 · α\n응접실에 배치 시, 오퍼레이터가 단서 7 - 세쉬카를 수집할 확률 약간 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n왕실의 명성 · β\n응접실에 배치 시, 오퍼레이터가 단서 7 - 세쉬카를 수집할 확률 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_17",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 17,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:47.557957+00:00",
+        "contentSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "라스트 라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_17.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 라스트 라이트\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\n3상 나노플레이크 칩\n*\n20\n8\n피버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_17",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 17,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:47.557957+00:00",
+        "contentSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "라스트 라이트"
+      }
+    },
+    {
+      "documentId": "auto.operator_17.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 라스트 라이트\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n묘지기의 선물\n잠재능력 01\n저온 주입\n을 받은 메인 컨트롤 오퍼레이터의\n강력한 일격\n이 적을 명중했을 때, 추가로 주는 피해\n20%\n, 불균형 피해\n5\n포인트\n오퍼레이터 기념사진 \"미모사\" 잠금 해제\n영점 무장\n잠재능력 02\n힘\n+20\n, 냉기 피해\n+10%\n혹한의 지배자\n잠재능력 03\n연계 스킬\n겨울 포식자\n와 궁극기\n마지막 인사\n의 피해 배율이 기존의\n1.15\n배로 증가합니다.\n오퍼레이터 기념사진 \"응화\" 잠금 해제\n진심 어린 작별\n잠재능력 04\n궁극기\n마지막 인사\n의 사용에 필요한 궁극기 에너지\n-15%\n다시 밀려오는 한기\n잠재능력 05\n배틀 스킬\n세쉬카의 비전\n이\n반환\n하는 스킬 게이지가 추가로\n5\n포인트 증가하고, 생성한 환영 추격의 피해 배율이 기존의\n1.2\n배로 증가합니다.\n오퍼레이터 기념사진 \"첫 서리꽃\" 잠금 해제\n명함 테마 \"첫 서리꽃\" 잠금 해제\n오퍼레이터 기념사진\n미모사\n일러스트레이터: komiki\n절 놀리는 게 재미있다고요? 으음, 그러지 마세요...\n응화\n일러스트레이터: Cenm0\n꼭... 광활한 대지가 절 안고 잠든 것만 같은 느낌이에요. 끝없이 이어지는 겨울이 절 기다리는 것 같기도 하고요. 하지만... 전 그냥 영원한 안식을 위해 꽃 한 다발을 바치고 싶을 뿐인걸요.\n첫 서리꽃\n일러스트레이터: REM\n저한테는... 아직 풀어야 할 숙제도, 넘어야 할 시련도 많이 남아 있다고 생각해요. 하지만 그거랑 상관없이 당신이 맡긴 임무라면 어떻게든 완수할 거예요. 더 많은 사람이 미소를 되찾을 수 있게...",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_17",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 17,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:47.557957+00:00",
+        "contentSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "라스트 라이트"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 3,
+      "code": "cryo",
+      "label": "냉기"
+    },
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 0,
+      "code": "strength",
+      "label": "힘"
+    },
+    "secondary": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 21,
+        "agility": 8,
+        "intellect": 9,
+        "will": 15,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 50,
+        "agility": 29,
+        "intellect": 27,
+        "will": 35,
+        "baseAttack": 95,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 80,
+        "agility": 50,
+        "intellect": 46,
+        "will": 56,
+        "baseAttack": 162,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 110,
+        "agility": 72,
+        "intellect": 65,
+        "will": 77,
+        "baseAttack": 230,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 140,
+        "agility": 93,
+        "intellect": 84,
+        "will": 98,
+        "baseAttack": 298,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 155,
+        "agility": 104,
+        "intellect": 94,
+        "will": 109,
+        "baseAttack": 332,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [
+    {
+      "field": "지능",
+      "headerValues": [
+        9,
+        27,
+        46,
+        65,
+        84,
+        93
+      ],
+      "detailValues": [
+        9,
+        27,
+        46,
+        65,
+        84,
+        94
+      ],
+      "selectedValues": [
+        9,
+        27,
+        46,
+        65,
+        84,
+        94
+      ],
+      "resolution": "detail_table_preferred_ambiguous_conflict",
+      "evidenceDocumentId": "auto.operator_17.progression.c3.chapter.s2.p0.ko-kr"
+    }
+  ],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_17.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_17.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_17.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": []
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_17.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_17.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_17.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 3,
+    "code": "cryo",
+    "label": "냉기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "progression.sourceConflicts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": [
+      {
+        "field": "지능",
+        "headerValues": [
+          9,
+          27,
+          46,
+          65,
+          84,
+          93
+        ],
+        "detailValues": [
+          9,
+          27,
+          46,
+          65,
+          84,
+          94
+        ],
+        "selectedValues": [
+          9,
+          27,
+          46,
+          65,
+          84,
+          94
+        ],
+        "resolution": "detail_table_preferred_ambiguous_conflict",
+        "evidenceDocumentId": "auto.operator_17.progression.c3.chapter.s2.p0.ko-kr"
+      }
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json"
+}

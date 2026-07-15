@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_278",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 278,
+    "name": "침식 방호 장갑"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=278&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "78b417a730ec7a3dfa77f6cbd18bed3c021ec41e68b410600b6f57666bca3dbe",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_278.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 침식 방호 장갑\ngameEntryId: 278\n정규화 상태: query_ready\n장비 세트: 침식 방호 (id=1506308161, code=gear_set_59c6e9a131ea)\n장비 유형: 글러브 (id=0, code=gloves)\n품질: 파란색 품질 (id=2, code=blue)\nLV: 36\n방어력: 21\n장비 옵션: 1번=의지 33; 2번=지능 22; 3번=치유 효율 보너스 8.8%\n정밀 단조 지원: 아니오\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_278",
+        "gameEntryId": 278,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=278&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_방호/278_침식_방호_장갑.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 1506308161,
+        "groupCode": "gear_set_59c6e9a131ea",
+        "groupLabel": "침식 방호",
+        "evidenceDocumentIds": [
+          "auto.gear_278.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_278.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_278.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_278.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 침식 방호 장갑\ncategory: gear\nsection: profile\n침식 방호 장갑\n품질\n파란색 품질\n장비 유형\n글러브\n세트\n침식 방호\n이 장비는 엔드필드 공업에서 자체 연구하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n특별히 튼튼한 장갑.\n인류는 아직 침식 자체를 효과적으로 견뎌내는 방호복을 개발하지 못했습니다. 현재 사용하는 방호 장비의 대부분은 침식으로 인한 2차 재해에 대응하는 것이 고작입니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_278",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=278&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 278,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:25.011758+00:00",
+        "contentSha256": "78b417a730ec7a3dfa77f6cbd18bed3c021ec41e68b410600b6f57666bca3dbe",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_방호/278_침식_방호_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_59c6e9a131ea",
+        "groupLabel": "침식 방호",
+        "entityName": "침식 방호 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_278.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 침식 방호 장갑\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n1200\n*\n1200\n및\n50\n*\n50\n장비 템플릿\n권한 등급 19레벨 보상\n속성\nLV\n36\n방어력\n+21\n의지\n+33\n지능\n+22\n치유 효율 보너스\n+8.8%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_278",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=278&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 278,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:25.011758+00:00",
+        "contentSha256": "78b417a730ec7a3dfa77f6cbd18bed3c021ec41e68b410600b6f57666bca3dbe",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_방호/278_침식_방호_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_59c6e9a131ea",
+        "groupLabel": "침식 방호",
+        "entityName": "침식 방호 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_278.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 침식 방호 장갑\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n침식 방호\n보호 장갑\n3개 세트 효과:\n장착자의 의지\n+50\n장착자의 생명력이 50% 미만일 때, 주는 치유 효과\n+30%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_278",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=278&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 278,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:25.011758+00:00",
+        "contentSha256": "78b417a730ec7a3dfa77f6cbd18bed3c021ec41e68b410600b6f57666bca3dbe",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_방호/278_침식_방호_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_59c6e9a131ea",
+        "groupLabel": "침식 방호",
+        "entityName": "침식 방호 장갑"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 1506308161,
+      "code": "gear_set_59c6e9a131ea",
+      "label": "침식 방호"
+    },
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    }
+  },
+  "level": 36,
+  "defense": 21,
+  "options": [
+    {
+      "slot": 1,
+      "name": "의지",
+      "baseValue": {
+        "value": 33,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 3,
+        "code": "will",
+        "label": "의지"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "지능",
+      "baseValue": {
+        "value": 22,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 2,
+        "code": "intellect",
+        "label": "지능"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "치유 효율 보너스",
+      "baseValue": {
+        "value": 8.8,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": false,
+    "levels": []
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_278.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 1506308161,
+    "code": "gear_set_59c6e9a131ea",
+    "label": "침식 방호"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/침식_방호/278_침식_방호_장갑.json"
+}

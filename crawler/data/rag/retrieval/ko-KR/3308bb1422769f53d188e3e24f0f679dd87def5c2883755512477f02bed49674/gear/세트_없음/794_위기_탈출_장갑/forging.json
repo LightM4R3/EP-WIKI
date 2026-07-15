@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.794.forging",
+  "semanticKey": "ko-KR|gear|794|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_794",
+    "name": "위기 탈출 장갑",
+    "aliases": [],
+    "gameEntryId": 794
+  },
+  "title": "위기 탈출 장갑 — 정밀 단조",
+  "content": "위기 탈출 장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 힘: +0 86, +1 94, +2 103, +3 111.\n3번 모든 스킬 피해 보너스: +0 24%, +1 26.4%, +2 28.8%, +3 31.2%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 86,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 94,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 103,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 111,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "모든 스킬 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 24,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 26.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 28.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 31.2,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/794_위기_탈출_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=794&header=0",
+    "sourceSha256": "ef48c2143067e0045b220e569a784c989d3d0a93f11ed44cc9fa4a96a7e2f49e",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_794.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "8a8d359cf19985ef524c552a71a8b3db874ddd79ae5bfdfa1999d2e36ab732c5",
+    "payloadSha256": "e15d50facbdbbec16442f3882cbd01fc6436dd88e0bd67247dbc7c441e149aa0"
+  }
+}

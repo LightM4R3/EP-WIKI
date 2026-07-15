@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.995.potential-3",
+  "semanticKey": "ko-KR|operator|995|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_995",
+    "name": "미브",
+    "aliases": [],
+    "gameEntryId": 995
+  },
+  "title": "미브 — 잠재능력 3 전투 태세",
+  "content": "미브 오퍼레이터의 잠재능력 3 ‘전투 태세’. 재능 분노 효과 강화: 보호 지속 시간 +5 초, 보호 발동 간격 -15 초, 매번 발동할 때마다 추가로 공격력 +6%, 지속 시간 20초 오퍼레이터 기념사진 \"한가로움\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "전투 태세",
+    "status": "rule_validated",
+    "effect": "재능 분노 효과 강화: 보호 지속 시간 +5 초, 보호 발동 간격 -15 초, 매번 발동할 때마다 추가로 공격력 +6%, 지속 시간 20초 오퍼레이터 기념사진 \"한가로움\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+    "sourceSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_995.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "fcc606ea9433d62d32285a096b25ddafaf429847c0ed95ee170d18e3ddda39a1",
+    "payloadSha256": "85130d215e0e97998455c5c2a6f2054c259bd8057c213fb6c3ed7408febf0c3c"
+  }
+}

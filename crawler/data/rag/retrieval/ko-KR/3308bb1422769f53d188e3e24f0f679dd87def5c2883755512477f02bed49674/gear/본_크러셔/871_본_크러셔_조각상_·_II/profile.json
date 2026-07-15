@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.871.profile",
+  "semanticKey": "ko-KR|gear|871|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_871",
+    "name": "본 크러셔 조각상 · II",
+    "aliases": [],
+    "gameEntryId": 871
+  },
+  "title": "본 크러셔 조각상 · II — 장비 기본 정보",
+  "content": "본 크러셔 조각상 · II 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 본 크러셔이다. LV.70, 방어력 21. 옵션은 1번 의지 32, 2번 지능 21, 3번 배틀 스킬 피해 보너스 41.4%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "본 크러셔 조각상 · II",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 529339492,
+      "code": "gear_set_1f8b8dc4f539",
+      "label": "본 크러셔"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "배틀 스킬 피해 보너스",
+        "baseValue": {
+          "value": 41.4,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-1f8b8dc4f539.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1f8b8dc4f539",
+    "groupLabel": "본 크러셔",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_1f8b8dc4f539"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/본_크러셔/871_본_크러셔_조각상_·_II.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=871&header=0",
+    "sourceSha256": "843a5efe7dcf9c353ab3e1295957f1720420c7c21c474394a81bcd4385b553d6",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_871.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_871.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "dcb76da48df60e90f4db802010402c2b870079850ab6a53e5273e4fdbe3d573d",
+    "payloadSha256": "3cbde84d91d142eb6d9b0441b227daa160370b59cd9976cb2ba7c1b078e4831b"
+  }
+}

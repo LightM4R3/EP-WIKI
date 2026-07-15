@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.337.forging",
+  "semanticKey": "ko-KR|gear|337|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_337",
+    "name": "식양의 숨결 보조 어깨",
+    "aliases": [],
+    "gameEntryId": 337
+  },
+  "title": "식양의 숨결 보조 어깨 — 정밀 단조",
+  "content": "식양의 숨결 보조 어깨 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 의지: +0 32, +1 35, +2 38, +3 41.\n2번 지능: +0 21, +1 23, +2 25, +3 27.\n3번 궁극기 충전 효율: +0 24.6%, +1 27.1%, +2 29.6%, +3 32%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 24.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 27.1,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 29.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 32,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_3a9437540d70",
+    "groupLabel": "식양의 숨결",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_숨결/337_식양의_숨결_보조_어깨.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=337&header=0",
+    "sourceSha256": "a70e97169cab710bd042289b753312152213448ee00d3271c5c58212ba3626ac",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_337.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "daea394161391b429ca8af119c0538c57eb3ca1366bc32d97e7a91b01de704c2",
+    "payloadSha256": "0d40851f3062a55860c2496a03f5493bcaeb140397c4f4aea8c6ed996fa90cd7"
+  }
+}

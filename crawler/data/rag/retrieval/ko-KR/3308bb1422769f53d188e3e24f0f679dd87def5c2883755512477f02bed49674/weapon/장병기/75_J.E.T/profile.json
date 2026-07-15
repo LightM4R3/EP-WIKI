@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.75.profile",
+  "semanticKey": "ko-KR|weapon|75|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_75",
+    "name": "J.E.T.",
+    "aliases": [],
+    "gameEntryId": 75
+  },
+  "title": "J.E.T. — 무기 기본 정보",
+  "content": "J.E.T. 무기의 기본 정보. 무기 유형은 장병기이다. 옵션은 1번 주요 능력치 증가 · 대, 2번 공격력 증가 · 대, 3번 억제 · 천체 물리학이다.",
+  "facts": {
+    "name": "J.E.T.",
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "주요 능력치 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.75.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "공격력 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.75.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "억제 · 천체 물리학",
+        "documentRef": "epwiki.ko-kr.weapon.75.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "weaponTypeCode": "polearm"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/75_J.E.T.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=75&header=0",
+    "sourceSha256": "3ebcf2cbff38226c08332696d2b3abd08d41d343c14ecd7c8ab39f2326474b02",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_75.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_75.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "2ae2c828ae50d3893fc8cdfcdee00f10a4db1ba0a851b93180221c2302bf179d",
+    "payloadSha256": "2a2c092f867f829e1cf49fb3e7bcb6789622edb0642551b69da46571823ebd2d"
+  }
+}

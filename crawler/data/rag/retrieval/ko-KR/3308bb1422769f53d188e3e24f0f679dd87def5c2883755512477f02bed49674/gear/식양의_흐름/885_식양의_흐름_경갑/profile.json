@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.885.profile",
+  "semanticKey": "ko-KR|gear|885|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_885",
+    "name": "식양의 흐름 경갑",
+    "aliases": [],
+    "gameEntryId": 885
+  },
+  "title": "식양의 흐름 경갑 — 장비 기본 정보",
+  "content": "식양의 흐름 경갑 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 식양의 흐름이다. LV.70, 방어력 56. 옵션은 1번 의지 87, 2번 지능 58, 3번 냉기와 전기 피해 보너스 11.5%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "식양의 흐름 경갑",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 231878540,
+      "code": "gear_set_0dd0a8ecab1f",
+      "label": "식양의 흐름"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "냉기와 전기 피해 보너스",
+        "baseValue": {
+          "value": 11.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-0dd0a8ecab1f.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_0dd0a8ecab1f",
+    "groupLabel": "식양의 흐름",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_0dd0a8ecab1f"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_흐름/885_식양의_흐름_경갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=885&header=0",
+    "sourceSha256": "fa3f0bc3419d28729c29ed61b209b4ce8864cad972f982d9e3800943c67bb2f0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_885.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_885.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "00981304a01ae206eeef098b3b1eeaaf69981b85bbb6adbf556123746c125eb4",
+    "payloadSha256": "d77f8a42f6c596c4764e7f29ede2d90fe2d61e665a84497a6686b38bfc952a04"
+  }
+}

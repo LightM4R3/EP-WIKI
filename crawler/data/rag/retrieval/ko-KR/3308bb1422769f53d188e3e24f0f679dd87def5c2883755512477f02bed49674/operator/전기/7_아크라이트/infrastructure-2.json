@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.7.infrastructure-2",
+  "semanticKey": "ko-KR|operator|7|infrastructure-2",
+  "locale": "ko-KR",
+  "documentType": "operator_infrastructure_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_7",
+    "name": "아크라이트",
+    "aliases": [],
+    "gameEntryId": 7
+  },
+  "title": "아크라이트 — 인프라 재능 노래의 전승",
+  "content": "아크라이트 오퍼레이터의 인프라 재능 ‘노래의 전승’.\n노래의 전승 · α: 응접실에 배치 시, 오퍼레이터가 단서 6 - 만물의 대지를 수집할 확률 약간 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음). 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 3000개.\n노래의 전승 · β: 응접실에 배치 시, 오퍼레이터가 단서 6 - 만물의 대지를 수집할 확률 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음). 활성화 조건: 정예화 단계 4 돌파. 재료: 프로토콜 프리즘 세트 20개, 탈로시안 화폐 20000개.",
+  "facts": {
+    "index": 2,
+    "name": "노래의 전승",
+    "variants": [
+      {
+        "grade": "α",
+        "name": "노래의 전승 · α",
+        "description": "응접실에 배치 시, 오퍼레이터가 단서 6 - 만물의 대지를 수집할 확률 약간 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 3000
+          }
+        ]
+      },
+      {
+        "grade": "β",
+        "name": "노래의 전승 · β",
+        "description": "응접실에 배치 시, 오퍼레이터가 단서 6 - 만물의 대지를 수집할 확률 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)",
+        "conditions": [
+          "정예화 단계 4 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 20
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 20000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_infrastructure_talent",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "infrastructureTalentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+    "sourceSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_7.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c3a2b95809b497968dfe6ad24b6042857576c3cea0136b9385e39ac305cb0ee6",
+    "payloadSha256": "1f4b093844602664d520131693e52093ea912025fabd2b0a29b41d26630da28b"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.793.forging",
+  "semanticKey": "ko-KR|gear|793|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_793",
+    "name": "검술사 위치 신호기",
+    "aliases": [],
+    "gameEntryId": 793
+  },
+  "title": "검술사 위치 신호기 — 정밀 단조",
+  "content": "검술사 위치 신호기 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 힘: +0 41, +1 45, +2 49, +3 53.\n3번 오리지늄 아츠 강도: +0 41, +1 45, +2 49, +3 53.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 41,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 45,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 49,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 53,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 41,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 45,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 49,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 53,
+            "unit": "flat"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_79ba85ac519a",
+    "groupLabel": "검술사",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/793_검술사_위치_신호기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=793&header=0",
+    "sourceSha256": "88a4fc033267225756af05d886b5f269187162d20b2f6933369eaf6a169751d4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_793.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9f49914b0841660ebb7a33d92554f88c20666e52468b284b2edd92f0173a98c2",
+    "payloadSha256": "8bd39ec6599f3e703543f47550f0e5ff988d3e640aedb7672c58696ea9d2ddaa"
+  }
+}

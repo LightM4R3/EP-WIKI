@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.333.profile",
+  "semanticKey": "ko-KR|gear|333|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_333",
+    "name": "침식 방호 스패너 · I",
+    "aliases": [],
+    "gameEntryId": 333
+  },
+  "title": "침식 방호 스패너 · I — 장비 기본 정보",
+  "content": "침식 방호 스패너 · I 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 침식 방호이다. LV.50, 방어력 15. 옵션은 1번 의지 23, 2번 지능 15, 3번 공격력 14.7%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "침식 방호 스패너 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 1506308161,
+      "code": "gear_set_59c6e9a131ea",
+      "label": "침식 방호"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 15,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "공격력",
+        "baseValue": {
+          "value": 14.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-59c6e9a131ea.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_59c6e9a131ea",
+    "groupLabel": "침식 방호",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_59c6e9a131ea"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_방호/333_침식_방호_스패너_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=333&header=0",
+    "sourceSha256": "af2ffd5104dcb511bf80e2fac537090b2c850f4e6a4f1461f54cff2fccc7e6eb",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_333.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_333.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7c4fd57f269d97df8550221749e843a7ae836f5fbdda81d815a8a8238cc64c63",
+    "payloadSha256": "873308a427951e25075fa8407bae9795d6f268364d813950615cd098c48a59a4"
+  }
+}

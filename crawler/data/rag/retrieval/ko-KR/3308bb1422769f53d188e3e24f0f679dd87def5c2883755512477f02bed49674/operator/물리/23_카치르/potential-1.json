@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.23.potential-1",
+  "semanticKey": "ko-KR|operator|23|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_23",
+    "name": "카치르",
+    "aliases": [],
+    "gameEntryId": 23
+  },
+  "title": "카치르 — 잠재능력 1 다중 전투준비",
+  "content": "카치르 오퍼레이터의 잠재능력 1 ‘다중 전투준비’. 배틀 스킬 강력한 저지와 궁극기 교과서적인 맹공이 적을 명중한 후, 추가로 [300+방어력×5.0]의 물리 피해를 줍니다. 오퍼레이터 기념사진 \"굳건한 자세\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "다중 전투준비",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 강력한 저지와 궁극기 교과서적인 맹공이 적을 명중한 후, 추가로 [300+방어력×5.0]의 물리 피해를 줍니다. 오퍼레이터 기념사진 \"굳건한 자세\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/23_카치르.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=23&header=0",
+    "sourceSha256": "bc0bfc7536d9836561ccdd2b8feeeba067fb28d44c332cf2d60746c0234bf642",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_23.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c6348c8369cc943b85cfabbc456437bcc8b4fc7c0f9bac6e75dd21ac50cd7ca3",
+    "payloadSha256": "638e4b9b3a138f03fd5ca36380e35213c79a679c1cf32950625067d9b447aefa"
+  }
+}

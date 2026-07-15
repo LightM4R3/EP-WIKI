@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.839.progression",
+  "semanticKey": "ko-KR|weapon|839|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_839",
+    "name": "고독한 나룻배",
+    "aliases": [],
+    "gameEntryId": 839
+  },
+  "title": "고독한 나룻배 — 기초 공격력",
+  "content": "고독한 나룻배 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 52.\nLV.20: 기초 공격력 149.\nLV.40: 기초 공격력 252.\nLV.60: 기초 공격력 355.\nLV.80: 기초 공격력 458.\nLV.90: 기초 공격력 510.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 52
+      },
+      {
+        "level": 20,
+        "baseAttack": 149
+      },
+      {
+        "level": 40,
+        "baseAttack": 252
+      },
+      {
+        "level": 60,
+        "baseAttack": 355
+      },
+      {
+        "level": 80,
+        "baseAttack": 458
+      },
+      {
+        "level": 90,
+        "baseAttack": 510
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/839_고독한_나룻배.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=839&header=0",
+    "sourceSha256": "b5273607766ceef9a3d24f9fd8dce608c4e89cae34d77d313f1cc900a0f7c989",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_839.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "da3d400ed66ab21679f00a5e65f182e6b4289acdc6d1ed806cc263f9d1a160e0",
+    "payloadSha256": "6e699655a5b44c99fe1d58bbdeb0c11e14b1928e48750a0e515a1b39bf83403d"
+  }
+}

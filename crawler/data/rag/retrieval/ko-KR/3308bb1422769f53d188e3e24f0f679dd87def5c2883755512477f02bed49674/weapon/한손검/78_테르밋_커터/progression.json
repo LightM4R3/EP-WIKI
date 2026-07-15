@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.78.progression",
+  "semanticKey": "ko-KR|weapon|78|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_78",
+    "name": "테르밋 커터",
+    "aliases": [],
+    "gameEntryId": 78
+  },
+  "title": "테르밋 커터 — 기초 공격력",
+  "content": "테르밋 커터 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 50.\nLV.20: 기초 공격력 144.\nLV.40: 기초 공격력 243.\nLV.60: 기초 공격력 342.\nLV.80: 기초 공격력 441.\nLV.90: 기초 공격력 490.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 50
+      },
+      {
+        "level": 20,
+        "baseAttack": 144
+      },
+      {
+        "level": 40,
+        "baseAttack": 243
+      },
+      {
+        "level": 60,
+        "baseAttack": 342
+      },
+      {
+        "level": 80,
+        "baseAttack": 441
+      },
+      {
+        "level": 90,
+        "baseAttack": 490
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/78_테르밋_커터.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=78&header=0",
+    "sourceSha256": "0612756d4c3d2192216cdd217195335a41849b818d5a5f18ef1b3fe3f1388819",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_78.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "6c903e71174edec2b421b78dcd129dbb6ebd6b9f3261e8439ecd8333c73eb1cb",
+    "payloadSha256": "8390011195f0b1b3dc57c3bdd330892e22e4a5abd8377443de5fa3f4b8def7fd"
+  }
+}

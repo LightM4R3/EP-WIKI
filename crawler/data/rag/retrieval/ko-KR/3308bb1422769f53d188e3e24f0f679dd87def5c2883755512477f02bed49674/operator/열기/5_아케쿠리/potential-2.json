@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.5.potential-2",
+  "semanticKey": "ko-KR|operator|5|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_5",
+    "name": "아케쿠리",
+    "aliases": [],
+    "gameEntryId": 5
+  },
+  "title": "아케쿠리 — 잠재능력 2 이념의 불씨",
+  "content": "아케쿠리 오퍼레이터의 잠재능력 2 ‘이념의 불씨’. 민첩 +10, 지능 +10",
+  "facts": {
+    "stage": 2,
+    "name": "이념의 불씨",
+    "status": "rule_validated",
+    "effect": "민첩 +10, 지능 +10"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/5_아케쿠리.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=5&header=0",
+    "sourceSha256": "1d32fb2a32cd175406743463d61a07b698b38b73717039f7510313cb4f8f62a0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_5.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "8535137245fc388a862ef795e099a70a1fe96e8437d6d30b02b64c1a337ec6a6",
+    "payloadSha256": "77b158ec3cc4061f5e9e8d2c46dee546e57f34db12a1321878f8b00b93cc7f0a"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.266.profile",
+  "semanticKey": "ko-KR|gear|266|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_266",
+    "name": "침식 차단 스패너 · I",
+    "aliases": [],
+    "gameEntryId": 266
+  },
+  "title": "침식 차단 스패너 · I — 장비 기본 정보",
+  "content": "침식 차단 스패너 · I 장비의 기본 정보. 유형은 부품, 품질은 파란색 품질, 세트는 침식 차단이다. LV.36, 방어력 10. 옵션은 1번 지능 21, 3번 냉기와 전기 피해 보너스 11.7%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "침식 차단 스패너 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    "gearSet": {
+      "id": 2234615965,
+      "code": "gear_set_853001fd8069",
+      "label": "침식 차단"
+    },
+    "level": 36,
+    "defense": 10,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "냉기와 전기 피해 보너스",
+        "baseValue": {
+          "value": 11.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-853001fd8069.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_853001fd8069",
+    "groupLabel": "침식 차단",
+    "gearTypeCode": "component",
+    "qualityCode": "blue",
+    "gearSetCode": "gear_set_853001fd8069"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_차단/266_침식_차단_스패너_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=266&header=0",
+    "sourceSha256": "678fd29bd37ad6cabc9871dbb77b6f7b3ad6f6e5bd48796de767d15622f984d3",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_266.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_266.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "856ded32d9e945dfb1f3280d124c51acddf4e9588027c006ac8606ac9385e2db",
+    "payloadSha256": "831872d7df7b24556c3ca172a601c77f3bb30707fe6437a6f58c2b89ee71f0b2"
+  }
+}

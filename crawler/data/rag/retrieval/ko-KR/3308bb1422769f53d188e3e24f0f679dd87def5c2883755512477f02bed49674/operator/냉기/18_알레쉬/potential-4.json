@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.18.potential-4",
+  "semanticKey": "ko-KR|operator|18|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_18",
+    "name": "알레쉬",
+    "aliases": [],
+    "gameEntryId": 18
+  },
+  "title": "알레쉬 — 잠재능력 4 광란의 낚시팀",
+  "content": "알레쉬 오퍼레이터의 잠재능력 4 ‘광란의 낚시팀’. 궁극기 월척이다!의 사용에 필요한 궁극기 에너지 -15%",
+  "facts": {
+    "stage": 4,
+    "name": "광란의 낚시팀",
+    "status": "rule_validated",
+    "effect": "궁극기 월척이다!의 사용에 필요한 궁극기 에너지 -15%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+    "sourceSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_18.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "165b18550a2c9f8ffa681ce53cbcc75ad1f5635f75b93fcb6e3b8b038cbf0d93",
+    "payloadSha256": "e196c04054d90429c44d9bc381060c044899bffb44c4735a431f3963950b772a"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.325.profile",
+  "semanticKey": "ko-KR|gear|325|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_325",
+    "name": "현하 산소 공급 장치",
+    "aliases": [],
+    "gameEntryId": 325
+  },
+  "title": "현하 산소 공급 장치 — 장비 기본 정보",
+  "content": "현하 산소 공급 장치 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 조류의 물결이다. LV.70, 방어력 21. 옵션은 1번 힘 32, 2번 의지 21, 3번 냉기와 전기 피해 보너스 23%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "현하 산소 공급 장치",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2727968106,
+      "code": "gear_set_a297f6ca3aa0",
+      "label": "조류의 물결"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "냉기와 전기 피해 보너스",
+        "baseValue": {
+          "value": 23,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-a297f6ca3aa0.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_a297f6ca3aa0",
+    "groupLabel": "조류의 물결",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_a297f6ca3aa0"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/조류의_물결/325_현하_산소_공급_장치.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=325&header=0",
+    "sourceSha256": "74910ea4619e6916f59818f01e4feba3ebda8a6f46c90a55d21b195c80a1704c",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_325.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_325.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7cf5c0816ff450e5722f019b404a9778905192edf5ad9fcf233ada836230b875",
+    "payloadSha256": "bbea1292ac6aedfa29f0963640d34b8efac949db9b9ad9110b6aa10fdeffa929"
+  }
+}

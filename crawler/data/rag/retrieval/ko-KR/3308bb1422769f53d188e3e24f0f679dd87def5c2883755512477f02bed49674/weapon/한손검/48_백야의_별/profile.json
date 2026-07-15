@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.48.profile",
+  "semanticKey": "ko-KR|weapon|48|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_48",
+    "name": "백야의 별",
+    "aliases": [],
+    "gameEntryId": 48
+  },
+  "title": "백야의 별 — 무기 기본 정보",
+  "content": "백야의 별 무기의 기본 정보. 무기 유형은 한손검이다. 옵션은 1번 주요 능력치 증가 · 대, 2번 오리지늄 아츠 강도 증가 · 대, 3번 고통 · 백야의 별이다.",
+  "facts": {
+    "name": "백야의 별",
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "주요 능력치 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.48.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "오리지늄 아츠 강도 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.48.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "고통 · 백야의 별",
+        "documentRef": "epwiki.ko-kr.weapon.48.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "weaponTypeCode": "sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/48_백야의_별.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=48&header=0",
+    "sourceSha256": "bb2756de6ec496f533a3584c137e3534c805f2b2b3201d1bb1cc8c8025fb6bc9",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_48.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_48.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d5b005527d91f99a99f48a7ff7041867b649f378ed753da24b9b706d3debd0dc",
+    "payloadSha256": "ebc2e6fb409f4e3cf8c09f9560349aa8a365b824e4b6cfa0d2b79a2e56258fa3"
+  }
+}

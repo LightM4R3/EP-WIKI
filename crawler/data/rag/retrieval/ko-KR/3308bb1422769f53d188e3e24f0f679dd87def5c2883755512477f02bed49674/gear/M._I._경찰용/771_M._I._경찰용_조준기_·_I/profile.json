@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.771.profile",
+  "semanticKey": "ko-KR|gear|771|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_771",
+    "name": "M. I. 경찰용 조준기 · I",
+    "aliases": [],
+    "gameEntryId": 771
+  },
+  "title": "M. I. 경찰용 조준기 · I — 장비 기본 정보",
+  "content": "M. I. 경찰용 조준기 · I 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 M. I. 경찰용이다. LV.70, 방어력 21. 옵션은 1번 민첩 32, 2번 지능 21, 3번 치명타 확률 10.4%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "M. I. 경찰용 조준기 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2616968129,
+      "code": "gear_set_9bfa3d212476",
+      "label": "M. I. 경찰용"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "치명타 확률",
+        "baseValue": {
+          "value": 10.4,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-9bfa3d212476.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_9bfa3d212476",
+    "groupLabel": "M. I. 경찰용",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_9bfa3d212476"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/771_M._I._경찰용_조준기_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=771&header=0",
+    "sourceSha256": "4f7bf0196b23bf26015a00bf81247dcece087a672a09548033a07e4eec742fbc",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_771.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_771.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "2f813cf9156b4976b7c500d982ea93d7aa55af6e62fecb72350355627675e141",
+    "payloadSha256": "972a38dfb6ffd9d4628a1a43633cb39af16e7629744c30aa995b20b32de0e944"
+  }
+}

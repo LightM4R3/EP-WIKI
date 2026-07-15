@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.19.profile",
+  "semanticKey": "ko-KR|operator|19|profile",
+  "locale": "ko-KR",
+  "documentType": "operator_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_19",
+    "name": "아델리아",
+    "aliases": [],
+    "gameEntryId": 19
+  },
+  "title": "아델리아 — 오퍼레이터 기본 정보",
+  "content": "아델리아 오퍼레이터의 기본 정보. 속성은 자연, 무기 유형은 아츠 유닛이다. 주요 능력치는 지능, 보조 능력치는 의지이다.",
+  "facts": {
+    "name": "아델리아",
+    "element": {
+      "id": 4,
+      "code": "nature",
+      "label": "자연"
+    },
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "primaryAttribute": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    },
+    "secondaryAttribute": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    },
+    "attributeCatalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_profile",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "elementCode": "nature",
+    "weaponTypeCode": "arts_unit",
+    "primaryAttributeCode": "intellect",
+    "secondaryAttributeCode": "will"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+    "sourceSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_19.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.operator_19.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문에서 희귀도를 텍스트로 확정할 수 없음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.class",
+        "reason": "클래스 이미지 매핑이 검증되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.portraitUrl",
+        "reason": "초상화 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4876d8fee97d6470c414ada81f054618cddd9d1559be4233e634854d1ef07d81",
+    "payloadSha256": "571e770fec664a7b2d13fc1383ba7698519da49c61fe4e7d93973146428702ae"
+  }
+}

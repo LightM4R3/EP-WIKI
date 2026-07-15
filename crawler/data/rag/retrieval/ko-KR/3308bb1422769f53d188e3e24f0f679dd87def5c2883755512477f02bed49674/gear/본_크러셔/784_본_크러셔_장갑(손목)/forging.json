@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.784.forging",
+  "semanticKey": "ko-KR|gear|784|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_784",
+    "name": "본 크러셔 장갑(손목)",
+    "aliases": [],
+    "gameEntryId": 784
+  },
+  "title": "본 크러셔 장갑(손목) — 정밀 단조",
+  "content": "본 크러셔 장갑(손목) 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 힘: +0 65, +1 71, +2 78, +3 84.\n2번 민첩: +0 43, +1 47, +2 51, +3 55.\n3번 열기와 자연 피해 보너스: +0 19.2%, +1 21.1%, +2 23%, +3 24.9%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "열기와 자연 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 19.2,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 21.1,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 23,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 24.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1f8b8dc4f539",
+    "groupLabel": "본 크러셔",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/본_크러셔/784_본_크러셔_장갑(손목).json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=784&header=0",
+    "sourceSha256": "a9577aa55b70b19940fccc4294fafbf0eb7288f751df6ed60724248e7f47fb0d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_784.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "077fef4c084b024cab5c3f5489d586b3799118ff7d54af7c1e7725cad08eac2a",
+    "payloadSha256": "31a5ec29389cfa2b2d1bf12fe1f2fc838844b372b83ada87b9ed6cd93ee93732"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.263.profile",
+  "semanticKey": "ko-KR|gear|263|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_263",
+    "name": "광산 과급기 · I",
+    "aliases": [],
+    "gameEntryId": 263
+  },
+  "title": "광산 과급기 · I — 장비 기본 정보",
+  "content": "광산 과급기 · I 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 세트 없음이다. LV.50, 방어력 15. 옵션은 1번 힘 31, 3번 모든 피해 감소 13.5%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 과급기 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 31,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "모든 피해 감소",
+        "baseValue": {
+          "value": 13.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/263_광산_과급기_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=263&header=0",
+    "sourceSha256": "371375a56c95038c904c8df42e75c4997af4f6fcaf42045ce63b937a9e019ab1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_263.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_263.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3aef1bb03900fbe55d545cdaafec9d0598d022c001665cbd3bcd4fa5afcac00c",
+    "payloadSha256": "f8fb20ca9862343c5ea509f39743ac47a8ccf5e38980b989d92a106ae86ea532"
+  }
+}

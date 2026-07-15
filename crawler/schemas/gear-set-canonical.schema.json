@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ep-wiki.local/schemas/gear-set-canonical.schema.json",
+  "title": "EP-WIKI canonical gear set",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "entityType", "entityId", "source", "identity", "effects"],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "entityType": { "const": "gear_set" },
+    "entityId": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "url", "derivedFromGearEntityId", "observedAt", "contentStatus"],
+      "properties": {
+        "provider": { "const": "wiki.skport.com" },
+        "url": { "type": "string", "format": "uri" },
+        "derivedFromGearEntityId": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "observedAt": { "type": "string", "format": "date-time" },
+        "contentStatus": {
+          "enum": ["verified", "cross_checked", "needs_review", "has_source_gaps"]
+        }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["setId", "setCode", "names"],
+      "properties": {
+        "setId": { "type": "integer", "minimum": 0 },
+        "setCode": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "names": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "type": "string", "minLength": 1 }
+        }
+      }
+    },
+    "effects": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/setEffect" }
+    }
+  },
+  "$defs": {
+    "setEffect": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "requiredPieces", "baseModifiers", "conditionalEffect"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9_.]+$" },
+        "requiredPieces": { "type": "integer", "minimum": 1 },
+        "baseModifiers": {
+          "type": "object",
+          "required": ["attack_percent"],
+          "additionalProperties": { "type": "number" }
+        },
+        "conditionalEffect": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "triggerDamageCodes",
+            "consumedResourceCode",
+            "metricCode",
+            "valuePerConsumedStack",
+            "durationSeconds",
+            "amplificationConditionCodes",
+            "amplificationMultiplier",
+            "stackingRule"
+          ],
+          "properties": {
+            "triggerDamageCodes": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "pattern": "^[a-z0-9_]+$" }
+            },
+            "consumedResourceCode": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+            "metricCode": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+            "valuePerConsumedStack": { "type": "number" },
+            "durationSeconds": { "type": "number", "minimum": 0 },
+            "amplificationConditionCodes": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "pattern": "^[a-z0-9_]+$" }
+            },
+            "amplificationMultiplier": { "type": "number", "minimum": 1 },
+            "stackingRule": { "const": "non_stacking" }
+          }
+        }
+      }
+    }
+  }
+}

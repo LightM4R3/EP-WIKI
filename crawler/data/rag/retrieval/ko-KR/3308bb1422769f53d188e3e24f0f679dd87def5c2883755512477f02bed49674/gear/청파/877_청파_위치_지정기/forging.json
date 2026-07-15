@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.877.forging",
+  "semanticKey": "ko-KR|gear|877|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_877",
+    "name": "청파 위치 지정기",
+    "aliases": [],
+    "gameEntryId": 877
+  },
+  "title": "청파 위치 지정기 — 정밀 단조",
+  "content": "청파 위치 지정기 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 민첩: +0 32, +1 35, +2 38, +3 41.\n2번 힘: +0 21, +1 23, +2 25, +3 27.\n3번 배틀 스킬 피해 보너스: +0 41.4%, +1 45.5%, +2 49.7%, +3 53.8%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "배틀 스킬 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 41.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 45.5,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 49.7,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 53.8,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_25f6b0eb60d9",
+    "groupLabel": "청파",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/청파/877_청파_위치_지정기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=877&header=0",
+    "sourceSha256": "82f6409f1d6d8e17047e90cfc35e7727f45be06d213dedb2eba75ef908ba7d04",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_877.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "56e823c9499f675970d4e4a50570e43eda753df14a77d201a971969af7d2a3d8",
+    "payloadSha256": "9d245bb6b017d0c1c46bc0b059480d38ca2f976b9e652dbad4e83e06533f13da"
+  }
+}

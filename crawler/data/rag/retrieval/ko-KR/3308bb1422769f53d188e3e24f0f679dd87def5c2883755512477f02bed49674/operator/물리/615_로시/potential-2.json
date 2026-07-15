@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.615.potential-2",
+  "semanticKey": "ko-KR|operator|615|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_615",
+    "name": "로시",
+    "aliases": [],
+    "gameEntryId": 615
+  },
+  "title": "로시 — 잠재능력 2 완벽한 간격",
+  "content": "로시 오퍼레이터의 잠재능력 2 ‘완벽한 간격’. 민첩 +20, 치명타 확률 +7%.",
+  "facts": {
+    "stage": 2,
+    "name": "완벽한 간격",
+    "status": "rule_validated",
+    "effect": "민첩 +20, 치명타 확률 +7%."
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+    "sourceSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_615.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "6de37f2cb957955a743491cf008f8c7134c2c7c61c7178ddf913af55257fb0ed",
+    "payloadSha256": "bc265b2d8686ec6902f94b1cbd27d3fe3e3112d645c4323ad0996c2ff506c786"
+  }
+}

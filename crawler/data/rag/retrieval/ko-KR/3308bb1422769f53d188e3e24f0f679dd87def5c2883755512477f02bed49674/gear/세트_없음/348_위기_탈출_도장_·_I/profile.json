@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.348.profile",
+  "semanticKey": "ko-KR|gear|348|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_348",
+    "name": "위기 탈출 도장 · I",
+    "aliases": [],
+    "gameEntryId": 348
+  },
+  "title": "위기 탈출 도장 · I — 장비 기본 정보",
+  "content": "위기 탈출 도장 · I 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 세트 없음이다. LV.70, 방어력 21. 옵션은 1번 의지 43, 3번 치명타 확률 10.8%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "위기 탈출 도장 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "치명타 확률",
+        "baseValue": {
+          "value": 10.8,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/348_위기_탈출_도장_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=348&header=0",
+    "sourceSha256": "95ce7d29d7efd9622f307c7e21f4f4bf312c8c138ecfd9b9acd426e27a2f35e0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_348.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_348.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "05c932d0a9bf5e961bd6030e0b098b9a1176b48d051b552cbaed28a45bed73ba",
+    "payloadSha256": "45b10d408b01197f71d7802276b515cb4f8447d79fad3ebab829bc08a5bc790c"
+  }
+}

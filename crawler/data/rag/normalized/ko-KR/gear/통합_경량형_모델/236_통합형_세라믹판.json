@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_236",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 236,
+    "name": "통합형 세라믹판"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=236&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "c1acc26c399175320104c969833c1b524f6f4553ccb57456ac8d39f9b7ab249b",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_236.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 통합형 세라믹판\ngameEntryId: 236\n정규화 상태: query_ready\n장비 세트: 통합 경량형 모델 (id=3549914494, code=gear_set_d395deded81d)\n장비 유형: 부품 (id=2, code=component)\n품질: 초록색 품질 (id=3, code=green)\nLV: 28\n방어력: 8\n장비 옵션: 1번=의지 16; 3번=배틀 스킬 피해 보너스 16.2%\n정밀 단조 지원: 아니오\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_236",
+        "gameEntryId": 236,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=236&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/통합_경량형_모델/236_통합형_세라믹판.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 3549914494,
+        "groupCode": "gear_set_d395deded81d",
+        "groupLabel": "통합 경량형 모델",
+        "evidenceDocumentIds": [
+          "auto.gear_236.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_236.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_236.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_236.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 통합형 세라믹판\ncategory: gear\nsection: profile\n통합형 세라믹판\n품질\n초록색 품질\n장비 유형\n부품\n세트\n통합 경량형 모델\n이 장비는 엔드필드 공업에서 자체 연구하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n단순한 구조의 모듈화한 경량형 방호 장비\n\"우리 기술력을 믿고 싶긴 한데, 이건 너무 가벼운 거 아닌가...\"",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_236",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=236&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 236,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:33:05.397329+00:00",
+        "contentSha256": "c1acc26c399175320104c969833c1b524f6f4553ccb57456ac8d39f9b7ab249b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/통합_경량형_모델/236_통합형_세라믹판.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_d395deded81d",
+        "groupLabel": "통합 경량형 모델",
+        "entityName": "통합형 세라믹판"
+      }
+    },
+    {
+      "documentId": "auto.gear_236.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 통합형 세라믹판\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n소모 재료 :\n160\n*\n160\n및\n20\n*\n20\n장비 템플릿\n권한 등급 11레벨 보상\n속성\nLV\n28\n방어력\n+8\n의지\n+16\n배틀 스킬 피해 보너스\n+16.2%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_236",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=236&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 236,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:33:05.397329+00:00",
+        "contentSha256": "c1acc26c399175320104c969833c1b524f6f4553ccb57456ac8d39f9b7ab249b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/통합_경량형_모델/236_통합형_세라믹판.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_d395deded81d",
+        "groupLabel": "통합 경량형 모델",
+        "entityName": "통합형 세라믹판"
+      }
+    },
+    {
+      "documentId": "auto.gear_236.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 통합형 세라믹판\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n통합 경량형 모델\n부품\n3개 세트 효과:\n장착자의 생명력\n+500\n장착자가 적을 처치한 후, 공격력\n+20\n,\n5\n초 동안 지속.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_236",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=236&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 236,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:33:05.397329+00:00",
+        "contentSha256": "c1acc26c399175320104c969833c1b524f6f4553ccb57456ac8d39f9b7ab249b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/통합_경량형_모델/236_통합형_세라믹판.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_d395deded81d",
+        "groupLabel": "통합 경량형 모델",
+        "entityName": "통합형 세라믹판"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 3549914494,
+      "code": "gear_set_d395deded81d",
+      "label": "통합 경량형 모델"
+    },
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    }
+  },
+  "level": 28,
+  "defense": 8,
+  "options": [
+    {
+      "slot": 1,
+      "name": "의지",
+      "baseValue": {
+        "value": 16,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 3,
+        "code": "will",
+        "label": "의지"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "배틀 스킬 피해 보너스",
+      "baseValue": {
+        "value": 16.2,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": false,
+    "levels": []
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_236.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 3549914494,
+    "code": "gear_set_d395deded81d",
+    "label": "통합 경량형 모델"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/통합_경량형_모델/236_통합형_세라믹판.json"
+}

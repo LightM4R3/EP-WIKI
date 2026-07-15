@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.6.potential-3",
+  "semanticKey": "ko-KR|operator|6|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_6",
+    "name": "울프가드",
+    "aliases": [],
+    "gameEntryId": 6
+  },
+  "title": "울프가드 — 잠재능력 3 사냥 시간",
+  "content": "울프가드 오퍼레이터의 잠재능력 3 ‘사냥 시간’. 불타는 송곳니 상태에서 배틀 스킬이 추가 효과를 발동했을 때, 즉시 자신의 불타는 송곳니 지속 시간을 초기화합니다. 동시에 팀 내 다른 오퍼레이터에게 불타는 송곳니 상태를 주며, 해당 효과는 기초 수치의 50% 만큼만 제공됩니다. 오퍼레이터 기념사진 \"무방비 상태\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "사냥 시간",
+    "status": "rule_validated",
+    "effect": "불타는 송곳니 상태에서 배틀 스킬이 추가 효과를 발동했을 때, 즉시 자신의 불타는 송곳니 지속 시간을 초기화합니다. 동시에 팀 내 다른 오퍼레이터에게 불타는 송곳니 상태를 주며, 해당 효과는 기초 수치의 50% 만큼만 제공됩니다. 오퍼레이터 기념사진 \"무방비 상태\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/6_울프가드.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=6&header=0",
+    "sourceSha256": "492ece7d684a23a664abd89e05442e827d963e2742f2b546bfa1d3fcfaa297d1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_6.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0e048bd9d093d87110f88b0b7e24d2ffd046e14756b9a5cefd6dbee203578c51",
+    "payloadSha256": "8afe3e0085a1d975e46a69050a733590b48a7156171b4dd2074b86e4b9484b76"
+  }
+}

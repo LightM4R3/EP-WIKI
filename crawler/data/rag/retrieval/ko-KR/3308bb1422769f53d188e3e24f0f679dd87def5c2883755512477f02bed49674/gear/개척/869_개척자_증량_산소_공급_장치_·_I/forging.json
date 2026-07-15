@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.869.forging",
+  "semanticKey": "ko-KR|gear|869|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_869",
+    "name": "개척자 증량 산소 공급 장치 · I",
+    "aliases": [],
+    "gameEntryId": 869
+  },
+  "title": "개척자 증량 산소 공급 장치 · I — 정밀 단조",
+  "content": "개척자 증량 산소 공급 장치 · I 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 지능: +0 32, +1 35, +2 38, +3 41.\n2번 민첩: +0 21, +1 23, +2 25, +3 27.\n3번 보조 능력치: +0 20.7%, +1 22.8%, +2 24.8%, +3 26.9%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "보조 능력치",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 20.7,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 22.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 24.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 26.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_443e330e6735",
+    "groupLabel": "개척",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/869_개척자_증량_산소_공급_장치_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=869&header=0",
+    "sourceSha256": "55485ccff8940dd43c8bfe16bc9c227259f32c04ae2e0f16d9b788ebba7a7cb5",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_869.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e93bee0dd1c39d0771446421f65efa480f05858d955bbf205d685f42a470b427",
+    "payloadSha256": "e0ab3c11da29d9c43c32e3000bc96a6c78ad7d8ef1937168c4ca62ae40910cd9"
+  }
+}

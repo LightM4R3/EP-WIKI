@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.12.potential-3",
+  "semanticKey": "ko-KR|operator|12|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_12",
+    "name": "여풍",
+    "aliases": [],
+    "gameEntryId": 12
+  },
+  "title": "여풍 — 잠재능력 3 양성",
+  "content": "여풍 오퍼레이터의 잠재능력 3 ‘양성’. 재능 '돈오' 효과 강화: 지능 및 의지 1포인트당 추가 공격력 +0.05% 오퍼레이터 기념사진 \"도의 길\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "양성",
+    "status": "rule_validated",
+    "effect": "재능 '돈오' 효과 강화: 지능 및 의지 1포인트당 추가 공격력 +0.05% 오퍼레이터 기념사진 \"도의 길\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/12_여풍.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=12&header=0",
+    "sourceSha256": "9626ab3c4c237cebbf643ec7445b806db5b590e92aa287f9a9c9a9bbec71f9aa",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_12.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0034cc5e57496281a7a4a471465000bf8930af9158a3bc4850b04393551e3ea2",
+    "payloadSha256": "21a281e702e4858c6ad16adb1b74ef6b056741845e373f200313d4b5913b93d6"
+  }
+}

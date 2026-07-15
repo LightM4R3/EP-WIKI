@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.61.progression",
+  "semanticKey": "ko-KR|weapon|61|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_61",
+    "name": "장대한 염원",
+    "aliases": [],
+    "gameEntryId": 61
+  },
+  "title": "장대한 염원 — 기초 공격력",
+  "content": "장대한 염원 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 51.\nLV.20: 기초 공격력 146.\nLV.40: 기초 공격력 247.\nLV.60: 기초 공격력 348.\nLV.80: 기초 공격력 449.\nLV.90: 기초 공격력 500.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 51
+      },
+      {
+        "level": 20,
+        "baseAttack": 146
+      },
+      {
+        "level": 40,
+        "baseAttack": 247
+      },
+      {
+        "level": 60,
+        "baseAttack": 348
+      },
+      {
+        "level": 80,
+        "baseAttack": 449
+      },
+      {
+        "level": 90,
+        "baseAttack": 500
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/61_장대한_염원.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=61&header=0",
+    "sourceSha256": "b3f958253600284c1eed765382c78d8df1f486fae6e7ef0cf745761e2c8abab1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_61.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "17dcfec03218ff5022fb9a15769b470bf85da80ce12f5c9d46529954f6ed597d",
+    "payloadSha256": "82762a25515a3c425fab1358bc0c55791e2f8947eae780e11d9c95b0bc8bb4b1"
+  }
+}

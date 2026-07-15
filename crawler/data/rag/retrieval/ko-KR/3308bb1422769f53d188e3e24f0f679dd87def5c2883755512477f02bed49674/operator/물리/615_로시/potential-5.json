@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.615.potential-5",
+  "semanticKey": "ko-KR|operator|615|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_615",
+    "name": "로시",
+    "aliases": [],
+    "gameEntryId": 615
+  },
+  "title": "로시 — 잠재능력 5 전설의 종착지",
+  "content": "로시 오퍼레이터의 잠재능력 5 ‘전설의 종착지’. 궁극기 기습 '날카로운 발톱'의 피해 배율이 기존의 1.1 배, 추가로 치명타 피해 +30%. 오퍼레이터 기념사진 \"글로 그린 세계\" 잠금 해제 명함 테마 \"글로 그린 세계\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "전설의 종착지",
+    "status": "rule_validated",
+    "effect": "궁극기 기습 '날카로운 발톱'의 피해 배율이 기존의 1.1 배, 추가로 치명타 피해 +30%. 오퍼레이터 기념사진 \"글로 그린 세계\" 잠금 해제 명함 테마 \"글로 그린 세계\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+    "sourceSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_615.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9aa89249ce2947acf906b344957402dd9b6760ae41208385234555127fd65353",
+    "payloadSha256": "83932a4d17bea563b34d3e4300c734c08d58205e0cdabb2b25af1950973ac021"
+  }
+}

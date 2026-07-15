@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ep-wiki.local/schemas/retrieval-document.schema.json",
+  "title": "EP-WIKI retrieval-only semantic document",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "documentId",
+    "semanticKey",
+    "locale",
+    "documentType",
+    "channel",
+    "entity",
+    "title",
+    "content",
+    "facts",
+    "filters",
+    "provenance",
+    "coverage",
+    "indexing"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "documentId": { "type": "string", "pattern": "^[a-z0-9.-]+$" },
+    "semanticKey": { "type": "string", "minLength": 5 },
+    "locale": { "enum": ["ko-KR", "en-US", "ja-JP", "zh-TW"] },
+    "documentType": {
+      "enum": [
+        "operator_profile",
+        "operator_progression",
+        "operator_promotion",
+        "operator_combat_skill",
+        "operator_talent",
+        "operator_infrastructure_talent",
+        "operator_potential",
+        "weapon_profile",
+        "weapon_progression",
+        "weapon_option",
+        "weapon_potential",
+        "gear_profile",
+        "gear_forging",
+        "gear_set_effect"
+      ]
+    },
+    "channel": { "const": "gameplay_facts" },
+    "entity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "key", "name", "aliases"],
+      "properties": {
+        "type": { "enum": ["operator", "weapon", "gear", "gear_set"] },
+        "key": { "type": "string", "minLength": 1 },
+        "gameEntryId": { "type": "integer", "minimum": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "aliases": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        }
+      }
+    },
+    "title": { "type": "string", "minLength": 3 },
+    "content": { "type": "string", "minLength": 10 },
+    "facts": { "type": "object" },
+    "filters": { "type": "object" },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "normalizedRef",
+        "sourceUrl",
+        "sourceSha256",
+        "authority",
+        "verificationStatus",
+        "confidence",
+        "evidenceDocumentIds"
+      ],
+      "properties": {
+        "normalizedRef": { "type": ["string", "null"] },
+        "sourceUrl": { "type": ["string", "null"] },
+        "sourceSha256": {
+          "type": ["string", "null"],
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "authority": {
+          "enum": [
+            "human_override",
+            "canonical",
+            "cross_checked_extraction",
+            "normalized_extraction"
+          ]
+        },
+        "verificationStatus": { "enum": ["verified", "rule_validated"] },
+        "confidence": { "enum": ["high", "medium"] },
+        "evidenceDocumentIds": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 },
+          "uniqueItems": true
+        }
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["withheldFields"],
+      "properties": {
+        "withheldFields": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["path", "reason", "status"],
+            "properties": {
+              "path": { "type": "string", "minLength": 1 },
+              "reason": { "type": "string", "minLength": 1 },
+              "status": {
+                "enum": ["missing", "source_conflict", "source_unavailable", "unmapped"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "indexing": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "eligible",
+        "vector",
+        "keyword",
+        "structured",
+        "contentSha256",
+        "payloadSha256"
+      ],
+      "properties": {
+        "eligible": { "const": true },
+        "vector": { "const": true },
+        "keyword": { "const": true },
+        "structured": { "const": true },
+        "contentSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "payloadSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    }
+  }
+}

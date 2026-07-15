@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.67.profile",
+  "semanticKey": "ko-KR|weapon|67|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_67",
+    "name": "항로의 개척자",
+    "aliases": [],
+    "gameEntryId": 67
+  },
+  "title": "항로의 개척자 — 무기 기본 정보",
+  "content": "항로의 개척자 무기의 기본 정보. 무기 유형은 권총이다. 옵션은 1번 지능 증가 · 대, 2번 냉기 피해 증가 · 대, 3번 고통 · 외로운 항해이다.",
+  "facts": {
+    "name": "항로의 개척자",
+    "weaponType": {
+      "id": 3,
+      "code": "handcannon",
+      "label": "권총"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.67.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "냉기 피해 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.67.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "고통 · 외로운 항해",
+        "documentRef": "epwiki.ko-kr.weapon.67.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "weaponTypeCode": "handcannon"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/67_항로의_개척자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=67&header=0",
+    "sourceSha256": "88c303ddc733fab31ce5bfee173f0f711cb90f4297c7f8553409887376d8303e",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_67.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_67.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "dedece6be0418c4004c739eaf745047c022cfc2a9364216af1d373cac0cdc460",
+    "payloadSha256": "8906fd141efdd8de20c9dc085729fb6ee03644c8dfb0674885c1a58f65ac8258"
+  }
+}

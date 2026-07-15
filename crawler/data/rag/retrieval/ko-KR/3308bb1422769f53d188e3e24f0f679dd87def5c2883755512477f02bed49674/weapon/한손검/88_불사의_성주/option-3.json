@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.88.option-3",
+  "semanticKey": "ko-KR|weapon|88|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_88",
+    "name": "불사의 성주",
+    "aliases": [],
+    "gameEntryId": 88
+  },
+  "title": "불사의 성주 — 3번 옵션 사기 · 잔성의 귀로",
+  "content": "불사의 성주 무기의 3번 옵션 ‘사기 · 잔성의 귀로’.\nRANK1: 공격력 +5.0% 오리지늄 아츠 강도 +25\nRANK2: 공격력 +6.0% 오리지늄 아츠 강도 +30\nRANK3: 공격력 +7.0% 오리지늄 아츠 강도 +35\nRANK4: 공격력 +8.0% 오리지늄 아츠 강도 +40\nRANK5: 공격력 +9.0% 오리지늄 아츠 강도 +45\nRANK6: 공격력 +10.0% 오리지늄 아츠 강도 +50\nRANK7: 공격력 +11.0% 오리지늄 아츠 강도 +55\nRANK8: 공격력 +12.0% 오리지늄 아츠 강도 +60\nRANK9: 공격력 +14.0% 오리지늄 아츠 강도 +70",
+  "facts": {
+    "slot": 3,
+    "name": "사기 · 잔성의 귀로",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "공격력 +5.0% 오리지늄 아츠 강도 +25"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "공격력 +6.0% 오리지늄 아츠 강도 +30"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "공격력 +7.0% 오리지늄 아츠 강도 +35"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "공격력 +8.0% 오리지늄 아츠 강도 +40"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "공격력 +9.0% 오리지늄 아츠 강도 +45"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "공격력 +10.0% 오리지늄 아츠 강도 +50"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "공격력 +11.0% 오리지늄 아츠 강도 +55"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "공격력 +12.0% 오리지늄 아츠 강도 +60"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "공격력 +14.0% 오리지늄 아츠 강도 +70"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/88_불사의_성주.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=88&header=0",
+    "sourceSha256": "338bc6511bcb90b4557ceb1e1c33fe59c69f8b56c9cb54efe544e2a9a6654683",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_88.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f2d31f082cec83d92b4cec176b4cc03ec6532b861ac4847a04ad18062fd2c4fd",
+    "payloadSha256": "a556063523b2421b50f986217ac90431d5ad939024f3828aa80d2e6421bf4389"
+  }
+}

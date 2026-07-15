@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.76.option-1",
+  "semanticKey": "ko-KR|weapon|76|option-1",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_76",
+    "name": "쐐기",
+    "aliases": [],
+    "gameEntryId": 76
+  },
+  "title": "쐐기 — 1번 옵션 주요 능력치 증가 · 대",
+  "content": "쐐기 무기의 1번 옵션 ‘주요 능력치 증가 · 대’.\nRANK1: 주요 능력치 +17.\nRANK2: 주요 능력치 +30.\nRANK3: 주요 능력치 +44.\nRANK4: 주요 능력치 +57.\nRANK5: 주요 능력치 +71.\nRANK6: 주요 능력치 +85.\nRANK7: 주요 능력치 +98.\nRANK8: 주요 능력치 +112.\nRANK9: 주요 능력치 +132.",
+  "facts": {
+    "slot": 1,
+    "name": "주요 능력치 증가 · 대",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "주요 능력치",
+        "value": 17,
+        "unit": "flat",
+        "display": "+17"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "주요 능력치",
+        "value": 30,
+        "unit": "flat",
+        "display": "+30"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "주요 능력치",
+        "value": 44,
+        "unit": "flat",
+        "display": "+44"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "주요 능력치",
+        "value": 57,
+        "unit": "flat",
+        "display": "+57"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "주요 능력치",
+        "value": 71,
+        "unit": "flat",
+        "display": "+71"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "주요 능력치",
+        "value": 85,
+        "unit": "flat",
+        "display": "+85"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "주요 능력치",
+        "value": 98,
+        "unit": "flat",
+        "display": "+98"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "주요 능력치",
+        "value": 112,
+        "unit": "flat",
+        "display": "+112"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "주요 능력치",
+        "value": 132,
+        "unit": "flat",
+        "display": "+132"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "optionSlot": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/76_쐐기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=76&header=0",
+    "sourceSha256": "93d3876ac0cb3aa4117db5a14f2851b8d0e5d602ccbea67486dd161ed82770a4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_76.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "09513346674933dd167d27644b9c64f1dedd1b4b352bbd20e7e0b0dc047a2035",
+    "payloadSha256": "141c83df317759e223361eb2cae29ef450d07c6cf0fc7c5ec273b967d31dbbdf"
+  }
+}

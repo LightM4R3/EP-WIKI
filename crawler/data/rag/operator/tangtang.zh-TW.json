@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityId": "tangtang",
+  "locale": "zh-TW",
+  "documents": [
+    {
+      "documentId": "operator.tangtang.profile.zh-tw",
+      "section": "profile",
+      "content": "幹員資料\n名稱: 湯湯\n稀有度: 6\n職業: Caster (id=4, code=caster, verified)\n屬性: 寒冷 (id=3, code=cryo)\n武器類型: 手銃 (id=3, code=handcannon)\n主能力: 敏捷（主能力） (attributeId=1)\n副能力: 力量（副能力） (attributeId=0)",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#",
+        "localizationRef": "data/localization/operator/tangtang.zh-TW.json#",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.progression.zh-tw",
+      "section": "progression",
+      "content": "各等級能力值與材料\nLV.1: 力量（副能力）=13 / 敏捷（主能力）=23 / 智識=8 / 意志=10 / 基礎攻擊力=30 / 基礎生命值=500; 材料: 無\nLV.20: 力量（副能力）=37 / 敏捷（主能力）=56 / 智識=25 / 意志=29 / 基礎攻擊力=92 / 基礎生命值=1566; 材料: 初級作戰紀錄 ×5, 中級作戰紀錄 ×2, 高級作戰紀錄 ×2, 折金票 ×820\nLV.40: 力量（副能力）=61 / 敏捷（主能力）=91 / 智識=42 / 意志=50 / 基礎攻擊力=157 / 基礎生命值=2689; 材料: 初級作戰紀錄 ×3, 中級作戰紀錄 ×8, 高級作戰紀錄 ×24, 折金票 ×12540\nLV.60: 力量（副能力）=86 / 敏捷（主能力）=126 / 智識=59 / 意志=71 / 基礎攻擊力=223 / 基礎生命值=3811; 材料: 初級作戰紀錄 ×4, 中級作戰紀錄 ×5, 高級作戰紀錄 ×47, 折金票 ×23900\nLV.80: 力量（副能力）=111 / 敏捷（主能力）=162 / 智識=77 / 意志=91 / 基礎攻擊力=288 / 基礎生命值=4934; 材料: 初級認知載體 ×6, 高級認知載體 ×46, 折金票 ×109180\nLV.90: 力量（副能力）=123 / 敏捷（主能力）=179 / 智識=85 / 意志=102 / 基礎攻擊力=321 / 基礎生命值=5495; 材料: 高級認知載體 ×58, 折金票 ×238980",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/progression",
+        "localizationRef": "data/localization/operator/tangtang.zh-TW.json#/progression",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.basic_attack.zh-tw",
+      "section": "combat_skill",
+      "content": "普通攻擊: 崩你腦袋！\n普通攻擊：\n對敵人進行最多5段攻擊，造成寒冷傷害。作為主控幹員時，重擊會造成18點失衡。\n下墜攻擊：\n處於空中時使用普通攻擊，會下落並攻擊附近敵人，造成寒冷傷害。\n處決攻擊：\n附近有敵人處於失衡狀態時使用普通攻擊，將處決該敵人，造成大量寒冷傷害並回復一定技力。\n數值項目: 普攻第一段倍率 [normal_attack_stage_1_multiplier]; 普攻第二段倍率 [normal_attack_stage_2_multiplier]; 普攻第三段倍率 [normal_attack_stage_3_multiplier]; 普攻第四段倍率 [normal_attack_stage_4_multiplier]; 普攻第五段倍率 [normal_attack_stage_5_multiplier]; 處決攻擊倍率 [finisher_multiplier]; 下墜攻擊倍率 [dive_attack_multiplier]\nRANK1: 普攻第一段倍率=23%; 普攻第二段倍率=25%; 普攻第三段倍率=35%; 普攻第四段倍率=37%; 普攻第五段倍率=50%; 處決攻擊倍率=400%; 下墜攻擊倍率=80%; 材料: 無\nRANK2: 普攻第一段倍率=25%; 普攻第二段倍率=28%; 普攻第三段倍率=39%; 普攻第四段倍率=40%; 普攻第五段倍率=55%; 處決攻擊倍率=440%; 下墜攻擊倍率=88%; 材料: 協議稜柱 ×6, 晶化多齒葉 ×1, 折金票 ×1000\nRANK3: 普攻第一段倍率=27%; 普攻第二段倍率=30%; 普攻第三段倍率=42%; 普攻第四段倍率=44%; 普攻第五段倍率=60%; 處決攻擊倍率=480%; 下墜攻擊倍率=96%; 材料: 協議稜柱 ×12, 晶化多齒葉 ×2, 折金票 ×2700\nRANK4: 普攻第一段倍率=29%; 普攻第二段倍率=33%; 普攻第三段倍率=46%; 普攻第四段倍率=47%; 普攻第五段倍率=65%; 處決攻擊倍率=520%; 下墜攻擊倍率=104%; 材料: 協議稜柱 ×16, 純晶多齒葉 ×1, 折金票 ×3200\nRANK5: 普攻第一段倍率=32%; 普攻第二段倍率=35%; 普攻第三段倍率=49%; 普攻第四段倍率=51%; 普攻第五段倍率=70%; 處決攻擊倍率=560%; 下墜攻擊倍率=112%; 材料: 協議稜柱 ×21, 純晶多齒葉 ×1, 折金票 ×4200\nRANK6: 普攻第一段倍率=34%; 普攻第二段倍率=38%; 普攻第三段倍率=53%; 普攻第四段倍率=55%; 普攻第五段倍率=75%; 處決攻擊倍率=600%; 下墜攻擊倍率=120%; 材料: 協議稜柱 ×27, 純晶多齒葉 ×2, 折金票 ×5400\nRANK7: 普攻第一段倍率=36%; 普攻第二段倍率=40%; 普攻第三段倍率=56%; 普攻第四段倍率=58%; 普攻第五段倍率=80%; 處決攻擊倍率=640%; 下墜攻擊倍率=128%; 材料: 協議稜柱組 ×6, 至晶多齒葉 ×1, 折金票 ×8200\nRANK8: 普攻第一段倍率=39%; 普攻第二段倍率=43%; 普攻第三段倍率=60%; 普攻第四段倍率=62%; 普攻第五段倍率=85%; 處決攻擊倍率=680%; 下墜攻擊倍率=136%; 材料: 協議稜柱組 ×8, 至晶多齒葉 ×1, 折金票 ×10500\nRANK9: 普攻第一段倍率=41%; 普攻第二段倍率=45%; 普攻第三段倍率=63%; 普攻第四段倍率=66%; 普攻第五段倍率=90%; 處決攻擊倍率=720%; 下墜攻擊倍率=144%; 材料: 協議稜柱組 ×15, 至晶多齒葉 ×2, 折金票 ×18000\n技能專精I: 普攻第一段倍率=44%; 普攻第二段倍率=48%; 普攻第三段倍率=67%; 普攻第四段倍率=70%; 普攻第五段倍率=96%; 處決攻擊倍率=770%; 下墜攻擊倍率=154%; 材料: 存續的痕跡 ×1, 協議稜柱組 ×15, D96鋼樣品四 ×6, 受蝕玉化葉 ×3, 折金票 ×24000\n技能專精II: 普攻第一段倍率=47%; 普攻第二段倍率=52%; 普攻第三段倍率=73%; 普攻第四段倍率=76%; 普攻第五段倍率=104%; 處決攻擊倍率=830%; 下墜攻擊倍率=166%; 材料: 存續的痕跡 ×2, 協議稜柱組 ×24, D96鋼樣品四 ×16, 受蝕玉化葉 ×6, 折金票 ×30000\n技能專精III: 普攻第一段倍率=51%; 普攻第二段倍率=56%; 普攻第三段倍率=79%; 普攻第四段倍率=82%; 普攻第五段倍率=113%; 處決攻擊倍率=900%; 下墜攻擊倍率=180%; 材料: 存續的痕跡 ×3, 協議稜柱組 ×50, D96鋼樣品四 ×36, 受蝕玉化葉 ×12, 折金票 ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/0",
+        "localizationRef": "data/localization/operator/tangtang.zh-TW.json#/combatSkills/0",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.basic_attack",
+        "skillTypeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.battle_skill.zh-tw",
+      "section": "combat_skill",
+      "content": "戰技: 踏潮捲浪！\n從水中躍出，逼近敵人進行射擊，造成寒冷傷害，並掀起一個水龍捲。\n同時消耗附近所有渦流使其形成額外的水龍捲，並根據形成數量返還一定技力。\n水龍捲：對範圍內敵人施加1層寒冷附著，並持續造成寒冷傷害。若本次形成多個水龍捲，將對敵人額外施加法術脆弱，但無法重複施加寒冷附著。\n水龍捲傷害視為戰技傷害。\n數值項目: 技力消耗 [skill_gauge_cost]; 射擊傷害倍率 [shot_damage_multiplier]; 射擊失衡值 [shot_imbalance]; 單個水龍捲傷害倍率 [single_tornado_damage_multiplier]; 水龍捲持續時間（秒） [tornado_duration]; 每處渦流技力返還 [skill_gauge_return_per_vortex]; 兩個水龍捲法術脆弱 [arts_vulnerability_two_tornadoes]; 三個水龍捲法術脆弱 [arts_vulnerability_three_tornadoes]; 法術脆弱持續時間（秒） [arts_vulnerability_duration]\nRANK1: 技力消耗=100; 射擊傷害倍率=80%; 射擊失衡值=10; 單個水龍捲傷害倍率=133%; 水龍捲持續時間（秒）=3; 每處渦流技力返還=20; 兩個水龍捲法術脆弱=3%; 三個水龍捲法術脆弱=6%; 法術脆弱持續時間（秒）=15; 材料: 無\nRANK2: 技力消耗=100; 射擊傷害倍率=88%; 射擊失衡值=10; 單個水龍捲傷害倍率=147%; 水龍捲持續時間（秒）=3; 每處渦流技力返還=20; 兩個水龍捲法術脆弱=3%; 三個水龍捲法術脆弱=6%; 法術脆弱持續時間（秒）=15; 材料: 協議稜柱 ×6, 晶化多齒葉 ×1, 折金票 ×1000\nRANK3: 技力消耗=100; 射擊傷害倍率=96%; 射擊失衡值=10; 單個水龍捲傷害倍率=160%; 水龍捲持續時間（秒）=3; 每處渦流技力返還=20; 兩個水龍捲法術脆弱=3%; 三個水龍捲法術脆弱=6%; 法術脆弱持續時間（秒）=15; 材料: 協議稜柱 ×12, 晶化多齒葉 ×2, 折金票 ×2700\nRANK4: 技力消耗=100; 射擊傷害倍率=104%; 射擊失衡值=10; 單個水龍捲傷害倍率=174%; 水龍捲持續時間（秒）=3; 每處渦流技力返還=20; 兩個水龍捲法術脆弱=3.5%; 三個水龍捲法術脆弱=7%; 法術脆弱持續時間（秒）=15; 材料: 協議稜柱 ×16, 純晶多齒葉 ×1, 折金票 ×3200\nRANK5: 技力消耗=100; 射擊傷害倍率=112%; 射擊失衡值=10; 單個水龍捲傷害倍率=187%; 水龍捲持續時間（秒）=3; 每處渦流技力返還=20; 兩個水龍捲法術脆弱=3.5%; 三個水龍捲法術脆弱=7%; 法術脆弱持續時間（秒）=15; 材料: 協議稜柱 ×21, 純晶多齒葉 ×1, 折金票 ×4200\nRANK6: 技力消耗=100; 射擊傷害倍率=120%; 射擊失衡值=10; 單個水龍捲傷害倍率=200%; 水龍捲持續時間（秒）=3; 每處渦流技力返還=20; 兩個水龍捲法術脆弱=3.5%; 三個水龍捲法術脆弱=7%; 法術脆弱持續時間（秒）=15; 材料: 協議稜柱 ×27, 純晶多齒葉 ×2, 折金票 ×5400\nRANK7: 技力消耗=100; 射擊傷害倍率=128%; 射擊失衡值=10; 單個水龍捲傷害倍率=214%; 水龍捲持續時間（秒）=3; 每處渦流技力返還=20; 兩個水龍捲法術脆弱=4%; 三個水龍捲法術脆弱=8%; 法術脆弱持續時間（秒）=15; 材料: 協議稜柱組 ×6, 至晶多齒葉 ×1, 折金票 ×8200\nRANK8: 技力消耗=100; 射擊傷害倍率=136%; 射擊失衡值=10; 單個水龍捲傷害倍率=227%; 水龍捲持續時間（秒）=3; 每處渦流技力返還=20; 兩個水龍捲法術脆弱=4%; 三個水龍捲法術脆弱=8%; 法術脆弱持續時間（秒）=15; 材料: 協議稜柱組 ×8, 至晶多齒葉 ×1, 折金票 ×10500\nRANK9: 技力消耗=100; 射擊傷害倍率=144%; 射擊失衡值=10; 單個水龍捲傷害倍率=240%; 水龍捲持續時間（秒）=3; 每處渦流技力返還=20; 兩個水龍捲法術脆弱=4%; 三個水龍捲法術脆弱=8%; 法術脆弱持續時間（秒）=15; 材料: 協議稜柱組 ×15, 至晶多齒葉 ×2, 折金票 ×18000\n技能專精I: 技力消耗=100; 射擊傷害倍率=154%; 射擊失衡值=10; 單個水龍捲傷害倍率=257%; 水龍捲持續時間（秒）=3; 每處渦流技力返還=20; 兩個水龍捲法術脆弱=4.5%; 三個水龍捲法術脆弱=9%; 法術脆弱持續時間（秒）=15; 材料: 存續的痕跡 ×1, 協議稜柱組 ×15, 象限擬合液 ×6, 受蝕玉化葉 ×3, 折金票 ×24000\n技能專精II: 技力消耗=100; 射擊傷害倍率=166%; 射擊失衡值=10; 單個水龍捲傷害倍率=277%; 水龍捲持續時間（秒）=3; 每處渦流技力返還=20; 兩個水龍捲法術脆弱=4.5%; 三個水龍捲法術脆弱=9%; 法術脆弱持續時間（秒）=15; 材料: 存續的痕跡 ×2, 協議稜柱組 ×24, 象限擬合液 ×16, 受蝕玉化葉 ×6, 折金票 ×30000\n技能專精III: 技力消耗=100; 射擊傷害倍率=180%; 射擊失衡值=10; 單個水龍捲傷害倍率=300%; 水龍捲持續時間（秒）=3; 每處渦流技力返還=20; 兩個水龍捲法術脆弱=5%; 三個水龍捲法術脆弱=10%; 法術脆弱持續時間（秒）=15; 材料: 存續的痕跡 ×3, 協議稜柱組 ×50, 象限擬合液 ×36, 受蝕玉化葉 ×12, 折金票 ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/1",
+        "localizationRef": "data/localization/operator/tangtang.zh-TW.json#/combatSkills/1",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.battle_skill",
+        "skillTypeId": 1
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.combo_skill.zh-tw",
+      "section": "combat_skill",
+      "content": "連攜技: 河水，助我！\n當有敵人被施加寒冷附著或受到法術爆發傷害時可以發動。\n釋放一道強力的水流，貫穿前方敵人造成寒冷傷害，並迸射出一處渦流。\n場上最多存在2處渦流。\n數值項目: 冷卻時間 [cooldown]; 傷害倍率 [damage_multiplier]; 失衡值 [imbalance]; 渦流持續時間（秒） [vortex_duration]; ultimate_energy_gain [zh_Hant DOM缺漏；回退ko-KR] [ultimate_energy_gain]\nRANK1: 冷卻時間=14秒; 傷害倍率=107%; 失衡值=10; 渦流持續時間（秒）=30; ultimate_energy_gain [zh_Hant DOM缺漏；回退ko-KR]=10; 材料: 無\nRANK2: 冷卻時間=14秒; 傷害倍率=117%; 失衡值=10; 渦流持續時間（秒）=30; ultimate_energy_gain [zh_Hant DOM缺漏；回退ko-KR]=10; 材料: 協議稜柱 ×6, 晶化多齒葉 ×1, 折金票 ×1000\nRANK3: 冷卻時間=14秒; 傷害倍率=128%; 失衡值=10; 渦流持續時間（秒）=30; ultimate_energy_gain [zh_Hant DOM缺漏；回退ko-KR]=10; 材料: 協議稜柱 ×12, 晶化多齒葉 ×2, 折金票 ×2700\nRANK4: 冷卻時間=14秒; 傷害倍率=139%; 失衡值=10; 渦流持續時間（秒）=30; ultimate_energy_gain [zh_Hant DOM缺漏；回退ko-KR]=10; 材料: 協議稜柱 ×16, 純晶多齒葉 ×1, 折金票 ×3200\nRANK5: 冷卻時間=14秒; 傷害倍率=149%; 失衡值=10; 渦流持續時間（秒）=30; ultimate_energy_gain [zh_Hant DOM缺漏；回退ko-KR]=10; 材料: 協議稜柱 ×21, 純晶多齒葉 ×1, 折金票 ×4200\nRANK6: 冷卻時間=14秒; 傷害倍率=160%; 失衡值=10; 渦流持續時間（秒）=30; ultimate_energy_gain [zh_Hant DOM缺漏；回退ko-KR]=10; 材料: 協議稜柱 ×27, 純晶多齒葉 ×2, 折金票 ×5400\nRANK7: 冷卻時間=14秒; 傷害倍率=171%; 失衡值=10; 渦流持續時間（秒）=30; ultimate_energy_gain [zh_Hant DOM缺漏；回退ko-KR]=10; 材料: 協議稜柱組 ×6, 至晶多齒葉 ×1, 折金票 ×8200\nRANK8: 冷卻時間=14秒; 傷害倍率=181%; 失衡值=10; 渦流持續時間（秒）=30; ultimate_energy_gain [zh_Hant DOM缺漏；回退ko-KR]=10; 材料: 協議稜柱組 ×8, 至晶多齒葉 ×1, 折金票 ×10500\nRANK9: 冷卻時間=13秒; 傷害倍率=192%; 失衡值=10; 渦流持續時間（秒）=30; ultimate_energy_gain [zh_Hant DOM缺漏；回退ko-KR]=10; 材料: 協議稜柱組 ×15, 至晶多齒葉 ×2, 折金票 ×18000\n技能專精I: 冷卻時間=13秒; 傷害倍率=205%; 失衡值=10; 渦流持續時間（秒）=30; ultimate_energy_gain [zh_Hant DOM缺漏；回退ko-KR]=10; 材料: 存續的痕跡 ×1, 協議稜柱組 ×15, D96鋼樣品四 ×6, 受蝕玉化葉 ×3, 折金票 ×24000\n技能專精II: 冷卻時間=13秒; 傷害倍率=221%; 失衡值=10; 渦流持續時間（秒）=30; ultimate_energy_gain [zh_Hant DOM缺漏；回退ko-KR]=10; 材料: 存續的痕跡 ×2, 協議稜柱組 ×24, D96鋼樣品四 ×16, 受蝕玉化葉 ×6, 折金票 ×30000\n技能專精III: 冷卻時間=12秒; 傷害倍率=240%; 失衡值=10; 渦流持續時間（秒）=30; ultimate_energy_gain [zh_Hant DOM缺漏；回退ko-KR]=10; 材料: 存續的痕跡 ×3, 協議稜柱組 ×50, D96鋼樣品四 ×36, 受蝕玉化葉 ×12, 折金票 ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/2",
+        "localizationRef": "data/localization/operator/tangtang.zh-TW.json#/combatSkills/2",
+        "contentStatus": "has_source_gaps",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.combo_skill",
+        "skillTypeId": 2
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.ultimate.zh-tw",
+      "section": "combat_skill",
+      "content": "終結技: 大當家盯著呢！\n湯湯揭開眼罩，釋放眼中的古老圖形封鎖範圍內的敵人，使其暫停行動一段時間，並造成持續的寒冷傷害。\n古老圖形演化結束時降下巨浪，對範圍內敵人造成大量寒冷傷害。\n若主控幹員在古老圖形中下墜攻擊，會提前結束演化降下巨浪，巨浪造成的寒冷傷害提升。\n數值項目: 所需終結技能量 [ultimate_energy_cost]; 冷卻時間 [cooldown]; 持續傷害總倍率 [total_dot_multiplier]; 古老圖形持續時間（秒） [ancient_array_duration]; 巨浪傷害倍率 [giant_wave_damage_multiplier]; 提前降下巨浪傷害倍率 [early_giant_wave_damage_multiplier]; 巨浪失衡值 [giant_wave_imbalance]; 提前降下巨浪失衡值 [early_giant_wave_imbalance]\nRANK1: 所需終結技能量=90; 冷卻時間=20秒; 持續傷害總倍率=142%; 古老圖形持續時間（秒）=4; 巨浪傷害倍率=178%; 提前降下巨浪傷害倍率=311%; 巨浪失衡值=15; 提前降下巨浪失衡值=20; 材料: 無\nRANK2: 所需終結技能量=90; 冷卻時間=20秒; 持續傷害總倍率=156%; 古老圖形持續時間（秒）=4; 巨浪傷害倍率=196%; 提前降下巨浪傷害倍率=342%; 巨浪失衡值=15; 提前降下巨浪失衡值=20; 材料: 協議稜柱 ×6, 晶化多齒葉 ×1, 折金票 ×1000\nRANK3: 所需終結技能量=90; 冷卻時間=20秒; 持續傷害總倍率=171%; 古老圖形持續時間（秒）=4; 巨浪傷害倍率=213%; 提前降下巨浪傷害倍率=373%; 巨浪失衡值=15; 提前降下巨浪失衡值=20; 材料: 協議稜柱 ×12, 晶化多齒葉 ×2, 折金票 ×2700\nRANK4: 所需終結技能量=90; 冷卻時間=20秒; 持續傷害總倍率=185%; 古老圖形持續時間（秒）=4; 巨浪傷害倍率=231%; 提前降下巨浪傷害倍率=404%; 巨浪失衡值=15; 提前降下巨浪失衡值=20; 材料: 協議稜柱 ×16, 純晶多齒葉 ×1, 折金票 ×3200\nRANK5: 所需終結技能量=90; 冷卻時間=20秒; 持續傷害總倍率=199%; 古老圖形持續時間（秒）=4; 巨浪傷害倍率=249%; 提前降下巨浪傷害倍率=436%; 巨浪失衡值=15; 提前降下巨浪失衡值=20; 材料: 協議稜柱 ×21, 純晶多齒葉 ×1, 折金票 ×4200\nRANK6: 所需終結技能量=90; 冷卻時間=20秒; 持續傷害總倍率=213%; 古老圖形持續時間（秒）=4; 巨浪傷害倍率=267%; 提前降下巨浪傷害倍率=467%; 巨浪失衡值=15; 提前降下巨浪失衡值=20; 材料: 協議稜柱 ×27, 純晶多齒葉 ×2, 折金票 ×5400\nRANK7: 所需終結技能量=90; 冷卻時間=20秒; 持續傷害總倍率=228%; 古老圖形持續時間（秒）=4; 巨浪傷害倍率=284%; 提前降下巨浪傷害倍率=498%; 巨浪失衡值=15; 提前降下巨浪失衡值=20; 材料: 協議稜柱組 ×6, 至晶多齒葉 ×1, 折金票 ×8200\nRANK8: 所需終結技能量=90; 冷卻時間=20秒; 持續傷害總倍率=242%; 古老圖形持續時間（秒）=4; 巨浪傷害倍率=302%; 提前降下巨浪傷害倍率=529%; 巨浪失衡值=15; 提前降下巨浪失衡值=20; 材料: 協議稜柱組 ×8, 至晶多齒葉 ×1, 折金票 ×10500\nRANK9: 所需終結技能量=90; 冷卻時間=20秒; 持續傷害總倍率=256%; 古老圖形持續時間（秒）=4; 巨浪傷害倍率=320%; 提前降下巨浪傷害倍率=560%; 巨浪失衡值=15; 提前降下巨浪失衡值=20; 材料: 協議稜柱組 ×15, 至晶多齒葉 ×2, 折金票 ×18000\n技能專精I: 所需終結技能量=90; 冷卻時間=20秒; 持續傷害總倍率=274%; 古老圖形持續時間（秒）=4; 巨浪傷害倍率=342%; 提前降下巨浪傷害倍率=599%; 巨浪失衡值=15; 提前降下巨浪失衡值=20; 材料: 存續的痕跡 ×1, 協議稜柱組 ×15, 象限擬合液 ×6, 受蝕玉化葉 ×3, 折金票 ×24000\n技能專精II: 所需終結技能量=90; 冷卻時間=20秒; 持續傷害總倍率=295%; 古老圖形持續時間（秒）=4; 巨浪傷害倍率=369%; 提前降下巨浪傷害倍率=646%; 巨浪失衡值=15; 提前降下巨浪失衡值=20; 材料: 存續的痕跡 ×2, 協議稜柱組 ×24, 象限擬合液 ×16, 受蝕玉化葉 ×6, 折金票 ×30000\n技能專精III: 所需終結技能量=90; 冷卻時間=20秒; 持續傷害總倍率=320%; 古老圖形持續時間（秒）=4; 巨浪傷害倍率=400%; 提前降下巨浪傷害倍率=700%; 巨浪失衡值=15; 提前降下巨浪失衡值=20; 材料: 存續的痕跡 ×3, 協議稜柱組 ×50, 象限擬合液 ×36, 受蝕玉化葉 ×12, 折金票 ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/3",
+        "localizationRef": "data/localization/operator/tangtang.zh-TW.json#/combatSkills/3",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.ultimate",
+        "skillTypeId": 3
+      }
+    },
+    {
+      "documentId": "operator.tangtang.talent.operator.zh-tw",
+      "section": "operator_talent",
+      "content": "幹員天賦\n能力值提升: 游刃\n游刃·一: 幹員力敏捷志能力值提升10。; 解鎖條件: 幹員信賴值達到20% / 晉升至精英化階段1後解鎖; 材料: 協議稜柱 ×5, 折金票 ×1000\n游刃·二: 幹員力敏捷志能力值提升15。; 解鎖條件: 幹員信賴值達到50% / 晉升至精英化階段2後解鎖; 材料: 協議稜柱 ×10, 折金票 ×1800\n游刃·三: 幹員力敏捷志能力值提升15。; 解鎖條件: 幹員信賴值達到100% / 晉升至精英化階段3後解鎖; 材料: 協議稜柱組 ×10, 折金票 ×6000\n游刃·四: 幹員力敏捷志能力值提升20。; 解鎖條件: 幹員信賴值達到100% / 晉升至精英化階段4後解鎖; 材料: 協議稜柱組 ×20, 折金票 ×12000\n幹員天賦: 肝膽相照\n肝膽相照·I: 渦流附近5公尺範圍內，友方幹員獲得10%加速，敵人受到20%緩速，離開範圍後該效果持續3秒。; 解鎖條件: 晉升至精英化階段1後解鎖; 材料: 協議稜柱 ×12, 折金票 ×2400\n肝膽相照·II: 渦流附近5公尺範圍內，友方幹員獲得20%加速，敵人受到40%緩速，離開範圍後該效果持續3秒。; 解鎖條件: 晉升至精英化階段2後解鎖; 材料: 協議稜柱 ×40, 折金票 ×8600\n幹員天賦: 呼風喚浪\n呼風喚浪·I: 主控幹員在古老圖形中進行下墜攻擊，提前結束演化時，形成一個水龍捲，並消耗附近所有渦流使其形成額外的水龍捲。\n\n此次形成的水龍捲效果同戰技踏潮捲浪！，造成的傷害+40%。; 解鎖條件: 晉升至精英化階段2後解鎖; 材料: 協議稜柱 ×48, 折金票 ×10000\n呼風喚浪·II: 主控幹員在古老圖形中進行下墜攻擊，提前結束演化時，形成一個水龍捲，並消耗附近所有渦流使其形成額外的水龍捲。\n\n此次形成的水龍捲效果同戰技踏潮捲浪！，造成的傷害+60%。; 解鎖條件: 晉升至精英化階段3後解鎖; 材料: 協議稜柱組 ×28, 折金票 ×24000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/talents/operator",
+        "localizationRef": "data/localization/operator/tangtang.zh-TW.json#/talents/operator",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.talent.infrastructure.zh-tw",
+      "section": "infrastructure_talent",
+      "content": "後勤技能\n後勤技能: 大當家\n大當家·β: 進駐培養艙時，艙室內幹員心情消耗降低14%; 解鎖條件: 晉升至精英化階段1後解鎖; 材料: 協議稜柱 ×6, 折金票 ×1600\n大當家·γ: 進駐培養艙時，艙室內幹員心情消耗降低18%; 解鎖條件: 晉升至精英化階段3後解鎖; 材料: 協議稜柱組 ×12, 折金票 ×8000\n後勤技能: 河流的女兒\n河流的女兒·β: 進駐培養艙時，晶植材料的培養速度提升20%; 解鎖條件: 晉升至精英化階段2後解鎖; 材料: 協議稜柱 ×12, 折金票 ×3000\n河流的女兒·γ: 進駐培養艙時，晶植材料的培養速度提升30%; 解鎖條件: 晉升至精英化階段4後解鎖; 材料: 協議稜柱組 ×20, 折金票 ×20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/talents/infrastructure",
+        "localizationRef": "data/localization/operator/tangtang.zh-TW.json#/talents/infrastructure",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.potential.zh-tw",
+      "section": "potential",
+      "content": "潛能\nPOTENTIAL 01 — 財寶儲備: 連攜技河水，助我！的傷害倍率提升至原本的1.2倍，冷卻時間-2秒。\n\n戰技踏潮捲浪！每消耗一處渦流形成水龍捲，額外返還5點技力。\n\n解鎖幹員留影「白水鑑心」\nPOTENTIAL 02 — 河流的女兒: 敏捷+20，寒冷傷害+10%。\nPOTENTIAL 03 — 當家氣魄: 戰技踏潮捲浪！傷害倍率提升至原本的1.1倍，且同時形成多個水龍捲時造成的法術脆弱效果額外+5%。\n\n解鎖幹員留影「折筠」\nPOTENTIAL 04 — 清波修煉法: 終結技大當家盯著呢！所需的終結技能量-15%。\nPOTENTIAL 05 — 魔眼效能: 終結技大當家盯著呢！的傷害倍率提升至原本的1.15倍。\n\n天賦呼風喚浪效果加強：終結技大當家盯著呢！形成的水龍捲傷害提升效果額外+80%。\n\n解鎖幹員留影「當家令如山」\n\n解鎖名片主題「當家令如山」",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/potentials",
+        "localizationRef": "data/localization/operator/tangtang.zh-TW.json#/potentials",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    }
+  ]
+}

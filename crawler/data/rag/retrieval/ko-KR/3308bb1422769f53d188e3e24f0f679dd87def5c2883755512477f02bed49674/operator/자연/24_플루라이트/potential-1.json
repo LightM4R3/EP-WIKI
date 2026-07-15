@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.24.potential-1",
+  "semanticKey": "ko-KR|operator|24|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_24",
+    "name": "플루라이트",
+    "aliases": [],
+    "gameEntryId": 24
+  },
+  "title": "플루라이트 — 잠재능력 1 양손의 달인",
+  "content": "플루라이트 오퍼레이터의 잠재능력 1 ‘양손의 달인’. 민첩 +10, 지능 +10 오퍼레이터 기념사진 \"말썽꾸러기\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "양손의 달인",
+    "status": "rule_validated",
+    "effect": "민첩 +10, 지능 +10 오퍼레이터 기념사진 \"말썽꾸러기\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/24_플루라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=24&header=0",
+    "sourceSha256": "949fec33735758975e7f7af4c32fb5dd785d45c95620e4a9dc4a1cfdfe682b3d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_24.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "afd94a46a7920abe04935a3a20c755cfbaf8cbae13cf7a7d65a544beb3b87dbe",
+    "payloadSha256": "f36aba2b402e32940d33dec4d555e1d5c3462f80ed07b01e85c2481d266f2804"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.337.profile",
+  "semanticKey": "ko-KR|gear|337|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_337",
+    "name": "식양의 숨결 보조 어깨",
+    "aliases": [],
+    "gameEntryId": 337
+  },
+  "title": "식양의 숨결 보조 어깨 — 장비 기본 정보",
+  "content": "식양의 숨결 보조 어깨 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 식양의 숨결이다. LV.70, 방어력 21. 옵션은 1번 의지 32, 2번 지능 21, 3번 궁극기 충전 효율 24.6%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "식양의 숨결 보조 어깨",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 982892020,
+      "code": "gear_set_3a9437540d70",
+      "label": "식양의 숨결"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 24.6,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-3a9437540d70.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_3a9437540d70",
+    "groupLabel": "식양의 숨결",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_3a9437540d70"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_숨결/337_식양의_숨결_보조_어깨.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=337&header=0",
+    "sourceSha256": "a70e97169cab710bd042289b753312152213448ee00d3271c5c58212ba3626ac",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_337.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_337.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e9e57305b64bdc1b89d543e56fae5220a859c58c3cb0fdbfef14687fe163a32c",
+    "payloadSha256": "aa1f72740dd6a1f717d743a3972fe9e3510e23c1ff5a528e25440a31b08ba9a6"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.269.profile",
+  "semanticKey": "ko-KR|gear|269|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_269",
+    "name": "침식 차단 배터리",
+    "aliases": [],
+    "gameEntryId": 269
+  },
+  "title": "침식 차단 배터리 — 장비 기본 정보",
+  "content": "침식 차단 배터리 장비의 기본 정보. 유형은 부품, 품질은 파란색 품질, 세트는 침식 차단이다. LV.36, 방어력 10. 옵션은 1번 지능 21, 3번 치명타 확률 5.3%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "침식 차단 배터리",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    "gearSet": {
+      "id": 2234615965,
+      "code": "gear_set_853001fd8069",
+      "label": "침식 차단"
+    },
+    "level": 36,
+    "defense": 10,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "치명타 확률",
+        "baseValue": {
+          "value": 5.3,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-853001fd8069.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_853001fd8069",
+    "groupLabel": "침식 차단",
+    "gearTypeCode": "component",
+    "qualityCode": "blue",
+    "gearSetCode": "gear_set_853001fd8069"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_차단/269_침식_차단_배터리.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=269&header=0",
+    "sourceSha256": "a3b1e6f256eacceadc5556b8a7af4c8e4141e7011dcbdac51bcae019ad89cb86",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_269.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_269.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "21f50ac8087965af6bb0b2f2db67aca643fc15134700da0bfb7f934464efd2d7",
+    "payloadSha256": "56e9a2f0ab72c0424bb8c2940e4e0c8b06e9c048197c395b26e0a613cbe7b9a0"
+  }
+}

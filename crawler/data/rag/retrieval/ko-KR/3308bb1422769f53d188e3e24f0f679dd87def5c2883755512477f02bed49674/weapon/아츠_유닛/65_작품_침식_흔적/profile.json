@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.65.profile",
+  "semanticKey": "ko-KR|weapon|65|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_65",
+    "name": "작품: 침식 흔적",
+    "aliases": [],
+    "gameEntryId": 65
+  },
+  "title": "작품: 침식 흔적 — 무기 기본 정보",
+  "content": "작품: 침식 흔적 무기의 기본 정보. 무기 유형은 아츠 유닛이다. 옵션은 1번 의지 증가 · 대, 2번 자연 피해 증가 · 대, 3번 억제 · 빙퇴석의 침식 흔적이다.",
+  "facts": {
+    "name": "작품: 침식 흔적",
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.65.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "자연 피해 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.65.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "억제 · 빙퇴석의 침식 흔적",
+        "documentRef": "epwiki.ko-kr.weapon.65.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "weaponTypeCode": "arts_unit"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/65_작품_침식_흔적.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=65&header=0",
+    "sourceSha256": "025e7d5e15f87735a41dbfe812a0534ecd3040589f2016ca74331e38e7547b72",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_65.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_65.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "954cefad5e802099ca87ff6f72e0c4bd287018b33f7b903e9b707c9f7bc07309",
+    "payloadSha256": "ba0ae5bdf603b832e08f6f9dd23712542375531e35adaefa955d340dab4ded71"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.74.option-2",
+  "semanticKey": "ko-KR|weapon|74|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_74",
+    "name": "분쇄의 군주",
+    "aliases": [],
+    "gameEntryId": 74
+  },
+  "title": "분쇄의 군주 — 2번 옵션 치명타 확률 증가 · 대",
+  "content": "분쇄의 군주 무기의 2번 옵션 ‘치명타 확률 증가 · 대’.\nRANK1: 치명타 확률 +2.5%.\nRANK2: 치명타 확률 +4.5%.\nRANK3: 치명타 확률 +6.5%.\nRANK4: 치명타 확률 +8.5%.\nRANK5: 치명타 확률 +10.5%.\nRANK6: 치명타 확률 +12.5%.\nRANK7: 치명타 확률 +14.5%.\nRANK8: 치명타 확률 +16.5%.\nRANK9: 치명타 확률 +19.5%.",
+  "facts": {
+    "slot": 2,
+    "name": "치명타 확률 증가 · 대",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "치명타 확률",
+        "value": 2.5,
+        "unit": "percent",
+        "display": "+2.5%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "치명타 확률",
+        "value": 4.5,
+        "unit": "percent",
+        "display": "+4.5%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "치명타 확률",
+        "value": 6.5,
+        "unit": "percent",
+        "display": "+6.5%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "치명타 확률",
+        "value": 8.5,
+        "unit": "percent",
+        "display": "+8.5%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "치명타 확률",
+        "value": 10.5,
+        "unit": "percent",
+        "display": "+10.5%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "치명타 확률",
+        "value": 12.5,
+        "unit": "percent",
+        "display": "+12.5%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "치명타 확률",
+        "value": 14.5,
+        "unit": "percent",
+        "display": "+14.5%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "치명타 확률",
+        "value": 16.5,
+        "unit": "percent",
+        "display": "+16.5%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "치명타 확률",
+        "value": 19.5,
+        "unit": "percent",
+        "display": "+19.5%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/74_분쇄의_군주.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=74&header=0",
+    "sourceSha256": "c9023eda2bae7e82a8fd386e764fd3483a587ad4d0a8f7a07baed3dd1602b1d9",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_74.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e08f259a78dfbdce3f9cca3c0f5179f5dfb3aa0367fd06fe70c0360c60498af7",
+    "payloadSha256": "dc859388dfe11d9dcf5e6d7b1a65c9d9007eea143dbe794f5a16eb7b3d63aefa"
+  }
+}

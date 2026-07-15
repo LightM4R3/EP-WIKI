@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.367.profile",
+  "semanticKey": "ko-KR|gear|367|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_367",
+    "name": "경량 초자연 보호판",
+    "aliases": [],
+    "gameEntryId": 367
+  },
+  "title": "경량 초자연 보호판 — 장비 기본 정보",
+  "content": "경량 초자연 보호판 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 경량 초자연이다. LV.70, 방어력 56. 옵션은 1번 힘 87, 2번 의지 58, 3번 불균형 목표에 주는 피해 보너스 20.7%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "경량 초자연 보호판",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 4212229625,
+      "code": "gear_set_fb0fff599026",
+      "label": "경량 초자연"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "불균형 목표에 주는 피해 보너스",
+        "baseValue": {
+          "value": 20.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-fb0fff599026.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_fb0fff599026",
+    "groupLabel": "경량 초자연",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_fb0fff599026"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/경량_초자연/367_경량_초자연_보호판.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=367&header=0",
+    "sourceSha256": "cf132f1de9c333149e696741dde3e81c35c330a6efe11bf9a78dcc9fc346ab0e",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_367.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_367.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "ffc29a8eb333e28da4eb5cd577811919172bf4f74d1f11894599f84174b4c188",
+    "payloadSha256": "29a8efdc29dcce9490e0935d915b6526b7cace3a37ad0164ef893505dc7f5c34"
+  }
+}

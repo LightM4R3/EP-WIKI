@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.228.profile",
+  "semanticKey": "ko-KR|gear|228|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_228",
+    "name": "광산 보호 장갑",
+    "aliases": [],
+    "gameEntryId": 228
+  },
+  "title": "광산 보호 장갑 — 장비 기본 정보",
+  "content": "광산 보호 장갑 장비의 기본 정보. 유형은 글러브, 품질은 초록색 품질, 세트는 세트 없음이다. LV.28, 방어력 16. 옵션은 1번 의지 28, 2번 지능 18, 3번 생명력 15%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 보호 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 28,
+    "defense": 16,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 28,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 18,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "생명력",
+        "baseValue": {
+          "value": 15,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "gloves",
+    "qualityCode": "green",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/228_광산_보호_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=228&header=0",
+    "sourceSha256": "22ef1982c6a7d5f742c01a13bf3164208cdfbcb1c6a045a317bc330ce8b5800e",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_228.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_228.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f91c0be80a2d07f2786b0b8c5abd81fc2e1e4edcf55a2cc5d3253be1ef71fd6f",
+    "payloadSha256": "e935aa5a5f6012f3aa0fbe8a88ed0d01790197aa44ab228a735e29b2bcc0ab6f"
+  }
+}

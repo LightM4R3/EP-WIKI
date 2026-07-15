@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_94",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 94,
+    "name": "망자의 노래"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=94&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "4aceb7b8c764462425a23c1f7525fc2f11799b4a69fdf51af3c9d6d3257ce8fd",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_94.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 망자의 노래\ngameEntryId: 94\n정규화 상태: query_ready\n무기 유형: 아츠 유닛 (id=4, code=arts_unit)\n기초 공격력: LV.1=42, LV.20=120, LV.40=203, LV.60=286, LV.80=369, LV.90=411\n무기 옵션: 1번=지능 증가 · 중; 2번=공격력 증가 · 중; 3번=어둠 · 무덤 위의 불씨\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_94",
+        "gameEntryId": 94,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=94&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/94_망자의_노래.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 4,
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "evidenceDocumentIds": [
+          "auto.weapon_94.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_94.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_94.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_94.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_94.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_94.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 망자의 노래\ncategory: weapon\nsection: profile\n망자의 노래\n유형\n아츠 유닛\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n주술 타임에서 출시한 기묘한 아츠 유닛 중 하나, 오리지늄 아츠의 범용성을 일부러 제한하여 고대 티카즈 주술의 어두운 논리를 부각했습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_94",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=94&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 94,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:42.918676+00:00",
+        "contentSha256": "4aceb7b8c764462425a23c1f7525fc2f11799b4a69fdf51af3c9d6d3257ce8fd",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/94_망자의_노래.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "망자의 노래"
+      }
+    },
+    {
+      "documentId": "auto.weapon_94.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 망자의 노래\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n망자의 노래\n아츠 유닛\n·획득 방법\n구매 센터 - 무기고 거래소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n42\n411\n지능 증가 · 중\n지능\n+16\n1/3\n지능\n+124\n9/9\n공격력 증가 · 중\n공격력\n+4.0%\n1/3\n공격력\n+31.2%\n9/9\n어둠 · 무덤 위의 불씨\n최대 생명력\n+10.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+8.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n1/4\n최대 생명력\n+28.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+22.4%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_94",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=94&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 94,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:42.918676+00:00",
+        "contentSha256": "4aceb7b8c764462425a23c1f7525fc2f11799b4a69fdf51af3c9d6d3257ce8fd",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/94_망자의_노래.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "망자의 노래"
+      }
+    },
+    {
+      "documentId": "auto.weapon_94.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 망자의 노래\ncategory: weapon\nsection: progression\n업그레이드\n돌파\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n42\n-\n지능 증가 · 중\n지능\n+16\n1/3\n공격력 증가 · 중\n공격력\n+4.0%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n120\n120\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n지능 증가 · 중\n지능\n+16\n1/3\n지능\n+28\n2/5\n공격력 증가 · 중\n공격력\n+4.0%\n1/3\n공격력\n+4.0%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n203\n203\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n지능 증가 · 중\n지능\n+28\n2/5\n지능\n+28\n2/6\n공격력 증가 · 중\n공격력\n+4.0%\n1/4\n공격력\n+7.2%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n286\n286\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n지능 증가 · 중\n지능\n+28\n2/6\n지능\n+41\n3/8\n공격력 증가 · 중\n공격력\n+7.2%\n2/6\n공격력\n+7.2%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n369\n369\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n지능 증가 · 중\n지능\n+41\n3/8\n지능\n+41\n3/9\n공격력 증가 · 중\n공격력\n+7.2%\n2/7\n공격력\n+10.4%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n411\n-\n지능 증가 · 중\n지능\n+41\n3/9\n공격력 증가 · 중\n공격력\n+10.4%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_94",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=94&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 94,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:42.918676+00:00",
+        "contentSha256": "4aceb7b8c764462425a23c1f7525fc2f11799b4a69fdf51af3c9d6d3257ce8fd",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/94_망자의_노래.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "망자의 노래"
+      }
+    },
+    {
+      "documentId": "auto.weapon_94.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 망자의 노래\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n지능 증가 · 중\n공격력 증가 · 중\n어둠 · 무덤 위의 불씨\nRANK 1\n지능\n+16\n공격력\n+4.0%\n최대 생명력\n+10.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+8.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 2\n지능\n+28\n공격력\n+7.2%\n최대 생명력\n+12.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+9.6%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 3\n지능\n+41\n공격력\n+10.4%\n최대 생명력\n+14.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+11.2%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 4\n지능\n+54\n공격력\n+13.6%\n최대 생명력\n+16.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+12.8%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 5\n지능\n+67\n공격력\n+16.8%\n최대 생명력\n+18.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+14.4%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 6\n지능\n+80\n공격력\n+20.0%\n최대 생명력\n+20.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+16.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 7\n지능\n+92\n공격력\n+23.2%\n최대 생명력\n+22.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+17.6%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 8\n지능\n+105\n공격력\n+26.4%\n최대 생명력\n+24.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+19.2%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 9\n지능\n+124\n공격력\n+31.2%\n최대 생명력\n+28.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+22.4%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n지능 증가\n공격력 증가\n어둠",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_94",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=94&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 94,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:42.918676+00:00",
+        "contentSha256": "4aceb7b8c764462425a23c1f7525fc2f11799b4a69fdf51af3c9d6d3257ce8fd",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/94_망자의_노래.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "망자의 노래"
+      }
+    },
+    {
+      "documentId": "auto.weapon_94.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 망자의 노래\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n어둠 · 무덤 위의 불씨\n기본/최대\n어둠 · 무덤 위의 불씨\n잠재능력 1\n1/4\n최대 생명력\n+10.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+8.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 2\n2/5\n최대 생명력\n+12.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+9.6%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 3\n3/6\n최대 생명력\n+14.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+11.2%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 4\n4/7\n최대 생명력\n+16.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+12.8%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 5\n5/8\n최대 생명력\n+18.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+14.4%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 6\n6/9\n최대 생명력\n+20.0%\n장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력\n+16.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_94",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=94&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 94,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:42.918676+00:00",
+        "contentSha256": "4aceb7b8c764462425a23c1f7525fc2f11799b4a69fdf51af3c9d6d3257ce8fd",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/94_망자의_노래.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "망자의 노래"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 42
+    },
+    {
+      "level": 20,
+      "baseAttack": 120
+    },
+    {
+      "level": 40,
+      "baseAttack": 203
+    },
+    {
+      "level": 60,
+      "baseAttack": 286
+    },
+    {
+      "level": 80,
+      "baseAttack": 369
+    },
+    {
+      "level": 90,
+      "baseAttack": 411
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "지능 증가 · 중",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_94.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "공격력 증가 · 중",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_94.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "어둠 · 무덤 위의 불씨",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_94.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 4,
+    "code": "arts_unit",
+    "label": "아츠 유닛"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/94_망자의_노래.json"
+}

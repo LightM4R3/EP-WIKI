@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_364",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 364,
+    "name": "생체 보조 접속기 · I"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=364&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "2fc34b24d123a1431279dd4e823bdc19394e53cd0ca20ef2abe17d6e856306a5",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_364.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 생체 보조 접속기 · I\ngameEntryId: 364\n정규화 상태: query_ready\n장비 세트: 생체 보조 (id=447874150, code=gear_set_1ab07dc6afcc)\n장비 유형: 부품 (id=2, code=component)\n품질: 노란색 품질 (id=0, code=yellow)\nLV: 70\n방어력: 21\n장비 옵션: 1번=힘 32; 2번=의지 21; 3번=생명력 41.4%\n정밀 단조 지원: 예\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_364",
+        "gameEntryId": 364,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=364&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/생체_보조/364_생체_보조_접속기_·_I.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 447874150,
+        "groupCode": "gear_set_1ab07dc6afcc",
+        "groupLabel": "생체 보조",
+        "evidenceDocumentIds": [
+          "auto.gear_364.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_364.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_364.gear_option.c2.chapter.s2.p0.ko-kr",
+          "auto.gear_364.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_364.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 생체 보조 접속기 · I\ncategory: gear\nsection: profile\n생체 보조 접속기 · I\n품질\n노란색 품질\n장비 유형\n부품\n세트\n생체 보조\n이 장비는 로도스 아일랜드에서 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n의료진들이 애용하는 장비.\n로도스 아일랜드에서 개발한 이 연결 유닛은 데이터 보정 기능을 갖추고 있어, 긴급 상황 시 다른 생명 유지 장치 시스템에도 접속하여 응급 구조 작업을 완료할 수 있습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_364",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=364&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 364,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:37:07.057895+00:00",
+        "contentSha256": "2fc34b24d123a1431279dd4e823bdc19394e53cd0ca20ef2abe17d6e856306a5",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/생체_보조/364_생체_보조_접속기_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_1ab07dc6afcc",
+        "groupLabel": "생체 보조",
+        "entityName": "생체 보조 접속기 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_364.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 생체 보조 접속기 · I\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n8000\n*\n8000\n및\n50\n*\n50\n장비 템플릿\n무릉 물자 관리 단말기 1레벨\n속성\nLV\n70\n방어력\n+21\n힘\n+32\n의지\n+21\n생명력\n+41.4%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_364",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=364&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 364,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:37:07.057895+00:00",
+        "contentSha256": "2fc34b24d123a1431279dd4e823bdc19394e53cd0ca20ef2abe17d6e856306a5",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/생체_보조/364_생체_보조_접속기_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_1ab07dc6afcc",
+        "groupLabel": "생체 보조",
+        "entityName": "생체 보조 접속기 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_364.gear_option.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_option",
+      "content": "entity: 생체 보조 접속기 · I\ncategory: gear\nsection: gear_option\n정밀 단조\n정밀 단조\n적합 단조제 : 무릉 정밀 단조제\n정밀 단조 단계\n기본\n1단계\n2단계\n3단계\n힘\n+32\n+35\n+38\n+41\n의지\n+21\n+23\n+25\n+27\n생명력\n+41.4%\n+45.5%\n+49.7%\n+53.8%\n정밀 단조 누적 단계\n6\n12\n20",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_364",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=364&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 364,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:37:07.057895+00:00",
+        "contentSha256": "2fc34b24d123a1431279dd4e823bdc19394e53cd0ca20ef2abe17d6e856306a5",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/생체_보조/364_생체_보조_접속기_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_1ab07dc6afcc",
+        "groupLabel": "생체 보조",
+        "entityName": "생체 보조 접속기 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_364.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 생체 보조 접속기 · I\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n생체 보조\n부품\n3개 세트 효과:\n장착자의 치유 효율\n+20%\n장착자가 아군을 치유한 후, 목표가 10초 동안 받는 모든 유형 피해\n-15%\n,\n해당 목표가 받는 치유량이 최대치를 넘을 경우, 받는 모든 유형 피해\n-30%\n, 해당 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_364",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=364&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 364,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:37:07.057895+00:00",
+        "contentSha256": "2fc34b24d123a1431279dd4e823bdc19394e53cd0ca20ef2abe17d6e856306a5",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/생체_보조/364_생체_보조_접속기_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_1ab07dc6afcc",
+        "groupLabel": "생체 보조",
+        "entityName": "생체 보조 접속기 · I"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 447874150,
+      "code": "gear_set_1ab07dc6afcc",
+      "label": "생체 보조"
+    },
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    }
+  },
+  "level": 70,
+  "defense": 21,
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘",
+      "baseValue": {
+        "value": 32,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "의지",
+      "baseValue": {
+        "value": 21,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 3,
+        "code": "will",
+        "label": "의지"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "생명력",
+      "baseValue": {
+        "value": 41.4,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": true,
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "생명력",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 41.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 45.5,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 49.7,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 53.8,
+            "unit": "percent"
+          }
+        ]
+      }
+    ],
+    "evidenceDocumentId": "auto.gear_364.gear_option.c2.chapter.s2.p0.ko-kr"
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_364.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 447874150,
+    "code": "gear_set_1ab07dc6afcc",
+    "label": "생체 보조"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/생체_보조/364_생체_보조_접속기_·_I.json"
+}

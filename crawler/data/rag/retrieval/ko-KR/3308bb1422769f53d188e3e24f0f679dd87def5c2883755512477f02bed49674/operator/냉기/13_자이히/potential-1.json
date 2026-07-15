@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.13.potential-1",
+  "semanticKey": "ko-KR|operator|13|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_13",
+    "name": "자이히",
+    "aliases": [],
+    "gameEntryId": 13
+  },
+  "title": "자이히 — 잠재능력 1 애자일 엑스큐션",
+  "content": "자이히 오퍼레이터의 잠재능력 1 ‘애자일 엑스큐션’. 지원 결정체가 제공하는 아츠 증폭이 추가로 5% 증가합니다. 오퍼레이터 기념사진 \"탐구욕\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "애자일 엑스큐션",
+    "status": "rule_validated",
+    "effect": "지원 결정체가 제공하는 아츠 증폭이 추가로 5% 증가합니다. 오퍼레이터 기념사진 \"탐구욕\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+    "sourceSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_13.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "1f2e913d0bd96f472cff5d58dfdeb479aaecc7c2139b6f511a9c0a1de096cf27",
+    "payloadSha256": "3dfb314802369c902e5fa4ac1667c7f9cfea563071a3d5d71cb8aae028792b70"
+  }
+}

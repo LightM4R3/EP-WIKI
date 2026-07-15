@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.7.potential-4",
+  "semanticKey": "ko-KR|operator|7|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_7",
+    "name": "아크라이트",
+    "aliases": [],
+    "gameEntryId": 7
+  },
+  "title": "아크라이트 — 잠재능력 4 사자의 가르침",
+  "content": "아크라이트 오퍼레이터의 잠재능력 4 ‘사자의 가르침’. 궁극기 천둥 번개의 사용에 필요한 궁극기 에너지 -15%",
+  "facts": {
+    "stage": 4,
+    "name": "사자의 가르침",
+    "status": "rule_validated",
+    "effect": "궁극기 천둥 번개의 사용에 필요한 궁극기 에너지 -15%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+    "sourceSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_7.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4ee2b7419159262d843eb5481721ba46fdcb7ca17369daade8d4d2443e8d1706",
+    "payloadSha256": "cc670fd9f5d257f04d72a259b2ed2d236d8a23d11b940d3607cd80eba87edb6a"
+  }
+}

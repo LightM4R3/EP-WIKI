@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.12.potential-4",
+  "semanticKey": "ko-KR|operator|12|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_12",
+    "name": "여풍",
+    "aliases": [],
+    "gameEntryId": 12
+  },
+  "title": "여풍 — 잠재능력 4 찰나",
+  "content": "여풍 오퍼레이터의 잠재능력 4 ‘찰나’. 궁극기 움직이지 않는 마음의 사용에 필요한 궁극기 에너지 -15%",
+  "facts": {
+    "stage": 4,
+    "name": "찰나",
+    "status": "rule_validated",
+    "effect": "궁극기 움직이지 않는 마음의 사용에 필요한 궁극기 에너지 -15%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/12_여풍.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=12&header=0",
+    "sourceSha256": "9626ab3c4c237cebbf643ec7445b806db5b590e92aa287f9a9c9a9bbec71f9aa",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_12.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "23d9b8fcb362dae7ae761f898c9fa24cac8f3cdeac7198ac072b7cb5e959f4a7",
+    "payloadSha256": "a433ea2ba1846eb7e24ef2691353233ddc21593538563bf98b18451f02aefa3b"
+  }
+}

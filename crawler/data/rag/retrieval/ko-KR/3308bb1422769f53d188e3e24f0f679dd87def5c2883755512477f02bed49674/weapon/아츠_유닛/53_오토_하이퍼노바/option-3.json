@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.53.option-3",
+  "semanticKey": "ko-KR|weapon|53|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_53",
+    "name": "오토 하이퍼노바",
+    "aliases": [],
+    "gameEntryId": 53
+  },
+  "title": "오토 하이퍼노바 — 3번 옵션 사기 · 원정의 시작",
+  "content": "오토 하이퍼노바 무기의 3번 옵션 ‘사기 · 원정의 시작’.\nRANK1: 장착자의 생명력이 80%보다 높을 때, 공격력 +15.0%\nRANK2: 장착자의 생명력이 80%보다 높을 때, 공격력 +18.0%\nRANK3: 장착자의 생명력이 80%보다 높을 때, 공격력 +21.0%\nRANK4: 장착자의 생명력이 80%보다 높을 때, 공격력 +24.0%\nRANK5: 장착자의 생명력이 80%보다 높을 때, 공격력 +27.0%\nRANK6: 장착자의 생명력이 80%보다 높을 때, 공격력 +30.0%\nRANK7: 장착자의 생명력이 80%보다 높을 때, 공격력 +33.0%\nRANK8: 장착자의 생명력이 80%보다 높을 때, 공격력 +36.0%\nRANK9: 장착자의 생명력이 80%보다 높을 때, 공격력 +42.0%",
+  "facts": {
+    "slot": 3,
+    "name": "사기 · 원정의 시작",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +15.0%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +18.0%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +21.0%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +24.0%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +27.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +30.0%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +33.0%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +36.0%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +42.0%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/53_오토_하이퍼노바.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=53&header=0",
+    "sourceSha256": "288da12d622e4a598824ca2dcd77d3ff9ad33862ce343897e50449d57efa5908",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_53.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "ae07a1997a6daf61742327229ace0b3d88f9c31fa370eb7eb6175df810fc6cb5",
+    "payloadSha256": "606e608206079d2ad8216cae7a7fe2c43fb92eec1e6b1204badd4cd0bb1f65f9"
+  }
+}

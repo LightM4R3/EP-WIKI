@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_280",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 280,
+    "name": "M. I. 경찰용 망토"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=280&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "9f01fc6ecedc606f4991bdcc77b6f3d59141151be8b5f61053bf5a70f950fcd8",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_280.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: M. I. 경찰용 망토\ngameEntryId: 280\n정규화 상태: query_ready\n장비 세트: M. I. 경찰용 (id=2616968129, code=gear_set_9bfa3d212476)\n장비 유형: 방어구 (id=1, code=armor)\n품질: 노란색 품질 (id=0, code=yellow)\nLV: 70\n방어력: 56\n장비 옵션: 1번=지능 87; 2번=민첩 58; 3번=일반 공격 피해 보너스 13.8%\n정밀 단조 지원: 예\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_280",
+        "gameEntryId": 280,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=280&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/280_M._I._경찰용_망토.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 2616968129,
+        "groupCode": "gear_set_9bfa3d212476",
+        "groupLabel": "M. I. 경찰용",
+        "evidenceDocumentIds": [
+          "auto.gear_280.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_280.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_280.gear_option.c2.chapter.s2.p0.ko-kr",
+          "auto.gear_280.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_280.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: M. I. 경찰용 망토\ncategory: gear\nsection: profile\nM. I. 경찰용 망토\n품질\n노란색 품질\n장비 유형\n방어구\n세트\nM. I. 경찰용\n이 장비는 미에슈코 공업에서 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\nM. I. 경찰용 시리즈 장비.\n전쟁이 끝난 후, 미에슈코 공업은 생산 라인을 전환, 뛰어난 경량화 기술력을 인정받아 도시 경찰 장비 납품업체로 선정되었습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_280",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=280&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 280,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:28.860520+00:00",
+        "contentSha256": "9f01fc6ecedc606f4991bdcc77b6f3d59141151be8b5f61053bf5a70f950fcd8",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/280_M._I._경찰용_망토.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_9bfa3d212476",
+        "groupLabel": "M. I. 경찰용",
+        "entityName": "M. I. 경찰용 망토"
+      }
+    },
+    {
+      "documentId": "auto.gear_280.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: M. I. 경찰용 망토\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n8000\n*\n8000\n및\n50\n*\n50\n장비 템플릿\n장비 템플릿 상자\n속성\nLV\n70\n방어력\n+56\n지능\n+87\n민첩\n+58\n일반 공격 피해 보너스\n+13.8%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_280",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=280&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 280,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:28.860520+00:00",
+        "contentSha256": "9f01fc6ecedc606f4991bdcc77b6f3d59141151be8b5f61053bf5a70f950fcd8",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/280_M._I._경찰용_망토.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_9bfa3d212476",
+        "groupLabel": "M. I. 경찰용",
+        "entityName": "M. I. 경찰용 망토"
+      }
+    },
+    {
+      "documentId": "auto.gear_280.gear_option.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_option",
+      "content": "entity: M. I. 경찰용 망토\ncategory: gear\nsection: gear_option\n정밀 단조\n정밀 단조\n적합 단조제 : 무릉 정밀 단조제\n정밀 단조 단계\n기본\n1단계\n2단계\n3단계\n지능\n+87\n+95\n+104\n+113\n민첩\n+58\n+63\n+69\n+75\n일반 공격 피해 보너스\n+13.8%\n+15.2%\n+16.6%\n+17.9%\n정밀 단조 누적 단계\n6\n12\n20",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_280",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=280&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 280,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:28.860520+00:00",
+        "contentSha256": "9f01fc6ecedc606f4991bdcc77b6f3d59141151be8b5f61053bf5a70f950fcd8",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/280_M._I._경찰용_망토.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_9bfa3d212476",
+        "groupLabel": "M. I. 경찰용",
+        "entityName": "M. I. 경찰용 망토"
+      }
+    },
+    {
+      "documentId": "auto.gear_280.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: M. I. 경찰용 망토\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\nM. I. 경찰용\n방어구\n3개 세트 효과:\n장착자의 치명타 확률\n+5%\n장착자가 적에게 치명타를 준 후, 5초 동안 공격력\n+5%\n, 최대 중첩 5스택.\n최대 중첩 시, 치명타 확률 추가\n+5%\n, 해당 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_280",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=280&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 280,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:28.860520+00:00",
+        "contentSha256": "9f01fc6ecedc606f4991bdcc77b6f3d59141151be8b5f61053bf5a70f950fcd8",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/280_M._I._경찰용_망토.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_9bfa3d212476",
+        "groupLabel": "M. I. 경찰용",
+        "entityName": "M. I. 경찰용 망토"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 2616968129,
+      "code": "gear_set_9bfa3d212476",
+      "label": "M. I. 경찰용"
+    },
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    }
+  },
+  "level": 70,
+  "defense": 56,
+  "options": [
+    {
+      "slot": 1,
+      "name": "지능",
+      "baseValue": {
+        "value": 87,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 2,
+        "code": "intellect",
+        "label": "지능"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "민첩",
+      "baseValue": {
+        "value": 58,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "일반 공격 피해 보너스",
+      "baseValue": {
+        "value": 13.8,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": true,
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 58,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 63,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 69,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 75,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "일반 공격 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 13.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 15.2,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 16.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 17.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ],
+    "evidenceDocumentId": "auto.gear_280.gear_option.c2.chapter.s2.p0.ko-kr"
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_280.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 2616968129,
+    "code": "gear_set_9bfa3d212476",
+    "label": "M. I. 경찰용"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/280_M._I._경찰용_망토.json"
+}

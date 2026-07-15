@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_52",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 52,
+    "name": "섬광 번개"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=52&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "c1bc257c2d4269f0f21e8283f38603b84a9086a9e7f7aa1231e80a6153484d70",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_52.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 섬광 번개\ngameEntryId: 52\n정규화 상태: query_ready\n무기 유형: 아츠 유닛 (id=4, code=arts_unit)\n기초 공격력: LV.1=34, LV.20=100, LV.40=169, LV.60=238, LV.80=307, LV.90=341\n무기 옵션: 1번=의지 증가 · 소; 2번=공격력 증가 · 소; 3번=억제 · 비상 부스트\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_52",
+        "gameEntryId": 52,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=52&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/52_섬광_번개.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 4,
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "evidenceDocumentIds": [
+          "auto.weapon_52.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_52.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_52.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_52.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_52.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_52.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 섬광 번개\ncategory: weapon\nsection: profile\n섬광 번개\n유형\n아츠 유닛\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n엔드필드 공업에서 제작한 아츠 유닛 중 하나, 과감한 구조와 강력한 전도성을 갖췄지만 다루기 어렵습니다. 많은 오퍼레이터가 이것을 능숙하게 다루는 것을 실력의 증표로 여깁니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_52",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=52&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 52,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:15.832830+00:00",
+        "contentSha256": "c1bc257c2d4269f0f21e8283f38603b84a9086a9e7f7aa1231e80a6153484d70",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/52_섬광_번개.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "섬광 번개"
+      }
+    },
+    {
+      "documentId": "auto.weapon_52.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 섬광 번개\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n섬광 번개\n아츠 유닛\n·획득 방법\n예\n: 구매 센터 - 무기고 거래소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n34\n341\n의지 증가 · 소\n의지\n+12\n1/3\n의지\n+93\n9/9\n공격력 증가 · 소\n공격력\n+3.0%\n1/3\n공격력\n+23.4%\n9/9\n억제 · 비상 부스트\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+12.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n1/4\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+33.6%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_52",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=52&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 52,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:15.832830+00:00",
+        "contentSha256": "c1bc257c2d4269f0f21e8283f38603b84a9086a9e7f7aa1231e80a6153484d70",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/52_섬광_번개.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "섬광 번개"
+      }
+    },
+    {
+      "documentId": "auto.weapon_52.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 섬광 번개\ncategory: weapon\nsection: progression\n업그레이드\n돌파\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n34\n-\n의지 증가 · 소\n의지\n+12\n1/3\n공격력 증가 · 소\n공격력\n+3.0%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n100\n100\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n의지 증가 · 소\n의지\n+12\n1/3\n의지\n+21\n2/5\n공격력 증가 · 소\n공격력\n+3.0%\n1/3\n공격력\n+3.0%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n169\n169\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n의지 증가 · 소\n의지\n+21\n2/5\n의지\n+21\n2/6\n공격력 증가 · 소\n공격력\n+3.0%\n1/4\n공격력\n+5.4%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n238\n238\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n의지 증가 · 소\n의지\n+21\n2/6\n의지\n+31\n3/8\n공격력 증가 · 소\n공격력\n+5.4%\n2/6\n공격력\n+5.4%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n307\n307\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n의지 증가 · 소\n의지\n+31\n3/8\n의지\n+31\n3/9\n공격력 증가 · 소\n공격력\n+5.4%\n2/7\n공격력\n+7.8%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n341\n-\n의지 증가 · 소\n의지\n+31\n3/9\n공격력 증가 · 소\n공격력\n+7.8%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_52",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=52&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 52,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:15.832830+00:00",
+        "contentSha256": "c1bc257c2d4269f0f21e8283f38603b84a9086a9e7f7aa1231e80a6153484d70",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/52_섬광_번개.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "섬광 번개"
+      }
+    },
+    {
+      "documentId": "auto.weapon_52.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 섬광 번개\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n의지 증가 · 소\n공격력 증가 · 소\n억제 · 비상 부스트\nRANK 1\n의지\n+12\n공격력\n+3.0%\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+12.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 2\n의지\n+21\n공격력\n+5.4%\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+14.4%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 3\n의지\n+31\n공격력\n+7.8%\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+16.8%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 4\n의지\n+40\n공격력\n+10.2%\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+19.2%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 5\n의지\n+50\n공격력\n+12.6%\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+21.6%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 6\n의지\n+60\n공격력\n+15.0%\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+24.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 7\n의지\n+69\n공격력\n+17.4%\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+26.4%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 8\n의지\n+79\n공격력\n+19.8%\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+28.8%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 9\n의지\n+93\n공격력\n+23.4%\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+33.6%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n의지 증가\n공격력 증가\n억제",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_52",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=52&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 52,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:15.832830+00:00",
+        "contentSha256": "c1bc257c2d4269f0f21e8283f38603b84a9086a9e7f7aa1231e80a6153484d70",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/52_섬광_번개.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "섬광 번개"
+      }
+    },
+    {
+      "documentId": "auto.weapon_52.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 섬광 번개\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n억제 · 비상 부스트\n기본/최대\n억제 · 비상 부스트\n잠재능력 1\n1/4\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+12.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 2\n2/5\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+14.4%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 3\n3/6\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+16.8%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 4\n4/7\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+19.2%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 5\n5/8\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+21.6%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 6\n6/9\n장착자의 배틀 스킬이 적에게 명중할 때, 공격력\n+24.0%\n, 20초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_52",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=52&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 52,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:15.832830+00:00",
+        "contentSha256": "c1bc257c2d4269f0f21e8283f38603b84a9086a9e7f7aa1231e80a6153484d70",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/52_섬광_번개.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "섬광 번개"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 34
+    },
+    {
+      "level": 20,
+      "baseAttack": 100
+    },
+    {
+      "level": 40,
+      "baseAttack": 169
+    },
+    {
+      "level": 60,
+      "baseAttack": 238
+    },
+    {
+      "level": 80,
+      "baseAttack": 307
+    },
+    {
+      "level": 90,
+      "baseAttack": 341
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "의지 증가 · 소",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_52.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "공격력 증가 · 소",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_52.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "억제 · 비상 부스트",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_52.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 4,
+    "code": "arts_unit",
+    "label": "아츠 유닛"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/52_섬광_번개.json"
+}

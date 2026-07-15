@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.326.forging",
+  "semanticKey": "ko-KR|gear|326|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_326",
+    "name": "탁류 화염 절단기",
+    "aliases": [],
+    "gameEntryId": 326
+  },
+  "title": "탁류 화염 절단기 — 정밀 단조",
+  "content": "탁류 화염 절단기 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 지능: +0 32, +1 35, +2 38, +3 41.\n2번 힘: +0 21, +1 23, +2 25, +3 27.\n3번 일반 공격 피해 보너스: +0 27.6%, +1 30.4%, +2 33.1%, +3 35.9.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "일반 공격 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 27.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 30.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 33.1,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 35.9,
+            "unit": "flat"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_a297f6ca3aa0",
+    "groupLabel": "조류의 물결",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/조류의_물결/326_탁류_화염_절단기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=326&header=0",
+    "sourceSha256": "792b38a7c5b9ef3d21ad05dc725dcd695b5f8d06166e81e1f9d2fa9083c4f7f1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_326.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c57fb2c0ee327abfafa9417e14da593f9a873924962e45c3b030548b701a6be7",
+    "payloadSha256": "d4a532ffa1aec18a4759e10892ab124f826aa8eb58a22fc710bfe0750ddfa795"
+  }
+}

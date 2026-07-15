@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.23.profile",
+  "semanticKey": "ko-KR|operator|23|profile",
+  "locale": "ko-KR",
+  "documentType": "operator_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_23",
+    "name": "카치르",
+    "aliases": [],
+    "gameEntryId": 23
+  },
+  "title": "카치르 — 오퍼레이터 기본 정보",
+  "content": "카치르 오퍼레이터의 기본 정보. 속성은 물리, 무기 유형은 양손검이다. 주요 능력치는 힘, 보조 능력치는 의지이다.",
+  "facts": {
+    "name": "카치르",
+    "element": {
+      "id": 0,
+      "code": "physical",
+      "label": "물리"
+    },
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    "primaryAttribute": {
+      "id": 0,
+      "code": "strength",
+      "label": "힘"
+    },
+    "secondaryAttribute": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    },
+    "attributeCatalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_profile",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "elementCode": "physical",
+    "weaponTypeCode": "greatsword",
+    "primaryAttributeCode": "strength",
+    "secondaryAttributeCode": "will"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/23_카치르.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=23&header=0",
+    "sourceSha256": "bc0bfc7536d9836561ccdd2b8feeeba067fb28d44c332cf2d60746c0234bf642",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_23.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.operator_23.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문에서 희귀도를 텍스트로 확정할 수 없음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.class",
+        "reason": "클래스 이미지 매핑이 검증되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.portraitUrl",
+        "reason": "초상화 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b6a0f2587af43c56783def45764e06eeedc22e1779c196cc74e18474851f1c8e",
+    "payloadSha256": "ac01d3c00d0d54fca202a9b6508559ac3040e2cd76616f9a423a6aab7ffd4ef6"
+  }
+}

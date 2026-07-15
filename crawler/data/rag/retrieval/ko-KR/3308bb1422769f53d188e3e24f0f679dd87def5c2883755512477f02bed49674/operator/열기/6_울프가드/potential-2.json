@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.6.potential-2",
+  "semanticKey": "ko-KR|operator|6|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_6",
+    "name": "울프가드",
+    "aliases": [],
+    "gameEntryId": 6
+  },
+  "title": "울프가드 — 잠재능력 2 총기 개조",
+  "content": "울프가드 오퍼레이터의 잠재능력 2 ‘총기 개조’. 재능 '절제의 원칙' 효과 강화: 스킬 게이지 추가 반환 10 포인트",
+  "facts": {
+    "stage": 2,
+    "name": "총기 개조",
+    "status": "rule_validated",
+    "effect": "재능 '절제의 원칙' 효과 강화: 스킬 게이지 추가 반환 10 포인트"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/6_울프가드.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=6&header=0",
+    "sourceSha256": "492ece7d684a23a664abd89e05442e827d963e2742f2b546bfa1d3fcfaa297d1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_6.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "28386a027c055e7959d5fc16f15201f6db4cd88ab2add0f23320e61c6b7dacf7",
+    "payloadSha256": "69ec86456dff3be370022392b012ba9b5ee47895a392c8735eee5ba2334fff03"
+  }
+}

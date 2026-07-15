@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.1021.profile",
+  "semanticKey": "ko-KR|gear|1021|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_1021",
+    "name": "고검의 잔향 단검 · I",
+    "aliases": [],
+    "gameEntryId": 1021
+  },
+  "title": "고검의 잔향 단검 · I — 장비 기본 정보",
+  "content": "고검의 잔향 단검 · I 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 고검의 잔향이다. LV.70, 방어력 21. 옵션은 1번 민첩 32, 2번 힘 21, 3번 물리 피해 보너스 23%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "고검의 잔향 단검 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 0,
+      "code": "echo_of_ancient_sword",
+      "label": "고검의 잔향"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "물리 피해 보너스",
+        "baseValue": {
+          "value": 23,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.echo-of-ancient-sword.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "echo_of_ancient_sword",
+    "groupLabel": "고검의 잔향",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "echo_of_ancient_sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/고검의_잔향/1021_고검의_잔향_단검_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1021&header=0",
+    "sourceSha256": "9754dd3d99c3d518c43e0572ac9c017289d5407a8e3d728f87292b3d1e9921a1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_1021.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_1021.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "8fb5c4cf1eb32e314418b0ed479315cd03a3d923793b89f752dc52b5361679a9",
+    "payloadSha256": "94935717bd67212ae286e3bf872aa0ba3b122be30784007ea1efe9bb80ce8c0f"
+  }
+}

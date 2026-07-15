@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.22.potential-4",
+  "semanticKey": "ko-KR|operator|22|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_22",
+    "name": "안탈",
+    "aliases": [],
+    "gameEntryId": 22
+  },
+  "title": "안탈 — 잠재능력 4 할머니의 말씀",
+  "content": "안탈 오퍼레이터의 잠재능력 4 ‘할머니의 말씀’. 지능 +10, 최대 생명력 +10%",
+  "facts": {
+    "stage": 4,
+    "name": "할머니의 말씀",
+    "status": "rule_validated",
+    "effect": "지능 +10, 최대 생명력 +10%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/22_안탈.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=22&header=0",
+    "sourceSha256": "6aff68dbcd9f30961e9b0f621fb665be356853ce7740fbc1f77ae1c104d37b5d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_22.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c7a14a658de39ae3ae79bccb3a362fa93aa73d1c0a5f21656e2882d0ca44fe6d",
+    "payloadSha256": "00159c5556469bfd7ee6adfd3f100fab537b2eeba037fdcd5f75cac6818e0c6f"
+  }
+}

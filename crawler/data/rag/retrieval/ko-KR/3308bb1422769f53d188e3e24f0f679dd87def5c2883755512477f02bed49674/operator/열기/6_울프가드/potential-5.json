@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.6.potential-5",
+  "semanticKey": "ko-KR|operator|6|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_6",
+    "name": "울프가드",
+    "aliases": [],
+    "gameEntryId": 6
+  },
+  "title": "울프가드 — 잠재능력 5 타고난 포식자",
+  "content": "울프가드 오퍼레이터의 잠재능력 5 ‘타고난 포식자’. 궁극기 늑대의 분노를 사용했을 때, 즉시 연계 스킬 폭렬 수류탄 · β형의 쿨타임을 초기화합니다. 오퍼레이터 기념사진 \"포식자의 시선\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "타고난 포식자",
+    "status": "rule_validated",
+    "effect": "궁극기 늑대의 분노를 사용했을 때, 즉시 연계 스킬 폭렬 수류탄 · β형의 쿨타임을 초기화합니다. 오퍼레이터 기념사진 \"포식자의 시선\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/6_울프가드.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=6&header=0",
+    "sourceSha256": "492ece7d684a23a664abd89e05442e827d963e2742f2b546bfa1d3fcfaa297d1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_6.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "87b83e9c63a1d6e700cd4940358032b18e5a848b3cc712ca59d3191b5593fe56",
+    "payloadSha256": "9f55deb5c9e15e5a4c8abc29ac7f6750a9cb630ccf64d60e075f3050660d4b90"
+  }
+}

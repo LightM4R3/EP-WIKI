@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-9bfa3d212476.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_9bfa3d212476|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_9bfa3d212476",
+    "name": "M. I. 경찰용",
+    "aliases": []
+  },
+  "title": "M. I. 경찰용 — 장비 세트 효과",
+  "content": "M. I. 경찰용 장비 세트의 3개 세트 효과. 장착자의 치명타 확률 +5% 장착자가 적에게 치명타를 준 후, 5초 동안 공격력 +5%, 최대 중첩 5스택. 최대 중첩 시, 치명타 확률 추가 +5%, 해당 효과는 중첩되지 않습니다.",
+  "facts": {
+    "gearSet": {
+      "id": 2616968129,
+      "code": "gear_set_9bfa3d212476",
+      "label": "M. I. 경찰용"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 치명타 확률 +5% 장착자가 적에게 치명타를 준 후, 5초 동안 공격력 +5%, 최대 중첩 5스택. 최대 중첩 시, 치명타 확률 추가 +5%, 해당 효과는 중첩되지 않습니다.",
+    "memberGameEntryIds": [
+      250,
+      252,
+      254,
+      257,
+      261,
+      264,
+      267,
+      271,
+      273,
+      277,
+      280,
+      283,
+      771,
+      772,
+      773
+    ],
+    "evidenceCopyCount": 15
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_9bfa3d212476",
+    "groupLabel": "M. I. 경찰용",
+    "gearSetCode": "gear_set_9bfa3d212476",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=250&header=0",
+    "sourceSha256": "149d825486c96ffd531c64db4183112c2e0cf95a1c59e0e7863f6525207125ad",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_250.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_252.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_254.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_257.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_261.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_264.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_267.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_271.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_273.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_277.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_280.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_283.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_771.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_772.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_773.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "79bdfae041b7fe73297f6ae30a9d9c2d278a91f6a1901613af5d0f7cd678850c",
+    "payloadSha256": "4e66745455c1ea4803d79794182fea0aaaf6e3f4030cb5df3cf20ea99aee64f2"
+  }
+}

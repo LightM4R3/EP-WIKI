@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.69.profile",
+  "semanticKey": "ko-KR|weapon|69|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_69",
+    "name": "암흑의 횃불",
+    "aliases": [],
+    "gameEntryId": 69
+  },
+  "title": "암흑의 횃불 — 무기 기본 정보",
+  "content": "암흑의 횃불 무기의 기본 정보. 무기 유형은 한손검이다. 옵션은 1번 지능 증가 · 대, 2번 열기 피해 증가 · 대, 3번 고통 · 쌓이는 탐욕이다.",
+  "facts": {
+    "name": "암흑의 횃불",
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.69.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "열기 피해 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.69.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "고통 · 쌓이는 탐욕",
+        "documentRef": "epwiki.ko-kr.weapon.69.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "weaponTypeCode": "sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/69_암흑의_횃불.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=69&header=0",
+    "sourceSha256": "f7e90808c623b90bb744a3e6e1c362528fa7494ccb82b54dd96230343920550b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_69.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_69.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e80a30b42e8508e38fde9d2ac1ebb2c29cd06cfbbfbc8f9726fe10d0ab642b0b",
+    "payloadSha256": "0e84a1df5ed486055b1b1da07b817bd3647bd354d047f8d2a7503ff30bac6aa6"
+  }
+}

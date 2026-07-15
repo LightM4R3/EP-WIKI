@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.772.profile",
+  "semanticKey": "ko-KR|gear|772|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_772",
+    "name": "M. I. 경찰용 장갑 · I",
+    "aliases": [],
+    "gameEntryId": 772
+  },
+  "title": "M. I. 경찰용 장갑 · I — 장비 기본 정보",
+  "content": "M. I. 경찰용 장갑 · I 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 M. I. 경찰용이다. LV.70, 방어력 42. 옵션은 1번 민첩 65, 2번 지능 43, 3번 궁극기 피해 보너스 43.1%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "M. I. 경찰용 장갑 · I",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2616968129,
+      "code": "gear_set_9bfa3d212476",
+      "label": "M. I. 경찰용"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 피해 보너스",
+        "baseValue": {
+          "value": 43.1,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-9bfa3d212476.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_9bfa3d212476",
+    "groupLabel": "M. I. 경찰용",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_9bfa3d212476"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/772_M._I._경찰용_장갑_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=772&header=0",
+    "sourceSha256": "de837eff337d6f248a9d78e98788663091cc5b142f839aa9e4d50b886398d988",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_772.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_772.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "11ec98aaeda183480f0118e84d0ffd8078e89fc509813f6fcc29af2214550a95",
+    "payloadSha256": "9befa2c18f7634ee9cc743127a461777017e964dd8f8e161ed2ad46ba94d7ebe"
+  }
+}

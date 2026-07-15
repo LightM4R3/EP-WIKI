@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.1032.option-2",
+  "semanticKey": "ko-KR|weapon|1032|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_1032",
+    "name": "붉게 물든 가호",
+    "aliases": [],
+    "gameEntryId": 1032
+  },
+  "title": "붉게 물든 가호 — 2번 옵션 열기 피해 증가 · 대",
+  "content": "붉게 물든 가호 무기의 2번 옵션 ‘열기 피해 증가 · 대’.\nRANK1: 열기 피해 +5.6%.\nRANK2: 열기 피해 +10.0%.\nRANK3: 열기 피해 +14.4%.\nRANK4: 열기 피해 +18.9%.\nRANK5: 열기 피해 +23.3%.\nRANK6: 열기 피해 +27.8%.\nRANK7: 열기 피해 +32.2%.\nRANK8: 열기 피해 +36.7%.\nRANK9: 열기 피해 +43.3%.",
+  "facts": {
+    "slot": 2,
+    "name": "열기 피해 증가 · 대",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "열기 피해",
+        "value": 5.6,
+        "unit": "percent",
+        "display": "+5.6%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "열기 피해",
+        "value": 10,
+        "unit": "percent",
+        "display": "+10.0%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "열기 피해",
+        "value": 14.4,
+        "unit": "percent",
+        "display": "+14.4%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "열기 피해",
+        "value": 18.9,
+        "unit": "percent",
+        "display": "+18.9%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "열기 피해",
+        "value": 23.3,
+        "unit": "percent",
+        "display": "+23.3%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "열기 피해",
+        "value": 27.8,
+        "unit": "percent",
+        "display": "+27.8%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "열기 피해",
+        "value": 32.2,
+        "unit": "percent",
+        "display": "+32.2%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "열기 피해",
+        "value": 36.7,
+        "unit": "percent",
+        "display": "+36.7%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "열기 피해",
+        "value": 43.3,
+        "unit": "percent",
+        "display": "+43.3%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/1032_붉게_물든_가호.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1032&header=0",
+    "sourceSha256": "ef5683ef54a17f1e5dfcc25db754f681db8fc87eea31009a88600fc43520cd45",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_1032.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "ce7db19694cfe77bc97bda29585e57a17bf3c965b5f98c21b29c8902d719ba80",
+    "payloadSha256": "dca1a0dd55d34293ea2acc1667551af1c40560d5dc4001b88b535820b81e452e"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.41.option-2",
+  "semanticKey": "ko-KR|weapon|41|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_41",
+    "name": "오페로 77",
+    "aliases": [],
+    "gameEntryId": 41
+  },
+  "title": "오페로 77 — 2번 옵션 강공 · 무장 정비",
+  "content": "오페로 77 무기의 2번 옵션 ‘강공 · 무장 정비’.\nRANK1: 공격력 +12\nRANK2: 공격력 +14\nRANK3: 공격력 +17\nRANK4: 공격력 +19\nRANK5: 공격력 +22\nRANK6: 공격력 +24\nRANK7: 공격력 +26\nRANK8: 공격력 +29\nRANK9: 공격력 +34",
+  "facts": {
+    "slot": 2,
+    "name": "강공 · 무장 정비",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "공격력 +12"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "공격력 +14"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "공격력 +17"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "공격력 +19"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "공격력 +22"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "공격력 +24"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "공격력 +26"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "공격력 +29"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "공격력 +34"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/41_오페로_77.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=41&header=0",
+    "sourceSha256": "b7e26b85153013390f10496f2e77b96b9cb28ed1e3292a8dedd6e7cfd38f7bf3",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_41.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3215c1da490705ef351746971404028dbf71b8fdc66f95fdd1f3087c39431f59",
+    "payloadSha256": "7791f2abc2abf2088254e67541d079cba8da84a7e09ce9187bf92a03de352dba"
+  }
+}

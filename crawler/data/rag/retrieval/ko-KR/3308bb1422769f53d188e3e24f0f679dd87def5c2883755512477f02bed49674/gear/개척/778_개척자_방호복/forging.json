@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.778.forging",
+  "semanticKey": "ko-KR|gear|778|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_778",
+    "name": "개척자 방호복",
+    "aliases": [],
+    "gameEntryId": 778
+  },
+  "title": "개척자 방호복 — 정밀 단조",
+  "content": "개척자 방호복 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 지능: +0 87, +1 95, +2 104, +3 113.\n2번 민첩: +0 58, +1 63, +2 69, +3 75.\n3번 궁극기 충전 효율: +0 12.3%, +1 13.6%, +2 14.8%, +3 16%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 58,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 63,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 69,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 75,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 12.3,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 13.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 14.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 16,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_443e330e6735",
+    "groupLabel": "개척",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/778_개척자_방호복.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=778&header=0",
+    "sourceSha256": "520354512eae41928f362a1072a7e56ccfe56473a83b2ea056897663e5845734",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_778.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5b26f348efe9413c5975110248839759c45aa98c9469f3e063e48f426a003c2d",
+    "payloadSha256": "c9fd00b25b11af02e7fef974978f4334398aa4e07b4ce6a10a19fce6bc6cc68b"
+  }
+}

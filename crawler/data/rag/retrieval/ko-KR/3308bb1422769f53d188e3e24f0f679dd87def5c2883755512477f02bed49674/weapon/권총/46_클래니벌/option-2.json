@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.46.option-2",
+  "semanticKey": "ko-KR|weapon|46|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_46",
+    "name": "클래니벌",
+    "aliases": [],
+    "gameEntryId": 46
+  },
+  "title": "클래니벌 — 2번 옵션 아츠 피해 증가 · 대",
+  "content": "클래니벌 무기의 2번 옵션 ‘아츠 피해 증가 · 대’.\nRANK1: 아츠 피해 +5.6%.\nRANK2: 아츠 피해 +10.0%.\nRANK3: 아츠 피해 +14.4%.\nRANK4: 아츠 피해 +18.9%.\nRANK5: 아츠 피해 +23.3%.\nRANK6: 아츠 피해 +27.8%.\nRANK7: 아츠 피해 +32.2%.\nRANK8: 아츠 피해 +36.7%.\nRANK9: 아츠 피해 +43.3%.",
+  "facts": {
+    "slot": 2,
+    "name": "아츠 피해 증가 · 대",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "아츠 피해",
+        "value": 5.6,
+        "unit": "percent",
+        "display": "+5.6%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "아츠 피해",
+        "value": 10,
+        "unit": "percent",
+        "display": "+10.0%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "아츠 피해",
+        "value": 14.4,
+        "unit": "percent",
+        "display": "+14.4%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "아츠 피해",
+        "value": 18.9,
+        "unit": "percent",
+        "display": "+18.9%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "아츠 피해",
+        "value": 23.3,
+        "unit": "percent",
+        "display": "+23.3%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "아츠 피해",
+        "value": 27.8,
+        "unit": "percent",
+        "display": "+27.8%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "아츠 피해",
+        "value": 32.2,
+        "unit": "percent",
+        "display": "+32.2%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "아츠 피해",
+        "value": 36.7,
+        "unit": "percent",
+        "display": "+36.7%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "아츠 피해",
+        "value": 43.3,
+        "unit": "percent",
+        "display": "+43.3%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/46_클래니벌.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=46&header=0",
+    "sourceSha256": "9a440eced0f7e1796d5234cc7f46231e7aee7d94e325aba257f2d07ad63eec98",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_46.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b480f69133eafe6c29261e66fce4c9679caf08f25576ce70aafe9e784a4a1c52",
+    "payloadSha256": "05c2c877545a1aea378c8d541c31a2893a985f102e57684d90ddd0749e1815e3"
+  }
+}

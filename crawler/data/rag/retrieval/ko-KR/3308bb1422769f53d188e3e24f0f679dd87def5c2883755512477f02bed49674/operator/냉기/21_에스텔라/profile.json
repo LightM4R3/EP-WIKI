@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.21.profile",
+  "semanticKey": "ko-KR|operator|21|profile",
+  "locale": "ko-KR",
+  "documentType": "operator_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_21",
+    "name": "에스텔라",
+    "aliases": [],
+    "gameEntryId": 21
+  },
+  "title": "에스텔라 — 오퍼레이터 기본 정보",
+  "content": "에스텔라 오퍼레이터의 기본 정보. 속성은 냉기, 무기 유형은 장병기이다. 주요 능력치는 의지, 보조 능력치는 힘이다.",
+  "facts": {
+    "name": "에스텔라",
+    "element": {
+      "id": 3,
+      "code": "cryo",
+      "label": "냉기"
+    },
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    },
+    "primaryAttribute": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    },
+    "secondaryAttribute": {
+      "id": 0,
+      "code": "strength",
+      "label": "힘"
+    },
+    "attributeCatalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_profile",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "elementCode": "cryo",
+    "weaponTypeCode": "polearm",
+    "primaryAttributeCode": "will",
+    "secondaryAttributeCode": "strength"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+    "sourceSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_21.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.operator_21.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문에서 희귀도를 텍스트로 확정할 수 없음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.class",
+        "reason": "클래스 이미지 매핑이 검증되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.portraitUrl",
+        "reason": "초상화 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "ea4cdbefc8353a2c0804df9b3771bbc6c55c9e0b8ea17f5cb792474659f113a8",
+    "payloadSha256": "36f4c6e4641ff9b5d28944913f364438c72df593dc894753063eb9c3c3e6d55c"
+  }
+}

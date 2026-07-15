@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.57.option-1",
+  "semanticKey": "ko-KR|weapon|57|option-1",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_57",
+    "name": "끝없는 여정",
+    "aliases": [],
+    "gameEntryId": 57
+  },
+  "title": "끝없는 여정 — 1번 옵션 힘 증가 · 소",
+  "content": "끝없는 여정 무기의 1번 옵션 ‘힘 증가 · 소’.\nRANK1: 힘 +12.\nRANK2: 힘 +21.\nRANK3: 힘 +31.\nRANK4: 힘 +40.\nRANK5: 힘 +50.\nRANK6: 힘 +60.\nRANK7: 힘 +69.\nRANK8: 힘 +79.\nRANK9: 힘 +93.",
+  "facts": {
+    "slot": 1,
+    "name": "힘 증가 · 소",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "힘",
+        "value": 12,
+        "unit": "flat",
+        "display": "+12"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "힘",
+        "value": 21,
+        "unit": "flat",
+        "display": "+21"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "힘",
+        "value": 31,
+        "unit": "flat",
+        "display": "+31"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "힘",
+        "value": 40,
+        "unit": "flat",
+        "display": "+40"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "힘",
+        "value": 50,
+        "unit": "flat",
+        "display": "+50"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "힘",
+        "value": 60,
+        "unit": "flat",
+        "display": "+60"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "힘",
+        "value": 69,
+        "unit": "flat",
+        "display": "+69"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "힘",
+        "value": 79,
+        "unit": "flat",
+        "display": "+79"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "힘",
+        "value": 93,
+        "unit": "flat",
+        "display": "+93"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "optionSlot": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/57_끝없는_여정.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=57&header=0",
+    "sourceSha256": "2ed95ffe79ba943f50a7fad554272cf36c843be643303f7842180dc20d0ca2fd",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_57.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "6fdb45eee383a8ad157176da963ef2622099fd64aa297c2966683d56e741cdd5",
+    "payloadSha256": "786e7fd3d26e44c584f5d044e0362de3fd8a57491a1eea82348c71863eeffaf7"
+  }
+}

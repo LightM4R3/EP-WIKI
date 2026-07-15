@@ -1,0 +1,96 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.7.profile",
+  "semanticKey": "ko-KR|operator|7|profile",
+  "locale": "ko-KR",
+  "documentType": "operator_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_7",
+    "name": "아크라이트",
+    "aliases": [],
+    "gameEntryId": 7
+  },
+  "title": "아크라이트 — 오퍼레이터 기본 정보",
+  "content": "아크라이트 오퍼레이터의 기본 정보. 속성은 전기, 무기 유형은 한손검이다. 주요 능력치는 민첩, 보조 능력치는 지능이다.",
+  "facts": {
+    "name": "아크라이트",
+    "element": {
+      "id": 2,
+      "code": "electric",
+      "label": "전기"
+    },
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "primaryAttribute": {
+      "id": 1,
+      "code": "agility",
+      "label": "민첩"
+    },
+    "secondaryAttribute": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    },
+    "attributeCatalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_profile",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "elementCode": "electric",
+    "weaponTypeCode": "sword",
+    "primaryAttributeCode": "agility",
+    "secondaryAttributeCode": "intellect"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+    "sourceSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_7.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.operator_7.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문에서 희귀도를 텍스트로 확정할 수 없음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.class",
+        "reason": "클래스 이미지 매핑이 검증되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.portraitUrl",
+        "reason": "초상화 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "86cedf1b8791f9c326cd601b28d9bb7fd78bc17541634efb4361b737431e3b29",
+    "payloadSha256": "daf8cb0b59710a73cb54278259f7dd3907be852ce7a1ed2abadccd36f3e8818b"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.25.potential-3",
+  "semanticKey": "ko-KR|operator|25|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_25",
+    "name": "탕탕",
+    "aliases": [],
+    "gameEntryId": 25
+  },
+  "title": "탕탕 — 잠재능력 3 대당가의 기백",
+  "content": "탕탕 오퍼레이터의 잠재능력 3 ‘대당가의 기백’. 배틀 스킬 우당탕탕 파도!의 피해 배율이 기존의 1.1 배로 증가하며, 동시에 여러 개의 용오름이 생성될 때 부여하는 아츠 취약 효과가 추가로 +5%. 오퍼레이터 기념사진 \"절균\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "대당가의 기백",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 우당탕탕 파도!의 피해 배율이 기존의 1.1 배로 증가하며, 동시에 여러 개의 용오름이 생성될 때 부여하는 아츠 취약 효과가 추가로 +5%. 오퍼레이터 기념사진 \"절균\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+    "sourceSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+    "authority": "canonical",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.operator_25.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0b3d2362de491a2c61910c5e26e894f4687b42d57b552b77372a1ed476aab7c6",
+    "payloadSha256": "d5f6d7656a67f7b330a574308583690b0a6d1f165792cb37505c20f418831fb0"
+  }
+}

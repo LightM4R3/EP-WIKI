@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.376.forging",
+  "semanticKey": "ko-KR|gear|376|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_376",
+    "name": "본 크러셔 마스크 · I",
+    "aliases": [],
+    "gameEntryId": 376
+  },
+  "title": "본 크러셔 마스크 · I — 정밀 단조",
+  "content": "본 크러셔 마스크 · I 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 민첩: +0 32, +1 35, +2 38, +3 41.\n2번 힘: +0 21, +1 23, +2 25, +3 27.\n3번 치명타 확률: +0 10.4%, +1 11.4%, +2 12.4%, +3 13.5%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "치명타 확률",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 10.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 11.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 12.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 13.5,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1f8b8dc4f539",
+    "groupLabel": "본 크러셔",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/본_크러셔/376_본_크러셔_마스크_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=376&header=0",
+    "sourceSha256": "7a6a96bd243619bcf393c071295ec6e53527601ec69ffa230e26d2c24c829e5f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_376.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c006e0acf3bbd38532a6ef019942ae63f541761413d249476143b2b30f90669c",
+    "payloadSha256": "aef9d4dc7fe67e3af8afc698fd9addd9190330e49c0c498863a953ffd15de4f9"
+  }
+}

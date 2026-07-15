@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "wiki.skport.com의 표시값을 그대로 사용할 수 없을 때 적용하는 검수 완료 정규화 보정값",
+  "entities": [
+    {
+      "entityType": "operator",
+      "gameEntryId": 2,
+      "identity": {
+        "name": "관리자",
+        "canonicalCode": "administrator",
+        "aliases": [
+          "관리자(남)",
+          "관리자(여)"
+        ]
+      },
+      "reason": "관리자(남)과 관리자(여)는 동일 오퍼레이터의 성별 선택형 변형이다."
+    },
+    {
+      "entityType": "operator",
+      "gameEntryId": 3,
+      "exclude": true,
+      "canonicalGameEntryId": 2,
+      "sourceName": "관리자(여)",
+      "reason": "gameEntryId 2와 동일한 관리자이므로 중복 RAG 엔티티에서 제외한다."
+    },
+    {
+      "entityType": "weapon",
+      "gameEntryId": 89,
+      "taxonomy": {
+        "weaponTypeLabel": "권총"
+      },
+      "reason": "5성 무기 이성적인 작별의 올바른 무기 분류는 권총이다."
+    }
+  ]
+}

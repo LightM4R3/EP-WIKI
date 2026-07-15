@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-c82824cda56b.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_c82824cda56b|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_c82824cda56b",
+    "name": "열 작업용",
+    "aliases": []
+  },
+  "title": "열 작업용 — 장비 세트 효과",
+  "content": "열 작업용 장비 세트의 3개 세트 효과. 장착자의 오리지늄 아츠 강도 +30 장착자가 적에게 연소를 부여한 후, 열기 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다. 장착자가 적에게 부식을 부여한 후, 자연 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다.",
+  "facts": {
+    "gearSet": {
+      "id": 3358174061,
+      "code": "gear_set_c82824cda56b",
+      "label": "열 작업용"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 오리지늄 아츠 강도 +30 장착자가 적에게 연소를 부여한 후, 열기 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다. 장착자가 적에게 부식을 부여한 후, 자연 피해 +50%, 10초 동안 지속, 해당 효과는 중첩되지 않습니다.",
+    "memberGameEntryIds": [
+      286,
+      288,
+      290,
+      292,
+      294,
+      296,
+      775,
+      776
+    ],
+    "evidenceCopyCount": 8
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_c82824cda56b",
+    "groupLabel": "열 작업용",
+    "gearSetCode": "gear_set_c82824cda56b",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=286&header=0",
+    "sourceSha256": "c7d9f5db5f7549f4065ac307375aa698efa75aeac55e180af4c5f5924204b73f",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_286.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_288.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_290.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_292.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_294.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_296.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_775.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_776.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9037272ec9337730cdceb3336eec44ba5f385cf81e0b78ae9e0cfc3c1c91dff3",
+    "payloadSha256": "3bd82f8a874823283e20605daaa4fa1cfbda8d54ef3dbe29968d5202c88800d1"
+  }
+}

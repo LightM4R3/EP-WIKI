@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "gearTypes",
+  "entries": [
+    {
+      "id": 0,
+      "code": "gloves",
+      "labels": { "ko-KR": "글러브" }
+    }
+  ]
+}

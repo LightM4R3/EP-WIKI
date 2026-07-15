@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.19.potential-2",
+  "semanticKey": "ko-KR|operator|19|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_19",
+    "name": "아델리아",
+    "aliases": [],
+    "gameEntryId": 19
+  },
+  "title": "아델리아 — 잠재능력 2 게임 보상",
+  "content": "아델리아 오퍼레이터의 잠재능력 2 ‘게임 보상’. 재능 '친구의 그림자' 효과 강화: 메인 컨트롤 오퍼레이터가 돌리 씨의 그림자와 접촉한 후, 아델리아는 생명력 백분율이 가장 낮은 다른 아군 오퍼레이터 1명을 추가로 치유합니다. 해당 효과는 절반의 효과만 적용됩니다.",
+  "facts": {
+    "stage": 2,
+    "name": "게임 보상",
+    "status": "rule_validated",
+    "effect": "재능 '친구의 그림자' 효과 강화: 메인 컨트롤 오퍼레이터가 돌리 씨의 그림자와 접촉한 후, 아델리아는 생명력 백분율이 가장 낮은 다른 아군 오퍼레이터 1명을 추가로 치유합니다. 해당 효과는 절반의 효과만 적용됩니다."
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+    "sourceSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_19.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c9a6a80f2df7f9407b31a801daf7158ca5ebc125d2c43461212e401f9fbb724c",
+    "payloadSha256": "723779ddafca2aa533d0a8fe8de272e45098510a8de3660c4f96bbbb4f23438d"
+  }
+}

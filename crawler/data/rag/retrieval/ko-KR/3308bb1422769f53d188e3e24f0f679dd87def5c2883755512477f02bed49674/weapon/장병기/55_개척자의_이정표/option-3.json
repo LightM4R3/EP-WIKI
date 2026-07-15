@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.55.option-3",
+  "semanticKey": "ko-KR|weapon|55|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_55",
+    "name": "개척자의 이정표",
+    "aliases": [],
+    "gameEntryId": 55
+  },
+  "title": "개척자의 이정표 — 3번 옵션 사기 · 원정의 시작",
+  "content": "개척자의 이정표 무기의 3번 옵션 ‘사기 · 원정의 시작’.\nRANK1: 장착자의 생명력이 80%보다 높을 때, 공격력 +15.0%\nRANK2: 장착자의 생명력이 80%보다 높을 때, 공격력 +18.0%\nRANK3: 장착자의 생명력이 80%보다 높을 때, 공격력 +21.0%\nRANK4: 장착자의 생명력이 80%보다 높을 때, 공격력 +24.0%\nRANK5: 장착자의 생명력이 80%보다 높을 때, 공격력 +27.0%\nRANK6: 장착자의 생명력이 80%보다 높을 때, 공격력 +30.0%\nRANK7: 장착자의 생명력이 80%보다 높을 때, 공격력 +33.0%\nRANK8: 장착자의 생명력이 80%보다 높을 때, 공격력 +36.0%\nRANK9: 장착자의 생명력이 80%보다 높을 때, 공격력 +42.0%",
+  "facts": {
+    "slot": 3,
+    "name": "사기 · 원정의 시작",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +15.0%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +18.0%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +21.0%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +24.0%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +27.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +30.0%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +33.0%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +36.0%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "장착자의 생명력이 80%보다 높을 때, 공격력 +42.0%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/55_개척자의_이정표.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=55&header=0",
+    "sourceSha256": "abbab11b3eff57bccf1ac4188c75cd6a0ec39978e10caa299d1a034924e69305",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_55.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7e5a3b53a6d99b6f7b1bdf03bea99c8b69a6de4be6bfa9fb605354f854fb1222",
+    "payloadSha256": "e22ba31c7e1ccbbf1876a12ebb35e655ed83b9195cd4220ce8e08764c648e6b3"
+  }
+}

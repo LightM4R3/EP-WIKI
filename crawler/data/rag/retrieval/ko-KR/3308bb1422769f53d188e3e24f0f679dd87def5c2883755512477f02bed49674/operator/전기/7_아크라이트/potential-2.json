@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.7.potential-2",
+  "semanticKey": "ko-KR|operator|7|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_7",
+    "name": "아크라이트",
+    "aliases": [],
+    "gameEntryId": 7
+  },
+  "title": "아크라이트 — 잠재능력 2 속전속결",
+  "content": "아크라이트 오퍼레이터의 잠재능력 2 ‘속전속결’. 민첩 +15, 지능 +15",
+  "facts": {
+    "stage": 2,
+    "name": "속전속결",
+    "status": "rule_validated",
+    "effect": "민첩 +15, 지능 +15"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+    "sourceSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_7.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e9d805b17dc447b94e8173e4434500a5c7a4e046d3922982e684fb8d3a9fd5c3",
+    "payloadSha256": "9e444d47bcd25a4389637db00a82e8065b8fd56440adcb2533e18742c1a85328"
+  }
+}

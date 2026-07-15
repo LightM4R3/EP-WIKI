@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.11.infrastructure-2",
+  "semanticKey": "ko-KR|operator|11|infrastructure-2",
+  "locale": "ko-KR",
+  "documentType": "operator_infrastructure_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_11",
+    "name": "레바테인",
+    "aliases": [],
+    "gameEntryId": 11
+  },
+  "title": "레바테인 — 인프라 재능 꺼지지 않는 불꽃",
+  "content": "레바테인 오퍼레이터의 인프라 재능 ‘꺼지지 않는 불꽃’.\n꺼지지 않는 불꽃 · β: 제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 3000개.\n꺼지지 않는 불꽃 · γ: 제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 18% 감소. 활성화 조건: 정예화 단계 4 돌파. 재료: 프로토콜 프리즘 세트 20개, 탈로시안 화폐 20000개.",
+  "facts": {
+    "index": 2,
+    "name": "꺼지지 않는 불꽃",
+    "variants": [
+      {
+        "grade": "β",
+        "name": "꺼지지 않는 불꽃 · β",
+        "description": "제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 3000
+          }
+        ]
+      },
+      {
+        "grade": "γ",
+        "name": "꺼지지 않는 불꽃 · γ",
+        "description": "제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 18% 감소",
+        "conditions": [
+          "정예화 단계 4 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 20
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 20000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_infrastructure_talent",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "infrastructureTalentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/11_레바테인.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=11&header=0",
+    "sourceSha256": "6b76bc23ee1929d6d5da560bc66fe044c58fa1de186cbcacff5bd3ff1e01bad7",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_11.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "06698f283ee4a7f2f1ede0322c0211b4872dedde08ff8186ca59761d5834ce10",
+    "payloadSha256": "23145ac7565a84f3d017f037c92ac181e8419a7e4da50925ce9095216537c50f"
+  }
+}

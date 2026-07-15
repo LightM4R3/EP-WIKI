@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_77",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 77,
+    "name": "용사"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=77&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "f582ce3e68999d9f668f102be3a4e935ae691f70949b4d2c50a4e811a79462b8",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_77.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 용사\ngameEntryId: 77\n정규화 상태: query_ready\n무기 유형: 장병기 (id=2, code=polearm)\n기초 공격력: LV.1=50, LV.20=145, LV.40=245, LV.60=345, LV.80=445, LV.90=495\n무기 옵션: 1번=민첩 증가 · 대; 2번=물리 피해 증가 · 대; 3번=기예 · 좋은 품성의 결실\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_77",
+        "gameEntryId": 77,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=77&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/77_용사.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 2,
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "evidenceDocumentIds": [
+          "auto.weapon_77.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_77.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_77.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_77.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_77.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_77.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 용사\ncategory: weapon\nsection: profile\n용사\n유형\n장병기\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n미에슈코 공업의 중급 라인 제품 중 하나, 레트로 대형 화살 디자인과 뛰어난 실전 활용성 덕분에 오늘날에도 가격을 매길 수 없는 가치를 자랑합니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_77",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=77&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 77,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:08.557330+00:00",
+        "contentSha256": "f582ce3e68999d9f668f102be3a4e935ae691f70949b4d2c50a4e811a79462b8",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/77_용사.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "용사"
+      }
+    },
+    {
+      "documentId": "auto.weapon_77.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 용사\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n용사\n장병기\n·획득 방식\n구매 센터 - 무기고 교환소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n50\n495\n민첩 증가 · 대\n민첩\n+20\n1/3\n민첩\n+156\n9/9\n물리 피해 증가 · 대\n물리 피해\n+5.6%\n1/3\n물리 피해\n+43.3%\n9/9\n기예 · 좋은 품성의 결실\n공격력\n+10.0%\n장착자가\n물리 이상\n효과를 준 후, 추가로 자신의 공격력\n120.0%\n의 물리 피해를 줍니다.\n1/4\n공격력\n+28.0%\n장착자가\n물리 이상\n효과를 준 후, 추가로 자신의 공격력\n336.0%\n의 물리 피해를 줍니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_77",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=77&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 77,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:08.557330+00:00",
+        "contentSha256": "f582ce3e68999d9f668f102be3a4e935ae691f70949b4d2c50a4e811a79462b8",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/77_용사.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "용사"
+      }
+    },
+    {
+      "documentId": "auto.weapon_77.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 용사\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n50\n-\n민첩 증가 · 대\n민첩\n+20\n1/3\n물리 피해 증가 · 대\n물리 피해\n+5.6%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n145\n145\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n민첩 증가 · 대\n민첩\n+20\n1/3\n민첩\n+36\n2/5\n물리 피해 증가 · 대\n물리 피해\n+5.6%\n1/3\n물리 피해\n+5.6%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n245\n245\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n민첩 증가 · 대\n민첩\n+36\n2/5\n민첩\n+36\n2/6\n물리 피해 증가 · 대\n물리 피해\n+5.6%\n1/4\n물리 피해\n+10.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n345\n345\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n민첩 증가 · 대\n민첩\n+36\n2/6\n민첩\n+52\n3/8\n물리 피해 증가 · 대\n물리 피해\n+10.0%\n2/6\n물리 피해\n+10.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n445\n445\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n민첩 증가 · 대\n민첩\n+52\n3/8\n민첩\n+52\n3/9\n물리 피해 증가 · 대\n물리 피해\n+10.0%\n2/7\n물리 피해\n+14.4%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n495\n-\n민첩 증가 · 대\n민첩\n+52\n3/9\n물리 피해 증가 · 대\n물리 피해\n+14.4%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_77",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=77&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 77,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:08.557330+00:00",
+        "contentSha256": "f582ce3e68999d9f668f102be3a4e935ae691f70949b4d2c50a4e811a79462b8",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/77_용사.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "용사"
+      }
+    },
+    {
+      "documentId": "auto.weapon_77.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 용사\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n민첩 증가 · 대\n물리 피해 증가 · 대\n기예 · 좋은 품성의 결실\nRANK 1\n민첩\n+20\n물리 피해\n+5.6%\n공격력\n+10.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n120.0%\n의 물리 피해를 줍니다.\nRANK 2\n민첩\n+36\n물리 피해\n+10.0%\n공격력\n+12.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n144.0%\n의 물리 피해를 줍니다.\nRANK 3\n민첩\n+52\n물리 피해\n+14.4%\n공격력\n+14.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n168.0%\n의 물리 피해를 줍니다.\nRANK 4\n민첩\n+68\n물리 피해\n+18.9%\n공격력\n+16.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n192.0%\n의 물리 피해를 줍니다.\nRANK 5\n민첩\n+84\n물리 피해\n+23.3%\n공격력\n+18.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n216.0%\n의 물리 피해를 줍니다.\nRANK 6\n민첩\n+100\n물리 피해\n+27.8%\n공격력\n+20.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n240.0%\n의 물리 피해를 줍니다.\nRANK 7\n민첩\n+116\n물리 피해\n+32.2%\n공격력\n+22.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n264.0%\n의 물리 피해를 줍니다.\nRANK 8\n민첩\n+132\n물리 피해\n+36.7%\n공격력\n+24.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n288.0%\n의 물리 피해를 줍니다.\nRANK 9\n민첩\n+156\n물리 피해\n+43.3%\n공격력\n+28.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n336.0%\n의 물리 피해를 줍니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n민첩 증가\n물리 피해 증가\n기예",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_77",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=77&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 77,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:08.557330+00:00",
+        "contentSha256": "f582ce3e68999d9f668f102be3a4e935ae691f70949b4d2c50a4e811a79462b8",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/77_용사.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "용사"
+      }
+    },
+    {
+      "documentId": "auto.weapon_77.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 용사\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n기예 · 좋은 품성의 결실\n기본/최대\n기예 · 좋은 품성의 결실\n잠재능력 1\n1/4\n공격력\n+10.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n120.0%\n의 물리 피해를 줍니다.\n잠재능력 2\n2/5\n공격력\n+12.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n144.0%\n의 물리 피해를 줍니다.\n잠재능력 3\n3/6\n공격력\n+14.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n168.0%\n의 물리 피해를 줍니다.\n잠재능력 4\n4/7\n공격력\n+16.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n192.0%\n의 물리 피해를 줍니다.\n잠재능력 5\n5/8\n공격력\n+18.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n216.0%\n의 물리 피해를 줍니다.\n잠재능력 6\n6/9\n공격력\n+20.0%\n장착자가\n물리 이상\n효과를 준 후\n, 추가로 자신의 공격력\n240.0%\n의 물리 피해를 줍니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_77",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=77&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 77,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:08.557330+00:00",
+        "contentSha256": "f582ce3e68999d9f668f102be3a4e935ae691f70949b4d2c50a4e811a79462b8",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/77_용사.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "용사"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 50
+    },
+    {
+      "level": 20,
+      "baseAttack": 145
+    },
+    {
+      "level": 40,
+      "baseAttack": 245
+    },
+    {
+      "level": 60,
+      "baseAttack": 345
+    },
+    {
+      "level": 80,
+      "baseAttack": 445
+    },
+    {
+      "level": 90,
+      "baseAttack": 495
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_77.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "물리 피해 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_77.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "기예 · 좋은 품성의 결실",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_77.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 2,
+    "code": "polearm",
+    "label": "장병기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/장병기/77_용사.json"
+}

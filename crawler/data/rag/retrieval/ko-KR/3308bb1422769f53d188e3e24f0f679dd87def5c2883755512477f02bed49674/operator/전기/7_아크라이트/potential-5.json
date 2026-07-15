@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.7.potential-5",
+  "semanticKey": "ko-KR|operator|7|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_7",
+    "name": "아크라이트",
+    "aliases": [],
+    "gameEntryId": 7
+  },
+  "title": "아크라이트 — 잠재능력 5 황무지의 수행자",
+  "content": "아크라이트 오퍼레이터의 잠재능력 5 ‘황무지의 수행자’. 재능 '황무지의 여행자' 효과 강화: 발동에 필요한 횟수가 2 회로 감소합니다. 오퍼레이터 기념사진 \"호월선 참격\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "황무지의 수행자",
+    "status": "rule_validated",
+    "effect": "재능 '황무지의 여행자' 효과 강화: 발동에 필요한 횟수가 2 회로 감소합니다. 오퍼레이터 기념사진 \"호월선 참격\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+    "sourceSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_7.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "cc0288fcf272e5326a543a4f79faebb7d0682b4b4fb6b61579222ef983e9db90",
+    "payloadSha256": "34da7288a8a7ca85868dc9fcfdd466d88f666d0a5ecd552305383deabe6712d8"
+  }
+}

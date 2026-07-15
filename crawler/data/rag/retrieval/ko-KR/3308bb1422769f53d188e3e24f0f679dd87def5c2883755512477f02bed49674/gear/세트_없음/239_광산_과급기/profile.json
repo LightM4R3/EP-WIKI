@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.239.profile",
+  "semanticKey": "ko-KR|gear|239|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_239",
+    "name": "광산 과급기",
+    "aliases": [],
+    "gameEntryId": 239
+  },
+  "title": "광산 과급기 — 장비 기본 정보",
+  "content": "광산 과급기 장비의 기본 정보. 유형은 부품, 품질은 파란색 품질, 세트는 세트 없음이다. LV.36, 방어력 10. 옵션은 1번 힘 22, 3번 연계 스킬 피해 보너스 22.8%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 과급기",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 36,
+    "defense": 10,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 22,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "연계 스킬 피해 보너스",
+        "baseValue": {
+          "value": 22.8,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "component",
+    "qualityCode": "blue",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/239_광산_과급기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=239&header=0",
+    "sourceSha256": "0b36e1c2966ffdfb29360a276db3833a2d2dc53011426ef52c203072b887725f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_239.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_239.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "184da49800d3577c2407b882da10fb095dd69f8251bcdda13616af45f8a42736",
+    "payloadSha256": "cbfbb6744aa87488afbad131b6e4a185109a982e5338f1ad4a243031b67e248b"
+  }
+}

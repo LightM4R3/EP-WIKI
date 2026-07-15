@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.326.profile",
+  "semanticKey": "ko-KR|gear|326|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_326",
+    "name": "탁류 화염 절단기",
+    "aliases": [],
+    "gameEntryId": 326
+  },
+  "title": "탁류 화염 절단기 — 장비 기본 정보",
+  "content": "탁류 화염 절단기 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 조류의 물결이다. LV.70, 방어력 21. 옵션은 1번 지능 32, 2번 힘 21, 3번 일반 공격 피해 보너스 27.6%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "탁류 화염 절단기",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2727968106,
+      "code": "gear_set_a297f6ca3aa0",
+      "label": "조류의 물결"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "일반 공격 피해 보너스",
+        "baseValue": {
+          "value": 27.6,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-a297f6ca3aa0.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_a297f6ca3aa0",
+    "groupLabel": "조류의 물결",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_a297f6ca3aa0"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/조류의_물결/326_탁류_화염_절단기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=326&header=0",
+    "sourceSha256": "792b38a7c5b9ef3d21ad05dc725dcd695b5f8d06166e81e1f9d2fa9083c4f7f1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_326.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_326.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f1743d6b99490991317cd78c8f4452b6b26eaf806d782c3636acdc3c5bc5c0a7",
+    "payloadSha256": "43cce9c67c48dbc5f86fe015ba28bfdbcb3fa0ec8a13d0e8a08655791b483d72"
+  }
+}

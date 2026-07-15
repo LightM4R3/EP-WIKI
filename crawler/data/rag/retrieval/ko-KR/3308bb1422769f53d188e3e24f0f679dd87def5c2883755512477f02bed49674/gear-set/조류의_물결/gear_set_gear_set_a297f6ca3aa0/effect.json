@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-a297f6ca3aa0.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_a297f6ca3aa0|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_a297f6ca3aa0",
+    "name": "조류의 물결",
+    "aliases": []
+  },
+  "title": "조류의 물결 — 장비 세트 효과",
+  "content": "조류의 물결 장비 세트의 3개 세트 효과. 장착자의 모든 스킬 피해 +20% 장착자가 적에게 2 스택 혹은 그 이상의 아츠 부착을 부여한 후, 주는 아츠 피해 +35%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+  "facts": {
+    "gearSet": {
+      "id": 2727968106,
+      "code": "gear_set_a297f6ca3aa0",
+      "label": "조류의 물결"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 모든 스킬 피해 +20% 장착자가 적에게 2 스택 혹은 그 이상의 아츠 부착을 부여한 후, 주는 아츠 피해 +35%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+    "memberGameEntryIds": [
+      325,
+      326,
+      339,
+      340
+    ],
+    "evidenceCopyCount": 4
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_a297f6ca3aa0",
+    "groupLabel": "조류의 물결",
+    "gearSetCode": "gear_set_a297f6ca3aa0",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=325&header=0",
+    "sourceSha256": "7255355d9755de66475179576d3be4456fce2245cdf0dee7e8dd44d8a0477d7d",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_325.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_326.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_339.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_340.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "a7ad543fa6282332487d7baa5312db82342dfef472d73267e06019424cd9c0b1",
+    "payloadSha256": "fccfd2e30db1a1c3b8d8b3861aa136c3f8fa259402dbdf03ce091e9103bb136f"
+  }
+}
