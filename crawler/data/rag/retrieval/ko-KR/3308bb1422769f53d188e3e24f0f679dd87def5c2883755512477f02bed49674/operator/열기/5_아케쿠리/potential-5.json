@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.5.potential-5",
+  "semanticKey": "ko-KR|operator|5|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_5",
+    "name": "아케쿠리",
+    "aliases": [],
+    "gameEntryId": 5
+  },
+  "title": "아케쿠리 — 잠재능력 5 검의 리듬",
+  "content": "아케쿠리 오퍼레이터의 잠재능력 5 ‘검의 리듬’. 재능 '몰입의 시간' 효과 강화: 연타가 궁극기 소대, 집합!이 끝난 뒤에도 5 초 동안 지속됩니다. 오퍼레이터 기념사진 \"내일을 꿈꾸는 별\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "검의 리듬",
+    "status": "rule_validated",
+    "effect": "재능 '몰입의 시간' 효과 강화: 연타가 궁극기 소대, 집합!이 끝난 뒤에도 5 초 동안 지속됩니다. 오퍼레이터 기념사진 \"내일을 꿈꾸는 별\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/5_아케쿠리.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=5&header=0",
+    "sourceSha256": "1d32fb2a32cd175406743463d61a07b698b38b73717039f7510313cb4f8f62a0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_5.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "af47e8976220ae9b78ab1734934cdad7bfe6da0703d8b33ce9fb6a3040ddbf42",
+    "payloadSha256": "ed55800bbc8b3dcda31534c1874c7fdde74deb9605bb8e1cc029e981c7d3cd7d"
+  }
+}

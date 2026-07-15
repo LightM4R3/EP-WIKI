@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.2.potential-3",
+  "semanticKey": "ko-KR|operator|2|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_2",
+    "name": "관리자",
+    "aliases": [
+      "관리자(남)",
+      "관리자(여)"
+    ],
+    "gameEntryId": 2
+  },
+  "title": "관리자 — 잠재능력 3 길잡이",
+  "content": "관리자 오퍼레이터의 잠재능력 3 ‘길잡이’. 궁극기 폭격 시퀀스가 오리지늄 결정을 소모 한 후, 15 포인트의 궁극기 에너지를 획득합니다. 해당 효과는 보너스를 받을 수 없습니다. 기념사진 \"사분면\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "길잡이",
+    "status": "rule_validated",
+    "effect": "궁극기 폭격 시퀀스가 오리지늄 결정을 소모 한 후, 15 포인트의 궁극기 에너지를 획득합니다. 해당 효과는 보너스를 받을 수 없습니다. 기념사진 \"사분면\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/2_관리자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=2&header=0",
+    "sourceSha256": "d14e416101c10ca374f77bb5f25c300607764fd58c07bab57524ffad8f331cb8",
+    "authority": "human_override",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.operator_2.potential.c5.chapter.s6.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "396a09ed771a7bcd38e5fa934d4192470cd1f423fe6cc5e4d58f5e4f73da4f19",
+    "payloadSha256": "ed3fc0f7a483800ccdf10ea635a85e31073860bc12613d42d182258849cf86fc"
+  }
+}

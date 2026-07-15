@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.4.potential-4",
+  "semanticKey": "ko-KR|operator|4|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_4",
+    "name": "진천우",
+    "aliases": [],
+    "gameEntryId": 4
+  },
+  "title": "진천우 — 잠재능력 4 자체 개발한 적소검",
+  "content": "진천우 오퍼레이터의 잠재능력 4 ‘자체 개발한 적소검’. 궁극기 예풍상의 사용에 필요한 궁극기 에너지 -15%",
+  "facts": {
+    "stage": 4,
+    "name": "자체 개발한 적소검",
+    "status": "rule_validated",
+    "effect": "궁극기 예풍상의 사용에 필요한 궁극기 에너지 -15%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/4_진천우.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=4&header=0",
+    "sourceSha256": "64f046fe559117e3b77a47aaf14c24296e264dc17aa1ee3c126893330dd5e3ca",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_4.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "a11652d305fd715bcb2cdf46bb4fe2be01c75d88cedf88f2beb0eb9e071d995b",
+    "payloadSha256": "2fa1b7eee4f9b4ecfcdecd492cf01bd08dcd1c713ffe94390757177a198f138b"
+  }
+}

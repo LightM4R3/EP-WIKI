@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.276.profile",
+  "semanticKey": "ko-KR|gear|276|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_276",
+    "name": "아부레이 경갑",
+    "aliases": [],
+    "gameEntryId": 276
+  },
+  "title": "아부레이 경갑 — 장비 기본 정보",
+  "content": "아부레이 경갑 장비의 기본 정보. 유형은 방어구, 품질은 보라색 품질, 세트는 아부레이의 메아리이다. LV.50, 방어력 40. 옵션은 1번 지능 61, 2번 힘 41, 3번 궁극기 충전 효율 8.8%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "아부레이 경갑",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 639192494,
+      "code": "gear_set_2617c70e3c51",
+      "label": "아부레이의 메아리"
+    },
+    "level": 50,
+    "defense": 40,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 61,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 8.8,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-2617c70e3c51.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_2617c70e3c51",
+    "groupLabel": "아부레이의 메아리",
+    "gearTypeCode": "armor",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_2617c70e3c51"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/아부레이의_메아리/276_아부레이_경갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=276&header=0",
+    "sourceSha256": "962853fca8e54665e5e3e5555553375c9cf00a5fefedad385a1a54f969c73802",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_276.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_276.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "461628625a475426f2f80285f9c92ad06764b6f1c430996d236176044746bb5e",
+    "payloadSha256": "453d43726d8be696e5556694d886440cc406a6a8a8bf4229dfbddd496d292059"
+  }
+}

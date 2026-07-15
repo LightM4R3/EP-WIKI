@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.79.profile",
+  "semanticKey": "ko-KR|weapon|79|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_79",
+    "name": "사명의 길",
+    "aliases": [],
+    "gameEntryId": 79
+  },
+  "title": "사명의 길 — 무기 기본 정보",
+  "content": "사명의 길 무기의 기본 정보. 무기 유형은 아츠 유닛이다. 옵션은 1번 의지 증가 · 대, 2번 궁극기 충전 효율 증가 · 대, 3번 추격 · 굴하지 않는 사명이다.",
+  "facts": {
+    "name": "사명의 길",
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.79.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "궁극기 충전 효율 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.79.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "추격 · 굴하지 않는 사명",
+        "documentRef": "epwiki.ko-kr.weapon.79.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "weaponTypeCode": "arts_unit"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/79_사명의_길.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=79&header=0",
+    "sourceSha256": "bc6274f291e0619ccaa8794e7c9ab487053fdf9dff6c7f59ce581ac756d3a8a2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_79.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_79.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "aee98358f49b6cfbd6a59f2765b3cd41e9617ce3f6689f67237e261331c3d5ce",
+    "payloadSha256": "d10a89908ecefd953f441d21fff4b6682cae8ab74041063b4bdaf4f16d7ed691"
+  }
+}

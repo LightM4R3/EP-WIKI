@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.25.potential-2",
+  "semanticKey": "ko-KR|operator|25|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_25",
+    "name": "탕탕",
+    "aliases": [],
+    "gameEntryId": 25
+  },
+  "title": "탕탕 — 잠재능력 2 강에서 태어난 소녀",
+  "content": "탕탕 오퍼레이터의 잠재능력 2 ‘강에서 태어난 소녀’. 민첩 +20, 냉기 피해 +10%.",
+  "facts": {
+    "stage": 2,
+    "name": "강에서 태어난 소녀",
+    "status": "rule_validated",
+    "effect": "민첩 +20, 냉기 피해 +10%."
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+    "sourceSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+    "authority": "canonical",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.operator_25.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "baded65d960f73be37a785a8fdb259dcf82a4e2c8e784c0597e9c15d0f80a1e7",
+    "payloadSha256": "3d04176c6f725734532c3ee3983fd3ce0c435ba51722989823a6275a0060a01c"
+  }
+}

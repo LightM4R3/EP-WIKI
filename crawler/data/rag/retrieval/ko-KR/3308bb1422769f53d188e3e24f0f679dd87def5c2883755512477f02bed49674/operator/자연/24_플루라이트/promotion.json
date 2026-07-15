@@ -1,0 +1,230 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.24.promotion",
+  "semanticKey": "ko-KR|operator|24|promotion",
+  "locale": "ko-KR",
+  "documentType": "operator_promotion",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_24",
+    "name": "플루라이트",
+    "aliases": [],
+    "gameEntryId": 24
+  },
+  "title": "플루라이트 — 정예화와 장비 해금",
+  "content": "플루라이트 오퍼레이터의 정예화와 장비 품질 해금.\n정예화 I: 최대 레벨 40, 조건 오퍼레이터 Lv.20 도달, 재료 프로토콜 디스크 8개, 연한 붉은 기둥 버섯 3개, 탈로시안 화폐 1600개.\n정예화 II: 최대 레벨 60, 조건 오퍼레이터 Lv.40 도달, 재료 프로토콜 디스크 25개, 보통 붉은 기둥 버섯 5개, 탈로시안 화폐 6500개.\n정예화 III: 최대 레벨 80, 조건 오퍼레이터 Lv.60 도달, 재료 프로토콜 디스크 세트 24개, 진한 붉은 기둥 버섯 5개, 탈로시안 화폐 18000개.\n정예화 IV: 최대 레벨은 원문 충돌로 검색 제외, 조건 오퍼레이터 Lv.80 도달, 재료 프로토콜 디스크 세트 36개, 3상 나노플레이크 칩 20개, 스타게이트 버섯 8개, 탈로시안 화폐 100000개.\n장비 조합 I: 활성화 후, 파란색 품질 장비 착용 가능, 조건 정예화 단계 1 돌파, 재료 탈로시안 화폐 1600개.\n장비 조합 II: 활성화 후, 보라색 품질 장비 착용 가능, 조건 정예화 단계 2 돌파, 재료 탈로시안 화폐 6500개.\n장비 조합 III: 활성화 후, 노란색 품질 장비 착용 가능, 조건 정예화 단계 3 돌파, 재료 탈로시안 화폐 18000개.",
+  "facts": {
+    "promotions": [
+      {
+        "stage": 1,
+        "label": "정예화 I",
+        "maxLevel": 40,
+        "condition": "오퍼레이터 Lv.20 도달",
+        "materials": [
+          {
+            "id": null,
+            "code": null,
+            "name": "프로토콜 디스크",
+            "amount": 8,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "연한 붉은 기둥 버섯",
+            "amount": 3,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1600
+          }
+        ],
+        "status": "rule_validated"
+      },
+      {
+        "stage": 2,
+        "label": "정예화 II",
+        "maxLevel": 60,
+        "condition": "오퍼레이터 Lv.40 도달",
+        "materials": [
+          {
+            "id": null,
+            "code": null,
+            "name": "프로토콜 디스크",
+            "amount": 25,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "보통 붉은 기둥 버섯",
+            "amount": 5,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 6500
+          }
+        ],
+        "status": "rule_validated"
+      },
+      {
+        "stage": 3,
+        "label": "정예화 III",
+        "maxLevel": 80,
+        "condition": "오퍼레이터 Lv.60 도달",
+        "materials": [
+          {
+            "id": null,
+            "code": null,
+            "name": "프로토콜 디스크 세트",
+            "amount": 24,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "진한 붉은 기둥 버섯",
+            "amount": 5,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 18000
+          }
+        ],
+        "status": "rule_validated"
+      },
+      {
+        "stage": 4,
+        "label": "정예화 IV",
+        "maxLevel": null,
+        "condition": "오퍼레이터 Lv.80 도달",
+        "materials": [
+          {
+            "id": null,
+            "code": null,
+            "name": "프로토콜 디스크 세트",
+            "amount": 36,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "3상 나노플레이크 칩",
+            "amount": 20,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": null,
+            "code": null,
+            "name": "스타게이트 버섯",
+            "amount": 8,
+            "catalogStatus": "unmapped"
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 100000
+          }
+        ],
+        "status": "source_conflict"
+      }
+    ],
+    "equipmentUnlocks": [
+      {
+        "stage": 1,
+        "label": "장비 조합 I",
+        "effect": "활성화 후, 파란색 품질 장비 착용 가능",
+        "condition": "정예화 단계 1 돌파",
+        "materials": [
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1600
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "label": "장비 조합 II",
+        "effect": "활성화 후, 보라색 품질 장비 착용 가능",
+        "condition": "정예화 단계 2 돌파",
+        "materials": [
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 6500
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "label": "장비 조합 III",
+        "effect": "활성화 후, 노란색 품질 장비 착용 가능",
+        "condition": "정예화 단계 3 돌파",
+        "materials": [
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 18000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_promotion",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/24_플루라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=24&header=0",
+    "sourceSha256": "949fec33735758975e7f7af4c32fb5dd785d45c95620e4a9dc4a1cfdfe682b3d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_24.progression.c4.w2.s6.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.promotions[3].maxLevel",
+        "reason": "정예화 IV 원문 최대 레벨이 진행 표의 LV.90과 충돌함",
+        "status": "source_conflict"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e7c807f501e1003e077ad4a967ff128980fb9371de90ca631bf60d53c8133643",
+    "payloadSha256": "a5a804bb4a80cdabccc23cb5f040d65e9e40d096350343db61f21b5680a5f0f3"
+  }
+}

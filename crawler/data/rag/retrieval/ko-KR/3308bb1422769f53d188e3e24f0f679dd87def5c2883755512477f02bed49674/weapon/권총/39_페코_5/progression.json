@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.39.progression",
+  "semanticKey": "ko-KR|weapon|39|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_39",
+    "name": "페코 5",
+    "aliases": [],
+    "gameEntryId": 39
+  },
+  "title": "페코 5 — 기초 공격력",
+  "content": "페코 5 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 29.\nLV.20: 기초 공격력 83.\nLV.40: 기초 공격력 140.\nLV.60: 기초 공격력 197.\nLV.80: 기초 공격력 254.\nLV.90: 기초 공격력 283.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 29
+      },
+      {
+        "level": 20,
+        "baseAttack": 83
+      },
+      {
+        "level": 40,
+        "baseAttack": 140
+      },
+      {
+        "level": 60,
+        "baseAttack": 197
+      },
+      {
+        "level": 80,
+        "baseAttack": 254
+      },
+      {
+        "level": 90,
+        "baseAttack": 283
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/39_페코_5.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=39&header=0",
+    "sourceSha256": "46a22cbcd3088569351da35315dafdba1d75491d91d514324149c54021b769b0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_39.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "721d5c575a8772a0dce8b1ddd84b2c9a40ef8d244f17bdfa86aade3c455233e8",
+    "payloadSha256": "bcd37e8b9525fb71341e4ed582f1158602b44030c8fac77f13af00ac007a1d49"
+  }
+}

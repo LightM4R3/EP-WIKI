@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.17.talent-1",
+  "semanticKey": "ko-KR|operator|17|talent-1",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_17",
+    "name": "라스트 라이트",
+    "aliases": [],
+    "gameEntryId": 17
+  },
+  "title": "라스트 라이트 — 저체온증",
+  "content": "라스트 라이트 오퍼레이터의 오퍼레이터 재능 ‘저체온증’.\n단계 1: 라스트 라이트가 임의의 아츠 부착을 소모 한 후, 해당 목표에 냉기 취약을 부여합니다. 소모 한 아츠 부착의 스택 수치× 2%, 15 초 동안 지속. 해당 효과는 중첩되지 않습니다. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 2400개.\n단계 2: 라스트 라이트가 임의의 아츠 부착을 소모 한 후, 해당 목표에 냉기 취약을 부여합니다. 소모 한 아츠 부착의 스택 수치× 4%, 15 초 동안 지속. 해당 효과는 중첩되지 않습니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 40개, 탈로시안 화폐 8600개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 1,
+    "name": "저체온증",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "라스트 라이트가 임의의 아츠 부착을 소모 한 후, 해당 목표에 냉기 취약을 부여합니다. 소모 한 아츠 부착의 스택 수치× 2%, 15 초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 2400
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "라스트 라이트가 임의의 아츠 부착을 소모 한 후, 해당 목표에 냉기 취약을 부여합니다. 소모 한 아츠 부착의 스택 수치× 4%, 15 초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 40
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8600
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "talentKind": "combat_talent",
+    "talentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+    "sourceSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_17.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "99cad05a539a8ce0f2eaa3747718b75cdc64f30e6e72596fc00f808d775b1087",
+    "payloadSha256": "d0626ff2d10303142bb78e35fe60884e76e9b89daae901a6a12dab94ecb2786a"
+  }
+}

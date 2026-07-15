@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.86.option-3",
+  "semanticKey": "ko-KR|weapon|86|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_86",
+    "name": "O.B.J. 헤비 버든",
+    "aliases": [],
+    "gameEntryId": 86
+  },
+  "title": "O.B.J. 헤비 버든 — 3번 옵션 효율 · 강인한 의지",
+  "content": "O.B.J. 헤비 버든 무기의 3번 옵션 ‘효율 · 강인한 의지’.\nRANK1: 보조 능력치 +5.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +18.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 보조 능력치 +6.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +21.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 보조 능력치 +7.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +25.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 보조 능력치 +8.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +28.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 보조 능력치 +9.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +32.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 보조 능력치 +10.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +36.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK7: 보조 능력치 +11.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +39.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 보조 능력치 +12.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +43.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 보조 능력치 +14.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +50.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "효율 · 강인한 의지",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "보조 능력치 +5.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +18.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "보조 능력치 +6.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +21.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "보조 능력치 +7.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +25.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "보조 능력치 +8.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +28.8%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "보조 능력치 +9.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +32.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "보조 능력치 +10.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +36.0%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "보조 능력치 +11.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +39.6%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "보조 능력치 +12.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +43.2%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "보조 능력치 +14.0% 장착자가 적에게 넘어뜨리기 피해를 주거나 허약을 부여할 때, 방어력 +50.4%, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/86_O.B.J._헤비_버든.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=86&header=0",
+    "sourceSha256": "6e9dc79adbb310c7b2886719feea3c2a8f9bc72b5432002cf54cd28cc2ecc50f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_86.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d0677ddf751ec928184af3c0586e8cee5d0b37d5a0daa62bb246baa3efd11cb6",
+    "payloadSha256": "6bb19262e3b1f1049363dc48797520819c18124171b9149fd724ca37742cb660"
+  }
+}

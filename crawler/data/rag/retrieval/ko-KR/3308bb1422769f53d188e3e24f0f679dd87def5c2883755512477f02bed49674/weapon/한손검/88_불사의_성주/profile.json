@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.88.profile",
+  "semanticKey": "ko-KR|weapon|88|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_88",
+    "name": "불사의 성주",
+    "aliases": [],
+    "gameEntryId": 88
+  },
+  "title": "불사의 성주 — 무기 기본 정보",
+  "content": "불사의 성주 무기의 기본 정보. 무기 유형은 한손검이다. 옵션은 1번 지능 증가 · 중, 2번 궁극기 충전 효율 증가 · 중, 3번 사기 · 잔성의 귀로이다.",
+  "facts": {
+    "name": "불사의 성주",
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.88.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "궁극기 충전 효율 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.88.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "사기 · 잔성의 귀로",
+        "documentRef": "epwiki.ko-kr.weapon.88.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "weaponTypeCode": "sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/88_불사의_성주.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=88&header=0",
+    "sourceSha256": "338bc6511bcb90b4557ceb1e1c33fe59c69f8b56c9cb54efe544e2a9a6654683",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_88.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_88.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "8d6a412eb5513df14401750d7272dcfd6cabb599d3d1472ec169e1de24a95910",
+    "payloadSha256": "f68cf74210106a2983d529be4efb081c6462ba5ba53f8ed1202bcef633665950"
+  }
+}

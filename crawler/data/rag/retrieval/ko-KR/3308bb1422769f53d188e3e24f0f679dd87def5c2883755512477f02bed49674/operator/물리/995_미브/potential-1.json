@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.995.potential-1",
+  "semanticKey": "ko-KR|operator|995|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_995",
+    "name": "미브",
+    "aliases": [],
+    "gameEntryId": 995
+  },
+  "title": "미브 — 잠재능력 1 영원한 순례",
+  "content": "미브 오퍼레이터의 잠재능력 1 ‘영원한 순례’. 연계 스킬 후회 없는 주먹의 쿨타임 -2 초, 부여하는 물리 취약 효과 추가로 +5%, 지속 시간 +4 초 오퍼레이터 기념사진 \"가벼운 한잔\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "영원한 순례",
+    "status": "rule_validated",
+    "effect": "연계 스킬 후회 없는 주먹의 쿨타임 -2 초, 부여하는 물리 취약 효과 추가로 +5%, 지속 시간 +4 초 오퍼레이터 기념사진 \"가벼운 한잔\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+    "sourceSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_995.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d641922a98b575391decf57029401f840f1296ca897ede001c024b97109d3d44",
+    "payloadSha256": "95ded3574f695183cbfc3225fd306404ad5f05ecee41b650681b3940936e1e49"
+  }
+}

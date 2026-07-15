@@ -19,8 +19,12 @@
         "sourceDocuments": 1421,
         "normalizedSummaryDocuments": 320,
         "excludedEntities": 1
-      }
+      },
+      "retrievalManifestRef": "data/rag/retrieval/manifest.ko-KR.json",
+      "retrievalReleaseId": "3308bb1422769f53d188e3e24f0f679dd87def5c2883755512477f02bed49674",
+      "retrievalDocuments": 1272,
+      "retrievalVerdict": "indexable"
     }
   ],
-  "generatedAt": "2026-07-15T06:58:58.622407+00:00"
+  "generatedAt": "2026-07-15T08:00:04.510557+00:00"
 }

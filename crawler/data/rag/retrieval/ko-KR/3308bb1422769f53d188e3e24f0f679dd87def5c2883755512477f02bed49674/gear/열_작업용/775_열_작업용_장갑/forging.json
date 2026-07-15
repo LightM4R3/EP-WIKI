@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.775.forging",
+  "semanticKey": "ko-KR|gear|775|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_775",
+    "name": "열 작업용 장갑",
+    "aliases": [],
+    "gameEntryId": 775
+  },
+  "title": "열 작업용 장갑 — 정밀 단조",
+  "content": "열 작업용 장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 힘: +0 65, +1 71, +2 78, +3 84.\n2번 의지: +0 43, +1 47, +2 51, +3 55.\n3번 오리지늄 아츠 강도: +0 34, +1 37, +2 41, +3 44.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 34,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 37,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 41,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 44,
+            "unit": "flat"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_c82824cda56b",
+    "groupLabel": "열 작업용",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/775_열_작업용_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=775&header=0",
+    "sourceSha256": "7c7fa986f646b28c638409d8d7ba5639054efe6aa77899b5a26432d4365f238b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_775.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e602932d0db29e7b8bf4a651e4910c14abcf9313b1b11ccf7d027d684768ddc2",
+    "payloadSha256": "7b7762d517ba5aa51c1d86a2f520064233a8e667e03973d537d2ab12d0bec08a"
+  }
+}

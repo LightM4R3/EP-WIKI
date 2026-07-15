@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.2.potential-1",
+  "semanticKey": "ko-KR|operator|2|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_2",
+    "name": "관리자",
+    "aliases": [
+      "관리자(남)",
+      "관리자(여)"
+    ],
+    "gameEntryId": 2
+  },
+  "title": "관리자 — 잠재능력 1 마지막 각성",
+  "content": "관리자 오퍼레이터의 잠재능력 1 ‘마지막 각성’. 배틀 스킬 구성 시퀀스가 오리지늄 결정을 소모 했을 때, 스킬 게이지를 50 포인트 반환합니다. 기념사진 \"기억의 매개체\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "마지막 각성",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 구성 시퀀스가 오리지늄 결정을 소모 했을 때, 스킬 게이지를 50 포인트 반환합니다. 기념사진 \"기억의 매개체\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/2_관리자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=2&header=0",
+    "sourceSha256": "d14e416101c10ca374f77bb5f25c300607764fd58c07bab57524ffad8f331cb8",
+    "authority": "human_override",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.operator_2.potential.c5.chapter.s6.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3f73113badca6d8ddea8319225c4056328005afb149687a529db5e67fe75c5c3",
+    "payloadSha256": "7982839abdf613f2f56556a53e5563515f0b9a80141a3c67cf6222a5d11d63a3"
+  }
+}

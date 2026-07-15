@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.615.potential-4",
+  "semanticKey": "ko-KR|operator|615|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_615",
+    "name": "로시",
+    "aliases": [],
+    "gameEntryId": 615
+  },
+  "title": "로시 — 잠재능력 4 순수한 소망",
+  "content": "로시 오퍼레이터의 잠재능력 4 ‘순수한 소망’. 궁극기 기습 '날카로운 발톱'의 사용에 필요한 궁극기 에너지 -15%.",
+  "facts": {
+    "stage": 4,
+    "name": "순수한 소망",
+    "status": "rule_validated",
+    "effect": "궁극기 기습 '날카로운 발톱'의 사용에 필요한 궁극기 에너지 -15%."
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+    "sourceSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_615.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "61e4cd72508e88fd815d39dcafc5f2cdab00585c5823cf04ac1b2ef26dda19e2",
+    "payloadSha256": "39ed010ca5d6cff54d363573fad45e70d0f338d2ce2e1d932511c05b36802323"
+  }
+}

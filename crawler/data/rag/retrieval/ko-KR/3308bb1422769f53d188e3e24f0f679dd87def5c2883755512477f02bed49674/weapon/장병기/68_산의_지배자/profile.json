@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.68.profile",
+  "semanticKey": "ko-KR|weapon|68|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_68",
+    "name": "산의 지배자",
+    "aliases": [],
+    "gameEntryId": 68
+  },
+  "title": "산의 지배자 — 무기 기본 정보",
+  "content": "산의 지배자 무기의 기본 정보. 무기 유형은 장병기이다. 옵션은 1번 민첩 증가 · 대, 2번 물리 피해 증가 · 대, 3번 효율 · 하나되는 자연이다.",
+  "facts": {
+    "name": "산의 지배자",
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.68.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "물리 피해 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.68.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "효율 · 하나되는 자연",
+        "documentRef": "epwiki.ko-kr.weapon.68.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "weaponTypeCode": "polearm"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/68_산의_지배자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=68&header=0",
+    "sourceSha256": "0164207043c2c7c9280f495a6af3daf3626b113e252fb3bc5c7511cb144d368e",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_68.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_68.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c6047687c42312ceca4c991a6266a779165bc02988ebb27387c5a64b1f57308b",
+    "payloadSha256": "3d69f9406f870c23a1982dc1fa176ff65d2bd5b663c5de6d47dd3463df1d97f4"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.1024.forging",
+  "semanticKey": "ko-KR|gear|1024|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_1024",
+    "name": "고검의 잔향 금속 장갑",
+    "aliases": [],
+    "gameEntryId": 1024
+  },
+  "title": "고검의 잔향 금속 장갑 — 정밀 단조",
+  "content": "고검의 잔향 금속 장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 힘: +0 65, +1 71, +2 78, +3 84.\n2번 의지: +0 43, +1 47, +2 51, +3 55.\n3번 오리지늄 아츠 강도: +0 34, +1 37, +2 41, +3 44.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 34,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 37,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 41,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 44,
+            "unit": "flat"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "echo_of_ancient_sword",
+    "groupLabel": "고검의 잔향",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/고검의_잔향/1024_고검의_잔향_금속_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1024&header=0",
+    "sourceSha256": "5816a3c90563bd7192d7be72a9250e6d10a6e743879547054c231e4a5f4dbef5",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_1024.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "524a1cb62f2be44171189c07d9b902d6cb841d8aafb169d5bdab2ef940dc1b2e",
+    "payloadSha256": "363cad3cee6f3f22e4f652952c778e8c69b4b9d1009e5d6558905c28792c87ed"
+  }
+}

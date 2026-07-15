@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.222.profile",
+  "semanticKey": "ko-KR|gear|222|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_222",
+    "name": "응급 압축 장치",
+    "aliases": [],
+    "gameEntryId": 222
+  },
+  "title": "응급 압축 장치 — 장비 기본 정보",
+  "content": "응급 압축 장치 장비의 기본 정보. 유형은 부품, 품질은 초록색 품질, 세트는 세트 없음이다. LV.20, 방어력 6. 옵션은 1번 공격력 13.2%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "응급 압축 장치",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 20,
+    "defense": 6,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "공격력",
+        "baseValue": {
+          "value": 13.2,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "component",
+    "qualityCode": "green",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/222_응급_압축_장치.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=222&header=0",
+    "sourceSha256": "53e946eb8f27dcdd673100aa160a9bc043c2ed5a95f9321b05b28d9aa663088b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_222.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_222.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4f279b04a4b28f57344c69379a4df266300ba3bfb4316d050da249d9c258dc3b",
+    "payloadSha256": "e2d229101c292b78d5266ee693a9aad7387db7e62fc4a6859fec420265981204"
+  }
+}

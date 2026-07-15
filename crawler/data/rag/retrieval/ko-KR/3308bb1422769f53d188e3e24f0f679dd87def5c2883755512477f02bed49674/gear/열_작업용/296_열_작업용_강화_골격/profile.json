@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.296.profile",
+  "semanticKey": "ko-KR|gear|296|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_296",
+    "name": "열 작업용 강화 골격",
+    "aliases": [],
+    "gameEntryId": 296
+  },
+  "title": "열 작업용 강화 골격 — 장비 기본 정보",
+  "content": "열 작업용 강화 골격 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 열 작업용이다. LV.70, 방어력 56. 옵션은 1번 힘 87, 2번 민첩 58, 3번 열기와 자연 피해 보너스 11.5%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "열 작업용 강화 골격",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 3358174061,
+      "code": "gear_set_c82824cda56b",
+      "label": "열 작업용"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "열기와 자연 피해 보너스",
+        "baseValue": {
+          "value": 11.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-c82824cda56b.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_c82824cda56b",
+    "groupLabel": "열 작업용",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_c82824cda56b"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/296_열_작업용_강화_골격.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=296&header=0",
+    "sourceSha256": "e930ac681da740ec0215ca29bcb53c10b451b10d5c81dc200b4ae16ca1ab885b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_296.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_296.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4c14db7d4734c09330048f1cf3ac3ad062b0a79f3ab2b0dccb13ec7a5022dcbd",
+    "payloadSha256": "c7b37d913c9f0134f4a81a6aa36530dcad710b1e82ea050029405acd55c784cc"
+  }
+}

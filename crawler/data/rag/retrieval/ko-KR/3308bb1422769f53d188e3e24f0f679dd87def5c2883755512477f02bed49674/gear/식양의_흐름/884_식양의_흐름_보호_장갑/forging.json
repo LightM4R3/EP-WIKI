@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.884.forging",
+  "semanticKey": "ko-KR|gear|884|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_884",
+    "name": "식양의 흐름 보호 장갑",
+    "aliases": [],
+    "gameEntryId": 884
+  },
+  "title": "식양의 흐름 보호 장갑 — 정밀 단조",
+  "content": "식양의 흐름 보호 장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 의지: +0 65, +1 71, +2 78, +3 84.\n2번 지능: +0 43, +1 47, +2 51, +3 55.\n3번 냉기와 전기 피해 보너스: +0 19.2%, +1 21.1%, +2 23%, +3 24.9%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "냉기와 전기 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 19.2,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 21.1,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 23,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 24.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_0dd0a8ecab1f",
+    "groupLabel": "식양의 흐름",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_흐름/884_식양의_흐름_보호_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=884&header=0",
+    "sourceSha256": "a098746710a0b7ec0ff0d5cadbb41b1041f68a39a9024731f7ca1ca2fc01b460",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_884.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "a33bfb8d4e42cd377a3cab5be53eb2fc893e08ab3f7e324e170947e8fd597be2",
+    "payloadSha256": "92c1416af2feecb5fb2151f995170583bcc3f559a5525293918e15af3fb78948"
+  }
+}

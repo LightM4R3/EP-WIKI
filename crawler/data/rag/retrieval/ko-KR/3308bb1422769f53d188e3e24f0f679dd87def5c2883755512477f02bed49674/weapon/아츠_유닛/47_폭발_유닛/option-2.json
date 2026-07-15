@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.47.option-2",
+  "semanticKey": "ko-KR|weapon|47|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_47",
+    "name": "폭발 유닛",
+    "aliases": [],
+    "gameEntryId": 47
+  },
+  "title": "폭발 유닛 — 2번 옵션 오리지늄 아츠 강도 증가 · 대",
+  "content": "폭발 유닛 무기의 2번 옵션 ‘오리지늄 아츠 강도 증가 · 대’.\nRANK1: 오리지늄 아츠 강도 +10.\nRANK2: 오리지늄 아츠 강도 +18.\nRANK3: 오리지늄 아츠 강도 +26.\nRANK4: 오리지늄 아츠 강도 +34.\nRANK5: 오리지늄 아츠 강도 +42.\nRANK6: 오리지늄 아츠 강도 +50.\nRANK7: 오리지늄 아츠 강도 +58.\nRANK8: 오리지늄 아츠 강도 +66.\nRANK9: 오리지늄 아츠 강도 +78.",
+  "facts": {
+    "slot": 2,
+    "name": "오리지늄 아츠 강도 증가 · 대",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "오리지늄 아츠 강도",
+        "value": 10,
+        "unit": "flat",
+        "display": "+10"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "오리지늄 아츠 강도",
+        "value": 18,
+        "unit": "flat",
+        "display": "+18"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "오리지늄 아츠 강도",
+        "value": 26,
+        "unit": "flat",
+        "display": "+26"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "오리지늄 아츠 강도",
+        "value": 34,
+        "unit": "flat",
+        "display": "+34"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "오리지늄 아츠 강도",
+        "value": 42,
+        "unit": "flat",
+        "display": "+42"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "오리지늄 아츠 강도",
+        "value": 50,
+        "unit": "flat",
+        "display": "+50"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "오리지늄 아츠 강도",
+        "value": 58,
+        "unit": "flat",
+        "display": "+58"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "오리지늄 아츠 강도",
+        "value": 66,
+        "unit": "flat",
+        "display": "+66"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "오리지늄 아츠 강도",
+        "value": 78,
+        "unit": "flat",
+        "display": "+78"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/47_폭발_유닛.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=47&header=0",
+    "sourceSha256": "03f4bf79b5c251470d9abe1217148dafc99810797dd6a447bc2868cb2fa51adb",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_47.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "1aa3f01aba545911d15e8e81531de8dd76aca22b1b5a782065d79ef62bc04b51",
+    "payloadSha256": "c0d20028de3cf921ab10bb03ae30c5f6eddd4c65dbf296e525f698484e3ac3e3"
+  }
+}

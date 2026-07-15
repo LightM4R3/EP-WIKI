@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.9.potential-5",
+  "semanticKey": "ko-KR|operator|9|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_9",
+    "name": "질베르타",
+    "aliases": [],
+    "gameEntryId": 9
+  },
+  "title": "질베르타 — 잠재능력 5 특별한 편지",
+  "content": "질베르타 오퍼레이터의 잠재능력 5 ‘특별한 편지’. 연계 스킬 아케인스태프 · 매트릭스 이동 쿨타임 -2 초, 피해 배율이 기존의 1.3 배로 증가합니다. 오퍼레이터 기념사진 \"세상을 뒤흔들겠어!\" 잠금 해제 명함 테마 \"세상을 뒤흔들겠어!\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "특별한 편지",
+    "status": "rule_validated",
+    "effect": "연계 스킬 아케인스태프 · 매트릭스 이동 쿨타임 -2 초, 피해 배율이 기존의 1.3 배로 증가합니다. 오퍼레이터 기념사진 \"세상을 뒤흔들겠어!\" 잠금 해제 명함 테마 \"세상을 뒤흔들겠어!\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+    "sourceSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_9.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "eafff2d0ef9a20e9e8419b4dedede44718ca8536b1639dca80496294e80ea5b4",
+    "payloadSha256": "d8c4f119dc650396dc02f87d660250f0d76a7f6266225a210376a57fe9487066"
+  }
+}

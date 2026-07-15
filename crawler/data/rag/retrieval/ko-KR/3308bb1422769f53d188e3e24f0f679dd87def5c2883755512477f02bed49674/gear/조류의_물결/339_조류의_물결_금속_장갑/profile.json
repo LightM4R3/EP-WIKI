@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.339.profile",
+  "semanticKey": "ko-KR|gear|339|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_339",
+    "name": "조류의 물결 금속 장갑",
+    "aliases": [],
+    "gameEntryId": 339
+  },
+  "title": "조류의 물결 금속 장갑 — 장비 기본 정보",
+  "content": "조류의 물결 금속 장갑 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 조류의 물결이다. LV.70, 방어력 42. 옵션은 1번 힘 65, 2번 의지 43, 3번 냉기와 전기 피해 보너스 19.2%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "조류의 물결 금속 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2727968106,
+      "code": "gear_set_a297f6ca3aa0",
+      "label": "조류의 물결"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "냉기와 전기 피해 보너스",
+        "baseValue": {
+          "value": 19.2,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-a297f6ca3aa0.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_a297f6ca3aa0",
+    "groupLabel": "조류의 물결",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_a297f6ca3aa0"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/조류의_물결/339_조류의_물결_금속_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=339&header=0",
+    "sourceSha256": "d86bfe6aad22924bcaa2c3596036aea93401b51bff074dcaf1ef65e6d71d9417",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_339.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_339.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0db1acbc6f828fdbe6f8f27931caef4dbaafac4c2e688f1da8987d875bdc123b",
+    "payloadSha256": "37f9d6d7c162feed0552afa8d04e1902ea134397bdae401bbfd9a79123473ca0"
+  }
+}

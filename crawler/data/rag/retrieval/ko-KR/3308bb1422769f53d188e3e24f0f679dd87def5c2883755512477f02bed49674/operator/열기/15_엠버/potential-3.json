@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.15.potential-3",
+  "semanticKey": "ko-KR|operator|15|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_15",
+    "name": "엠버",
+    "aliases": [],
+    "gameEntryId": 15
+  },
+  "title": "엠버 — 잠재능력 3 불굴의 전선",
+  "content": "엠버 오퍼레이터의 잠재능력 3 ‘불굴의 전선’. 연계 스킬 전선에서의 지원이 팀 내 생명력 백분율이 가장 낮은 오퍼레이터 1명을 추가로 지유합니다. 해당 효과는 기초 수치의 50% 만큼만 제공됩니다. 오퍼레이터 기념사진 \"끝없는 원정\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "불굴의 전선",
+    "status": "rule_validated",
+    "effect": "연계 스킬 전선에서의 지원이 팀 내 생명력 백분율이 가장 낮은 오퍼레이터 1명을 추가로 지유합니다. 해당 효과는 기초 수치의 50% 만큼만 제공됩니다. 오퍼레이터 기념사진 \"끝없는 원정\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+    "sourceSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_15.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "88bc7dadf73b4a289f48072a477c2e949b22b8c7cbf23f93c68d5d6b2a054428",
+    "payloadSha256": "7efa23cfdb17b4e1e5f8d3e8064a0d331b3708ce859e12453646a626331cfe61"
+  }
+}

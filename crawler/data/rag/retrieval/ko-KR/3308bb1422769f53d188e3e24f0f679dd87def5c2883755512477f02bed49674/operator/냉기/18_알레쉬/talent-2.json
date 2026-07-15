@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.18.talent-2",
+  "semanticKey": "ko-KR|operator|18|talent-2",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_18",
+    "name": "알레쉬",
+    "aliases": [],
+    "gameEntryId": 18
+  },
+  "title": "알레쉬 — 낚시의 달인",
+  "content": "알레쉬 오퍼레이터의 오퍼레이터 재능 ‘낚시의 달인’.\n단계 1: 지능 10 포인트마다, 연계 스킬 얼음 낚시 기술로 진귀한 린수를 낚아올릴 확률 +0.2%, 최대 +30%. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 48개, 탈로시안 화폐 10000개.\n단계 2: 지능 10 포인트마다, 연계 스킬 얼음 낚시 기술로 진귀한 린수를 낚아올릴 확률 +0.5%, 최대 +30%. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 28개, 탈로시안 화폐 24000개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 2,
+    "name": "낚시의 달인",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "지능 10 포인트마다, 연계 스킬 얼음 낚시 기술로 진귀한 린수를 낚아올릴 확률 +0.2%, 최대 +30%",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 48
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 10000
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "지능 10 포인트마다, 연계 스킬 얼음 낚시 기술로 진귀한 린수를 낚아올릴 확률 +0.5%, 최대 +30%",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 28
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 24000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "talentKind": "combat_talent",
+    "talentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+    "sourceSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_18.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "ee3c7d467a643289f9a7e188f76e5f4cebe2b02f2c340b80af3eaadc188f426a",
+    "payloadSha256": "c36832233d353b0d8c7e5abccc522ed9a57e4029083f8ed0781b25321ae30fe6"
+  }
+}

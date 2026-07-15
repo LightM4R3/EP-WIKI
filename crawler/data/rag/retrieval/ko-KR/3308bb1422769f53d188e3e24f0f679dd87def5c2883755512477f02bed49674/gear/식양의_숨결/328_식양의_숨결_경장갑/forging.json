@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.328.forging",
+  "semanticKey": "ko-KR|gear|328|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_328",
+    "name": "식양의 숨결 경장갑",
+    "aliases": [],
+    "gameEntryId": 328
+  },
+  "title": "식양의 숨결 경장갑 — 정밀 단조",
+  "content": "식양의 숨결 경장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 의지: +0 87, +1 95, +2 104, +3 113.\n2번 지능 수치는 기본 표와 단조 표가 충돌해 검색 제외.\n3번 오리지늄 아츠 강도: +0 20, +1 22, +2 24, +3 26.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "status": "source_conflict"
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 20,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 22,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 24,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 26,
+            "unit": "flat"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_3a9437540d70",
+    "groupLabel": "식양의 숨결",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_숨결/328_식양의_숨결_경장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=328&header=0",
+    "sourceSha256": "38a29cb96af28449b95ae695dfb4b54eda81fbb9d22ee53756d50f1b2430a4ef",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_328.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.options[slot=2].values",
+        "reason": "장비 기본 옵션과 정밀 단조 +0 값이 충돌함",
+        "status": "source_conflict"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c4ec0be96db79745c02a8d4f7cb1f25aefbf3e07839c524e6aec4827efa7ecbb",
+    "payloadSha256": "c2b8cf6b08954d3c77bfb36eaa6164e9ff4ff80d57489532467afcd916a3bdf6"
+  }
+}

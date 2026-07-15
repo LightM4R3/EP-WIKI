@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.10.potential-5",
+  "semanticKey": "ko-KR|operator|10|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_10",
+    "name": "아비웨나",
+    "aliases": [],
+    "gameEntryId": 10
+  },
+  "title": "아비웨나 — 잠재능력 5 회유와 위압",
+  "content": "아비웨나 오퍼레이터의 잠재능력 5 ‘회유와 위압’. 회수한 썬더랜스 및 강력한 썬더랜스가 전기 취약 상태의 적을 명중했을 때, 피해 배율이 기존의 1.15 배로 증가합니다. 오퍼레이터 기념사진 \"의문의 초대\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "회유와 위압",
+    "status": "rule_validated",
+    "effect": "회수한 썬더랜스 및 강력한 썬더랜스가 전기 취약 상태의 적을 명중했을 때, 피해 배율이 기존의 1.15 배로 증가합니다. 오퍼레이터 기념사진 \"의문의 초대\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+    "sourceSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_10.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b68f249686e1232c704922bbbda41a66b838268bb8f448ae864fab5857501a14",
+    "payloadSha256": "b231408ac24fe79eb1614afc8f6c11dc0908e7cff8585eaa65fd2299b54600c2"
+  }
+}

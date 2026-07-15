@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.367.forging",
+  "semanticKey": "ko-KR|gear|367|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_367",
+    "name": "경량 초자연 보호판",
+    "aliases": [],
+    "gameEntryId": 367
+  },
+  "title": "경량 초자연 보호판 — 정밀 단조",
+  "content": "경량 초자연 보호판 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 힘: +0 87, +1 95, +2 104, +3 113.\n2번 의지: +0 58, +1 63, +2 69, +3 75.\n3번 불균형 목표에 주는 피해 보너스: +0 20.7%, +1 22.8%, +2 24.8%, +3 26.9%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 58,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 63,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 69,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 75,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "불균형 목표에 주는 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 20.7,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 22.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 24.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 26.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_fb0fff599026",
+    "groupLabel": "경량 초자연",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/경량_초자연/367_경량_초자연_보호판.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=367&header=0",
+    "sourceSha256": "cf132f1de9c333149e696741dde3e81c35c330a6efe11bf9a78dcc9fc346ab0e",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_367.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "19a1a864fe6756f68ab8e179709e4829b366134d496ed72c37781d27586d7018",
+    "payloadSha256": "37b1622d77d9301728d6742751e923d49e621f21c4d589ccf3498846415f9880"
+  }
+}

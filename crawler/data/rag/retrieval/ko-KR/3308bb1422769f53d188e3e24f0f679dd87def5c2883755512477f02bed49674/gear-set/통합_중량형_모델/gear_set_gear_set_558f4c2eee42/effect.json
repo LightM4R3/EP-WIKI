@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-558f4c2eee42.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_558f4c2eee42|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_558f4c2eee42",
+    "name": "통합 중량형 모델",
+    "aliases": []
+  },
+  "title": "통합 중량형 모델 — 장비 세트 효과",
+  "content": "통합 중량형 모델 장비 세트의 3개 세트 효과. 장착자의 생명력 +500 장착자가 적을 처치한 후, 생명력 100 포인트 회복. 해당 효과는 5초마다 최대 1회만 발동합니다.",
+  "facts": {
+    "gearSet": {
+      "id": 1435554510,
+      "code": "gear_set_558f4c2eee42",
+      "label": "통합 중량형 모델"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 생명력 +500 장착자가 적을 처치한 후, 생명력 100 포인트 회복. 해당 효과는 5초마다 최대 1회만 발동합니다.",
+    "memberGameEntryIds": [
+      229,
+      230,
+      231,
+      232
+    ],
+    "evidenceCopyCount": 4
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_558f4c2eee42",
+    "groupLabel": "통합 중량형 모델",
+    "gearSetCode": "gear_set_558f4c2eee42",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=229&header=0",
+    "sourceSha256": "25dff4547cbaccbcd495c47cc4a8eaa97567d50f0b8f3ec1273d2f046f36c7f0",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_229.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_230.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_231.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_232.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "29f5df482f3764ec1c5b280671ca5f5e35ca63348d46bf0bad69b619089830b5",
+    "payloadSha256": "d022eaf06791003a0816b7e09a257d3a17c21429cc978919c49eec2cd0ffa4f1"
+  }
+}

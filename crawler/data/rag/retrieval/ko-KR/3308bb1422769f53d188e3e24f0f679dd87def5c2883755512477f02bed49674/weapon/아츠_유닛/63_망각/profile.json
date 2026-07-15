@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.63.profile",
+  "semanticKey": "ko-KR|weapon|63|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_63",
+    "name": "망각",
+    "aliases": [],
+    "gameEntryId": 63
+  },
+  "title": "망각 — 무기 기본 정보",
+  "content": "망각 무기의 기본 정보. 무기 유형은 아츠 유닛이다. 옵션은 1번 지능 증가 · 대, 2번 아츠 피해 증가 · 대, 3번 어둠 · 치욕이다.",
+  "facts": {
+    "name": "망각",
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.63.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "아츠 피해 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.63.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "어둠 · 치욕",
+        "documentRef": "epwiki.ko-kr.weapon.63.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "weaponTypeCode": "arts_unit"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/63_망각.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=63&header=0",
+    "sourceSha256": "8561a860db67fe9e0f88ce61e6ed42723937536d2228f5e05cb6b207ddc8664f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_63.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_63.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "63304e47814392319a816373c157b23379a3ca0b423fb7b2e1e614f7b174e167",
+    "payloadSha256": "515e02f2e55532ef5c9aa2b3cefc6ee00fc719f4153e55edf5f28523d0a5ceda"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.25.potential-1",
+  "semanticKey": "ko-KR|operator|25|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_25",
+    "name": "탕탕",
+    "aliases": [],
+    "gameEntryId": 25
+  },
+  "title": "탕탕 — 잠재능력 1 무한한 재보",
+  "content": "탕탕 오퍼레이터의 잠재능력 1 ‘무한한 재보’. 연계 스킬 야, 강물! 도와줘!의 피해 배율이 기존의 1.2 배로 증가하며, 쿨타임 -2 초. 배틀 스킬 우당탕탕 파도!로 와류 한 곳을 소모하여 용오름이 생성될 때마다, 추가로 스킬 게이지 5 포인트를 반환합니다. 오퍼레이터 기념사진 \"물에 비친 본심\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "무한한 재보",
+    "status": "rule_validated",
+    "effect": "연계 스킬 야, 강물! 도와줘!의 피해 배율이 기존의 1.2 배로 증가하며, 쿨타임 -2 초. 배틀 스킬 우당탕탕 파도!로 와류 한 곳을 소모하여 용오름이 생성될 때마다, 추가로 스킬 게이지 5 포인트를 반환합니다. 오퍼레이터 기념사진 \"물에 비친 본심\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+    "sourceSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+    "authority": "canonical",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.operator_25.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b7c11dbb1a15fb69838534b24cd00794ae19ae72f35559e7b9e3d6349a2010e8",
+    "payloadSha256": "fd8bb6a950c9f1d6b14c6f772f6a75664d6e4e13889bfa8c51b408959c417abf"
+  }
+}

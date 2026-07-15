@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.76.profile",
+  "semanticKey": "ko-KR|weapon|76|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_76",
+    "name": "쐐기",
+    "aliases": [],
+    "gameEntryId": 76
+  },
+  "title": "쐐기 — 무기 기본 정보",
+  "content": "쐐기 무기의 기본 정보. 무기 유형은 권총이다. 옵션은 1번 주요 능력치 증가 · 대, 2번 치명타 확률 증가 · 대, 3번 고통 · 문명의 쐐기이다.",
+  "facts": {
+    "name": "쐐기",
+    "weaponType": {
+      "id": 3,
+      "code": "handcannon",
+      "label": "권총"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "주요 능력치 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.76.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "치명타 확률 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.76.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "고통 · 문명의 쐐기",
+        "documentRef": "epwiki.ko-kr.weapon.76.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "weaponTypeCode": "handcannon"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/76_쐐기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=76&header=0",
+    "sourceSha256": "93d3876ac0cb3aa4117db5a14f2851b8d0e5d602ccbea67486dd161ed82770a4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_76.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_76.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4ed25ee821b993041da34a3d99c51f27172075225ab092e0fca0f6eaf15fa51d",
+    "payloadSha256": "fa2091462c208bcbb953f1d68ef5568dacce03399e4a756eb991d63efd722760"
+  }
+}

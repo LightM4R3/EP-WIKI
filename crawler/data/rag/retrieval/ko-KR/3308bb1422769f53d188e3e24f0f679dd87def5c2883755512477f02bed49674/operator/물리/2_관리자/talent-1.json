@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.2.talent-1",
+  "semanticKey": "ko-KR|operator|2|talent-1",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_2",
+    "name": "관리자",
+    "aliases": [
+      "관리자(남)",
+      "관리자(여)"
+    ],
+    "gameEntryId": 2
+  },
+  "title": "관리자 — 본질 붕괴",
+  "content": "관리자 오퍼레이터의 오퍼레이터 재능 ‘본질 붕괴’.\n단계 1: 적에게 부착한 오리지늄 결정이 소모 됐을 때, 자신의 공격력 +15%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 2400개.\n단계 2: 적에게 부착한 오리지늄 결정이 소모 됐을 때, 자신의 공격력 +30%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 40개, 탈로시안 화폐 8600개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 1,
+    "name": "본질 붕괴",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "적에게 부착한 오리지늄 결정이 소모 됐을 때, 자신의 공격력 +15%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 2400
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "적에게 부착한 오리지늄 결정이 소모 됐을 때, 자신의 공격력 +30%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 40
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8600
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "talentKind": "combat_talent",
+    "talentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/2_관리자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=2&header=0",
+    "sourceSha256": "d14e416101c10ca374f77bb5f25c300607764fd58c07bab57524ffad8f331cb8",
+    "authority": "human_override",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.operator_2.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d64da9df01b01fe961828f2560f300687a7c31bfc3d58dc31137021ac4f3587e",
+    "payloadSha256": "cfd387a71f4004453340b2556a63aa1a335deb1e550bc16c9ee598247305e2db"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.25.profile",
+  "semanticKey": "ko-KR|operator|25|profile",
+  "locale": "ko-KR",
+  "documentType": "operator_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_25",
+    "name": "탕탕",
+    "aliases": [],
+    "gameEntryId": 25
+  },
+  "title": "탕탕 — 오퍼레이터 기본 정보",
+  "content": "탕탕 오퍼레이터의 기본 정보. 속성은 냉기, 무기 유형은 권총이다. 주요 능력치는 민첩, 보조 능력치는 힘이다. 희귀도는 6성이다. 클래스는 Caster이다.",
+  "facts": {
+    "name": "탕탕",
+    "element": {
+      "id": 3,
+      "code": "cryo",
+      "label": "냉기"
+    },
+    "weaponType": {
+      "id": 3,
+      "code": "handcannon",
+      "label": "권총"
+    },
+    "primaryAttribute": {
+      "id": 1,
+      "code": "agility",
+      "label": "민첩"
+    },
+    "secondaryAttribute": {
+      "id": 0,
+      "code": "strength",
+      "label": "힘"
+    },
+    "attributeCatalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "rarity": 6,
+    "class": {
+      "id": 4,
+      "code": "caster",
+      "sourceLabel": "Caster",
+      "sourceIconSha256": "6a321062bd23b62e745c7fe6e959b37f3b68640ee86f9ee27a06d1cf75cc0b42",
+      "mappingStatus": "verified"
+    },
+    "portraitUrl": "https://static.skport.com/image/rm42wiki/20260313/4559012616678/69b2e5e47c2305399ff6a873_56331367.png"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_profile",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "elementCode": "cryo",
+    "weaponTypeCode": "handcannon",
+    "primaryAttributeCode": "agility",
+    "secondaryAttributeCode": "strength"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+    "sourceSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+    "authority": "canonical",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.operator_25.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.operator_25.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5d6f88bd9dbf8bbb432c79da0c3896d2eaa31916ed1f347cc558cc391b70eb8e",
+    "payloadSha256": "2ed6d2eed34c7d10e3e01cec5402650e6adc12632f7ac781b52c3e6f64cf24d3"
+  }
+}

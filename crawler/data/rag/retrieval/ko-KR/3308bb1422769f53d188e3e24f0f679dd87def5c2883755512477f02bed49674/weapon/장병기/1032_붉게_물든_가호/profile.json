@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.1032.profile",
+  "semanticKey": "ko-KR|weapon|1032|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_1032",
+    "name": "붉게 물든 가호",
+    "aliases": [],
+    "gameEntryId": 1032
+  },
+  "title": "붉게 물든 가호 — 무기 기본 정보",
+  "content": "붉게 물든 가호 무기의 기본 정보. 무기 유형은 장병기이다. 옵션은 1번 민첩 증가 · 대, 2번 열기 피해 증가 · 대, 3번 흐름 · 심판이다.",
+  "facts": {
+    "name": "붉게 물든 가호",
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.1032.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "열기 피해 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.1032.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "흐름 · 심판",
+        "documentRef": "epwiki.ko-kr.weapon.1032.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "weaponTypeCode": "polearm"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/1032_붉게_물든_가호.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1032&header=0",
+    "sourceSha256": "ef5683ef54a17f1e5dfcc25db754f681db8fc87eea31009a88600fc43520cd45",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_1032.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_1032.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "32e2078af1fdcea0fc1e8c1244f5b9c518b95c223e7bb7f977d39a5cb24ef1eb",
+    "payloadSha256": "8d9e9ea8399c361921ed256998a6644789b500290ec3d27459337561011faef6"
+  }
+}

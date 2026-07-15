@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.218.profile",
+  "semanticKey": "ko-KR|gear|218|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_218",
+    "name": "광산 방호복",
+    "aliases": [],
+    "gameEntryId": 218
+  },
+  "title": "광산 방호복 — 장비 기본 정보",
+  "content": "광산 방호복 장비의 기본 정보. 유형은 방어구, 품질은 초록색 품질, 세트는 세트 없음이다. LV.20, 방어력 16. 옵션은 1번 지능 27, 2번 의지 18, 3번 생명력 125. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 방호복",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 20,
+    "defense": 16,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 27,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 18,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "생명력",
+        "baseValue": {
+          "value": 125,
+          "unit": "flat"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "armor",
+    "qualityCode": "green",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/218_광산_방호복.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=218&header=0",
+    "sourceSha256": "58a9c9e89621dac9bd0666519f3c794941828ab1c870a3df9f3c888075d91e88",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_218.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_218.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5f9d73d78e32ff08cc6d9549ebbf5aae5656a538073f80c011c60d71762b4477",
+    "payloadSha256": "3964da83be1c705fa994e84c5c30862350821c07c7a25a871d0396b10b042d9b"
+  }
+}

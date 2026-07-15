@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.364.profile",
+  "semanticKey": "ko-KR|gear|364|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_364",
+    "name": "생체 보조 접속기 · I",
+    "aliases": [],
+    "gameEntryId": 364
+  },
+  "title": "생체 보조 접속기 · I — 장비 기본 정보",
+  "content": "생체 보조 접속기 · I 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 생체 보조이다. LV.70, 방어력 21. 옵션은 1번 힘 32, 2번 의지 21, 3번 생명력 41.4%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "생체 보조 접속기 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 447874150,
+      "code": "gear_set_1ab07dc6afcc",
+      "label": "생체 보조"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "생명력",
+        "baseValue": {
+          "value": 41.4,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-1ab07dc6afcc.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1ab07dc6afcc",
+    "groupLabel": "생체 보조",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_1ab07dc6afcc"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/생체_보조/364_생체_보조_접속기_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=364&header=0",
+    "sourceSha256": "2fc34b24d123a1431279dd4e823bdc19394e53cd0ca20ef2abe17d6e856306a5",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_364.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_364.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7a2a04bc097a05aea0eab9ea48c8cbf18aa5ba2494eaa6e0db38f88ed42db2ce",
+    "payloadSha256": "53af053976c285277df2c68a40e1499d7d4a464214c28f912d7267f6a3c4125a"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.74.profile",
+  "semanticKey": "ko-KR|weapon|74|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_74",
+    "name": "분쇄의 군주",
+    "aliases": [],
+    "gameEntryId": 74
+  },
+  "title": "분쇄의 군주 — 무기 기본 정보",
+  "content": "분쇄의 군주 무기의 기본 정보. 무기 유형은 양손검이다. 옵션은 1번 힘 증가 · 대, 2번 치명타 확률 증가 · 대, 3번 분쇄 · 군왕의 위세이다.",
+  "facts": {
+    "name": "분쇄의 군주",
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.74.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "치명타 확률 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.74.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "분쇄 · 군왕의 위세",
+        "documentRef": "epwiki.ko-kr.weapon.74.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "weaponTypeCode": "greatsword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/74_분쇄의_군주.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=74&header=0",
+    "sourceSha256": "c9023eda2bae7e82a8fd386e764fd3483a587ad4d0a8f7a07baed3dd1602b1d9",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_74.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_74.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b21ca226f7c9f87d6283c56e6bb207e87d125cc9d918bd5fe0508ddca112042d",
+    "payloadSha256": "dc8778a9a4fd1494eeeba9b0b13511221420d16d98cf0662da9ebb886106377d"
+  }
+}

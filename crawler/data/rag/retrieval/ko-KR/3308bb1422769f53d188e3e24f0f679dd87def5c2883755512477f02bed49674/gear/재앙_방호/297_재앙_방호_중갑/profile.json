@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.297.profile",
+  "semanticKey": "ko-KR|gear|297|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_297",
+    "name": "재앙 방호 중갑",
+    "aliases": [],
+    "gameEntryId": 297
+  },
+  "title": "재앙 방호 중갑 — 장비 기본 정보",
+  "content": "재앙 방호 중갑 장비의 기본 정보. 유형은 방어구, 품질은 보라색 품질, 세트는 재앙 방호이다. LV.50, 방어력 40. 옵션은 1번 힘 61, 2번 지능 41, 3번 궁극기 피해 보너스 18.4%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "재앙 방호 중갑",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 963247953,
+      "code": "gear_set_396878b1d89a",
+      "label": "재앙 방호"
+    },
+    "level": 50,
+    "defense": 40,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 61,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 피해 보너스",
+        "baseValue": {
+          "value": 18.4,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-396878b1d89a.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_396878b1d89a",
+    "groupLabel": "재앙 방호",
+    "gearTypeCode": "armor",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_396878b1d89a"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/재앙_방호/297_재앙_방호_중갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=297&header=0",
+    "sourceSha256": "48067d812da79670e5c545bddfe96a968bcb013ef7f56114f8648979fc01b07d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_297.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_297.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0115555ac36fc437594bc287a065ddf92b007dae7b77835686c8baa7bb35e0f1",
+    "payloadSha256": "0cf3930c283c089f2cf3c897268ad755ea67f7e1ca8ec3503a84f19a2daec342"
+  }
+}

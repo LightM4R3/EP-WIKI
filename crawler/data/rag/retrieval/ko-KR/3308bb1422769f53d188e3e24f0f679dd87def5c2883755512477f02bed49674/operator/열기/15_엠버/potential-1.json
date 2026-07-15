@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.15.potential-1",
+  "semanticKey": "ko-KR|operator|15|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_15",
+    "name": "엠버",
+    "aliases": [],
+    "gameEntryId": 15
+  },
+  "title": "엠버 — 잠재능력 1 이동 요새",
+  "content": "엠버 오퍼레이터의 잠재능력 1 ‘이동 요새’. 재능 '전진의 결의' 효과 강화: 비호 효과 +20%, 적을 명중할 때 추가 지속 시간 1.5 초 오퍼레이터 기념사진 \"끝나지 않은 맹세\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "이동 요새",
+    "status": "rule_validated",
+    "effect": "재능 '전진의 결의' 효과 강화: 비호 효과 +20%, 적을 명중할 때 추가 지속 시간 1.5 초 오퍼레이터 기념사진 \"끝나지 않은 맹세\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+    "sourceSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_15.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "adaaf41a3b73699af6ee387a71cbdfa4e94a4705c3fd2ea66e96f2049709e53d",
+    "payloadSha256": "15d4ab6ddd71f05bcf759f2806b3b59216691665de43b7f118e6c664fd348c35"
+  }
+}

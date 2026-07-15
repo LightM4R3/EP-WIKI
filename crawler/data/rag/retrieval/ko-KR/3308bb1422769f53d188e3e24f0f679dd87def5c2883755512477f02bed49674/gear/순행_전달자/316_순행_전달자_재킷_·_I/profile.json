@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.316.profile",
+  "semanticKey": "ko-KR|gear|316|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_316",
+    "name": "순행 전달자 재킷 · I",
+    "aliases": [],
+    "gameEntryId": 316
+  },
+  "title": "순행 전달자 재킷 · I — 장비 기본 정보",
+  "content": "순행 전달자 재킷 · I 장비의 기본 정보. 유형은 방어구, 품질은 보라색 품질, 세트는 순행 전달자이다. LV.50, 방어력 40. 옵션은 1번 민첩 61, 2번 지능 41, 3번 생명력 14.7%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "순행 전달자 재킷 · I",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 2356057675,
+      "code": "gear_set_8c6d0fabbbe7",
+      "label": "순행 전달자"
+    },
+    "level": 50,
+    "defense": 40,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 61,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "생명력",
+        "baseValue": {
+          "value": 14.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-8c6d0fabbbe7.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_8c6d0fabbbe7",
+    "groupLabel": "순행 전달자",
+    "gearTypeCode": "armor",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_8c6d0fabbbe7"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/순행_전달자/316_순행_전달자_재킷_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=316&header=0",
+    "sourceSha256": "463ab7a6c1169ee27f6e2809bb83b9c6aa79873398f6e3e1ecf8414ada8190d0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_316.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_316.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4ab1d535b4f6ac8dda73a4018cb1caa605d94bf4efb5c61c5c1f05684dd15880",
+    "payloadSha256": "4b68d2099c965ca6f704d0b2a1b39629240b7d475306e63647d7c73f6c8566cd"
+  }
+}

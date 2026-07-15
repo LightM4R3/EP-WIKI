@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.81.profile",
+  "semanticKey": "ko-KR|weapon|81|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_81",
+    "name": "O.B.J. 엣지 오브 라이트",
+    "aliases": [],
+    "gameEntryId": 81
+  },
+  "title": "O.B.J. 엣지 오브 라이트 — 무기 기본 정보",
+  "content": "O.B.J. 엣지 오브 라이트 무기의 기본 정보. 무기 유형은 한손검이다. 옵션은 1번 민첩 증가 · 중, 2번 공격력 증가 · 중, 3번 흐름 · 거침없는 예리함이다.",
+  "facts": {
+    "name": "O.B.J. 엣지 오브 라이트",
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.81.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "공격력 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.81.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "흐름 · 거침없는 예리함",
+        "documentRef": "epwiki.ko-kr.weapon.81.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "weaponTypeCode": "sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/81_O.B.J._엣지_오브_라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=81&header=0",
+    "sourceSha256": "76c82bca0a6121cd738c05d2e816a46c600063dd2cae8379b6d8ace82a45de67",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_81.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_81.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e59ec43b3c30481df051119978db2e16de4e8f5aaea0b84eff0f1c8c4dbb6aae",
+    "payloadSha256": "75e6e716554eb0b78c595f4746bf76819059069ac9a702504d14af09a95575a2"
+  }
+}

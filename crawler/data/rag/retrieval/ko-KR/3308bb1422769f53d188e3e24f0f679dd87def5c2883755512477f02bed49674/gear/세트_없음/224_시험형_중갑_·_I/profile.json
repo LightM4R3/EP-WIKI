@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.224.profile",
+  "semanticKey": "ko-KR|gear|224|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_224",
+    "name": "시험형 중갑 · I",
+    "aliases": [],
+    "gameEntryId": 224
+  },
+  "title": "시험형 중갑 · I — 장비 기본 정보",
+  "content": "시험형 중갑 · I 장비의 기본 정보. 유형은 방어구, 품질은 초록색 품질, 세트는 세트 없음이다. LV.28, 방어력 22. 옵션은 1번 민첩 37, 2번 의지 25, 3번 공격력 11. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "시험형 중갑 · I",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 28,
+    "defense": 22,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 37,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 25,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "공격력",
+        "baseValue": {
+          "value": 11,
+          "unit": "flat"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "armor",
+    "qualityCode": "green",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/224_시험형_중갑_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=224&header=0",
+    "sourceSha256": "775a8a0569fee9ae98a29993a3ab73164dab1857ba0cda2d4e69bdd2c0c1b34c",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_224.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_224.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "431113bcb0037b0b36c99c8062046b14cf2475f7535f309349aa0e222e9899fc",
+    "payloadSha256": "0fc66498e0f6d9244e4fde44be04b2c704d6a699bc761c54e94f4994def7f7d3"
+  }
+}

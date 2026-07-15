@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.237.profile",
+  "semanticKey": "ko-KR|gear|237|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_237",
+    "name": "광산 금속 장갑 · I",
+    "aliases": [],
+    "gameEntryId": 237
+  },
+  "title": "광산 금속 장갑 · I — 장비 기본 정보",
+  "content": "광산 금속 장갑 · I 장비의 기본 정보. 유형은 글러브, 품질은 파란색 품질, 세트는 세트 없음이다. LV.36, 방어력 21. 옵션은 1번 힘 36, 2번 지능 24, 3번 공격력 9.5%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 금속 장갑 · I",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 36,
+    "defense": 21,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 36,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 24,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "공격력",
+        "baseValue": {
+          "value": 9.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "gloves",
+    "qualityCode": "blue",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/237_광산_금속_장갑_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=237&header=0",
+    "sourceSha256": "e26147a75fae8e106a28cd8da0093e58f4291348ed4db159ca0f9e5382148418",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_237.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_237.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "cec790e7c75428fd12e054b11dbdf2fd1791c4112e212500871a48e0d6d76ba7",
+    "payloadSha256": "c69462190a78962cebfb44b77f0c4497cd259aaf2f273e3d139644b98ba363ed"
+  }
+}

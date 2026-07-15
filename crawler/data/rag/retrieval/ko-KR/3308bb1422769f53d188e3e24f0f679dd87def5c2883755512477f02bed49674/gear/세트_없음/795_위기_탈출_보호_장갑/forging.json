@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.795.forging",
+  "semanticKey": "ko-KR|gear|795|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_795",
+    "name": "위기 탈출 보호 장갑",
+    "aliases": [],
+    "gameEntryId": 795
+  },
+  "title": "위기 탈출 보호 장갑 — 정밀 단조",
+  "content": "위기 탈출 보호 장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 민첩: +0 86, +1 94, +2 103, +3 111.\n3번 궁극기 피해 보너스: +0 45%, +1 49.5%, +2 54%, +3 58.5%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 86,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 94,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 103,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 111,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 45,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 49.5,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 54,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 58.5,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/795_위기_탈출_보호_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=795&header=0",
+    "sourceSha256": "b2526a3b5fd66fc997e29733e8af3645225d47e982186573af56bd5e92f566d5",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_795.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4b9e16c42770e09f54fa99eed82b5902954ab9541096d3c927939e83a6d7f9c3",
+    "payloadSha256": "33cc9d5d591d90720e34cde44c8f055aa52b38d5f44a56227a0848f938247bb9"
+  }
+}

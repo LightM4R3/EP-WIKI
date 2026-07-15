@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.996.talent-1",
+  "semanticKey": "ko-KR|operator|996|talent-1",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_996",
+    "name": "카뮤",
+    "aliases": [],
+    "gameEntryId": 996
+  },
+  "title": "카뮤 — 죄를 쫓는 자",
+  "content": "카뮤 오퍼레이터의 오퍼레이터 재능 ‘죄를 쫓는 자’.\n단계 1: 연계 스킬 영혼의 가시 효과 강화: 타오르는 핏빛 날개가 배회 하는 상태의 적을 명중할 때, [30+지능×0.15] 포인트만큼의 생명력을 회복하고 연타를 획득합니다. 15초 동안 지속. 추적 사용 시에는 목표가 배회 효과를 받는 상태가 아닐 때도 위의 효과가 발동합니다. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 2400개.\n단계 2: 연계 스킬 영혼의 가시 효과 강화: 타오르는 핏빛 날개가 배회 하는 상태의 적을 명중할 때, [60+지능×0.3] 포인트만큼의 생명력을 회복하고 연타를 획득합니다. 15초 동안 지속. 추적 사용 시에는 목표가 배회 효과를 받는 상태가 아닐 때도 위의 효과가 발동합니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 40개, 탈로시안 화폐 8600개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 1,
+    "name": "죄를 쫓는 자",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "연계 스킬 영혼의 가시 효과 강화: 타오르는 핏빛 날개가 배회 하는 상태의 적을 명중할 때, [30+지능×0.15] 포인트만큼의 생명력을 회복하고 연타를 획득합니다. 15초 동안 지속. 추적 사용 시에는 목표가 배회 효과를 받는 상태가 아닐 때도 위의 효과가 발동합니다.",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 2400
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "연계 스킬 영혼의 가시 효과 강화: 타오르는 핏빛 날개가 배회 하는 상태의 적을 명중할 때, [60+지능×0.3] 포인트만큼의 생명력을 회복하고 연타를 획득합니다. 15초 동안 지속. 추적 사용 시에는 목표가 배회 효과를 받는 상태가 아닐 때도 위의 효과가 발동합니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 40
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8600
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "talentKind": "combat_talent",
+    "talentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+    "sourceSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_996.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "a2a5f68aa0a605514103e90506c66ed488ec9c9ce39cde49add30d32a03a073c",
+    "payloadSha256": "0d6922fc5a2bdf1a1182742eddba7a4d29392dcf10f5e262ed25bafc55dc2833"
+  }
+}

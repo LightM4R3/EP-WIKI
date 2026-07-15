@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.882.forging",
+  "semanticKey": "ko-KR|gear|882|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_882",
+    "name": "청파 중갑",
+    "aliases": [],
+    "gameEntryId": 882
+  },
+  "title": "청파 중갑 — 정밀 단조",
+  "content": "청파 중갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 민첩: +0 87, +1 95, +2 104, +3 113.\n2번 힘: +0 58, +1 63, +2 69, +3 75.\n3번 궁극기 충전 효율: +0 12.3%, +1 13.6%, +2 14.8%, +3 16%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 58,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 63,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 69,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 75,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 12.3,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 13.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 14.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 16,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_25f6b0eb60d9",
+    "groupLabel": "청파",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/청파/882_청파_중갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=882&header=0",
+    "sourceSha256": "26bd91202facf7e770bb9b5452316e75fd6a8002a88e3d08290f836447c6d136",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_882.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3f1f42827e6102e525e03457f1a6d487e0d6dcd859ca052f80ae140e4295d871",
+    "payloadSha256": "2794f3448b54e779b6a3aca74f58dd2e701aa394d57e16568f48c2a35279d77f"
+  }
+}

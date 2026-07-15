@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.773.profile",
+  "semanticKey": "ko-KR|gear|773|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_773",
+    "name": "M. I. 경찰용 방어구 · I",
+    "aliases": [],
+    "gameEntryId": 773
+  },
+  "title": "M. I. 경찰용 방어구 · I — 장비 기본 정보",
+  "content": "M. I. 경찰용 방어구 · I 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 M. I. 경찰용이다. LV.70, 방어력 56. 옵션은 1번 민첩 87, 2번 지능 58, 3번 궁극기 충전 효율 12.3%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "M. I. 경찰용 방어구 · I",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2616968129,
+      "code": "gear_set_9bfa3d212476",
+      "label": "M. I. 경찰용"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 12.3,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-9bfa3d212476.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_9bfa3d212476",
+    "groupLabel": "M. I. 경찰용",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_9bfa3d212476"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/773_M._I._경찰용_방어구_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=773&header=0",
+    "sourceSha256": "179361d72d5f507ea438756217e8819d736e629ec9ff2cf3ca461fd75212270f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_773.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_773.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "faa6fa2f436a1f604c2681ed9c06947c2a9814ca51e85842e22121d1e5376c23",
+    "payloadSha256": "ff9333d6085a1bb49bc446e69f9b430fe7cca8ac48d4f3f12c9281018a38ab9d"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.39.profile",
+  "semanticKey": "ko-KR|weapon|39|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_39",
+    "name": "페코 5",
+    "aliases": [],
+    "gameEntryId": 39
+  },
+  "title": "페코 5 — 무기 기본 정보",
+  "content": "페코 5 무기의 기본 정보. 무기 유형은 권총이다. 옵션은 1번 주요 능력치 증가 · 소, 2번 강공 · 무장 정비이다.",
+  "facts": {
+    "name": "페코 5",
+    "weaponType": {
+      "id": 3,
+      "code": "handcannon",
+      "label": "권총"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "주요 능력치 증가 · 소",
+        "documentRef": "epwiki.ko-kr.weapon.39.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "강공 · 무장 정비",
+        "documentRef": "epwiki.ko-kr.weapon.39.option-2"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "weaponTypeCode": "handcannon"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/39_페코_5.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=39&header=0",
+    "sourceSha256": "46a22cbcd3088569351da35315dafdba1d75491d91d514324149c54021b769b0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_39.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_39.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0ce3af9dc594032ca38747c9a681378a6123ebbf403c89d070ce2eeb9e9692b4",
+    "payloadSha256": "4830abc52f5893f00b1b0b8e70909b053eca13bbdb851fea53d521eef86115c3"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.14.potential-2",
+  "semanticKey": "ko-KR|operator|14|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_14",
+    "name": "이본",
+    "aliases": [],
+    "gameEntryId": 14
+  },
+  "title": "이본 — 잠재능력 2 완벽한 창조물",
+  "content": "이본 오퍼레이터의 잠재능력 2 ‘완벽한 창조물’. 지능 +20, 치명타 확률 +7%",
+  "facts": {
+    "stage": 2,
+    "name": "완벽한 창조물",
+    "status": "rule_validated",
+    "effect": "지능 +20, 치명타 확률 +7%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/14_이본.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=14&header=0",
+    "sourceSha256": "3f37d24500fd241e34d9edb02f253b3a9eb2603fb488a55f40d74c29933359ef",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_14.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "6dc7fb69ca8119e47087452bbe6af3c13835b51884b6cd3601ae57eab05e72b2",
+    "payloadSha256": "0897e0bd5a9594e035159f8145afb65f6006c12a03187cf2690e8490ed329ae0"
+  }
+}

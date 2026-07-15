@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.54.option-1",
+  "semanticKey": "ko-KR|weapon|54|option-1",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_54",
+    "name": "드러난 칼날",
+    "aliases": [],
+    "gameEntryId": 54
+  },
+  "title": "드러난 칼날 — 1번 옵션 민첩 증가 · 소",
+  "content": "드러난 칼날 무기의 1번 옵션 ‘민첩 증가 · 소’.\nRANK1: 민첩 +12.\nRANK2: 민첩 +21.\nRANK3: 민첩 +31.\nRANK4: 민첩 +40.\nRANK5: 민첩 +50.\nRANK6: 민첩 +60.\nRANK7: 민첩 +69.\nRANK8: 민첩 +79.\nRANK9: 민첩 +93.",
+  "facts": {
+    "slot": 1,
+    "name": "민첩 증가 · 소",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "민첩",
+        "value": 12,
+        "unit": "flat",
+        "display": "+12"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "민첩",
+        "value": 21,
+        "unit": "flat",
+        "display": "+21"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "민첩",
+        "value": 31,
+        "unit": "flat",
+        "display": "+31"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "민첩",
+        "value": 40,
+        "unit": "flat",
+        "display": "+40"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "민첩",
+        "value": 50,
+        "unit": "flat",
+        "display": "+50"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "민첩",
+        "value": 60,
+        "unit": "flat",
+        "display": "+60"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "민첩",
+        "value": 69,
+        "unit": "flat",
+        "display": "+69"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "민첩",
+        "value": 79,
+        "unit": "flat",
+        "display": "+79"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "민첩",
+        "value": 93,
+        "unit": "flat",
+        "display": "+93"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "optionSlot": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/54_드러난_칼날.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=54&header=0",
+    "sourceSha256": "06f79eb8a1a4e5555bf9aaf91ee31d2ede9d4594bed6244e5988f71979d695fa",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_54.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b111473462fc9731240020bf860c07ac386ed3ab30e18afe6a5df076e423571b",
+    "payloadSha256": "c693c3a5ec8db6db2677fc5690eaa3c90f153c5631b3055dcc669518fe70f518"
+  }
+}

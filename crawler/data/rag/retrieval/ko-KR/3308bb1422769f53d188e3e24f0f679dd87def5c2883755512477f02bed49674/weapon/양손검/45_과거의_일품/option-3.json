@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.45.option-3",
+  "semanticKey": "ko-KR|weapon|45|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_45",
+    "name": "과거의 일품",
+    "aliases": [],
+    "gameEntryId": 45
+  },
+  "title": "과거의 일품 — 3번 옵션 효율 · 절개 의료법",
+  "content": "과거의 일품 무기의 3번 옵션 ‘효율 · 절개 의료법’.\nRANK1: 치유 효율 +10.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [84+의지×0.70] 포인트. 15초마다 최대 1회만 발동합니다.\nRANK2: 치유 효율 +12.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [101+의지×0.84] 포인트. 15초마다 최대 1회만 발동합니다.\nRANK3: 치유 효율 +14.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [118+의지×0.98] 포인트. 15초마다 최대 1회만 발동합니다.\nRANK4: 치유 효율 +16.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [134+의지×1.12] 포인트. 15초마다 최대 1회만 발동합니다.\nRANK5: 치유 효율 +18.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [151+의지×1.26] 포인트. 15초마다 최대 1회만 발동합니다.\nRANK6: 치유 효율 +20.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [168+의지×1.40] 포인트. 15초마다 최대 1회만 발동합니다.\nRANK7: 치유 효율 +22.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [185+의지×1.54] 포인트. 15초마다 최대 1회만 발동합니다.\nRANK8: 치유 효율 +24.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [202+의지×1.68] 포인트. 15초마다 최대 1회만 발동합니다.\nRANK9: 치유 효율 +28.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [235+의지×1.96] 포인트. 15초마다 최대 1회만 발동합니다.",
+  "facts": {
+    "slot": 3,
+    "name": "효율 · 절개 의료법",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "치유 효율 +10.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [84+의지×0.70] 포인트. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "치유 효율 +12.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [101+의지×0.84] 포인트. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "치유 효율 +14.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [118+의지×0.98] 포인트. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "치유 효율 +16.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [134+의지×1.12] 포인트. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "치유 효율 +18.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [151+의지×1.26] 포인트. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "치유 효율 +20.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [168+의지×1.40] 포인트. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "치유 효율 +22.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [185+의지×1.54] 포인트. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "치유 효율 +24.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [202+의지×1.68] 포인트. 15초마다 최대 1회만 발동합니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "치유 효율 +28.0% 비호 상태의 오퍼레이터가 피해를 받은 후, 장착자가 회복시키는 대상의 생명력 [235+의지×1.96] 포인트. 15초마다 최대 1회만 발동합니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/45_과거의_일품.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=45&header=0",
+    "sourceSha256": "696d542602ff81cbdfbdc7c793e19324383596b00a9d5c207aa4b4164bb7320a",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_45.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3db252a384d33855a72fc73de4d07c694bd66ec08b700368e95bc5a1fedd0a4a",
+    "payloadSha256": "52baf0fb6ed8231c796810c3fd21e8f6b4da2b82c45d4017211da4b3face8396"
+  }
+}

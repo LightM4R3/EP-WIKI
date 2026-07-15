@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.16.potential-1",
+  "semanticKey": "ko-KR|operator|16|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_16",
+    "name": "스노우샤인",
+    "aliases": [],
+    "gameEntryId": 16
+  },
+  "title": "스노우샤인 — 잠재능력 1 저체온 대피소",
+  "content": "스노우샤인 오퍼레이터의 잠재능력 1 ‘저체온 대피소’. 배틀 스킬 포화성 방어의 막기 효과가 지속되는 동안 비호 상태의 아군 오퍼레이터에게 아츠 부착 효과를 부여할 수 없습니다. 오퍼레이터 기념사진 \"찰나의 휴식\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "저체온 대피소",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 포화성 방어의 막기 효과가 지속되는 동안 비호 상태의 아군 오퍼레이터에게 아츠 부착 효과를 부여할 수 없습니다. 오퍼레이터 기념사진 \"찰나의 휴식\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+    "sourceSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_16.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f6fcd738df95a68845afc9cb5beb4381c99dcf8696f7cf4b4dea9f98bb924581",
+    "payloadSha256": "15cac55f6fe9b9eb126f33e59e9e4ff64b4fc60d2685f861931d50052f3018b0"
+  }
+}

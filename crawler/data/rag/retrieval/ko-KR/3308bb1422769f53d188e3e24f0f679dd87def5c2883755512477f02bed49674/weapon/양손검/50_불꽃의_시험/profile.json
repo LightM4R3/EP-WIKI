@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.50.profile",
+  "semanticKey": "ko-KR|weapon|50|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_50",
+    "name": "불꽃의 시험",
+    "aliases": [],
+    "gameEntryId": 50
+  },
+  "title": "불꽃의 시험 — 무기 기본 정보",
+  "content": "불꽃의 시험 무기의 기본 정보. 무기 유형은 양손검이다. 옵션은 1번 의지 증가 · 소, 2번 생명력 증가 · 소, 3번 분쇄 · 훈련된 전사이다.",
+  "facts": {
+    "name": "불꽃의 시험",
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지 증가 · 소",
+        "documentRef": "epwiki.ko-kr.weapon.50.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "생명력 증가 · 소",
+        "documentRef": "epwiki.ko-kr.weapon.50.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "분쇄 · 훈련된 전사",
+        "documentRef": "epwiki.ko-kr.weapon.50.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "weaponTypeCode": "greatsword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/50_불꽃의_시험.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=50&header=0",
+    "sourceSha256": "c4f626445d771483a0d2f31758bd6f1e6711ed5c20005e6b2deeb401d659a943",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_50.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_50.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e383f4e4782e58f1cd2d09392c18e26b84cde461e7e8044e872869ce76377e93",
+    "payloadSha256": "77bfcb5c489b7417998ef9f655fc55df1841ade71420042607ed86cb8faa9041"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.16.talent-2",
+  "semanticKey": "ko-KR|operator|16|talent-2",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_16",
+    "name": "스노우샤인",
+    "aliases": [],
+    "gameEntryId": 16
+  },
+  "title": "스노우샤인 — 구조 전문가",
+  "content": "스노우샤인 오퍼레이터의 오퍼레이터 재능 ‘구조 전문가’.\n단계 1: 배틀 스킬 포화성 방어가 적의 공격을 성공적으로 막은 후, 추가로 궁극기 에너지를 6 만큼 획득합니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 48개, 탈로시안 화폐 10000개.\n단계 2: 배틀 스킬 포화성 방어가 적의 공격을 성공적으로 막은 후, 추가로 궁극기 에너지를 10 만큼 획득합니다. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 28개, 탈로시안 화폐 24000개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 2,
+    "name": "구조 전문가",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "배틀 스킬 포화성 방어가 적의 공격을 성공적으로 막은 후, 추가로 궁극기 에너지를 6 만큼 획득합니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 48
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 10000
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "배틀 스킬 포화성 방어가 적의 공격을 성공적으로 막은 후, 추가로 궁극기 에너지를 10 만큼 획득합니다.",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 28
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 24000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "talentKind": "combat_talent",
+    "talentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+    "sourceSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_16.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "472711f53d3a8e740fde41f64dea6109490c9179c595c494e1589b6e8904c100",
+    "payloadSha256": "a799979066f8415c19fc723ff915104ebd3c029bee9a33966a1b702669fa7cd2"
+  }
+}

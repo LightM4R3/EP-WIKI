@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.278.profile",
+  "semanticKey": "ko-KR|gear|278|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_278",
+    "name": "침식 방호 장갑",
+    "aliases": [],
+    "gameEntryId": 278
+  },
+  "title": "침식 방호 장갑 — 장비 기본 정보",
+  "content": "침식 방호 장갑 장비의 기본 정보. 유형은 글러브, 품질은 파란색 품질, 세트는 침식 방호이다. LV.36, 방어력 21. 옵션은 1번 의지 33, 2번 지능 22, 3번 치유 효율 보너스 8.8%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "침식 방호 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    "gearSet": {
+      "id": 1506308161,
+      "code": "gear_set_59c6e9a131ea",
+      "label": "침식 방호"
+    },
+    "level": 36,
+    "defense": 21,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 33,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 22,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "치유 효율 보너스",
+        "baseValue": {
+          "value": 8.8,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-59c6e9a131ea.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_59c6e9a131ea",
+    "groupLabel": "침식 방호",
+    "gearTypeCode": "gloves",
+    "qualityCode": "blue",
+    "gearSetCode": "gear_set_59c6e9a131ea"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_방호/278_침식_방호_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=278&header=0",
+    "sourceSha256": "78b417a730ec7a3dfa77f6cbd18bed3c021ec41e68b410600b6f57666bca3dbe",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_278.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_278.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d47e881098837fdbbf90e522e09612f83472c45e1d02b99de5b93dfa395362bd",
+    "payloadSha256": "c8d83fd2c011d6da10acd0982aaea9576aa8f7f99717ff6d860542e32898ccd9"
+  }
+}

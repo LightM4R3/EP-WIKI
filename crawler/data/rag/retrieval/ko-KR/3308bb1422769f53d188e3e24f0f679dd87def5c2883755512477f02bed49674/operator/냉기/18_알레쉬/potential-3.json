@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.18.potential-3",
+  "semanticKey": "ko-KR|operator|18|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_18",
+    "name": "알레쉬",
+    "aliases": [],
+    "gameEntryId": 18
+  },
+  "title": "알레쉬 — 잠재능력 3 미끼 없는 낚시",
+  "content": "알레쉬 오퍼레이터의 잠재능력 3 ‘미끼 없는 낚시’. 연계 스킬 얼음 낚시 기술을 사용하여 진귀한 린수를 낚았을 때, 팀 전체 공격력 +15%, 10 초 동안 지속. 해당 효과는 중첩되지 않습니다. 오퍼레이터 기념사진 \"오르내림\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "미끼 없는 낚시",
+    "status": "rule_validated",
+    "effect": "연계 스킬 얼음 낚시 기술을 사용하여 진귀한 린수를 낚았을 때, 팀 전체 공격력 +15%, 10 초 동안 지속. 해당 효과는 중첩되지 않습니다. 오퍼레이터 기념사진 \"오르내림\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+    "sourceSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_18.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "63ab9a43fea3326a57a4061cd65bfb683101abb09bb72b71194f1de6ad1149dc",
+    "payloadSha256": "0e27ebcbcbf59475c65fc649c3363eb80bd9022d62292f9b73b25aecc1737140"
+  }
+}

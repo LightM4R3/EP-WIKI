@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.45.profile",
+  "semanticKey": "ko-KR|weapon|45|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_45",
+    "name": "과거의 일품",
+    "aliases": [],
+    "gameEntryId": 45
+  },
+  "title": "과거의 일품 — 무기 기본 정보",
+  "content": "과거의 일품 무기의 기본 정보. 무기 유형은 양손검이다. 옵션은 1번 의지 증가 · 대, 2번 생명력 증가 · 대, 3번 효율 · 절개 의료법이다.",
+  "facts": {
+    "name": "과거의 일품",
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.45.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "생명력 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.45.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "효율 · 절개 의료법",
+        "documentRef": "epwiki.ko-kr.weapon.45.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "weaponTypeCode": "greatsword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/45_과거의_일품.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=45&header=0",
+    "sourceSha256": "696d542602ff81cbdfbdc7c793e19324383596b00a9d5c207aa4b4164bb7320a",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_45.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_45.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "8fe7f3ae6c978c3ec3805c1d58adfe4fd02cbbcf3f45150d2b9d36ad1c13e2cf",
+    "payloadSha256": "f2ce745261cca9ce18ae30bc6831fe180ae754d46bf680fe6d0e53d4e3faee49"
+  }
+}

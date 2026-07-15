@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.82.profile",
+  "semanticKey": "ko-KR|weapon|82|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_82",
+    "name": "최후의 메아리",
+    "aliases": [],
+    "gameEntryId": 82
+  },
+  "title": "최후의 메아리 — 무기 기본 정보",
+  "content": "최후의 메아리 무기의 기본 정보. 무기 유형은 양손검이다. 옵션은 1번 힘 증가 · 중, 2번 생명력 증가 · 중, 3번 의료 · 기사의 영광이다.",
+  "facts": {
+    "name": "최후의 메아리",
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.82.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "생명력 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.82.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "의료 · 기사의 영광",
+        "documentRef": "epwiki.ko-kr.weapon.82.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "weaponTypeCode": "greatsword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/82_최후의_메아리.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=82&header=0",
+    "sourceSha256": "28098833c8cf2030307d0087bd9aa4a32a3ca76524a15ffca830bbe429e26740",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_82.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_82.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4babc39e0ee90257deb7b12b317efd42c4b81956bd5fcb607897215613aae806",
+    "payloadSha256": "e207cc1ab0ec220e2f0eaa36fd37fbb1933a08ab418b863851c09e2f23bd4f4c"
+  }
+}

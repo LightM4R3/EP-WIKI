@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.94.option-3",
+  "semanticKey": "ko-KR|weapon|94|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_94",
+    "name": "망자의 노래",
+    "aliases": [],
+    "gameEntryId": 94
+  },
+  "title": "망자의 노래 — 3번 옵션 어둠 · 무덤 위의 불씨",
+  "content": "망자의 노래 무기의 3번 옵션 ‘어둠 · 무덤 위의 불씨’.\nRANK1: 최대 생명력 +10.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +8.0%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 최대 생명력 +12.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +9.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 최대 생명력 +14.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +11.2%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 최대 생명력 +16.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +12.8%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 최대 생명력 +18.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +14.4%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 최대 생명력 +20.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +16.0%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK7: 최대 생명력 +22.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +17.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 최대 생명력 +24.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +19.2%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 최대 생명력 +28.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +22.4%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "어둠 · 무덤 위의 불씨",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "최대 생명력 +10.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +8.0%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "최대 생명력 +12.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +9.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "최대 생명력 +14.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +11.2%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "최대 생명력 +16.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +12.8%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "최대 생명력 +18.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +14.4%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "최대 생명력 +20.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +16.0%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "최대 생명력 +22.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +17.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "최대 생명력 +24.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +19.2%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "최대 생명력 +28.0% 장착자가 궁극기를 사용할 때, 자신과 속성이 다른 오퍼레이터의 공격력 +22.4%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/94_망자의_노래.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=94&header=0",
+    "sourceSha256": "4aceb7b8c764462425a23c1f7525fc2f11799b4a69fdf51af3c9d6d3257ce8fd",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_94.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "23787c366736d6d25b4022d36eb99e9efe917e796fd9940d2bc54f0b2c1a4cb3",
+    "payloadSha256": "22d31ee950dd97b4851106f164aa1fb2dc2a4917227155e8684c8e4cca07a8e7"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.261.profile",
+  "semanticKey": "ko-KR|gear|261|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_261",
+    "name": "M. I. 경찰용 암밴드",
+    "aliases": [],
+    "gameEntryId": 261
+  },
+  "title": "M. I. 경찰용 암밴드 — 장비 기본 정보",
+  "content": "M. I. 경찰용 암밴드 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 M. I. 경찰용이다. LV.70, 방어력 21. 옵션은 1번 힘 32, 2번 의지 21, 3번 냉기와 전기 피해 보너스 23%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "M. I. 경찰용 암밴드",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2616968129,
+      "code": "gear_set_9bfa3d212476",
+      "label": "M. I. 경찰용"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "냉기와 전기 피해 보너스",
+        "baseValue": {
+          "value": 23,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-9bfa3d212476.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_9bfa3d212476",
+    "groupLabel": "M. I. 경찰용",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_9bfa3d212476"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/261_M._I._경찰용_암밴드.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=261&header=0",
+    "sourceSha256": "120148cf95fc8284f58714e0164dfbcfc933e477212212ebab8315f7d3bc6942",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_261.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_261.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c4daa4c3f7f9a883dec04552d294c88db38125cfab43f1861b790a3333fe75ff",
+    "payloadSha256": "dd6d657c9164d798a5275cae6a36962a083489d4f5ed8152cc1ad3def6f3b395"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.272.profile",
+  "semanticKey": "ko-KR|gear|272|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_272",
+    "name": "아부레이 중갑",
+    "aliases": [],
+    "gameEntryId": 272
+  },
+  "title": "아부레이 중갑 — 장비 기본 정보",
+  "content": "아부레이 중갑 장비의 기본 정보. 유형은 방어구, 품질은 보라색 품질, 세트는 아부레이의 메아리이다. LV.50, 방어력 40. 옵션은 1번 힘 61, 2번 민첩 41, 3번 모든 스킬 피해 보너스 9.8%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "아부레이 중갑",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 639192494,
+      "code": "gear_set_2617c70e3c51",
+      "label": "아부레이의 메아리"
+    },
+    "level": 50,
+    "defense": 40,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 61,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "모든 스킬 피해 보너스",
+        "baseValue": {
+          "value": 9.8,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-2617c70e3c51.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_2617c70e3c51",
+    "groupLabel": "아부레이의 메아리",
+    "gearTypeCode": "armor",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_2617c70e3c51"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/아부레이의_메아리/272_아부레이_중갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=272&header=0",
+    "sourceSha256": "a91a3c030c26de0717344b232657cab1e884fe902a63e477d8704d86655e095e",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_272.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_272.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "da67ef844abce5dd22d2c32ed1503d4360d550b64e839c6cd408100af461ad1b",
+    "payloadSha256": "175280f63018a2fd8bf099cf313ab4065f155fb85d6171978df805cfbc2e1a5a"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.615.potential-1",
+  "semanticKey": "ko-KR|operator|615|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_615",
+    "name": "로시",
+    "aliases": [],
+    "gameEntryId": 615
+  },
+  "title": "로시 — 잠재능력 1 동경의 서막",
+  "content": "로시 오퍼레이터의 잠재능력 1 ‘동경의 서막’. 배틀 스킬 붉은색의 그림자와 연계 스킬 그림자가 타오르는 순간의 피해 배율이 기존의 1.15 배로 증가합니다. 배틀 스킬로 인해 나타난 울프팀의 진주는 적을 명중한 후, 10 포인트의 스킬 게이지를 반환합니다. 오퍼레이터 기념사진 \"소중한 진주\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "동경의 서막",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 붉은색의 그림자와 연계 스킬 그림자가 타오르는 순간의 피해 배율이 기존의 1.15 배로 증가합니다. 배틀 스킬로 인해 나타난 울프팀의 진주는 적을 명중한 후, 10 포인트의 스킬 게이지를 반환합니다. 오퍼레이터 기념사진 \"소중한 진주\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+    "sourceSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_615.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "320cc368933a50c106b9c099ab09087f410edfc2e33d2465242305a26ae31d86",
+    "payloadSha256": "21c57ef234354b512c8b461910f5e1b665afaaa9ecbfd5b7134ab9a7f9318011"
+  }
+}

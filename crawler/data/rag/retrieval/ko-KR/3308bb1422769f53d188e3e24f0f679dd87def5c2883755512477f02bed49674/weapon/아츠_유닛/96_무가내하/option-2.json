@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.96.option-2",
+  "semanticKey": "ko-KR|weapon|96|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_96",
+    "name": "무가내하",
+    "aliases": [],
+    "gameEntryId": 96
+  },
+  "title": "무가내하 — 2번 옵션 궁극기 충전 효율 증가 · 중",
+  "content": "무가내하 무기의 2번 옵션 ‘궁극기 충전 효율 증가 · 중’.\nRANK1: 궁극기 충전 효율 +4.8%.\nRANK2: 궁극기 충전 효율 +8.6%.\nRANK3: 궁극기 충전 효율 +12.4%.\nRANK4: 궁극기 충전 효율 +16.2%.\nRANK5: 궁극기 충전 효율 +20.0%.\nRANK6: 궁극기 충전 효율 +23.8%.\nRANK7: 궁극기 충전 효율 +27.6%.\nRANK8: 궁극기 충전 효율 +31.4%.\nRANK9: 궁극기 충전 효율 +37.1%.",
+  "facts": {
+    "slot": 2,
+    "name": "궁극기 충전 효율 증가 · 중",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "궁극기 충전 효율",
+        "value": 4.8,
+        "unit": "percent",
+        "display": "+4.8%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "궁극기 충전 효율",
+        "value": 8.6,
+        "unit": "percent",
+        "display": "+8.6%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "궁극기 충전 효율",
+        "value": 12.4,
+        "unit": "percent",
+        "display": "+12.4%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "궁극기 충전 효율",
+        "value": 16.2,
+        "unit": "percent",
+        "display": "+16.2%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "궁극기 충전 효율",
+        "value": 20,
+        "unit": "percent",
+        "display": "+20.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "궁극기 충전 효율",
+        "value": 23.8,
+        "unit": "percent",
+        "display": "+23.8%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "궁극기 충전 효율",
+        "value": 27.6,
+        "unit": "percent",
+        "display": "+27.6%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "궁극기 충전 효율",
+        "value": 31.4,
+        "unit": "percent",
+        "display": "+31.4%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "궁극기 충전 효율",
+        "value": 37.1,
+        "unit": "percent",
+        "display": "+37.1%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/96_무가내하.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=96&header=0",
+    "sourceSha256": "98f5318d6b3028ae3ca7a6c4ee51dfa77543b5f0dadaef43fcda8c2711a07347",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_96.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5244c043385907cfb2103f759a92e26e9b40260812c4c27735860f6a4e47edd6",
+    "payloadSha256": "95a5f1dd932a5734d69dee78d13337a24e880dd95e97c6b1350e7b7f5202f701"
+  }
+}

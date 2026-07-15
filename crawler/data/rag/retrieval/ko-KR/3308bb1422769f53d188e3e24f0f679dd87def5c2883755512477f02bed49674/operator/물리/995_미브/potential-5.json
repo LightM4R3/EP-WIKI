@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.995.potential-5",
+  "semanticKey": "ko-KR|operator|995|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_995",
+    "name": "미브",
+    "aliases": [],
+    "gameEntryId": 995
+  },
+  "title": "미브 — 잠재능력 5 숲을 가르는 주먹",
+  "content": "미브 오퍼레이터의 잠재능력 5 ‘숲을 가르는 주먹’. 배틀 스킬 단운, 추형, 개천의 피해 배율이 모두 기존의 1.1 배로 증가, 궁극기 절심이 주는 불균형치 +5 포인트. 배틀 스킬 배율 증가 효과는 재능 냉정과 중첩됩니다. 오퍼레이터 기념사진 \"기쁨 한 가득\" 잠금 해제 명함 테마 \"기쁨 한 가득\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "숲을 가르는 주먹",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 단운, 추형, 개천의 피해 배율이 모두 기존의 1.1 배로 증가, 궁극기 절심이 주는 불균형치 +5 포인트. 배틀 스킬 배율 증가 효과는 재능 냉정과 중첩됩니다. 오퍼레이터 기념사진 \"기쁨 한 가득\" 잠금 해제 명함 테마 \"기쁨 한 가득\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+    "sourceSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_995.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "17e86361ff460d864e0e30240800efde2c9d0636f6567475c06f77efe4b8c1b8",
+    "payloadSha256": "47b577c4426abf150847c3647b9e140220f9724a8c6110fd680fd98473d4b762"
+  }
+}

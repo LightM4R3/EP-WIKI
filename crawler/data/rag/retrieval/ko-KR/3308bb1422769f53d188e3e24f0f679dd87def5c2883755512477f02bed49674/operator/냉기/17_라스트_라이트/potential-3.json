@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.17.potential-3",
+  "semanticKey": "ko-KR|operator|17|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_17",
+    "name": "라스트 라이트",
+    "aliases": [],
+    "gameEntryId": 17
+  },
+  "title": "라스트 라이트 — 잠재능력 3 혹한의 지배자",
+  "content": "라스트 라이트 오퍼레이터의 잠재능력 3 ‘혹한의 지배자’. 연계 스킬 겨울 포식자와 궁극기 마지막 인사의 피해 배율이 기존의 1.15 배로 증가합니다. 오퍼레이터 기념사진 \"응화\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "혹한의 지배자",
+    "status": "rule_validated",
+    "effect": "연계 스킬 겨울 포식자와 궁극기 마지막 인사의 피해 배율이 기존의 1.15 배로 증가합니다. 오퍼레이터 기념사진 \"응화\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+    "sourceSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_17.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "a7ceb9ca93374469f23d0839f8a289be335913692e65098eda14a1ba47dc936b",
+    "payloadSha256": "8d67c759ddf32f39561b1764bc4236a956da34da48e6db41d69cdd6bc31a3246"
+  }
+}

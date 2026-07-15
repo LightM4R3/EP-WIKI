@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.838.potential-4",
+  "semanticKey": "ko-KR|operator|838|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_838",
+    "name": "장방이",
+    "aliases": [],
+    "gameEntryId": 838
+  },
+  "title": "장방이 — 잠재능력 4 결심",
+  "content": "장방이 오퍼레이터의 잠재능력 4 ‘결심’. 궁극기 심판의 폭풍의 사용에 필요한 궁극기 에너지 -15%",
+  "facts": {
+    "stage": 4,
+    "name": "결심",
+    "status": "rule_validated",
+    "effect": "궁극기 심판의 폭풍의 사용에 필요한 궁극기 에너지 -15%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/838_장방이.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=838&header=0",
+    "sourceSha256": "ccdae3966bde94c9b63200b3a967536b36b510c500d389b62b007105d2ee778b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_838.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "04181a84cf9da7fe5acd89cd524de84da93780112effa279c2cc4dec1bd96b85",
+    "payloadSha256": "39dcbdb9741996e91b92604780b0ecceb730a50904e20321e5d4bc162ca5bae2"
+  }
+}

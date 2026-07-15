@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.282.profile",
+  "semanticKey": "ko-KR|gear|282|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_282",
+    "name": "아부레이 금속 장갑",
+    "aliases": [],
+    "gameEntryId": 282
+  },
+  "title": "아부레이 금속 장갑 — 장비 기본 정보",
+  "content": "아부레이 금속 장갑 장비의 기본 정보. 유형은 글러브, 품질은 보라색 품질, 세트는 아부레이의 메아리이다. LV.50, 방어력 30. 옵션은 1번 힘 46, 2번 의지 30, 3번 불균형 목표에 주는 피해 보너스 24.5%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "아부레이 금속 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 639192494,
+      "code": "gear_set_2617c70e3c51",
+      "label": "아부레이의 메아리"
+    },
+    "level": 50,
+    "defense": 30,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 46,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 30,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "불균형 목표에 주는 피해 보너스",
+        "baseValue": {
+          "value": 24.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-2617c70e3c51.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_2617c70e3c51",
+    "groupLabel": "아부레이의 메아리",
+    "gearTypeCode": "gloves",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_2617c70e3c51"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/아부레이의_메아리/282_아부레이_금속_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=282&header=0",
+    "sourceSha256": "bfc6fb3e633b0dcf4f9071c7d0a904cef5e53aed76bae5e557c72262a863357d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_282.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_282.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "83804f8faf3fae30af878e7462a868487c667f86ae397bb8e73ed051eae20577",
+    "payloadSha256": "0cf8e2159e49a5642c14d6e62e2ca96be8ad63e0a964629c5e857d9d56ea98a6"
+  }
+}

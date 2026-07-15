@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.353.profile",
+  "semanticKey": "ko-KR|gear|353|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_353",
+    "name": "펄스식 교란 방어구",
+    "aliases": [],
+    "gameEntryId": 353
+  },
+  "title": "펄스식 교란 방어구 — 장비 기본 정보",
+  "content": "펄스식 교란 방어구 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 펄스식이다. LV.70, 방어력 56. 옵션은 1번 지능 87, 2번 의지 58, 3번 오리지늄 아츠 강도 20. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "펄스식 교란 방어구",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2859607881,
+      "code": "gear_set_aa70a0a9b381",
+      "label": "펄스식"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "baseValue": {
+          "value": 20,
+          "unit": "flat"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-aa70a0a9b381.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_aa70a0a9b381",
+    "groupLabel": "펄스식",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_aa70a0a9b381"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/펄스식/353_펄스식_교란_방어구.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=353&header=0",
+    "sourceSha256": "f05c4c0b4e66702fd92c910eadfccbf1a4d92eae4380aea2b0b5d51f9453654e",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_353.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_353.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3435c5938b8cc3089cbcc06c0178ae33893d33a529e76aaf72a7482c8a278864",
+    "payloadSha256": "1867bbaeaadc78926fc9f9e72d655cee79be48b33a364952078123a85fb05ff5"
+  }
+}

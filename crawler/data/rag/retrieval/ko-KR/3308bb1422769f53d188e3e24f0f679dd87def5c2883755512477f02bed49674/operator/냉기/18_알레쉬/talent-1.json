@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.18.talent-1",
+  "semanticKey": "ko-KR|operator|18|talent-1",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_18",
+    "name": "알레쉬",
+    "aliases": [],
+    "gameEntryId": 18
+  },
+  "title": "알레쉬 — 급속 냉동 보존 기술",
+  "content": "알레쉬 오퍼레이터의 오퍼레이터 재능 ‘급속 냉동 보존 기술’.\n단계 1: 주변의 적에게 동결 혹은 오리지늄 결정을 부착한 후, 자신의 궁극기 에너지 획득 3 포인트. 자기가 동결을 부여하여 해당 효과가 발동했을 경우, 궁극기 에너지 6 포인트 추가 획득. 해당 효과는 3초마다 최대 1회만 발동합니다. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 2400개.\n단계 2: 주변의 적에게 동결 혹은 오리지늄 결정을 부착한 후, 자신의 궁극기 에너지 획득 4 포인트. 자기가 동결을 부여하여 해당 효과가 발동했을 경우, 궁극기 에너지 8 포인트 추가 획득. 해당 효과는 3초마다 최대 1회만 발동합니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 40개, 탈로시안 화폐 8600개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 1,
+    "name": "급속 냉동 보존 기술",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "주변의 적에게 동결 혹은 오리지늄 결정을 부착한 후, 자신의 궁극기 에너지 획득 3 포인트. 자기가 동결을 부여하여 해당 효과가 발동했을 경우, 궁극기 에너지 6 포인트 추가 획득. 해당 효과는 3초마다 최대 1회만 발동합니다.",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 2400
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "주변의 적에게 동결 혹은 오리지늄 결정을 부착한 후, 자신의 궁극기 에너지 획득 4 포인트. 자기가 동결을 부여하여 해당 효과가 발동했을 경우, 궁극기 에너지 8 포인트 추가 획득. 해당 효과는 3초마다 최대 1회만 발동합니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 40
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8600
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "talentKind": "combat_talent",
+    "talentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+    "sourceSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_18.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d3f215a035fd938dd844861dfecea01b45e974959ab27ebdb37146560f54aae2",
+    "payloadSha256": "594f708572558c0fb105582842bbd0275ad6e88cda567e7e61051584eb779946"
+  }
+}

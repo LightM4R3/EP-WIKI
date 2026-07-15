@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-07-15T07:59:56.852230+00:00",
+  "dataset": {
+    "grain": "one JSON file per semantic retrieval document",
+    "entities": 320,
+    "documents": 1272,
+    "byEntityType": {
+      "gear": 220,
+      "operator": 28,
+      "weapon": 72
+    },
+    "byDocumentType": {
+      "gear_forging": 129,
+      "gear_profile": 220,
+      "gear_set_effect": 22,
+      "operator_combat_skill": 112,
+      "operator_infrastructure_talent": 54,
+      "operator_potential": 140,
+      "operator_profile": 28,
+      "operator_progression": 28,
+      "operator_promotion": 28,
+      "operator_talent": 84,
+      "weapon_option": 211,
+      "weapon_potential": 72,
+      "weapon_profile": 72,
+      "weapon_progression": 72
+    }
+  },
+  "checks": {
+    "schema": {
+      "passed": true,
+      "errors": []
+    },
+    "uniqueDocumentIds": {
+      "passed": true,
+      "duplicates": []
+    },
+    "uniqueSemanticKeys": {
+      "passed": true,
+      "duplicates": []
+    },
+    "uniqueContentHashes": {
+      "passed": true,
+      "duplicates": []
+    },
+    "evidenceCoverage": {
+      "passed": true,
+      "missing": []
+    },
+    "documentReferences": {
+      "passed": true,
+      "dangling": []
+    },
+    "forbiddenSourceFields": {
+      "passed": true,
+      "documents": []
+    },
+    "uiResidue": {
+      "passed": true,
+      "documents": []
+    },
+    "contextAnchors": {
+      "passed": true,
+      "documents": []
+    },
+    "semanticInvariants": {
+      "passed": true,
+      "errors": []
+    }
+  },
+  "coverage": {
+    "complete": false,
+    "refreshStatus": "provisional_legacy_source_hashes",
+    "sourceHashAlgorithms": {
+      "legacy_page_source_v0": 310,
+      "rendered_chapters_v1": 10
+    },
+    "withheldSourceConflicts": 6,
+    "sourceAbsent": [
+      {
+        "entityType": "operator",
+        "gameEntryId": 2,
+        "name": "관리자",
+        "field": "infrastructureTalents"
+      }
+    ],
+    "unmappedMaterials": [
+      "3상 나노플레이크 칩",
+      "바위아겔로스 잎",
+      "보통 붉은 기둥 버섯",
+      "스타게이트 버섯",
+      "연한 붉은 기둥 버섯",
+      "진한 붉은 기둥 버섯",
+      "초거리 빛 반사 파이프",
+      "타키온 차폐 구조체",
+      "프로토콜 디스크",
+      "프로토콜 디스크 세트",
+      "피버섯"
+    ]
+  },
+  "verdict": "indexable"
+}

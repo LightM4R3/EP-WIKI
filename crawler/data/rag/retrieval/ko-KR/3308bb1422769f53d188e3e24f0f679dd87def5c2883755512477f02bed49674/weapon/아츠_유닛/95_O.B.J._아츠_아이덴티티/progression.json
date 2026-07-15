@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.95.progression",
+  "semanticKey": "ko-KR|weapon|95|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_95",
+    "name": "O.B.J. 아츠 아이덴티티",
+    "aliases": [],
+    "gameEntryId": 95
+  },
+  "title": "O.B.J. 아츠 아이덴티티 — 기초 공격력",
+  "content": "O.B.J. 아츠 아이덴티티 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 42.\nLV.20: 기초 공격력 120.\nLV.40: 기초 공격력 203.\nLV.60: 기초 공격력 286.\nLV.80: 기초 공격력 369.\nLV.90: 기초 공격력 411.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 42
+      },
+      {
+        "level": 20,
+        "baseAttack": 120
+      },
+      {
+        "level": 40,
+        "baseAttack": 203
+      },
+      {
+        "level": 60,
+        "baseAttack": 286
+      },
+      {
+        "level": 80,
+        "baseAttack": 369
+      },
+      {
+        "level": 90,
+        "baseAttack": 411
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/95_O.B.J._아츠_아이덴티티.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=95&header=0",
+    "sourceSha256": "1dc6c84eb37f3251f265cde7d97e45b1bf45ac898bb17a494294a15ec8b523fe",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_95.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "090a8e67a6c5f3d27ac71a23d357b46985b99252996d3d7a6a4d62acdf9bfba7",
+    "payloadSha256": "d3bf67825d82f0a82ce4a8e5d2348f53c73e527632810e40295eeb30bcd14ba2"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.84.option-3",
+  "semanticKey": "ko-KR|weapon|84|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_84",
+    "name": "고대의 강줄기",
+    "aliases": [],
+    "gameEntryId": 84
+  },
+  "title": "고대의 강줄기 — 3번 옵션 잔혹 · 천추의 대지",
+  "content": "고대의 강줄기 무기의 3번 옵션 ‘잔혹 · 천추의 대지’.\nRANK1: 오리지늄 아츠 강도 +10 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[5.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 오리지늄 아츠 강도 +12 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[6.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 오리지늄 아츠 강도 +14 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[7.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 오리지늄 아츠 강도 +16 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[8.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 오리지늄 아츠 강도 +18 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[9.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 오리지늄 아츠 강도 +20 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[10.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK7: 오리지늄 아츠 강도 +22 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[11.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 오리지늄 아츠 강도 +24 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[12.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 오리지늄 아츠 강도 +28 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[14.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "잔혹 · 천추의 대지",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "오리지늄 아츠 강도 +10 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[5.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "오리지늄 아츠 강도 +12 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[6.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "오리지늄 아츠 강도 +14 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[7.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "오리지늄 아츠 강도 +16 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[8.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "오리지늄 아츠 강도 +18 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[9.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "오리지늄 아츠 강도 +20 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[10.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "오리지늄 아츠 강도 +22 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[11.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "오리지늄 아츠 강도 +24 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[12.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "오리지늄 아츠 강도 +28 장착자가 방어 불능 스택 수치를 소모 한 후, 물리 피해 +[14.0%×소모 스택 수치], 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/84_고대의_강줄기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=84&header=0",
+    "sourceSha256": "4d7ea0a0dd71255eb6bbb23d1a865dd32562023e3cc7612f80ba4aa7b292f2e8",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_84.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "aae04ff45ecd49183fc59315e00e0f57cd46fbdef30d65fedb2257c5a4f91fb0",
+    "payloadSha256": "058465a66eff9f6dd4c194a0ed8834216e7d695697a24352c251a1340ad7af29"
+  }
+}

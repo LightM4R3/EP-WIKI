@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-25f6b0eb60d9.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_25f6b0eb60d9|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_25f6b0eb60d9",
+    "name": "청파",
+    "aliases": []
+  },
+  "title": "청파 — 장비 세트 효과",
+  "content": "청파 장비 세트의 3개 세트 효과. 장착자의 연계 스킬 쿨타임 감소 +15% 장착자가 연계 스킬을 사용할 때, 모든 스킬 피해 +20%, 15초 동안 지속. 해당 효과는 최대 2스택까지 중첩되며 중첩될 때마다 지속 시간은 따로 계산됩니다.",
+  "facts": {
+    "gearSet": {
+      "id": 637024139,
+      "code": "gear_set_25f6b0eb60d9",
+      "label": "청파"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 연계 스킬 쿨타임 감소 +15% 장착자가 연계 스킬을 사용할 때, 모든 스킬 피해 +20%, 15초 동안 지속. 해당 효과는 최대 2스택까지 중첩되며 중첩될 때마다 지속 시간은 따로 계산됩니다.",
+    "memberGameEntryIds": [
+      876,
+      877,
+      878,
+      879,
+      880,
+      881,
+      882,
+      1019
+    ],
+    "evidenceCopyCount": 8
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_25f6b0eb60d9",
+    "groupLabel": "청파",
+    "gearSetCode": "gear_set_25f6b0eb60d9",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=876&header=0",
+    "sourceSha256": "34f00a1d017f8143b4b649e5628844d1cb63f91741f5268cb152e347cc1fa1f8",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_1019.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_876.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_877.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_878.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_879.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_880.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_881.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_882.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b36c99a741dbe25e79927cd497b5802563aeef8bb3887b5f9b95821f8ae4f910",
+    "payloadSha256": "6c5f77fbda3378c79cbbb6f0bcbfdd8e250b5985ebc3c75ecf0e7a9eddf0378d"
+  }
+}

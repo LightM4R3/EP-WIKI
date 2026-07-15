@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-2617c70e3c51.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_2617c70e3c51|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_2617c70e3c51",
+    "name": "아부레이의 메아리",
+    "aliases": []
+  },
+  "title": "아부레이의 메아리 — 장비 세트 효과",
+  "content": "아부레이의 메아리 장비 세트의 3개 세트 효과. 장착자의 모든 스킬 피해 +24% 장착자가 배틀 스킬, 연계 스킬, 궁극기를 사용할 때, 각각 공격력 +5%, 15초 동안 지속. 세 가지 버프는 독립적으로 존재하며 스택 수치는 중첩되지 않습니다.",
+  "facts": {
+    "gearSet": {
+      "id": 639192494,
+      "code": "gear_set_2617c70e3c51",
+      "label": "아부레이의 메아리"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 모든 스킬 피해 +24% 장착자가 배틀 스킬, 연계 스킬, 궁극기를 사용할 때, 각각 공격력 +5%, 15초 동안 지속. 세 가지 버프는 독립적으로 존재하며 스택 수치는 중첩되지 않습니다.",
+    "memberGameEntryIds": [
+      272,
+      275,
+      276,
+      279,
+      282,
+      285,
+      287,
+      289,
+      291,
+      293,
+      295
+    ],
+    "evidenceCopyCount": 11
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_2617c70e3c51",
+    "groupLabel": "아부레이의 메아리",
+    "gearSetCode": "gear_set_2617c70e3c51",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=272&header=0",
+    "sourceSha256": "03a5c62455b2fede4cb161c74cbc693691976998cc939eeb739462219dbe3bd1",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_272.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_275.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_276.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_279.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_282.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_285.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_287.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_289.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_291.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_293.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_295.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "6562ffade8a5734f8cafc46f92933a444e83471167911c42a76377ef80538599",
+    "payloadSha256": "ac737ac4a7bbedfd88d9fc4c22105074eb4d8bd42c9c8fc0cab0711ee75e3f93"
+  }
+}

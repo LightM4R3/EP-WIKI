@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.290.profile",
+  "semanticKey": "ko-KR|gear|290|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_290",
+    "name": "열 작업용 에너지 저장함",
+    "aliases": [],
+    "gameEntryId": 290
+  },
+  "title": "열 작업용 에너지 저장함 — 장비 기본 정보",
+  "content": "열 작업용 에너지 저장함 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 열 작업용이다. LV.70, 방어력 21. 옵션은 1번 힘 32, 2번 민첩 21, 3번 오리지늄 아츠 강도 41. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "열 작업용 에너지 저장함",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 3358174061,
+      "code": "gear_set_c82824cda56b",
+      "label": "열 작업용"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-c82824cda56b.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_c82824cda56b",
+    "groupLabel": "열 작업용",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_c82824cda56b"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/290_열_작업용_에너지_저장함.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=290&header=0",
+    "sourceSha256": "80d60a1619cd66b71bb397d27f19a4ba8851fbb6d219ec7e59585e8be522dac2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_290.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_290.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "445a30f8a25faf1fe19053936018d5d14477adbc8ce3b875c6ad8adec5fa8716",
+    "payloadSha256": "aa9f9ade1efbcc3f2dfe64796b24fc22507c15f3553e4dfb5802faa98c5532a6"
+  }
+}

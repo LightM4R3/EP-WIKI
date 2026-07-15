@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.7.talent-1",
+  "semanticKey": "ko-KR|operator|7|talent-1",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_7",
+    "name": "아크라이트",
+    "aliases": [],
+    "gameEntryId": 7
+  },
+  "title": "아크라이트 — 황무지의 여행자",
+  "content": "아크라이트 오퍼레이터의 오퍼레이터 재능 ‘황무지의 여행자’.\n단계 1: 배틀 스킬 질풍 섬광을 사용하여 3 회의 추가 효과를 발동한 후, 자신의 지능에 따라 팀 전체의 전기 피해가 증가합니다. 지능 1포인트당 +0.05%, 15 초 동안 지속. 해당 효과는 중첩되지 않습니다. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 2400개.\n단계 2: 배틀 스킬 질풍 섬광을 사용하여 3 회의 추가 효과를 발동한 후, 자신의 지능에 따라 팀 전체의 전기 피해가 증가합니다. 지능 1포인트당 +0.08%, 15 초 동안 지속. 해당 효과는 중첩되지 않습니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 40개, 탈로시안 화폐 8600개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 1,
+    "name": "황무지의 여행자",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "배틀 스킬 질풍 섬광을 사용하여 3 회의 추가 효과를 발동한 후, 자신의 지능에 따라 팀 전체의 전기 피해가 증가합니다. 지능 1포인트당 +0.05%, 15 초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 2400
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "배틀 스킬 질풍 섬광을 사용하여 3 회의 추가 효과를 발동한 후, 자신의 지능에 따라 팀 전체의 전기 피해가 증가합니다. 지능 1포인트당 +0.08%, 15 초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 40
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8600
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "talentKind": "combat_talent",
+    "talentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+    "sourceSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_7.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "8e0dd3c43552ce1cb7c05bb3948cce42acc745dcc3709c8347c8559ee37d5fff",
+    "payloadSha256": "66914e47ba575f4f97af7636be137f047db8276ce995694fae6cd60eca7fca36"
+  }
+}

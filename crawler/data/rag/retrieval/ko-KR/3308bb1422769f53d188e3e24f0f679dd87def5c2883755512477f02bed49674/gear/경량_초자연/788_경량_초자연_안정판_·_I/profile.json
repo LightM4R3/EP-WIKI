@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.788.profile",
+  "semanticKey": "ko-KR|gear|788|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_788",
+    "name": "경량 초자연 안정판 · I",
+    "aliases": [],
+    "gameEntryId": 788
+  },
+  "title": "경량 초자연 안정판 · I — 장비 기본 정보",
+  "content": "경량 초자연 안정판 · I 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 경량 초자연이다. LV.70, 방어력 21. 옵션은 1번 민첩 32, 2번 힘 21, 3번 물리 피해 보너스 23%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "경량 초자연 안정판 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 4212229625,
+      "code": "gear_set_fb0fff599026",
+      "label": "경량 초자연"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "물리 피해 보너스",
+        "baseValue": {
+          "value": 23,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-fb0fff599026.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_fb0fff599026",
+    "groupLabel": "경량 초자연",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_fb0fff599026"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/경량_초자연/788_경량_초자연_안정판_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=788&header=0",
+    "sourceSha256": "17431e44bfd6a145f7cf66ec4a7301662bd2b75a89b38ddc80f1b60208b8a6eb",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_788.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_788.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "cb64339f3438b3a40addff8b9c8f5a19dbecc48b9adb29e931f4512a8419799a",
+    "payloadSha256": "1e3c53c0ac0a83e94e4708fe8c44158430a51814c18c8b1cb964dae89ba84b8b"
+  }
+}

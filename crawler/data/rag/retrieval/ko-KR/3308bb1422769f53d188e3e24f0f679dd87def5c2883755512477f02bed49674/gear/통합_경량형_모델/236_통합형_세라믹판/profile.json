@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.236.profile",
+  "semanticKey": "ko-KR|gear|236|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_236",
+    "name": "통합형 세라믹판",
+    "aliases": [],
+    "gameEntryId": 236
+  },
+  "title": "통합형 세라믹판 — 장비 기본 정보",
+  "content": "통합형 세라믹판 장비의 기본 정보. 유형은 부품, 품질은 초록색 품질, 세트는 통합 경량형 모델이다. LV.28, 방어력 8. 옵션은 1번 의지 16, 3번 배틀 스킬 피해 보너스 16.2%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "통합형 세라믹판",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    "gearSet": {
+      "id": 3549914494,
+      "code": "gear_set_d395deded81d",
+      "label": "통합 경량형 모델"
+    },
+    "level": 28,
+    "defense": 8,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 16,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "배틀 스킬 피해 보너스",
+        "baseValue": {
+          "value": 16.2,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-d395deded81d.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_d395deded81d",
+    "groupLabel": "통합 경량형 모델",
+    "gearTypeCode": "component",
+    "qualityCode": "green",
+    "gearSetCode": "gear_set_d395deded81d"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/통합_경량형_모델/236_통합형_세라믹판.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=236&header=0",
+    "sourceSha256": "c1acc26c399175320104c969833c1b524f6f4553ccb57456ac8d39f9b7ab249b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_236.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_236.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4091bf41b0bf22b7fb979c63f1c95617350abbee2c70828341dd83b76ddb395e",
+    "payloadSha256": "24aeac5a903c0b984eb3ebe5c8e77a0ad219c4c46f3c2b54d9c5b553fa2b4f8e"
+  }
+}

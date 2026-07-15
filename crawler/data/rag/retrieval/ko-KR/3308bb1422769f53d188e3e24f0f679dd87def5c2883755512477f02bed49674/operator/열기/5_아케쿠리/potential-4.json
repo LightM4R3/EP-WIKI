@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.5.potential-4",
+  "semanticKey": "ko-KR|operator|5|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_5",
+    "name": "아케쿠리",
+    "aliases": [],
+    "gameEntryId": 5
+  },
+  "title": "아케쿠리 — 잠재능력 4 완벽한 컨디션",
+  "content": "아케쿠리 오퍼레이터의 잠재능력 4 ‘완벽한 컨디션’. 궁극기 소대, 집합!의 사용에 필요한 궁극기 에너지 -10%",
+  "facts": {
+    "stage": 4,
+    "name": "완벽한 컨디션",
+    "status": "rule_validated",
+    "effect": "궁극기 소대, 집합!의 사용에 필요한 궁극기 에너지 -10%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/5_아케쿠리.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=5&header=0",
+    "sourceSha256": "1d32fb2a32cd175406743463d61a07b698b38b73717039f7510313cb4f8f62a0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_5.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d95552c7c3b3674f41101fe32179c7bfb9c4aa6da5e01f2c5ea6f1a951f1dca9",
+    "payloadSha256": "17e7f1c759b719185f61aaba312908a5f29452d3b2a51c61b5ea061af21473cd"
+  }
+}

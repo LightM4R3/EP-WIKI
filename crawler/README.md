@@ -197,3 +197,14 @@ output/<run-id>/
 .venv\Scripts\python -m epwiki_crawler.gear.rag_builder
 .venv\Scripts\python -m epwiki_crawler.gear.rag_builder --check
 ```
+
+## Retrieval 전용 corpus
+
+`data/rag/normalized`는 원문 근거를 포함한 감사 원장이고 `data/rag/published`는 프론트 확인용 snapshot입니다. 두 위치를 직접 임베딩하지 않습니다. LLM 검색은 `data/rag/retrieval/manifest.<locale>.json`에 등록된 의미 단위 문서만 동기화합니다.
+
+```powershell
+.venv\Scripts\python -m epwiki_crawler retrieval build --locale ko-KR
+.venv\Scripts\python -m epwiki_crawler retrieval validate --locale ko-KR
+```
+
+품질 검사는 문서/semantic key/본문 해시 중복, 원문·UI 잔재, 문맥 없는 시작, 증거 참조, 내부 문서 참조, 스킬·무기 RANK, 장비 옵션·단조 규칙과 원문 충돌 격리를 모두 검사합니다. 하나라도 실패하면 새 release를 현재 manifest로 승격하지 않습니다.

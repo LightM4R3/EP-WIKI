@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.231.profile",
+  "semanticKey": "ko-KR|gear|231|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_231",
+    "name": "통합형 중갑판",
+    "aliases": [],
+    "gameEntryId": 231
+  },
+  "title": "통합형 중갑판 — 장비 기본 정보",
+  "content": "통합형 중갑판 장비의 기본 정보. 유형은 부품, 품질은 초록색 품질, 세트는 통합 중량형 모델이다. LV.28, 방어력 8. 옵션은 1번 힘 16, 3번 모든 피해 감소 7.5%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "통합형 중갑판",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    "gearSet": {
+      "id": 1435554510,
+      "code": "gear_set_558f4c2eee42",
+      "label": "통합 중량형 모델"
+    },
+    "level": 28,
+    "defense": 8,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 16,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "모든 피해 감소",
+        "baseValue": {
+          "value": 7.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-558f4c2eee42.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_558f4c2eee42",
+    "groupLabel": "통합 중량형 모델",
+    "gearTypeCode": "component",
+    "qualityCode": "green",
+    "gearSetCode": "gear_set_558f4c2eee42"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/통합_중량형_모델/231_통합형_중갑판.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=231&header=0",
+    "sourceSha256": "04f8abc5594f41362d969bc9c4b76e04e28f8f8a57fc7241cec8dfe2b0ced839",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_231.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_231.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f10a6d0058600e07bb5641ec5f545350132758f4593bae0dcff1aa953b55f716",
+    "payloadSha256": "1f1bde5cf1d13bdeb45e3a6723e4f4e4fe95c8d053bcf1641a5cc976bc41e59a"
+  }
+}

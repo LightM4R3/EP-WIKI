@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.315.profile",
+  "semanticKey": "ko-KR|gear|315|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_315",
+    "name": "중장갑 전달자 팽이 · I",
+    "aliases": [],
+    "gameEntryId": 315
+  },
+  "title": "중장갑 전달자 팽이 · I — 장비 기본 정보",
+  "content": "중장갑 전달자 팽이 · I 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 중장갑 전달자이다. LV.50, 방어력 15. 옵션은 1번 힘 23, 2번 의지 15, 3번 공격력 14.7%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "중장갑 전달자 팽이 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 3226939140,
+      "code": "gear_set_c055a8649a73",
+      "label": "중장갑 전달자"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 15,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "공격력",
+        "baseValue": {
+          "value": 14.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-c055a8649a73.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_c055a8649a73",
+    "groupLabel": "중장갑 전달자",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_c055a8649a73"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/중장갑_전달자/315_중장갑_전달자_팽이_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=315&header=0",
+    "sourceSha256": "2412d38ab715e114fe52db7d9fcbddbedd8969a258b65962bb453cf0b9a53d2f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_315.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_315.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9af3b1b8b376869b22b4ad4a6148b71cc378d2fd92949ce9e096c87d300b4327",
+    "payloadSha256": "6e689dc414fe268173379e43ecd76e2fac5bc2f00b250ca744245576ae51d4bb"
+  }
+}

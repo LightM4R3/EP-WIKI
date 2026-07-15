@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.287.profile",
+  "semanticKey": "ko-KR|gear|287|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_287",
+    "name": "아부레이 UV 램프",
+    "aliases": [],
+    "gameEntryId": 287
+  },
+  "title": "아부레이 UV 램프 — 장비 기본 정보",
+  "content": "아부레이 UV 램프 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 아부레이의 메아리이다. LV.50, 방어력 15. 옵션은 1번 힘 23, 2번 민첩 15, 3번 모든 스킬 피해 보너스 19.6%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "아부레이 UV 램프",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 639192494,
+      "code": "gear_set_2617c70e3c51",
+      "label": "아부레이의 메아리"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 15,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "모든 스킬 피해 보너스",
+        "baseValue": {
+          "value": 19.6,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-2617c70e3c51.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_2617c70e3c51",
+    "groupLabel": "아부레이의 메아리",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_2617c70e3c51"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/아부레이의_메아리/287_아부레이_UV_램프.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=287&header=0",
+    "sourceSha256": "09087e435d65f512f6763d49a8b00f0129b7a193cd10bd0809818fb535371a0b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_287.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_287.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "1cb96ba34e2ea0bd4c09aed1954a80e5ac07b16f7d670fee097e4cbf76d44706",
+    "payloadSha256": "11008b96d7c7c60844338c176b5b3bfe78b324dcabdd6467b2bf73d94bdebc0f"
+  }
+}

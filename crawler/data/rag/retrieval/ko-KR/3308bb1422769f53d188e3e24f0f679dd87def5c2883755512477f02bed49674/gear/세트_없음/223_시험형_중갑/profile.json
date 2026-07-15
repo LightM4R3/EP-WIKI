@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.223.profile",
+  "semanticKey": "ko-KR|gear|223|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_223",
+    "name": "시험형 중갑",
+    "aliases": [],
+    "gameEntryId": 223
+  },
+  "title": "시험형 중갑 — 장비 기본 정보",
+  "content": "시험형 중갑 장비의 기본 정보. 유형은 방어구, 품질은 초록색 품질, 세트는 세트 없음이다. LV.28, 방어력 22. 옵션은 1번 힘 37, 2번 지능 25, 3번 공격력 11. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "시험형 중갑",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 28,
+    "defense": 22,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 37,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 25,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "공격력",
+        "baseValue": {
+          "value": 11,
+          "unit": "flat"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "armor",
+    "qualityCode": "green",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/223_시험형_중갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=223&header=0",
+    "sourceSha256": "ddea61767506c262bdf3b5767881b1c6713af153d193f913055fbefb4997e2bd",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_223.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_223.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f8be840bcf016d4e87d4023e81d9032a5ae1045b1dc372acc46203689fbbe4a6",
+    "payloadSha256": "9159d2faea1ea674c50603c3c31e764a3e31f496a274301a43c0dc0ab2fb37f4"
+  }
+}

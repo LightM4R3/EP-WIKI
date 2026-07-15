@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.14.potential-4",
+  "semanticKey": "ko-KR|operator|14|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_14",
+    "name": "이본",
+    "aliases": [],
+    "gameEntryId": 14
+  },
+  "title": "이본 — 잠재능력 4 거스르는 마음",
+  "content": "이본 오퍼레이터의 잠재능력 4 ‘거스르는 마음’. 배틀 스킬 얼음 폭탄 · β형의 첫 번째 폭발이 단일 목표에 명중했을 때, 스킬 게이지 10 포인트를 반환합니다.",
+  "facts": {
+    "stage": 4,
+    "name": "거스르는 마음",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 얼음 폭탄 · β형의 첫 번째 폭발이 단일 목표에 명중했을 때, 스킬 게이지 10 포인트를 반환합니다."
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/14_이본.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=14&header=0",
+    "sourceSha256": "3f37d24500fd241e34d9edb02f253b3a9eb2603fb488a55f40d74c29933359ef",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_14.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0343c24f1ad8a5738cc3cb50c8eef337e8a6dcb85ac60b8436e2770fd0d24dff",
+    "payloadSha256": "2baf3998eef90d8d42eecdbd617dd13dbcea1607baba8ce80b4cdce02c7dd576"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.66.option-2",
+  "semanticKey": "ko-KR|weapon|66|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_66",
+    "name": "천둥의 흔적",
+    "aliases": [],
+    "gameEntryId": 66
+  },
+  "title": "천둥의 흔적 — 2번 옵션 생명력 증가 · 대",
+  "content": "천둥의 흔적 무기의 2번 옵션 ‘생명력 증가 · 대’.\nRANK1: 최대 생명력 +10.0%.\nRANK2: 최대 생명력 +18.0%.\nRANK3: 최대 생명력 +26.0%.\nRANK4: 최대 생명력 +34.0%.\nRANK5: 최대 생명력 +42.0%.\nRANK6: 최대 생명력 +50.0%.\nRANK7: 최대 생명력 +58.0%.\nRANK8: 최대 생명력 +66.0%.\nRANK9: 최대 생명력 +78.0%.",
+  "facts": {
+    "slot": 2,
+    "name": "생명력 증가 · 대",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "최대 생명력",
+        "value": 10,
+        "unit": "percent",
+        "display": "+10.0%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "최대 생명력",
+        "value": 18,
+        "unit": "percent",
+        "display": "+18.0%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "최대 생명력",
+        "value": 26,
+        "unit": "percent",
+        "display": "+26.0%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "최대 생명력",
+        "value": 34,
+        "unit": "percent",
+        "display": "+34.0%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "최대 생명력",
+        "value": 42,
+        "unit": "percent",
+        "display": "+42.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "최대 생명력",
+        "value": 50,
+        "unit": "percent",
+        "display": "+50.0%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "최대 생명력",
+        "value": 58,
+        "unit": "percent",
+        "display": "+58.0%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "최대 생명력",
+        "value": 66,
+        "unit": "percent",
+        "display": "+66.0%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "최대 생명력",
+        "value": 78,
+        "unit": "percent",
+        "display": "+78.0%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/66_천둥의_흔적.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=66&header=0",
+    "sourceSha256": "c5e440eeb33fc6187a094d8a24abf3ce734ebf85128a4f201267000b9aa134a9",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_66.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4aaa56ffdd226ccde2acacd8a3f79b2cdf2e3cd961aa639c7817f8b2e628b831",
+    "payloadSha256": "44834d1e6e32b3e3f0742718f5d1edca07038f0692384f78598a20e39e1dc6c9"
+  }
+}

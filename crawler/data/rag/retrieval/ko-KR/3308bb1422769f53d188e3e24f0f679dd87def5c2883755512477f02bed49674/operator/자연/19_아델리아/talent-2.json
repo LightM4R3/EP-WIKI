@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.19.talent-2",
+  "semanticKey": "ko-KR|operator|19|talent-2",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_19",
+    "name": "아델리아",
+    "aliases": [],
+    "gameEntryId": 19
+  },
+  "title": "아델리아 — 마운틴 서퍼",
+  "content": "아델리아 오퍼레이터의 오퍼레이터 재능 ‘마운틴 서퍼’.\n단계 1: 아델리아의 배틀 스킬 질주하는 돌리가 추가 효과를 발동했을 때, 근처에 부식 상태인 다른 적이 있을 경우, 즉시 대상에게 한 번 더 배틀 스킬을 발동합니다. 해당 효과는 주동적으로 배틀 스킬을 사용할 때마다 1회만 발동합니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 85개, 탈로시안 화폐 26000개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 2,
+    "name": "마운틴 서퍼",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "아델리아의 배틀 스킬 질주하는 돌리가 추가 효과를 발동했을 때, 근처에 부식 상태인 다른 적이 있을 경우, 즉시 대상에게 한 번 더 배틀 스킬을 발동합니다. 해당 효과는 주동적으로 배틀 스킬을 사용할 때마다 1회만 발동합니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 85
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 26000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "talentKind": "combat_talent",
+    "talentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+    "sourceSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_19.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b6f844b7e4f2ecfa1371c57982c04a5b88b256346042162490299ba0af0a5b62",
+    "payloadSha256": "b89309d8a3f1f7c79c38ea7cb7b120b0ad1e3fa494eeef754eadeaf242f34e18"
+  }
+}

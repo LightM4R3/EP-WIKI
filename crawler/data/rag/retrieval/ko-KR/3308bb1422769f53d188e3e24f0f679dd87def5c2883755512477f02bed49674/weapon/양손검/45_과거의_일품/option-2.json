@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.45.option-2",
+  "semanticKey": "ko-KR|weapon|45|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_45",
+    "name": "과거의 일품",
+    "aliases": [],
+    "gameEntryId": 45
+  },
+  "title": "과거의 일품 — 2번 옵션 생명력 증가 · 대",
+  "content": "과거의 일품 무기의 2번 옵션 ‘생명력 증가 · 대’.\nRANK1: 최대 생명력 +10.0%.\nRANK2: 최대 생명력 +18.0%.\nRANK3: 최대 생명력 +26.0%.\nRANK4: 최대 생명력 +34.0%.\nRANK5: 최대 생명력 +42.0%.\nRANK6: 최대 생명력 +50.0%.\nRANK7: 최대 생명력 +58.0%.\nRANK8: 최대 생명력 +66.0%.\nRANK9: 최대 생명력 +78.0%.",
+  "facts": {
+    "slot": 2,
+    "name": "생명력 증가 · 대",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "최대 생명력",
+        "value": 10,
+        "unit": "percent",
+        "display": "+10.0%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "최대 생명력",
+        "value": 18,
+        "unit": "percent",
+        "display": "+18.0%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "최대 생명력",
+        "value": 26,
+        "unit": "percent",
+        "display": "+26.0%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "최대 생명력",
+        "value": 34,
+        "unit": "percent",
+        "display": "+34.0%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "최대 생명력",
+        "value": 42,
+        "unit": "percent",
+        "display": "+42.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "최대 생명력",
+        "value": 50,
+        "unit": "percent",
+        "display": "+50.0%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "최대 생명력",
+        "value": 58,
+        "unit": "percent",
+        "display": "+58.0%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "최대 생명력",
+        "value": 66,
+        "unit": "percent",
+        "display": "+66.0%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "최대 생명력",
+        "value": 78,
+        "unit": "percent",
+        "display": "+78.0%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/45_과거의_일품.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=45&header=0",
+    "sourceSha256": "696d542602ff81cbdfbdc7c793e19324383596b00a9d5c207aa4b4164bb7320a",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_45.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f682b9491f3db3928c33e7c0be1e27ec5e15a50c6742d423530c7ca526c9c9a4",
+    "payloadSha256": "4a9be1e95384f5bf3b7d6776ac1e74da3c6094ab357dbe2dc914f89bf434fa25"
+  }
+}

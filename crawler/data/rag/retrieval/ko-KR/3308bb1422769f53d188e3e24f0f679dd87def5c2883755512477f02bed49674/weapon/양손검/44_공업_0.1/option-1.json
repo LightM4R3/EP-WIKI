@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.44.option-1",
+  "semanticKey": "ko-KR|weapon|44|option-1",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_44",
+    "name": "공업 0.1",
+    "aliases": [],
+    "gameEntryId": 44
+  },
+  "title": "공업 0.1 — 1번 옵션 힘 증가 · 소",
+  "content": "공업 0.1 무기의 1번 옵션 ‘힘 증가 · 소’.\nRANK1: 힘 +12.\nRANK2: 힘 +21.\nRANK3: 힘 +31.\nRANK4: 힘 +40.\nRANK5: 힘 +50.\nRANK6: 힘 +60.\nRANK7: 힘 +69.\nRANK8: 힘 +79.\nRANK9: 힘 +93.",
+  "facts": {
+    "slot": 1,
+    "name": "힘 증가 · 소",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "힘",
+        "value": 12,
+        "unit": "flat",
+        "display": "+12"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "힘",
+        "value": 21,
+        "unit": "flat",
+        "display": "+21"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "힘",
+        "value": 31,
+        "unit": "flat",
+        "display": "+31"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "힘",
+        "value": 40,
+        "unit": "flat",
+        "display": "+40"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "힘",
+        "value": 50,
+        "unit": "flat",
+        "display": "+50"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "힘",
+        "value": 60,
+        "unit": "flat",
+        "display": "+60"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "힘",
+        "value": 69,
+        "unit": "flat",
+        "display": "+69"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "힘",
+        "value": 79,
+        "unit": "flat",
+        "display": "+79"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "힘",
+        "value": 93,
+        "unit": "flat",
+        "display": "+93"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/44_공업_0.1.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=44&header=0",
+    "sourceSha256": "f12333475e01361e826057e42067fe151359a1a1245d7daefab65929b57e4cff",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_44.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0531f2f6d17acb08335fa7dfd0f8dd0091e1c6a75f683e8ea9c2d26eb56607c3",
+    "payloadSha256": "8799b0c074034c4ee6e854d3bd4177eb79202901d321482d8d1af86a4e1988ed"
+  }
+}

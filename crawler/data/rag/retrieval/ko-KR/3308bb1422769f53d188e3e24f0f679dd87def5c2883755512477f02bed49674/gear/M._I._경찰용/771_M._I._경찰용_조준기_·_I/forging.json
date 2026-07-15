@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.771.forging",
+  "semanticKey": "ko-KR|gear|771|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_771",
+    "name": "M. I. 경찰용 조준기 · I",
+    "aliases": [],
+    "gameEntryId": 771
+  },
+  "title": "M. I. 경찰용 조준기 · I — 정밀 단조",
+  "content": "M. I. 경찰용 조준기 · I 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 민첩: +0 32, +1 35, +2 38, +3 41.\n2번 지능: +0 21, +1 23, +2 25, +3 27.\n3번 치명타 확률: +0 10.4%, +1 11.4%, +2 12.4%, +3 13.5%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "치명타 확률",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 10.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 11.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 12.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 13.5,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_9bfa3d212476",
+    "groupLabel": "M. I. 경찰용",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/771_M._I._경찰용_조준기_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=771&header=0",
+    "sourceSha256": "4f7bf0196b23bf26015a00bf81247dcece087a672a09548033a07e4eec742fbc",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_771.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "28e0a10a0292a215bc3e9c4fbe7ff7af7290afddd59e0acddcd296bd64bbf34b",
+    "payloadSha256": "fb80fa6e76c3e30b44131404206d5267fe37d3eba308c6f5ab2567e672472ed2"
+  }
+}

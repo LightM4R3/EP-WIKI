@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.350.forging",
+  "semanticKey": "ko-KR|gear|350|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_350",
+    "name": "위기 탈출 식별 패널 · I",
+    "aliases": [],
+    "gameEntryId": 350
+  },
+  "title": "위기 탈출 식별 패널 · I — 정밀 단조",
+  "content": "위기 탈출 식별 패널 · I 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 민첩: +0 43, +1 47, +2 51, +3 55.\n3번 연계 스킬 피해 보너스: +0 43.2%, +1 47.5%, +2 51.8%, +3 56.2%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "연계 스킬 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43.2,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47.5,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 56.2,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/350_위기_탈출_식별_패널_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=350&header=0",
+    "sourceSha256": "35290a5db7b16225bffd87267c42a71bb7b0df98ccd30dabd87067b00ee3c4d0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_350.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c77f892a0a3d02651add5c9287382d902194a1ac528921fa0ceb46b0ef5f44fe",
+    "payloadSha256": "a938b405bec48bd8cefc444ca11925390b5156eb3fbbb712890acb431872e300"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.8.potential-5",
+  "semanticKey": "ko-KR|operator|8|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_8",
+    "name": "판",
+    "aliases": [],
+    "gameEntryId": 8
+  },
+  "title": "판 — 잠재능력 5 센 불로 소스 졸이기",
+  "content": "판 오퍼레이터의 잠재능력 5 ‘센 불로 소스 졸이기’. 배틀 스킬 뒤집어 주지!가 단일 목표에만 명중했을 경우, 목표에 추가로 방어 불능 1스택을 쌓습니다. 해당 효과는 45초마다 최대 1회만 발동합니다. 오퍼레이터 기념사진 \"인간 세상의 백 가지 맛\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "센 불로 소스 졸이기",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 뒤집어 주지!가 단일 목표에만 명중했을 경우, 목표에 추가로 방어 불능 1스택을 쌓습니다. 해당 효과는 45초마다 최대 1회만 발동합니다. 오퍼레이터 기념사진 \"인간 세상의 백 가지 맛\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+    "sourceSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_8.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7735b581002e0fdee1d53a5828d1b92909d079e3e0a4f4876486f1d7fbd23e68",
+    "payloadSha256": "c1456dda068ea4763a16188d1269e7b109c073cf0495b53daba9bd8163855aa9"
+  }
+}

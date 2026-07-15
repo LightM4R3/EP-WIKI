@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.86.option-1",
+  "semanticKey": "ko-KR|weapon|86|option-1",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_86",
+    "name": "O.B.J. 헤비 버든",
+    "aliases": [],
+    "gameEntryId": 86
+  },
+  "title": "O.B.J. 헤비 버든 — 1번 옵션 힘 증가 · 중",
+  "content": "O.B.J. 헤비 버든 무기의 1번 옵션 ‘힘 증가 · 중’.\nRANK1: 힘 +16.\nRANK2: 힘 +28.\nRANK3: 힘 +41.\nRANK4: 힘 +54.\nRANK5: 힘 +67.\nRANK6: 힘 +80.\nRANK7: 힘 +92.\nRANK8: 힘 +105.\nRANK9: 힘 +124.",
+  "facts": {
+    "slot": 1,
+    "name": "힘 증가 · 중",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "힘",
+        "value": 16,
+        "unit": "flat",
+        "display": "+16"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "힘",
+        "value": 28,
+        "unit": "flat",
+        "display": "+28"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "힘",
+        "value": 41,
+        "unit": "flat",
+        "display": "+41"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "힘",
+        "value": 54,
+        "unit": "flat",
+        "display": "+54"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "힘",
+        "value": 67,
+        "unit": "flat",
+        "display": "+67"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "힘",
+        "value": 80,
+        "unit": "flat",
+        "display": "+80"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "힘",
+        "value": 92,
+        "unit": "flat",
+        "display": "+92"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "힘",
+        "value": 105,
+        "unit": "flat",
+        "display": "+105"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "힘",
+        "value": 124,
+        "unit": "flat",
+        "display": "+124"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/86_O.B.J._헤비_버든.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=86&header=0",
+    "sourceSha256": "6e9dc79adbb310c7b2886719feea3c2a8f9bc72b5432002cf54cd28cc2ecc50f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_86.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5e6a747d67e722a146ca82dd9c28c9de8c787ae4b32761db4c63b20efcdd2a96",
+    "payloadSha256": "ac8b97d0e8f785d676a7c57527714cdc45891f101d92c09269ea7b876a8ee07c"
+  }
+}

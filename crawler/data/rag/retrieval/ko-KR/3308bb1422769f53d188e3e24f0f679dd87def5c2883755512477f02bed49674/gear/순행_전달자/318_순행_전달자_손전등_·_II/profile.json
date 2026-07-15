@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.318.profile",
+  "semanticKey": "ko-KR|gear|318|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_318",
+    "name": "순행 전달자 손전등 · II",
+    "aliases": [],
+    "gameEntryId": 318
+  },
+  "title": "순행 전달자 손전등 · II — 장비 기본 정보",
+  "content": "순행 전달자 손전등 · II 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 순행 전달자이다. LV.50, 방어력 15. 옵션은 1번 민첩 23, 2번 힘 15, 3번 궁극기 피해 보너스 36.8%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "순행 전달자 손전등 · II",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 2356057675,
+      "code": "gear_set_8c6d0fabbbe7",
+      "label": "순행 전달자"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 15,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 피해 보너스",
+        "baseValue": {
+          "value": 36.8,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-8c6d0fabbbe7.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_8c6d0fabbbe7",
+    "groupLabel": "순행 전달자",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_8c6d0fabbbe7"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/순행_전달자/318_순행_전달자_손전등_·_II.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=318&header=0",
+    "sourceSha256": "9441bd55ef901d8175a64101619161fc1218f01c3d86ac0978524d7e07bdb9ef",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_318.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_318.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "fd4c15ea56b3af1727548cd0ffec092910478fe6724813fae628c0cbdb99e706",
+    "payloadSha256": "476889e4ebd546898ea54e070f0f5ab7e6b6b8d0b92cf36e874d87e8208addc9"
+  }
+}

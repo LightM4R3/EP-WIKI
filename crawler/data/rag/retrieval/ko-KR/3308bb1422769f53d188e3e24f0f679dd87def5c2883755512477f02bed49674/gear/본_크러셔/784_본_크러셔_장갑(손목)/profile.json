@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.784.profile",
+  "semanticKey": "ko-KR|gear|784|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_784",
+    "name": "본 크러셔 장갑(손목)",
+    "aliases": [],
+    "gameEntryId": 784
+  },
+  "title": "본 크러셔 장갑(손목) — 장비 기본 정보",
+  "content": "본 크러셔 장갑(손목) 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 본 크러셔이다. LV.70, 방어력 42. 옵션은 1번 힘 65, 2번 민첩 43, 3번 열기와 자연 피해 보너스 19.2%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "본 크러셔 장갑(손목)",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 529339492,
+      "code": "gear_set_1f8b8dc4f539",
+      "label": "본 크러셔"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "열기와 자연 피해 보너스",
+        "baseValue": {
+          "value": 19.2,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-1f8b8dc4f539.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1f8b8dc4f539",
+    "groupLabel": "본 크러셔",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_1f8b8dc4f539"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/본_크러셔/784_본_크러셔_장갑(손목).json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=784&header=0",
+    "sourceSha256": "a9577aa55b70b19940fccc4294fafbf0eb7288f751df6ed60724248e7f47fb0d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_784.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_784.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "729a39f3ba1817e3e2e043527629064722e64817de9674f39588ddecdb08c641",
+    "payloadSha256": "aad1277c976087163c873e50ff4b8c80b74097cab8ecfdd8ca48c3f39e382f9e"
+  }
+}

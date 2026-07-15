@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.359.forging",
+  "semanticKey": "ko-KR|gear|359|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_359",
+    "name": "생체 보조 중갑",
+    "aliases": [],
+    "gameEntryId": 359
+  },
+  "title": "생체 보조 중갑 — 정밀 단조",
+  "content": "생체 보조 중갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 힘: +0 87, +1 95, +2 104, +3 113.\n2번 의지: +0 58, +1 63, +2 69, +3 75.\n3번 치유 효율 보너스: +0 10.4%, +1 11.4%, +2 12.4%, +3 13.5%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 58,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 63,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 69,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 75,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "치유 효율 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 10.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 11.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 12.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 13.5,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1ab07dc6afcc",
+    "groupLabel": "생체 보조",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/생체_보조/359_생체_보조_중갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=359&header=0",
+    "sourceSha256": "8c6740cbfa633db29573bf04cd8829f7a8a91143a235a3d6ebdc0cefc6a2c04a",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_359.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "bdb5bdd43ddec90bb481f7d5b0ada72375914f40196855675d41ca26f45ee68a",
+    "payloadSha256": "ea74ae86aeb129355f18cab1541efbcdac6659b2ef641e3e66d6bcbdbf82dec8"
+  }
+}

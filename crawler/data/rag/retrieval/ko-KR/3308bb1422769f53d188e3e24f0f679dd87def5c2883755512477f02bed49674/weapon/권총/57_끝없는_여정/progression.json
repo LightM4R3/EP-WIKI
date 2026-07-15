@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.57.progression",
+  "semanticKey": "ko-KR|weapon|57|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_57",
+    "name": "끝없는 여정",
+    "aliases": [],
+    "gameEntryId": 57
+  },
+  "title": "끝없는 여정 — 기초 공격력",
+  "content": "끝없는 여정 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 34.\nLV.20: 기초 공격력 100.\nLV.40: 기초 공격력 169.\nLV.60: 기초 공격력 238.\nLV.80: 기초 공격력 307.\nLV.90: 기초 공격력 341.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 34
+      },
+      {
+        "level": 20,
+        "baseAttack": 100
+      },
+      {
+        "level": 40,
+        "baseAttack": 169
+      },
+      {
+        "level": 60,
+        "baseAttack": 238
+      },
+      {
+        "level": 80,
+        "baseAttack": 307
+      },
+      {
+        "level": 90,
+        "baseAttack": 341
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/57_끝없는_여정.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=57&header=0",
+    "sourceSha256": "2ed95ffe79ba943f50a7fad554272cf36c843be643303f7842180dc20d0ca2fd",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_57.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "581f23bc6a630eaec48fd91b4a08f9618e458ecbc7252cc0a3c83cfb69c4a7ed",
+    "payloadSha256": "2bc864dabc86fd9b76dd36322f8cbd311d0282ce9e3473b4781e1f1076184676"
+  }
+}

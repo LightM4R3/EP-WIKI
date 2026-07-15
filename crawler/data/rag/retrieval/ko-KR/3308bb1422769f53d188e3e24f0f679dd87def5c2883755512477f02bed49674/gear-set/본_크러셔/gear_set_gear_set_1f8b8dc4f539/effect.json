@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-1f8b8dc4f539.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_1f8b8dc4f539|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_1f8b8dc4f539",
+    "name": "본 크러셔",
+    "aliases": []
+  },
+  "title": "본 크러셔 — 장비 세트 효과",
+  "content": "본 크러셔 장비 세트의 3개 세트 효과. 장착자의 공격력 +15% 장착자가 연계 스킬을 사용할 때, 본 크러셔의 압박 1스택 획득, 다음 배틀 스킬의 피해 +30%. 본 크러셔의 압박은 최대 2스택까지만 중첩됩니다.",
+  "facts": {
+    "gearSet": {
+      "id": 529339492,
+      "code": "gear_set_1f8b8dc4f539",
+      "label": "본 크러셔"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 공격력 +15% 장착자가 연계 스킬을 사용할 때, 본 크러셔의 압박 1스택 획득, 다음 배틀 스킬의 피해 +30%. 본 크러셔의 압박은 최대 2스택까지만 중첩됩니다.",
+    "memberGameEntryIds": [
+      354,
+      371,
+      372,
+      373,
+      374,
+      375,
+      376,
+      377,
+      783,
+      784,
+      785,
+      786,
+      871,
+      872
+    ],
+    "evidenceCopyCount": 14
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1f8b8dc4f539",
+    "groupLabel": "본 크러셔",
+    "gearSetCode": "gear_set_1f8b8dc4f539",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=354&header=0",
+    "sourceSha256": "1ddb78db593776830dca9240a4d485c6bc030895c869960f529fd04aaa85f808",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_354.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_371.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_372.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_373.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_374.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_375.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_376.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_377.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_783.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_784.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_785.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_786.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_871.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_872.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "1542b541266048562aeb74d0aa36fdd45de41ba59db85debfd6b954fc69ee0cb",
+    "payloadSha256": "16becbe5612ac27a61d21fdb56c517f7081d6b5606eb378d0553b4b8dc8cb7ed"
+  }
+}

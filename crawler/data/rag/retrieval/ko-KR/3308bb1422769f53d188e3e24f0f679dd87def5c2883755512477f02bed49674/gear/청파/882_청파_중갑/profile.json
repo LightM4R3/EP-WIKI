@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.882.profile",
+  "semanticKey": "ko-KR|gear|882|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_882",
+    "name": "청파 중갑",
+    "aliases": [],
+    "gameEntryId": 882
+  },
+  "title": "청파 중갑 — 장비 기본 정보",
+  "content": "청파 중갑 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 청파이다. LV.70, 방어력 56. 옵션은 1번 민첩 87, 2번 힘 58, 3번 궁극기 충전 효율 12.3%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "청파 중갑",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 637024139,
+      "code": "gear_set_25f6b0eb60d9",
+      "label": "청파"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 12.3,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-25f6b0eb60d9.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_25f6b0eb60d9",
+    "groupLabel": "청파",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_25f6b0eb60d9"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/청파/882_청파_중갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=882&header=0",
+    "sourceSha256": "26bd91202facf7e770bb9b5452316e75fd6a8002a88e3d08290f836447c6d136",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_882.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_882.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b610e7442ab9fd453abd62dd1b380d473cb9e0e8d7dd99eb3f9b48a62fcef291",
+    "payloadSha256": "f508c1d9221b6a3b5c8856279d3b4fdeee5195dbe695855621e2d3d8256a065d"
+  }
+}

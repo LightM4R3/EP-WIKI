@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.78.profile",
+  "semanticKey": "ko-KR|weapon|78|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_78",
+    "name": "테르밋 커터",
+    "aliases": [],
+    "gameEntryId": 78
+  },
+  "title": "테르밋 커터 — 무기 기본 정보",
+  "content": "테르밋 커터 무기의 기본 정보. 무기 유형은 한손검이다. 옵션은 1번 의지 증가 · 대, 2번 공격력 증가 · 대, 3번 흐름 · 고열 방출이다.",
+  "facts": {
+    "name": "테르밋 커터",
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.78.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "공격력 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.78.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "흐름 · 고열 방출",
+        "documentRef": "epwiki.ko-kr.weapon.78.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "weaponTypeCode": "sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/78_테르밋_커터.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=78&header=0",
+    "sourceSha256": "0612756d4c3d2192216cdd217195335a41849b818d5a5f18ef1b3fe3f1388819",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_78.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_78.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "ea18953377bcbc28cf3d2d773c6c329d353048dbdd0d9812eb4e230d5d34fcc2",
+    "payloadSha256": "8d852100d315b3c51e493c42f7f6eefb1553f31f06fe543d9d42c1abdc58b50e"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.225.profile",
+  "semanticKey": "ko-KR|gear|225|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_225",
+    "name": "광산 경갑",
+    "aliases": [],
+    "gameEntryId": 225
+  },
+  "title": "광산 경갑 — 장비 기본 정보",
+  "content": "광산 경갑 장비의 기본 정보. 유형은 방어구, 품질은 초록색 품질, 세트는 세트 없음이다. LV.28, 방어력 22. 옵션은 1번 민첩 37, 2번 지능 25, 3번 생명력 9%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 경갑",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 28,
+    "defense": 22,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 37,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 25,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "생명력",
+        "baseValue": {
+          "value": 9,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "armor",
+    "qualityCode": "green",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/225_광산_경갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=225&header=0",
+    "sourceSha256": "382e5986b812f554c9626472160a5bd4e8c9cc119707b3fa79f7f4310b3a23c6",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_225.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_225.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "67e1dbf5da5eacba7f8ba292a3783fdfc351f59b2e5233569c7013bdfb5f8828",
+    "payloadSha256": "0bb2a758d43ff56a118acf4262e5c007991732820df3471180b0ed9fbc6761e1"
+  }
+}

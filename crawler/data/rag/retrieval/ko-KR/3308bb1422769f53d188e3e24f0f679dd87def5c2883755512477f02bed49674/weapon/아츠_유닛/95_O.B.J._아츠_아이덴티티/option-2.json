@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.95.option-2",
+  "semanticKey": "ko-KR|weapon|95|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_95",
+    "name": "O.B.J. 아츠 아이덴티티",
+    "aliases": [],
+    "gameEntryId": 95
+  },
+  "title": "O.B.J. 아츠 아이덴티티 — 2번 옵션 오리지늄 아츠 강도 증가 · 중",
+  "content": "O.B.J. 아츠 아이덴티티 무기의 2번 옵션 ‘오리지늄 아츠 강도 증가 · 중’.\nRANK1: 오리지늄 아츠 강도 +8.\nRANK2: 오리지늄 아츠 강도 +14.\nRANK3: 오리지늄 아츠 강도 +20.\nRANK4: 오리지늄 아츠 강도 +27.\nRANK5: 오리지늄 아츠 강도 +33.\nRANK6: 오리지늄 아츠 강도 +40.\nRANK7: 오리지늄 아츠 강도 +46.\nRANK8: 오리지늄 아츠 강도 +52.\nRANK9: 오리지늄 아츠 강도 +62.",
+  "facts": {
+    "slot": 2,
+    "name": "오리지늄 아츠 강도 증가 · 중",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "오리지늄 아츠 강도",
+        "value": 8,
+        "unit": "flat",
+        "display": "+8"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "오리지늄 아츠 강도",
+        "value": 14,
+        "unit": "flat",
+        "display": "+14"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "오리지늄 아츠 강도",
+        "value": 20,
+        "unit": "flat",
+        "display": "+20"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "오리지늄 아츠 강도",
+        "value": 27,
+        "unit": "flat",
+        "display": "+27"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "오리지늄 아츠 강도",
+        "value": 33,
+        "unit": "flat",
+        "display": "+33"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "오리지늄 아츠 강도",
+        "value": 40,
+        "unit": "flat",
+        "display": "+40"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "오리지늄 아츠 강도",
+        "value": 46,
+        "unit": "flat",
+        "display": "+46"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "오리지늄 아츠 강도",
+        "value": 52,
+        "unit": "flat",
+        "display": "+52"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "오리지늄 아츠 강도",
+        "value": 62,
+        "unit": "flat",
+        "display": "+62"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/95_O.B.J._아츠_아이덴티티.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=95&header=0",
+    "sourceSha256": "1dc6c84eb37f3251f265cde7d97e45b1bf45ac898bb17a494294a15ec8b523fe",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_95.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "126291b913afac259077712fe7dc931452708949ce56f426f734f6858f0cb63e",
+    "payloadSha256": "37149512fc08435251a0ac41dc9911c696f83f541dbb9f4ab84bb427e8de7b91"
+  }
+}

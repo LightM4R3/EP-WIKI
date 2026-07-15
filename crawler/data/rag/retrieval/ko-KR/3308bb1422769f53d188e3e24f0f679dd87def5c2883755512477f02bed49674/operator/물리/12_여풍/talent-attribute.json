@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.12.talent-attribute",
+  "semanticKey": "ko-KR|operator|12|talent-attribute",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_12",
+    "name": "여풍",
+    "aliases": [],
+    "gameEntryId": 12
+  },
+  "title": "여풍 — 능숙",
+  "content": "여풍 오퍼레이터의 능력치 재능 ‘능숙’.\n단계 1: 오퍼레이터 민첩 능력치 10 증가. 활성화 조건: 오퍼레이터 신뢰도 20% 도달, 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 5개, 탈로시안 화폐 1000개.\n단계 2: 오퍼레이터 민첩 능력치 15 증가. 활성화 조건: 오퍼레이터 신뢰도 50% 도달, 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 10개, 탈로시안 화폐 1800개.\n단계 3: 오퍼레이터 민첩 능력치 15 증가. 활성화 조건: 오퍼레이터 신뢰도 100% 도달, 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 10개, 탈로시안 화폐 6000개.\n단계 4: 오퍼레이터 민첩 능력치 20 증가. 활성화 조건: 오퍼레이터 신뢰도 100% 도달, 정예화 단계 4 돌파. 재료: 프로토콜 프리즘 세트 20개, 탈로시안 화폐 12000개.",
+  "facts": {
+    "kind": "attribute_talent",
+    "name": "능숙",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "오퍼레이터 민첩 능력치 10 증가",
+        "conditions": [
+          "오퍼레이터 신뢰도 20% 도달",
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 5
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1000
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "오퍼레이터 민첩 능력치 15 증가",
+        "conditions": [
+          "오퍼레이터 신뢰도 50% 도달",
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 10
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 1800
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "effect": "오퍼레이터 민첩 능력치 15 증가",
+        "conditions": [
+          "오퍼레이터 신뢰도 100% 도달",
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 10
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 6000
+          }
+        ]
+      },
+      {
+        "stage": 4,
+        "effect": "오퍼레이터 민첩 능력치 20 증가",
+        "conditions": [
+          "오퍼레이터 신뢰도 100% 도달",
+          "정예화 단계 4 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 20
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 12000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "talentKind": "attribute_talent"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/12_여풍.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=12&header=0",
+    "sourceSha256": "9626ab3c4c237cebbf643ec7445b806db5b590e92aa287f9a9c9a9bbec71f9aa",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_12.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "aa7bef4667dea1753ff6044722457233cc2492a47c6f4c457f46e9914d9c8f74",
+    "payloadSha256": "4f94458eac4c3978139d41d8b00f94b1495f5b5cb3f1ea4d7e371dd09a247c49"
+  }
+}

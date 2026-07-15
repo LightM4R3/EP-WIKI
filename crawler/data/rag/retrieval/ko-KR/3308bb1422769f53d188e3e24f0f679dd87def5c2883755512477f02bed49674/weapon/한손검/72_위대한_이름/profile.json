@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.72.profile",
+  "semanticKey": "ko-KR|weapon|72|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_72",
+    "name": "위대한 이름",
+    "aliases": [],
+    "gameEntryId": 72
+  },
+  "title": "위대한 이름 — 무기 기본 정보",
+  "content": "위대한 이름 무기의 기본 정보. 무기 유형은 한손검이다. 옵션은 1번 주요 능력치 증가 · 대, 2번 물리 피해 증가 · 대, 3번 잔혹 · 엄격한 규율이다.",
+  "facts": {
+    "name": "위대한 이름",
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "주요 능력치 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.72.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "물리 피해 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.72.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "잔혹 · 엄격한 규율",
+        "documentRef": "epwiki.ko-kr.weapon.72.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "weaponTypeCode": "sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/72_위대한_이름.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=72&header=0",
+    "sourceSha256": "875fb8be5b5cc7350bc7aebdfd9348379ffe352ee3f4e06585992229fc831cbe",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_72.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_72.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0765a7e4edfe8ac00215d78a15af747d5b5a51489bfdfed033058d5190d47b95",
+    "payloadSha256": "5531ed95f4208304762cf888a0302b5710ec8bceba2c6378c72ea91d896375b0"
+  }
+}

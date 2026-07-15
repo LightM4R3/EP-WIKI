@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.24.potential-3",
+  "semanticKey": "ko-KR|operator|24|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_24",
+    "name": "플루라이트",
+    "aliases": [],
+    "gameEntryId": 24
+  },
+  "title": "플루라이트 — 잠재능력 3 트리플 서프라이즈",
+  "content": "플루라이트 오퍼레이터의 잠재능력 3 ‘트리플 서프라이즈’. 배틀 스킬 서프라이즈?로 인해 점착된 수제 폭탄이 폭발한 후, 감속 효과가 명중 당한 모든 적에게로 확산됩니다. 해당 효과는 6 초 동안 지속됩니다. 오퍼레이터 기념사진 \"행동파\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "트리플 서프라이즈",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 서프라이즈?로 인해 점착된 수제 폭탄이 폭발한 후, 감속 효과가 명중 당한 모든 적에게로 확산됩니다. 해당 효과는 6 초 동안 지속됩니다. 오퍼레이터 기념사진 \"행동파\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/24_플루라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=24&header=0",
+    "sourceSha256": "949fec33735758975e7f7af4c32fb5dd785d45c95620e4a9dc4a1cfdfe682b3d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_24.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "de3a519460ef4cfb3794f8e7d4815877f5c0a6deda985a0a3f338b4e9aa24701",
+    "payloadSha256": "0457eec3d51cdcf0c43b1ae3a64a91eeb3d22a59f6fc7b0178d642f4955f5503"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.320.profile",
+  "semanticKey": "ko-KR|gear|320|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_320",
+    "name": "순행 전달자 팽이 · I",
+    "aliases": [],
+    "gameEntryId": 320
+  },
+  "title": "순행 전달자 팽이 · I — 장비 기본 정보",
+  "content": "순행 전달자 팽이 · I 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 순행 전달자이다. LV.50, 방어력 15. 옵션은 1번 민첩 23, 2번 지능 15, 3번 공격력 14.7%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "순행 전달자 팽이 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 2356057675,
+      "code": "gear_set_8c6d0fabbbe7",
+      "label": "순행 전달자"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 15,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "공격력",
+        "baseValue": {
+          "value": 14.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-8c6d0fabbbe7.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_8c6d0fabbbe7",
+    "groupLabel": "순행 전달자",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_8c6d0fabbbe7"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/순행_전달자/320_순행_전달자_팽이_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=320&header=0",
+    "sourceSha256": "16c7f019208c69e25a497f686c6d60f430c90cc0aaba372fd60dcb8004ebfc89",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_320.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_320.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3e9f73159b40e709d64e4c3d373c18ef8a3f0643e6f47cdeb9cc2a6977db7555",
+    "payloadSha256": "9f18787f6f2f5d1657edc2d50bf2edad65fd87766c582cf6ac5fff4b1abeeddf"
+  }
+}

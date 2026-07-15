@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.284.profile",
+  "semanticKey": "ko-KR|gear|284|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_284",
+    "name": "침식 방호 배터리",
+    "aliases": [],
+    "gameEntryId": 284
+  },
+  "title": "침식 방호 배터리 — 장비 기본 정보",
+  "content": "침식 방호 배터리 장비의 기본 정보. 유형은 부품, 품질은 파란색 품질, 세트는 침식 방호이다. LV.36, 방어력 10. 옵션은 1번 의지 21, 3번 치유 효율 보너스 10.5%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "침식 방호 배터리",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    "gearSet": {
+      "id": 1506308161,
+      "code": "gear_set_59c6e9a131ea",
+      "label": "침식 방호"
+    },
+    "level": 36,
+    "defense": 10,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "치유 효율 보너스",
+        "baseValue": {
+          "value": 10.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-59c6e9a131ea.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_59c6e9a131ea",
+    "groupLabel": "침식 방호",
+    "gearTypeCode": "component",
+    "qualityCode": "blue",
+    "gearSetCode": "gear_set_59c6e9a131ea"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_방호/284_침식_방호_배터리.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=284&header=0",
+    "sourceSha256": "ac7467b9d0e67c0ef779d8d0bfdad5b7681b529b6b08c4983b4d38c2d51f5801",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_284.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_284.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7ce71e073b69050f9e14227594265c577528229a8539fb8b4963fe14fd2df8d8",
+    "payloadSha256": "44d7360014db5be84eaf3091b699e43903ff652a67e4e51735d160ef54761338"
+  }
+}

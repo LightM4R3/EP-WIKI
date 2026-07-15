@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.90.progression",
+  "semanticKey": "ko-KR|weapon|90|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_90",
+    "name": "황무지의 방랑자",
+    "aliases": [],
+    "gameEntryId": 90
+  },
+  "title": "황무지의 방랑자 — 기초 공격력",
+  "content": "황무지의 방랑자 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 42.\nLV.20: 기초 공격력 120.\nLV.40: 기초 공격력 203.\nLV.60: 기초 공격력 286.\nLV.80: 기초 공격력 369.\nLV.90: 기초 공격력 411.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 42
+      },
+      {
+        "level": 20,
+        "baseAttack": 120
+      },
+      {
+        "level": 40,
+        "baseAttack": 203
+      },
+      {
+        "level": 60,
+        "baseAttack": 286
+      },
+      {
+        "level": 80,
+        "baseAttack": 369
+      },
+      {
+        "level": 90,
+        "baseAttack": 411
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/90_황무지의_방랑자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=90&header=0",
+    "sourceSha256": "28f4fdc8b7906d627351b887eae0dc09886c377b74efedfa21bbcf22ffb79559",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_90.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d92edd7febc4ea35fe0e2da0055c0c945432238cc2e6339cb879decfb241bffd",
+    "payloadSha256": "84c3400adab371dd4dc6b7245f606b301ed68ab5287cc7f899e73eaaee781cc5"
+  }
+}

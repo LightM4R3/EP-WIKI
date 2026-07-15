@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.19.potential-1",
+  "semanticKey": "ko-KR|operator|19|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_19",
+    "name": "아델리아",
+    "aliases": [],
+    "gameEntryId": 19
+  },
+  "title": "아델리아 — 잠재능력 1 양들의 천국",
+  "content": "아델리아 오퍼레이터의 잠재능력 1 ‘양들의 천국’. 배틀 스킬 질주하는 돌리가 부식을 소모 했을 때, 부여하는 물리 취약과 아츠 취약 효과 +8% 오퍼레이터 기념사진 \"게임 시작\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "양들의 천국",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 질주하는 돌리가 부식을 소모 했을 때, 부여하는 물리 취약과 아츠 취약 효과 +8% 오퍼레이터 기념사진 \"게임 시작\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+    "sourceSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_19.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "aa923e6f3ccd9683d2eebefafe6c50625e78e1d0f9418f5d8cef809cf0738118",
+    "payloadSha256": "b2dc8b7450e1d4ebff4b5b07911a2d61428127015ecf193a51979403dbb59d2e"
+  }
+}

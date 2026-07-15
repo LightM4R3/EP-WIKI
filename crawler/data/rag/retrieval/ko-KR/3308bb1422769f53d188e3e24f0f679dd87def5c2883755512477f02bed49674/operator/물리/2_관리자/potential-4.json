@@ -1,0 +1,62 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.2.potential-4",
+  "semanticKey": "ko-KR|operator|2|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_2",
+    "name": "관리자",
+    "aliases": [
+      "관리자(남)",
+      "관리자(여)"
+    ],
+    "gameEntryId": 2
+  },
+  "title": "관리자 — 잠재능력 4 ???",
+  "content": "관리자 오퍼레이터의 잠재능력 4 ‘???’은 현재 공개된 효과 정보가 없다.",
+  "facts": {
+    "stage": 4,
+    "name": "???",
+    "status": "source_unavailable",
+    "effect": null
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/2_관리자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=2&header=0",
+    "sourceSha256": "d14e416101c10ca374f77bb5f25c300607764fd58c07bab57524ffad8f331cb8",
+    "authority": "human_override",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.operator_2.potential.c5.chapter.s6.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.effect",
+        "reason": "원문이 비공개 상태임",
+        "status": "source_unavailable"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b1b87bd1ad91891668f76d425f333115b10d54be06e27bd538b9852e5123a4a7",
+    "payloadSha256": "3c16d21ec29e74ec67150e9dafa02e8edcb84069c680ee5c144785f20aa0b064"
+  }
+}

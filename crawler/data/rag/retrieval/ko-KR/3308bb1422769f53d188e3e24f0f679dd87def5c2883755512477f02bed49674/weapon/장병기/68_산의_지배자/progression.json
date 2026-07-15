@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.68.progression",
+  "semanticKey": "ko-KR|weapon|68|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_68",
+    "name": "산의 지배자",
+    "aliases": [],
+    "gameEntryId": 68
+  },
+  "title": "산의 지배자 — 기초 공격력",
+  "content": "산의 지배자 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 51.\nLV.20: 기초 공격력 146.\nLV.40: 기초 공격력 247.\nLV.60: 기초 공격력 348.\nLV.80: 기초 공격력 449.\nLV.90: 기초 공격력 500.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 51
+      },
+      {
+        "level": 20,
+        "baseAttack": 146
+      },
+      {
+        "level": 40,
+        "baseAttack": 247
+      },
+      {
+        "level": 60,
+        "baseAttack": 348
+      },
+      {
+        "level": 80,
+        "baseAttack": 449
+      },
+      {
+        "level": 90,
+        "baseAttack": 500
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/68_산의_지배자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=68&header=0",
+    "sourceSha256": "0164207043c2c7c9280f495a6af3daf3626b113e252fb3bc5c7511cb144d368e",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_68.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3a6b489044a8bc2571fed485164e78359ae4718fec6f550c0439b05ac77e4117",
+    "payloadSha256": "9ce5ef8be322152851ecb193a57844a0610d59aeb1df30269722e709d2d999d8"
+  }
+}

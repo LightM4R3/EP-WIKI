@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.260.profile",
+  "semanticKey": "ko-KR|gear|260|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_260",
+    "name": "광산 보호 장갑 · I",
+    "aliases": [],
+    "gameEntryId": 260
+  },
+  "title": "광산 보호 장갑 · I — 장비 기본 정보",
+  "content": "광산 보호 장갑 · I 장비의 기본 정보. 유형은 글러브, 품질은 보라색 품질, 세트는 세트 없음이다. LV.50, 방어력 30. 옵션은 1번 의지 49, 2번 지능 32, 3번 궁극기 충전 효율 15.5%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 보호 장갑 · I",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 50,
+    "defense": 30,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 49,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 15.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "gloves",
+    "qualityCode": "purple",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/260_광산_보호_장갑_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=260&header=0",
+    "sourceSha256": "de493bb5703dc975ada77dd37b24e6d60cade8dd8d2fb9858d5c267df082103a",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_260.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_260.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "70b083a1701bdd246f77c6afbff6226206ca354a0a5a5859f9cd3b14cc3f30b2",
+    "payloadSha256": "896993a52bb6ed042492cd30fc2d7b2fda773c2dc3cbe3b495b4e036991059a6"
+  }
+}

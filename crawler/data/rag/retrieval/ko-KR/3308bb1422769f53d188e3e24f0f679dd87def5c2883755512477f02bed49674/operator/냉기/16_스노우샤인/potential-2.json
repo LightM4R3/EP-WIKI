@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.16.potential-2",
+  "semanticKey": "ko-KR|operator|16|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_16",
+    "name": "스노우샤인",
+    "aliases": [],
+    "gameEntryId": 16
+  },
+  "title": "스노우샤인 — 잠재능력 2 눈보라 지대",
+  "content": "스노우샤인 오퍼레이터의 잠재능력 2 ‘눈보라 지대’. 궁극기 살얼음 추위의 범위 +20%",
+  "facts": {
+    "stage": 2,
+    "name": "눈보라 지대",
+    "status": "rule_validated",
+    "effect": "궁극기 살얼음 추위의 범위 +20%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/16_스노우샤인.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=16&header=0",
+    "sourceSha256": "94bbfd165515a7620d775e1488ccf8f377db5199074ebd4092a6e1d07bf522d5",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_16.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "78003f638ca8983f1fb7ffd3a7399aee4bb145f41c28b32271e4dcc351802713",
+    "payloadSha256": "f7f793fc9943ddaa20292c380c6ba948a7ee0bc7e72f7410dc59791cdf21f784"
+  }
+}

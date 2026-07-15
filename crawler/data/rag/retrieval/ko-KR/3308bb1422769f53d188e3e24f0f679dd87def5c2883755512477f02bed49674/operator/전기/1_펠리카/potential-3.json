@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.1.potential-3",
+  "semanticKey": "ko-KR|operator|1|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_1",
+    "name": "펠리카",
+    "aliases": [],
+    "gameEntryId": 1
+  },
+  "title": "펠리카 — 잠재능력 3 감독관의 책임",
+  "content": "펠리카 오퍼레이터의 잠재능력 3 ‘감독관의 책임’. 펠리카가 적에게 감전을 부여한 후, 5초 동안 공격력 +20%, 해당 효과는 최대 2스택까지 중첩됩니다. 오퍼레이터 기념사진 \"프로토콜\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "감독관의 책임",
+    "status": "rule_validated",
+    "effect": "펠리카가 적에게 감전을 부여한 후, 5초 동안 공격력 +20%, 해당 효과는 최대 2스택까지 중첩됩니다. 오퍼레이터 기념사진 \"프로토콜\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/1_펠리카.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=1&header=0",
+    "sourceSha256": "cc4378cdc012f097bada65658318a2701132ffcbdfd22ce19c4193a8cb1308b6",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_1.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3114ac3a87682ebf90131f1e5b5af75c61457777159c3624e34c37a12e795c83",
+    "payloadSha256": "f4af89df97b9046ba5334350e823429d666c63b30b8b58a66198c56c9bafbf24"
+  }
+}

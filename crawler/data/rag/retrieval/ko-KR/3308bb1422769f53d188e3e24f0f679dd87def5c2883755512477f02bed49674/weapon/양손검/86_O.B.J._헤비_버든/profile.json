@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.86.profile",
+  "semanticKey": "ko-KR|weapon|86|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_86",
+    "name": "O.B.J. 헤비 버든",
+    "aliases": [],
+    "gameEntryId": 86
+  },
+  "title": "O.B.J. 헤비 버든 — 무기 기본 정보",
+  "content": "O.B.J. 헤비 버든 무기의 기본 정보. 무기 유형은 양손검이다. 옵션은 1번 힘 증가 · 중, 2번 생명력 증가 · 중, 3번 효율 · 강인한 의지이다.",
+  "facts": {
+    "name": "O.B.J. 헤비 버든",
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.86.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "생명력 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.86.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "효율 · 강인한 의지",
+        "documentRef": "epwiki.ko-kr.weapon.86.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "weaponTypeCode": "greatsword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/86_O.B.J._헤비_버든.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=86&header=0",
+    "sourceSha256": "6e9dc79adbb310c7b2886719feea3c2a8f9bc72b5432002cf54cd28cc2ecc50f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_86.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_86.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4b1490fdc7edb008b96e88311bc02528601a529715d0922ba282f8ae748b9255",
+    "payloadSha256": "1cb17be3e79b9d3f8a57d31f6f915f76678f5da63655ae97a42c4b7107bae005"
+  }
+}

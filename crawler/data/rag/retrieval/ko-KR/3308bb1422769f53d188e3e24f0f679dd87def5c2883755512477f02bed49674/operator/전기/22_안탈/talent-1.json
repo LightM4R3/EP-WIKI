@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.22.talent-1",
+  "semanticKey": "ko-KR|operator|22|talent-1",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_22",
+    "name": "안탈",
+    "aliases": [],
+    "gameEntryId": 22
+  },
+  "title": "안탈 — 즉흥적인 천재성",
+  "content": "안탈 오퍼레이터의 오퍼레이터 재능 ‘즉흥적인 천재성’.\n단계 1: 증폭 상태의 팀원이 스킬 피해를 준 후, 안탈이 해당 오퍼레이터의 생명력을 [72+힘×0.6] 포인트의 회복시킵니다. 30 초 동안 최대 1회만 회복시킵니다. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 2400개.\n단계 2: 증폭 상태의 팀원이 스킬 피해를 준 후, 안탈이 해당 오퍼레이터의 생명력을 [72+힘×0.6] 포인트의 회복시킵니다. 30 초 동안 최대 1회만 회복시킵니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 40개, 탈로시안 화폐 8600개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 1,
+    "name": "즉흥적인 천재성",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "증폭 상태의 팀원이 스킬 피해를 준 후, 안탈이 해당 오퍼레이터의 생명력을 [72+힘×0.6] 포인트의 회복시킵니다. 30 초 동안 최대 1회만 회복시킵니다.",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 2400
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "증폭 상태의 팀원이 스킬 피해를 준 후, 안탈이 해당 오퍼레이터의 생명력을 [72+힘×0.6] 포인트의 회복시킵니다. 30 초 동안 최대 1회만 회복시킵니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 40
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8600
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "talentKind": "combat_talent",
+    "talentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/22_안탈.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=22&header=0",
+    "sourceSha256": "6aff68dbcd9f30961e9b0f621fb665be356853ce7740fbc1f77ae1c104d37b5d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_22.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "708570e9c4ef807fb82baf21ff3e1633f20891f595827d4209b26dd87bd57e10",
+    "payloadSha256": "0b96dd6cb016f7b65e51d062063d4af9249807f0c9744fac81bbf9675ee31ebb"
+  }
+}

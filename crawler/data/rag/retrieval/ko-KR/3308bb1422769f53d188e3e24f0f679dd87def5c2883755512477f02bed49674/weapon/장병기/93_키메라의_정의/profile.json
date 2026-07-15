@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.93.profile",
+  "semanticKey": "ko-KR|weapon|93|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_93",
+    "name": "키메라의 정의",
+    "aliases": [],
+    "gameEntryId": 93
+  },
+  "title": "키메라의 정의 — 무기 기본 정보",
+  "content": "키메라의 정의 무기의 기본 정보. 무기 유형은 장병기이다. 옵션은 1번 힘 증가 · 중, 2번 궁극기 충전 효율 증가 · 중, 3번 잔혹 · 분노의 융합이다.",
+  "facts": {
+    "name": "키메라의 정의",
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.93.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "궁극기 충전 효율 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.93.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "잔혹 · 분노의 융합",
+        "documentRef": "epwiki.ko-kr.weapon.93.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "weaponTypeCode": "polearm"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/93_키메라의_정의.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=93&header=0",
+    "sourceSha256": "d0369494493ab0a02ec9b439bf30eee387cbad457b715f373e8c10fc3b926d39",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_93.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_93.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "6b65b90e6c359f2456a60ce327527d86fe2735ad7c6d9c73463bda9051e57b78",
+    "payloadSha256": "07bd2dd55fdb388d5bf066d03a3d0af2c4ace780707fc0e7cdb079f69d4f15c7"
+  }
+}

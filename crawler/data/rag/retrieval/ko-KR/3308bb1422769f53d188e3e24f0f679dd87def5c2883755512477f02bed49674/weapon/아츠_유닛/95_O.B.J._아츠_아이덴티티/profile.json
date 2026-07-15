@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.95.profile",
+  "semanticKey": "ko-KR|weapon|95|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_95",
+    "name": "O.B.J. 아츠 아이덴티티",
+    "aliases": [],
+    "gameEntryId": 95
+  },
+  "title": "O.B.J. 아츠 아이덴티티 — 무기 기본 정보",
+  "content": "O.B.J. 아츠 아이덴티티 무기의 기본 정보. 무기 유형은 아츠 유닛이다. 옵션은 1번 지능 증가 · 중, 2번 오리지늄 아츠 강도 증가 · 중, 3번 추격 · 아츠 승화이다.",
+  "facts": {
+    "name": "O.B.J. 아츠 아이덴티티",
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.95.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "오리지늄 아츠 강도 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.95.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "추격 · 아츠 승화",
+        "documentRef": "epwiki.ko-kr.weapon.95.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "weaponTypeCode": "arts_unit"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/95_O.B.J._아츠_아이덴티티.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=95&header=0",
+    "sourceSha256": "1dc6c84eb37f3251f265cde7d97e45b1bf45ac898bb17a494294a15ec8b523fe",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_95.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_95.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f1bdb2c5d75528c3b294cc78c3aff5e4b40da911bb56b4729958457032a63c46",
+    "payloadSha256": "36939f3895c52371a4a1a2c0171563e5656e556564a71d931b82fe9f5e616843"
+  }
+}

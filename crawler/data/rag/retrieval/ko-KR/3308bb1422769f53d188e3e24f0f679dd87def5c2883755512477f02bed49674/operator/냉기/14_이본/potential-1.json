@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.14.potential-1",
+  "semanticKey": "ko-KR|operator|14|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_14",
+    "name": "이본",
+    "aliases": [],
+    "gameEntryId": 14
+  },
+  "title": "이본 — 잠재능력 1 급속 냉동 도우미",
+  "content": "이본 오퍼레이터의 잠재능력 1 ‘급속 냉동 도우미’. 연계 스킬 꽁꽁이 · υ37의 적용 범위 +20%, 추가로 에너지를 2 회 더 방출하고, 피해를 준 후 추가로 15 포인트의 궁극기 에너지를 획득합니다. 오퍼레이터 기념사진 \"트렌드 토크\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "급속 냉동 도우미",
+    "status": "rule_validated",
+    "effect": "연계 스킬 꽁꽁이 · υ37의 적용 범위 +20%, 추가로 에너지를 2 회 더 방출하고, 피해를 준 후 추가로 15 포인트의 궁극기 에너지를 획득합니다. 오퍼레이터 기념사진 \"트렌드 토크\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/14_이본.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=14&header=0",
+    "sourceSha256": "3f37d24500fd241e34d9edb02f253b3a9eb2603fb488a55f40d74c29933359ef",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_14.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "dac7392e313fee6f90b17153ef2e44b779183fdd48949a1551b47b16fc28087f",
+    "payloadSha256": "272829ce846a66286355c7296bba139378381aff0f370e03e73e26bff14e76fe"
+  }
+}

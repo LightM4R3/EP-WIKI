@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.240.profile",
+  "semanticKey": "ko-KR|gear|240|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_240",
+    "name": "광산 전동기",
+    "aliases": [],
+    "gameEntryId": 240
+  },
+  "title": "광산 전동기 — 장비 기본 정보",
+  "content": "광산 전동기 장비의 기본 정보. 유형은 부품, 품질은 파란색 품질, 세트는 세트 없음이다. LV.36, 방어력 10. 옵션은 1번 민첩 22, 3번 치명타 확률 5.7%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 전동기",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 36,
+    "defense": 10,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 22,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "치명타 확률",
+        "baseValue": {
+          "value": 5.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "component",
+    "qualityCode": "blue",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/240_광산_전동기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=240&header=0",
+    "sourceSha256": "60b6fc872d9553433e554cc5bbfd0b2852452b623d59c17ca7a50f682afecf8d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_240.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_240.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7537a8de3e05c7ceda19f887113189f17a3d7a0cd13eaab932756aad46d03372",
+    "payloadSha256": "3d5da2678c991e8c4a9eeec60d7eddb4994c0ce151374bc533cdb9f25ed90713"
+  }
+}

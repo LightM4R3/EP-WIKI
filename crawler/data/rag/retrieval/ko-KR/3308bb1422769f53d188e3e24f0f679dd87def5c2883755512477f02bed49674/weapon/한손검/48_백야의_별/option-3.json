@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.48.option-3",
+  "semanticKey": "ko-KR|weapon|48|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_48",
+    "name": "백야의 별",
+    "aliases": [],
+    "gameEntryId": 48
+  },
+  "title": "백야의 별 — 3번 옵션 고통 · 백야의 별",
+  "content": "백야의 별 무기의 3번 옵션 ‘고통 · 백야의 별’.\nRANK1: 아츠 피해 +12.0%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +12.0%, 오리지늄 아츠 강도 +25, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 아츠 피해 +14.4%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +14.4%, 오리지늄 아츠 강도 +30, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 아츠 피해 +16.8%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +16.8%, 오리지늄 아츠 강도 +35, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 아츠 피해 +19.2%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +19.2%, 오리지늄 아츠 강도 +40, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 아츠 피해 +21.6%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +21.6%, 오리지늄 아츠 강도 +45, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 아츠 피해 +24.0%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +24.0%, 오리지늄 아츠 강도 +50, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK7: 아츠 피해 +26.4%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +26.4%, 오리지늄 아츠 강도 +55, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 아츠 피해 +28.8%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +28.8%, 오리지늄 아츠 강도 +60, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 아츠 피해 +33.6%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +33.6%, 오리지늄 아츠 강도 +70, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "고통 · 백야의 별",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "아츠 피해 +12.0%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +12.0%, 오리지늄 아츠 강도 +25, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "아츠 피해 +14.4%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +14.4%, 오리지늄 아츠 강도 +30, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "아츠 피해 +16.8%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +16.8%, 오리지늄 아츠 강도 +35, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "아츠 피해 +19.2%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +19.2%, 오리지늄 아츠 강도 +40, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "아츠 피해 +21.6%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +21.6%, 오리지늄 아츠 강도 +45, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "아츠 피해 +24.0%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +24.0%, 오리지늄 아츠 강도 +50, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "아츠 피해 +26.4%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +26.4%, 오리지늄 아츠 강도 +55, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "아츠 피해 +28.8%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +28.8%, 오리지늄 아츠 강도 +60, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "아츠 피해 +33.6%. 장착자가 적에게 연소 혹은 감전을 부여한 후, 아츠 피해 +33.6%, 오리지늄 아츠 강도 +70, 15초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/48_백야의_별.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=48&header=0",
+    "sourceSha256": "bb2756de6ec496f533a3584c137e3534c805f2b2b3201d1bb1cc8c8025fb6bc9",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_48.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "db789e8a9a7f7549541f30c2b94ae1007f2200bba2db978dcef9cb7dce96963c",
+    "payloadSha256": "59232d7ad3558f40d3b3bb1d672a439b55f599de5f27ed77edeb8dff6d457b3d"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.779.forging",
+  "semanticKey": "ko-KR|gear|779|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_779",
+    "name": "개척자 분석 장치",
+    "aliases": [],
+    "gameEntryId": 779
+  },
+  "title": "개척자 분석 장치 — 정밀 단조",
+  "content": "개척자 분석 장치 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 힘: +0 41, +1 45, +2 49, +3 53.\n3번 궁극기 피해 보너스: +0 51.8%, +1 56.9%, +2 62.1%, +3 67.3%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 41,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 45,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 49,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 53,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 51.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 56.9,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 62.1,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 67.3,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_443e330e6735",
+    "groupLabel": "개척",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/779_개척자_분석_장치.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=779&header=0",
+    "sourceSha256": "afc7a5b6f6bace787985f2aff1bbd02dbc3bfa05171bb789ce44f2ff468491cc",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_779.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "a03c5dec3bfeaed3c44baa7966a6237267ab3f3971850e9f08ac340e0f9eb7df",
+    "payloadSha256": "ba90a3c2ff9dd40b1f33ddc4489b443d67bb9e8d2c11ba1bab968250d8143cbb"
+  }
+}

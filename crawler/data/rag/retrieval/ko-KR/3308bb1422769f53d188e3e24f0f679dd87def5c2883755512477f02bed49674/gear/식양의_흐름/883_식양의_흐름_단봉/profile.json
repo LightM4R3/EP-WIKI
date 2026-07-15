@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.883.profile",
+  "semanticKey": "ko-KR|gear|883|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_883",
+    "name": "식양의 흐름 단봉",
+    "aliases": [],
+    "gameEntryId": 883
+  },
+  "title": "식양의 흐름 단봉 — 장비 기본 정보",
+  "content": "식양의 흐름 단봉 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 식양의 흐름이다. LV.70, 방어력 21. 옵션은 1번 의지 32, 2번 지능 21, 3번 배틀 스킬 피해 보너스 41.4%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "식양의 흐름 단봉",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 231878540,
+      "code": "gear_set_0dd0a8ecab1f",
+      "label": "식양의 흐름"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "배틀 스킬 피해 보너스",
+        "baseValue": {
+          "value": 41.4,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-0dd0a8ecab1f.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_0dd0a8ecab1f",
+    "groupLabel": "식양의 흐름",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_0dd0a8ecab1f"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_흐름/883_식양의_흐름_단봉.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=883&header=0",
+    "sourceSha256": "aca68319796ae8e69ae9c341d714ef0f411406ea26f82f044715945e74c67110",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_883.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_883.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "751ad1068f01eb5c72a00bd9f28a6114fd99cc7e472a777ff6230e88790c517a",
+    "payloadSha256": "0044ef04a0065fc071f62734c04c8d1072ab3bac446221c1364048eb7396865a"
+  }
+}

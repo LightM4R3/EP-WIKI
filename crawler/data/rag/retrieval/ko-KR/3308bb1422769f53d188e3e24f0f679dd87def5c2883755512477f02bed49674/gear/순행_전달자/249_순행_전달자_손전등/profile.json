@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.249.profile",
+  "semanticKey": "ko-KR|gear|249|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_249",
+    "name": "순행 전달자 손전등",
+    "aliases": [],
+    "gameEntryId": 249
+  },
+  "title": "순행 전달자 손전등 — 장비 기본 정보",
+  "content": "순행 전달자 손전등 장비의 기본 정보. 유형은 부품, 품질은 파란색 품질, 세트는 순행 전달자이다. LV.36, 방어력 10. 옵션은 1번 민첩 21, 3번 연계 스킬 피해 보너스 21%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "순행 전달자 손전등",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    "gearSet": {
+      "id": 2356057675,
+      "code": "gear_set_8c6d0fabbbe7",
+      "label": "순행 전달자"
+    },
+    "level": 36,
+    "defense": 10,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "연계 스킬 피해 보너스",
+        "baseValue": {
+          "value": 21,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-8c6d0fabbbe7.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_8c6d0fabbbe7",
+    "groupLabel": "순행 전달자",
+    "gearTypeCode": "component",
+    "qualityCode": "blue",
+    "gearSetCode": "gear_set_8c6d0fabbbe7"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/순행_전달자/249_순행_전달자_손전등.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=249&header=0",
+    "sourceSha256": "7ecbcea50bd34bb8eafcab437e3c9275bf4d92ef5d9577902b7fce973425e39c",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_249.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_249.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9ae1992b14c1c29e27437a160a7e3b22cb8493f598472018e09ec60d44e119f3",
+    "payloadSha256": "c4ba1bbbfdb54c88a4f223a4542ca58e6631d1246076844102f67b8f170c9b1c"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.23.infrastructure-2",
+  "semanticKey": "ko-KR|operator|23|infrastructure-2",
+  "locale": "ko-KR",
+  "documentType": "operator_infrastructure_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_23",
+    "name": "카치르",
+    "aliases": [],
+    "gameEntryId": 23
+  },
+  "title": "카치르 — 인프라 재능 실용적 사고",
+  "content": "카치르 오퍼레이터의 인프라 재능 ‘실용적 사고’.\n실용적 사고 · α: 재배실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 3000개.\n실용적 사고 · β: 재배실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 18% 감소. 활성화 조건: 정예화 단계 4 돌파. 재료: 프로토콜 프리즘 세트 20개, 탈로시안 화폐 20000개.",
+  "facts": {
+    "index": 2,
+    "name": "실용적 사고",
+    "variants": [
+      {
+        "grade": "α",
+        "name": "실용적 사고 · α",
+        "description": "재배실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 3000
+          }
+        ]
+      },
+      {
+        "grade": "β",
+        "name": "실용적 사고 · β",
+        "description": "재배실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 18% 감소",
+        "conditions": [
+          "정예화 단계 4 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 20
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 20000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_infrastructure_talent",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "infrastructureTalentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/23_카치르.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=23&header=0",
+    "sourceSha256": "bc0bfc7536d9836561ccdd2b8feeeba067fb28d44c332cf2d60746c0234bf642",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_23.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4f0e58e4020a663ae4d9c493f9f65d22dce8bfe0d56af2d59bebc009dbe8330b",
+    "payloadSha256": "2480e7f20ef9b4b716849994eb4168d86edf1810c20ebb26568c47a49d2f7039"
+  }
+}

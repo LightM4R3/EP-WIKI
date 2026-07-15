@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.206.profile",
+  "semanticKey": "ko-KR|gear|206|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_206",
+    "name": "간편 방어구",
+    "aliases": [],
+    "gameEntryId": 206
+  },
+  "title": "간편 방어구 — 장비 기본 정보",
+  "content": "간편 방어구 장비의 기본 정보. 유형은 방어구, 품질은 회색 품질, 세트는 세트 없음이다. LV.10, 방어력 8. 옵션은 1번 힘 15, 2번 민첩 10, 3번 생명력 46. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "간편 방어구",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 4,
+      "code": "gray",
+      "label": "회색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 10,
+    "defense": 8,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 15,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 10,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "생명력",
+        "baseValue": {
+          "value": 46,
+          "unit": "flat"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "armor",
+    "qualityCode": "gray",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/206_간편_방어구.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=206&header=0",
+    "sourceSha256": "9b02b08160eb7c6e79957742daf857272cbe3e7ea953d6a5cea2adbed81e774a",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_206.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_206.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "cc4d70a4ed92dafb0abc42ce2df45896fe470c1e394234b441548bc62b712600",
+    "payloadSha256": "b28a7677f377e849e5d0360b9477687b0af1f81725c70612205ed25fa3fb02d2"
+  }
+}

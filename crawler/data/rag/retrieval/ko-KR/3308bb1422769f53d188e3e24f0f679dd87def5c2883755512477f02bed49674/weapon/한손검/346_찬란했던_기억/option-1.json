@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.346.option-1",
+  "semanticKey": "ko-KR|weapon|346|option-1",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_346",
+    "name": "찬란했던 기억",
+    "aliases": [],
+    "gameEntryId": 346
+  },
+  "title": "찬란했던 기억 — 1번 옵션 민첩 증가 · 대",
+  "content": "찬란했던 기억 무기의 1번 옵션 ‘민첩 증가 · 대’.\nRANK1: 민첩 +20.\nRANK2: 민첩 +36.\nRANK3: 민첩 +52.\nRANK4: 민첩 +68.\nRANK5: 민첩 +84.\nRANK6: 민첩 +100.\nRANK7: 민첩 +116.\nRANK8: 민첩 +132.\nRANK9: 민첩 +156.",
+  "facts": {
+    "slot": 1,
+    "name": "민첩 증가 · 대",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "민첩",
+        "value": 20,
+        "unit": "flat",
+        "display": "+20"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "민첩",
+        "value": 36,
+        "unit": "flat",
+        "display": "+36"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "민첩",
+        "value": 52,
+        "unit": "flat",
+        "display": "+52"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "민첩",
+        "value": 68,
+        "unit": "flat",
+        "display": "+68"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "민첩",
+        "value": 84,
+        "unit": "flat",
+        "display": "+84"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "민첩",
+        "value": 100,
+        "unit": "flat",
+        "display": "+100"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "민첩",
+        "value": 116,
+        "unit": "flat",
+        "display": "+116"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "민첩",
+        "value": 132,
+        "unit": "flat",
+        "display": "+132"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "민첩",
+        "value": 156,
+        "unit": "flat",
+        "display": "+156"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "optionSlot": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/346_찬란했던_기억.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=346&header=0",
+    "sourceSha256": "1752593cc9d41289fd3d059145342545653ae9354b03d3a9ea0191c1c573dcfb",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_346.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "17bbcfdeda3d7170832e1f7d33d7da99b4ae538afe56c733474076f576f265fb",
+    "payloadSha256": "11bfd50b119f12eaf303522a593c9204825e1673f3b46c5f92828f0ce478b691"
+  }
+}

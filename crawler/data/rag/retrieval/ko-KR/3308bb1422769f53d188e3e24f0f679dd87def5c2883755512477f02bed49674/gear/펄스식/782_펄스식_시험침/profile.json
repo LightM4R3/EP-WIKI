@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.782.profile",
+  "semanticKey": "ko-KR|gear|782|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_782",
+    "name": "펄스식 시험침",
+    "aliases": [],
+    "gameEntryId": 782
+  },
+  "title": "펄스식 시험침 — 장비 기본 정보",
+  "content": "펄스식 시험침 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 펄스식이다. LV.70, 방어력 21. 옵션은 1번 지능 32, 2번 민첩 21, 3번 오리지늄 아츠 강도 41. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "펄스식 시험침",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2859607881,
+      "code": "gear_set_aa70a0a9b381",
+      "label": "펄스식"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 32,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 21,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-aa70a0a9b381.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_aa70a0a9b381",
+    "groupLabel": "펄스식",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_aa70a0a9b381"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/펄스식/782_펄스식_시험침.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=782&header=0",
+    "sourceSha256": "ca880ce78b75c78f2d9e3a00954643d9f676e74f2338bc4e8b0732465b677861",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_782.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_782.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f045e092cdf3fa19f8de625fa07cf9b41ca92dc0db8501bd18273f96f7018a33",
+    "payloadSha256": "2b017df4fd9c165dff7a57270ee1eb229c8ed176a6b91e815c1fc8c5ba61b7fe"
+  }
+}

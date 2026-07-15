@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.999.profile",
+  "semanticKey": "ko-KR|weapon|999|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_999",
+    "name": "등불의 사명",
+    "aliases": [],
+    "gameEntryId": 999
+  },
+  "title": "등불의 사명 — 무기 기본 정보",
+  "content": "등불의 사명 무기의 기본 정보. 무기 유형은 장병기이다. 옵션은 1번 민첩 증가 · 대, 2번 궁극기 충전 효율 증가 · 대, 3번 효율 · 불빛 연소이다.",
+  "facts": {
+    "name": "등불의 사명",
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.999.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "궁극기 충전 효율 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.999.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "효율 · 불빛 연소",
+        "documentRef": "epwiki.ko-kr.weapon.999.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "weaponTypeCode": "polearm"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/999_등불의_사명.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=999&header=0",
+    "sourceSha256": "ac22eef24928c82b7fc19ba294980d262549b7cc6a56dfbb135ea417edde941e",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_999.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_999.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e936298125abc2b67a67d0726edeaf2c75e53498797768b791f18854f81322cd",
+    "payloadSha256": "49265d9ed167eb97b6d6f12b28fcd26821497a081bf004ba36a0d92eed9a4710"
+  }
+}

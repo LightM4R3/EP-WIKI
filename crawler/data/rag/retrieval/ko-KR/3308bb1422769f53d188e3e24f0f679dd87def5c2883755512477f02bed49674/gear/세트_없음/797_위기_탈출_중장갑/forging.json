@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.797.forging",
+  "semanticKey": "ko-KR|gear|797|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_797",
+    "name": "위기 탈출 중장갑",
+    "aliases": [],
+    "gameEntryId": 797
+  },
+  "title": "위기 탈출 중장갑 — 정밀 단조",
+  "content": "위기 탈출 중장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 민첩: +0 115, +1 126, +2 138, +3 149.\n3번 일반 공격 피해 보너스: +0 14.4%, +1 15.8%, +2 17.3%, +3 18.7%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 115,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 126,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 138,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 149,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "일반 공격 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 14.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 15.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 17.3,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 18.7,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/797_위기_탈출_중장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=797&header=0",
+    "sourceSha256": "a134ae8eb7d0d9b2e0e73016084247960860566cb88f7b0c43cb0af08280e580",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_797.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "75287ea34da93717e8c0a4ce968a49cdb6e6c96f490f596908108b248cf43f52",
+    "payloadSha256": "8c135e7f50260b6119cf971d079fe90c3461e7a579903232420f8425c31d92b9"
+  }
+}

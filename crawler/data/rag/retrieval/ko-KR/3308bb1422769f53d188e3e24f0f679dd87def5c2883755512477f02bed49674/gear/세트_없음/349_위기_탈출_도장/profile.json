@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.349.profile",
+  "semanticKey": "ko-KR|gear|349|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_349",
+    "name": "위기 탈출 도장",
+    "aliases": [],
+    "gameEntryId": 349
+  },
+  "title": "위기 탈출 도장 — 장비 기본 정보",
+  "content": "위기 탈출 도장 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 세트 없음이다. LV.70, 방어력 21. 옵션은 1번 지능 43, 3번 궁극기 충전 효율 25.7%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "위기 탈출 도장",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 25.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/349_위기_탈출_도장.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=349&header=0",
+    "sourceSha256": "96835d617d55880ef5aafb4272beebd4bb25634569302f9da0a3160f5426d379",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_349.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_349.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5bba778a33d1cbffa87f29d6bcfe89c5c79ef39588553bb294658efa95bc8ffb",
+    "payloadSha256": "6e1dabcfe8b7b1397da2ed25ad7807ad62a9798087859cb5afc7cb031123fb76"
+  }
+}

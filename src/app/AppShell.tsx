@@ -3,6 +3,7 @@ import { CrisisContractPage } from '../features/crisis-contract/CrisisContractPa
 import { DamageCalculatorPage } from '../features/damage-calculator/DamageCalculatorPage'
 import { EquipmentPage } from '../features/equipment/EquipmentPage'
 import { OperatorsPage } from '../features/operators/OperatorsPage'
+import { RagInspectorPage } from '../features/rag-inspector/RagInspectorPage'
 import { WeaponsPage } from '../features/weapons/WeaponsPage'
 import { SectionHeader } from '../shared/components/SectionHeader'
 import {
@@ -93,6 +94,8 @@ function renderActivePage(activePage: NavigationId) {
       return <EquipmentPage />
     case 'damage-calculator':
       return <DamageCalculatorPage />
+    case 'rag-inspector':
+      return <RagInspectorPage />
     case 'crisis-contract':
       return <CrisisContractPage />
     case 'overview':

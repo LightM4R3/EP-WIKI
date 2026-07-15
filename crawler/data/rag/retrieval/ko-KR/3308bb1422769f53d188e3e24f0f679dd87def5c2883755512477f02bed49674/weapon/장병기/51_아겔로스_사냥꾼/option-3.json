@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.51.option-3",
+  "semanticKey": "ko-KR|weapon|51|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_51",
+    "name": "아겔로스 사냥꾼",
+    "aliases": [],
+    "gameEntryId": 51
+  },
+  "title": "아겔로스 사냥꾼 — 3번 옵션 억제 · 비상 부스트",
+  "content": "아겔로스 사냥꾼 무기의 3번 옵션 ‘억제 · 비상 부스트’.\nRANK1: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +12.0%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +14.4%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +16.8%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +19.2%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +21.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +24.0%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK7: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +26.4%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +28.8%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +33.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "억제 · 비상 부스트",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +12.0%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +14.4%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +16.8%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +19.2%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +21.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +24.0%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +26.4%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +28.8%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +33.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/51_아겔로스_사냥꾼.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=51&header=0",
+    "sourceSha256": "9bf48072aa9a1180bbf4d0e89b5b1a398b79daf3b9116cae8c4c6cbad9bb3202",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_51.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "89ca2fb641bc337d816a7b454a90e7d71af21daaafe8fb540afdcdffe5d213d9",
+    "payloadSha256": "846d7507964b99b013d74d1a0660fe01860a1926394bfc169b099c5c9c44f5fe"
+  }
+}

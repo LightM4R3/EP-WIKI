@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.50.option-3",
+  "semanticKey": "ko-KR|weapon|50|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_50",
+    "name": "불꽃의 시험",
+    "aliases": [],
+    "gameEntryId": 50
+  },
+  "title": "불꽃의 시험 — 3번 옵션 분쇄 · 훈련된 전사",
+  "content": "불꽃의 시험 무기의 3번 옵션 ‘분쇄 · 훈련된 전사’.\nRANK1: 장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +12.0%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +14.4%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +16.8%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +19.2%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +21.6%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +24.0%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK7: 장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +26.4%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +28.8%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +33.6%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "분쇄 · 훈련된 전사",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +12.0%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +14.4%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +16.8%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +19.2%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +21.6%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +24.0%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +26.4%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +28.8%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "장착자가 적에게 강력한 일격 피해를 줄 때, 공격력 +33.6%, 10초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/50_불꽃의_시험.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=50&header=0",
+    "sourceSha256": "c4f626445d771483a0d2f31758bd6f1e6711ed5c20005e6b2deeb401d659a943",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_50.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c4614301bd69187b3ed5eb7c60cb9ad40ae50a2df2001ce24aed18fe5f0c3d0a",
+    "payloadSha256": "cf1647ad62cc0c2f57b55b9ecbcda87fddfd4e7425e2650a0e7fbff59e9adf44"
+  }
+}

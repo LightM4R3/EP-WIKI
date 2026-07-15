@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.37.profile",
+  "semanticKey": "ko-KR|weapon|37|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_37",
+    "name": "용조의 불꽃",
+    "aliases": [],
+    "gameEntryId": 37
+  },
+  "title": "용조의 불꽃 — 무기 기본 정보",
+  "content": "용조의 불꽃 무기의 기본 정보. 무기 유형은 한손검이다. 옵션은 1번 지능 증가 · 대, 2번 공격력 증가 · 대, 3번 어둠 · 울부짖는 불길이다.",
+  "facts": {
+    "name": "용조의 불꽃",
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.37.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "공격력 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.37.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "어둠 · 울부짖는 불길",
+        "documentRef": "epwiki.ko-kr.weapon.37.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "weaponTypeCode": "sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/37_용조의_불꽃.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=37&header=0",
+    "sourceSha256": "a8af632cef44b3d2bbf7f4ca29096df1c8e919ada5756da8599144990c36e04b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_37.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_37.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "520c8f61d280751e18f61d73b81d91f0c2ddd65c3a62817d66dce8e2cd2cf491",
+    "payloadSha256": "c620f143ead31488853b24a6f0d1ada8207bb232cec9592fe491d94686599394"
+  }
+}

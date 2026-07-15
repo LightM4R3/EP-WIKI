@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.301.profile",
+  "semanticKey": "ko-KR|gear|301|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_301",
+    "name": "재앙 방호 장갑",
+    "aliases": [],
+    "gameEntryId": 301
+  },
+  "title": "재앙 방호 장갑 — 장비 기본 정보",
+  "content": "재앙 방호 장갑 장비의 기본 정보. 유형은 글러브, 품질은 보라색 품질, 세트는 재앙 방호이다. LV.50, 방어력 30. 옵션은 1번 의지 46, 2번 지능 30, 3번 오리지늄 아츠 강도 24. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "재앙 방호 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 963247953,
+      "code": "gear_set_396878b1d89a",
+      "label": "재앙 방호"
+    },
+    "level": 50,
+    "defense": 30,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 46,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 30,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "baseValue": {
+          "value": 24,
+          "unit": "flat"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-396878b1d89a.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_396878b1d89a",
+    "groupLabel": "재앙 방호",
+    "gearTypeCode": "gloves",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_396878b1d89a"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/재앙_방호/301_재앙_방호_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=301&header=0",
+    "sourceSha256": "8d8dcb27937859b08f6860d051af01995d0dcf2ab5db9c07116949a79091030b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_301.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_301.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d052c5633163dd1fc215fd00313cbfc8acb3dd4b4715254877d1eff9175f8a60",
+    "payloadSha256": "4b85cd1b6f983925937b982a9776b883a4917c6b103d82bb80845406bbea0706"
+  }
+}

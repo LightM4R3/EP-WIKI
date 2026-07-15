@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.5.potential-1",
+  "semanticKey": "ko-KR|operator|5|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_5",
+    "name": "아케쿠리",
+    "aliases": [],
+    "gameEntryId": 5
+  },
+  "title": "아케쿠리 — 잠재능력 1 긍정적 피드백",
+  "content": "아케쿠리 오퍼레이터의 잠재능력 1 ‘긍정적 피드백’. 스킬을 사용하여 스킬 게이지를 회복했을 떄, 공격력 +10%, 10초 동안 지속, 최대 중첩 5스택. 오퍼레이터 기념사진 \"도착 보고\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "긍정적 피드백",
+    "status": "rule_validated",
+    "effect": "스킬을 사용하여 스킬 게이지를 회복했을 떄, 공격력 +10%, 10초 동안 지속, 최대 중첩 5스택. 오퍼레이터 기념사진 \"도착 보고\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/5_아케쿠리.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=5&header=0",
+    "sourceSha256": "1d32fb2a32cd175406743463d61a07b698b38b73717039f7510313cb4f8f62a0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_5.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "61c748ad61c3547aade8b49f8fa81195321459010ffbc5732fe70f82f097aac0",
+    "payloadSha256": "17ccc980a51555b5974422723fedbd60bf6ccdc14507878f0accfe7aa7def27f"
+  }
+}

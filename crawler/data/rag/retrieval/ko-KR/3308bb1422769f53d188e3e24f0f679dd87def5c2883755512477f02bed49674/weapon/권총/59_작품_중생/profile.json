@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.59.profile",
+  "semanticKey": "ko-KR|weapon|59|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_59",
+    "name": "작품: 중생",
+    "aliases": [],
+    "gameEntryId": 59
+  },
+  "title": "작품: 중생 — 무기 기본 정보",
+  "content": "작품: 중생 무기의 기본 정보. 무기 유형은 권총이다. 옵션은 1번 민첩 증가 · 중, 2번 아츠 피해 증가 · 중, 3번 고통 · 중생의 귀로이다.",
+  "facts": {
+    "name": "작품: 중생",
+    "weaponType": {
+      "id": 3,
+      "code": "handcannon",
+      "label": "권총"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.59.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "아츠 피해 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.59.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "고통 · 중생의 귀로",
+        "documentRef": "epwiki.ko-kr.weapon.59.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "weaponTypeCode": "handcannon"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/59_작품_중생.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=59&header=0",
+    "sourceSha256": "91a138f4be8f9500c8564196f794897a659543a6ae055c78ac810ac322934780",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_59.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_59.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "aedee729fb6f1cb5d867b436ea27fa8564c5d697fdc2020005101b19981a3a2b",
+    "payloadSha256": "63d33303e11ddb1cf802f1fcadd14d1c48a2fe9ed0a37628c66a9e8cae330600"
+  }
+}

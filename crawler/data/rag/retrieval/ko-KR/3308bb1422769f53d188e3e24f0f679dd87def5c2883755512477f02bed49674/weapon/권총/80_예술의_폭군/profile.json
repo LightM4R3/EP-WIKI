@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.80.profile",
+  "semanticKey": "ko-KR|weapon|80|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_80",
+    "name": "예술의 폭군",
+    "aliases": [],
+    "gameEntryId": 80
+  },
+  "title": "예술의 폭군 — 무기 기본 정보",
+  "content": "예술의 폭군 무기의 기본 정보. 무기 유형은 권총이다. 옵션은 1번 지능 증가 · 대, 2번 치명타 확률 증가 · 대, 3번 골절 · 예술적 폭론이다.",
+  "facts": {
+    "name": "예술의 폭군",
+    "weaponType": {
+      "id": 3,
+      "code": "handcannon",
+      "label": "권총"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.80.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "치명타 확률 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.80.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "골절 · 예술적 폭론",
+        "documentRef": "epwiki.ko-kr.weapon.80.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "weaponTypeCode": "handcannon"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/80_예술의_폭군.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=80&header=0",
+    "sourceSha256": "4dce7fe3d951b29878c30d669cdd730ff613dbb9f8c9a039a75d95d58de7d93a",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_80.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_80.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "62fa50001393d8d48d35f5ddd73d9ce05deb3e3944cb787296b8daebb7edfcad",
+    "payloadSha256": "81e580594bc66c74d1b187ade0e7da9a4ee7d10af86d467cd7788b9ec6a9bd1d"
+  }
+}

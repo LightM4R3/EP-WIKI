@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.37.option-3",
+  "semanticKey": "ko-KR|weapon|37|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_37",
+    "name": "용조의 불꽃",
+    "aliases": [],
+    "gameEntryId": 37
+  },
+  "title": "용조의 불꽃 — 3번 옵션 어둠 · 울부짖는 불길",
+  "content": "용조의 불꽃 무기의 3번 옵션 ‘어둠 · 울부짖는 불길’.\nRANK1: 열기 피해 +16.0% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +75.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 열기 피해 +19.2% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +90.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 열기 피해 +22.4% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +105.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 열기 피해 +25.6% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +120.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 열기 피해 +28.8% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +135.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 열기 피해 +32.0% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +150.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK7: 열기 피해 +35.2% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +165.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 열기 피해 +38.4% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +180.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 열기 피해 +44.8% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +210.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "어둠 · 울부짖는 불길",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "열기 피해 +16.0% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +75.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "열기 피해 +19.2% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +90.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "열기 피해 +22.4% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +105.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "열기 피해 +25.6% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +120.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "열기 피해 +28.8% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +135.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "열기 피해 +32.0% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +150.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "열기 피해 +35.2% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +165.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "열기 피해 +38.4% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +180.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "열기 피해 +44.8% 장착자가 궁극기를 사용했을 때, 일반 공격 피해 +210.0%, 20.0초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/37_용조의_불꽃.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=37&header=0",
+    "sourceSha256": "a8af632cef44b3d2bbf7f4ca29096df1c8e919ada5756da8599144990c36e04b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_37.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e99413b49df3a552c5df46f10ff79237cfe443078054a09458c999c73078c5ea",
+    "payloadSha256": "32bdb29eaa4d6012acc9c83acaa27583cb493872958af2188df43dcae936cbee"
+  }
+}

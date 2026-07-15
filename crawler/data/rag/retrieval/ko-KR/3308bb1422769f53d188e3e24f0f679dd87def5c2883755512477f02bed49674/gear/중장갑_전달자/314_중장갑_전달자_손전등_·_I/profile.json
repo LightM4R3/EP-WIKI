@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.314.profile",
+  "semanticKey": "ko-KR|gear|314|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_314",
+    "name": "중장갑 전달자 손전등 · I",
+    "aliases": [],
+    "gameEntryId": 314
+  },
+  "title": "중장갑 전달자 손전등 · I — 장비 기본 정보",
+  "content": "중장갑 전달자 손전등 · I 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 중장갑 전달자이다. LV.50, 방어력 15. 옵션은 1번 힘 23, 2번 민첩 15, 3번 치명타 확률 7.4%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "중장갑 전달자 손전등 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 3226939140,
+      "code": "gear_set_c055a8649a73",
+      "label": "중장갑 전달자"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 15,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "치명타 확률",
+        "baseValue": {
+          "value": 7.4,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-c055a8649a73.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_c055a8649a73",
+    "groupLabel": "중장갑 전달자",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_c055a8649a73"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/중장갑_전달자/314_중장갑_전달자_손전등_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=314&header=0",
+    "sourceSha256": "dbca4f1a24de55819d8a1f2970b8dbe9961efd249aae4daec303c1224dc3a83a",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_314.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_314.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4485c56ad5014c73e3c60e22f2d887575ed0fa6af5f19690b9af9cc3f28ab5ab",
+    "payloadSha256": "4ba82d02125947e4d03af186d92f4fca6461d35aeaa24a2e3d1c89b1d9bfb5bf"
+  }
+}

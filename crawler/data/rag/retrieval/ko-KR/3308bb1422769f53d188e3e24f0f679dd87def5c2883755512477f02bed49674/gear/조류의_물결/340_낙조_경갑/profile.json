@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.340.profile",
+  "semanticKey": "ko-KR|gear|340|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_340",
+    "name": "낙조 경갑",
+    "aliases": [],
+    "gameEntryId": 340
+  },
+  "title": "낙조 경갑 — 장비 기본 정보",
+  "content": "낙조 경갑 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 조류의 물결이다. LV.70, 방어력 56. 옵션은 1번 지능 87, 2번 힘 58, 3번 궁극기 충전 효율 12.3%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "낙조 경갑",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2727968106,
+      "code": "gear_set_a297f6ca3aa0",
+      "label": "조류의 물결"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 12.3,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-a297f6ca3aa0.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_a297f6ca3aa0",
+    "groupLabel": "조류의 물결",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_a297f6ca3aa0"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/조류의_물결/340_낙조_경갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=340&header=0",
+    "sourceSha256": "f3813f1c9ec99602cd0120789608402a04293525b7c22d9d343095f8cdda824d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_340.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_340.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f4a2155534cf61a7d24e1d7babdad9414bc047f1f8f8d9b516950ff7bc9f3e0c",
+    "payloadSha256": "490972e39a508f81bb3f6f18ccaa2136e9363623e76216da26650908830755fe"
+  }
+}

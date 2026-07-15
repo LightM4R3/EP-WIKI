@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.770.profile",
+  "semanticKey": "ko-KR|gear|770|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_770",
+    "name": "응룡 50식 중갑 · II",
+    "aliases": [],
+    "gameEntryId": 770
+  },
+  "title": "응룡 50식 중갑 · II — 장비 기본 정보",
+  "content": "응룡 50식 중갑 · II 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 응룡 50식이다. LV.70, 방어력 56. 옵션은 1번 민첩 87, 2번 지능 58, 3번 연계 스킬 피해 보너스 20.7%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "응룡 50식 중갑 · II",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 1172323551,
+      "code": "gear_set_45deb63f9684",
+      "label": "응룡 50식"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "연계 스킬 피해 보너스",
+        "baseValue": {
+          "value": 20.7,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-45deb63f9684.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_45deb63f9684",
+    "groupLabel": "응룡 50식",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_45deb63f9684"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/응룡_50식/770_응룡_50식_중갑_·_II.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=770&header=0",
+    "sourceSha256": "8f5b91f76379127b28386c5a3855db9339be9ab3bc7c46748f7b59d8ff298e80",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_770.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_770.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "863a1b8166a04a5971fdcb3f62a3b59ef9a28927028bcc7e05755f54d95eb7fc",
+    "payloadSha256": "1242b484cd5229477545e96d8e5589c5a62b97eccbfd313abdc593a797040147"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.361.profile",
+  "semanticKey": "ko-KR|gear|361|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_361",
+    "name": "생체 보조 장갑(팔목)",
+    "aliases": [],
+    "gameEntryId": 361
+  },
+  "title": "생체 보조 장갑(팔목) — 장비 기본 정보",
+  "content": "생체 보조 장갑(팔목) 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 생체 보조이다. LV.70, 방어력 42. 옵션은 1번 힘 65, 2번 의지 43, 3번 궁극기 충전 효율 20.5%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "생체 보조 장갑(팔목)",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 447874150,
+      "code": "gear_set_1ab07dc6afcc",
+      "label": "생체 보조"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 20.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-1ab07dc6afcc.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1ab07dc6afcc",
+    "groupLabel": "생체 보조",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_1ab07dc6afcc"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/생체_보조/361_생체_보조_장갑(팔목).json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=361&header=0",
+    "sourceSha256": "4c49ab985db55b1b600fa4ca9bd005643e6071873978915021230a81ec237c2d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_361.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_361.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4ffc0b09fa22f74994ed91913841c586c3d8f4d57c11c305c60a6d276ca001cb",
+    "payloadSha256": "731c5ca5d7c061a82ccf216aff122cd8008fe3074699c05d51edc2225b5af6c6"
+  }
+}

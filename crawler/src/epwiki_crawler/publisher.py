@@ -18,6 +18,7 @@ from epwiki_crawler.normalizer import (
     materialize_normalized_snapshot,
 )
 from epwiki_crawler.quality import validate_run
+from epwiki_crawler.retrieval import build_retrieval_corpus
 
 
 PUBLISHED_RAG_ROOT = PROJECT_ROOT / "data" / "rag" / "published"
@@ -274,16 +275,29 @@ def publish_runs(
             replace=True,
         )
         snapshot = normalized["snapshot"]
-        snapshots.append(
-            {
-                "locale": locale,
-                "snapshotRef": _project_ref(snapshot_path),
-                "publicationStatus": snapshot["publicationStatus"],
-                "normalizationManifestRef": normalized["manifestRef"],
-                "queryIndexRef": normalized["queryIndexRef"],
-                **snapshot["stats"],
-            }
-        )
+        snapshot_entry = {
+            "locale": locale,
+            "snapshotRef": _project_ref(snapshot_path),
+            "publicationStatus": snapshot["publicationStatus"],
+            "normalizationManifestRef": normalized["manifestRef"],
+            "queryIndexRef": normalized["queryIndexRef"],
+            **snapshot["stats"],
+        }
+        if publish_root.resolve() == PUBLISHED_RAG_ROOT.resolve():
+            retrieval = build_retrieval_corpus(
+                locale,
+                normalized_root=normalized_root,
+                retrieval_root=publish_root.parent / "retrieval",
+            )
+            snapshot_entry.update(
+                {
+                    "retrievalManifestRef": retrieval["manifestRef"],
+                    "retrievalReleaseId": retrieval["manifest"]["releaseId"],
+                    "retrievalDocuments": retrieval["manifest"]["stats"]["documents"],
+                    "retrievalVerdict": retrieval["quality"]["verdict"],
+                }
+            )
+        snapshots.append(snapshot_entry)
 
     manifest = {
         "schemaVersion": "1.0.0",

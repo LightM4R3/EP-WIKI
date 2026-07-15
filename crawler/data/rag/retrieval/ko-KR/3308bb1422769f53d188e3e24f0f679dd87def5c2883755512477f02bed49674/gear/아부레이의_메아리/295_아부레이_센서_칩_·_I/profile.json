@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.295.profile",
+  "semanticKey": "ko-KR|gear|295|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_295",
+    "name": "아부레이 센서 칩 · I",
+    "aliases": [],
+    "gameEntryId": 295
+  },
+  "title": "아부레이 센서 칩 · I — 장비 기본 정보",
+  "content": "아부레이 센서 칩 · I 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 아부레이의 메아리이다. LV.50, 방어력 15. 옵션은 1번 의지 23, 2번 지능 15, 3번 배틀 스킬 피해 보너스 29.4%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "아부레이 센서 칩 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": 639192494,
+      "code": "gear_set_2617c70e3c51",
+      "label": "아부레이의 메아리"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 23,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "baseValue": {
+          "value": 15,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "배틀 스킬 피해 보너스",
+        "baseValue": {
+          "value": 29.4,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-2617c70e3c51.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_2617c70e3c51",
+    "groupLabel": "아부레이의 메아리",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "gear_set_2617c70e3c51"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/아부레이의_메아리/295_아부레이_센서_칩_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=295&header=0",
+    "sourceSha256": "5e3ff2c35b8a8ee6e3747710e4910ac2f4b53fdaab6be3142abb9f4b24335628",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_295.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_295.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "926bac8c9b7134066466bb43fd4a014c331c772966f8f345b8d51206a27fec18",
+    "payloadSha256": "aad05950a8711c1d02ade7703840ff2616d26c8c2eefcf4494a926b107934c6f"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.54.option-2",
+  "semanticKey": "ko-KR|weapon|54|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_54",
+    "name": "드러난 칼날",
+    "aliases": [],
+    "gameEntryId": 54
+  },
+  "title": "드러난 칼날 — 2번 옵션 물리 피해 증가 · 소",
+  "content": "드러난 칼날 무기의 2번 옵션 ‘물리 피해 증가 · 소’.\nRANK1: 물리 피해 +3.3%.\nRANK2: 물리 피해 +6.0%.\nRANK3: 물리 피해 +8.7%.\nRANK4: 물리 피해 +11.3%.\nRANK5: 물리 피해 +14.0%.\nRANK6: 물리 피해 +16.7%.\nRANK7: 물리 피해 +19.3%.\nRANK8: 물리 피해 +22.0%.\nRANK9: 물리 피해 +26.0%.",
+  "facts": {
+    "slot": 2,
+    "name": "물리 피해 증가 · 소",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "물리 피해",
+        "value": 3.3,
+        "unit": "percent",
+        "display": "+3.3%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "물리 피해",
+        "value": 6,
+        "unit": "percent",
+        "display": "+6.0%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "물리 피해",
+        "value": 8.7,
+        "unit": "percent",
+        "display": "+8.7%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "물리 피해",
+        "value": 11.3,
+        "unit": "percent",
+        "display": "+11.3%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "물리 피해",
+        "value": 14,
+        "unit": "percent",
+        "display": "+14.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "물리 피해",
+        "value": 16.7,
+        "unit": "percent",
+        "display": "+16.7%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "물리 피해",
+        "value": 19.3,
+        "unit": "percent",
+        "display": "+19.3%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "물리 피해",
+        "value": 22,
+        "unit": "percent",
+        "display": "+22.0%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "물리 피해",
+        "value": 26,
+        "unit": "percent",
+        "display": "+26.0%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/54_드러난_칼날.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=54&header=0",
+    "sourceSha256": "06f79eb8a1a4e5555bf9aaf91ee31d2ede9d4594bed6244e5988f71979d695fa",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_54.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "df6ecfca1c1f0b80d5f720eaae0bf5b37b63e116d9e7dd91bfc7771dded7af76",
+    "payloadSha256": "99eb8213eb0a3691ccf71b97551806e05a6d7b1caf5508d67c6ac02178c5895d"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.9.potential-3",
+  "semanticKey": "ko-KR|operator|9|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_9",
+    "name": "질베르타",
+    "aliases": [],
+    "gameEntryId": 9
+  },
+  "title": "질베르타 — 잠재능력 3 가벼운 발걸음",
+  "content": "질베르타 오퍼레이터의 잠재능력 3 ‘가벼운 발걸음’. 재능 '전달자의 노래' 효과 강화: 궁극기 충전 효율 추가 +5% 오퍼레이터 기념사진 \"하늘 끝에 발을 디딘 순간\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "가벼운 발걸음",
+    "status": "rule_validated",
+    "effect": "재능 '전달자의 노래' 효과 강화: 궁극기 충전 효율 추가 +5% 오퍼레이터 기념사진 \"하늘 끝에 발을 디딘 순간\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+    "sourceSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_9.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "84704a162cf75acb2b59eb9c59b48c7b2d507b733fe1d5edc73330105a8d44c7",
+    "payloadSha256": "068ba12c97bf66c8a27d38df5618475a8fade2099ef29d3ac3ca1166c9e33457"
+  }
+}

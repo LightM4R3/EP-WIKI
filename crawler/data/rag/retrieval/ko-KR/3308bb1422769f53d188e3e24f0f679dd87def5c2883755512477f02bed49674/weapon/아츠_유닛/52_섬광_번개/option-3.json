@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.52.option-3",
+  "semanticKey": "ko-KR|weapon|52|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_52",
+    "name": "섬광 번개",
+    "aliases": [],
+    "gameEntryId": 52
+  },
+  "title": "섬광 번개 — 3번 옵션 억제 · 비상 부스트",
+  "content": "섬광 번개 무기의 3번 옵션 ‘억제 · 비상 부스트’.\nRANK1: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +12.0%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK2: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +14.4%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK3: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +16.8%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK4: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +19.2%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK5: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +21.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK6: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +24.0%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK7: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +26.4%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK8: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +28.8%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.\nRANK9: 장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +33.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다.",
+  "facts": {
+    "slot": 3,
+    "name": "억제 · 비상 부스트",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +12.0%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +14.4%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +16.8%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +19.2%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +21.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +24.0%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +26.4%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +28.8%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "장착자의 배틀 스킬이 적에게 명중할 때, 공격력 +33.6%, 20초 동안 지속. 같은 이름의 효과는 중첩되지 않습니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/52_섬광_번개.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=52&header=0",
+    "sourceSha256": "c1bc257c2d4269f0f21e8283f38603b84a9086a9e7f7aa1231e80a6153484d70",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_52.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0756ec0a398bd9dc254411015ae1d8a6af6b2e03f007bde0b087f3baac535d02",
+    "payloadSha256": "2092434a78377d1a349ac111d5506b20fcd03105f94a396f852aa3ac04c63d49"
+  }
+}

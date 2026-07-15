@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.13.potential-3",
+  "semanticKey": "ko-KR|operator|13|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_13",
+    "name": "자이히",
+    "aliases": [],
+    "gameEntryId": 13
+  },
+  "title": "자이히 — 잠재능력 3 노드 매핑",
+  "content": "자이히 오퍼레이터의 잠재능력 3 ‘노드 매핑’. 연계 스킬 스트레스 테스트가 목표에 명중했을 때, 주변의 다른 목표 하나에게 1 회 튕깁니다. 오퍼레이터 기념사진 \"신앙심\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "노드 매핑",
+    "status": "rule_validated",
+    "effect": "연계 스킬 스트레스 테스트가 목표에 명중했을 때, 주변의 다른 목표 하나에게 1 회 튕깁니다. 오퍼레이터 기념사진 \"신앙심\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/13_자이히.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=13&header=0",
+    "sourceSha256": "68c8797064c5a3fe5e90ba83a68026bb501e14022cd06486f4d24354585662f3",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_13.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "655a0aba963fce07a2e5c46b83ae348a7bb0ffeddb06431033f007ba3bc33825",
+    "payloadSha256": "c600355bd926ac186a0db5a5f006c143f96122f572d7adf0513468ff8e4e9af8"
+  }
+}

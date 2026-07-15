@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.25.talent-1",
+  "semanticKey": "ko-KR|operator|25|talent-1",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_25",
+    "name": "탕탕",
+    "aliases": [],
+    "gameEntryId": 25
+  },
+  "title": "탕탕 — 의기투합",
+  "content": "탕탕 오퍼레이터의 오퍼레이터 재능 ‘의기투합’.\n단계 1: 와류 주변 5 미터 범위 내, 아군 오퍼레이터는 10% 가속을 획득하고, 적은 20% 감속을 받습니다. 범위를 벗어난 뒤에도 해당 효과는 3초 동안 지속됩니다. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 12개, 탈로시안 화폐 2400개.\n단계 2: 와류 주변 5 미터 범위 내, 아군 오퍼레이터는 20% 가속을 획득하고, 적은 40% 감속을 받습니다. 범위를 벗어난 뒤에도 해당 효과는 3초 동안 지속됩니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 40개, 탈로시안 화폐 8600개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 1,
+    "name": "의기투합",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "와류 주변 5 미터 범위 내, 아군 오퍼레이터는 10% 가속을 획득하고, 적은 20% 감속을 받습니다. 범위를 벗어난 뒤에도 해당 효과는 3초 동안 지속됩니다.",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 12
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 2400
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "와류 주변 5 미터 범위 내, 아군 오퍼레이터는 20% 가속을 획득하고, 적은 40% 감속을 받습니다. 범위를 벗어난 뒤에도 해당 효과는 3초 동안 지속됩니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 40
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 8600
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "talentKind": "combat_talent",
+    "talentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+    "sourceSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+    "authority": "canonical",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.operator_25.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "69e03c4974e240245c25f0516bb98bf8bc49981e7c0e9cc1e7e7365ad2ce58d5",
+    "payloadSha256": "a672d8e9e5bf5e87842bdfd468e4a48dfd52778b5672948877570bada16274d8"
+  }
+}

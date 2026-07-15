@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.351.profile",
+  "semanticKey": "ko-KR|gear|351|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_351",
+    "name": "위기 탈출 식별 패널",
+    "aliases": [],
+    "gameEntryId": 351
+  },
+  "title": "위기 탈출 식별 패널 — 장비 기본 정보",
+  "content": "위기 탈출 식별 패널 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 세트 없음이다. LV.70, 방어력 21. 옵션은 1번 힘 43, 3번 모든 피해 감소 17.8%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "위기 탈출 식별 패널",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "모든 피해 감소",
+        "baseValue": {
+          "value": 17.8,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/351_위기_탈출_식별_패널.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=351&header=0",
+    "sourceSha256": "a5d331a4e2a558c6a22cf0649eb93e619f83819c934d2806b9d1a59d8606b1ce",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_351.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_351.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e31ada707c62667243868756a33781964c5f331b05ca75462cd6e840b4b9bbc0",
+    "payloadSha256": "121b9e7725d26a09baa62a0cbccf92722d9a4868484cc7dc8d03c3ff00b91a52"
+  }
+}

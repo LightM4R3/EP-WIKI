@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.24.potential-2",
+  "semanticKey": "ko-KR|operator|24|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_24",
+    "name": "플루라이트",
+    "aliases": [],
+    "gameEntryId": 24
+  },
+  "title": "플루라이트 — 잠재능력 2 독심술",
+  "content": "플루라이트 오퍼레이터의 잠재능력 2 ‘독심술’. 재능 '종잡을 수 없는 자' 효과 강화: 아츠 피해 면역 확률 +10%",
+  "facts": {
+    "stage": 2,
+    "name": "독심술",
+    "status": "rule_validated",
+    "effect": "재능 '종잡을 수 없는 자' 효과 강화: 아츠 피해 면역 확률 +10%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/24_플루라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=24&header=0",
+    "sourceSha256": "949fec33735758975e7f7af4c32fb5dd785d45c95620e4a9dc4a1cfdfe682b3d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_24.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "ff49df04d1c165349aab6784dcf225c084f9f9519bcd58c252fadf5521efc6fa",
+    "payloadSha256": "07bcb0977e7c26d54de40b633e31483c7ebd2278a6af5988b0493d708d0ca964"
+  }
+}

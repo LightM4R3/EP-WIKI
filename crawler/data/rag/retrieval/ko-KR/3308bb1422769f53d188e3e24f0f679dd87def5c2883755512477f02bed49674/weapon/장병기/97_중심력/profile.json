@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.97.profile",
+  "semanticKey": "ko-KR|weapon|97|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_97",
+    "name": "중심력",
+    "aliases": [],
+    "gameEntryId": 97
+  },
+  "title": "중심력 — 무기 기본 정보",
+  "content": "중심력 무기의 기본 정보. 무기 유형은 장병기이다. 옵션은 1번 의지 증가 · 중, 2번 전기 피해 증가 · 중, 3번 억제 · 동심원이다.",
+  "facts": {
+    "name": "중심력",
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.97.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "전기 피해 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.97.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "억제 · 동심원",
+        "documentRef": "epwiki.ko-kr.weapon.97.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "weaponTypeCode": "polearm"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/97_중심력.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=97&header=0",
+    "sourceSha256": "da2da97738758169ec1f0abafa153a555ae61da4a2bb938bd4a8694e003876c4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_97.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_97.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "13911fd5610ffef1e64d6d762f2b9ae65b2fe8d07e0bb02ec24042125348dd2a",
+    "payloadSha256": "067c91a4e5dd6190d1bbfcda632c56c8c83dff84e058448887a8b6fbd31956e4"
+  }
+}

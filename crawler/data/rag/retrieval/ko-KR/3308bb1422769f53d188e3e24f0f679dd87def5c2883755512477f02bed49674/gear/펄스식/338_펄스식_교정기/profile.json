@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.338.profile",
+  "semanticKey": "ko-KR|gear|338|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_338",
+    "name": "펄스식 교정기",
+    "aliases": [],
+    "gameEntryId": 338
+  },
+  "title": "펄스식 교정기 — 장비 기본 정보",
+  "content": "펄스식 교정기 장비의 기본 정보. 유형은 부품, 품질은 노란색 품질, 세트는 펄스식이다. LV.70, 방어력 21. 옵션은 1번 지능 41, 3번 오리지늄 아츠 강도 41. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "펄스식 교정기",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 2859607881,
+      "code": "gear_set_aa70a0a9b381",
+      "label": "펄스식"
+    },
+    "level": 70,
+    "defense": 21,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "baseValue": {
+          "value": 41,
+          "unit": "flat"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-aa70a0a9b381.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_aa70a0a9b381",
+    "groupLabel": "펄스식",
+    "gearTypeCode": "component",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_aa70a0a9b381"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/펄스식/338_펄스식_교정기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=338&header=0",
+    "sourceSha256": "6af20d69968fa7c964e08cb788f4c1fbe3525b00eab66fe3856d5ce8cff2d01e",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_338.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_338.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "bc561df8d600f6d1ea591a2ef07fd9b1ef3ddd67843b188a88ec4d343d29b7f1",
+    "payloadSha256": "f142b5b59ccf79a0fa9eccb8a68847586e1a42814d574bc84ff7bccb356589e9"
+  }
+}

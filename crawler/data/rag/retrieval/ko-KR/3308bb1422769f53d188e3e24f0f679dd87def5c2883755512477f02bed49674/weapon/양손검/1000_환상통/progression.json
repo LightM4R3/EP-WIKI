@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.1000.progression",
+  "semanticKey": "ko-KR|weapon|1000|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_1000",
+    "name": "환상통",
+    "aliases": [],
+    "gameEntryId": 1000
+  },
+  "title": "환상통 — 기초 공격력",
+  "content": "환상통 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 50.\nLV.20: 기초 공격력 144.\nLV.40: 기초 공격력 243.\nLV.60: 기초 공격력 342.\nLV.80: 기초 공격력 441.\nLV.90: 기초 공격력 490.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 50
+      },
+      {
+        "level": 20,
+        "baseAttack": 144
+      },
+      {
+        "level": 40,
+        "baseAttack": 243
+      },
+      {
+        "level": 60,
+        "baseAttack": 342
+      },
+      {
+        "level": 80,
+        "baseAttack": 441
+      },
+      {
+        "level": 90,
+        "baseAttack": 490
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/1000_환상통.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1000&header=0",
+    "sourceSha256": "c8ac0020a0a8b964bb821f435d11978f3501325e2d9b8e1eeb5684e7e5994994",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_1000.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d7e22757d9a567fec5e6085dbbfdc6024d7af40da26f226f19fab80420a49039",
+    "payloadSha256": "b6f30d1d2a8cbc925d4352dfc98f60edcd8ce510b0fb4e4f05d0247a031e3437"
+  }
+}

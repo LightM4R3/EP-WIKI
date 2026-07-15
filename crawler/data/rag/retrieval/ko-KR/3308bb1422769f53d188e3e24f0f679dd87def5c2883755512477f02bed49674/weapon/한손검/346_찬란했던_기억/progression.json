@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.346.progression",
+  "semanticKey": "ko-KR|weapon|346|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_346",
+    "name": "찬란했던 기억",
+    "aliases": [],
+    "gameEntryId": 346
+  },
+  "title": "찬란했던 기억 — 기초 공격력",
+  "content": "찬란했던 기억 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 50.\nLV.20: 기초 공격력 144.\nLV.40: 기초 공격력 243.\nLV.60: 기초 공격력 342.\nLV.80: 기초 공격력 441.\nLV.90: 기초 공격력 490.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 50
+      },
+      {
+        "level": 20,
+        "baseAttack": 144
+      },
+      {
+        "level": 40,
+        "baseAttack": 243
+      },
+      {
+        "level": 60,
+        "baseAttack": 342
+      },
+      {
+        "level": 80,
+        "baseAttack": 441
+      },
+      {
+        "level": 90,
+        "baseAttack": 490
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/346_찬란했던_기억.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=346&header=0",
+    "sourceSha256": "1752593cc9d41289fd3d059145342545653ae9354b03d3a9ea0191c1c573dcfb",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_346.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "700b19656384b3c16d08de78f66613e17eb5c91f6c56cc1930d1a4bc99729b5c",
+    "payloadSha256": "cba785e7ac22c6dc0fbfeade07597b5973cb9a936197b9c84d36c8bc62507820"
+  }
+}

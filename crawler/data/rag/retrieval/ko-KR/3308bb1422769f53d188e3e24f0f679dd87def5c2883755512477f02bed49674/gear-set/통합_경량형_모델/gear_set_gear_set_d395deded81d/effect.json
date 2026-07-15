@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-d395deded81d.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_d395deded81d|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_d395deded81d",
+    "name": "통합 경량형 모델",
+    "aliases": []
+  },
+  "title": "통합 경량형 모델 — 장비 세트 효과",
+  "content": "통합 경량형 모델 장비 세트의 3개 세트 효과. 장착자의 생명력 +500 장착자가 적을 처치한 후, 공격력 +20, 5 초 동안 지속.",
+  "facts": {
+    "gearSet": {
+      "id": 3549914494,
+      "code": "gear_set_d395deded81d",
+      "label": "통합 경량형 모델"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 생명력 +500 장착자가 적을 처치한 후, 공격력 +20, 5 초 동안 지속.",
+    "memberGameEntryIds": [
+      233,
+      234,
+      235,
+      236
+    ],
+    "evidenceCopyCount": 4
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_d395deded81d",
+    "groupLabel": "통합 경량형 모델",
+    "gearSetCode": "gear_set_d395deded81d",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=233&header=0",
+    "sourceSha256": "de3412561fb3a5c1a9ba4619b5ba3ab1396ccf7a53048ec93257a423b290cc1f",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_233.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_234.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_235.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_236.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "52079efd4a017b91ac9abe0de9b1c15e17a4dfeba5ed7c8d79c169350a36d7cc",
+    "payloadSha256": "34de0d9bda8b7094806bf1548869cb243cb2193bb819e5e0adc9335896ba0dfd"
+  }
+}

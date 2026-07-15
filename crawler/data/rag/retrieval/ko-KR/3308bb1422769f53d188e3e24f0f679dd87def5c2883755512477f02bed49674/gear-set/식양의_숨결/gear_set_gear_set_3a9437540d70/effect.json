@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-3a9437540d70.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_3a9437540d70|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_3a9437540d70",
+    "name": "식양의 숨결",
+    "aliases": []
+  },
+  "title": "식양의 숨결 — 장비 세트 효과",
+  "content": "식양의 숨결 장비 세트의 3개 세트 효과. 장착자의 생명력 +1000 장착자가 증폭, 비호, 취약, 허약을 부여한 후, 다른 팀원이 주는 피해 +16%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+  "facts": {
+    "gearSet": {
+      "id": 982892020,
+      "code": "gear_set_3a9437540d70",
+      "label": "식양의 숨결"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 생명력 +1000 장착자가 증폭, 비호, 취약, 허약을 부여한 후, 다른 팀원이 주는 피해 +16%, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+    "memberGameEntryIds": [
+      328,
+      330,
+      332,
+      334,
+      336,
+      337
+    ],
+    "evidenceCopyCount": 6
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_3a9437540d70",
+    "groupLabel": "식양의 숨결",
+    "gearSetCode": "gear_set_3a9437540d70",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=328&header=0",
+    "sourceSha256": "6af4fa9a7cfee75fe9b423c521bbb4b62a1cfaf6c7f214d98f2c96d014b63034",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_328.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_330.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_332.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_334.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_336.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_337.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f04b77a4477bfa6b8b8594594c9dc388f84da104ea0f239804670db93e716509",
+    "payloadSha256": "03dbce8842a9b51b2e26b3d3a61f24b52d0fb525ed95a78ea0a6b7b6c105ef35"
+  }
+}

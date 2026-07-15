@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.996.potential-4",
+  "semanticKey": "ko-KR|operator|996|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_996",
+    "name": "카뮤",
+    "aliases": [],
+    "gameEntryId": 996
+  },
+  "title": "카뮤 — 잠재능력 4 수호자의 증명",
+  "content": "카뮤 오퍼레이터의 잠재능력 4 ‘수호자의 증명’. 궁극기 선혈의 비의 사용에 필요한 궁극기 에너지 -15%",
+  "facts": {
+    "stage": 4,
+    "name": "수호자의 증명",
+    "status": "rule_validated",
+    "effect": "궁극기 선혈의 비의 사용에 필요한 궁극기 에너지 -15%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+    "sourceSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_996.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3fad77be119b2f3528cba9428ed9dfa3475469c59ab76c0edefad4a6a6ccf125",
+    "payloadSha256": "56da5f1166b40688245bb4a6e6212cde0d31743527858887949d7f3f7ee11aad"
+  }
+}

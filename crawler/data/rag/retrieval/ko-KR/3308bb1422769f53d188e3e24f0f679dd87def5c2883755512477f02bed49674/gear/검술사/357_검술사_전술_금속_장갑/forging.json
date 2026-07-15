@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.357.forging",
+  "semanticKey": "ko-KR|gear|357|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_357",
+    "name": "검술사 전술 금속 장갑",
+    "aliases": [],
+    "gameEntryId": 357
+  },
+  "title": "검술사 전술 금속 장갑 — 정밀 단조",
+  "content": "검술사 전술 금속 장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 민첩: +0 65, +1 71, +2 78, +3 84.\n2번 힘: +0 43, +1 47, +2 51, +3 55.\n3번 궁극기 피해 보너스: +0 43.1%, +1 47.4%, +2 51.7%, +3 56.1%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43.1,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51.7,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 56.1,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_79ba85ac519a",
+    "groupLabel": "검술사",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/357_검술사_전술_금속_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=357&header=0",
+    "sourceSha256": "8dbd7b78132dbe07e8bc898dc9c3de3869e5bb9bc92b5e76a117437244212de1",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_357.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "16d43543f8020ed59df1119af02fcfff42a44367a6ee2641b8bc67699a894274",
+    "payloadSha256": "0b47f7b475fea26c29bc641569dcfafe61be98ddb293f312c550966dc936fc5a"
+  }
+}

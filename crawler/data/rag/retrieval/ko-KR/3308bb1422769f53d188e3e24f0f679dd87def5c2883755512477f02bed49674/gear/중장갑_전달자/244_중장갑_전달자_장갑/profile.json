@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.244.profile",
+  "semanticKey": "ko-KR|gear|244|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_244",
+    "name": "중장갑 전달자 장갑",
+    "aliases": [],
+    "gameEntryId": 244
+  },
+  "title": "중장갑 전달자 장갑 — 장비 기본 정보",
+  "content": "중장갑 전달자 장갑 장비의 기본 정보. 유형은 글러브, 품질은 파란색 품질, 세트는 중장갑 전달자이다. LV.36, 방어력 21. 옵션은 1번 힘 33, 2번 의지 22, 3번 모든 피해 감소 8%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "중장갑 전달자 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    "gearSet": {
+      "id": 3226939140,
+      "code": "gear_set_c055a8649a73",
+      "label": "중장갑 전달자"
+    },
+    "level": 36,
+    "defense": 21,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "baseValue": {
+          "value": 33,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "baseValue": {
+          "value": 22,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "모든 피해 감소",
+        "baseValue": {
+          "value": 8,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-c055a8649a73.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_c055a8649a73",
+    "groupLabel": "중장갑 전달자",
+    "gearTypeCode": "gloves",
+    "qualityCode": "blue",
+    "gearSetCode": "gear_set_c055a8649a73"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/중장갑_전달자/244_중장갑_전달자_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=244&header=0",
+    "sourceSha256": "48e5bf4ceec6a645ddfe3a9ca925a7ccb18731eb409251f4318401521ca17929",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_244.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_244.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "36b55d80f75917d7f6a9ee330b59afcce3a0ec340591dd70f3ee2bd191cb1dd1",
+    "payloadSha256": "f5dbdd96f16b52cecdeb12c6cb00ce46f8862588732307d4061438ffb28ec7ab"
+  }
+}

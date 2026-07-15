@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.51.option-2",
+  "semanticKey": "ko-KR|weapon|51|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_51",
+    "name": "아겔로스 사냥꾼",
+    "aliases": [],
+    "gameEntryId": 51
+  },
+  "title": "아겔로스 사냥꾼 — 2번 옵션 아츠 피해 증가 · 소",
+  "content": "아겔로스 사냥꾼 무기의 2번 옵션 ‘아츠 피해 증가 · 소’.\nRANK1: 아츠 피해 +3.3%.\nRANK2: 아츠 피해 +6.0%.\nRANK3: 아츠 피해 +8.7%.\nRANK4: 아츠 피해 +11.3%.\nRANK5: 아츠 피해 +14.0%.\nRANK6: 아츠 피해 +16.7%.\nRANK7: 아츠 피해 +19.3%.\nRANK8: 아츠 피해 +22.0%.\nRANK9: 아츠 피해 +26.0%.",
+  "facts": {
+    "slot": 2,
+    "name": "아츠 피해 증가 · 소",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "아츠 피해",
+        "value": 3.3,
+        "unit": "percent",
+        "display": "+3.3%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "아츠 피해",
+        "value": 6,
+        "unit": "percent",
+        "display": "+6.0%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "아츠 피해",
+        "value": 8.7,
+        "unit": "percent",
+        "display": "+8.7%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "아츠 피해",
+        "value": 11.3,
+        "unit": "percent",
+        "display": "+11.3%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "아츠 피해",
+        "value": 14,
+        "unit": "percent",
+        "display": "+14.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "아츠 피해",
+        "value": 16.7,
+        "unit": "percent",
+        "display": "+16.7%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "아츠 피해",
+        "value": 19.3,
+        "unit": "percent",
+        "display": "+19.3%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "아츠 피해",
+        "value": 22,
+        "unit": "percent",
+        "display": "+22.0%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "아츠 피해",
+        "value": 26,
+        "unit": "percent",
+        "display": "+26.0%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/51_아겔로스_사냥꾼.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=51&header=0",
+    "sourceSha256": "9bf48072aa9a1180bbf4d0e89b5b1a398b79daf3b9116cae8c4c6cbad9bb3202",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_51.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "eedcbe77b8e39719e06fe68c9eb2af7d4c6ed5fa22aa6801da71f7d2ba61f96f",
+    "payloadSha256": "7834bf7de1eb8f7d738fa4330ab9e89ca28fa19d61d103969c26a6702a07aed2"
+  }
+}

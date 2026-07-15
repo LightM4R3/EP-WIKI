@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.17.potential-1",
+  "semanticKey": "ko-KR|operator|17|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_17",
+    "name": "라스트 라이트",
+    "aliases": [],
+    "gameEntryId": 17
+  },
+  "title": "라스트 라이트 — 잠재능력 1 묘지기의 선물",
+  "content": "라스트 라이트 오퍼레이터의 잠재능력 1 ‘묘지기의 선물’. 저온 주입을 받은 메인 컨트롤 오퍼레이터의 강력한 일격이 적을 명중했을 때, 추가로 주는 피해 20%, 불균형 피해 5 포인트 오퍼레이터 기념사진 \"미모사\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "묘지기의 선물",
+    "status": "rule_validated",
+    "effect": "저온 주입을 받은 메인 컨트롤 오퍼레이터의 강력한 일격이 적을 명중했을 때, 추가로 주는 피해 20%, 불균형 피해 5 포인트 오퍼레이터 기념사진 \"미모사\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/17_라스트_라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=17&header=0",
+    "sourceSha256": "c70a1d0e95a3274ceeb0f646fee408aa0b7bcff097f712fd6c9573bf05ebd7a2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_17.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "55d23287b32c9ec431d8192e9f1e6383aaaab07002dd9f7c3884bbd6fd19b6cc",
+    "payloadSha256": "6edcf9c02ca0ed5c73b1b1e8f5c7f0d835878de92dd108f93306ac273b0716a9"
+  }
+}

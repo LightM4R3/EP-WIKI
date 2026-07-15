@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.22.potential-2",
+  "semanticKey": "ko-KR|operator|22|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_22",
+    "name": "안탈",
+    "aliases": [],
+    "gameEntryId": 22
+  },
+  "title": "안탈 — 잠재능력 2 자동화 개량",
+  "content": "안탈 오퍼레이터의 잠재능력 2 ‘자동화 개량’. 궁극기 오버클럭 타임의 사용에 필요한 궁극기 에너지 -10%",
+  "facts": {
+    "stage": 2,
+    "name": "자동화 개량",
+    "status": "rule_validated",
+    "effect": "궁극기 오버클럭 타임의 사용에 필요한 궁극기 에너지 -10%"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/22_안탈.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=22&header=0",
+    "sourceSha256": "6aff68dbcd9f30961e9b0f621fb665be356853ce7740fbc1f77ae1c104d37b5d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_22.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "d84ecfac00e3a36976413765a9ad66634673cd24e6ba17b214f14be670744734",
+    "payloadSha256": "bf7be07f06444a975263a3770ea9d9b7ad9a96a27e09571c54d45f2757e44b12"
+  }
+}

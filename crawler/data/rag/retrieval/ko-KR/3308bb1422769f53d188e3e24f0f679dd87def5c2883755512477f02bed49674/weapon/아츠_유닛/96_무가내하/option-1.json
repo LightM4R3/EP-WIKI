@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.96.option-1",
+  "semanticKey": "ko-KR|weapon|96|option-1",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_96",
+    "name": "무가내하",
+    "aliases": [],
+    "gameEntryId": 96
+  },
+  "title": "무가내하 — 1번 옵션 의지 증가 · 중",
+  "content": "무가내하 무기의 1번 옵션 ‘의지 증가 · 중’.\nRANK1: 의지 +16.\nRANK2: 의지 +28.\nRANK3: 의지 +41.\nRANK4: 의지 +54.\nRANK5: 의지 +67.\nRANK6: 의지 +80.\nRANK7: 의지 +92.\nRANK8: 의지 +105.\nRANK9: 의지 +124.",
+  "facts": {
+    "slot": 1,
+    "name": "의지 증가 · 중",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "의지",
+        "value": 16,
+        "unit": "flat",
+        "display": "+16"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "의지",
+        "value": 28,
+        "unit": "flat",
+        "display": "+28"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "의지",
+        "value": 41,
+        "unit": "flat",
+        "display": "+41"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "의지",
+        "value": 54,
+        "unit": "flat",
+        "display": "+54"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "의지",
+        "value": 67,
+        "unit": "flat",
+        "display": "+67"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "의지",
+        "value": 80,
+        "unit": "flat",
+        "display": "+80"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "의지",
+        "value": 92,
+        "unit": "flat",
+        "display": "+92"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "의지",
+        "value": 105,
+        "unit": "flat",
+        "display": "+105"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "의지",
+        "value": 124,
+        "unit": "flat",
+        "display": "+124"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/96_무가내하.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=96&header=0",
+    "sourceSha256": "98f5318d6b3028ae3ca7a6c4ee51dfa77543b5f0dadaef43fcda8c2711a07347",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_96.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "98a59439ac732a1d86a1804b4f73a655a4ec1ac786eb9a0269cbdba7c273efbc",
+    "payloadSha256": "586ead97b27dafd9ab992b8a078d75e7657a2c9d561fa8d6f4dd54efc72877c1"
+  }
+}

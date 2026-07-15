@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.10.potential-2",
+  "semanticKey": "ko-KR|operator|10|potential-2",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_10",
+    "name": "아비웨나",
+    "aliases": [],
+    "gameEntryId": 10
+  },
+  "title": "아비웨나 — 잠재능력 2 눈앞에 닥친 위험",
+  "content": "아비웨나 오퍼레이터의 잠재능력 2 ‘눈앞에 닥친 위험’. 썬더랜스, 강력한 썬더랜스의 존재 시간 +20 초",
+  "facts": {
+    "stage": 2,
+    "name": "눈앞에 닥친 위험",
+    "status": "rule_validated",
+    "effect": "썬더랜스, 강력한 썬더랜스의 존재 시간 +20 초"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+    "sourceSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_10.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "2878d4dd10db0607d28f0a4109d7edc7c2411abf2837b8cadbf5ab90c27ab17c",
+    "payloadSha256": "0830822a7b45a3336698d6124e05cfb13b1a2e0ea413a38eca606fac28b19d69"
+  }
+}

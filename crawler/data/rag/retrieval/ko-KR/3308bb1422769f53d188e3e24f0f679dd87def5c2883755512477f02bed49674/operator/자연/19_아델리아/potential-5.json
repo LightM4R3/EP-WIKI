@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.19.potential-5",
+  "semanticKey": "ko-KR|operator|19|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_19",
+    "name": "아델리아",
+    "aliases": [],
+    "gameEntryId": 19
+  },
+  "title": "아델리아 — 잠재능력 5 화산 증기",
+  "content": "아델리아 오퍼레이터의 잠재능력 5 ‘화산 증기’. 연계 스킬 화산 분화 쿨타임 -2 초, 피해 배율이 기존의 1.2 배로 증가합니다. 적에게 부여하는 부식 효과의 지속 시간 +4 초 오퍼레이터 기념사진 \"소원\" 잠금 해제 명함 테마 \"소원\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "화산 증기",
+    "status": "rule_validated",
+    "effect": "연계 스킬 화산 분화 쿨타임 -2 초, 피해 배율이 기존의 1.2 배로 증가합니다. 적에게 부여하는 부식 효과의 지속 시간 +4 초 오퍼레이터 기념사진 \"소원\" 잠금 해제 명함 테마 \"소원\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+    "sourceSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_19.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "6d30af7eb0abf665af7f9493b70303b2841f685862f5a5622916fdce867e5105",
+    "payloadSha256": "293b2f0cb2646746e4336d6e5fcc68dd5e9cdc91e99c9af1cefe99007d8d10f8"
+  }
+}

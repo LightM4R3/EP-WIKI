@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-853001fd8069.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_853001fd8069|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_853001fd8069",
+    "name": "침식 차단",
+    "aliases": []
+  },
+  "title": "침식 차단 — 장비 세트 효과",
+  "content": "침식 차단 장비 세트의 3개 세트 효과. 장착자의 지능 +50 장착자의 생명력이 80%보다 높을 때, 주는 아츠 피해 +20%",
+  "facts": {
+    "gearSet": {
+      "id": 2234615965,
+      "code": "gear_set_853001fd8069",
+      "label": "침식 차단"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 지능 +50 장착자의 생명력이 80%보다 높을 때, 주는 아츠 피해 +20%",
+    "memberGameEntryIds": [
+      256,
+      259,
+      262,
+      266,
+      269,
+      321,
+      322,
+      323,
+      324,
+      327
+    ],
+    "evidenceCopyCount": 10
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_853001fd8069",
+    "groupLabel": "침식 차단",
+    "gearSetCode": "gear_set_853001fd8069",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=256&header=0",
+    "sourceSha256": "18d4903807526c9a8e7613de99d026b36ab481f2ad6a25452d0882086e81fe52",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_256.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_259.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_262.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_266.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_269.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_321.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_322.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_323.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_324.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_327.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "577c00d32d6a5334a65d07cfa62c3eb59ad18ba0e590c9de51e9c0571d868776",
+    "payloadSha256": "5894b958bd32186745e9301c1c6c33c0e617f1087d482eea41133cc4f1aafc4e"
+  }
+}

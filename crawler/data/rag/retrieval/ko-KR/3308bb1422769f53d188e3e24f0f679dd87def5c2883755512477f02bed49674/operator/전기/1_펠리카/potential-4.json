@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.1.potential-4",
+  "semanticKey": "ko-KR|operator|1|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_1",
+    "name": "펠리카",
+    "aliases": [],
+    "gameEntryId": 1
+  },
+  "title": "펠리카 — 잠재능력 4 계속되는 가르침",
+  "content": "펠리카 오퍼레이터의 잠재능력 4 ‘계속되는 가르침’. 연계 스킬 실시간 프로토콜 · 연쇄 섬광이 부여하는 감전의 적이 받는 아츠 피해 증가 효과가 기존의 1.33 배로 증가",
+  "facts": {
+    "stage": 4,
+    "name": "계속되는 가르침",
+    "status": "rule_validated",
+    "effect": "연계 스킬 실시간 프로토콜 · 연쇄 섬광이 부여하는 감전의 적이 받는 아츠 피해 증가 효과가 기존의 1.33 배로 증가"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/1_펠리카.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=1&header=0",
+    "sourceSha256": "cc4378cdc012f097bada65658318a2701132ffcbdfd22ce19c4193a8cb1308b6",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_1.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "953a48724373525624524ee0c0cc0b6fcfe7159bb15b7acb49dbb0b44e01389e",
+    "payloadSha256": "863a45632ca6214d0c1a23f46a8c8db03f87f5a8d74654ea3264f814343a7996"
+  }
+}

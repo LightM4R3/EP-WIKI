@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.773.forging",
+  "semanticKey": "ko-KR|gear|773|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_773",
+    "name": "M. I. 경찰용 방어구 · I",
+    "aliases": [],
+    "gameEntryId": 773
+  },
+  "title": "M. I. 경찰용 방어구 · I — 정밀 단조",
+  "content": "M. I. 경찰용 방어구 · I 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 민첩: +0 87, +1 95, +2 104, +3 113.\n2번 지능: +0 58, +1 63, +2 69, +3 75.\n3번 궁극기 충전 효율: +0 12.3%, +1 13.6%, +2 14.8%, +3 16%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 58,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 63,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 69,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 75,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 12.3,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 13.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 14.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 16,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_9bfa3d212476",
+    "groupLabel": "M. I. 경찰용",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/773_M._I._경찰용_방어구_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=773&header=0",
+    "sourceSha256": "179361d72d5f507ea438756217e8819d736e629ec9ff2cf3ca461fd75212270f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_773.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "fe0804d0a986783bb6283eb40e3c16928f2c201c5fdb4a612221c7bf5a267b5e",
+    "payloadSha256": "c751809fd139b20a619a63356940b251952cce8b3620c3c0a49d6a2088869caa"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.49.progression",
+  "semanticKey": "ko-KR|weapon|49|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_49",
+    "name": "바다와 별의 꿈",
+    "aliases": [],
+    "gameEntryId": 49
+  },
+  "title": "바다와 별의 꿈 — 기초 공격력",
+  "content": "바다와 별의 꿈 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 50.\nLV.20: 기초 공격력 145.\nLV.40: 기초 공격력 245.\nLV.60: 기초 공격력 345.\nLV.80: 기초 공격력 445.\nLV.90: 기초 공격력 495.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 50
+      },
+      {
+        "level": 20,
+        "baseAttack": 145
+      },
+      {
+        "level": 40,
+        "baseAttack": 245
+      },
+      {
+        "level": 60,
+        "baseAttack": 345
+      },
+      {
+        "level": 80,
+        "baseAttack": 445
+      },
+      {
+        "level": 90,
+        "baseAttack": 495
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/49_바다와_별의_꿈.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=49&header=0",
+    "sourceSha256": "02adfb3fbe39abca60021e4b118075294a4b81f5e8e793f2802a7033c13917b2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_49.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "779fdc37e3659072066814d2bf7a901e16d583a0a9371690fe81c4e10f5db1ad",
+    "payloadSha256": "13a05b9ef3abf4fd529fa18d3b0ad7fc4c58d4e79d09b0d290a583b81067b8e0"
+  }
+}

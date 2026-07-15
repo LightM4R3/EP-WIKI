@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.42.progression",
+  "semanticKey": "ko-KR|weapon|42|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_42",
+    "name": "다호프 7",
+    "aliases": [],
+    "gameEntryId": 42
+  },
+  "title": "다호프 7 — 기초 공격력",
+  "content": "다호프 7 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 29.\nLV.20: 기초 공격력 83.\nLV.40: 기초 공격력 140.\nLV.60: 기초 공격력 197.\nLV.80: 기초 공격력 254.\nLV.90: 기초 공격력 283.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 29
+      },
+      {
+        "level": 20,
+        "baseAttack": 83
+      },
+      {
+        "level": 40,
+        "baseAttack": 140
+      },
+      {
+        "level": 60,
+        "baseAttack": 197
+      },
+      {
+        "level": 80,
+        "baseAttack": 254
+      },
+      {
+        "level": 90,
+        "baseAttack": 283
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/42_다호프_7.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=42&header=0",
+    "sourceSha256": "68d702c5020c7752a5084d57c4eef76c3a463f30eaa647d88c42aea14cf0593f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_42.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "66801485cd8c175511ad273fa3963a5b0fac776ddd995fd9bd49deab8a3b0331",
+    "payloadSha256": "a5853616065f9dce183af410369bc693e69502ed9ab3b31ed0d486c63d678fab"
+  }
+}

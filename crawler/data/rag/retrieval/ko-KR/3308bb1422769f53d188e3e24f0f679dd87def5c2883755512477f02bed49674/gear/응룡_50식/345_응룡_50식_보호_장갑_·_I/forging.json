@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.345.forging",
+  "semanticKey": "ko-KR|gear|345|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_345",
+    "name": "응룡 50식 보호 장갑 · I",
+    "aliases": [],
+    "gameEntryId": 345
+  },
+  "title": "응룡 50식 보호 장갑 · I — 정밀 단조",
+  "content": "응룡 50식 보호 장갑 · I 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 의지: +0 65, +1 71, +2 78, +3 84.\n2번 민첩: +0 43, +1 47, +2 51, +3 55.\n3번 연계 스킬 피해 보너스: +0 34.5%, +1 38%, +2 41.4%, +3 44.9%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "연계 스킬 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 34.5,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 38,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 41.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 44.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_45deb63f9684",
+    "groupLabel": "응룡 50식",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/응룡_50식/345_응룡_50식_보호_장갑_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=345&header=0",
+    "sourceSha256": "b7156447c605e13919f28bae3fd8e23842d33d458991d134b3375e28d0302453",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_345.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "8e633944e3c2ca0ec1d27844cec14dedce9e7a7eebf37d48e28a776eb5a8b6cd",
+    "payloadSha256": "4f02bc883d86092e2ea395fc78caa3da91d4e27e303478fa65f9899ece3a0e3b"
+  }
+}

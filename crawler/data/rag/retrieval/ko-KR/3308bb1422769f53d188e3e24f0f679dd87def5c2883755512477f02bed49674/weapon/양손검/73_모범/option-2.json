@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.73.option-2",
+  "semanticKey": "ko-KR|weapon|73|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_73",
+    "name": "모범",
+    "aliases": [],
+    "gameEntryId": 73
+  },
+  "title": "모범 — 2번 옵션 공격력 증가 · 대",
+  "content": "모범 무기의 2번 옵션 ‘공격력 증가 · 대’.\nRANK1: 공격력 +5.0%.\nRANK2: 공격력 +9.0%.\nRANK3: 공격력 +13.0%.\nRANK4: 공격력 +17.0%.\nRANK5: 공격력 +21.0%.\nRANK6: 공격력 +25.0%.\nRANK7: 공격력 +29.0%.\nRANK8: 공격력 +33.0%.\nRANK9: 공격력 +39.0%.",
+  "facts": {
+    "slot": 2,
+    "name": "공격력 증가 · 대",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "공격력",
+        "value": 5,
+        "unit": "percent",
+        "display": "+5.0%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "공격력",
+        "value": 9,
+        "unit": "percent",
+        "display": "+9.0%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "공격력",
+        "value": 13,
+        "unit": "percent",
+        "display": "+13.0%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "공격력",
+        "value": 17,
+        "unit": "percent",
+        "display": "+17.0%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "공격력",
+        "value": 21,
+        "unit": "percent",
+        "display": "+21.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "공격력",
+        "value": 25,
+        "unit": "percent",
+        "display": "+25.0%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "공격력",
+        "value": 29,
+        "unit": "percent",
+        "display": "+29.0%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "공격력",
+        "value": 33,
+        "unit": "percent",
+        "display": "+33.0%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "공격력",
+        "value": 39,
+        "unit": "percent",
+        "display": "+39.0%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/73_모범.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=73&header=0",
+    "sourceSha256": "c2519dbd2d86edb6e7df7478cb2c456e06e7f6eb49da0d7f00b3a28adc09481f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_73.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "a0abd7ab9e4e881b5fd1e1c2cb523b3338e3def2b65e1c5ba5c83123c2222f32",
+    "payloadSha256": "28324925c68eeba5849e2d9e0f75c6caa5a7a81c1ad02f77eb24ca5c248696fb"
+  }
+}

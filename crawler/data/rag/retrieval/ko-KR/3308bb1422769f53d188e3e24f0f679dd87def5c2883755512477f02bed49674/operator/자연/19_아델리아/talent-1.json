@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.19.talent-1",
+  "semanticKey": "ko-KR|operator|19|talent-1",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_19",
+    "name": "아델리아",
+    "aliases": [],
+    "gameEntryId": 19
+  },
+  "title": "아델리아 — 친구의 그림자",
+  "content": "아델리아 오퍼레이터의 오퍼레이터 재능 ‘친구의 그림자’.\n단계 1: 배틀 스킬 질주하는 돌리가 적에게 명중했을 때, 돌리 씨의 그림자 3개를 생성합니다. 궁극기 복슬복슬 파티로 흩어진 돌리 씨의 분신이 지면에 착지할 때, 10% 확률로 돌리 씨의 그림자를 생성합니다. 메인 컨트롤 오퍼레이터가 돌리 씨의 그림자를 닿은 후, 아델리아가 [45+의지×0.38] 포인트의 생명력을 회복시킵니다. 메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다. 돌리 씨의 그림자는 10초 동안 지속되며, 동시에 최대 10개까지 존재할 수 있습니다.\n단계 2: 배틀 스킬 질주하는 돌리가 적에게 명중했을 때, 돌리 씨의 그림자 3개를 생성합니다. 궁극기 복슬복슬 파티로 흩어진 돌리 씨의 분신이 지면에 착지할 때, 10% 확률로 돌리 씨의 그림자를 생성합니다. 메인 컨트롤 오퍼레이터가 돌리 씨의 그림자를 닿은 후, 아델리아가 [63+의지×0.53] 포인트의 생명력을 회복시킵니다. 메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다. 돌리 씨의 그림자는 10초 동안 지속되며, 동시에 최대 10개까지 존재할 수 있습니다. 활성화 조건: 정예화 단계 1 돌파. 재료: 프로토콜 프리즘 36개, 탈로시안 화폐 7200개.\n단계 3: 배틀 스킬 질주하는 돌리가 적에게 명중했을 때, 돌리 씨의 그림자 3개를 생성합니다. 궁극기 복슬복슬 파티로 흩어진 돌리 씨의 분신이 지면에 착지할 때, 10% 확률로 돌리 씨의 그림자를 생성합니다. 메인 컨트롤 오퍼레이터가 돌리 씨의 그림자를 닿은 후, 아델리아가 [90+의지×0.75] 포인트의 생명력을 회복시킵니다. 메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다. 돌리 씨의 그림자는 10초 동안 지속되며, 동시에 최대 10개까지 존재할 수 있습니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 86개, 탈로시안 화폐 26000개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 1,
+    "name": "친구의 그림자",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "배틀 스킬 질주하는 돌리가 적에게 명중했을 때, 돌리 씨의 그림자 3개를 생성합니다. 궁극기 복슬복슬 파티로 흩어진 돌리 씨의 분신이 지면에 착지할 때, 10% 확률로 돌리 씨의 그림자를 생성합니다. 메인 컨트롤 오퍼레이터가 돌리 씨의 그림자를 닿은 후, 아델리아가 [45+의지×0.38] 포인트의 생명력을 회복시킵니다. 메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다. 돌리 씨의 그림자는 10초 동안 지속되며, 동시에 최대 10개까지 존재할 수 있습니다.",
+        "conditions": [],
+        "materials": []
+      },
+      {
+        "stage": 2,
+        "effect": "배틀 스킬 질주하는 돌리가 적에게 명중했을 때, 돌리 씨의 그림자 3개를 생성합니다. 궁극기 복슬복슬 파티로 흩어진 돌리 씨의 분신이 지면에 착지할 때, 10% 확률로 돌리 씨의 그림자를 생성합니다. 메인 컨트롤 오퍼레이터가 돌리 씨의 그림자를 닿은 후, 아델리아가 [63+의지×0.53] 포인트의 생명력을 회복시킵니다. 메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다. 돌리 씨의 그림자는 10초 동안 지속되며, 동시에 최대 10개까지 존재할 수 있습니다.",
+        "conditions": [
+          "정예화 단계 1 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 36
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 7200
+          }
+        ]
+      },
+      {
+        "stage": 3,
+        "effect": "배틀 스킬 질주하는 돌리가 적에게 명중했을 때, 돌리 씨의 그림자 3개를 생성합니다. 궁극기 복슬복슬 파티로 흩어진 돌리 씨의 분신이 지면에 착지할 때, 10% 확률로 돌리 씨의 그림자를 생성합니다. 메인 컨트롤 오퍼레이터가 돌리 씨의 그림자를 닿은 후, 아델리아가 [90+의지×0.75] 포인트의 생명력을 회복시킵니다. 메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다. 돌리 씨의 그림자는 10초 동안 지속되며, 동시에 최대 10개까지 존재할 수 있습니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 86
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 26000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "nature",
+    "groupLabel": "자연",
+    "talentKind": "combat_talent",
+    "talentIndex": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/19_아델리아.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=19&header=0",
+    "sourceSha256": "7a935887e5e0bce3a6b36058a233eb9d123d6c38e21e315dae72f7c2a2ed0717",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_19.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0bfe68d1b0889195f74029bf08829bd7cf6f314e05ff254bb9f4bf40363719cf",
+    "payloadSha256": "e89e7cc36bb445e34c9817e53aa6cae1eb7920be913969748054d5a863d81fa9"
+  }
+}

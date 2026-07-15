@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.1000.profile",
+  "semanticKey": "ko-KR|weapon|1000|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_1000",
+    "name": "환상통",
+    "aliases": [],
+    "gameEntryId": 1000
+  },
+  "title": "환상통 — 무기 기본 정보",
+  "content": "환상통 무기의 기본 정보. 무기 유형은 양손검이다. 옵션은 1번 힘 증가 · 대, 2번 오리지늄 아츠 강도 증가 · 대, 3번 억제 · 고통 누적이다.",
+  "facts": {
+    "name": "환상통",
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.1000.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "오리지늄 아츠 강도 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.1000.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "억제 · 고통 누적",
+        "documentRef": "epwiki.ko-kr.weapon.1000.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "weaponTypeCode": "greatsword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/1000_환상통.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1000&header=0",
+    "sourceSha256": "c8ac0020a0a8b964bb821f435d11978f3501325e2d9b8e1eeb5684e7e5994994",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_1000.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_1000.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7605c6459a580bdce8354604e856e12542cadfa15a6e27db6b85a17dddb9b978",
+    "payloadSha256": "25b9f175f00222fd10d92adb3fbe514d7260b2b03ed8db55d175c2eabcd3c1f4"
+  }
+}

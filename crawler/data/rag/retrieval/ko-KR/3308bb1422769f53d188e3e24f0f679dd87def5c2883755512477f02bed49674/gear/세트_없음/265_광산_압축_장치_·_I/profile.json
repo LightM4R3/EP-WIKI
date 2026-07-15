@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.265.profile",
+  "semanticKey": "ko-KR|gear|265|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_265",
+    "name": "광산 압축 장치 · I",
+    "aliases": [],
+    "gameEntryId": 265
+  },
+  "title": "광산 압축 장치 · I — 장비 기본 정보",
+  "content": "광산 압축 장치 · I 장비의 기본 정보. 유형은 부품, 품질은 보라색 품질, 세트는 세트 없음이다. LV.50, 방어력 15. 옵션은 1번 지능 31, 3번 궁극기 충전 효율 18.6%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 압축 장치 · I",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 50,
+    "defense": 15,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 31,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 18.6,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "component",
+    "qualityCode": "purple",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/265_광산_압축_장치_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=265&header=0",
+    "sourceSha256": "5f88138e078d532a1948cbfb0ad840d8f4ebe44470a7e9586c9f775c07c20a2b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_265.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_265.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c1f93604acfa537d5f9e05fdfaae85cc9510d69e5218349fbb8f1ea0247d8a41",
+    "payloadSha256": "dc9d601361fe52d6cbb0ff6b38b95e1f41d5a0f8493c5a80d23fb629e54c307c"
+  }
+}

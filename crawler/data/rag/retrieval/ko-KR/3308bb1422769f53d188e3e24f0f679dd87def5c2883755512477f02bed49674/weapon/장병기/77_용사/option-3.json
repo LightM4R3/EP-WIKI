@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.77.option-3",
+  "semanticKey": "ko-KR|weapon|77|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_77",
+    "name": "용사",
+    "aliases": [],
+    "gameEntryId": 77
+  },
+  "title": "용사 — 3번 옵션 기예 · 좋은 품성의 결실",
+  "content": "용사 무기의 3번 옵션 ‘기예 · 좋은 품성의 결실’.\nRANK1: 공격력 +10.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 120.0%의 물리 피해를 줍니다.\nRANK2: 공격력 +12.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 144.0%의 물리 피해를 줍니다.\nRANK3: 공격력 +14.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 168.0%의 물리 피해를 줍니다.\nRANK4: 공격력 +16.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 192.0%의 물리 피해를 줍니다.\nRANK5: 공격력 +18.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 216.0%의 물리 피해를 줍니다.\nRANK6: 공격력 +20.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 240.0%의 물리 피해를 줍니다.\nRANK7: 공격력 +22.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 264.0%의 물리 피해를 줍니다.\nRANK8: 공격력 +24.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 288.0%의 물리 피해를 줍니다.\nRANK9: 공격력 +28.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 336.0%의 물리 피해를 줍니다.",
+  "facts": {
+    "slot": 3,
+    "name": "기예 · 좋은 품성의 결실",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "공격력 +10.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 120.0%의 물리 피해를 줍니다."
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "공격력 +12.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 144.0%의 물리 피해를 줍니다."
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "공격력 +14.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 168.0%의 물리 피해를 줍니다."
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "공격력 +16.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 192.0%의 물리 피해를 줍니다."
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "공격력 +18.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 216.0%의 물리 피해를 줍니다."
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "공격력 +20.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 240.0%의 물리 피해를 줍니다."
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "공격력 +22.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 264.0%의 물리 피해를 줍니다."
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "공격력 +24.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 288.0%의 물리 피해를 줍니다."
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "공격력 +28.0% 장착자가 물리 이상 효과를 준 후, 추가로 자신의 공격력 336.0%의 물리 피해를 줍니다."
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/77_용사.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=77&header=0",
+    "sourceSha256": "f582ce3e68999d9f668f102be3a4e935ae691f70949b4d2c50a4e811a79462b8",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_77.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "2dff4d2855b2afdefcb715db9b5e8bcd4abd77e066a8ce48ceaa3b40c3b152d2",
+    "payloadSha256": "51b3d83d39cd11f2c23a703618f7fd9d31fc5f01f4d0c8046f8321f02dd04630"
+  }
+}

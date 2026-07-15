@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.58.progression",
+  "semanticKey": "ko-KR|weapon|58|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_58",
+    "name": "거대한 격랑",
+    "aliases": [],
+    "gameEntryId": 58
+  },
+  "title": "거대한 격랑 — 기초 공격력",
+  "content": "거대한 격랑 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 34.\nLV.20: 기초 공격력 100.\nLV.40: 기초 공격력 169.\nLV.60: 기초 공격력 238.\nLV.80: 기초 공격력 307.\nLV.90: 기초 공격력 341.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 34
+      },
+      {
+        "level": 20,
+        "baseAttack": 100
+      },
+      {
+        "level": 40,
+        "baseAttack": 169
+      },
+      {
+        "level": 60,
+        "baseAttack": 238
+      },
+      {
+        "level": 80,
+        "baseAttack": 307
+      },
+      {
+        "level": 90,
+        "baseAttack": 341
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/58_거대한_격랑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=58&header=0",
+    "sourceSha256": "821acbc58b6b8d1a212640a9f568769d31eadc8c17f28300a1da04b0048119d9",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_58.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "ac22e855dfb5e7c985c2466fe0136bc9c43592bb4f3a270eacc2ec4e654bfb17",
+    "payloadSha256": "357e766d7c8045b00be4c1d1eaff774671c15abbd84c6a2b19c4398fb3ad49d4"
+  }
+}

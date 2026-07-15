@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.23.potential-5",
+  "semanticKey": "ko-KR|operator|23|potential-5",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_23",
+    "name": "카치르",
+    "aliases": [],
+    "gameEntryId": 23
+  },
+  "title": "카치르 — 잠재능력 5 후회 없는 선택",
+  "content": "카치르 오퍼레이터의 잠재능력 5 ‘후회 없는 선택’. 카치르가 보호를 보유 중일 때, 배틀 스킬 강력한 저지가 적에게 명중하면 스킬 게이지를 10 포인트 반환합니다. 오퍼레이터 기념사진 \"든든한 지원\" 잠금 해제",
+  "facts": {
+    "stage": 5,
+    "name": "후회 없는 선택",
+    "status": "rule_validated",
+    "effect": "카치르가 보호를 보유 중일 때, 배틀 스킬 강력한 저지가 적에게 명중하면 스킬 게이지를 10 포인트 반환합니다. 오퍼레이터 기념사진 \"든든한 지원\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 5
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/23_카치르.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=23&header=0",
+    "sourceSha256": "bc0bfc7536d9836561ccdd2b8feeeba067fb28d44c332cf2d60746c0234bf642",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_23.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "1b4931c084361907f019e097283b3544023431cc3b6097bc780a25db25f3210f",
+    "payloadSha256": "8a84ca640ab05d00599b428022b467b6b7158feaa9e48f707e2975909c667449"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-1ab07dc6afcc.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_1ab07dc6afcc|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_1ab07dc6afcc",
+    "name": "생체 보조",
+    "aliases": []
+  },
+  "title": "생체 보조 — 장비 세트 효과",
+  "content": "생체 보조 장비 세트의 3개 세트 효과. 장착자의 치유 효율 +20% 장착자가 아군을 치유한 후, 목표가 10초 동안 받는 모든 유형 피해 -15%, 해당 목표가 받는 치유량이 최대치를 넘을 경우, 받는 모든 유형 피해 -30%, 해당 효과는 중첩되지 않습니다.",
+  "facts": {
+    "gearSet": {
+      "id": 447874150,
+      "code": "gear_set_1ab07dc6afcc",
+      "label": "생체 보조"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 치유 효율 +20% 장착자가 아군을 치유한 후, 목표가 10초 동안 받는 모든 유형 피해 -15%, 해당 목표가 받는 치유량이 최대치를 넘을 경우, 받는 모든 유형 피해 -30%, 해당 효과는 중첩되지 않습니다.",
+    "memberGameEntryIds": [
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      790
+    ],
+    "evidenceCopyCount": 9
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1ab07dc6afcc",
+    "groupLabel": "생체 보조",
+    "gearSetCode": "gear_set_1ab07dc6afcc",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=359&header=0",
+    "sourceSha256": "f4b0048b64795f7bc58e32236bdc4d22a09bd71cbaf58db5fdb03645b932939c",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_359.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_360.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_361.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_362.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_363.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_364.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_365.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_366.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_790.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "058e1e3971aff1bda8e7acd7210e87c511072d7b885680158abb9417c9a4cb64",
+    "payloadSha256": "97a68857043b58260e75cc45f0ddd5f9845e5e8ca8319bf348f6beb3d60cd6b9"
+  }
+}

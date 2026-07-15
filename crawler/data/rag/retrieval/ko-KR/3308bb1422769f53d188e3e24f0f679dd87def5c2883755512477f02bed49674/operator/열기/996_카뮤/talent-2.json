@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.996.talent-2",
+  "semanticKey": "ko-KR|operator|996|talent-2",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_996",
+    "name": "카뮤",
+    "aliases": [],
+    "gameEntryId": 996
+  },
+  "title": "카뮤 — 혈류 소생",
+  "content": "카뮤 오퍼레이터의 오퍼레이터 재능 ‘혈류 소생’.\n단계 1: 스킬을 사용해 자신의 생명력을 회복할 때마다 열기 피해 +2% (최대 5스택), 40초간 지속, 팀 내 다른 오퍼레이터는 해당 효과의 25%. 해당 효과는 최대 5스택까지 중첩됩니다. 자신의 생명력이 가득 찬 상태라면, 발동할 때마다 2스택을 중첩할 수 있습니다. 활성화 조건: 정예화 단계 2 돌파. 재료: 프로토콜 프리즘 48개, 탈로시안 화폐 10000개.\n단계 2: 스킬을 사용해 자신의 생명력을 회복할 때마다 열기 피해 +4% (최대 5스택), 40초간 지속, 팀 내 다른 오퍼레이터는 해당 효과의 25%. 해당 효과는 최대 5스택까지 중첩됩니다. 자신의 생명력이 가득 찬 상태라면, 발동할 때마다 2스택을 중첩할 수 있습니다. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 28개, 탈로시안 화폐 24000개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 2,
+    "name": "혈류 소생",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "스킬을 사용해 자신의 생명력을 회복할 때마다 열기 피해 +2% (최대 5스택), 40초간 지속, 팀 내 다른 오퍼레이터는 해당 효과의 25%. 해당 효과는 최대 5스택까지 중첩됩니다. 자신의 생명력이 가득 찬 상태라면, 발동할 때마다 2스택을 중첩할 수 있습니다.",
+        "conditions": [
+          "정예화 단계 2 돌파"
+        ],
+        "materials": [
+          {
+            "id": 6,
+            "code": "protocol_prism",
+            "name": "프로토콜 프리즘",
+            "catalogStatus": "mapped",
+            "amount": 48
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 10000
+          }
+        ]
+      },
+      {
+        "stage": 2,
+        "effect": "스킬을 사용해 자신의 생명력을 회복할 때마다 열기 피해 +4% (최대 5스택), 40초간 지속, 팀 내 다른 오퍼레이터는 해당 효과의 25%. 해당 효과는 최대 5스택까지 중첩됩니다. 자신의 생명력이 가득 찬 상태라면, 발동할 때마다 2스택을 중첩할 수 있습니다.",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 28
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 24000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "talentKind": "combat_talent",
+    "talentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+    "sourceSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_996.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "c28088b4b3ad17526362f27f52506d14bc60eee24c61ba52aa72cd57f44b9eba",
+    "payloadSha256": "ac1c9c897046578572277ad66a124e7f8dd91bd5bc64973646bbf63afeeb9ab6"
+  }
+}

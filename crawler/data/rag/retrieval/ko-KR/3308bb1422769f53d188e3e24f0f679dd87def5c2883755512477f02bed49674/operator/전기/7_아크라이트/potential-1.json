@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.7.potential-1",
+  "semanticKey": "ko-KR|operator|7|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_7",
+    "name": "아크라이트",
+    "aliases": [],
+    "gameEntryId": 7
+  },
+  "title": "아크라이트 — 잠재능력 1 폭풍의 아이",
+  "content": "아크라이트 오퍼레이터의 잠재능력 1 ‘폭풍의 아이’. 배틀 스킬 질풍 섬광으로 추가 효과를 발동한 후, 추가로 스킬 게이지 10 포인트를 회복합니다. 오퍼레이터 기념사진 \"해 질 녘\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "폭풍의 아이",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 질풍 섬광으로 추가 효과를 발동한 후, 추가로 스킬 게이지 10 포인트를 회복합니다. 오퍼레이터 기념사진 \"해 질 녘\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/7_아크라이트.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=7&header=0",
+    "sourceSha256": "a61fdb53a82db4c9af31d9cb1edc5dcbc119e2eb074b50404b63b44b4f4caee8",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_7.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "958436e359008fab6204ac6678c3e98f87009ef5ce8a47a3352987d2a6435e65",
+    "payloadSha256": "d11c3badec04c3714eca9d4b547238b7af8e1badb28d347cf1903f0ae24e59c6"
+  }
+}

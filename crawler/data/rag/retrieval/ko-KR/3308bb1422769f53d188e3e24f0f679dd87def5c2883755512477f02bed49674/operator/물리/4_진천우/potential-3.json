@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.4.potential-3",
+  "semanticKey": "ko-KR|operator|4|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_4",
+    "name": "진천우",
+    "aliases": [],
+    "gameEntryId": 4
+  },
+  "title": "진천우 — 잠재능력 3 쌍검의 협객",
+  "content": "진천우 오퍼레이터의 잠재능력 3 ‘쌍검의 협객’. 배틀 스킬 귀궁우, 연계 스킬 견천하와 궁극기 예풍상의 피해 배율이 기존의 1.1 배로 증가합니다. 오퍼레이터 기념사진 \"검의 속삭임\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "쌍검의 협객",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 귀궁우, 연계 스킬 견천하와 궁극기 예풍상의 피해 배율이 기존의 1.1 배로 증가합니다. 오퍼레이터 기념사진 \"검의 속삭임\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/4_진천우.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=4&header=0",
+    "sourceSha256": "64f046fe559117e3b77a47aaf14c24296e264dc17aa1ee3c126893330dd5e3ca",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_4.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0b08cab5c2d12905c7c29ee97086930f83df5b933ab8ba28899879850c2c55b0",
+    "payloadSha256": "555857160cb530ff79af330373550bfa6c52c560bfcc22598fde2fad2e391528"
+  }
+}

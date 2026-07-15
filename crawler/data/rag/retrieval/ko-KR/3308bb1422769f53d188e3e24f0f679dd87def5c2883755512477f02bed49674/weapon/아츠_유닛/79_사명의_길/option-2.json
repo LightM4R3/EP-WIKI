@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.79.option-2",
+  "semanticKey": "ko-KR|weapon|79|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_79",
+    "name": "사명의 길",
+    "aliases": [],
+    "gameEntryId": 79
+  },
+  "title": "사명의 길 — 2번 옵션 궁극기 충전 효율 증가 · 대",
+  "content": "사명의 길 무기의 2번 옵션 ‘궁극기 충전 효율 증가 · 대’.\nRANK1: 궁극기 충전 효율 +6.0%.\nRANK2: 궁극기 충전 효율 +10.7%.\nRANK3: 궁극기 충전 효율 +15.5%.\nRANK4: 궁극기 충전 효율 +20.2%.\nRANK5: 궁극기 충전 효율 +25.0%.\nRANK6: 궁극기 충전 효율 +29.8%.\nRANK7: 궁극기 충전 효율 +34.5%.\nRANK8: 궁극기 충전 효율 +39.3%.\nRANK9: 궁극기 충전 효율 +46.4%.",
+  "facts": {
+    "slot": 2,
+    "name": "궁극기 충전 효율 증가 · 대",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "궁극기 충전 효율",
+        "value": 6,
+        "unit": "percent",
+        "display": "+6.0%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "궁극기 충전 효율",
+        "value": 10.7,
+        "unit": "percent",
+        "display": "+10.7%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "궁극기 충전 효율",
+        "value": 15.5,
+        "unit": "percent",
+        "display": "+15.5%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "궁극기 충전 효율",
+        "value": 20.2,
+        "unit": "percent",
+        "display": "+20.2%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "궁극기 충전 효율",
+        "value": 25,
+        "unit": "percent",
+        "display": "+25.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "궁극기 충전 효율",
+        "value": 29.8,
+        "unit": "percent",
+        "display": "+29.8%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "궁극기 충전 효율",
+        "value": 34.5,
+        "unit": "percent",
+        "display": "+34.5%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "궁극기 충전 효율",
+        "value": 39.3,
+        "unit": "percent",
+        "display": "+39.3%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "궁극기 충전 효율",
+        "value": 46.4,
+        "unit": "percent",
+        "display": "+46.4%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/79_사명의_길.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=79&header=0",
+    "sourceSha256": "bc6274f291e0619ccaa8794e7c9ab487053fdf9dff6c7f59ce581ac756d3a8a2",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_79.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b5784bb2527027ff38179bb0128acc7318155a4e8f1153eb01b6559180e1756e",
+    "payloadSha256": "de2c4889fe52effb10dd2ad9280994e3f50114b5752601b60ec305fe13529f40"
+  }
+}

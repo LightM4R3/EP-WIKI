@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.840.progression",
+  "semanticKey": "ko-KR|weapon|840|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_840",
+    "name": "안개 속 불빛",
+    "aliases": [],
+    "gameEntryId": 840
+  },
+  "title": "안개 속 불빛 — 기초 공격력",
+  "content": "안개 속 불빛 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 50.\nLV.20: 기초 공격력 144.\nLV.40: 기초 공격력 243.\nLV.60: 기초 공격력 342.\nLV.80: 기초 공격력 441.\nLV.90: 기초 공격력 490.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 50
+      },
+      {
+        "level": 20,
+        "baseAttack": 144
+      },
+      {
+        "level": 40,
+        "baseAttack": 243
+      },
+      {
+        "level": 60,
+        "baseAttack": 342
+      },
+      {
+        "level": 80,
+        "baseAttack": 441
+      },
+      {
+        "level": 90,
+        "baseAttack": 490
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/840_안개_속_불빛.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=840&header=0",
+    "sourceSha256": "45f1c004ab4e636858c9281b1b55c5143f094367cd17723604e9d7caf5f7050b",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_840.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3170d12390a086a9c4acc4d79be5bdbb085d908b19dac421d2de2c9c0e07a6d2",
+    "payloadSha256": "4e3b49b4380a11f5db10d578ee2d8db55e2b8a094fad197139c9a7a9c0007bd9"
+  }
+}

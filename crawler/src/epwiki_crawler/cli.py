@@ -22,11 +22,18 @@ from epwiki_crawler.core.targets import (
     select_targets,
 )
 from epwiki_crawler.normalizer import (
+    NORMALIZED_RAG_ROOT,
     PUBLISHED_RAG_ROOT,
     materialize_normalized_snapshot,
 )
 from epwiki_crawler.publisher import publish_runs
 from epwiki_crawler.registry import DOMAIN_NAMES
+from epwiki_crawler.retrieval import (
+    RETRIEVAL_RAG_ROOT,
+    RetrievalBuildError,
+    build_retrieval_corpus,
+    validate_retrieval_corpus,
+)
 
 
 def _add_crawl_selection_arguments(parser: argparse.ArgumentParser) -> None:
@@ -136,6 +143,32 @@ def build_parser() -> argparse.ArgumentParser:
         default="ko-KR",
     )
 
+    retrieval_parser = subparsers.add_parser(
+        "retrieval",
+        help="정규화 원장에서 LLM 검색 전용 corpus를 생성하거나 검증합니다.",
+    )
+    retrieval_subparsers = retrieval_parser.add_subparsers(
+        dest="retrieval_command", required=True
+    )
+    retrieval_build = retrieval_subparsers.add_parser(
+        "build",
+        help="의미 단위 문서를 생성하고 엄격 검증 통과 시 현재 release로 승격합니다.",
+    )
+    retrieval_build.add_argument(
+        "--locale",
+        choices=(*SUPPORTED_LOCALES, "all"),
+        default="ko-KR",
+    )
+    retrieval_validate = retrieval_subparsers.add_parser(
+        "validate",
+        help="승격된 retrieval manifest, 문서 스키마와 해시를 다시 검증합니다.",
+    )
+    retrieval_validate.add_argument(
+        "--locale",
+        choices=(*SUPPORTED_LOCALES, "all"),
+        default="ko-KR",
+    )
+
     return parser
 
 
@@ -148,6 +181,40 @@ def main(argv: Sequence[str] | None = None) -> int:
             print(domain)
         return 0
 
+    if args.command == "retrieval":
+        locales = SUPPORTED_LOCALES if args.locale == "all" else (args.locale,)
+        results: list[dict[str, object]] = []
+        try:
+            for locale in locales:
+                if args.retrieval_command == "build":
+                    normalized_manifest = (
+                        NORMALIZED_RAG_ROOT / f"manifest.{locale}.json"
+                    )
+                    if not normalized_manifest.exists():
+                        continue
+                    result = build_retrieval_corpus(locale)
+                    results.append(
+                        {
+                            "locale": locale,
+                            "releaseId": result["manifest"]["releaseId"],
+                            "manifestRef": result["manifestRef"],
+                            "qualityReportRef": result["qualityReportRef"],
+                            "stats": result["manifest"]["stats"],
+                            "verdict": result["quality"]["verdict"],
+                        }
+                    )
+                else:
+                    manifest_path = RETRIEVAL_RAG_ROOT / f"manifest.{locale}.json"
+                    if not manifest_path.exists():
+                        continue
+                    results.append(validate_retrieval_corpus(locale))
+        except RetrievalBuildError as error:
+            parser.error(str(error))
+        if not results:
+            parser.error("No source manifest exists for the selected locale")
+        print(json.dumps({"retrieval": results}, ensure_ascii=False, indent=2))
+        return 0 if all(result["verdict"] == "indexable" for result in results) else 1
+
     if args.command == "normalize":
         locales = SUPPORTED_LOCALES if args.locale == "all" else (args.locale,)
         results: list[dict[str, object]] = []
@@ -156,6 +223,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             if not snapshot_path.exists():
                 continue
             normalized = materialize_normalized_snapshot(snapshot_path)
+            retrieval = build_retrieval_corpus(locale)
             results.append(
                 {
                     "locale": locale,
@@ -163,6 +231,10 @@ def main(argv: Sequence[str] | None = None) -> int:
                     "queryIndexRef": normalized["queryIndexRef"],
                     "stats": normalized["manifest"]["stats"],
                     "qualityVerdict": normalized["quality"]["verdict"],
+                    "retrievalManifestRef": retrieval["manifestRef"],
+                    "retrievalReleaseId": retrieval["manifest"]["releaseId"],
+                    "retrievalDocuments": retrieval["manifest"]["stats"]["documents"],
+                    "retrievalVerdict": retrieval["quality"]["verdict"],
                 }
             )
         if not results:

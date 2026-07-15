@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.60.option-2",
+  "semanticKey": "ko-KR|weapon|60|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_60",
+    "name": "검은 추적자",
+    "aliases": [],
+    "gameEntryId": 60
+  },
+  "title": "검은 추적자 — 2번 옵션 궁극기 충전 효율 증가 · 중",
+  "content": "검은 추적자 무기의 2번 옵션 ‘궁극기 충전 효율 증가 · 중’.\nRANK1: 궁극기 충전 효율 +4.8%.\nRANK2: 궁극기 충전 효율 +8.6%.\nRANK3: 궁극기 충전 효율 +12.4%.\nRANK4: 궁극기 충전 효율 +16.2%.\nRANK5: 궁극기 충전 효율 +20.0%.\nRANK6: 궁극기 충전 효율 +23.8%.\nRANK7: 궁극기 충전 효율 +27.6%.\nRANK8: 궁극기 충전 효율 +31.4%.\nRANK9: 궁극기 충전 효율 +37.1%.",
+  "facts": {
+    "slot": 2,
+    "name": "궁극기 충전 효율 증가 · 중",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "궁극기 충전 효율",
+        "value": 4.8,
+        "unit": "percent",
+        "display": "+4.8%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "궁극기 충전 효율",
+        "value": 8.6,
+        "unit": "percent",
+        "display": "+8.6%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "궁극기 충전 효율",
+        "value": 12.4,
+        "unit": "percent",
+        "display": "+12.4%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "궁극기 충전 효율",
+        "value": 16.2,
+        "unit": "percent",
+        "display": "+16.2%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "궁극기 충전 효율",
+        "value": 20,
+        "unit": "percent",
+        "display": "+20.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "궁극기 충전 효율",
+        "value": 23.8,
+        "unit": "percent",
+        "display": "+23.8%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "궁극기 충전 효율",
+        "value": 27.6,
+        "unit": "percent",
+        "display": "+27.6%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "궁극기 충전 효율",
+        "value": 31.4,
+        "unit": "percent",
+        "display": "+31.4%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "궁극기 충전 효율",
+        "value": 37.1,
+        "unit": "percent",
+        "display": "+37.1%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/60_검은_추적자.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=60&header=0",
+    "sourceSha256": "abd7cdc8a25dee1a3081b0f7402a8fb9b1905e3ef522ccd6241e73dc7a2169b6",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_60.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e5423800337f061d5df78187f20e5cd82f9186d2ee0c032d335f7317438407fe",
+    "payloadSha256": "1ac8aecc770fba6710eb9081cda795d374d56e502770fe2ae6ebf6e4a58d649f"
+  }
+}

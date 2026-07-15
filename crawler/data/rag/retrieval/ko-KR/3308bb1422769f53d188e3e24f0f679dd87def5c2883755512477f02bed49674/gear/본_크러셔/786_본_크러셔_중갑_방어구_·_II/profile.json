@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.786.profile",
+  "semanticKey": "ko-KR|gear|786|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_786",
+    "name": "본 크러셔 중갑 방어구 · II",
+    "aliases": [],
+    "gameEntryId": 786
+  },
+  "title": "본 크러셔 중갑 방어구 · II — 장비 기본 정보",
+  "content": "본 크러셔 중갑 방어구 · II 장비의 기본 정보. 유형은 방어구, 품질은 노란색 품질, 세트는 본 크러셔이다. LV.70, 방어력 56. 옵션은 1번 민첩 87, 2번 힘 58, 3번 냉기와 전기 피해 보너스 11.5%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "본 크러셔 중갑 방어구 · II",
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 529339492,
+      "code": "gear_set_1f8b8dc4f539",
+      "label": "본 크러셔"
+    },
+    "level": 70,
+    "defense": 56,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "baseValue": {
+          "value": 87,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 58,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "냉기와 전기 피해 보너스",
+        "baseValue": {
+          "value": 11.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-1f8b8dc4f539.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1f8b8dc4f539",
+    "groupLabel": "본 크러셔",
+    "gearTypeCode": "armor",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_1f8b8dc4f539"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/본_크러셔/786_본_크러셔_중갑_방어구_·_II.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=786&header=0",
+    "sourceSha256": "ec4e062f96cb359be8b344d25f3ec102693d89b18aa898a254f881896c64ecc0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_786.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_786.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f755f1f66cef061fd2451d897598c17913af4c04ba6b4f99c8a5fb3f261420a5",
+    "payloadSha256": "7295b0ccaee3ef0709905aa8740269913a1e948120b48d8cbe537a6f45bbc825"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.294.forging",
+  "semanticKey": "ko-KR|gear|294|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_294",
+    "name": "열 작업용 금속 장갑",
+    "aliases": [],
+    "gameEntryId": 294
+  },
+  "title": "열 작업용 금속 장갑 — 정밀 단조",
+  "content": "열 작업용 금속 장갑 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 지능: +0 65, +1 71, +2 78, +3 84.\n2번 힘: +0 43, +1 47, +2 51, +3 55.\n3번 열기와 자연 피해 보너스: +0 19.2%, +1 21.1%, +2 23%, +3 24.9%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "열기와 자연 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 19.2,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 21.1,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 23,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 24.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_c82824cda56b",
+    "groupLabel": "열 작업용",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/열_작업용/294_열_작업용_금속_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=294&header=0",
+    "sourceSha256": "a3d0b54c04ff19e647e4ce84ae051743972402588d4a01a679c76cabb69211a3",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_294.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "aea74f959b87c5abaa4741ba4b8d64579c407f505bc230fab22f7852b10043e7",
+    "payloadSha256": "9d9101caaaed5f1d064d481b29c851c2d94b27673ad7b1e80aabdf085cfa526b"
+  }
+}

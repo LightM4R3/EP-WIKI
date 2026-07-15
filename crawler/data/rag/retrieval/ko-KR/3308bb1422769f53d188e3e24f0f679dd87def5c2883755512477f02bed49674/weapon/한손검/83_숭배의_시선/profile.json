@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.83.profile",
+  "semanticKey": "ko-KR|weapon|83|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_83",
+    "name": "숭배의 시선",
+    "aliases": [],
+    "gameEntryId": 83
+  },
+  "title": "숭배의 시선 — 무기 기본 정보",
+  "content": "숭배의 시선 무기의 기본 정보. 무기 유형은 한손검이다. 옵션은 1번 민첩 증가 · 중, 2번 물리 피해 증가 · 중, 3번 어둠 · 우러러보는 경지이다.",
+  "facts": {
+    "name": "숭배의 시선",
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.83.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "물리 피해 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.83.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "어둠 · 우러러보는 경지",
+        "documentRef": "epwiki.ko-kr.weapon.83.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "weaponTypeCode": "sword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/83_숭배의_시선.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=83&header=0",
+    "sourceSha256": "c2434cff23fd164485e8d606f91f27087a5bf294d3e70709e62e2018caeb47a4",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_83.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_83.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "6e4cf2f43c78515c1797d7878b169af3131af30aa9cfdf8955fc9941fbb44987",
+    "payloadSha256": "24a3a120c040d801eeb3ca36587adf5f8a302b89ff50a5615053f0b7115a0727"
+  }
+}

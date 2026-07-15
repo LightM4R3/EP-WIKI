@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.73.profile",
+  "semanticKey": "ko-KR|weapon|73|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_73",
+    "name": "모범",
+    "aliases": [],
+    "gameEntryId": 73
+  },
+  "title": "모범 — 무기 기본 정보",
+  "content": "모범 무기의 기본 정보. 무기 유형은 양손검이다. 옵션은 1번 주요 능력치 증가 · 대, 2번 공격력 증가 · 대, 3번 억제 · 다층 절단이다.",
+  "facts": {
+    "name": "모범",
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "주요 능력치 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.73.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "공격력 증가 · 대",
+        "documentRef": "epwiki.ko-kr.weapon.73.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "억제 · 다층 절단",
+        "documentRef": "epwiki.ko-kr.weapon.73.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "greatsword",
+    "groupLabel": "양손검",
+    "weaponTypeCode": "greatsword"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/73_모범.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=73&header=0",
+    "sourceSha256": "c2519dbd2d86edb6e7df7478cb2c456e06e7f6eb49da0d7f00b3a28adc09481f",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_73.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_73.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9404e8536d9317c579292ff4476e4d239fee4583c82d38a059347fe7bd662ba3",
+    "payloadSha256": "14c44f79c81594cd421203f44026094772f723afb8e16e4dac7ea241eed39e8d"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.22.potential-1",
+  "semanticKey": "ko-KR|operator|22|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_22",
+    "name": "안탈",
+    "aliases": [],
+    "gameEntryId": 22
+  },
+  "title": "안탈 — 잠재능력 1 아츠 적성",
+  "content": "안탈 오퍼레이터의 잠재능력 1 ‘아츠 적성’. 궁극기 오버클럭 타임이 제공하는 전기 증폭과 열기 증폭의 효과가 기존의 1.1 배로 증가합니다. 오퍼레이터 기념사진 \"의지와 취향\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "아츠 적성",
+    "status": "rule_validated",
+    "effect": "궁극기 오버클럭 타임이 제공하는 전기 증폭과 열기 증폭의 효과가 기존의 1.1 배로 증가합니다. 오퍼레이터 기념사진 \"의지와 취향\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/22_안탈.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=22&header=0",
+    "sourceSha256": "6aff68dbcd9f30961e9b0f621fb665be356853ce7740fbc1f77ae1c104d37b5d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_22.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "72fb5e203bc7042db931f095c6f0d396104e4fb262a00ff731719bb0957079fb",
+    "payloadSha256": "01c2ed7fe28887cafe444382b8348f0d4d68bef493cd4c47177f5f0b53ad224d"
+  }
+}

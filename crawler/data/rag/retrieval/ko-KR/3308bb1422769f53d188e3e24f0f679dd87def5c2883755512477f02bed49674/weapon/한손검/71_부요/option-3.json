@@ -1,0 +1,98 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.71.option-3",
+  "semanticKey": "ko-KR|weapon|71|option-3",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_71",
+    "name": "부요",
+    "aliases": [],
+    "gameEntryId": 71
+  },
+  "title": "부요 — 3번 옵션 어둠 · 청운",
+  "content": "부요 무기의 3번 옵션 ‘어둠 · 청운’.\nRANK1: 배틀 스킬과 궁극기가 주는 물리 피해 +15.0% 불균형 상태의 적에게 주는 피해 +35.0%\nRANK2: 배틀 스킬과 궁극기가 주는 물리 피해 +18.0% 불균형 상태의 적에게 주는 피해 +42.0%\nRANK3: 배틀 스킬과 궁극기가 주는 물리 피해 +21.0% 불균형 상태의 적에게 주는 피해 +49.0%\nRANK4: 배틀 스킬과 궁극기가 주는 물리 피해 +24.0% 불균형 상태의 적에게 주는 피해 +56.0%\nRANK5: 배틀 스킬과 궁극기가 주는 물리 피해 +27.0% 불균형 상태의 적에게 주는 피해 +63.0%\nRANK6: 배틀 스킬과 궁극기가 주는 물리 피해 +30.0% 불균형 상태의 적에게 주는 피해 +70.0%\nRANK7: 배틀 스킬과 궁극기가 주는 물리 피해 +33.0% 불균형 상태의 적에게 주는 피해 +77.0%\nRANK8: 배틀 스킬과 궁극기가 주는 물리 피해 +36.0% 불균형 상태의 적에게 주는 피해 +84.0%\nRANK9: 배틀 스킬과 궁극기가 주는 물리 피해 +42.0% 불균형 상태의 적에게 주는 피해 +98.0%",
+  "facts": {
+    "slot": 3,
+    "name": "어둠 · 청운",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "effect": "배틀 스킬과 궁극기가 주는 물리 피해 +15.0% 불균형 상태의 적에게 주는 피해 +35.0%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "effect": "배틀 스킬과 궁극기가 주는 물리 피해 +18.0% 불균형 상태의 적에게 주는 피해 +42.0%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "effect": "배틀 스킬과 궁극기가 주는 물리 피해 +21.0% 불균형 상태의 적에게 주는 피해 +49.0%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "effect": "배틀 스킬과 궁극기가 주는 물리 피해 +24.0% 불균형 상태의 적에게 주는 피해 +56.0%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "effect": "배틀 스킬과 궁극기가 주는 물리 피해 +27.0% 불균형 상태의 적에게 주는 피해 +63.0%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "effect": "배틀 스킬과 궁극기가 주는 물리 피해 +30.0% 불균형 상태의 적에게 주는 피해 +70.0%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "effect": "배틀 스킬과 궁극기가 주는 물리 피해 +33.0% 불균형 상태의 적에게 주는 피해 +77.0%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "effect": "배틀 스킬과 궁극기가 주는 물리 피해 +36.0% 불균형 상태의 적에게 주는 피해 +84.0%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "effect": "배틀 스킬과 궁극기가 주는 물리 피해 +42.0% 불균형 상태의 적에게 주는 피해 +98.0%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "sword",
+    "groupLabel": "한손검",
+    "optionSlot": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/71_부요.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=71&header=0",
+    "sourceSha256": "fce1533f4fb6a358a4c4be1905ed22e128fdcbcff79c122c04dc0ca650c843c0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_71.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "0c80aa3281e786aee8b334f9e622bcf1d3b0c071d729a5c6151aecbdd1cf1b09",
+    "payloadSha256": "3dd514767360c711d4a568100bf910346dbf6a05774c2aa43bf1f2c96b86a231"
+  }
+}

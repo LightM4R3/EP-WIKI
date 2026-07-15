@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.280.forging",
+  "semanticKey": "ko-KR|gear|280|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_280",
+    "name": "M. I. 경찰용 망토",
+    "aliases": [],
+    "gameEntryId": 280
+  },
+  "title": "M. I. 경찰용 망토 — 정밀 단조",
+  "content": "M. I. 경찰용 망토 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 지능: +0 87, +1 95, +2 104, +3 113.\n2번 민첩: +0 58, +1 63, +2 69, +3 75.\n3번 일반 공격 피해 보너스: +0 13.8%, +1 15.2%, +2 16.6%, +3 17.9%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 58,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 63,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 69,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 75,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "일반 공격 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 13.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 15.2,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 16.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 17.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_9bfa3d212476",
+    "groupLabel": "M. I. 경찰용",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/280_M._I._경찰용_망토.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=280&header=0",
+    "sourceSha256": "9f01fc6ecedc606f4991bdcc77b6f3d59141151be8b5f61053bf5a70f950fcd8",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_280.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3a36fada45e01f32846fe7e534f57b13fb487d745cd4835cf50213f981c762d6",
+    "payloadSha256": "ed689e77bb52ee6118e3d8f0e48de28dd836c60abac8b297cb45c567351662c6"
+  }
+}

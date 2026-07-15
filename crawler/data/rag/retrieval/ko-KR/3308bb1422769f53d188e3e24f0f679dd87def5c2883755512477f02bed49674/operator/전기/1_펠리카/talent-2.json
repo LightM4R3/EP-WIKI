@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.1.talent-2",
+  "semanticKey": "ko-KR|operator|1|talent-2",
+  "locale": "ko-KR",
+  "documentType": "operator_talent",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_1",
+    "name": "펠리카",
+    "aliases": [],
+    "gameEntryId": 1
+  },
+  "title": "펠리카 — 순환 프로토콜",
+  "content": "펠리카 오퍼레이터의 오퍼레이터 재능 ‘순환 프로토콜’.\n단계 1: 연계 스킬 실시간 프로토콜 · 연쇄 섬광이 방어 불능 상태의 적에게 명중했을 때, 스킬이 1회 더 튕깁니다. 활성화 조건: 정예화 단계 3 돌파. 재료: 프로토콜 프리즘 세트 36개, 탈로시안 화폐 32000개.",
+  "facts": {
+    "kind": "combat_talent",
+    "index": 2,
+    "name": "순환 프로토콜",
+    "stages": [
+      {
+        "stage": 1,
+        "effect": "연계 스킬 실시간 프로토콜 · 연쇄 섬광이 방어 불능 상태의 적에게 명중했을 때, 스킬이 1회 더 튕깁니다.",
+        "conditions": [
+          "정예화 단계 3 돌파"
+        ],
+        "materials": [
+          {
+            "id": 10,
+            "code": "protocol_prism_set",
+            "name": "프로토콜 프리즘 세트",
+            "catalogStatus": "mapped",
+            "amount": 36
+          },
+          {
+            "id": 0,
+            "code": "talos_ii_currency",
+            "name": "탈로시안 화폐",
+            "catalogStatus": "mapped",
+            "amount": 32000
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_talent",
+    "groupAxis": "element",
+    "groupCode": "electric",
+    "groupLabel": "전기",
+    "talentKind": "combat_talent",
+    "talentIndex": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/1_펠리카.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=1&header=0",
+    "sourceSha256": "cc4378cdc012f097bada65658318a2701132ffcbdfd22ce19c4193a8cb1308b6",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_1.operator_talent.c4.w1.s4.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e78e7850ae73b82ebe03ab112e37b31af10a66db3750d87c431a0b9bedf44d06",
+    "payloadSha256": "41323d650e0f0a4e4939ba5fe03e9d27264183e58af96709f23da7682d79d2c4"
+  }
+}

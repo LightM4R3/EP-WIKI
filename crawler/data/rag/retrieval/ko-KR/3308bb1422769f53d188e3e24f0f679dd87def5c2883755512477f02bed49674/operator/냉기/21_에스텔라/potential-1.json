@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.21.potential-1",
+  "semanticKey": "ko-KR|operator|21|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_21",
+    "name": "에스텔라",
+    "aliases": [],
+    "gameEntryId": 21
+  },
+  "title": "에스텔라 — 잠재능력 1 습관성 지각",
+  "content": "에스텔라 오퍼레이터의 잠재능력 1 ‘습관성 지각’. 연계 스킬 디스토션이 부여하는 물리취약 지속 시간 +3 초 오퍼레이터 기념사진 \"간혈적 사색\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "습관성 지각",
+    "status": "rule_validated",
+    "effect": "연계 스킬 디스토션이 부여하는 물리취약 지속 시간 +3 초 오퍼레이터 기념사진 \"간혈적 사색\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+    "sourceSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_21.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5ec65fa3878704c6c591fb3981a0c788b3dc8cb7306a09836bf28681a7f25ee1",
+    "payloadSha256": "02e9013260f32adead0b725d7c39fd9f70862117877dbe159d408b00fcac77fe"
+  }
+}

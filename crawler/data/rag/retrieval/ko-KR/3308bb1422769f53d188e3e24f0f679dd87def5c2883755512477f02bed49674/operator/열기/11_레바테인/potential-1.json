@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.11.potential-1",
+  "semanticKey": "ko-KR|operator|11|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_11",
+    "name": "레바테인",
+    "aliases": [],
+    "gameEntryId": 11
+  },
+  "title": "레바테인 — 잠재능력 1 녹아내린 마음",
+  "content": "레바테인 오퍼레이터의 잠재능력 1 ‘녹아내린 마음’. 배틀 스킬 불타오르는 화염의 추가 공격 피해 배율이 기존의 1.2 배로 증가하고, 명중한 후 스킬 게이지 20 포인트를 반환합니다. 오퍼레이터 기념사진 \"불과 검\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "녹아내린 마음",
+    "status": "rule_validated",
+    "effect": "배틀 스킬 불타오르는 화염의 추가 공격 피해 배율이 기존의 1.2 배로 증가하고, 명중한 후 스킬 게이지 20 포인트를 반환합니다. 오퍼레이터 기념사진 \"불과 검\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/11_레바테인.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=11&header=0",
+    "sourceSha256": "6b76bc23ee1929d6d5da560bc66fe044c58fa1de186cbcacff5bd3ff1e01bad7",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_11.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "95a479b16e23f347eb10e553caf5d62c58450d8e1de3ff726c129e0da8be7937",
+    "payloadSha256": "e1469b90a66b27f548849fec9f45a451338b7230136df5a2fb45ea74fcf749ce"
+  }
+}

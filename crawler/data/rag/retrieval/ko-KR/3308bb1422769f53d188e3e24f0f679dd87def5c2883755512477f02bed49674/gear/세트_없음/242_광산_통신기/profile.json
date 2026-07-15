@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.242.profile",
+  "semanticKey": "ko-KR|gear|242|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_242",
+    "name": "광산 통신기",
+    "aliases": [],
+    "gameEntryId": 242
+  },
+  "title": "광산 통신기 — 장비 기본 정보",
+  "content": "광산 통신기 장비의 기본 정보. 유형은 부품, 품질은 파란색 품질, 세트는 세트 없음이다. LV.36, 방어력 10. 옵션은 1번 의지 22, 3번 생명력 22.8%. 정밀 단조 대상이 아니다.",
+  "facts": {
+    "name": "광산 통신기",
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    },
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "level": 36,
+    "defense": 10,
+    "supportsForging": false,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 22,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "생명력",
+        "baseValue": {
+          "value": 22.8,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": null
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "none",
+    "groupLabel": "세트 없음",
+    "gearTypeCode": "component",
+    "qualityCode": "blue",
+    "gearSetCode": "none"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/242_광산_통신기.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=242&header=0",
+    "sourceSha256": "4c45a47d7ef90aede57042e11567f8978c07457d92ed75dbdba1edc57534d983",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_242.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_242.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3ba24d3cec805d45dd905aa689f37ebd50e734450b6d2ba0453492ce3f3f8007",
+    "payloadSha256": "ca3aa5b277d28f96a6ce6e88ced8598302ae5b1768719554a99b77408ca4194a"
+  }
+}

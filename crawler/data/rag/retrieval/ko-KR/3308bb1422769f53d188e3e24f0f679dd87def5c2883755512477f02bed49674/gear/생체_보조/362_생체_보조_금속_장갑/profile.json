@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.362.profile",
+  "semanticKey": "ko-KR|gear|362|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_362",
+    "name": "생체 보조 금속 장갑",
+    "aliases": [],
+    "gameEntryId": 362
+  },
+  "title": "생체 보조 금속 장갑 — 장비 기본 정보",
+  "content": "생체 보조 금속 장갑 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 생체 보조이다. LV.70, 방어력 42. 옵션은 1번 의지 65, 2번 힘 43, 3번 치유 효율 보너스 17.3%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "생체 보조 금속 장갑",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 447874150,
+      "code": "gear_set_1ab07dc6afcc",
+      "label": "생체 보조"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "의지",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 3,
+          "code": "will",
+          "label": "의지"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 0,
+          "code": "strength",
+          "label": "힘"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "치유 효율 보너스",
+        "baseValue": {
+          "value": 17.3,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-1ab07dc6afcc.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_1ab07dc6afcc",
+    "groupLabel": "생체 보조",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_1ab07dc6afcc"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/생체_보조/362_생체_보조_금속_장갑.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=362&header=0",
+    "sourceSha256": "01484202700f211f9241b393dd6603327f1ba852458f58a8301fd375819e107d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_362.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_362.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b12f03c27dcbb64068a565ba95b2e925bd66e882cdced05dbe316a4388ba71bc",
+    "payloadSha256": "a3b5499fc60a8548bc0297499cf30e7612941aba625fb9e35caa329427300469"
+  }
+}

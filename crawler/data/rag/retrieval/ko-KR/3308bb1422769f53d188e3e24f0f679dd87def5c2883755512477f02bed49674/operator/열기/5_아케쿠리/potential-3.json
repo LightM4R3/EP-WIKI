@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.5.potential-3",
+  "semanticKey": "ko-KR|operator|5|potential-3",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_5",
+    "name": "아케쿠리",
+    "aliases": [],
+    "gameEntryId": 5
+  },
+  "title": "아케쿠리 — 잠재능력 3 혼신의 협력",
+  "content": "아케쿠리 오퍼레이터의 잠재능력 3 ‘혼신의 협력’. 궁극기 소대, 집합!이 지속되는 동안, 팀 전체 공격력 +10% 오퍼레이터 기념사진 \"어린 시절의 꿈\" 잠금 해제",
+  "facts": {
+    "stage": 3,
+    "name": "혼신의 협력",
+    "status": "rule_validated",
+    "effect": "궁극기 소대, 집합!이 지속되는 동안, 팀 전체 공격력 +10% 오퍼레이터 기념사진 \"어린 시절의 꿈\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "heat",
+    "groupLabel": "열기",
+    "potentialStage": 3
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/5_아케쿠리.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=5&header=0",
+    "sourceSha256": "1d32fb2a32cd175406743463d61a07b698b38b73717039f7510313cb4f8f62a0",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_5.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "e6d766dbf776b0b44a4fb8c74808aa963a67ae0f5f99a0e14bc099f4d2cd6b0f",
+    "payloadSha256": "0890012dbcd39f89ebfa9a95976aaa80062b6c0e2ef02f36429fac49378cd1f4"
+  }
+}

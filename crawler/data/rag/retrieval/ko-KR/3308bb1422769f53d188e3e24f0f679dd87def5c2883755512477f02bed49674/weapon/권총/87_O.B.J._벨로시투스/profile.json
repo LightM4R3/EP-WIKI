@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.87.profile",
+  "semanticKey": "ko-KR|weapon|87|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_87",
+    "name": "O.B.J. 벨로시투스",
+    "aliases": [],
+    "gameEntryId": 87
+  },
+  "title": "O.B.J. 벨로시투스 — 무기 기본 정보",
+  "content": "O.B.J. 벨로시투스 무기의 기본 정보. 무기 유형은 권총이다. 옵션은 1번 민첩 증가 · 중, 2번 궁극기 충전 효율 증가 · 중, 3번 방출 · 신속한 일격이다.",
+  "facts": {
+    "name": "O.B.J. 벨로시투스",
+    "weaponType": {
+      "id": 3,
+      "code": "handcannon",
+      "label": "권총"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.87.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "궁극기 충전 효율 증가 · 중",
+        "documentRef": "epwiki.ko-kr.weapon.87.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "방출 · 신속한 일격",
+        "documentRef": "epwiki.ko-kr.weapon.87.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "weaponTypeCode": "handcannon"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/87_O.B.J._벨로시투스.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=87&header=0",
+    "sourceSha256": "cfffad476aa2371f91e865127f7d4707c07f84115d6ae62c5295e27c0789a13d",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_87.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_87.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "4826ce822ba2e378c84f7baefdd10e0d1dce93da4befc3719c4759bcbda9d2bd",
+    "payloadSha256": "9bba85e31b59e121f26247561a16ec0be5e40ad711748d9d04f273832842f777"
+  }
+}

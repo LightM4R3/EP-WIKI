@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-396878b1d89a.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_396878b1d89a|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_396878b1d89a",
+    "name": "재앙 방호",
+    "aliases": []
+  },
+  "title": "재앙 방호 — 장비 세트 효과",
+  "content": "재앙 방호 장비 세트의 3개 세트 효과. 장착자의 궁극기 충전 효율 +20% 장착자가 배틀 스킬을 사용할 때, 반환 하는 스킬 게이지 50 포인트. 해당 효과는 전투마다 최대 1회만 발동합니다.",
+  "facts": {
+    "gearSet": {
+      "id": 963247953,
+      "code": "gear_set_396878b1d89a",
+      "label": "재앙 방호"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 궁극기 충전 효율 +20% 장착자가 배틀 스킬을 사용할 때, 반환 하는 스킬 게이지 50 포인트. 해당 효과는 전투마다 최대 1회만 발동합니다.",
+    "memberGameEntryIds": [
+      297,
+      299,
+      301,
+      303,
+      305,
+      307
+    ],
+    "evidenceCopyCount": 6
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_396878b1d89a",
+    "groupLabel": "재앙 방호",
+    "gearSetCode": "gear_set_396878b1d89a",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=297&header=0",
+    "sourceSha256": "29c9c8d6e950448efb5b0317f5f9cf034515c21ae4efbbcc5345fd5a25ecaa56",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_297.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_299.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_301.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_303.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_305.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "auto.gear_307.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "42c9c9514fa7c212695214e697294163432e9e2985c1b1a6d020458f539e30dd",
+    "payloadSha256": "c05cb7711dccb7e8d85e0fdbbf5c4946a5e063bfeefa9584a91108f35b10d5ec"
+  }
+}

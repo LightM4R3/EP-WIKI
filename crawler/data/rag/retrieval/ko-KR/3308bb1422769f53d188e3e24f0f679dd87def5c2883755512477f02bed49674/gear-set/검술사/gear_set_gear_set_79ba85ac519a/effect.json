@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-79ba85ac519a.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_79ba85ac519a|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_79ba85ac519a",
+    "name": "검술사",
+    "aliases": []
+  },
+  "title": "검술사 — 장비 세트 효과",
+  "content": "검술사 장비 세트의 3개 세트 효과. 장착자의 불균형 효율 보너스 +20% 장착자가 물리 이상 효과를 부여한 후, 공격력 250%만큼의 추가 물리 피해[10 포인트 불균형치]. 해당 효과는 15초마다 최대 1회만 발동합니다.",
+  "facts": {
+    "gearSet": {
+      "id": 2042367052,
+      "code": "gear_set_79ba85ac519a",
+      "label": "검술사"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 불균형 효율 보너스 +20% 장착자가 물리 이상 효과를 부여한 후, 공격력 250%만큼의 추가 물리 피해[10 포인트 불균형치]. 해당 효과는 15초마다 최대 1회만 발동합니다.",
+    "memberGameEntryIds": [
+      355,
+      356,
+      357,
+      358,
+      791,
+      792,
+      793,
+      873,
+      874,
+      875,
+      1020
+    ],
+    "evidenceCopyCount": 11
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_79ba85ac519a",
+    "groupLabel": "검술사",
+    "gearSetCode": "gear_set_79ba85ac519a",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=355&header=0",
+    "sourceSha256": "6dfa22551897a65abc32049868425432c0a4a3eaee63ec6d17993c15d74c3090",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_1020.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_355.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_356.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_357.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_358.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_791.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_792.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_793.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_873.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_874.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_875.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "7e3bd2b2fa9410ab09c5ad7408bb9728751f5f45f660b7813cfd7ef1a75a4f36",
+    "payloadSha256": "289afb015a6eef2e778a0d100e2b079d884f1be7f45c58a0fa0a389e20cd36ff"
+  }
+}

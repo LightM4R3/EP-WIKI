@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.4.potential-1",
+  "semanticKey": "ko-KR|operator|4|potential-1",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_4",
+    "name": "진천우",
+    "aliases": [],
+    "gameEntryId": 4
+  },
+  "title": "진천우 — 잠재능력 1 '절영'",
+  "content": "진천우 오퍼레이터의 잠재능력 1 ‘'절영'’. 생명력이 50% 이하인 적에게 주는 피해 +20% 오퍼레이터 기념사진 \"협객의 흔적\" 잠금 해제",
+  "facts": {
+    "stage": 1,
+    "name": "'절영'",
+    "status": "rule_validated",
+    "effect": "생명력이 50% 이하인 적에게 주는 피해 +20% 오퍼레이터 기념사진 \"협객의 흔적\" 잠금 해제"
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "physical",
+    "groupLabel": "물리",
+    "potentialStage": 1
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/4_진천우.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=4&header=0",
+    "sourceSha256": "64f046fe559117e3b77a47aaf14c24296e264dc17aa1ee3c126893330dd5e3ca",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.operator_4.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "3ddcb92ad9f43408c6993dfd2a72467e412ab87e7eec0dca58f372f3e92e7938",
+    "payloadSha256": "2ee40c08952d77b52a7ae8216c077464ba39d6ceedd5ef6eb784564add011bac"
+  }
+}

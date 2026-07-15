@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear-set.gear-set-0dd0a8ecab1f.effect",
+  "semanticKey": "ko-KR|gear_set|gear_set_0dd0a8ecab1f|effect",
+  "locale": "ko-KR",
+  "documentType": "gear_set_effect",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear_set",
+    "key": "gear_set_gear_set_0dd0a8ecab1f",
+    "name": "식양의 흐름",
+    "aliases": []
+  },
+  "title": "식양의 흐름 — 장비 세트 효과",
+  "content": "식양의 흐름 장비 세트의 3개 세트 효과. 장착자의 공격력 +10% 장착자가 감전 혹은 부식을 소모 할 때마다, 이상 레벨에 따른 같은 스택 수치의 강화 상태를 획득합니다. 스택이 중첩될 때마다 전기 피해 및 자연 피해 +15%, 25초 동안 지속. 강화 상태는 최대 3스택까지 중첩되며 중첩될 때마다 지속 시간은 따로 계산됩니다.",
+  "facts": {
+    "gearSet": {
+      "id": 231878540,
+      "code": "gear_set_0dd0a8ecab1f",
+      "label": "식양의 흐름"
+    },
+    "requiredPieces": 3,
+    "effect": "장착자의 공격력 +10% 장착자가 감전 혹은 부식을 소모 할 때마다, 이상 레벨에 따른 같은 스택 수치의 강화 상태를 획득합니다. 스택이 중첩될 때마다 전기 피해 및 자연 피해 +15%, 25초 동안 지속. 강화 상태는 최대 3스택까지 중첩되며 중첩될 때마다 지속 시간은 따로 계산됩니다.",
+    "memberGameEntryIds": [
+      883,
+      884,
+      885
+    ],
+    "evidenceCopyCount": 3
+  },
+  "filters": {
+    "entityType": "gear_set",
+    "documentType": "gear_set_effect",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_0dd0a8ecab1f",
+    "groupLabel": "식양의 흐름",
+    "gearSetCode": "gear_set_0dd0a8ecab1f",
+    "requiredPieces": 3
+  },
+  "provenance": {
+    "normalizedRef": null,
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=883&header=0",
+    "sourceSha256": "93d0f0988f724cd903c0e408004d2488a99c5a6382fd60c6a097a39a4a816b25",
+    "authority": "cross_checked_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.gear_883.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_884.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "auto.gear_885.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "18fba7073ecc4035fd475cbf6d5967d5191b78379715149619c1c147d0bca444",
+    "payloadSha256": "b750d80d2d48f0bb75b69494336b3ace1f9cd3f63534676a7900a5ceee7aac45"
+  }
+}

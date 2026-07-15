@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.334.forging",
+  "semanticKey": "ko-KR|gear|334|forging",
+  "locale": "ko-KR",
+  "documentType": "gear_forging",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_334",
+    "name": "식양의 숨결 충전 코어",
+    "aliases": [],
+    "gameEntryId": 334
+  },
+  "title": "식양의 숨결 충전 코어 — 정밀 단조",
+  "content": "식양의 숨결 충전 코어 장비의 정밀 단조 +0부터 +3까지의 옵션 수치.\n1번 지능: +0 32, +1 35, +2 38, +3 41.\n2번 힘: +0 21, +1 23, +2 25, +3 27.\n3번 궁극기 충전 효율: +0 24.6%, +1 27.1%, +2 29.6%, +3 32%.",
+  "facts": {
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 24.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 27.1,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 29.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 32,
+            "unit": "percent"
+          }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_forging",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_3a9437540d70",
+    "groupLabel": "식양의 숨결",
+    "supportsForging": true
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/식양의_숨결/334_식양의_숨결_충전_코어.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=334&header=0",
+    "sourceSha256": "e6d01c946bfc5cc9ffe4dd932e66d16f5fd887a085e37c170f4ff5e83f3235ed",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_334.gear_option.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "5703ffbf049e617b60485f6b5631c82c70a33b6f8e2ab90e0b3362913ad28b3a",
+    "payloadSha256": "1bc6b4a07504d2b57b394e0597cee5fd70ba8a41e68cd93919378c0209ad02dd"
+  }
+}

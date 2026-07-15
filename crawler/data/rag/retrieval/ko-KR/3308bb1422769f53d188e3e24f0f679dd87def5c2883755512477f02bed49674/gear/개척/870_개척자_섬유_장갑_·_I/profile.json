@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.gear.870.profile",
+  "semanticKey": "ko-KR|gear|870|profile",
+  "locale": "ko-KR",
+  "documentType": "gear_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "gear",
+    "key": "gear_870",
+    "name": "개척자 섬유 장갑 · I",
+    "aliases": [],
+    "gameEntryId": 870
+  },
+  "title": "개척자 섬유 장갑 · I — 장비 기본 정보",
+  "content": "개척자 섬유 장갑 · I 장비의 기본 정보. 유형은 글러브, 품질은 노란색 품질, 세트는 개척이다. LV.70, 방어력 42. 옵션은 1번 지능 65, 2번 민첩 43, 3번 궁극기 충전 효율 20.5%. 정밀 단조를 지원한다.",
+  "facts": {
+    "name": "개척자 섬유 장갑 · I",
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    },
+    "gearSet": {
+      "id": 1145026990,
+      "code": "gear_set_443e330e6735",
+      "label": "개척"
+    },
+    "level": 70,
+    "defense": 42,
+    "supportsForging": true,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "baseValue": {
+          "value": 65,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 2,
+          "code": "intellect",
+          "label": "지능"
+        }
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "baseValue": {
+          "value": 43,
+          "unit": "flat"
+        },
+        "attribute": {
+          "id": 1,
+          "code": "agility",
+          "label": "민첩"
+        }
+      },
+      {
+        "slot": 3,
+        "name": "궁극기 충전 효율",
+        "baseValue": {
+          "value": 20.5,
+          "unit": "percent"
+        }
+      }
+    ],
+    "setEffectRef": "epwiki.ko-kr.gear-set.gear-set-443e330e6735.effect"
+  },
+  "filters": {
+    "entityType": "gear",
+    "documentType": "gear_profile",
+    "groupAxis": "gearSet",
+    "groupCode": "gear_set_443e330e6735",
+    "groupLabel": "개척",
+    "gearTypeCode": "gloves",
+    "qualityCode": "yellow",
+    "gearSetCode": "gear_set_443e330e6735"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/870_개척자_섬유_장갑_·_I.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=870&header=0",
+    "sourceSha256": "14c03c27bee12782210c4b933213c201203dc97a86c2fab156cca50f5b45a833",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.gear_870.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.gear_870.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "12d94f1dfc6a06784dba4d5c01a729428c263fd47db75998b8cf4986b2ec6f2c",
+    "payloadSha256": "c1830e63f9886b5eca87d1ec98e5b75bd7504f47397e45295b89e2b86302bd13"
+  }
+}

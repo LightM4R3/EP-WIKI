@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.56.profile",
+  "semanticKey": "ko-KR|weapon|56|profile",
+  "locale": "ko-KR",
+  "documentType": "weapon_profile",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_56",
+    "name": "하울링 가드",
+    "aliases": [],
+    "gameEntryId": 56
+  },
+  "title": "하울링 가드 — 무기 기본 정보",
+  "content": "하울링 가드 무기의 기본 정보. 무기 유형은 권총이다. 옵션은 1번 지능 증가 · 소, 2번 공격력 증가 · 소, 3번 억제 · 비상 부스트이다.",
+  "facts": {
+    "name": "하울링 가드",
+    "weaponType": {
+      "id": 3,
+      "code": "handcannon",
+      "label": "권총"
+    },
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능 증가 · 소",
+        "documentRef": "epwiki.ko-kr.weapon.56.option-1"
+      },
+      {
+        "slot": 2,
+        "name": "공격력 증가 · 소",
+        "documentRef": "epwiki.ko-kr.weapon.56.option-2"
+      },
+      {
+        "slot": 3,
+        "name": "억제 · 비상 부스트",
+        "documentRef": "epwiki.ko-kr.weapon.56.option-3"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_profile",
+    "groupAxis": "weaponType",
+    "groupCode": "handcannon",
+    "groupLabel": "권총",
+    "weaponTypeCode": "handcannon"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/56_하울링_가드.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=56&header=0",
+    "sourceSha256": "482593c558667d86885431011cc49a18cc74b9aa4529dafa67ab9b65ec7c8240",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_56.profile.c0.chapter.s0.p0.ko-kr",
+      "auto.weapon_56.profile.c1.chapter.s1.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.rarity",
+        "reason": "원문 희귀도 이미지가 구조화되지 않음",
+        "status": "missing"
+      },
+      {
+        "path": "facts.imageUrl",
+        "reason": "무기 이미지 URL이 구조화되지 않음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "9e7c0e8352c09f91dd7b67283a2e93cdc352fbc1bdd1d9282c3ce6018020436f",
+    "payloadSha256": "3e0692a8b9d88b0a9d25355e39fafe1c38172d8baad20520da9e663ed71d56a9"
+  }
+}

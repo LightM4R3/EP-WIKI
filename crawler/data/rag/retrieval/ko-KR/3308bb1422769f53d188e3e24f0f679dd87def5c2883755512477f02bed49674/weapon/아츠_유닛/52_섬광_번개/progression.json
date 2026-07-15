@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.52.progression",
+  "semanticKey": "ko-KR|weapon|52|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_52",
+    "name": "섬광 번개",
+    "aliases": [],
+    "gameEntryId": 52
+  },
+  "title": "섬광 번개 — 기초 공격력",
+  "content": "섬광 번개 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 34.\nLV.20: 기초 공격력 100.\nLV.40: 기초 공격력 169.\nLV.60: 기초 공격력 238.\nLV.80: 기초 공격력 307.\nLV.90: 기초 공격력 341.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 34
+      },
+      {
+        "level": 20,
+        "baseAttack": 100
+      },
+      {
+        "level": 40,
+        "baseAttack": 169
+      },
+      {
+        "level": 60,
+        "baseAttack": 238
+      },
+      {
+        "level": 80,
+        "baseAttack": 307
+      },
+      {
+        "level": 90,
+        "baseAttack": 341
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/52_섬광_번개.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=52&header=0",
+    "sourceSha256": "c1bc257c2d4269f0f21e8283f38603b84a9086a9e7f7aa1231e80a6153484d70",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_52.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "f0934fed79ca13cf91a2432ca8f85fdf462b8a19af6a61ca0cb76b865b94fb97",
+    "payloadSha256": "ccfd4412aaac8a857e760e411cf0d95798035b6b8e14b56ed06601f3c661ef25"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.94.option-2",
+  "semanticKey": "ko-KR|weapon|94|option-2",
+  "locale": "ko-KR",
+  "documentType": "weapon_option",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_94",
+    "name": "망자의 노래",
+    "aliases": [],
+    "gameEntryId": 94
+  },
+  "title": "망자의 노래 — 2번 옵션 공격력 증가 · 중",
+  "content": "망자의 노래 무기의 2번 옵션 ‘공격력 증가 · 중’.\nRANK1: 공격력 +4.0%.\nRANK2: 공격력 +7.2%.\nRANK3: 공격력 +10.4%.\nRANK4: 공격력 +13.6%.\nRANK5: 공격력 +16.8%.\nRANK6: 공격력 +20.0%.\nRANK7: 공격력 +23.2%.\nRANK8: 공격력 +26.4%.\nRANK9: 공격력 +31.2%.",
+  "facts": {
+    "slot": 2,
+    "name": "공격력 증가 · 중",
+    "ranks": [
+      {
+        "rank": 1,
+        "rankLabel": "RANK1",
+        "metric": "공격력",
+        "value": 4,
+        "unit": "percent",
+        "display": "+4.0%"
+      },
+      {
+        "rank": 2,
+        "rankLabel": "RANK2",
+        "metric": "공격력",
+        "value": 7.2,
+        "unit": "percent",
+        "display": "+7.2%"
+      },
+      {
+        "rank": 3,
+        "rankLabel": "RANK3",
+        "metric": "공격력",
+        "value": 10.4,
+        "unit": "percent",
+        "display": "+10.4%"
+      },
+      {
+        "rank": 4,
+        "rankLabel": "RANK4",
+        "metric": "공격력",
+        "value": 13.6,
+        "unit": "percent",
+        "display": "+13.6%"
+      },
+      {
+        "rank": 5,
+        "rankLabel": "RANK5",
+        "metric": "공격력",
+        "value": 16.8,
+        "unit": "percent",
+        "display": "+16.8%"
+      },
+      {
+        "rank": 6,
+        "rankLabel": "RANK6",
+        "metric": "공격력",
+        "value": 20,
+        "unit": "percent",
+        "display": "+20.0%"
+      },
+      {
+        "rank": 7,
+        "rankLabel": "RANK7",
+        "metric": "공격력",
+        "value": 23.2,
+        "unit": "percent",
+        "display": "+23.2%"
+      },
+      {
+        "rank": 8,
+        "rankLabel": "RANK8",
+        "metric": "공격력",
+        "value": 26.4,
+        "unit": "percent",
+        "display": "+26.4%"
+      },
+      {
+        "rank": 9,
+        "rankLabel": "RANK9",
+        "metric": "공격력",
+        "value": 31.2,
+        "unit": "percent",
+        "display": "+31.2%"
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_option",
+    "groupAxis": "weaponType",
+    "groupCode": "arts_unit",
+    "groupLabel": "아츠 유닛",
+    "optionSlot": 2
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/94_망자의_노래.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=94&header=0",
+    "sourceSha256": "4aceb7b8c764462425a23c1f7525fc2f11799b4a69fdf51af3c9d6d3257ce8fd",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_94.weapon_option.c3.chapter.s3.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "b524f3901fd25d073b6f66d09c2e881eada4bc35f3a8c4652263aa1b9eac84a4",
+    "payloadSha256": "ff52736b2a16752292a96c4d192404d0978a7cf7711c8ff9cd3f078cda4cfe14"
+  }
+}

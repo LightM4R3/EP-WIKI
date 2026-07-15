@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.operator.25.potential-4",
+  "semanticKey": "ko-KR|operator|25|potential-4",
+  "locale": "ko-KR",
+  "documentType": "operator_potential",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "operator",
+    "key": "operator_25",
+    "name": "탕탕",
+    "aliases": [],
+    "gameEntryId": 25
+  },
+  "title": "탕탕 — 잠재능력 4 청파 수련법",
+  "content": "탕탕 오퍼레이터의 잠재능력 4 ‘청파 수련법’. 궁극기 대당가께서 지켜보고 계신다!의 사용에 필요한 궁극기 에너지 -15%.",
+  "facts": {
+    "stage": 4,
+    "name": "청파 수련법",
+    "status": "rule_validated",
+    "effect": "궁극기 대당가께서 지켜보고 계신다!의 사용에 필요한 궁극기 에너지 -15%."
+  },
+  "filters": {
+    "entityType": "operator",
+    "documentType": "operator_potential",
+    "groupAxis": "element",
+    "groupCode": "cryo",
+    "groupLabel": "냉기",
+    "potentialStage": 4
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/25_탕탕.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+    "sourceSha256": "d8431754a5887bd5f59155855edd1e9ea7a243f3991942fa673c1e989feedb47",
+    "authority": "canonical",
+    "verificationStatus": "verified",
+    "confidence": "high",
+    "evidenceDocumentIds": [
+      "auto.operator_25.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": []
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "a4de2f7bd24c14e38c7dc4a5beff5e5184bb6d546c134a52ec630830e21aab6f",
+    "payloadSha256": "5428d67e0c652bee84f047764c19819d109fb863a7fc1987d7ae4b338eb018f1"
+  }
+}

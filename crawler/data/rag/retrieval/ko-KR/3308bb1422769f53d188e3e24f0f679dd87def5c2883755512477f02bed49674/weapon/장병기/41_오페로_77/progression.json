@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "documentId": "epwiki.ko-kr.weapon.41.progression",
+  "semanticKey": "ko-KR|weapon|41|progression",
+  "locale": "ko-KR",
+  "documentType": "weapon_progression",
+  "channel": "gameplay_facts",
+  "entity": {
+    "type": "weapon",
+    "key": "weapon_41",
+    "name": "오페로 77",
+    "aliases": [],
+    "gameEntryId": 41
+  },
+  "title": "오페로 77 — 기초 공격력",
+  "content": "오페로 77 무기의 레벨별 기초 공격력.\nLV.1: 기초 공격력 29.\nLV.20: 기초 공격력 83.\nLV.40: 기초 공격력 140.\nLV.60: 기초 공격력 197.\nLV.80: 기초 공격력 254.\nLV.90: 기초 공격력 283.",
+  "facts": {
+    "levels": [
+      {
+        "level": 1,
+        "baseAttack": 29
+      },
+      {
+        "level": 20,
+        "baseAttack": 83
+      },
+      {
+        "level": 40,
+        "baseAttack": 140
+      },
+      {
+        "level": 60,
+        "baseAttack": 197
+      },
+      {
+        "level": 80,
+        "baseAttack": 254
+      },
+      {
+        "level": 90,
+        "baseAttack": 283
+      }
+    ]
+  },
+  "filters": {
+    "entityType": "weapon",
+    "documentType": "weapon_progression",
+    "groupAxis": "weaponType",
+    "groupCode": "polearm",
+    "groupLabel": "장병기"
+  },
+  "provenance": {
+    "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/41_오페로_77.json",
+    "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=41&header=0",
+    "sourceSha256": "b7e26b85153013390f10496f2e77b96b9cb28ed1e3292a8dedd6e7cfd38f7bf3",
+    "authority": "normalized_extraction",
+    "verificationStatus": "rule_validated",
+    "confidence": "medium",
+    "evidenceDocumentIds": [
+      "auto.weapon_41.progression.c2.chapter.s2.p0.ko-kr"
+    ]
+  },
+  "coverage": {
+    "withheldFields": [
+      {
+        "path": "facts.materialCosts",
+        "reason": "돌파 재료 아이콘의 이름이 렌더링 텍스트에 없어 수량과 연결할 수 없음",
+        "status": "missing"
+      }
+    ]
+  },
+  "indexing": {
+    "eligible": true,
+    "vector": true,
+    "keyword": true,
+    "structured": true,
+    "contentSha256": "927192d9f9e3dfb1c62a7a3b16c838aa3d158622a6572acaf101ba40019e8837",
+    "payloadSha256": "81baf625b24bb708accb291405c6840baee4529bb4959b53044b2d8dd561b1f3"
+  }
+}
