@@ -1,0 +1,501 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_10",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 10,
+    "name": "아비웨나"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_10.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 아비웨나\ngameEntryId: 10\n정규화 상태: query_ready\n속성: 전기 (id=2, code=electric)\n무기 유형: 장병기 (id=2, code=polearm)\n주요 능력치: 의지 (id=3, code=will)\n보조 능력치: 민첩 (id=1, code=agility)\nLV.1: 힘=12, 민첩=10, 지능=14, 의지=15, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=33, 민첩=31, 지능=34, 의지=43, 기초 공격력=90, 기초 생명력=1566\nLV.40: 힘=54, 민첩=52, 지능=56, 의지=73, 기초 공격력=153, 기초 생명력=2689\nLV.60: 힘=75, 민첩=74, 지능=78, 의지=103, 기초 공격력=217, 기초 생명력=3811\nLV.80: 힘=96, 민첩=95, 지능=99, 의지=133, 기초 공격력=280, 기초 생명력=4934\nLV.90: 힘=107, 민첩=106, 지능=110, 의지=148, 기초 공격력=312, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_10",
+        "gameEntryId": 10,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 2,
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "evidenceDocumentIds": [
+          "auto.operator_10.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_10.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_10.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_10.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_10.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_10.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_10.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_10.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_10.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_10.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_10.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 아비웨나\ncategory: operator\nsection: profile\n아비웨나\n진영\n탈로스 II 상업연합회\n무기 유형\n장병기\n\"전달자는 수많은 비밀을 전달해요. 모든 비밀 하나하나가 귀중한 가치를 갖고 있죠. 하지만 비밀들보다 더 가치 있는 건... 제가 절대 비밀을 발설하지 않는다는 사실이에요.\"\n아비웨나는 무장한 전달자다.\n엔드필드 공업에 합류하기 전, 그녀는 합금 무성 자유도시의 거대한 물류 가문에서 살아왔다. 그러나 혈통 속에 각인된 여행에 대한 동경은 결국 그녀를 기존의 삶에서 벗어나게 했고, 스스로 길 위에 나서도록 이끌었다. 탈로스 II 곳곳의 수많은 목적지 사이를 오가던 아비웨나는 그 모든 곳이 하나로 이어지는 공통점을 발견했다. 바로 신비로운 관리자였다.\n아비웨나는 사교에 능해 언제나 성숙하고 전문적인 태도로 사람들과의 관계를 적절하게 다루어낸다. 하지만 그녀가 겉보기만큼 온화한 성격인지는 직접 부딪혀 본 사람만이 알 수 있다.\n\"누구든... 거절당하면 기분이 나빠지는 법이죠. 그러니까, 말로 해결할 수 있는 일이라면 저도 굳이 폭력을 사용하고 싶진 않아요. 하지만 그렇다고 제가 거절당하는 걸 좋아하는 사람은 아니라서요?\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_10",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 10,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:17.619010+00:00",
+        "contentSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아비웨나"
+      }
+    },
+    {
+      "documentId": "auto.operator_10.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 아비웨나\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n아비웨나\n성별\n여\n진영\n탈로스 II 상업연합회\n생일\n10월 25일\n속성\n전기\n종족\n카우투스\n한국어 CV\n강은애\n일본어 CV\n喜多村英梨\n영어 CV\nSheena May\n중국어 CV\n蔡娜",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_10",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 10,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:17.619010+00:00",
+        "contentSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아비웨나"
+      }
+    },
+    {
+      "documentId": "auto.operator_10.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 아비웨나\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘\n12\n33\n54\n75\n96\n107\n민첩 (보조 능력치)\n10\n31\n52\n74\n95\n106\n지능\n14\n34\n56\n78\n99\n110\n의지 (주요 능력치)\n15\n43\n73\n103\n133\n148\n기초 공격력\n30\n90\n153\n217\n280\n312\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘\n12\n-\n민첩 (보조 능력치)\n10\n지능\n14\n의지 (주요 능력치)\n15\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘\n33\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩 (보조 능력치)\n31\n지능\n34\n의지 (주요 능력치)\n43\n기초 공격력\n90\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘\n54\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩 (보조 능력치)\n52\n지능\n56\n의지 (주요 능력치)\n73\n기초 공격력\n153\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘\n75\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩 (보조 능력치)\n74\n지능\n78\n의지 (주요 능력치)\n103\n기초 공격력\n217\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘\n96\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩 (보조 능력치)\n95\n지능\n99\n의지 (주요 능력치)\n133\n기초 공격력\n280\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘\n107\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩 (보조 능력치)\n106\n지능\n110\n의지 (주요 능력치)\n148\n기초 공격력\n312\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_10",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 10,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:17.619010+00:00",
+        "contentSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아비웨나"
+      }
+    },
+    {
+      "documentId": "auto.operator_10.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 아비웨나\ncategory: operator\nsection: combat_skill\n전투 스킬\n썬더랜스 · 신속 공격\n일반 공격\n일반 공격:\n적에게 최대 5단 공격을 하여\n물리 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n17\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n물리 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n물리 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n17%\n18%\n20%\n21%\n23%\n25%\n26%\n28%\n30%\n32%\n34%\n37%\n일반 공격 제2단계 배율\n22%\n24%\n26%\n28%\n30%\n32%\n34%\n37%\n39%\n41%\n45%\n48%\n일반 공격 제3단계 배율\n21%\n23%\n25%\n27%\n29%\n31%\n33%\n35%\n37%\n39%\n43%\n46%\n일반 공격 제4단계 배율\n30%\n33%\n36%\n39%\n42%\n45%\n48%\n51%\n54%\n58%\n62%\n68%\n일반 공격 제5단계 배율\n50%\n55%\n60%\n65%\n70%\n75%\n80%\n85%\n90%\n96%\n104%\n113%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n썬더랜스 · 가로채기\n배틀 스킬\n점프하여 창을 휘둘러 회오리바람을 일으킵니다. 주변의 적에게 소량의\n전기 피해\n를 주며, 모든\n썬더랜스\n와\n강력한 썬더랜스\n를 회수합니다.\n썬더랜스\n가 회수되는 과정에서 적을 공격할 경우, 대상에게\n전기 피해\n를 줍니다.\n강력한 썬더랜스\n는 더욱 큰\n전기 피해\n를 주고\n전기 부착\n상태를 부여합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n피해 배율\n67%\n73%\n80%\n87%\n93%\n100%\n107%\n113%\n120%\n128%\n138%\n150%\n불균형치\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n재료 소모\n75%\n82%\n90%\n97%\n104%\n112%\n119%\n127%\n134%\n144%\n155%\n168%\n썬더랜스 불균형치\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n강력한 썬더랜스 피해 배율\n192%\n211%\n230%\n250%\n269%\n288%\n307%\n326%\n346%\n370%\n398%\n432%\n강력한 썬더랜스 불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_10",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 10,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:17.619010+00:00",
+        "contentSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아비웨나"
+      }
+    },
+    {
+      "documentId": "auto.operator_10.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 아비웨나\ncategory: operator\nsection: combat_skill\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n3상 나노플레이크 칩\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n3상 나노플레이크 칩\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n3상 나노플레이크 칩\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n썬더랜스 · 번개 타격\n연계 스킬\n메인 컨트롤 오퍼레이터가\n전기 부착\n혹은\n감전\n상태의 목표에\n강력한 일격\n을 준 후 사용할 수 있습니다.\n점프하여 목표에\n썬더랜스\n3개를 던져, 전방 범위 내의 적에게\n전기 피해\n를 줍니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n13초\n13초\n13초\n13초\n13초\n13초\n13초\n13초\n13초\n13초\n13초\n12초\n피해 배율\n169%\n186%\n203%\n219%\n236%\n253%\n270%\n287%\n304%\n325%\n350%\n380%\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n썬더랜스가 존재하는 시간(초)\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n획득하는 궁극기 에너지\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n썬더랜스 · 결전의 떨림\n궁극기\n목표 구역에\n강력한 썬더랜스\n하나를 투척하여 주변의 적에게 대량의\n전기 피해\n를 줍니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n쿨타임\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n피해 배율\n422%\n464%\n507%\n549%\n591%\n633%\n6755\n718%\n760%\n813%\n876%\n950%\n불균형치\n15\n15\n15\n15\n15\n15\n15\n15\n15\n20\n20\n20\n강력한 썬더랜스가 존재하는 시간(초)\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n30\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n3상 나노플레이크 칩\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_10",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 10,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:25:17.619010+00:00",
+        "contentSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아비웨나"
+      }
+    },
+    {
+      "documentId": "auto.operator_10.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 아비웨나\ncategory: operator\nsection: combat_skill\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n3상 나노플레이크 칩\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n3상 나노플레이크 칩\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_10",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 10,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T06:25:17.619010+00:00",
+        "contentSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아비웨나"
+      }
+    },
+    {
+      "documentId": "auto.operator_10.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 아비웨나\ncategory: operator\nsection: operator_talent\n재능 배열\n맹세\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 의지 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 의지 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 의지 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 의지 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n고효율 배송\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n투척한/회수한\n썬더랜스\n,\n강력한 썬더랜스\n가 적에게 명중한 후, 궁극기 에너지\n3\n포인트를 획득합니다.\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n투척한/회수한\n썬더랜스\n,\n강력한 썬더랜스\n가 적에게 명중한 후, 궁극기 에너지\n4\n포인트를 획득합니다.\n정예화 단계 2 돌파\n40\n프로토콜 프리즘\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n완곡한 수단\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n궁극기\n썬더랜스 · 결전의 떨림\n이 적에게 명중했을 때, 대상에게\n6%\n만큼\n전기 취약\n을 부여하고,\n10\n초 동안 지속됩니다.\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n궁극기\n썬더랜스 · 결전의 떨림\n이 적에게 명중했을 때, 대상에게\n10%\n만큼\n전기 취약\n을 부여하고,\n10\n초 동안 지속됩니다.\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n24000\n탈로시안 화폐\n*\n24000\n가정 상담사",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_10",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 10,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:17.619010+00:00",
+        "contentSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아비웨나"
+      }
+    },
+    {
+      "documentId": "auto.operator_10.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 아비웨나\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n가정 상담사\n· α\n핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 8% 증가\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n가정 상담사\n· β\n핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 12% 증가\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n전달자의 비밀\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n전달자의 비밀 · α\n응접실에 배치 시, 오퍼레이터가 단서 2 - 탈로스 II 상업연합회를 수집할 확률 약간 증가(배치 시 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n전달자의 비밀 · β\n응접실에 배치 시, 오퍼레이터가 단서 2 - 탈로스 II 상업연합회를 수집할 확률 증가(배치 시 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_10",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 10,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:17.619010+00:00",
+        "contentSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아비웨나"
+      }
+    },
+    {
+      "documentId": "auto.operator_10.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 아비웨나\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\n타키온 차폐 구조체\n*\n20\n8\n피버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_10",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 10,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:17.619010+00:00",
+        "contentSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아비웨나"
+      }
+    },
+    {
+      "documentId": "auto.operator_10.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 아비웨나\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n더블 베팅\n잠재능력 01\n재능\n'고효율 배송'\n효과 강화: 획득하는 궁극기 에너지\n+2\n포인트\n오퍼레이터 기념사진 \"너 여기 있었구나?\" 잠금 해제\n눈앞에 닥친 위험\n잠재능력 02\n썬더랜스\n,\n강력한 썬더랜스\n의 존재 시간\n+20\n초\n끝없는 저항\n잠재능력 03\n의지\n+15\n, 주는\n전기 피해\n+8%\n오퍼레이터 기념사진 \"지금 내 생각해?\" 잠금 해제\n숙련자의 여유\n잠재능력 04\n궁극기\n썬더랜스 · 결전의 떨림\n의 사용에 필요한 궁극기 에너지\n-15%\n회유와 위압\n잠재능력 05\n회수한\n썬더랜스\n및\n강력한 썬더랜스\n가\n전기 취약\n상태의 적을 명중했을 때, 피해 배율이 기존의\n1.15\n배로 증가합니다.\n오퍼레이터 기념사진 \"의문의 초대\" 잠금 해제\n오퍼레이터 기념사진\n너 여기 있었구나?\n일러스트레이터: se_eeeee\n난 지금까지 항상 혼자였어, 하지만... 널 만난 이후로 모든 것이 달라졌지.\n지금 내 생각해?\n일러스트레이터: umo_yszx\n그리움, 그리고 추억... 난 이런 것들을 누군가한테 말해본 적이 없어. 내가 수많은 사람의 그리움과 추억을 보고 느낀 것과는 별개로 말이야.\n의문의 초대\n일러스트레이터: LM7\n왜? 한 번도 걸어본 적 없는 길을 걷는 게 두려워? 걱정하지 마, 전달자가 네 손을 잡아줄 테니까.",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_10",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=10&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 10,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:17.619010+00:00",
+        "contentSha256": "d5081dec17f6e62b1897d4f00fe69db66268f2a3109dda5eff63e33223456aaa",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "electric",
+        "groupLabel": "전기",
+        "entityName": "아비웨나"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 2,
+      "code": "electric",
+      "label": "전기"
+    },
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    },
+    "secondary": {
+      "id": 1,
+      "code": "agility",
+      "label": "민첩"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 12,
+        "agility": 10,
+        "intellect": 14,
+        "will": 15,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 33,
+        "agility": 31,
+        "intellect": 34,
+        "will": 43,
+        "baseAttack": 90,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 54,
+        "agility": 52,
+        "intellect": 56,
+        "will": 73,
+        "baseAttack": 153,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 75,
+        "agility": 74,
+        "intellect": 78,
+        "will": 103,
+        "baseAttack": 217,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 96,
+        "agility": 95,
+        "intellect": 99,
+        "will": 133,
+        "baseAttack": 280,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 107,
+        "agility": 106,
+        "intellect": 110,
+        "will": 148,
+        "baseAttack": 312,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_10.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_10.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_10.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": []
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_10.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_10.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_10.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 2,
+    "code": "electric",
+    "label": "전기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/전기/10_아비웨나.json"
+}

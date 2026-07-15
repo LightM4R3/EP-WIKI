@@ -1,0 +1,269 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ep-wiki.local/schemas/gear-canonical.schema.json",
+  "title": "EP-WIKI canonical gear",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "entityType",
+    "entityId",
+    "source",
+    "identity",
+    "taxonomy",
+    "level",
+    "baseStats",
+    "forging",
+    "options"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "entityType": { "const": "gear" },
+    "entityId": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "source": { "$ref": "#/$defs/source" },
+    "identity": { "$ref": "#/$defs/identity" },
+    "taxonomy": { "$ref": "#/$defs/taxonomy" },
+    "level": { "type": "integer", "minimum": 1 },
+    "baseStats": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["defense"],
+      "properties": {
+        "defense": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "forging": { "$ref": "#/$defs/forging" },
+    "options": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 3,
+      "items": { "$ref": "#/$defs/gearOption" },
+      "allOf": [
+        {
+          "contains": {
+            "properties": { "slot": { "const": 1 } },
+            "required": ["slot"]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "contains": {
+            "properties": { "slot": { "const": 3 } },
+            "required": ["slot"]
+          },
+          "minContains": 1,
+          "maxContains": 1
+        },
+        {
+          "if": { "minItems": 3 },
+          "then": {
+            "contains": {
+              "properties": { "slot": { "const": 2 } },
+              "required": ["slot"]
+            },
+            "minContains": 1,
+            "maxContains": 1
+          },
+          "else": {
+            "not": {
+              "contains": {
+                "properties": { "slot": { "const": 2 } },
+                "required": ["slot"]
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "$defs": {
+    "localizedText": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "provider",
+        "entityId",
+        "url",
+        "mainTypeId",
+        "subTypeId",
+        "gameEntryId",
+        "locale",
+        "observedAt",
+        "contentStatus"
+      ],
+      "properties": {
+        "provider": { "const": "wiki.skport.com" },
+        "entityId": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "mainTypeId": { "const": 1 },
+        "subTypeId": { "const": 4 },
+        "gameEntryId": { "type": "integer", "minimum": 1 },
+        "locale": { "enum": ["ko-KR", "en-US", "ja-JP", "zh-TW"] },
+        "observedAt": { "type": "string", "format": "date-time" },
+        "contentStatus": {
+          "enum": ["verified", "cross_checked", "needs_review", "has_source_gaps"]
+        }
+      }
+    },
+    "materialCost": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["materialId", "quantity"],
+      "properties": {
+        "materialId": { "type": "integer", "minimum": 0 },
+        "quantity": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["names", "imageUrl", "introductionBlocks", "acquisition"],
+      "properties": {
+        "names": { "$ref": "#/$defs/localizedText" },
+        "imageUrl": { "type": "string", "format": "uri" },
+        "introductionBlocks": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "acquisition": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["methods", "craftingCosts"],
+          "properties": {
+            "methods": {
+              "type": "array",
+              "minItems": 1,
+              "items": { "type": "string", "minLength": 1 }
+            },
+            "craftingCosts": {
+              "type": "array",
+              "items": { "$ref": "#/$defs/materialCost" }
+            }
+          }
+        }
+      }
+    },
+    "taxonomyReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "code", "sourceLabel", "mappingStatus"],
+      "properties": {
+        "id": { "type": "integer", "minimum": 0 },
+        "code": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "sourceLabel": { "type": "string", "minLength": 1 },
+        "mappingStatus": { "enum": ["verified", "needs_review"] }
+      }
+    },
+    "taxonomy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["gearType", "quality", "set"],
+      "properties": {
+        "gearType": { "$ref": "#/$defs/taxonomyReference" },
+        "quality": { "$ref": "#/$defs/taxonomyReference" },
+        "set": { "$ref": "#/$defs/taxonomyReference" }
+      }
+    },
+    "forgeEligibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["qualityId", "qualityCode", "ruleCode", "verificationStatus"],
+      "properties": {
+        "qualityId": { "type": "integer", "minimum": 0 },
+        "qualityCode": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "ruleCode": { "const": "yellow_quality_only" },
+        "verificationStatus": { "enum": ["user_confirmed", "source_verified"] }
+      }
+    },
+    "forgeStage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["forgeLevel", "sourceLabel", "cumulativeStageRequirement"],
+      "properties": {
+        "forgeLevel": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "sourceLabel": { "type": "string", "minLength": 1 },
+        "cumulativeStageRequirement": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "forging": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["supported", "eligibility", "suitableAgent", "stages"],
+      "properties": {
+        "supported": { "type": "boolean" },
+        "eligibility": {
+          "oneOf": [
+            { "$ref": "#/$defs/forgeEligibility" },
+            { "type": "null" }
+          ]
+        },
+        "suitableAgent": {
+          "type": ["string", "null"],
+          "minLength": 1
+        },
+        "stages": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 4,
+          "items": { "$ref": "#/$defs/forgeStage" }
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "supported": { "const": true } } },
+          "then": {
+            "properties": {
+              "eligibility": { "$ref": "#/$defs/forgeEligibility" },
+              "suitableAgent": { "type": "string", "minLength": 1 },
+              "stages": { "minItems": 4, "maxItems": 4 }
+            }
+          },
+          "else": {
+            "properties": {
+              "eligibility": { "type": "null" },
+              "suitableAgent": { "type": "null" },
+              "stages": { "minItems": 1, "maxItems": 1 }
+            }
+          }
+        }
+      ]
+    },
+    "optionLevel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["forgeLevel", "sourceLabel", "values"],
+      "properties": {
+        "forgeLevel": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "sourceLabel": { "type": "string", "minLength": 1 },
+        "values": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "type": "number" }
+        }
+      }
+    },
+    "gearOption": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["slot", "optionId", "optionCode", "levels"],
+      "properties": {
+        "slot": { "type": "integer", "minimum": 1, "maximum": 3 },
+        "optionId": { "type": "integer", "minimum": 0 },
+        "optionCode": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "levels": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 4,
+          "items": { "$ref": "#/$defs/optionLevel" }
+        }
+      }
+    }
+  }
+}

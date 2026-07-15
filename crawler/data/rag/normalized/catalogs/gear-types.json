@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "gear-types",
+  "entries": [
+    {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    }
+  ]
+}

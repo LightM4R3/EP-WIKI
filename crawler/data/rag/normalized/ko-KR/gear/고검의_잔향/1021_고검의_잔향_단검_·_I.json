@@ -1,0 +1,316 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_1021",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 1021,
+    "name": "고검의 잔향 단검 · I"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1021&header=0",
+    "runId": "auto-1001-1050-ko-KR-final",
+    "contentSha256": "9754dd3d99c3d518c43e0572ac9c017289d5407a8e3d728f87292b3d1e9921a1",
+    "contentHashAlgorithm": "rendered_chapters_v1"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_1021.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 고검의 잔향 단검 · I\ngameEntryId: 1021\n정규화 상태: query_ready\n장비 세트: 고검의 잔향 (id=0, code=echo_of_ancient_sword)\n장비 유형: 부품 (id=2, code=component)\n품질: 노란색 품질 (id=0, code=yellow)\nLV: 70\n방어력: 21\n장비 옵션: 1번=민첩 32; 2번=힘 21; 3번=물리 피해 보너스 23%\n정밀 단조 지원: 예\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_1021",
+        "gameEntryId": 1021,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1021&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/고검의_잔향/1021_고검의_잔향_단검_·_I.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 0,
+        "groupCode": "echo_of_ancient_sword",
+        "groupLabel": "고검의 잔향",
+        "evidenceDocumentIds": [
+          "auto.gear_1021.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_1021.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_1021.gear_option.c2.chapter.s2.p0.ko-kr",
+          "auto.gear_1021.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_1021.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 고검의 잔향 단검 · I\ncategory: gear\nsection: profile\n고검의 잔향 단검 · I\n품질\n노란색 품질\n장비 유형\n부품\n세트\n고검의 잔향\n이 장비는 홍산 선검국에서 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n선검국이 유실된 기술 문서를 회수한 뒤 개발한 종합 방어 장비.\n날카로운 칼날은 언제든 견갑이나 장갑에 장착할 수 있으며, 그 위치는 착용자의 격투 유파에 따라 달라집니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_1021",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1021&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 1021,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:12:46.161097+00:00",
+        "contentHashAlgorithm": "rendered_chapters_v1",
+        "contentSha256": "9754dd3d99c3d518c43e0572ac9c017289d5407a8e3d728f87292b3d1e9921a1",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/고검의_잔향/1021_고검의_잔향_단검_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "echo_of_ancient_sword",
+        "groupLabel": "고검의 잔향",
+        "entityName": "고검의 잔향 단검 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_1021.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 고검의 잔향 단검 · I\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 제작\n세트 장비 제작\n소모 재료:\n25000\n*\n25000\n및\n50\n*\n50\n장비 템플릿\n장비 템플릿 상자\n속성\nLV\n70\n방어력\n+21\n민첩\n+32\n힘\n+21\n물리 피해 보너스\n+23.0%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_1021",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1021&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 1021,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:12:46.161097+00:00",
+        "contentHashAlgorithm": "rendered_chapters_v1",
+        "contentSha256": "9754dd3d99c3d518c43e0572ac9c017289d5407a8e3d728f87292b3d1e9921a1",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/고검의_잔향/1021_고검의_잔향_단검_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "echo_of_ancient_sword",
+        "groupLabel": "고검의 잔향",
+        "entityName": "고검의 잔향 단검 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_1021.gear_option.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_option",
+      "content": "entity: 고검의 잔향 단검 · I\ncategory: gear\nsection: gear_option\n정밀 단조\n정밀 단조\n적합 단조제 : 무릉 정밀 단조제\n정밀 단조 단계\n기본\n1단계\n2단계\n3단계\n민첩\n+32\n+35\n+38\n+41\n힘\n+21\n+23\n+25\n+27\n물리 피해 보너스\n+23.0%\n+25.3%\n+27.6%\n+29.9%\n정밀 단조 누적 단계\n6\n12\n20",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_1021",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1021&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 1021,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:12:46.161097+00:00",
+        "contentHashAlgorithm": "rendered_chapters_v1",
+        "contentSha256": "9754dd3d99c3d518c43e0572ac9c017289d5407a8e3d728f87292b3d1e9921a1",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/고검의_잔향/1021_고검의_잔향_단검_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "echo_of_ancient_sword",
+        "groupLabel": "고검의 잔향",
+        "entityName": "고검의 잔향 단검 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_1021.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 고검의 잔향 단검 · I\ncategory: gear\nsection: gear_set_effect\n세트 효과\n고검의 잔향\n3개 세트 효과\n: 장착자의 공격력\n+8%\n장착자가\n강타\n,\n갑옷 파괴\n피해를 줄 때,\n소모\n한 최대\n방어 불능\n스택 수치에 따라 자신의\n물리 피해\n+[6%×\n소모\n한 스택 수치]\n, 20초 동안 지속. 만약 목표가\n물리 취약\n,\n불균형\n상태거나\n오리지늄 결정\n이 부착된 상태라면 위의 버프 효과가\n1.5\n배로 변경됩니다. 버프 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_1021",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1021&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 1021,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:12:46.161097+00:00",
+        "contentHashAlgorithm": "rendered_chapters_v1",
+        "contentSha256": "9754dd3d99c3d518c43e0572ac9c017289d5407a8e3d728f87292b3d1e9921a1",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/고검의_잔향/1021_고검의_잔향_단검_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "echo_of_ancient_sword",
+        "groupLabel": "고검의 잔향",
+        "entityName": "고검의 잔향 단검 · I"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 0,
+      "code": "echo_of_ancient_sword",
+      "label": "고검의 잔향"
+    },
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    }
+  },
+  "level": 70,
+  "defense": 21,
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩",
+      "baseValue": {
+        "value": 32,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "힘",
+      "baseValue": {
+        "value": 21,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "물리 피해 보너스",
+      "baseValue": {
+        "value": 23,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": true,
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "물리 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 23,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 25.3,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 27.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 29.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ],
+    "evidenceDocumentId": "auto.gear_1021.gear_option.c2.chapter.s2.p0.ko-kr"
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_1021.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 0,
+    "code": "echo_of_ancient_sword",
+    "label": "고검의 잔향"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/고검의_잔향/1021_고검의_잔향_단검_·_I.json"
+}

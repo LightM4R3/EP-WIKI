@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_65",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 65,
+    "name": "작품: 침식 흔적"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=65&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "025e7d5e15f87735a41dbfe812a0534ecd3040589f2016ca74331e38e7547b72",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_65.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 작품: 침식 흔적\ngameEntryId: 65\n정규화 상태: query_ready\n무기 유형: 아츠 유닛 (id=4, code=arts_unit)\n기초 공격력: LV.1=49, LV.20=142, LV.40=240, LV.60=338, LV.80=436, LV.90=485\n무기 옵션: 1번=의지 증가 · 대; 2번=자연 피해 증가 · 대; 3번=억제 · 빙퇴석의 침식 흔적\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_65",
+        "gameEntryId": 65,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=65&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/65_작품_침식_흔적.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 4,
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "evidenceDocumentIds": [
+          "auto.weapon_65.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_65.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_65.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_65.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_65.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_65.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 작품: 침식 흔적\ncategory: weapon\nsection: profile\n작품: 침식 흔적\n유형\n아츠 유닛\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n경량 초자연 기술 실험실에서 계약한 작품, 예술가가 직접 조각한 금속 부품과 빙력암의 무늬가 결합해 독특한 아츠 회로를 형성합니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_65",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=65&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 65,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:42.515928+00:00",
+        "contentSha256": "025e7d5e15f87735a41dbfe812a0534ecd3040589f2016ca74331e38e7547b72",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/65_작품_침식_흔적.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "작품: 침식 흔적"
+      }
+    },
+    {
+      "documentId": "auto.weapon_65.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 작품: 침식 흔적\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n작품: 침식 흔적\n아츠 유닛\n·획득 방식\n프로토콜 통행증 보상\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n49\n485\n의지 증가 · 대\n의지\n+20\n1/3\n의지\n+156\n9/9\n자연 피해 증가 · 대\n자연 피해\n+5.6%\n1/3\n자연 피해\n+43.3%\n9/9\n억제 · 빙퇴석의 침식 흔적\n공격력\n+7.0%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+5.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+2.0%\n, 최대\n+6.0%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n1/4\n공격력\n+19.6%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+14.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+5.6%\n, 최대\n+16.8%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_65",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=65&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 65,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:42.515928+00:00",
+        "contentSha256": "025e7d5e15f87735a41dbfe812a0534ecd3040589f2016ca74331e38e7547b72",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/65_작품_침식_흔적.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "작품: 침식 흔적"
+      }
+    },
+    {
+      "documentId": "auto.weapon_65.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 작품: 침식 흔적\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n49\n-\n의지 증가 · 대\n의지\n+20\n1/3\n자연 피해 증가 · 대\n자연 피해\n+5.6%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n142\n142\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n의지 증가 · 대\n의지\n+36\n1/3\n의지\n+36\n2/5\n자연 피해 증가 · 대\n자연 피해\n+5.6%\n1/3\n자연 피해\n+5.6%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n240\n240\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n의지 증가 · 대\n의지\n+36\n2/5\n의지\n+36\n2/6\n자연 피해 증가 · 대\n자연 피해\n+5.6%\n1/4\n자연 피해\n+10.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n338\n338\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n의지 증가 · 대\n의지\n+36\n2/6\n의지\n+52\n3/8\n자연 피해 증가 · 대\n자연 피해\n+10.0%\n2/6\n자연 피해\n+10.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n436\n436\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n의지 증가 · 대\n의지\n+52\n3/8\n의지\n+52\n3/9\n자연 피해 증가 · 대\n자연 피해\n+10.0%\n2/7\n자연 피해\n+14.4%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n485\n-\n의지 증가 · 대\n의지\n+52\n3/9\n자연 피해 증가 · 대\n자연 피해\n+14.4%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_65",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=65&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 65,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:42.515928+00:00",
+        "contentSha256": "025e7d5e15f87735a41dbfe812a0534ecd3040589f2016ca74331e38e7547b72",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/65_작품_침식_흔적.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "작품: 침식 흔적"
+      }
+    },
+    {
+      "documentId": "auto.weapon_65.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 작품: 침식 흔적\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n의지 증가 · 대\n자연 피해 증가 · 대\n억제 · 빙퇴석의 침식 흔적\nRANK 1\n의지\n+20\n자연 피해\n+5.6%\n공격력\n+7.0%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+5.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+2.0%\n, 최대\n+6.0%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 2\n의지\n+36\n자연 피해\n+10.0%\n공격력\n+8.4%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+6.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+2.4%\n, 최대\n+7.2%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 3\n의지\n+52\n자연 피해\n+14.4%\n공격력\n+9.8%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+7.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+2.8%\n, 최대\n+8.4%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 4\n의지\n+68\n자연 피해\n+18.9%\n공격력\n+11.2%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+8.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+3.2%\n, 최대\n+9.6%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 5\n의지\n+84\n자연 피해\n+23.3%\n공격력\n+12.6%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+9.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+3.6%\n, 최대\n+10.8%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 6\n의지\n+100\n자연 피해\n+27.8%\n공격력\n+14.0%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+10.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+4.0%\n, 최대\n+12.0%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 7\n의지\n+116\n자연 피해\n+32.2%\n공격력\n+15.4%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+11.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+4.4%\n, 최대\n+13.2%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 8\n의지\n+132\n자연 피해\n+36.7%\n공격력\n+16.8%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+12.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+4.8%\n, 최대\n+14.4%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 9\n의지\n+156\n자연 피해\n+43.3%\n공격력\n+19.6%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+14.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+5.6%\n, 최대\n+16.8%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n의지 증가\n자연 피해 증가\n억제",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_65",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=65&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 65,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:42.515928+00:00",
+        "contentSha256": "025e7d5e15f87735a41dbfe812a0534ecd3040589f2016ca74331e38e7547b72",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/65_작품_침식_흔적.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "작품: 침식 흔적"
+      }
+    },
+    {
+      "documentId": "auto.weapon_65.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 작품: 침식 흔적\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n억제 · 빙퇴석의 침식 흔적\n기본/최대\n억제 · 빙퇴석의 침식 흔적\n잠재능력 1\n1/4\n공격력\n+7.0%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+5.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+2.0%\n, 최대\n+6.0%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 2\n2/5\n공격력\n+8.4%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+6.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+2.4%\n, 최대\n+7.2%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 3\n3/6\n공격력\n+9.8%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+7.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+2.8%\n, 최대\n+8.4%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 4\n4/7\n공격력\n+11.2%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+8.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+3.2%\n, 최대\n+9.6%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 5\n5/8\n공격력\n+12.6%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+9.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+3.6%\n, 최대\n+10.8%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 6\n6/9\n공격력\n+14.0%\n장착자가 배틀 스킬로\n자연 부착\n을 부여할 때, 팀 내의 다른 오퍼레이터가 주는 아츠 피해\n+10.0%\n, 15초 동안 지속.\n자연 부착\n이 부여된 적이 있을 때마다, 팀 내의 다른 오퍼레이터가 주는 아츠 피해 추가\n+4.0%\n, 최대\n+12.0%\n.\n같은 이름의 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_65",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=65&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 65,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:42.515928+00:00",
+        "contentSha256": "025e7d5e15f87735a41dbfe812a0534ecd3040589f2016ca74331e38e7547b72",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/65_작품_침식_흔적.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "작품: 침식 흔적"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 49
+    },
+    {
+      "level": 20,
+      "baseAttack": 142
+    },
+    {
+      "level": 40,
+      "baseAttack": 240
+    },
+    {
+      "level": 60,
+      "baseAttack": 338
+    },
+    {
+      "level": 80,
+      "baseAttack": 436
+    },
+    {
+      "level": 90,
+      "baseAttack": 485
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "의지 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_65.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "자연 피해 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_65.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "억제 · 빙퇴석의 침식 흔적",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_65.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 4,
+    "code": "arts_unit",
+    "label": "아츠 유닛"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/65_작품_침식_흔적.json"
+}

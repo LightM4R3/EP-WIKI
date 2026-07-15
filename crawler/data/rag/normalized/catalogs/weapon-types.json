@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "weapon-types",
+  "entries": [
+    {
+      "id": 3,
+      "code": "handcannon",
+      "label": "권총"
+    },
+    {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    },
+    {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    },
+    {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    },
+    {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    }
+  ]
+}

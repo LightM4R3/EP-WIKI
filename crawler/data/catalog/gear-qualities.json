@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "gearQualities",
+  "entries": [
+    {
+      "id": 0,
+      "code": "yellow",
+      "labels": { "ko-KR": "노란색 품질" },
+      "forging": {
+        "supported": true,
+        "minLevel": 0,
+        "maxLevel": 3,
+        "eligibilityStatus": "user_confirmed"
+      }
+    }
+  ]
+}

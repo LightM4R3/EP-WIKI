@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityType": "gear_set",
+  "entityId": "echo_of_ancient_sword",
+  "locale": "ko-KR",
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1023&header=0",
+    "htmlLang": "ko",
+    "xmlLang": "ko",
+    "observedAt": "2026-07-14T13:48:53+09:00"
+  },
+  "identity": { "name": "고검의 잔향" },
+  "effects": [
+    {
+      "id": "echo_of_ancient_sword.three_piece",
+      "sourceLabel": "3개 세트 효과",
+      "description": "장착자의 공격력 +8%. 장착자가 강타 또는 갑옷 파괴 피해를 줄 때, 소모한 최대 방어 불능 스택 수치에 따라 자신의 물리 피해 +[6% × 소모한 스택 수치], 20초 동안 지속. 목표가 물리 취약, 불균형 상태이거나 오리지늄 결정이 부착된 상태라면 위 버프 효과가 1.5배로 변경됩니다. 버프 효과는 중첩되지 않습니다."
+    }
+  ],
+  "sourceAnomalies": []
+}

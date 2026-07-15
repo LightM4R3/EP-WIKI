@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_792",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 792,
+    "name": "검술사 초소형 필터"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=792&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "4a6dbc0b7118f2fa0ba6694a2ab645f6d1682d0c75ec7f968ec9c6eb096b077b",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_792.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 검술사 초소형 필터\ngameEntryId: 792\n정규화 상태: query_ready\n장비 세트: 검술사 (id=2042367052, code=gear_set_79ba85ac519a)\n장비 유형: 부품 (id=2, code=component)\n품질: 노란색 품질 (id=0, code=yellow)\nLV: 70\n방어력: 21\n장비 옵션: 1번=힘 32; 2번=의지 21; 3번=물리 피해 보너스 23%\n정밀 단조 지원: 예\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_792",
+        "gameEntryId": 792,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=792&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/792_검술사_초소형_필터.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 2042367052,
+        "groupCode": "gear_set_79ba85ac519a",
+        "groupLabel": "검술사",
+        "evidenceDocumentIds": [
+          "auto.gear_792.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_792.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_792.gear_option.c2.chapter.s2.p0.ko-kr",
+          "auto.gear_792.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_792.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 검술사 초소형 필터\ncategory: gear\nsection: profile\n검술사 초소형 필터\n품질\n노란색 품질\n장비 유형\n부품\n세트\n검술사\n이 장비는 홍산 선검국에서 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n선검국이 초기에 시장에 출시한 제품 중 하나.\n\"침식 환경에선 연기 한 가닥도 치명적일 수 있습니다. 호흡 보호구 착용은 선택이 아닌 필수입니다!\"",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_792",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=792&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 792,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:51:59.915630+00:00",
+        "contentSha256": "4a6dbc0b7118f2fa0ba6694a2ab645f6d1682d0c75ec7f968ec9c6eb096b077b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/792_검술사_초소형_필터.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_79ba85ac519a",
+        "groupLabel": "검술사",
+        "entityName": "검술사 초소형 필터"
+      }
+    },
+    {
+      "documentId": "auto.gear_792.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 검술사 초소형 필터\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n16000\n*\n16000\n및\n50\n*\n50\n장비 템플릿\n무릉 물자 관리 단말기 3레벨\n속성\nLV\n70\n방어력\n+21\n힘\n+32\n의지\n+21\n물리 피해 보너스\n+23.0%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_792",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=792&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 792,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:51:59.915630+00:00",
+        "contentSha256": "4a6dbc0b7118f2fa0ba6694a2ab645f6d1682d0c75ec7f968ec9c6eb096b077b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/792_검술사_초소형_필터.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_79ba85ac519a",
+        "groupLabel": "검술사",
+        "entityName": "검술사 초소형 필터"
+      }
+    },
+    {
+      "documentId": "auto.gear_792.gear_option.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_option",
+      "content": "entity: 검술사 초소형 필터\ncategory: gear\nsection: gear_option\n정밀 단조\n정밀 단조\n적합 단조제 : 무릉 정밀 단조제\n정밀 단조 단계\n기본\n1단계\n2단계\n3단계\n힘\n+32\n+35\n+38\n+41\n의지\n+21\n+23\n+25\n+27\n물리 피해 보너스\n+23.0%\n+25.3%\n+27.6%\n+29.9%\n정밀 단조 누적 단계\n6\n12\n20",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_792",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=792&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 792,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:51:59.915630+00:00",
+        "contentSha256": "4a6dbc0b7118f2fa0ba6694a2ab645f6d1682d0c75ec7f968ec9c6eb096b077b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/792_검술사_초소형_필터.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_79ba85ac519a",
+        "groupLabel": "검술사",
+        "entityName": "검술사 초소형 필터"
+      }
+    },
+    {
+      "documentId": "auto.gear_792.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 검술사 초소형 필터\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n검술사\n부품\n3개 세트 효과:\n장착자의 불균형 효율 보너스\n+20%\n장착자가\n물리 이상\n효과를 부여한 후, 공격력 250%만큼의 추가 물리 피해[\n10\n포인트 불균형치]. 해당 효과는 15초마다 최대 1회만 발동합니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_792",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=792&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 792,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:51:59.915630+00:00",
+        "contentSha256": "4a6dbc0b7118f2fa0ba6694a2ab645f6d1682d0c75ec7f968ec9c6eb096b077b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/검술사/792_검술사_초소형_필터.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_79ba85ac519a",
+        "groupLabel": "검술사",
+        "entityName": "검술사 초소형 필터"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 2042367052,
+      "code": "gear_set_79ba85ac519a",
+      "label": "검술사"
+    },
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    }
+  },
+  "level": 70,
+  "defense": 21,
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘",
+      "baseValue": {
+        "value": 32,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "의지",
+      "baseValue": {
+        "value": 21,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 3,
+        "code": "will",
+        "label": "의지"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "물리 피해 보너스",
+      "baseValue": {
+        "value": 23,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": true,
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "의지",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "물리 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 23,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 25.3,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 27.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 29.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ],
+    "evidenceDocumentId": "auto.gear_792.gear_option.c2.chapter.s2.p0.ko-kr"
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_792.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 2042367052,
+    "code": "gear_set_79ba85ac519a",
+    "label": "검술사"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/검술사/792_검술사_초소형_필터.json"
+}

@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_839",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 839,
+    "name": "고독한 나룻배"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=839&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "b5273607766ceef9a3d24f9fd8dce608c4e89cae34d77d313f1cc900a0f7c989",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_839.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 고독한 나룻배\ngameEntryId: 839\n정규화 상태: query_ready\n무기 유형: 아츠 유닛 (id=4, code=arts_unit)\n기초 공격력: LV.1=52, LV.20=149, LV.40=252, LV.60=355, LV.80=458, LV.90=510\n무기 옵션: 1번=의지 증가 · 대; 2번=공격력 증가 · 대; 3번=억제 · 떠도는 번개\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_839",
+        "gameEntryId": 839,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=839&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/839_고독한_나룻배.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 4,
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "evidenceDocumentIds": [
+          "auto.weapon_839.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_839.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_839.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_839.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_839.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_839.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 고독한 나룻배\ncategory: weapon\nsection: profile\n고독한 나룻배\n유형\n아츠 유닛\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n홍산 선검국에서 개발한 아츠 유닛, 식양과 결합한 신형 재료를 과감하게 채택했습니다. 우수한 성능으로 아츠 효율을 대폭 높일 수 있지만, 사용자에게는 일정 수준 이상의 조작 능력이 요구됩니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_839",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=839&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 839,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:54:09.262998+00:00",
+        "contentSha256": "b5273607766ceef9a3d24f9fd8dce608c4e89cae34d77d313f1cc900a0f7c989",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/839_고독한_나룻배.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "고독한 나룻배"
+      }
+    },
+    {
+      "documentId": "auto.weapon_839.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 고독한 나룻배\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n고독한 나룻배\n아츠 유닛\n·획득 방법\n구매 센터 - 무기고 거래소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n52\n510\n의지 증가 · 대\n의지\n+20\n1/3\n의지\n+156\n9/9\n공격력 증가 · 대\n공격력\n+5%\n1/3\n공격력\n+39%\n9/9\n억제 · 떠도는 번개\n전기 피해\n+16%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+20.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+40.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\n1/4\n전기 피해\n+44.8%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+56.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+112.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_839",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=839&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 839,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:54:09.262998+00:00",
+        "contentSha256": "b5273607766ceef9a3d24f9fd8dce608c4e89cae34d77d313f1cc900a0f7c989",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/839_고독한_나룻배.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "고독한 나룻배"
+      }
+    },
+    {
+      "documentId": "auto.weapon_839.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 고독한 나룻배\ncategory: weapon\nsection: progression\n업그레이드\n돌파\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n기초 속성\n(기본/최대)\n재료 소모\n기초 공격력\n52\n-\n의지 증가 · 대\n의지\n+20\n1/3\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n149\n149\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n의지 증가 · 대\n의지\n+20\n1/3\n의지\n+36\n2/5\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n공격력\n+5.0%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n252\n252\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n의지 증가 · 대\n의지\n+36\n2/5\n의지\n+36\n2/6\n공격력 증가 · 대\n공격력\n+5.0%\n1/4\n공격력\n+9.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n355\n355\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n의지 증가 · 대\n의지\n+36\n2/6\n의지\n+52\n3/8\n공격력 증가 · 대\n공격력\n+9.0%\n2/6\n공격력\n+9.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n458\n458\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n의지 증가 · 대\n의지\n+52\n3/8\n의지\n+52\n3/9\n공격력 증가 · 대\n공격력\n+9.0%\n2/7\n공격력\n+13.0%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n510\n-\n의지 증가 · 대\n의지\n+52\n3/9\n공격력 증가 · 대\n공격력\n+13.0%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_839",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=839&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 839,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:54:09.262998+00:00",
+        "contentSha256": "b5273607766ceef9a3d24f9fd8dce608c4e89cae34d77d313f1cc900a0f7c989",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/839_고독한_나룻배.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "고독한 나룻배"
+      }
+    },
+    {
+      "documentId": "auto.weapon_839.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 고독한 나룻배\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n의지 증가 · 대\n공격력 증가 · 대\n억제 · 떠도는 번개\nRANK 1\n의지\n+20\n공격력\n+5.0%\n전기 피해\n+16.0%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+20.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+40.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\nRANK 2\n의지\n+36\n공격력\n+9.0%\n전기 피해\n+19.2%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+24.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+48.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\nRANK 3\n의지\n+52\n공격력\n+13.0%\n전기 피해\n+22.4%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+28.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+56.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\nRANK 4\n의지\n+68\n공격력\n+17.0%\n전기 피해\n+25.6%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+32.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+64.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\nRANK 5\n의지\n+84\n공격력\n+21.0%\n전기 피해\n+28.8%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+36.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+72.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\nRANK 6\n의지\n+100\n공격력\n+25.0%\n전기 피해\n+32.0%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+40.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+80.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\nRANK 7\n의지\n+116\n공격력\n+29.0%\n전기 피해\n+35.2%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+44.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+88.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\nRANK 8\n의지\n+132\n공격력\n+33.0%\n전기 피해\n+38.4%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+48.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+96.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\nRANK 9\n의지\n+156\n공격력\n+39.0%\n전기 피해\n+44.8%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+56.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+112.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n의지 증가\n공격력 증가\n억제",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_839",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=839&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 839,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:54:09.262998+00:00",
+        "contentSha256": "b5273607766ceef9a3d24f9fd8dce608c4e89cae34d77d313f1cc900a0f7c989",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/839_고독한_나룻배.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "고독한 나룻배"
+      }
+    },
+    {
+      "documentId": "auto.weapon_839.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 고독한 나룻배\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n억제\n·\n떠도는 번개\n기본/최대\n억제 · 떠도는 번개\n잠재능력 1\n1/4\n전기 피해\n+16.0%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+20.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+40.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\n잠재능력 2\n2/5\n전기 피해\n+19.2%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+24.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+48.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\n잠재능력 3\n3/6\n전기 피해\n+22.4%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+28.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+56.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\n잠재능력 4\n4/7\n전기 피해\n+25.6%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+32.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+64.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\n잠재능력 5\n5/8\n전기 피해\n+28.8%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+36.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+72.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.\n잠재능력 6\n6/9\n전기 피해\n+32.0%\n장착자가 배틀 스킬로\n아츠 이상\n을\n소모\n할 때, 배틀 스킬이 주는 전기 피해\n+40.0%\n, 20초 동안 지속.\n해당 효과는 최대 2스택까지 중첩됩니다. 중첩될 때마다 지속 시간은 따로 계산되며, 0.1초마다 최대 1회만 발동합니다.\n장착자가 궁극기를 사용한 후, 배틀 스킬이 주는 전기 피해\n+80.0%\n, 25초 동안 지속.\n해당 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_839",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=839&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 839,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:54:09.262998+00:00",
+        "contentSha256": "b5273607766ceef9a3d24f9fd8dce608c4e89cae34d77d313f1cc900a0f7c989",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/839_고독한_나룻배.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "고독한 나룻배"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 52
+    },
+    {
+      "level": 20,
+      "baseAttack": 149
+    },
+    {
+      "level": 40,
+      "baseAttack": 252
+    },
+    {
+      "level": 60,
+      "baseAttack": 355
+    },
+    {
+      "level": 80,
+      "baseAttack": 458
+    },
+    {
+      "level": 90,
+      "baseAttack": 510
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "의지 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_839.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "공격력 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_839.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "억제 · 떠도는 번개",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_839.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 4,
+    "code": "arts_unit",
+    "label": "아츠 유닛"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/839_고독한_나룻배.json"
+}

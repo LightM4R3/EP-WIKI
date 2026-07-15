@@ -1,0 +1,501 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_18",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 18,
+    "name": "알레쉬"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_18.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 알레쉬\ngameEntryId: 18\n정규화 상태: query_ready\n속성: 냉기 (id=3, code=cryo)\n무기 유형: 한손검 (id=0, code=sword)\n주요 능력치: 힘 (id=0, code=strength)\n보조 능력치: 지능 (id=2, code=intellect)\nLV.1: 힘=20, 민첩=9, 지능=13, 의지=10, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=49, 민첩=27, 지능=37, 의지=27, 기초 공격력=90, 기초 생명력=1566\nLV.40: 힘=80, 민첩=47, 지능=62, 의지=45, 기초 공격력=152, 기초 생명력=2689\nLV.60: 힘=111, 민첩=66, 지능=87, 의지=63, 기초 공격력=215, 기초 생명력=3811\nLV.80: 힘=142, 민첩=86, 지능=113, 의지=81, 기초 공격력=277, 기초 생명력=4934\nLV.90: 힘=158, 민첩=95, 지능=125, 의지=89, 기초 공격력=309, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_18",
+        "gameEntryId": 18,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 3,
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "evidenceDocumentIds": [
+          "auto.operator_18.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_18.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_18.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_18.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_18.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_18.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_18.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_18.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_18.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_18.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_18.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 알레쉬\ncategory: operator\nsection: profile\n알레쉬\n진영\n연맹 공단\n무기 유형\n한손검\n\"낚싯대야 던졌다가도 마음만 먹으면 언제든 다시 거둬들이면 되니까. 근데 인생은 안 그래요. 한 번 휘말리면 빠져나오는 게 그렇게 간단하지가 않다. 이 말이지.\"\n알레쉬는 연맹 공단 안전국 연락원의 추천으로 엔드필드 공업에 합류했다. 개척 지역에서 연락 및 엄호 임무를 맡고 있으며 동시에 엔드필드의 린수 낚시 취미 강사로도 활동하고 있다.\n그는 자신의 '지루한' 과거를 그다지 말하고 싶어 하지 않는다. 다만 그가 한때 개척 지역의 지하에서 온갖 다툼과 배신을 겪으며 몸부림쳤고, 결국 한쪽 눈을 잃고 지친 몸을 이끌고 거리에서 떠났다는 사실만 알려져 있다.\n평소 알레쉬는 린수 장사꾼으로 지내며 하루 종일 낚시에 빠져 산다. 그러나 그것이 그의 날카로운 직감과 판단력을 가리는 일은 없다. 위기 순간 그의 눈빛은 마치 낚싯바늘 끝처럼 예리해지고, 문제를 해결하는 수단은 그의 낚시 비법만큼이나 다양하다. 임무에 나설 때 그는 언제나 여유로운 웃음을 지으며, 가장 혼란스러운 상황 속에서도 기묘한 방식으로 승리를 이뤄낸다.\n\"무조건 즐겁게 살아야 해. 관리자, 이게 내가 살아보니까 알겠더라고.\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_18",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 18,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:51.394635+00:00",
+        "contentSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "알레쉬"
+      }
+    },
+    {
+      "documentId": "auto.operator_18.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 알레쉬\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n알레쉬\n성별\n남\n진영\n연맹 공단\n생일\n9월 1일\n속성\n냉기\n종족\n아나티\n한국어 CV\n임채빈\n일본어 CV\n松風雅也\n영어 CV\nHeitor Assali\n중국어 CV\n曹真",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_18",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 18,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:51.394635+00:00",
+        "contentSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "알레쉬"
+      }
+    },
+    {
+      "documentId": "auto.operator_18.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 알레쉬\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘 (주요 능력치)\n20\n49\n80\n111\n142\n158\n민첩\n9\n27\n47\n66\n86\n95\n지능 (보조 능력치)\n13\n37\n62\n87\n113\n125\n의지\n10\n27\n45\n63\n81\n89\n기초 공격력\n30\n90\n152\n215\n277\n309\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘 (주요 능력치)\n20\n-\n민첩\n9\n지능 (보조 능력치)\n13\n의지\n10\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n49\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩\n27\n지능 (보조 능력치)\n37\n의지\n27\n기초 공격력\n90\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n80\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩\n47\n지능 (보조 능력치)\n62\n의지\n45\n기초 공격력\n152\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n111\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩\n66\n지능 (보조 능력치)\n87\n의지\n63\n기초 공격력\n215\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n142\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩\n86\n지능 (보조 능력치)\n113\n의지\n81\n기초 공격력\n277\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘 (주요 능력치)\n158\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩\n95\n지능 (보조 능력치)\n125\n의지\n89\n기초 공격력\n309\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_18",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 18,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:51.394635+00:00",
+        "contentSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "알레쉬"
+      }
+    },
+    {
+      "documentId": "auto.operator_18.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 알레쉬\ncategory: operator\nsection: combat_skill\n전투 스킬\n캐스팅의 기본\n일반 공격\n일반 공격:\n적에게 최대 5단 공격을 하여\n물리 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n17\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n물리 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n물리 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n18%\n19%\n21%\n23%\n25%\n26%\n28%\n30%\n32%\n34%\n36%\n39%\n일반 공격 제2단계 배율\n10%\n11%\n12%\n13%\n14%\n15%\n16%\n17%\n18%\n19%\n21%\n23%\n일반 공격 제3단계 배율\n28%\n30%\n33%\n36%\n39%\n41%\n44%\n47%\n50%\n53%\n57%\n62%\n일반 공격 제4단계 배율\n28%\n30%\n33%\n36%\n39%\n41%\n44%\n47%\n50%\n53%\n57%\n62%\n일반 공격 제5단계 배율\n55%\n61%\n66%\n72%\n77%\n83%\n88%\n94%\n99%\n106%\n114%\n124%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n비정규 루어\n배틀 스킬\n얼음 조각을 낚아올려 전방의 목표를 향해 내리치며\n물리 피해\n를 줍니다.\n냉기 부착\n상태의 목표를 명중하면, 목표의\n냉기 부착\n을 전부\n소모\n하고, 대상에게 강제로\n동결\n상태를 부여합니다.\n소모\n한 스택 수치에 따라 스킬 게이지를 회복하며, 여러 목표를 명중했을 경우, 1회만 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n피해 배율\n200%\n220%\n240%\n260%\n280%\n300%\n320%\n340%\n360%\n385%\n415%\n450%\n부착 1스택 소모 시 회복하는 스킬 게이지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n15\n15\n15\n부착 2스택 소모 시 회복하는 스킬 게이지\n20\n20\n20\n20\n20\n20\n20\n20\n20\n25\n25\n25\n부착 3스택 소모 시 회복하는 스킬 게이지\n30\n30\n30\n30\n30\n30\n30\n30\n30\n35\n35\n35\n부착 4스택 소모 시 회복하는 스킬 게이지\n40\n40\n40\n40\n40\n40\n40\n40\n40\n45\n45\n45\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_18",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 18,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:51.394635+00:00",
+        "contentSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "알레쉬"
+      }
+    },
+    {
+      "documentId": "auto.operator_18.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 알레쉬\ncategory: operator\nsection: combat_skill\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n3상 나노플레이크 칩\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n3상 나노플레이크 칩\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n3상 나노플레이크 칩\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n얼음 낚시 기술\n연계 스킬\n근처 목표의\n아츠 이상\n효과 혹은\n오리지늄 결정\n이\n소모\n되었을 때 사용할 수 있습니다.\n적의 발밑에 구멍을 내 낚시를 시도하여,\n물리 피해\n를 주고 일정 스킬 게이지를 회복합니다. 또한 일정 확률로\n진귀한 린수\n를 낚을 수 있으며, 피해가 대폭 증가하고 스킬 게이지를 추가 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n9초\n9초\n9초\n9초\n9초\n9초\n9초\n9초\n9초\n9초\n9초\n8초\n피해 배율\n133\n147\n160\n173\n187\n200\n213\n227\n240\n257\n277\n300\n진귀한 린수를 낚을 확률\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n강화 피해 배율\n213%\n235%\n256%\n277%\n299%\n320%\n341%\n363%\n384%\n411%\n443%\n480%\n스킬 게이지 회복\n10\n10\n10\n10\n10\n12\n12\n12\n12\n13\n13\n15\n추가로 회복하는 스킬 게이지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n획득하는 궁극기 에너지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n월척이다!\n궁극기\n상상을 초월하는 거대한 린수를 낚아 올린 다음, 전방 모든 적을 향해 내리칩니다. 넓은 범위의\n냉기 피해\n를 주고\n냉기 부착\n상태를 부여하며 일정 스킬 게이지를 회복합니다. 목표를 처치할 때마다 일정량의 스킬 게이지가 추가로 회복됩니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n쿨타임\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n궁극기 피해 배율\n436%\n479%\n523%\n566%\n610%\n653%\n697%\n741%\n784%\n839%\n904%\n980%\n기초 상태에서 회복하는 스킬 게이지\n20\n20\n20\n20\n20\n20\n20\n20\n20\n25\n25\n25\n목표 처치 시 추가로 회복하는 스킬 게이지\n12\n12\n12\n12\n12\n12\n12\n12\n12\n15\n15\n15\n스킬 게이지 회복 최대치\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n불균형치\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_18",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 18,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:25:51.394635+00:00",
+        "contentSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "알레쉬"
+      }
+    },
+    {
+      "documentId": "auto.operator_18.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 알레쉬\ncategory: operator\nsection: combat_skill\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n3상 나노플레이크 칩\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n3상 나노플레이크 칩\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n3상 나노플레이크 칩\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_18",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 18,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T06:25:51.394635+00:00",
+        "contentSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "알레쉬"
+      }
+    },
+    {
+      "documentId": "auto.operator_18.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 알레쉬\ncategory: operator\nsection: operator_talent\n재능 배열\n단련\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 힘 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 힘 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 힘 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 힘 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n급속 냉동 보존 기술\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n주변의 적에게\n동결\n혹은\n오리지늄 결정\n을 부착한 후, 자신의 궁극기 에너지 획득\n3\n포인트. 자기가\n동결\n을 부여하여 해당 효과가 발동했을 경우, 궁극기 에너지\n6\n포인트 추가 획득. 해당 효과는 3초마다 최대 1회만 발동합니다.\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n주변의 적에게\n동결\n혹은\n오리지늄 결정\n을 부착한 후, 자신의 궁극기 에너지 획득\n4\n포인트. 자기가\n동결\n을 부여하여 해당 효과가 발동했을 경우, 궁극기 에너지\n8\n포인트 추가 획득. 해당 효과는 3초마다 최대 1회만 발동합니다.\n정예화 단계 2 돌파\n40\n프로토콜 프리즘\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n낚시의 달인\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n지능\n10\n포인트마다, 연계 스킬\n얼음 낚시 기술\n로 진귀한\n린수\n를 낚아올릴 확률\n+0.2%\n, 최대\n+30%\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n지능\n10\n포인트마다, 연계 스킬\n얼음 낚시 기술\n로 진귀한\n린수\n를 낚아올릴 확률\n+0.5%\n, 최대\n+30%\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n24000\n탈로시안 화폐\n*\n24000\n여유로운 낚시",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_18",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 18,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:51.394635+00:00",
+        "contentSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "알레쉬"
+      }
+    },
+    {
+      "documentId": "auto.operator_18.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 알레쉬\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n여유로운 낚시\n· α\n핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 8% 증가\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n여유로운 낚시\n· β\n핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 12% 증가\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n낚시꾼 네트워크\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n낚시꾼 네트워크 · α\n응접실에 배치 시, 오퍼레이터가 단서 1 - 연맹 공단을 수집할 확률 약간 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n낚시꾼 네트워크\n· β\n응접실에 배치 시, 오퍼레이터가 단서 1 - 연맹 공단을 수집할 확률 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_18",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 18,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:51.394635+00:00",
+        "contentSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "알레쉬"
+      }
+    },
+    {
+      "documentId": "auto.operator_18.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 알레쉬\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\n초거리 빛 반사 파이프\n*\n20\n8\n피버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_18",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 18,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:51.394635+00:00",
+        "contentSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "알레쉬"
+      }
+    },
+    {
+      "documentId": "auto.operator_18.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 알레쉬\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n린수의 반격\n잠재능력 01\n배틀 스킬\n비정규 루어\n가 스킬 게이지 회복 효과를 발동했을 떄, 추가로 스킬 게이지\n10\n포인트를 회복합니다.\n오퍼레이터 기념사진 \"낚시 친구\" 잠금 해제\n마음의 평온\n잠재능력 02\n힘\n+15\n, 지능\n+15\n미끼 없는 낚시\n잠재능력 03\n연계 스킬\n얼음 낚시 기술\n을 사용하여\n진귀한 린수\n를 낚았을 때, 팀 전체 공격력\n+15%\n,\n10\n초 동안 지속. 해당 효과는 중첩되지 않습니다.\n오퍼레이터 기념사진 \"오르내림\" 잠금 해제\n광란의 낚시팀\n잠재능력 04\n궁극기\n월척이다!\n의 사용에 필요한 궁극기 에너지\n-15%\n초특급 입질\n잠재능력 05\n궁극기\n월척이다!\n가 생명력\n50%\n이하인 목표에게 명중했을 때, 피해 배율이 기존의\n1.5\n배로 증가합니다.\n오퍼레이터 기념사진 \"낚시의 날\" 잠금 해제\n오퍼레이터 기념사진\n낚시 친구\n일러스트레이터: 嘴広コウ\n햇살도, 기온도 적당한 이런 겨울날... 린수 낚기 딱 좋은 날이지. 이런 날을 놓쳐선 안 된다고.\n오르내림\n일러스트레이터: 叶木森山\n삶이란 마치 린수의 비늘처럼 수많은 상처를 주곤 해. 한 쪽 눈을 잃은 나처럼 말이야. 재밌는 건, 눈을 잃어야만 비소로 보이는 비밀이란 것도 있더라고.\n낚시의 날\n일러스트레이터: w3\n린수 낚시에서 가장 기분 좋을 때를 묻는다면 난 낚싯대를 당기는 그 순간이라고 대답할 거야. 왜냐하면... 아직 아무것도 결정되지 않은 그 찰나에 담긴 기대감이 최고거든. 뭐가 딸려 올라올지 모르는 그 두근거림 말이야.",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_18",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=18&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 18,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:51.394635+00:00",
+        "contentSha256": "81fdec71ab721ac646593b5fe41657be829187b742e1fabad7b1c2c331bc7e12",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "알레쉬"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 3,
+      "code": "cryo",
+      "label": "냉기"
+    },
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 0,
+      "code": "strength",
+      "label": "힘"
+    },
+    "secondary": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 20,
+        "agility": 9,
+        "intellect": 13,
+        "will": 10,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 49,
+        "agility": 27,
+        "intellect": 37,
+        "will": 27,
+        "baseAttack": 90,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 80,
+        "agility": 47,
+        "intellect": 62,
+        "will": 45,
+        "baseAttack": 152,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 111,
+        "agility": 66,
+        "intellect": 87,
+        "will": 63,
+        "baseAttack": 215,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 142,
+        "agility": 86,
+        "intellect": 113,
+        "will": 81,
+        "baseAttack": 277,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 158,
+        "agility": 95,
+        "intellect": 125,
+        "will": 89,
+        "baseAttack": 309,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_18.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_18.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_18.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": []
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_18.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_18.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_18.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 3,
+    "code": "cryo",
+    "label": "냉기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/냉기/18_알레쉬.json"
+}

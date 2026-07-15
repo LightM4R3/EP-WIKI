@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "materials",
+  "entries": [
+    {
+      "id": 0,
+      "code": "talos_ii_currency",
+      "labels": { "ko-KR": "탈로시안 화폐" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260115/4559012616678/696909ce5f36488577aae751.png"
+    },
+    {
+      "id": 1,
+      "code": "beginner_combat_record",
+      "labels": { "ko-KR": "초급 작전 기록" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260303/4559012616678/69a5c0329b6600165903925b_13673ac9.png"
+    },
+    {
+      "id": 2,
+      "code": "intermediate_combat_record",
+      "labels": { "ko-KR": "중급 작전 기록" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260303/4559012616678/69a5c126a933ce49244c3b94_6ad0f152.png"
+    },
+    {
+      "id": 3,
+      "code": "advanced_combat_record",
+      "labels": { "ko-KR": "고급 작전 기록" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260303/4559012616678/69a5c225a933ce49244c3b97_6ad0f152.png"
+    },
+    {
+      "id": 4,
+      "code": "beginner_cognitive_medium",
+      "labels": { "ko-KR": "초급 인지 매개체" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260406/7690187217834/69d36a4104c7f0cc11677880_3eac6ad0.png"
+    },
+    {
+      "id": 5,
+      "code": "advanced_cognitive_medium",
+      "labels": { "ko-KR": "고급 인지 매개체" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260406/7690187217834/69d36b3304c7f0cc11677881_13673ac9.png"
+    },
+    {
+      "id": 6,
+      "code": "protocol_prism",
+      "labels": { "ko-KR": "프로토콜 프리즘" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260403/7690187217834/69cf94947c2305399ff6ec88_db193eac.png"
+    },
+    {
+      "id": 7,
+      "code": "kalcodendra",
+      "labels": { "ko-KR": "칼코덴드라" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260115/4559012616678/69690ac1133439cd5afffa74.png"
+    },
+    {
+      "id": 8,
+      "code": "chrysodendra",
+      "labels": { "ko-KR": "크리소덴드라" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260115/4559012616678/69690a9aa3432288f624afbb.png"
+    },
+    {
+      "id": 9,
+      "code": "vitrodendra",
+      "labels": { "ko-KR": "비트로덴드라" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260115/4559012616678/69690a864e40f4ca8347a49d.png"
+    },
+    {
+      "id": 10,
+      "code": "protocol_prism_set",
+      "labels": { "ko-KR": "프로토콜 프리즘 세트" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260403/7690187217834/69cf960904c7f0cc11676f74_2f76db19.png"
+    },
+    {
+      "id": 11,
+      "code": "trace_of_persistence",
+      "labels": { "ko-KR": "존속의 흔적" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260406/7690187217834/69d3709f7c2305399ff6f5f0_2f76db19.png"
+    },
+    {
+      "id": 12,
+      "code": "d96_steel_prototype_no_4",
+      "labels": { "ko-KR": "D96강 시제품 4번" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260406/7690187217834/69d36e887c2305399ff6f5eb_3eac6ad0.png"
+    },
+    {
+      "id": 13,
+      "code": "alignment_fluid",
+      "labels": { "ko-KR": "정합용 유체" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260406/7690187217834/69d36f98c58d404e53cf8a07_3eac6ad0.png"
+    },
+    {
+      "id": 14,
+      "code": "corroded_jade_leaf",
+      "labels": { "ko-KR": "침식된 옥 잎" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260117/4559012616678/696b60947c0413b3124ca52a.png"
+    },
+    {
+      "id": 15,
+      "code": "weapon_mold",
+      "labels": { "ko-KR": "모형 틀" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260406/7690187217834/69d372a904c7f0cc11677894_13673ac9.png"
+    },
+    {
+      "id": 16,
+      "code": "pale_blackstone",
+      "labels": { "ko-KR": "연한 흑암석" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260328/4559012616678/69c78de9c58d404e53cf6c08_3eac6ad0.png"
+    },
+    {
+      "id": 17,
+      "code": "blackstone",
+      "labels": { "ko-KR": "일반 흑암석" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260328/4559012616678/69c78e80c58d404e53cf6c0b_13673ac9.png"
+    },
+    {
+      "id": 18,
+      "code": "medium_weapon_mold",
+      "labels": { "ko-KR": "중형 모형 틀" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260406/7690187217834/69d3732f7c2305399ff6f5f4_f1525633.png"
+    },
+    {
+      "id": 19,
+      "code": "deep_blackstone",
+      "labels": { "ko-KR": "진한 흑암석" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260328/4559012616678/69c78f0dc58d404e53cf6c0d_56331367.png"
+    },
+    {
+      "id": 20,
+      "code": "firestone",
+      "labels": { "ko-KR": "화염석" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260328/4559012616678/69c78fd904c7f0cc11675aeb_3eac6ad0.png"
+    },
+    {
+      "id": 21,
+      "code": "wuling_management_rights",
+      "labels": { "ko-KR": "무릉 관리권" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260303/4559012616678/69a5c968a933ce49244c3bac_f1525633.png"
+    },
+    {
+      "id": 22,
+      "code": "revolutionary_equipment_parts",
+      "labels": { "ko-KR": "혁동 장비 부품" },
+      "imageUrl": "https://static.skport.com/image/rm42wiki/20260421/1118147466156/69e75dd49650be73424e9d8b_2f76db19.png"
+    }
+  ]
+}

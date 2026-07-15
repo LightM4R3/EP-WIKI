@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_283",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 283,
+    "name": "M. I. 경찰용 방어구"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=283&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "ad327ce8263f98a7cf8f36b9c69c45c3a174b47976b29f1025ccf43c368a687a",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_283.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: M. I. 경찰용 방어구\ngameEntryId: 283\n정규화 상태: query_ready\n장비 세트: M. I. 경찰용 (id=2616968129, code=gear_set_9bfa3d212476)\n장비 유형: 방어구 (id=1, code=armor)\n품질: 노란색 품질 (id=0, code=yellow)\nLV: 70\n방어력: 56\n장비 옵션: 1번=민첩 87; 2번=힘 58; 3번=오리지늄 아츠 강도 20\n정밀 단조 지원: 예\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_283",
+        "gameEntryId": 283,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=283&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/283_M._I._경찰용_방어구.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 2616968129,
+        "groupCode": "gear_set_9bfa3d212476",
+        "groupLabel": "M. I. 경찰용",
+        "evidenceDocumentIds": [
+          "auto.gear_283.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_283.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_283.gear_option.c2.chapter.s2.p0.ko-kr",
+          "auto.gear_283.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_283.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: M. I. 경찰용 방어구\ncategory: gear\nsection: profile\nM. I. 경찰용 방어구\n품질\n노란색 품질\n장비 유형\n방어구\n세트\nM. I. 경찰용\n이 장비는 미에슈코 공업에서 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\nM. I. 경찰용 시리즈 장비.\n인류와 아겔로스 간의 전쟁의 최전선에 최초로 사용되었습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_283",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=283&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 283,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:34.226825+00:00",
+        "contentSha256": "ad327ce8263f98a7cf8f36b9c69c45c3a174b47976b29f1025ccf43c368a687a",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/283_M._I._경찰용_방어구.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_9bfa3d212476",
+        "groupLabel": "M. I. 경찰용",
+        "entityName": "M. I. 경찰용 방어구"
+      }
+    },
+    {
+      "documentId": "auto.gear_283.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: M. I. 경찰용 방어구\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n8000\n*\n8000\n및\n50\n*\n50\n장비 템플릿\n장비 템플릿 상자\n속성\nLV\n70\n방어력\n+56\n민첩\n+87\n힘\n+58\n오리지늄 아츠 강도\n+20",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_283",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=283&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 283,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:34.226825+00:00",
+        "contentSha256": "ad327ce8263f98a7cf8f36b9c69c45c3a174b47976b29f1025ccf43c368a687a",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/283_M._I._경찰용_방어구.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_9bfa3d212476",
+        "groupLabel": "M. I. 경찰용",
+        "entityName": "M. I. 경찰용 방어구"
+      }
+    },
+    {
+      "documentId": "auto.gear_283.gear_option.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_option",
+      "content": "entity: M. I. 경찰용 방어구\ncategory: gear\nsection: gear_option\n정밀 단조\n정밀 단조\n적합 단조제 : 무릉 정밀 단조제\n정밀 단조 단계\n기본\n1단계\n2단계\n3단계\n민첩\n+87\n+95\n+104\n+113\n힘\n+58\n+63\n+69\n+75\n오리지늄 아츠 강도\n+20\n+22\n+24\n+26\n정밀 단조 누적 단계\n6\n12\n20",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_283",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=283&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 283,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:34.226825+00:00",
+        "contentSha256": "ad327ce8263f98a7cf8f36b9c69c45c3a174b47976b29f1025ccf43c368a687a",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/283_M._I._경찰용_방어구.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_9bfa3d212476",
+        "groupLabel": "M. I. 경찰용",
+        "entityName": "M. I. 경찰용 방어구"
+      }
+    },
+    {
+      "documentId": "auto.gear_283.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: M. I. 경찰용 방어구\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\nM. I. 경찰용\n방어구\n3개 세트 효과:\n장착자의 치명타 확률\n+5%\n.\n장착자가 적에게 치명타를 준 후, 5초 동안 공격력\n+5%\n, 최대 중첩 5스택.\n최대 중첩 시, 치명타 확률 추가\n+5%\n, 해당 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_283",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=283&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 283,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:34.226825+00:00",
+        "contentSha256": "ad327ce8263f98a7cf8f36b9c69c45c3a174b47976b29f1025ccf43c368a687a",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/283_M._I._경찰용_방어구.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_9bfa3d212476",
+        "groupLabel": "M. I. 경찰용",
+        "entityName": "M. I. 경찰용 방어구"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 2616968129,
+      "code": "gear_set_9bfa3d212476",
+      "label": "M. I. 경찰용"
+    },
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    }
+  },
+  "level": 70,
+  "defense": 56,
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩",
+      "baseValue": {
+        "value": 87,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "힘",
+      "baseValue": {
+        "value": 58,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "오리지늄 아츠 강도",
+      "baseValue": {
+        "value": 20,
+        "unit": "flat"
+      }
+    }
+  ],
+  "forging": {
+    "supported": true,
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 87,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 95,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 104,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 113,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 58,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 63,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 69,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 75,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "오리지늄 아츠 강도",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 20,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 22,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 24,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 26,
+            "unit": "flat"
+          }
+        ]
+      }
+    ],
+    "evidenceDocumentId": "auto.gear_283.gear_option.c2.chapter.s2.p0.ko-kr"
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_283.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 2616968129,
+    "code": "gear_set_9bfa3d212476",
+    "label": "M. I. 경찰용"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/M._I._경찰용/283_M._I._경찰용_방어구.json"
+}

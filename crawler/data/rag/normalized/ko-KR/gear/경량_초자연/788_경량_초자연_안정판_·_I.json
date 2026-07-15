@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_788",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 788,
+    "name": "경량 초자연 안정판 · I"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=788&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "17431e44bfd6a145f7cf66ec4a7301662bd2b75a89b38ddc80f1b60208b8a6eb",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_788.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 경량 초자연 안정판 · I\ngameEntryId: 788\n정규화 상태: query_ready\n장비 세트: 경량 초자연 (id=4212229625, code=gear_set_fb0fff599026)\n장비 유형: 부품 (id=2, code=component)\n품질: 노란색 품질 (id=0, code=yellow)\nLV: 70\n방어력: 21\n장비 옵션: 1번=민첩 32; 2번=힘 21; 3번=물리 피해 보너스 23%\n정밀 단조 지원: 예\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_788",
+        "gameEntryId": 788,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=788&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/경량_초자연/788_경량_초자연_안정판_·_I.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 4212229625,
+        "groupCode": "gear_set_fb0fff599026",
+        "groupLabel": "경량 초자연",
+        "evidenceDocumentIds": [
+          "auto.gear_788.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_788.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_788.gear_option.c2.chapter.s2.p0.ko-kr",
+          "auto.gear_788.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_788.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 경량 초자연 안정판 · I\ncategory: gear\nsection: profile\n경량 초자연 안정판 · I\n품질\n노란색 품질\n장비 유형\n부품\n세트\n경량 초자연\n이 장비는 경량 초자연 기술 실험실에서 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n경량 실험형 방호 장비.\n\"파라미터 오류로 인해 장착자가 풍선처럼 하늘로 떠오르는 현상을 방지하기 위해, 반드시 동봉된 안정판을 항상 휴대해 주시기 바랍니다. 감사합니다.\"",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_788",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=788&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 788,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:51:49.622850+00:00",
+        "contentSha256": "17431e44bfd6a145f7cf66ec4a7301662bd2b75a89b38ddc80f1b60208b8a6eb",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/경량_초자연/788_경량_초자연_안정판_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_fb0fff599026",
+        "groupLabel": "경량 초자연",
+        "entityName": "경량 초자연 안정판 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_788.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 경량 초자연 안정판 · I\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n16000\n*\n16000\n및\n50\n*\n50\n장비 템플릿\n장비 템플릿 상자\n속성\nLV\n70\n방어력\n+21\n민첩\n+32\n힘\n+21\n물리 피해 보너스\n+23.0%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_788",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=788&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 788,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:51:49.622850+00:00",
+        "contentSha256": "17431e44bfd6a145f7cf66ec4a7301662bd2b75a89b38ddc80f1b60208b8a6eb",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/경량_초자연/788_경량_초자연_안정판_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_fb0fff599026",
+        "groupLabel": "경량 초자연",
+        "entityName": "경량 초자연 안정판 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_788.gear_option.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_option",
+      "content": "entity: 경량 초자연 안정판 · I\ncategory: gear\nsection: gear_option\n정밀 단조\n정밀 단조\n적합 단조제 : 무릉 정밀 단조제\n정밀 단조 단계\n기본\n1단계\n2단계\n3단계\n민첩\n+32\n+35\n+38\n+41\n힘\n+21\n+23\n+25\n+27\n물리 피해 보너스\n+23.0%\n+25.3%\n+27.6%\n+29.9%\n정밀 단조 누적 단계\n6\n12\n20",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_788",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=788&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 788,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:51:49.622850+00:00",
+        "contentSha256": "17431e44bfd6a145f7cf66ec4a7301662bd2b75a89b38ddc80f1b60208b8a6eb",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/경량_초자연/788_경량_초자연_안정판_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_fb0fff599026",
+        "groupLabel": "경량 초자연",
+        "entityName": "경량 초자연 안정판 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_788.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 경량 초자연 안정판 · I\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n경량 초자연\n부품\n3개 세트 효과:\n장착자의 공격력\n+8%\n. 장착자가 적에게\n방어 불능\n을 부여한 후,\n물리 피해\n+8%\n, 15초 동안 지속, 최대 중첩 4스택, 목표의\n방어 불능\n스택이 4스택에 도달할 경우, 추가 물리 피해\n+16%\n, 10초 동안 지속, 해당 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_788",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=788&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 788,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:51:49.622850+00:00",
+        "contentSha256": "17431e44bfd6a145f7cf66ec4a7301662bd2b75a89b38ddc80f1b60208b8a6eb",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/경량_초자연/788_경량_초자연_안정판_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_fb0fff599026",
+        "groupLabel": "경량 초자연",
+        "entityName": "경량 초자연 안정판 · I"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 4212229625,
+      "code": "gear_set_fb0fff599026",
+      "label": "경량 초자연"
+    },
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    }
+  },
+  "level": 70,
+  "defense": 21,
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩",
+      "baseValue": {
+        "value": 32,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "힘",
+      "baseValue": {
+        "value": 21,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "물리 피해 보너스",
+      "baseValue": {
+        "value": 23,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": true,
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "물리 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 23,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 25.3,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 27.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 29.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ],
+    "evidenceDocumentId": "auto.gear_788.gear_option.c2.chapter.s2.p0.ko-kr"
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_788.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 4212229625,
+    "code": "gear_set_fb0fff599026",
+    "label": "경량 초자연"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/경량_초자연/788_경량_초자연_안정판_·_I.json"
+}

@@ -1,0 +1,471 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_21",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 21,
+    "name": "에스텔라"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_21.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 에스텔라\ngameEntryId: 21\n정규화 상태: query_ready\n속성: 냉기 (id=3, code=cryo)\n무기 유형: 장병기 (id=2, code=polearm)\n주요 능력치: 의지 (id=3, code=will)\n보조 능력치: 힘 (id=0, code=strength)\nLV.1: 힘=13, 민첩=8, 지능=14, 의지=15, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=32, 민첩=27, 지능=34, 의지=44, 기초 공격력=90, 기초 생명력=1566\nLV.40: 힘=53, 민첩=47, 지능=56, 의지=74, 기초 공격력=153, 기초 생명력=2689\nLV.60: 힘=73, 민첩=67, 지능=78, 의지=105, 기초 공격력=217, 기초 생명력=3811\nLV.80: 힘=94, 민첩=87, 지능=99, 의지=136, 기초 공격력=280, 기초 생명력=4934\nLV.90: 힘=104, 민첩=97, 지능=110, 의지=151, 기초 공격력=312, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_21",
+        "gameEntryId": 21,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 3,
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "evidenceDocumentIds": [
+          "auto.operator_21.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_21.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_21.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_21.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_21.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_21.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_21.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_21.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_21.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_21.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 에스텔라\ncategory: operator\nsection: profile\n에스텔라\n진영\n엔드필드 공업\n무기 유형\n장병기\n\"으... 온 세상이 제 몸을 짓누르고 있는 것 같아요... 무릎이 너무 아픈데...\"\n에스텔라는 엔드필드 Z7 작전팀의 멤버로 정보 수집과 통신 임무를 맡고 있고, 체력은 약한 편이다. 에스텔라는 언제나 불운이 따라다니며 가끔은 독한 농담 섞인 발언으로 팀 외의 다른 사람들로부터 거리감을 사기도 한다. 그녀의 이상은 그저 조용하고 평온한 삶을 사는 것. 왜냐하면 그녀는 자신과 같은 처지인 사람들이 너무도 많다는 걸 보아왔기 때문이다. 선택도, 변화도, 미래도 없는 그런 사람들.\n생계를 위해 격은 수많은 위험과 극한의 상황은 그녀의 외부 세계에 대한 감각을 무디게 만들었고, 동시에 자극에 대한 내성을 높여버렸다. 그 탓에 그녀는 종종 더 '격렬한' 자극을 스스로 찾곤 한다. 예컨데 헤비메탈 음악 같은 것들이다. 이런 드문 자극들은 그녀에게 소중한 '변화'와 '실감'을 안겨준다.\n에스텔라는 엔드필드에서의 일을 통해 세상을 조금이라도 더 나은 곳으로 만들고 싶어 한다. 그녀는 주변 사람들이 지금보다 가볍게 살아가기를 바란다.\n\"또 너무 무리했어요... 으음... 아무리 바쁘더라도 휴식은 꼭 챙겨야죠.\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_21",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 21,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:03.653995+00:00",
+        "contentSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "에스텔라"
+      }
+    },
+    {
+      "documentId": "auto.operator_21.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 에스텔라\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n에스텔라\n성별\n여\n진영\n엔드필드 공업\n생일\n4월 9일\n속성\n냉기\n종족\n필라인\n한국어 CV\n이은조\n일본어 CV\n高橋花林\n영어 CV\nRisa Mei\n중국어 CV\n张炜萱",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_21",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 21,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:03.653995+00:00",
+        "contentSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "에스텔라"
+      }
+    },
+    {
+      "documentId": "auto.operator_21.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 에스텔라\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘 (보조 능력치)\n13\n32\n53\n73\n94\n104\n민첩\n8\n27\n47\n67\n87\n97\n지능\n14\n34\n56\n78\n99\n110\n의지 (주요 능력치)\n15\n44\n74\n105\n136\n151\n기초 공격력\n30\n90\n153\n217\n280\n312\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘 (보조 능력치)\n13\n-\n민첩\n8\n지능\n14\n의지 (주요 능력치)\n15\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘 (보조 능력치)\n32\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩\n27\n지능\n34\n의지 (주요 능력치)\n44\n기초 공격력\n90\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘 (보조 능력치)\n53\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩\n47\n지능\n56\n의지 (주요 능력치)\n74\n기초 공격력\n153\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘 (보조 능력치)\n73\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩\n67\n지능\n78\n의지 (주요 능력치)\n105\n기초 공격력\n217\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘 (보조 능력치)\n94\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩\n87\n지능\n99\n의지 (주요 능력치)\n136\n기초 공격력\n280\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘 (보조 능력치)\n104\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩\n97\n지능\n110\n의지 (주요 능력치)\n151\n기초 공격력\n312\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_21",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 21,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:03.653995+00:00",
+        "contentSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "에스텔라"
+      }
+    },
+    {
+      "documentId": "auto.operator_21.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 에스텔라\ncategory: operator\nsection: combat_skill\n전투 스킬\n노이즈\n일반 공격\n일반 공격:\n적에게 최대 4단 공격을 하여\n물리 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n17\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n물리 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n물리 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n25%\n28%\n30%\n33%\n35%\n38%\n40%\n43%\n45%\n48%\n52%\n56%\n일반 공격 제2단계 배율\n30%\n33%\n36%\n39%\n42%\n45%\n48%\n51%\n54%\n58%\n62%\n68%\n일반 공격 제3단계 배율\n35%\n39%\n42%\n46%\n49%\n53%\n56%\n60%\n63%\n67%\n73%\n79%\n일반 공격 제4단계 배율\n40%\n44%\n48%\n52%\n56%\n60%\n64%\n68%\n72%\n77%\n83%\n90%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\nD96강 시제품 4번\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\nD96강 시제품 4번\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\nD96강 시제품 4번\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n서스테인\n배틀 스킬\n전방으로 장창을 찔러 냉기 음파를 방출합니다. 일직선상의 적에게\n냉기 피해\n를 주고\n냉기 부착\n상태를 부여합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n피해 배율\n156%\n171%\n187%\n202%\n218%\n234%\n249%\n265%\n280%\n300%\n323%\n350%\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n디스토션\n연계 스킬\n적이\n동결",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_21",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 21,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:03.653995+00:00",
+        "contentSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "에스텔라"
+      }
+    },
+    {
+      "documentId": "auto.operator_21.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 에스텔라\ncategory: operator\nsection: combat_skill\n상태일 때 사용할 수 있습니다.\n빠르게 적에게 접근하여 좁은 범위 내의 적에게\n물리 피해\n와 강제\n띄우기\n피해를 줍니다.\n동결\n상태의 적에게 명중했을 경우, 추가 피해를 주고\n물리 취약\n을 부여합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n18초\n17초\n동결 상태가 아닌 적에 대한 피해 배율\n160%\n176%\n192%\n208%\n224%\n240%\n256%\n272%\n288%\n308%\n332%\n360%\n동결 상태의 적에 대한 피해 배율\n280%\n308%\n336%\n364%\n392%\n420%\n448%\n476%\n504%\n539%\n581%\n630%\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n물리 취약 배율\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n15%\n15%\n15%\n물리 취약 지속 시간\n6초\n6초\n6초\n6초\n6초\n6초\n6초\n6초\n6초\n6초\n6초\n6초\n획득하는 궁극기 에너지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\nD96강 시제품 4번\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\nD96강 시제품 4번\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\nD96강 시제품 4번\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n트레몰로\n궁극기\n모든 힘을 쏟아 창을 힘껏 내려찍어 주변 원형 범위 내의 적에게\n물리 피해\n를 줍니다. 적이\n물리 취약\n상태라면, 대상에게 강제\n띄우기\n피해를 줍니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n70\n70\n70\n70\n70\n70\n70\n70\n70\n70\n70\n70\n쿨타임\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n피해 배율\n489%\n538%\n586%\n635%\n684%\n733%\n782%\n831%\n880%\n941%\n1014%\n1100%\n불균형치\n15\n15\n15\n15\n15\n15\n15\n15\n15\n20\n20\n20\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n18\n프로토콜 프리즘 세트\n*\n18\n6\n타키온 차폐 구조체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_21",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 21,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:26:03.653995+00:00",
+        "contentSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "에스텔라"
+      }
+    },
+    {
+      "documentId": "auto.operator_21.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 에스텔라\ncategory: operator\nsection: operator_talent\n재능 배열\n맹세\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 의지 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 의지 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 의지 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 의지 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n공감\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n매번\n쇄빙\n효과를 발동한 후, 다음에 사용한 배틀 스킬\n서스테인\n이 스킬 게이지를\n7.5\n포인트\n반환\n합니다. 해당 효과는 중첩되지 않습니다.\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n매번\n쇄빙\n효과를 발동한 후, 다음에 사용한 배틀 스킬\n서스테인\n이 스킬 게이지를\n15\n포인트\n반환\n합니다. 해당 효과는 중첩되지 않습니다.\n정예화 단계 2 돌파\n40\n프로토콜 프리즘\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n이유 있는 게으름\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n냉기 부착\n상태에 면역되며 받는\n냉기 피해\n-10%\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n냉기 부착\n상태에 면역되며 받는\n냉기 피해\n-20%\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n24000\n탈로시안 화폐\n*\n24000\n조각화 휴식",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_21",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 21,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:03.653995+00:00",
+        "contentSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "에스텔라"
+      }
+    },
+    {
+      "documentId": "auto.operator_21.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 에스텔라\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n조각화 휴식 · α\n핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 8% 증가\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n조각화 휴식 · β\n핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 12% 증가\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n감청 주파수\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n감청 주파수 · β\n응접실에 배치 시, 오퍼레이터의 단서 수집 기본 효율 20% 증가\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n감청 주파수 · γ\n응접실에 배치 시, 오퍼레이터의 단서 수집 기본 효율 30% 증가\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_21",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 21,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:03.653995+00:00",
+        "contentSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "에스텔라"
+      }
+    },
+    {
+      "documentId": "auto.operator_21.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 에스텔라\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\n정합용 유체\n*\n20\n8\n스타게이트 버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_21",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 21,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:03.653995+00:00",
+        "contentSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "에스텔라"
+      }
+    },
+    {
+      "documentId": "auto.operator_21.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 에스텔라\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n습관성 지각\n잠재능력 01\n연계 스킬\n디스토션\n이 부여하는\n물리취약\n지속 시간\n+3\n초\n오퍼레이터 기념사진 \"간혈적 사색\" 잠금 해제\n낮은 기대치\n잠재능력 02\n궁극기\n트레몰로\n의 사용에 필요한 궁극기 에너지\n-10%\n작업 연기\n잠재능력 03\n배틀 스킬\n서스테인\n이 방출하는 냉기 음파의 비행 거리\n+50%\n, 첫 번째로 명중한 적에게 주는 피해\n+40%\n오퍼레이터 기념사진 \"공유욕\" 잠금 해제\n임무보다는 목숨을\n잠재능력 04\n의지\n+10\n, 힘\n+10\n생존이 승리다\n잠재능력 05\n적에게 매번\n동결\n을 부여한 후, 획득하는 궁극기 에너지\n5\n포인트, 해당 효과는 1초마다 최대 1회만 발동합니다.\n오퍼레이터 기념사진 \"비밀의 시간\" 잠금 해제\n오퍼레이터 기념사진\n간혈적 사색\n일러스트레이터: またよし\n저기에 맺힌 이슬 한 방울이... 언제 떨어질지 궁금하지 않으신가요?\n공유욕\n일러스트레이터: 余音RinA\n한번 맛보실래요? 음... 이건 곤충이랑 식물 추출물을 섞은 영양 음료예요. 맛이 뭐랄까... 되게 신기해서요...\n비밀의 시간\n일러스트레이터: かしまき\n이런 여유... 정말 오랜만인 것 같아요. 좋아하는 사람들이랑 같이 이런 여유를 느낄 수 있다면... 정말 좋지 않을까요?",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_21",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=21&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 21,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:03.653995+00:00",
+        "contentSha256": "9a485770775df06fb890f4cc8819dbff38da3a85700f38380d24162763b0ab70",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "cryo",
+        "groupLabel": "냉기",
+        "entityName": "에스텔라"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 3,
+      "code": "cryo",
+      "label": "냉기"
+    },
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    },
+    "secondary": {
+      "id": 0,
+      "code": "strength",
+      "label": "힘"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 13,
+        "agility": 8,
+        "intellect": 14,
+        "will": 15,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 32,
+        "agility": 27,
+        "intellect": 34,
+        "will": 44,
+        "baseAttack": 90,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 53,
+        "agility": 47,
+        "intellect": 56,
+        "will": 74,
+        "baseAttack": 153,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 73,
+        "agility": 67,
+        "intellect": 78,
+        "will": 105,
+        "baseAttack": 217,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 94,
+        "agility": 87,
+        "intellect": 99,
+        "will": 136,
+        "baseAttack": 280,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 104,
+        "agility": 97,
+        "intellect": 110,
+        "will": 151,
+        "baseAttack": 312,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_21.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_21.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_21.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_21.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_21.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 3,
+    "code": "cryo",
+    "label": "냉기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/냉기/21_에스텔라.json"
+}

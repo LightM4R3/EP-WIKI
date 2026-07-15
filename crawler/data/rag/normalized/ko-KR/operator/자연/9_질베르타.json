@@ -1,0 +1,501 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_9",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 9,
+    "name": "질베르타"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_9.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 질베르타\ngameEntryId: 9\n정규화 상태: query_ready\n속성: 자연 (id=4, code=nature)\n무기 유형: 아츠 유닛 (id=4, code=arts_unit)\n주요 능력치: 의지 (id=3, code=will)\n보조 능력치: 지능 (id=2, code=intellect)\nLV.1: 힘=9, 민첩=9, 지능=16, 의지=20, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=26, 민첩=27, 지능=39, 의지=52, 기초 공격력=94, 기초 생명력=1566\nLV.40: 힘=44, 민첩=45, 지능=64, 의지=86, 기초 공격력=161, 기초 생명력=2689\nLV.60: 힘=62, 민첩=64, 지능=89, 의지=120, 기초 공격력=228, 기초 생명력=3811\nLV.80: 힘=80, 민첩=83, 지능=114, 의지=154, 기초 공격력=296, 기초 생명력=4934\nLV.90: 힘=89, 민첩=92, 지능=127, 의지=171, 기초 공격력=329, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_9",
+        "gameEntryId": 9,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 4,
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "evidenceDocumentIds": [
+          "auto.operator_9.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_9.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_9.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_9.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_9.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_9.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_9.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_9.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_9.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_9.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_9.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 질베르타\ncategory: operator\nsection: profile\n질베르타\n진영\n로도스 아일랜드\n무기 유형\n아츠 유닛\n\"안녕! 너한테서 그리움이 가득한 향기가 나... 꼭 끝나지 않은 편지처럼 말이야. 이 향기는 어디로 가게 될까?\"\n질베르타는 로도스 아일랜드 소속으로, 로도스 아일랜드와 엔드필드 공업 간의 협력에 관한 협약에 따라 특수 기술 부서에 합류해 전달자로 엔드필드 공업에 협력하고 있다. 질베르타는 주위의 중력을 제어할 수 있는 희귀한 오리지늄 아츠를 다룬다.\n엔드필드에서는 질베르타는 여러 기지와 거점 사이의 편지 전달과 정보 수송을 담당한다. 종종 문명 밴드와 개척 지역의 경계를 오가며 임무를 수행하는데, 이 일을 무척 즐기는 듯하다. 최근에는 '도전을 통해 자신을 단련한다'는 의지를 밝히며, 더 위험한 지역 임무까지 맡기를 원하고 있다.\n와파린의 말에 따르면, 질베르타의 밝고 낙천적이 태도와 미래에 대한 불안과 설렘이 뒤섞인 모습은 자신을 놀라게 했을 뿐 아니라 묘한 그리움을 불러일으켰다고 한다.\n\"짠! 전달자 아가씨가 네 편지를 갖고 날아왔다고!\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_9",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 9,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:13.929045+00:00",
+        "contentSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "질베르타"
+      }
+    },
+    {
+      "documentId": "auto.operator_9.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 질베르타\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n질베르타\n성별\n여성\n진영\n로도스 아일랜드\n생일\n11월 28일\n속성\n자연\n종족\n불포\n한국어 CV\n방시우\n일본어 CV\n大橋彩香\n영어 CV\nAnna Devlin\n중국어 CV\n王晓彤",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_9",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 9,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:13.929045+00:00",
+        "contentSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "질베르타"
+      }
+    },
+    {
+      "documentId": "auto.operator_9.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 질베르타\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘\n9\n26\n44\n62\n80\n89\n민첩\n9\n27\n45\n64\n83\n92\n지능\n(보조 능력치)\n16\n39\n64\n89\n114\n127\n의지 (주요 능력치)\n20\n52\n86\n120\n154\n171\n기초 공격력\n30\n94\n161\n228\n296\n329\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘\n9\n-\n민첩\n9\n지능\n(보조 능력치)\n16\n의지 (주요 능력치)\n20\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘\n26\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩\n27\n지능\n(보조 능력치)\n39\n의지 (주요 능력치)\n52\n기초 공격력\n94\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘\n44\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩\n45\n지능\n(보조 능력치)\n64\n의지 (주요 능력치)\n86\n기초 공격력\n161\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘\n62\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩\n64\n지능\n(보조 능력치)\n89\n의지 (주요 능력치)\n120\n기초 공격력\n228\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘\n80\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩\n83\n지능\n(보조 능력치)\n114\n의지 (주요 능력치)\n154\n기초 공격력\n296\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘\n89\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩\n92\n지능\n(보조 능력치)\n127\n의지 (주요 능력치)\n171\n기초 공격력\n329\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_9",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 9,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:13.929045+00:00",
+        "contentSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "질베르타"
+      }
+    },
+    {
+      "documentId": "auto.operator_9.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 질베르타\ncategory: operator\nsection: combat_skill\n전투 스킬\n아케인스태프 · 에너지 제어 기술\n일반 공격\n일반 공격:\n적에게 최대 4단 공격을 하여\n자연 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n16\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n자연 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n자연 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n30%\n33%\n36%\n39%\n42%\n45%\n48%\n51%\n54%\n58%\n62%\n68%\n일반 공격 제2단계 배율\n36%\n40%\n43%\n47%\n50%\n54%\n58%\n61%\n65%\n69%\n75%\n81%\n일반 공격 제3단계 배율\n41%\n45%\n49%\n53%\n57%\n61%\n65%\n69%\n73%\n78%\n84%\n91%\n일반 공격 제4단계 배율\n50%\n55%\n60%\n65%\n70%\n75%\n80%\n85%\n90%\n96%\n104%\n112%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n아케인스태프 · 중력 모드\n배틀 스킬\n지속 시전 상태에 들어가며, 전방에\n중력 특이점\n을 생성합니다.\n중력 특이점\n은 지속적으로 주변의 적을 끌어들이며, 대상에게\n자연 피해\n를 줍니다. 시전이 끝나면\n중력 특이점\n은 폭발을 일으키며 범위 내의 적에게\n자연 피해\n를 주고,\n자연 부착\n상태\n를 부여합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n인력 피해 배율\n97%\n107%\n117%\n126%\n136%\n146%\n156%\n165%\n175%\n187%\n202%\n219%\n폭발 피해 배율\n58%\n63%\n69%\n75%\n81%\n86%\n92%\n98%\n104%\n111%\n120%\n130%\n폭발 불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n3상 나노플레이크 칩\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_9",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 9,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:13.929045+00:00",
+        "contentSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "질베르타"
+      }
+    },
+    {
+      "documentId": "auto.operator_9.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 질베르타\ncategory: operator\nsection: combat_skill\n3상 나노플레이크 칩\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n3상 나노플레이크 칩\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n아케인스태프 · 매트릭스 이동\n연계 스킬\n아츠 이상\n효과를 부여한 적이 있을 때 사용할 수 있습니다.\n짧게 시전하여 목표 및 주변의 모든 적들을 중력으로 끌어당깁니다. 대상에게\n자연 피해\n를 주고, 강제\n띄우기\n피해를 줍니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n19초\n피해 배율\n140%\n154%\n168%\n182%\n196%\n210%\n224%\n238%\n252%\n270%\n291%\n315%\n불균형치\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n획득하는 궁극기 에너지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n아케인스태프 · 중력장\n궁극기\n중력 혼란 구역\n을 생성하여, 구역 내의 적에게 즉시 1회의\n자연 피해\n를 주고\n자연 부착\n상태를 부여합니다.\n중력 혼란 구역\n의 목표에게\n감속\n과\n아츠 취약\n상태를 부여합니다. 목표가\n방어 불능\n상태일 경우,\n아츠 취약\n효\n과는\n방어 불능\n스택 수치에 따라 추가로 증가됩니다.\n구역 내 목표가 띄우기 상태일 경우, 구역 효과가 종료될 때까지 띄우기 상태를 유지합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n쿨타임\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n피해 배율\n333%\n367%\n400%\n433%\n467%\n500%\n534%\n567%\n600%\n642%\n692%\n750%\n불균형치\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n중력장 지속 시간(초)\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n감속 효과\n80%\n80%\n80%\n80%\n80%\n80%\n80%\n80%\n80%\n80%\n80%\n80%\n기초 아츠 취약 효과\n18%\n18%\n18%\n22%\n22%\n22%\n26%\n26%\n26%\n30%\n30%\n30%\n방어 불능이 중첩될 때마다 증가하는 아츠 취약 효과\n1.8%\n1.8%\n1.8%\n2.20%\n2.20%\n2.20%\n2.6%\n2.6%\n2.6%\n3%\n3%\n3%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_9",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 9,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:25:13.929045+00:00",
+        "contentSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "질베르타"
+      }
+    },
+    {
+      "documentId": "auto.operator_9.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 질베르타\ncategory: operator\nsection: combat_skill\n6\n3상 나노플레이크 칩\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n3상 나노플레이크 칩\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n3상 나노플레이크 칩\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_9",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 9,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T06:25:13.929045+00:00",
+        "contentSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "질베르타"
+      }
+    },
+    {
+      "documentId": "auto.operator_9.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 질베르타\ncategory: operator\nsection: operator_talent\n재능 배열\n맹세\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 의지 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 의지 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 의지 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 의지 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n25\n프로토콜 프리즘 세트\n*\n25\n18000\n탈로시안 화폐\n*\n18000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n전달자의 노래\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n필드에 있을 때, 팀 내 모든 아군 가드, 캐스터, 서포터 오퍼레이터의 궁극기 충전 효율\n+4%\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n필드에 있을 때, 팀 내 모든 아군 가드, 캐스터, 서포터 오퍼레이터의 궁극기 충전 효율\n+4%\n정예화 단계 2 돌파\n40\n프로토콜 프리즘 세트\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n뒤늦은 편지\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n배틀 스킬\n아케인스태프 · 중력 모드\n와 연계 스킬\n아케인스태프 · 매트릭스 이동\n효과 강화: 배틀 스킬\n아케인스태프 · 중력 모드\n의 마지막 공격 또는 연계 스킬\n아케인스태프 · 매트릭스 이동\n이 최소 2명의 적에게 명중한 후, 메인 컨트롤 오퍼레이터의 생명력을\n[72+지능×0.60]\n만큼 회복합니다.\n메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다.\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n배틀 스킬\n아케인스태프 · 중력 모드\n와 연계 스킬\n아케인스태프 · 매트릭스 이동\n효과 강화: 배틀 스킬\n아케인스태프 · 중력 모드\n의 마지막 공격 또는 연계 스킬\n아케인스태프 · 매트릭스 이동\n이 최소 2명의 적에게 명중한 후, 메인 컨트롤 오퍼레이터의 생명력을\n[108+지능×0.90]\n만큼 회복합니다.\n메인 컨트롤 오퍼레이터의 생명력이 가득 차 있으면, 팀 내 생명력 백분율이 가장 낮은 오퍼레이터를 대신 치유합니다.\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n8600\n탈로시안 화폐\n*\n8600\n전달자의 가공 예술",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_9",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 9,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:13.929045+00:00",
+        "contentSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "질베르타"
+      }
+    },
+    {
+      "documentId": "auto.operator_9.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 질베르타\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n전달자의 가공 예술 ·\nβ\n제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n전달자의 가공 예술 ·\nγ\n제조실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 18% 감소\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n전달자의 무기 지식\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n전달자의 무기 지식 ·\nβ\n제조실에 배치 시, 무기 경험치 재료의 생산 효율 20% 증가\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n전달자의 무기 지식 ·\nγ\n제조실에 배치 시, 무기 경험치 재료의 생산 효율 30% 증가\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12\n타키온 차폐 구조체\n*\n12",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_9",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 9,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:13.929045+00:00",
+        "contentSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "질베르타"
+      }
+    },
+    {
+      "documentId": "auto.operator_9.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 질베르타\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1800\n탈로시안 화폐\n*\n1800\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n25600\n탈로시안 화폐\n*\n25600\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\n타키온 차폐 구조체\n*\n20\n8\n피버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_9",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 9,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:13.929045+00:00",
+        "contentSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "질베르타"
+      }
+    },
+    {
+      "documentId": "auto.operator_9.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 질베르타\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n구름을 넘어\n잠재능력 01\n배틀 스킬\n아케인스태프 · 중력 모드\n의 효과 범위\n+20%\n오퍼레이터 기념사진 \"마음에 귀 기울이며\" 잠금 해제\n바람의 여행자\n잠재능력 02\n적이 궁극기\n아케인스태프 · 중력장\n의\n중력 혼란 구역\n에 영향받을 때,\n방어 불능\n1스택마다\n아츠 취약\n의 증폭 효과가 두 배로 증가합니다. 또한 판정 시 목표가 추가로\n방어 불능\n1스택을 가진 것으로 간주합니다.(최대 4스택을 초과할 수 없습니다)\n가벼운 발걸음\n잠재능력 03\n재능\n'전달자의 노래'\n효과 강화: 궁극기 충전 효율 추가\n+5%\n오퍼레이터 기념사진 \"하늘 끝에 발을 디딘 순간\" 잠금 해제\n구름 속 춤사위\n잠재능력 04\n궁극기\n아케인스태프 · 중력장\n의 사용에 필요한 궁극기 에너지\n-15%\n특별한 편지\n잠재능력 05\n연계 스킬\n아케인스태프 · 매트릭스 이동\n쿨타임\n-2\n초, 피해 배율이 기존의\n1.3\n배로 증가합니다.\n오퍼레이터 기념사진 \"세상을 뒤흔들겠어!\" 잠금 해제\n명함 테마 \"세상을 뒤흔들겠어!\" 잠금 해제\n오퍼레이터 기념사진\n마음에 귀 기울이며\n일러스트레이터: Oycico\n전 지금 어떤 응답을 기다리고 있어요. 보낸 편지의 답장을 기다리는 사람의 마음이라는 게 이런 마음일까요?\n⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀\n하늘 끝에 발을 디딘 순간\n일러스트레이터: 一块二毛一斤\n언제부터였을까요? 뭔가 지금까지의 조급함이 사라진 것 같아요. 익숙한 그림자를 본 순간, 꼭 이 순간을 위해 여기까지 걸어온 것 같다는 생각이 들었거든요.\n세상을 뒤흔들겠어!\n일러스트레이터: LM7\n다른 방향에서 세상을 바라보는 건 어떠세요? 익숙한 풍경이 다른 풍경처럼 느껴질 거예요. 기분도, 자기의 모습조차도 달라지겠죠. 세상이 완전히 새로워질 거예요!",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_9",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=9&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 9,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:13.929045+00:00",
+        "contentSha256": "f34047a66c76edcdf3801a6a68ad8d1ff088ff98a3681517b27e18131b19cec4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "nature",
+        "groupLabel": "자연",
+        "entityName": "질베르타"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 4,
+      "code": "nature",
+      "label": "자연"
+    },
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    },
+    "secondary": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 9,
+        "agility": 9,
+        "intellect": 16,
+        "will": 20,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 26,
+        "agility": 27,
+        "intellect": 39,
+        "will": 52,
+        "baseAttack": 94,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 44,
+        "agility": 45,
+        "intellect": 64,
+        "will": 86,
+        "baseAttack": 161,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 62,
+        "agility": 64,
+        "intellect": 89,
+        "will": 120,
+        "baseAttack": 228,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 80,
+        "agility": 83,
+        "intellect": 114,
+        "will": 154,
+        "baseAttack": 296,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 89,
+        "agility": 92,
+        "intellect": 127,
+        "will": 171,
+        "baseAttack": 329,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_9.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_9.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_9.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": []
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_9.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_9.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_9.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 4,
+    "code": "nature",
+    "label": "자연"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/자연/9_질베르타.json"
+}

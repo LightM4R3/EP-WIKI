@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityId": "tangtang",
+  "locale": "en-US",
+  "documents": [
+    {
+      "documentId": "operator.tangtang.profile.en-us",
+      "section": "profile",
+      "content": "Operator profile\nName: Tangtang\nRarity: 6\nClass: Caster (id=4, code=caster, verified)\nElement: Cryo (id=3, code=cryo)\nWeapon type: Handcannon (id=3, code=handcannon)\nMain attribute: Agility (Main) (attributeId=1)\nSecondary attribute: Strength (Secondary) (attributeId=0)",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#",
+        "localizationRef": "data/localization/operator/tangtang.en-US.json#",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.progression.en-us",
+      "section": "progression",
+      "content": "Stats and materials by level\nLV.1: Strength (Secondary)=13 / Agility (Main)=23 / Intellect=8 / Will=10 / Base ATK=30 / Base HP=500; Materials: None\nLV.20: Strength (Secondary)=37 / Agility (Main)=56 / Intellect=25 / Will=29 / Base ATK=92 / Base HP=1566; Materials: Elementary Combat Record ×5, Intermediate Combat Record ×2, Advanced Combat Record ×2, T-Creds ×820\nLV.40: Strength (Secondary)=61 / Agility (Main)=91 / Intellect=42 / Will=50 / Base ATK=157 / Base HP=2689; Materials: Elementary Combat Record ×3, Intermediate Combat Record ×8, Advanced Combat Record ×24, T-Creds ×12540\nLV.60: Strength (Secondary)=86 / Agility (Main)=126 / Intellect=59 / Will=71 / Base ATK=223 / Base HP=3811; Materials: Elementary Combat Record ×4, Intermediate Combat Record ×5, Advanced Combat Record ×47, T-Creds ×23900\nLV.80: Strength (Secondary)=111 / Agility (Main)=162 / Intellect=77 / Will=91 / Base ATK=288 / Base HP=4934; Materials: Elementary Cognitive Carrier ×6, Advanced Cognitive Carrier ×46, T-Creds ×109180\nLV.90: Strength (Secondary)=123 / Agility (Main)=179 / Intellect=85 / Will=102 / Base ATK=321 / Base HP=5495; Materials: Advanced Cognitive Carrier ×58, T-Creds ×238980",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/progression",
+        "localizationRef": "data/localization/operator/tangtang.en-US.json#/progression",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.basic_attack.en-us",
+      "section": "combat_skill",
+      "content": "Basic Attack: I'LL BLOW YOUR MIND!\nBASIC ATTACK:\nAn attack with up to 5 sequences that deals Cyro DMG. As the controlled operator, Final Strike also deals 18 Stagger.\nDIVE ATTACK:\nBasic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.\nFINISHER:\nBasic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP.\nMetrics: BATK SEQ 1 Multiplier [normal_attack_stage_1_multiplier]; BATK SEQ 2 Multiplier [normal_attack_stage_2_multiplier]; BATK SEQ 3 Multiplier [normal_attack_stage_3_multiplier]; BATK SEQ 4 Multiplier [normal_attack_stage_4_multiplier]; BATK SEQ 5 Multiplier [normal_attack_stage_5_multiplier]; Finisher ATK Multiplier [finisher_multiplier]; Dive ATK Multiplier [dive_attack_multiplier]\nRANK 1: BATK SEQ 1 Multiplier=23%; BATK SEQ 2 Multiplier=25%; BATK SEQ 3 Multiplier=35%; BATK SEQ 4 Multiplier=37%; BATK SEQ 5 Multiplier=50%; Finisher ATK Multiplier=400%; Dive ATK Multiplier=80%; Materials: None\nRANK 2: BATK SEQ 1 Multiplier=25%; BATK SEQ 2 Multiplier=28%; BATK SEQ 3 Multiplier=39%; BATK SEQ 4 Multiplier=40%; BATK SEQ 5 Multiplier=55%; Finisher ATK Multiplier=440%; Dive ATK Multiplier=88%; Materials: Protoprism ×6, Kalkodendra ×1, T-Creds ×1000\nRANK 3: BATK SEQ 1 Multiplier=27%; BATK SEQ 2 Multiplier=30%; BATK SEQ 3 Multiplier=42%; BATK SEQ 4 Multiplier=44%; BATK SEQ 5 Multiplier=60%; Finisher ATK Multiplier=480%; Dive ATK Multiplier=96%; Materials: Protoprism ×12, Kalkodendra ×2, T-Creds ×2700\nRANK 4: BATK SEQ 1 Multiplier=29%; BATK SEQ 2 Multiplier=33%; BATK SEQ 3 Multiplier=46%; BATK SEQ 4 Multiplier=47%; BATK SEQ 5 Multiplier=65%; Finisher ATK Multiplier=520%; Dive ATK Multiplier=104%; Materials: Protoprism ×16, Chrysodendra ×1, T-Creds ×3200\nRANK 5: BATK SEQ 1 Multiplier=32%; BATK SEQ 2 Multiplier=35%; BATK SEQ 3 Multiplier=49%; BATK SEQ 4 Multiplier=51%; BATK SEQ 5 Multiplier=70%; Finisher ATK Multiplier=560%; Dive ATK Multiplier=112%; Materials: Protoprism ×21, Chrysodendra ×1, T-Creds ×4200\nRANK 6: BATK SEQ 1 Multiplier=34%; BATK SEQ 2 Multiplier=38%; BATK SEQ 3 Multiplier=53%; BATK SEQ 4 Multiplier=55%; BATK SEQ 5 Multiplier=75%; Finisher ATK Multiplier=600%; Dive ATK Multiplier=120%; Materials: Protoprism ×27, Chrysodendra ×2, T-Creds ×5400\nRANK 7: BATK SEQ 1 Multiplier=36%; BATK SEQ 2 Multiplier=40%; BATK SEQ 3 Multiplier=56%; BATK SEQ 4 Multiplier=58%; BATK SEQ 5 Multiplier=80%; Finisher ATK Multiplier=640%; Dive ATK Multiplier=128%; Materials: Protohedron ×6, Vitrodendra ×1, T-Creds ×8200\nRANK 8: BATK SEQ 1 Multiplier=39%; BATK SEQ 2 Multiplier=43%; BATK SEQ 3 Multiplier=60%; BATK SEQ 4 Multiplier=62%; BATK SEQ 5 Multiplier=85%; Finisher ATK Multiplier=680%; Dive ATK Multiplier=136%; Materials: Protohedron ×8, Vitrodendra ×1, T-Creds ×10500\nRANK 9: BATK SEQ 1 Multiplier=41%; BATK SEQ 2 Multiplier=45%; BATK SEQ 3 Multiplier=63%; BATK SEQ 4 Multiplier=66%; BATK SEQ 5 Multiplier=90%; Finisher ATK Multiplier=720%; Dive ATK Multiplier=144%; Materials: Protohedron ×15, Vitrodendra ×2, T-Creds ×18000\nMastery I: BATK SEQ 1 Multiplier=44%; BATK SEQ 2 Multiplier=48%; BATK SEQ 3 Multiplier=67%; BATK SEQ 4 Multiplier=70%; BATK SEQ 5 Multiplier=96%; Finisher ATK Multiplier=770%; Dive ATK Multiplier=154%; Materials: Mark of Perseverance ×1, Protohedron ×15, D96 Steel Sample 4 ×6, Blighted Jadeleaf ×3, T-Creds ×24000\nMastery II: BATK SEQ 1 Multiplier=47%; BATK SEQ 2 Multiplier=52%; BATK SEQ 3 Multiplier=73%; BATK SEQ 4 Multiplier=76%; BATK SEQ 5 Multiplier=104%; Finisher ATK Multiplier=830%; Dive ATK Multiplier=166%; Materials: Mark of Perseverance ×2, Protohedron ×24, D96 Steel Sample 4 ×16, Blighted Jadeleaf ×6, T-Creds ×30000\nMastery III: BATK SEQ 1 Multiplier=51%; BATK SEQ 2 Multiplier=56%; BATK SEQ 3 Multiplier=79%; BATK SEQ 4 Multiplier=82%; BATK SEQ 5 Multiplier=113%; Finisher ATK Multiplier=900%; Dive ATK Multiplier=180%; Materials: Mark of Perseverance ×3, Protohedron ×50, D96 Steel Sample 4 ×36, Blighted Jadeleaf ×12, T-Creds ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/0",
+        "localizationRef": "data/localization/operator/tangtang.en-US.json#/combatSkills/0",
+        "contentStatus": "needs_review",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.basic_attack",
+        "skillTypeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.battle_skill.en-us",
+      "section": "combat_skill",
+      "content": "Battle Skill: IMA WAVERIDAAH!\nTangtang jumps out from the water and fires a point-blank shot that deals Cryo DMG to the enemy and creates a Waterspout.\nCasting the battle skill also consumes all nearby Whirlpools to create additional Waterspouts and return some SP based on the number of Waterspouts created.\nWaterspout: Applies 1 stack of Cryo Infliction on enemies within range and deals Cryo DMG over time. If the battle skill creates multiple Waterspouts, they also apply Arts Susceptibility to enemies (but not another stack of Cryo Infliction).\nDMG dealt by the Waterspout is treated as Battle Skill DMG.\nMetrics: SP Cost [skill_gauge_cost]; Shooting DMG Multiplier [shot_damage_multiplier]; Shot Stagger [shot_imbalance]; DMG Multiplier (1 Waterspout) [single_tornado_damage_multiplier]; Waterspout Duration (s) [tornado_duration]; SP Return per Whirlpool [skill_gauge_return_per_vortex]; Arts Susceptibility (2 Waterspouts) [arts_vulnerability_two_tornadoes]; Arts Susceptibility (3 Waterspouts) [arts_vulnerability_three_tornadoes]; Arts Susceptibility Duration (s) [arts_vulnerability_duration]\nRANK 1: SP Cost=100; Shooting DMG Multiplier=80%; Shot Stagger=10; DMG Multiplier (1 Waterspout)=133%; Waterspout Duration (s)=3; SP Return per Whirlpool=20; Arts Susceptibility (2 Waterspouts)=3%; Arts Susceptibility (3 Waterspouts)=6%; Arts Susceptibility Duration (s)=15; Materials: None\nRANK 2: SP Cost=100; Shooting DMG Multiplier=88%; Shot Stagger=10; DMG Multiplier (1 Waterspout)=147%; Waterspout Duration (s)=3; SP Return per Whirlpool=20; Arts Susceptibility (2 Waterspouts)=3%; Arts Susceptibility (3 Waterspouts)=6%; Arts Susceptibility Duration (s)=15; Materials: Protoprism ×6, Kalkodendra ×1, T-Creds ×1000\nRANK 3: SP Cost=100; Shooting DMG Multiplier=96%; Shot Stagger=10; DMG Multiplier (1 Waterspout)=160%; Waterspout Duration (s)=3; SP Return per Whirlpool=20; Arts Susceptibility (2 Waterspouts)=3%; Arts Susceptibility (3 Waterspouts)=6%; Arts Susceptibility Duration (s)=15; Materials: Protoprism ×12, Kalkodendra ×2, T-Creds ×2700\nRANK 4: SP Cost=100; Shooting DMG Multiplier=104%; Shot Stagger=10; DMG Multiplier (1 Waterspout)=174%; Waterspout Duration (s)=3; SP Return per Whirlpool=20; Arts Susceptibility (2 Waterspouts)=3.5%; Arts Susceptibility (3 Waterspouts)=7%; Arts Susceptibility Duration (s)=15; Materials: Protoprism ×16, Chrysodendra ×1, T-Creds ×3200\nRANK 5: SP Cost=100; Shooting DMG Multiplier=112%; Shot Stagger=10; DMG Multiplier (1 Waterspout)=187%; Waterspout Duration (s)=3; SP Return per Whirlpool=20; Arts Susceptibility (2 Waterspouts)=3.5%; Arts Susceptibility (3 Waterspouts)=7%; Arts Susceptibility Duration (s)=15; Materials: Protoprism ×21, Chrysodendra ×1, T-Creds ×4200\nRANK 6: SP Cost=100; Shooting DMG Multiplier=120%; Shot Stagger=10; DMG Multiplier (1 Waterspout)=200%; Waterspout Duration (s)=3; SP Return per Whirlpool=20; Arts Susceptibility (2 Waterspouts)=3.5%; Arts Susceptibility (3 Waterspouts)=7%; Arts Susceptibility Duration (s)=15; Materials: Protoprism ×27, Chrysodendra ×2, T-Creds ×5400\nRANK 7: SP Cost=100; Shooting DMG Multiplier=128%; Shot Stagger=10; DMG Multiplier (1 Waterspout)=214%; Waterspout Duration (s)=3; SP Return per Whirlpool=20; Arts Susceptibility (2 Waterspouts)=4%; Arts Susceptibility (3 Waterspouts)=8%; Arts Susceptibility Duration (s)=15; Materials: Protohedron ×6, Vitrodendra ×1, T-Creds ×8200\nRANK 8: SP Cost=100; Shooting DMG Multiplier=136%; Shot Stagger=10; DMG Multiplier (1 Waterspout)=227%; Waterspout Duration (s)=3; SP Return per Whirlpool=20; Arts Susceptibility (2 Waterspouts)=4%; Arts Susceptibility (3 Waterspouts)=8%; Arts Susceptibility Duration (s)=15; Materials: Protohedron ×8, Vitrodendra ×1, T-Creds ×10500\nRANK 9: SP Cost=100; Shooting DMG Multiplier=144%; Shot Stagger=10; DMG Multiplier (1 Waterspout)=240%; Waterspout Duration (s)=3; SP Return per Whirlpool=20; Arts Susceptibility (2 Waterspouts)=4%; Arts Susceptibility (3 Waterspouts)=8%; Arts Susceptibility Duration (s)=15; Materials: Protohedron ×15, Vitrodendra ×2, T-Creds ×18000\nMastery I: SP Cost=100; Shooting DMG Multiplier=154%; Shot Stagger=10; DMG Multiplier (1 Waterspout)=257%; Waterspout Duration (s)=3; SP Return per Whirlpool=20; Arts Susceptibility (2 Waterspouts)=4.5%; Arts Susceptibility (3 Waterspouts)=9%; Arts Susceptibility Duration (s)=15; Materials: Mark of Perseverance ×1, Protohedron ×15, Quadrant Fitting Fluid ×6, Blighted Jadeleaf ×3, T-Creds ×24000\nMastery II: SP Cost=100; Shooting DMG Multiplier=166%; Shot Stagger=10; DMG Multiplier (1 Waterspout)=277%; Waterspout Duration (s)=3; SP Return per Whirlpool=20; Arts Susceptibility (2 Waterspouts)=4.5%; Arts Susceptibility (3 Waterspouts)=9%; Arts Susceptibility Duration (s)=15; Materials: Mark of Perseverance ×2, Protohedron ×24, Quadrant Fitting Fluid ×16, Blighted Jadeleaf ×6, T-Creds ×30000\nMastery III: SP Cost=100; Shooting DMG Multiplier=180%; Shot Stagger=10; DMG Multiplier (1 Waterspout)=300%; Waterspout Duration (s)=3; SP Return per Whirlpool=20; Arts Susceptibility (2 Waterspouts)=5%; Arts Susceptibility (3 Waterspouts)=10%; Arts Susceptibility Duration (s)=15; Materials: Mark of Perseverance ×3, Protohedron ×50, Quadrant Fitting Fluid ×36, Blighted Jadeleaf ×12, T-Creds ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/1",
+        "localizationRef": "data/localization/operator/tangtang.en-US.json#/combatSkills/1",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.battle_skill",
+        "skillTypeId": 1
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.combo_skill.en-us",
+      "section": "combat_skill",
+      "content": "Combo Skill: RIVER, TO ME!\nCOMBO TRIGGER: When applying Cryo Infliction or dealing Arts Burst DMG to an enemy.\nTangtang unleashes a powerful jet stream that penetrates all enemies in its path, deals Cryo DMG to them, and creates a Whirlpool.\nUp to 2 Whirlpools can exist in the battlefield at any time.\nMetrics: Cooldown [cooldown]; DMG Multiplier [damage_multiplier]; Stagger [imbalance]; Whirlpool Duration (s) [vortex_duration]; ultimate_energy_gain [missing in en DOM; ko-KR fallback] [ultimate_energy_gain]\nRANK 1: Cooldown=14s; DMG Multiplier=107%; Stagger=10; Whirlpool Duration (s)=30; ultimate_energy_gain [missing in en DOM; ko-KR fallback]=10; Materials: None\nRANK 2: Cooldown=14s; DMG Multiplier=117%; Stagger=10; Whirlpool Duration (s)=30; ultimate_energy_gain [missing in en DOM; ko-KR fallback]=10; Materials: Protoprism ×6, Kalkodendra ×1, T-Creds ×1000\nRANK 3: Cooldown=14s; DMG Multiplier=128%; Stagger=10; Whirlpool Duration (s)=30; ultimate_energy_gain [missing in en DOM; ko-KR fallback]=10; Materials: Protoprism ×12, Kalkodendra ×2, T-Creds ×2700\nRANK 4: Cooldown=14s; DMG Multiplier=139%; Stagger=10; Whirlpool Duration (s)=30; ultimate_energy_gain [missing in en DOM; ko-KR fallback]=10; Materials: Protoprism ×16, Chrysodendra ×1, T-Creds ×3200\nRANK 5: Cooldown=14s; DMG Multiplier=149%; Stagger=10; Whirlpool Duration (s)=30; ultimate_energy_gain [missing in en DOM; ko-KR fallback]=10; Materials: Protoprism ×21, Chrysodendra ×1, T-Creds ×4200\nRANK 6: Cooldown=14s; DMG Multiplier=160%; Stagger=10; Whirlpool Duration (s)=30; ultimate_energy_gain [missing in en DOM; ko-KR fallback]=10; Materials: Protoprism ×27, Chrysodendra ×2, T-Creds ×5400\nRANK 7: Cooldown=14s; DMG Multiplier=171%; Stagger=10; Whirlpool Duration (s)=30; ultimate_energy_gain [missing in en DOM; ko-KR fallback]=10; Materials: Protohedron ×6, Vitrodendra ×1, T-Creds ×8200\nRANK 8: Cooldown=14s; DMG Multiplier=181%; Stagger=10; Whirlpool Duration (s)=30; ultimate_energy_gain [missing in en DOM; ko-KR fallback]=10; Materials: Protohedron ×8, Vitrodendra ×1, T-Creds ×10500\nRANK 9: Cooldown=13s; DMG Multiplier=192%; Stagger=10; Whirlpool Duration (s)=30; ultimate_energy_gain [missing in en DOM; ko-KR fallback]=10; Materials: Protohedron ×15, Vitrodendra ×2, T-Creds ×18000\nMastery I: Cooldown=13s; DMG Multiplier=205%; Stagger=10; Whirlpool Duration (s)=30; ultimate_energy_gain [missing in en DOM; ko-KR fallback]=10; Materials: Mark of Perseverance ×1, Protohedron ×15, D96 Steel Sample 4 ×6, Blighted Jadeleaf ×3, T-Creds ×24000\nMastery II: Cooldown=13s; DMG Multiplier=221%; Stagger=10; Whirlpool Duration (s)=30; ultimate_energy_gain [missing in en DOM; ko-KR fallback]=10; Materials: Mark of Perseverance ×2, Protohedron ×24, D96 Steel Sample 4 ×16, Blighted Jadeleaf ×6, T-Creds ×30000\nMastery III: Cooldown=12s; DMG Multiplier=240%; Stagger=10; Whirlpool Duration (s)=30; ultimate_energy_gain [missing in en DOM; ko-KR fallback]=10; Materials: Mark of Perseverance ×3, Protohedron ×50, D96 Steel Sample 4 ×36, Blighted Jadeleaf ×12, T-Creds ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/2",
+        "localizationRef": "data/localization/operator/tangtang.en-US.json#/combatSkills/2",
+        "contentStatus": "has_source_gaps",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.combo_skill",
+        "skillTypeId": 2
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.ultimate.en-us",
+      "section": "combat_skill",
+      "content": "Ultimate: DA CHIEF SEES YOU!\nTangtang opens her eyepatch and unleashes an OLDEN STARE from her eye that temporarily locks down, immobilizes, and deals Cryo DMG over time to enemies within its area of effect.\nWhen the OLDEN STARE stops evolving, a rogue wave comes crashing down to deal massive Cryo DMG to enemies in its area of effect.\nIf the controlled operator performs a dive attack in the OLDEN STARE pattern, its evolution ends and the rogue wave is summoned immediately to deal even more Cryo DMG.\nMetrics: Ultimate Energy Cost [ultimate_energy_cost]; cooldown [missing in en DOM; ko-KR fallback] [cooldown]; DMG Over Time Total Multiplier [total_dot_multiplier]; OLDEN STARE Duration (s) [ancient_array_duration]; Rogue Wave DMG Multiplier [giant_wave_damage_multiplier]; Early Rogue Wave DMG Multiplier [early_giant_wave_damage_multiplier]; Rogue Wave Stagger [giant_wave_imbalance]; Early Rogue Wave Stagger [early_giant_wave_imbalance]\nRANK 1: Ultimate Energy Cost=90; cooldown [missing in en DOM; ko-KR fallback]=20s; DMG Over Time Total Multiplier=142%; OLDEN STARE Duration (s)=4; Rogue Wave DMG Multiplier=178%; Early Rogue Wave DMG Multiplier=311%; Rogue Wave Stagger=15; Early Rogue Wave Stagger=20; Materials: None\nRANK 2: Ultimate Energy Cost=90; cooldown [missing in en DOM; ko-KR fallback]=20s; DMG Over Time Total Multiplier=156%; OLDEN STARE Duration (s)=4; Rogue Wave DMG Multiplier=196%; Early Rogue Wave DMG Multiplier=342%; Rogue Wave Stagger=15; Early Rogue Wave Stagger=20; Materials: Protoprism ×6, Kalkodendra ×1, T-Creds ×1000\nRANK 3: Ultimate Energy Cost=90; cooldown [missing in en DOM; ko-KR fallback]=20s; DMG Over Time Total Multiplier=171%; OLDEN STARE Duration (s)=4; Rogue Wave DMG Multiplier=213%; Early Rogue Wave DMG Multiplier=373%; Rogue Wave Stagger=15; Early Rogue Wave Stagger=20; Materials: Protoprism ×12, Kalkodendra ×2, T-Creds ×2700\nRANK 4: Ultimate Energy Cost=90; cooldown [missing in en DOM; ko-KR fallback]=20s; DMG Over Time Total Multiplier=185%; OLDEN STARE Duration (s)=4; Rogue Wave DMG Multiplier=231%; Early Rogue Wave DMG Multiplier=404%; Rogue Wave Stagger=15; Early Rogue Wave Stagger=20; Materials: Protoprism ×16, Chrysodendra ×1, T-Creds ×3200\nRANK 5: Ultimate Energy Cost=90; cooldown [missing in en DOM; ko-KR fallback]=20s; DMG Over Time Total Multiplier=199%; OLDEN STARE Duration (s)=4; Rogue Wave DMG Multiplier=249%; Early Rogue Wave DMG Multiplier=436%; Rogue Wave Stagger=15; Early Rogue Wave Stagger=20; Materials: Protoprism ×21, Chrysodendra ×1, T-Creds ×4200\nRANK 6: Ultimate Energy Cost=90; cooldown [missing in en DOM; ko-KR fallback]=20s; DMG Over Time Total Multiplier=213%; OLDEN STARE Duration (s)=4; Rogue Wave DMG Multiplier=267%; Early Rogue Wave DMG Multiplier=467%; Rogue Wave Stagger=15; Early Rogue Wave Stagger=20; Materials: Protoprism ×27, Chrysodendra ×2, T-Creds ×5400\nRANK 7: Ultimate Energy Cost=90; cooldown [missing in en DOM; ko-KR fallback]=20s; DMG Over Time Total Multiplier=228%; OLDEN STARE Duration (s)=4; Rogue Wave DMG Multiplier=284%; Early Rogue Wave DMG Multiplier=498%; Rogue Wave Stagger=15; Early Rogue Wave Stagger=20; Materials: Protohedron ×6, Vitrodendra ×1, T-Creds ×8200\nRANK 8: Ultimate Energy Cost=90; cooldown [missing in en DOM; ko-KR fallback]=20s; DMG Over Time Total Multiplier=242%; OLDEN STARE Duration (s)=4; Rogue Wave DMG Multiplier=302%; Early Rogue Wave DMG Multiplier=529%; Rogue Wave Stagger=15; Early Rogue Wave Stagger=20; Materials: Protohedron ×8, Vitrodendra ×1, T-Creds ×10500\nRANK 9: Ultimate Energy Cost=90; cooldown [missing in en DOM; ko-KR fallback]=20s; DMG Over Time Total Multiplier=256%; OLDEN STARE Duration (s)=4; Rogue Wave DMG Multiplier=320%; Early Rogue Wave DMG Multiplier=560%; Rogue Wave Stagger=15; Early Rogue Wave Stagger=20; Materials: Protohedron ×15, Vitrodendra ×2, T-Creds ×18000\nMastery I: Ultimate Energy Cost=90; cooldown [missing in en DOM; ko-KR fallback]=20s; DMG Over Time Total Multiplier=274%; OLDEN STARE Duration (s)=4; Rogue Wave DMG Multiplier=342%; Early Rogue Wave DMG Multiplier=599%; Rogue Wave Stagger=15; Early Rogue Wave Stagger=20; Materials: Mark of Perseverance ×1, Protohedron ×15, Quadrant Fitting Fluid ×6, Blighted Jadeleaf ×3, T-Creds ×24000\nMastery II: Ultimate Energy Cost=90; cooldown [missing in en DOM; ko-KR fallback]=20s; DMG Over Time Total Multiplier=295%; OLDEN STARE Duration (s)=4; Rogue Wave DMG Multiplier=369%; Early Rogue Wave DMG Multiplier=646%; Rogue Wave Stagger=15; Early Rogue Wave Stagger=20; Materials: Mark of Perseverance ×2, Protohedron ×24, Quadrant Fitting Fluid ×16, Blighted Jadeleaf ×6, T-Creds ×30000\nMastery III: Ultimate Energy Cost=90; cooldown [missing in en DOM; ko-KR fallback]=20s; DMG Over Time Total Multiplier=320%; OLDEN STARE Duration (s)=4; Rogue Wave DMG Multiplier=400%; Early Rogue Wave DMG Multiplier=700%; Rogue Wave Stagger=15; Early Rogue Wave Stagger=20; Materials: Mark of Perseverance ×3, Protohedron ×50, Quadrant Fitting Fluid ×36, Blighted Jadeleaf ×12, T-Creds ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/3",
+        "localizationRef": "data/localization/operator/tangtang.en-US.json#/combatSkills/3",
+        "contentStatus": "has_source_gaps",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.ultimate",
+        "skillTypeId": 3
+      }
+    },
+    {
+      "documentId": "operator.tangtang.talent.operator.en-us",
+      "section": "operator_talent",
+      "content": "Operator talents\nAttribute Increase: Skirmisher\nSkirmisher: Operator Agility +10; Unlock conditions: 20% trust with the Operator / Promote to E1 to unlock; Materials: Protoprism ×5, T-Creds ×1000\nSkirmisher: Operator Agility +15; Unlock conditions: 50% trust with the Operator / Promote to E2 to unlock; Materials: Protoprism ×10, T-Creds ×1800\nSkirmisher: Operator Agility +15; Unlock conditions: 100% trust with the Operator / Promote to E3 to unlock; Materials: Protohedron ×10, T-Creds ×6000\nSkirmisher: Operator Agility +20; Unlock conditions: 100% trust with the Operator / Promote to E4 to unlock; Materials: Protohedron ×20, T-Creds ×12000\nTalent: Fam of Honor\nFam of Honor 1: When within a 5-meter radius of a Whirlpool, allied operators gain 10% Haste while enemies suffer 20% Slow. These effects persist for 3s after leaving the area of effect.; Unlock conditions: Promote to E1 to unlock; Materials: Protoprism ×12, T-Creds ×2400\nFam of Honor 2: When within a 5-meter radius of a Whirlpool, allied operators gain 20% Haste while enemies suffer 40% Slow. These effects persist for 3s after leaving the area of effect.; Unlock conditions: Promote to E2 to unlock; Materials: Protoprism ×40, T-Creds ×8600\nTalent: Riot Bringer\nRiot Bringer 1: During OLDEN STARE, performing a dive attack with the controlled operator ends its evolution early and creates a Waterspout. All nearby Whirlpools are also consumed and converted into additional Waterspouts.\n\nWaterspouts created this way have the same effects as those created by the battle skill IMA WAVERIDAAH! and gain DMG Dealt +40%.; Unlock conditions: Promote to E2 to unlock; Materials: Protoprism ×48, T-Creds ×10000\nRiot Bringer 2: During OLDEN STARE, performing a dive attack with the controlled operator ends its evolution early and creates a Waterspout. All nearby Whirlpools are also consumed and converted into additional Waterspouts.\n\nWaterspouts created this way have the same effects as those created by the battle skill IMA WAVERIDAAH! and gain DMG Dealt +60%.; Unlock conditions: Promote to E3 to unlock; Materials: Protohedron ×28, T-Creds ×24000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/talents/operator",
+        "localizationRef": "data/localization/operator/tangtang.en-US.json#/talents/operator",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.talent.infrastructure.en-us",
+      "section": "infrastructure_talent",
+      "content": "Base skills\nBase Skill: Supreme Chief\nSupreme Chief β: Assign to Growth Chamber to slow Mood Drop of all operators in it by 14%; Unlock conditions: Promote to E1 to unlock; Materials: Protoprism ×6, T-Creds ×1600\nSupreme Chief γ: Assign to Growth Chamber to slow Mood Drop of all operators in it by 18%; Unlock conditions: Promote to E3 to unlock; Materials: Protohedron ×12, T-Creds ×8000\nBase Skill: River's Daughter\nRiver's Daughter β: Assign to Growth Chamber to grant vitrified plant growth rate +20%; Unlock conditions: Promote to E2 to unlock; Materials: Protoprism ×12, T-Creds ×3000\nRiver's Daughter γ: Assign to Growth Chamber to grant vitrified plant growth rate +30%; Unlock conditions: Promote to E4 to unlock; Materials: Protohedron ×20, T-Creds ×20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/talents/infrastructure",
+        "localizationRef": "data/localization/operator/tangtang.en-US.json#/talents/infrastructure",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.potential.en-us",
+      "section": "potential",
+      "content": "Potentials\nPOTENTIAL 01 — Reserve Hoard: Combo skill RIVER, TO ME! improved: DMG Multiplier is increased to 1.2 times of the original, and cooldown is now -2s.\n\nBattle skill IMA WAVERIDAAH! improved: For every Whirlpool consumed and converted into a Waterspout, return 5 additional SP.\n\nUnlocks the Operator Snapshot \"Pristine Water Mirrors the Soul\"\nPOTENTIAL 02 — River's Daughter: Agility +20, Cryo DMG Dealt +10%\nPOTENTIAL 03 — Chiefly Vibe: Battle skill IMA WAVERIDAAH! improved: DMG Multiplier is increased to 1.1 times the original. When forming multiple Waterspouts, the resulting Arts Susceptibility effect is increased by +5%.\n\nUnlocks the Operator Snapshot \"Bamboo Splitter\"\nPOTENTIAL 04 — Qingbo Meditation: Ultimate DA CHIEF SEES YOU! improved: Ultimate Energy cost -15%.\nPOTENTIAL 05 — Chief's All-Eldritch Gaze: Ultimate DA CHIEF SEES YOU! improved: DMG Multiplier is increased to 1.15 times the original.\n\nTalent Riot Bringer improved: DMG effects of any Waterspout created by the ultimate DA CHIEF SEES YOU! are increased by +80%.\n\nUnlocks the Operator Snapshot \"Supreme Chief's Orders are Supreme\"\n\nUnlocks the Profile Theme \"Supreme Chief's Orders are Supreme\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/potentials",
+        "localizationRef": "data/localization/operator/tangtang.en-US.json#/potentials",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    }
+  ]
+}

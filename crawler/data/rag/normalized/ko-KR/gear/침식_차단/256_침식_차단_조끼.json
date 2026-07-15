@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_256",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 256,
+    "name": "침식 차단 조끼"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=256&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "afd1229f4125bd2f42e1207ec234d15b5539731bd97351f8cec0fbb2de46e74e",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_256.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 침식 차단 조끼\ngameEntryId: 256\n정규화 상태: query_ready\n장비 세트: 침식 차단 (id=2234615965, code=gear_set_853001fd8069)\n장비 유형: 방어구 (id=1, code=armor)\n품질: 파란색 품질 (id=2, code=blue)\nLV: 36\n방어력: 28\n장비 옵션: 1번=지능 44; 2번=힘 29; 3번=공격력 16\n정밀 단조 지원: 아니오\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_256",
+        "gameEntryId": 256,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=256&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_차단/256_침식_차단_조끼.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 2234615965,
+        "groupCode": "gear_set_853001fd8069",
+        "groupLabel": "침식 차단",
+        "evidenceDocumentIds": [
+          "auto.gear_256.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_256.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_256.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_256.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 침식 차단 조끼\ncategory: gear\nsection: profile\n침식 차단 조끼\n품질\n파란색 품질\n장비 유형\n방어구\n세트\n침식 차단\n이 장비는 엔드필드 공업에서 자체 연구하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n특수 환경 작업 시 필요한 방호 장비.\n심각한 침식 재해는 종종 말도 안 되는 회로 고장을 일으키기 때문에, 수리 시 각별한 주의가 요구됩니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_256",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=256&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 256,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:33:43.374007+00:00",
+        "contentSha256": "afd1229f4125bd2f42e1207ec234d15b5539731bd97351f8cec0fbb2de46e74e",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_차단/256_침식_차단_조끼.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_853001fd8069",
+        "groupLabel": "침식 차단",
+        "entityName": "침식 차단 조끼"
+      }
+    },
+    {
+      "documentId": "auto.gear_256.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 침식 차단 조끼\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n1200\n*\n1200\n및\n50\n*\n50\n장비 템플릿\n권한 등급 17레벨 보상\n속성\nLV\n36\n방어력\n+28\n지능\n+44\n힘\n+29\n공격력\n+16",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_256",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=256&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 256,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:33:43.374007+00:00",
+        "contentSha256": "afd1229f4125bd2f42e1207ec234d15b5539731bd97351f8cec0fbb2de46e74e",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_차단/256_침식_차단_조끼.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_853001fd8069",
+        "groupLabel": "침식 차단",
+        "entityName": "침식 차단 조끼"
+      }
+    },
+    {
+      "documentId": "auto.gear_256.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 침식 차단 조끼\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n침식 차단\n방어구\n3개 세트 효과:\n장착자의 지능\n+50\n장착자의 생명력이 80%보다 높을 때, 주는\n아츠 피해\n+20%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_256",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=256&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 256,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:33:43.374007+00:00",
+        "contentSha256": "afd1229f4125bd2f42e1207ec234d15b5539731bd97351f8cec0fbb2de46e74e",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_차단/256_침식_차단_조끼.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_853001fd8069",
+        "groupLabel": "침식 차단",
+        "entityName": "침식 차단 조끼"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 2234615965,
+      "code": "gear_set_853001fd8069",
+      "label": "침식 차단"
+    },
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    }
+  },
+  "level": 36,
+  "defense": 28,
+  "options": [
+    {
+      "slot": 1,
+      "name": "지능",
+      "baseValue": {
+        "value": 44,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 2,
+        "code": "intellect",
+        "label": "지능"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "힘",
+      "baseValue": {
+        "value": 29,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "공격력",
+      "baseValue": {
+        "value": 16,
+        "unit": "flat"
+      }
+    }
+  ],
+  "forging": {
+    "supported": false,
+    "levels": []
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_256.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 2234615965,
+    "code": "gear_set_853001fd8069",
+    "label": "침식 차단"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/침식_차단/256_침식_차단_조끼.json"
+}

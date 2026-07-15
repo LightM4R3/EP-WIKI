@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_230",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 230,
+    "name": "통합형 금속 장갑"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=230&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "281d449b916e2880f5eb9e856bca7181a556682a72138e31e9374b309476e5b9",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_230.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 통합형 금속 장갑\ngameEntryId: 230\n정규화 상태: query_ready\n장비 세트: 통합 중량형 모델 (id=1435554510, code=gear_set_558f4c2eee42)\n장비 유형: 글러브 (id=0, code=gloves)\n품질: 초록색 품질 (id=3, code=green)\nLV: 28\n방어력: 16\n장비 옵션: 1번=힘 23; 2번=의지 23; 3번=모든 피해 감소 6.3%\n정밀 단조 지원: 아니오\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_230",
+        "gameEntryId": 230,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=230&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/통합_중량형_모델/230_통합형_금속_장갑.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 1435554510,
+        "groupCode": "gear_set_558f4c2eee42",
+        "groupLabel": "통합 중량형 모델",
+        "evidenceDocumentIds": [
+          "auto.gear_230.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_230.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_230.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_230.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 통합형 금속 장갑\ncategory: gear\nsection: profile\n통합형 금속 장갑\n품질\n초록색 품질\n장비 유형\n글러브\n세트\n통합 중량형 모델\n이 장비는 엔드필드 공업에서 자체 연구하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n단순한 구조의 모듈화한 중량형 방호 장비.\n작은 지지대 두 개만으로 장착자의 무기 중량을 40% 분산시키는 놀라운 설계입니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_230",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=230&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 230,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:32:52.766691+00:00",
+        "contentSha256": "281d449b916e2880f5eb9e856bca7181a556682a72138e31e9374b309476e5b9",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/통합_중량형_모델/230_통합형_금속_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_558f4c2eee42",
+        "groupLabel": "통합 중량형 모델",
+        "entityName": "통합형 금속 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_230.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 통합형 금속 장갑\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n160\n*\n160\n및\n20\n*\n20\n장비 템플릿\n권한 등급 14레벨 보상\n속성\nLV\n28\n방어력\n+16\n힘\n+23\n의지\n+23\n모든 피해 감소\n+6.3%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_230",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=230&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 230,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:32:52.766691+00:00",
+        "contentSha256": "281d449b916e2880f5eb9e856bca7181a556682a72138e31e9374b309476e5b9",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/통합_중량형_모델/230_통합형_금속_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_558f4c2eee42",
+        "groupLabel": "통합 중량형 모델",
+        "entityName": "통합형 금속 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_230.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 통합형 금속 장갑\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n통합 중량형 모델\n보호 장갑\n3개 세트 효과:\n장착자의 생명력\n+500\n장착자가 적을 처치한 후, 생명력\n100\n포인트 회복. 해당 효과는 5초마다 최대 1회만 발동합니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_230",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=230&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 230,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:32:52.766691+00:00",
+        "contentSha256": "281d449b916e2880f5eb9e856bca7181a556682a72138e31e9374b309476e5b9",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/통합_중량형_모델/230_통합형_금속_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_558f4c2eee42",
+        "groupLabel": "통합 중량형 모델",
+        "entityName": "통합형 금속 장갑"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 1435554510,
+      "code": "gear_set_558f4c2eee42",
+      "label": "통합 중량형 모델"
+    },
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 3,
+      "code": "green",
+      "label": "초록색 품질"
+    }
+  },
+  "level": 28,
+  "defense": 16,
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘",
+      "baseValue": {
+        "value": 23,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "의지",
+      "baseValue": {
+        "value": 23,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 3,
+        "code": "will",
+        "label": "의지"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "모든 피해 감소",
+      "baseValue": {
+        "value": 6.3,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": false,
+    "levels": []
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_230.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 1435554510,
+    "code": "gear_set_558f4c2eee42",
+    "label": "통합 중량형 모델"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/통합_중량형_모델/230_통합형_금속_장갑.json"
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "operatorClasses",
+  "entries": [
+    { "id": 0, "code": "guard", "labels": { "en-US": "Guard" } },
+    { "id": 1, "code": "defender", "labels": { "en-US": "Defender" } },
+    { "id": 2, "code": "striker", "labels": { "en-US": "Striker" } },
+    { "id": 3, "code": "supporter", "labels": { "en-US": "Supporter" } },
+    {
+      "id": 4,
+      "code": "caster",
+      "labels": { "en-US": "Caster" },
+      "sourceIconSha256": [
+        "6a321062bd23b62e745c7fe6e959b37f3b68640ee86f9ee27a06d1cf75cc0b42"
+      ]
+    },
+    { "id": 5, "code": "vanguard", "labels": { "en-US": "Vanguard" } }
+  ]
+}

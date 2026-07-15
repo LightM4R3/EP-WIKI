@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ep-wiki.local/schemas/rag-document.schema.json",
+  "title": "EP-WIKI RAG document set",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "entityId", "locale", "documents"],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "entityId": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "locale": { "enum": ["ko-KR", "en-US", "ja-JP", "zh-TW"] },
+    "documents": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["documentId", "section", "content", "metadata"],
+        "properties": {
+          "documentId": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+          "section": {
+            "enum": ["profile", "progression", "combat_skill", "operator_talent", "infrastructure_talent", "potential", "weapon_option", "gear_option", "gear_set_effect"]
+          },
+          "content": { "type": "string", "minLength": 1 },
+          "metadata": {
+            "type": "object",
+            "required": ["entityType", "entityId", "sourceUrl", "contentStatus"],
+            "properties": {
+              "entityType": { "enum": ["operator", "weapon", "gear", "gear_set"] },
+              "entityId": { "type": "string" },
+              "sourceUrl": { "type": "string", "format": "uri" },
+              "canonicalRef": { "type": "string" },
+              "localizationRef": { "type": "string" },
+              "rawRef": { "type": "string" },
+              "contentStatus": { "enum": ["verified", "cross_checked", "needs_review", "has_source_gaps", "raw_rendered"] },
+              "extractionMode": { "enum": ["rendered_section"] },
+              "subTypeId": { "type": "integer", "enum": [1, 2, 4] },
+              "gameEntryId": { "type": "integer", "minimum": 1 },
+              "chapterIndex": { "type": "integer", "minimum": 0 },
+              "widgetIndex": { "type": ["integer", "null"], "minimum": 0 },
+              "chunkIndex": { "type": "integer", "minimum": 0 },
+              "observedAt": { "type": "string", "format": "date-time" },
+              "contentHashAlgorithm": { "enum": ["legacy_page_source_v0", "rendered_chapters_v1"] },
+              "contentSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+              "rarity": { "type": "integer" },
+              "classId": { "type": "integer" },
+              "classCode": { "type": "string" },
+              "elementId": { "type": "integer" },
+              "elementCode": { "type": "string" },
+              "weaponTypeId": { "type": "integer" },
+              "weaponTypeCode": { "type": "string" },
+              "primaryAttributeId": { "type": "integer" },
+              "secondaryAttributeId": { "type": "integer" },
+              "skillId": { "type": "string" },
+              "skillTypeId": { "type": "integer" },
+              "optionId": { "type": "integer" },
+              "optionCode": { "type": "string" },
+              "optionCategoryId": { "type": "integer" },
+              "optionCategoryCode": { "type": "string" },
+              "optionSlot": { "type": "integer" },
+              "optionLevelCount": { "type": "integer" },
+              "gearTypeId": { "type": "integer" },
+              "gearTypeCode": { "type": "string" },
+              "qualityId": { "type": "integer" },
+              "qualityCode": { "type": "string" },
+              "gearSetId": { "type": "integer" },
+              "gearSetCode": { "type": "string" },
+              "gearLevel": { "type": "integer" },
+              "forgingSupported": { "type": "boolean" },
+              "forgeLevelCount": { "type": "integer" },
+              "requiredPieces": { "type": "integer" },
+              "effectId": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  }
+}

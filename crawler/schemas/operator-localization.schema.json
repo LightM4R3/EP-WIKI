@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ep-wiki.local/schemas/operator-localization.schema.json",
+  "title": "EP-WIKI operator localization overlay",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "entityType", "entityId", "locale", "source", "identity", "taxonomy", "attributes", "progression", "materialLabels", "combatSkills", "talents", "potentials", "sourceAnomalies"],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "entityType": { "const": "operatorLocalization" },
+    "entityId": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "locale": { "enum": ["ko-KR", "en-US", "ja-JP", "zh-TW"] },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "url", "htmlLang", "xmlLang", "observedAt", "contentStatus"],
+      "properties": {
+        "provider": { "const": "wiki.skport.com" },
+        "url": { "type": "string", "format": "uri" },
+        "htmlLang": { "type": "string" },
+        "xmlLang": { "type": "string" },
+        "observedAt": { "type": "string", "format": "date-time" },
+        "contentStatus": { "enum": ["verified", "has_source_gaps"] }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "rarity"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "rarity": { "type": "integer", "minimum": 1, "maximum": 6 }
+      }
+    },
+    "taxonomy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["classId", "classCode", "classLabel", "classMappingStatus", "elementId", "elementCode", "elementLabel", "weaponTypeId", "weaponTypeCode", "weaponTypeLabel"],
+      "properties": {
+        "classId": { "const": 4 },
+        "classCode": { "const": "caster" },
+        "classLabel": { "const": "Caster" },
+        "classMappingStatus": { "const": "verified" },
+        "elementId": { "type": "integer" },
+        "elementCode": { "type": "string" },
+        "elementLabel": { "type": "string" },
+        "weaponTypeId": { "type": "integer" },
+        "weaponTypeCode": { "type": "string" },
+        "weaponTypeLabel": { "type": "string" }
+      }
+    },
+    "attributes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["catalogOrder", "primaryId", "secondaryId", "labels"],
+      "properties": {
+        "catalogOrder": { "const": [0, 1, 2, 3] },
+        "primaryId": { "const": 1 },
+        "secondaryId": { "const": 0 },
+        "labels": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["strength", "agility", "intellect", "will", "baseAttack", "baseHp"],
+          "properties": {
+            "strength": { "type": "string" },
+            "agility": { "type": "string" },
+            "intellect": { "type": "string" },
+            "will": { "type": "string" },
+            "baseAttack": { "type": "string" },
+            "baseHp": { "type": "string" }
+          }
+        }
+      }
+    },
+    "progression": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["levelLabels"],
+      "properties": {
+        "levelLabels": { "type": "array", "minItems": 6, "maxItems": 6, "items": { "type": "string" } }
+      }
+    },
+    "materialLabels": {
+      "type": "object",
+      "minProperties": 15,
+      "patternProperties": { "^[0-9]+$": { "type": "string", "minLength": 1 } },
+      "additionalProperties": false
+    },
+    "combatSkills": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": { "$ref": "#/$defs/skill" }
+    },
+    "talents": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["operator", "infrastructure"],
+      "properties": {
+        "operator": { "type": "array", "minItems": 3, "maxItems": 3, "items": { "$ref": "#/$defs/talent" } },
+        "infrastructure": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "$ref": "#/$defs/talent" } }
+      }
+    },
+    "potentials": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["level", "name", "sourceLabel", "description"],
+        "properties": {
+          "level": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "name": { "type": "string" },
+          "sourceLabel": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "sourceAnomalies": { "type": "array", "items": { "type": "object" } }
+  },
+  "$defs": {
+    "metric": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "sourceLabel", "sourceStatus"],
+      "properties": {
+        "code": { "type": "string" },
+        "sourceLabel": { "type": ["string", "null"] },
+        "sourceStatus": { "enum": ["present", "missing_in_locale_dom"] },
+        "fallbackLocale": { "const": "ko-KR" }
+      }
+    },
+    "localizedLevel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "sourceLabel", "values"],
+      "properties": {
+        "level": { "type": "integer", "minimum": 1, "maximum": 12 },
+        "sourceLabel": { "type": "string" },
+        "values": { "type": "object", "additionalProperties": { "type": "string" } }
+      }
+    },
+    "skill": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "order", "typeId", "typeCode", "name", "sourceType", "descriptionBlocks", "metrics", "levels"],
+      "properties": {
+        "id": { "type": "string" },
+        "order": { "type": "integer" },
+        "typeId": { "type": "integer" },
+        "typeCode": { "type": "string" },
+        "name": { "type": "string" },
+        "sourceType": { "type": "string" },
+        "descriptionBlocks": { "type": "array", "items": { "type": "string" } },
+        "metrics": { "type": "array", "items": { "$ref": "#/$defs/metric" } },
+        "levels": { "type": "array", "minItems": 12, "maxItems": 12, "items": { "$ref": "#/$defs/localizedLevel" } }
+      }
+    },
+    "talentStage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceLabel", "effect", "activationConditions"],
+      "properties": {
+        "sourceLabel": { "type": "string" },
+        "effect": { "type": "string" },
+        "activationConditions": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "talent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "order", "category", "name", "sourceType", "stages"],
+      "properties": {
+        "id": { "type": "string" },
+        "order": { "type": "integer" },
+        "category": { "enum": ["stat_bonus", "combat_talent", "infrastructure_skill"] },
+        "name": { "type": "string" },
+        "sourceType": { "type": "string" },
+        "stages": { "type": "array", "items": { "$ref": "#/$defs/talentStage" } }
+      }
+    }
+  }
+}

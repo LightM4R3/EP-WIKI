@@ -1,0 +1,277 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_732",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 732,
+    "name": "반항",
+    "rarity": 6,
+    "imageUrl": "https://static.skport.com/image/rm42wiki/20260318/4559012616678/69b9f2bbc58d404e53cf4c01_2f76db19.png"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "eb24fde07faaface6d7686ad9e370a21269d355f4167e465453b7ce4d5ebac88",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_732.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 반항\ngameEntryId: 732\n정규화 상태: query_ready\n무기 유형: 권총 (id=3, code=handcannon)\n기초 공격력: LV.1=51, LV.20=148, LV.40=250, LV.60=352, LV.80=454, LV.90=505\n무기 옵션: 1번=민첩 증가 · 대; 2번=공격력 증가 · 대; 3번=방출 · 토벌의 원한\n현재 원문에서 확정 불가: options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_732",
+        "gameEntryId": 732,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/732_반항.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 3,
+        "groupCode": "handcannon",
+        "groupLabel": "권총",
+        "evidenceDocumentIds": [
+          "auto.weapon_732.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_732.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_732.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_732.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_732.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_732.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 반항\ncategory: weapon\nsection: profile\n반항\n유형\n권총\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n홍산 선검국이 개발한 총기, 디자인은 간단하지만 재료가 탄탄하고, 휴대가 편리하여 각종 복잡한 환경에서도 제약 없이 사용할 수 있습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_732",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 732,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:49:36.677666+00:00",
+        "contentSha256": "eb24fde07faaface6d7686ad9e370a21269d355f4167e465453b7ce4d5ebac88",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/732_반항.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "handcannon",
+        "groupLabel": "권총",
+        "entityName": "반항"
+      }
+    },
+    {
+      "documentId": "auto.weapon_732.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 반항\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n반항\n권총\n·획득 방식\n구매 센터 - 무기고 교환소\n기초 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n51\n505\n민첩 증가 · 대\n민첩\n+20\n1/3\n민첩\n+156\n9/9\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n공격력\n+39.0%\n9/9\n방출 · 토벌의 원한\n냉기 피해\n+16.0%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+20.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+6.0%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n1/4\n냉기 피해\n+44.8%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+56.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+16.8%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_732",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 732,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:49:36.677666+00:00",
+        "contentSha256": "eb24fde07faaface6d7686ad9e370a21269d355f4167e465453b7ce4d5ebac88",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/732_반항.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "handcannon",
+        "groupLabel": "권총",
+        "entityName": "반항"
+      }
+    },
+    {
+      "documentId": "auto.weapon_732.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 반항\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n기초 속성\n(기본/최대)\n재료 소모\n기초 공격력\n51\n-\n민첩 증가 · 대\n민첩\n+20\n1/3\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n148\n148\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n민첩 증가 · 대\n민첩\n+20\n1/3\n민첩\n+36\n2/5\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n공격력\n+5.0%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n250\n250\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n민첩 증가 · 대\n민첩\n+36\n2/5\n민첩\n+36\n2/6\n공격력 증가 · 대\n공격력\n+5.0%\n1/4\n공격력\n+9.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n352\n352\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n민첩 증가 · 대\n민첩\n+36\n2/6\n민첩\n+52\n3/8\n공격력 증가 · 대\n공격력\n+9.0%\n2/6\n공격력\n+9.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n454\n454\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n민첩 증가 · 대\n민첩\n+52\n3/8\n민첩\n+52\n3/9\n공격력 증가 · 대\n공격력\n+9.0%\n2/7\n공격력\n+13.0%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n505\n-\n민첩 증가 · 대\n민첩\n+52\n3/9\n공격력 증가 · 대\n공격력\n+13.0%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_732",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 732,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:49:36.677666+00:00",
+        "contentSha256": "eb24fde07faaface6d7686ad9e370a21269d355f4167e465453b7ce4d5ebac88",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/732_반항.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "handcannon",
+        "groupLabel": "권총",
+        "entityName": "반항"
+      }
+    },
+    {
+      "documentId": "auto.weapon_732.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 반항\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n민첩 증가 · 대\n공격력 증가 · 대\n방출\n· 토벌의 원한\nRANK 1\n민첩\n+20\n공격력\n+5.0%\n냉기 피해\n+16.0%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+20.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+6.0%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 2\n민첩\n+36\n공격력\n+9.0%\n냉기 피해\n+19.2%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+24.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+7.2%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 3\n민첩\n+52\n공격력\n+13.0%\n냉기 피해\n+22.4%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+28.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+8.4%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 4\n민첩\n+68\n공격력\n+17.0%\n냉기 피해\n+25.6%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+32.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+9.6%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 5\n민첩\n+84\n공격력\n+21.0%\n냉기 피해\n+28.8%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+36.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+10.8%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 6\n민첩\n+100\n공격력\n+25.0%\n냉기 피해\n+32.0%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+40.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+12.0%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 7\n민첩\n+116\n공격력\n+29.0%\n냉기 피해\n+35.2%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+44.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+13.2%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 8\n민첩\n+132\n공격력\n+33.0%\n냉기 피해\n+38.4%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+48.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+14.4%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 9\n민첩\n+156\n공격력\n+39.0%\n냉기 피해\n+44.8%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+56.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+16.8%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n민첩 증가\n공격력 증가\n방출",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_732",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 732,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:49:36.677666+00:00",
+        "contentSha256": "eb24fde07faaface6d7686ad9e370a21269d355f4167e465453b7ce4d5ebac88",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/732_반항.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "handcannon",
+        "groupLabel": "권총",
+        "entityName": "반항"
+      }
+    },
+    {
+      "documentId": "auto.weapon_732.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 반항\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n방출 · 토벌의 원한\n기본/최대\n방출 · 토벌의 원한\n잠재능력 1\n1/4\n냉기 피해\n+16.0%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+20.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+6.0%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 2\n2/5\n냉기 피해\n+19.2%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+24.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+7.2%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 3\n3/6\n냉기 피해\n+22.4%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+28.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+8.4%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 4\n4/7\n냉기 피해\n+25.6%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+32.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+9.6%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 5\n5/8\n냉기 피해\n+28.8%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+36.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+10.8%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 6\n6/9\n냉기 피해\n+32.0%\n장착자가 배틀 스킬 또는 궁극기로\n냉기 부착\n을 부여하면 냉기 피해\n+40.0%\n, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로\n아츠 취약\n을 부여하면, 적이 받는 아츠 피해\n+12.0%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_732",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 732,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:49:36.677666+00:00",
+        "contentSha256": "eb24fde07faaface6d7686ad9e370a21269d355f4167e465453b7ce4d5ebac88",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/권총/732_반항.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "handcannon",
+        "groupLabel": "권총",
+        "entityName": "반항"
+      }
+    }
+  ],
+  "canonicalRef": "data/canonical/weapon/rebellion.json",
+  "taxonomy": {
+    "weaponType": {
+      "id": 3,
+      "code": "handcannon",
+      "label": "권총"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 51
+    },
+    {
+      "level": 20,
+      "baseAttack": 148
+    },
+    {
+      "level": 40,
+      "baseAttack": 250
+    },
+    {
+      "level": 60,
+      "baseAttack": 352
+    },
+    {
+      "level": 80,
+      "baseAttack": 454
+    },
+    {
+      "level": 90,
+      "baseAttack": 505
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_732.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "공격력 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_732.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "방출 · 토벌의 원한",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_732.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 3,
+    "code": "handcannon",
+    "label": "권총"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/권총/732_반항.json"
+}

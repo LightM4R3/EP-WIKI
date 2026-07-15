@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_869",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 869,
+    "name": "개척자 증량 산소 공급 장치 · I"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=869&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "55485ccff8940dd43c8bfe16bc9c227259f32c04ae2e0f16d9b788ebba7a7cb5",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_869.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 개척자 증량 산소 공급 장치 · I\ngameEntryId: 869\n정규화 상태: query_ready\n장비 세트: 개척 (id=1145026990, code=gear_set_443e330e6735)\n장비 유형: 부품 (id=2, code=component)\n품질: 노란색 품질 (id=0, code=yellow)\nLV: 70\n방어력: 21\n장비 옵션: 1번=지능 32; 2번=민첩 21; 3번=보조 능력치 20.7%\n정밀 단조 지원: 예\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_869",
+        "gameEntryId": 869,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=869&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/869_개척자_증량_산소_공급_장치_·_I.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 1145026990,
+        "groupCode": "gear_set_443e330e6735",
+        "groupLabel": "개척",
+        "evidenceDocumentIds": [
+          "auto.gear_869.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_869.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_869.gear_option.c2.chapter.s2.p0.ko-kr",
+          "auto.gear_869.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_869.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 개척자 증량 산소 공급 장치 · I\ncategory: gear\nsection: profile\n개척자 증량 산소 공급 장치 · I\n품질\n노란색 품질\n장비 유형\n부품\n세트\n개척\n이 장비는 노스마치 중공업 지원소에서 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n개척자 시리즈 장비의 순환 산소 공급 기술 덕분에, 산소 공급 장치를 착용한 사용자는 최소 4시간 동안 수중 고압 작업을 수행할 수 있습니다. 업그레이드 후에는 작업 시간이 6시간으로 늘어납니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_869",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=869&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 869,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:55:31.913321+00:00",
+        "contentSha256": "55485ccff8940dd43c8bfe16bc9c227259f32c04ae2e0f16d9b788ebba7a7cb5",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/869_개척자_증량_산소_공급_장치_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_443e330e6735",
+        "groupLabel": "개척",
+        "entityName": "개척자 증량 산소 공급 장치 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_869.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 개척자 증량 산소 공급 장치 · I\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n25000\n*\n25000\n및\n50\n*\n50\n장비 템플릿\n장비 템플릿 상자\n속성\nLV\n70\n방어력\n+21\n지능\n+32\n민첩\n+21\n보조 능력치\n+20.7%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_869",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=869&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 869,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:55:31.913321+00:00",
+        "contentSha256": "55485ccff8940dd43c8bfe16bc9c227259f32c04ae2e0f16d9b788ebba7a7cb5",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/869_개척자_증량_산소_공급_장치_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_443e330e6735",
+        "groupLabel": "개척",
+        "entityName": "개척자 증량 산소 공급 장치 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_869.gear_option.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_option",
+      "content": "entity: 개척자 증량 산소 공급 장치 · I\ncategory: gear\nsection: gear_option\n정밀 단조\n정밀 단조\n적합 단조제 : 무릉 정밀 단조제\n정밀 단조 단계\n기본\n1단계\n2단계\n3단계\n지능\n+32\n+35\n+38\n+41\n민첩\n+21\n+23\n+25\n+27\n보조 능력치\n+20.7%\n+22.8%\n+24.8%\n+26.9%\n정밀 단조 누적 단계\n6\n12\n20",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_869",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=869&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 869,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:55:31.913321+00:00",
+        "contentSha256": "55485ccff8940dd43c8bfe16bc9c227259f32c04ae2e0f16d9b788ebba7a7cb5",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/869_개척자_증량_산소_공급_장치_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_443e330e6735",
+        "groupLabel": "개척",
+        "entityName": "개척자 증량 산소 공급 장치 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_869.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 개척자 증량 산소 공급 장치 · I\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n개척\n부품\n3개 세트 효과:\n장착자의 연계 스킬 쿨타임 감소\n+15%\n장착자가 스킬을 사용하여 스킬 게이지를 회복한 후, 팀 전체가 주는 피해\n+16%\n,\n15초 동안 지속. 해당 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_869",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=869&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 869,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:55:31.913321+00:00",
+        "contentSha256": "55485ccff8940dd43c8bfe16bc9c227259f32c04ae2e0f16d9b788ebba7a7cb5",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/개척/869_개척자_증량_산소_공급_장치_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_443e330e6735",
+        "groupLabel": "개척",
+        "entityName": "개척자 증량 산소 공급 장치 · I"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 1145026990,
+      "code": "gear_set_443e330e6735",
+      "label": "개척"
+    },
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    }
+  },
+  "level": 70,
+  "defense": 21,
+  "options": [
+    {
+      "slot": 1,
+      "name": "지능",
+      "baseValue": {
+        "value": 32,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 2,
+        "code": "intellect",
+        "label": "지능"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "민첩",
+      "baseValue": {
+        "value": 21,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "보조 능력치",
+      "baseValue": {
+        "value": 20.7,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": true,
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "지능",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 32,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 35,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 38,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 41,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 21,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 23,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 25,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 27,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "보조 능력치",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 20.7,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 22.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 24.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 26.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ],
+    "evidenceDocumentId": "auto.gear_869.gear_option.c2.chapter.s2.p0.ko-kr"
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_869.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 1145026990,
+    "code": "gear_set_443e330e6735",
+    "label": "개척"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/개척/869_개척자_증량_산소_공급_장치_·_I.json"
+}

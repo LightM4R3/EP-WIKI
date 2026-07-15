@@ -1,0 +1,1102 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityType": "operatorLocalization",
+  "entityId": "tangtang",
+  "locale": "ko-KR",
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+    "htmlLang": "ko",
+    "xmlLang": "ko",
+    "observedAt": "2026-07-13T17:37:39+09:00",
+    "contentStatus": "verified"
+  },
+  "identity": {
+    "name": "탕탕",
+    "rarity": 6
+  },
+  "taxonomy": {
+    "classId": 4,
+    "classCode": "caster",
+    "classLabel": "Caster",
+    "classMappingStatus": "verified",
+    "elementId": 3,
+    "elementCode": "cryo",
+    "elementLabel": "냉기",
+    "weaponTypeId": 3,
+    "weaponTypeCode": "handcannon",
+    "weaponTypeLabel": "권총"
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primaryId": 1,
+    "secondaryId": 0,
+    "labels": {
+      "strength": "힘 (보조 능력치)",
+      "agility": "민첩 (주요 능력치)",
+      "intellect": "지능",
+      "will": "의지",
+      "baseAttack": "기초 공격력",
+      "baseHp": "기초 생명력"
+    }
+  },
+  "progression": {
+    "levelLabels": [
+      "LV.1",
+      "LV.20",
+      "LV.40",
+      "LV.60",
+      "LV.80",
+      "LV.90"
+    ]
+  },
+  "materialLabels": {
+    "0": "탈로시안 화폐",
+    "1": "초급 작전 기록",
+    "2": "중급 작전 기록",
+    "3": "고급 작전 기록",
+    "4": "초급 인지 매개체",
+    "5": "고급 인지 매개체",
+    "6": "프로토콜 프리즘",
+    "7": "칼코덴드라",
+    "8": "크리소덴드라",
+    "9": "비트로덴드라",
+    "10": "프로토콜 프리즘 세트",
+    "11": "존속의 흔적",
+    "12": "D96강 시제품 4번",
+    "13": "정합용 유체",
+    "14": "침식된 옥 잎"
+  },
+  "combatSkills": [
+    {
+      "id": "tangtang.basic_attack",
+      "order": 0,
+      "typeId": 0,
+      "typeCode": "basic_attack",
+      "name": "정신 똑바로 차려!",
+      "sourceType": "일반 공격",
+      "descriptionBlocks": [
+        "일반 공격:",
+        "적에게 최대 5단 공격을 하여 냉기 피해를 줍니다. 메인 컨트롤 오퍼레이터라면 강력한 일격이 18포인트의 불균형 피해를 줍니다.",
+        "낙하 공격:",
+        "공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고 냉기 피해를 줍니다.",
+        "처형 공격:",
+        "주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의 냉기 피해를 주고 일정량의 스킬 게이지를 회복합니다."
+      ],
+      "metrics": [
+        {
+          "code": "normal_attack_stage_1_multiplier",
+          "sourceLabel": "일반 공격 제1단계 배율",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_2_multiplier",
+          "sourceLabel": "일반 공격 제2단계 배율",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_3_multiplier",
+          "sourceLabel": "일반 공격 제3단계 배율",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_4_multiplier",
+          "sourceLabel": "일반 공격 제4단계 배율",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_5_multiplier",
+          "sourceLabel": "일반 공격 제5단계 배율",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "finisher_multiplier",
+          "sourceLabel": "처형 공격 배율",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "dive_attack_multiplier",
+          "sourceLabel": "낙하 공격 배율",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK1",
+          "values": {
+            "normal_attack_stage_1_multiplier": "23%",
+            "normal_attack_stage_2_multiplier": "25%",
+            "normal_attack_stage_3_multiplier": "35%",
+            "normal_attack_stage_4_multiplier": "37%",
+            "normal_attack_stage_5_multiplier": "50%",
+            "finisher_multiplier": "400%",
+            "dive_attack_multiplier": "80%"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK2",
+          "values": {
+            "normal_attack_stage_1_multiplier": "25%",
+            "normal_attack_stage_2_multiplier": "28%",
+            "normal_attack_stage_3_multiplier": "39%",
+            "normal_attack_stage_4_multiplier": "40%",
+            "normal_attack_stage_5_multiplier": "55%",
+            "finisher_multiplier": "440%",
+            "dive_attack_multiplier": "88%"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK3",
+          "values": {
+            "normal_attack_stage_1_multiplier": "27%",
+            "normal_attack_stage_2_multiplier": "30%",
+            "normal_attack_stage_3_multiplier": "42%",
+            "normal_attack_stage_4_multiplier": "44%",
+            "normal_attack_stage_5_multiplier": "60%",
+            "finisher_multiplier": "480%",
+            "dive_attack_multiplier": "96%"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK4",
+          "values": {
+            "normal_attack_stage_1_multiplier": "29%",
+            "normal_attack_stage_2_multiplier": "33%",
+            "normal_attack_stage_3_multiplier": "46%",
+            "normal_attack_stage_4_multiplier": "47%",
+            "normal_attack_stage_5_multiplier": "65%",
+            "finisher_multiplier": "520%",
+            "dive_attack_multiplier": "104%"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK5",
+          "values": {
+            "normal_attack_stage_1_multiplier": "32%",
+            "normal_attack_stage_2_multiplier": "35%",
+            "normal_attack_stage_3_multiplier": "49%",
+            "normal_attack_stage_4_multiplier": "51%",
+            "normal_attack_stage_5_multiplier": "70%",
+            "finisher_multiplier": "560%",
+            "dive_attack_multiplier": "112%"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK6",
+          "values": {
+            "normal_attack_stage_1_multiplier": "34%",
+            "normal_attack_stage_2_multiplier": "38%",
+            "normal_attack_stage_3_multiplier": "53%",
+            "normal_attack_stage_4_multiplier": "55%",
+            "normal_attack_stage_5_multiplier": "75%",
+            "finisher_multiplier": "600%",
+            "dive_attack_multiplier": "120%"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK7",
+          "values": {
+            "normal_attack_stage_1_multiplier": "36%",
+            "normal_attack_stage_2_multiplier": "40%",
+            "normal_attack_stage_3_multiplier": "56%",
+            "normal_attack_stage_4_multiplier": "58%",
+            "normal_attack_stage_5_multiplier": "80%",
+            "finisher_multiplier": "640%",
+            "dive_attack_multiplier": "128%"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK8",
+          "values": {
+            "normal_attack_stage_1_multiplier": "39%",
+            "normal_attack_stage_2_multiplier": "43%",
+            "normal_attack_stage_3_multiplier": "60%",
+            "normal_attack_stage_4_multiplier": "62%",
+            "normal_attack_stage_5_multiplier": "85%",
+            "finisher_multiplier": "680%",
+            "dive_attack_multiplier": "136%"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK9",
+          "values": {
+            "normal_attack_stage_1_multiplier": "41%",
+            "normal_attack_stage_2_multiplier": "45%",
+            "normal_attack_stage_3_multiplier": "63%",
+            "normal_attack_stage_4_multiplier": "66%",
+            "normal_attack_stage_5_multiplier": "90%",
+            "finisher_multiplier": "720%",
+            "dive_attack_multiplier": "144%"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "마스터리I",
+          "values": {
+            "normal_attack_stage_1_multiplier": "44%",
+            "normal_attack_stage_2_multiplier": "48%",
+            "normal_attack_stage_3_multiplier": "67%",
+            "normal_attack_stage_4_multiplier": "70%",
+            "normal_attack_stage_5_multiplier": "96%",
+            "finisher_multiplier": "770%",
+            "dive_attack_multiplier": "154%"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "마스터리II",
+          "values": {
+            "normal_attack_stage_1_multiplier": "47%",
+            "normal_attack_stage_2_multiplier": "52%",
+            "normal_attack_stage_3_multiplier": "73%",
+            "normal_attack_stage_4_multiplier": "76%",
+            "normal_attack_stage_5_multiplier": "104%",
+            "finisher_multiplier": "830%",
+            "dive_attack_multiplier": "166%"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "마스터리III",
+          "values": {
+            "normal_attack_stage_1_multiplier": "51%",
+            "normal_attack_stage_2_multiplier": "56%",
+            "normal_attack_stage_3_multiplier": "79%",
+            "normal_attack_stage_4_multiplier": "82%",
+            "normal_attack_stage_5_multiplier": "113%",
+            "finisher_multiplier": "900%",
+            "dive_attack_multiplier": "180%"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tangtang.battle_skill",
+      "order": 1,
+      "typeId": 1,
+      "typeCode": "battle_skill",
+      "name": "우당탕탕 파도!",
+      "sourceType": "배틀 스킬",
+      "descriptionBlocks": [
+        "물속에서 뛰어올라 적에게 근접하여 사격하며 냉기 피해를 주고, 용오름을 생성합니다.",
+        "동시에 근처의 모든 와류를 소모하여 추가로 용오름을 생성하고, 생성된 개수에 따라 일정량의 스킬 게이지를 반환합니다.",
+        "용오름: 범위 내의 적에게 냉기 부착 1스택을 부여하고, 지속적으로 냉기 피해를 줍니다. 만약 여러 개의 용오름이 생성됐다면 적에게 추가로 아츠 취약을 부여하지만, 냉기 부착이 중복으로 부여되진 않습니다.",
+        "용오름이 주는 피해는 배틀 스킬의 피해로 간주됩니다."
+      ],
+      "metrics": [
+        {
+          "code": "skill_gauge_cost",
+          "sourceLabel": "스킬 게이지 소모",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "shot_damage_multiplier",
+          "sourceLabel": "사격 피해 배율",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "shot_imbalance",
+          "sourceLabel": "사격 불균형치",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "single_tornado_damage_multiplier",
+          "sourceLabel": "단일 용오름 피해 배율",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "tornado_duration",
+          "sourceLabel": "용오름 지속 시간(초)",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "skill_gauge_return_per_vortex",
+          "sourceLabel": "와류마다 스킬 게이지 반환",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "arts_vulnerability_two_tornadoes",
+          "sourceLabel": "용오름 2개일 시 부여하는 아츠 취약",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "arts_vulnerability_three_tornadoes",
+          "sourceLabel": "용오름 3개일 시 부여하는 아츠 취약",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "arts_vulnerability_duration",
+          "sourceLabel": "아츠 취약 지속 시간(초)",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK1",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "80%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "133%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3%",
+            "arts_vulnerability_three_tornadoes": "6%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK2",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "88%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "147%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3%",
+            "arts_vulnerability_three_tornadoes": "6%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK3",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "96%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "160%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3%",
+            "arts_vulnerability_three_tornadoes": "6%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK4",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "104%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "174%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3.5%",
+            "arts_vulnerability_three_tornadoes": "7%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK5",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "112%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "187%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3.5%",
+            "arts_vulnerability_three_tornadoes": "7%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK6",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "120%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "200%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3.5%",
+            "arts_vulnerability_three_tornadoes": "7%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK7",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "128%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "214%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4%",
+            "arts_vulnerability_three_tornadoes": "8%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK8",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "136%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "227%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4%",
+            "arts_vulnerability_three_tornadoes": "8%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK9",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "144%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "240%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4%",
+            "arts_vulnerability_three_tornadoes": "8%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "마스터리I",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "154%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "257%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4.5%",
+            "arts_vulnerability_three_tornadoes": "9%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "마스터리II",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "166%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "277%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4.5%",
+            "arts_vulnerability_three_tornadoes": "9%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "마스터리III",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "180%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "300%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "5%",
+            "arts_vulnerability_three_tornadoes": "10%",
+            "arts_vulnerability_duration": "15"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tangtang.combo_skill",
+      "order": 2,
+      "typeId": 2,
+      "typeCode": "combo_skill",
+      "name": "야, 강물! 도와줘!",
+      "sourceType": "연계 스킬",
+      "descriptionBlocks": [
+        "적이 냉기 부착을 부여받았거나 아츠 폭발 피해를 받았을 때 발동할 수 있습니다.",
+        "강력한 물줄기를 방출해 전방의 적을 관통하며 냉기 피해를 주고, 와류 하나를 생성합니다.",
+        "필드에는 최대 두 개의 와류만 존재할 수 있습니다."
+      ],
+      "metrics": [
+        {
+          "code": "cooldown",
+          "sourceLabel": "쿨타임",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "damage_multiplier",
+          "sourceLabel": "피해 배율",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "imbalance",
+          "sourceLabel": "불균형치",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "vortex_duration",
+          "sourceLabel": "와류 지속 시간(초)",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "ultimate_energy_gain",
+          "sourceLabel": "획득하는 궁극기 에너지",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK1",
+          "values": {
+            "cooldown": "14초",
+            "damage_multiplier": "107%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK2",
+          "values": {
+            "cooldown": "14초",
+            "damage_multiplier": "117%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK3",
+          "values": {
+            "cooldown": "14초",
+            "damage_multiplier": "128%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK4",
+          "values": {
+            "cooldown": "14초",
+            "damage_multiplier": "139%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK5",
+          "values": {
+            "cooldown": "14초",
+            "damage_multiplier": "149%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK6",
+          "values": {
+            "cooldown": "14초",
+            "damage_multiplier": "160%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK7",
+          "values": {
+            "cooldown": "14초",
+            "damage_multiplier": "171%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK8",
+          "values": {
+            "cooldown": "14초",
+            "damage_multiplier": "181%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK9",
+          "values": {
+            "cooldown": "13초",
+            "damage_multiplier": "192%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "마스터리I",
+          "values": {
+            "cooldown": "13초",
+            "damage_multiplier": "205%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "마스터리II",
+          "values": {
+            "cooldown": "13초",
+            "damage_multiplier": "221%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "마스터리III",
+          "values": {
+            "cooldown": "12초",
+            "damage_multiplier": "240%",
+            "imbalance": "10",
+            "vortex_duration": "30",
+            "ultimate_energy_gain": "10"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tangtang.ultimate",
+      "order": 3,
+      "typeId": 3,
+      "typeCode": "ultimate",
+      "name": "대당가께서 지켜보고 계신다!",
+      "sourceType": "궁극기",
+      "descriptionBlocks": [
+        "탕탕이 안대를 벗어 던지고 눈 속에 깃든 고대의 진을 발동합니다. 범위 내의 적은 일정 시간 동안 움직일 수 없으며, 지속적으로 냉기 피해를 받습니다.",
+        "고대의 진은 나타난 직후부터 서서히 변화를 시작해 변화가 끝날 때 거대한 파도를 일으키고 범위 내의 적에게 대량의 냉기 피해를 줍니다.",
+        "메인 컨트롤 오퍼레이터가 고대의 진 내에서 낙하 공격을 사용하면, 변화하던 고대의 진이 그 변화를 중단합니다. 이어서 예정보다 일찍 거대한 파도를 일으키고, 이때 파도가 주는 냉기 피해가 증가합니다."
+      ],
+      "metrics": [
+        {
+          "code": "ultimate_energy_cost",
+          "sourceLabel": "필요한 궁극기 에너지",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "cooldown",
+          "sourceLabel": "쿨타임",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "total_dot_multiplier",
+          "sourceLabel": "지속 피해 총 배율",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "ancient_array_duration",
+          "sourceLabel": "고대의 진 지속 시간(초)",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "giant_wave_damage_multiplier",
+          "sourceLabel": "거대한 파도 피해 배율",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "early_giant_wave_damage_multiplier",
+          "sourceLabel": "일찍 일으킨 거대한 파도의 피해 배율",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "giant_wave_imbalance",
+          "sourceLabel": "거대한 파도의 불균형치",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "early_giant_wave_imbalance",
+          "sourceLabel": "일찍 일으킨 거대한 파도의 불균형치",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK1",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20초",
+            "total_dot_multiplier": "142%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "178%",
+            "early_giant_wave_damage_multiplier": "311%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK2",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20초",
+            "total_dot_multiplier": "156%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "196%",
+            "early_giant_wave_damage_multiplier": "342%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK3",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20초",
+            "total_dot_multiplier": "171%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "213%",
+            "early_giant_wave_damage_multiplier": "373%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK4",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20초",
+            "total_dot_multiplier": "185%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "231%",
+            "early_giant_wave_damage_multiplier": "404%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK5",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20초",
+            "total_dot_multiplier": "199%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "249%",
+            "early_giant_wave_damage_multiplier": "436%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK6",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20초",
+            "total_dot_multiplier": "213%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "267%",
+            "early_giant_wave_damage_multiplier": "467%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK7",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20초",
+            "total_dot_multiplier": "228%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "284%",
+            "early_giant_wave_damage_multiplier": "498%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK8",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20초",
+            "total_dot_multiplier": "242%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "302%",
+            "early_giant_wave_damage_multiplier": "529%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK9",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20초",
+            "total_dot_multiplier": "256%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "320%",
+            "early_giant_wave_damage_multiplier": "560%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "마스터리I",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20초",
+            "total_dot_multiplier": "274%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "342%",
+            "early_giant_wave_damage_multiplier": "599%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "마스터리II",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20초",
+            "total_dot_multiplier": "295%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "369%",
+            "early_giant_wave_damage_multiplier": "646%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "마스터리III",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "cooldown": "20초",
+            "total_dot_multiplier": "320%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "400%",
+            "early_giant_wave_damage_multiplier": "700%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        }
+      ]
+    }
+  ],
+  "talents": {
+    "operator": [
+      {
+        "id": "tangtang.talent.proficiency",
+        "order": 0,
+        "category": "stat_bonus",
+        "name": "능숙",
+        "sourceType": "능력치 증가",
+        "stages": [
+          {
+            "sourceLabel": "단계 효과 1",
+            "effect": "오퍼레이터 민첩 능력치 10 증가",
+            "activationConditions": [
+              "오퍼레이터 신뢰도 20% 도달",
+              "정예화 단계 1 돌파"
+            ]
+          },
+          {
+            "sourceLabel": "단계 효과 2",
+            "effect": "오퍼레이터 민첩 능력치 15 증가",
+            "activationConditions": [
+              "오퍼레이터 신뢰도 50% 도달",
+              "정예화 단계 2 돌파"
+            ]
+          },
+          {
+            "sourceLabel": "단계 효과 3",
+            "effect": "오퍼레이터 민첩 능력치 15 증가",
+            "activationConditions": [
+              "오퍼레이터 신뢰도 100% 도달",
+              "정예화 단계 3 돌파"
+            ]
+          },
+          {
+            "sourceLabel": "단계 효과 4",
+            "effect": "오퍼레이터 민첩 능력치 20 증가",
+            "activationConditions": [
+              "오퍼레이터 신뢰도 100% 도달",
+              "정예화 단계 4 돌파"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tangtang.talent.kindred_spirits",
+        "order": 1,
+        "category": "combat_talent",
+        "name": "의기투합",
+        "sourceType": "오퍼레이터 재능",
+        "stages": [
+          {
+            "sourceLabel": "단계 효과 1",
+            "effect": "와류 주변 5미터 범위 내, 아군 오퍼레이터는 10% 가속을 획득하고, 적은 20% 감속을 받습니다. 범위를 벗어난 뒤에도 해당 효과는 3초 동안 지속됩니다.",
+            "activationConditions": [
+              "정예화 단계 1 돌파"
+            ]
+          },
+          {
+            "sourceLabel": "단계 효과 2",
+            "effect": "와류 주변 5미터 범위 내, 아군 오퍼레이터는 20% 가속을 획득하고, 적은 40% 감속을 받습니다. 범위를 벗어난 뒤에도 해당 효과는 3초 동안 지속됩니다.",
+            "activationConditions": [
+              "정예화 단계 2 돌파"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tangtang.talent.master_of_wind_and_waves",
+        "order": 2,
+        "category": "combat_talent",
+        "name": "풍랑의 주재자",
+        "sourceType": "오퍼레이터 재능",
+        "stages": [
+          {
+            "sourceLabel": "단계 효과 1",
+            "effect": "메인 컨트롤 오퍼레이터가 고대의 진 내에서 낙하 공격을 사용하면, 변화하던 고대의 진이 그 변화를 중단합니다. 이어서 용오름 1개를 생성하며, 주변에 와류가 존재할 경우 이를 소모하여 추가로 용오름을 생성합니다.\n\n이때 생성한 용오름은 배틀 스킬 우당탕탕 파도!와 동일한 효과를 가지고 있으며, 주는 피해 +40%.",
+            "activationConditions": [
+              "정예화 단계 2 돌파"
+            ]
+          },
+          {
+            "sourceLabel": "단계 효과 2",
+            "effect": "메인 컨트롤 오퍼레이터가 고대의 진 내에서 낙하 공격을 사용하면, 변화하던 고대의 진이 그 변화를 중단합니다. 이어서 용오름 1개를 생성하며, 주변에 와류가 존재할 경우 이를 소모하여 추가로 용오름을 생성합니다.\n\n이때 생성한 용오름은 배틀 스킬 우당탕탕 파도!와 동일한 효과를 가지고 있으며, 주는 피해 +60%.",
+            "activationConditions": [
+              "정예화 단계 3 돌파"
+            ]
+          }
+        ]
+      }
+    ],
+    "infrastructure": [
+      {
+        "id": "tangtang.infrastructure.chieftain",
+        "order": 3,
+        "category": "infrastructure_skill",
+        "name": "대당가",
+        "sourceType": "인프라 스킬",
+        "stages": [
+          {
+            "sourceLabel": "대당가 · β",
+            "effect": "재배실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소",
+            "activationConditions": [
+              "정예화 단계 1 돌파"
+            ]
+          },
+          {
+            "sourceLabel": "대당가 · γ",
+            "effect": "재배실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 18% 감소",
+            "activationConditions": [
+              "정예화 단계 3 돌파"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tangtang.infrastructure.girl_born_from_the_river",
+        "order": 4,
+        "category": "infrastructure_skill",
+        "name": "강에서 태어난 소녀",
+        "sourceType": "인프라 스킬",
+        "stages": [
+          {
+            "sourceLabel": "강에서 태어난 소녀 · β",
+            "effect": "재배실에 배치 시, 결정화 식물 재료의 육성 속도 20% 증가",
+            "activationConditions": [
+              "정예화 단계 2 돌파"
+            ]
+          },
+          {
+            "sourceLabel": "강에서 태어난 소녀 · γ",
+            "effect": "재배실에 배치 시, 결정화 식물 재료의 육성 속도 30% 증가",
+            "activationConditions": [
+              "정예화 단계 4 돌파"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "potentials": [
+    {
+      "level": 1,
+      "name": "무한한 재보",
+      "sourceLabel": "잠재능력 01",
+      "description": "연계 스킬 야, 강물! 도와줘!의 피해 배율이 기존의 1.2배로 증가하며, 쿨타임 -2초.\n\n배틀 스킬 우당탕탕 파도!로 와류 한 곳을 소모하여 용오름이 생성될 때마다, 추가로 스킬 게이지 5포인트를 반환합니다.\n\n오퍼레이터 기념사진 \"물에 비친 본심\" 잠금 해제"
+    },
+    {
+      "level": 2,
+      "name": "강에서 태어난 소녀",
+      "sourceLabel": "잠재능력 02",
+      "description": "민첩 +20, 냉기 피해 +10%."
+    },
+    {
+      "level": 3,
+      "name": "대당가의 기백",
+      "sourceLabel": "잠재능력 03",
+      "description": "배틀 스킬 우당탕탕 파도!의 피해 배율이 기존의 1.1배로 증가하며, 동시에 여러 개의 용오름이 생성될 때 부여하는 아츠 취약 효과가 추가로 +5%.\n\n오퍼레이터 기념사진 \"절균\" 잠금 해제"
+    },
+    {
+      "level": 4,
+      "name": "청파 수련법",
+      "sourceLabel": "잠재능력 04",
+      "description": "궁극기 대당가께서 지켜보고 계신다!의 사용에 필요한 궁극기 에너지 -15%."
+    },
+    {
+      "level": 5,
+      "name": "마안의 권능",
+      "sourceLabel": "잠재능력 05",
+      "description": "궁극기 대당가께서 지켜보고 계신다!의 피해 배율이 기존의 1.15배로 증가합니다.\n\n재능 풍랑의 주재자 효과 강화: 궁극기 대당가께서 지켜보고 계신다!로 생성된 용오름의 피해 증가 효과 추가로 +80%.\n\n오퍼레이터 기념사진 \"절대적인 명령\" 잠금 해제\n\n명함 테마 \"절대적인 명령\" 잠금 해제"
+    }
+  ],
+  "sourceAnomalies": []
+}

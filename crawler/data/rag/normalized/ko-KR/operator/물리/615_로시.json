@@ -1,0 +1,501 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_615",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 615,
+    "name": "로시"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_615.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 로시\ngameEntryId: 615\n정규화 상태: query_ready\n속성: 물리 (id=0, code=physical)\n무기 유형: 한손검 (id=0, code=sword)\n주요 능력치: 민첩 (id=1, code=agility)\n보조 능력치: 지능 (id=2, code=intellect)\nLV.1: 힘=9, 민첩=23, 지능=14, 의지=9, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=28, 민첩=55, 지능=36, 의지=26, 기초 공격력=93, 기초 생명력=1566\nLV.40: 힘=48, 민첩=90, 지능=59, 의지=44, 기초 공격력=159, 기초 생명력=2689\nLV.60: 힘=68, 민첩=124, 지능=83, 의지=62, 기초 공격력=225, 기초 생명력=3811\nLV.80: 힘=88, 민첩=159, 지능=106, 의지=80, 기초 공격력=291, 기초 생명력=4934\nLV.90: 힘=97, 민첩=176, 지능=118, 의지=89, 기초 공격력=323, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_615",
+        "gameEntryId": 615,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 0,
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "evidenceDocumentIds": [
+          "auto.operator_615.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_615.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_615.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_615.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_615.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_615.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_615.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_615.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_615.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_615.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_615.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 로시\ncategory: operator\nsection: profile\n로시\n진영\n엔드필드 공업\n무기 유형\n한손검\n\"저 같은 정예한테는 식은 죽 먹기죠!\"\n로시나 울프펄 루피노는 울프가드의 여동생이자, 울프팀에서 애지중지하는 진주 같은 존재이다. 울프팀과 본 크러셔 집단 사이의 뿌리 깊은 원한 속에서, 울프팀의 어른들은 로시를 구하기 위해 피의 대가를 치러야 했고, 그녀를 감싸고 있던 포대기는 그들이 흘린 피로 붉게 물들었다...\n울프가드가 집단을 벗어나 홀로 움직이는 일이 잦아지자, 리더가 필요했던 울프팀은 결국 그 자리를 로시에게 맡겼지만, 그녀는 자기보다는 어린 나이에 명성을 떨친 오빠가 울프팀을 이끌어야 한다고 생각하며, 오빠에게 끊임없이 이 점을 상기시키고 다그치려 애쓴다. 집단의 어른들은 로시가 나이에 걸맞게 하고 싶은 일을 하며 살기를 바라지만, 로시는 끝내 '책임감'이라는 무게를 내려놓지 못한다. 그녀는 가족과 집단을 위해 더 든든하고 강력한 존재가 되고 싶어 한다.\n영웅 이야기를 동경하는 로시는 가끔 언젠가 전설 속 영웅들과 어깨를 나란히 하고 전투하는 상상을 하곤 한다. 이 시간이 바로 자신에게 허락한 유일한 '자유 시간'이다.\n\"울프팀은 도전을 두려워하지 않아!\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_615",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 615,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:45:12.716457+00:00",
+        "contentSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "로시"
+      }
+    },
+    {
+      "documentId": "auto.operator_615.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 로시\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n로시\n성별\n여\n진영\n엔드필드 공업\n생일\n3월 10일\n속성\n물리\n종족\n루포\n한국어 CV\n이주은\n일본어 CV\n日高里菜\n영어 CV\nGiada Sabellico\n중국어 CV\n吳哲茹",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_615",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 615,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:45:12.716457+00:00",
+        "contentSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "로시"
+      }
+    },
+    {
+      "documentId": "auto.operator_615.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 로시\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘\n9\n28\n48\n68\n88\n97\n민첩 (주요 능력치)\n23\n55\n90\n124\n159\n176\n지능 (보조 능력치)\n14\n36\n59\n83\n106\n118\n의지\n9\n26\n44\n62\n80\n89\n기초 공격력\n30\n93\n159\n225\n291\n323\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘\n9\n-\n민첩 (주요 능력치)\n23\n지능 (보조 능력치)\n14\n의지\n9\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘\n28\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩 (주요 능력치)\n55\n지능 (보조 능력치)\n36\n의지\n26\n기초 공격력\n93\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘\n48\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩 (주요 능력치)\n90\n지능 (보조 능력치)\n59\n의지\n44\n기초 공격력\n159\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘\n68\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩 (주요 능력치)\n124\n지능 (보조 능력치)\n83\n의지\n62\n기초 공격력\n225\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘\n88\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩 (주요 능력치)\n159\n지능 (보조 능력치)\n106\n의지\n80\n기초 공격력\n291\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘\n97\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩 (주요 능력치)\n176\n지능 (보조 능력치)\n118\n의지\n89\n기초 공격력\n323\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_615",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 615,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:45:12.716457+00:00",
+        "contentSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "로시"
+      }
+    },
+    {
+      "documentId": "auto.operator_615.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 로시\ncategory: operator\nsection: combat_skill\n전투 스킬\n끓어오르는 늑대의 피\n일반 공격\n일반 공격:\n적에게 최대 5단 공격을 하여\n물리 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면,\n강력한 일격\n이\n18\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n물리 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n물리 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK 1\nRANK 2\nRANK 3\nRANK 4\nRANK 5\nRANK 6\nRANK 7\nRANK 8\nRANK 9\n마스터리 I\n마스터리 II\n마스터리 III\n일반 공격 제1단계 배율\n27%\n30%\n32%\n35%\n38%\n41%\n43%\n46%\n49%\n52%\n56%\n61%\n일반 공격 제2단계 배율\n32%\n35%\n38%\n41%\n44%\n47%\n50%\n54%\n57%\n61%\n65%\n71%\n일반 공격 제3단계 배율\n34%\n37%\n41%\n44%\n48%\n51%\n54%\n58%\n61%\n65%\n71%\n77%\n일반 공격 제4단계 배율\n41%\n45%\n49%\n53%\n57%\n61%\n65%\n69%\n73%\n78%\n84%\n91%\n일반 공격 제5단계 배율\n50%\n55%\n60%\n65%\n70%\n75%\n80%\n85%\n90%\n96%\n104%\n113%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n붉은색의 그림자\n배틀 스킬\n목표를 향해 돌진하여\n물리 피해\n를 주고\n띄우기\n피해를 줍니다.\n만약 목표가 이미\n방어 불능\n상태를 보유하고 있으면, 추가로\n울프팀의 진주\n가 발동해 목표에 돌진하여\n열기 피해\n를 줍니다.\nRANK 1\nRANK 2\nRANK 3\nRANK 4\nRANK 5\nRANK 6\nRANK 7\nRANK 8\nRANK 9\n마스터리 I\n마스터리 II\n마스터리 III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n제1단계 피해 배율\n85%\n94%\n102%\n111%\n119%\n128%\n137%\n145%\n154%\n164%\n177%\n192%\n제1단계 불균형치\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n제2단계 피해 배율\n128%\n141%\n153%\n166%\n179%\n192%\n204%\n217%\n230%\n246%\n265%\n288%\n제2단계 불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n12\n12\n12\n15\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_615",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 615,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:45:12.716457+00:00",
+        "contentSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "로시"
+      }
+    },
+    {
+      "documentId": "auto.operator_615.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 로시\ncategory: operator\nsection: combat_skill\n초거리 빛 반사 파이프\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n초거리 빛 반사 파이프\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n초거리 빛 반사 파이프\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n그림자가 타오르는 순간\n연계 스킬\n적이 동시에\n방어 불능\n과\n아츠 부착\n상태일 때 발동할 수 있습니다.\n로시의 연계 스킬은 연속으로 2회 발동할 수 있습니다.\n첫 공격은 목표에\n물리 피해\n를 줍니다.\n두 번째 공격은 목표의\n아츠 부착\n을 모두\n소모\n한 뒤, 적에게\n소모\n한 스택 수치에 따른\n물리 피해\n와\n띄우기\n피해를 주고, 일정 시간 동안 자신의 치명타 확률과 치명타 피해를 증가시킵니다.\n연계 스킬의 두 번째 공격이\n정확하게 연계\n되면 추가로\n방어 불능\n1스택을 쌓습니다.\nRANK 1\nRANK 2\nRANK 3\nRANK 4\nRANK 5\nRANK 6\nRANK 7\nRANK 8\nRANK 9\n마스터리 I\n마스터리 II\n마스터리 III\n쿨타임\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n14초\n제1단계 피해 배율\n67%\n73%\n80%\n87%\n93%\n100%\n107%\n113%\n120%\n128%\n138%\n150%\n제2단계 피해 배율\n133%\n147%\n160%\n173%\n187%\n200%\n213%\n227%\n240%\n257%\n277%\n300%\n중첩된 부착 스택을 소모할 때마다 추가되는 피해 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n제2단계 불균형치\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n치명타 확률 증가\n15%\n15%\n15%\n17%\n17%\n17%\n19%\n19%\n21%\n21%\n23%\n25%\n치명타 피해 증가\n30%\n30%\n30%\n34%\n34%\n34%\n38%\n38%\n42%\n42%\n46%\n50%\n버프 효과의 지속 시간(초)\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n제2단계 획득하는 궁극기 에너지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n기습 '날카로운 발톱'\n궁극기\n망토를 휘날리며 재빠르게 찌릅니다. 짧은 시간 동안 목표에 여러 차례\n열기 피해\n를 준 후, 즉시 단검으로 2단 베기를 하여 대량의\n열기 피해\n를 주고\n열기 부착\n을 부여합니다.\n이번 스킬이 만약 치명타 피해를 줬을 경우, 더 강한 치명타 피해를 줍니다.\nRANK 1\nRANK 2\nRANK 3\nRANK 4\nRANK 5\nRANK 6\nRANK 7\nRANK 8\nRANK 9\n마스터리 I\n마스터리 II\n마스터리 III\n필요한 궁극기 에너지\n110\n110\n110\n110\n110\n110\n110\n110\n110\n110\n110\n110\n쿨타임\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n10초\n찌르기 총피해 배율\n275%\n300%\n325%\n350%\n375%\n400%\n425%\n450%\n475%\n525%\n550%\n600%\n제1단 베기 피해 배율\n111%\n122%\n133%\n144%\n156%\n167%\n178%\n189%\n200%\n214%\n231%\n250%\n제2단 베기 피해 배율\n333%\n367%\n400%\n433%\n467%\n500%\n534%\n567%\n600%\n642%\n692%\n750%\n불균형치\n25\n25\n25\n25\n25",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_615",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 615,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:45:12.716457+00:00",
+        "contentSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "로시"
+      }
+    },
+    {
+      "documentId": "auto.operator_615.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 로시\ncategory: operator\nsection: combat_skill\n25\n25\n25\n25\n25\n25\n25\n치명타 피해 증가\n60%\n60%\n60%\n60%\n60%\n60%\n60%\n60%\n60%\n60%\n60%\n60%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n초거리 빛 반사 파이프\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n초거리 빛 반사 파이프\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n초거리 빛 반사 파이프\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_615",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 615,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T06:45:12.716457+00:00",
+        "contentSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "로시"
+      }
+    },
+    {
+      "documentId": "auto.operator_615.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 로시\ncategory: operator\nsection: operator_talent\n재능 배열\n능숙\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 민첩 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 민첩 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 민첩 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 민첩 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n절흔\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n배틀 스킬\n울프팀의 진주\n가 피해를 준 후, 목표에게\n늑대의 발톱\n상태를 부여합니다.\n15\n초 동안 지속되며, 해당 효과는 중첩되지 않습니다.\n늑대의 발톱\n이 지속되는 동안, 목표는 매초 로시의 공격력\n25%\n의\n물리 피해\n를 받고, 받는\n물리 피해\n와\n열기 피해\n+6%\n.\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n배틀 스킬\n울프팀의 진주\n가 피해를 준 후, 목표에게\n늑대의 발톱\n상태를 부여합니다.\n25\n초 동안 지속되며, 해당 효과는 중첩되지 않습니다.\n늑대의 발톱\n이 지속되는 동안, 목표는 매초 로시의 공격력\n30%\n의\n물리 피해\n를 받고, 받는\n물리 피해\n와\n열기 피해\n+12%\n.\n정예화 단계 2 돌파\n40\n프로토콜 프리즘\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n끓어오르는 피\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n로시가\n늑대의 발톱\n상태의 적에게 스킬을 사용해 치명타 피해를 주면, 추가로 공격력\n12%\n의\n열기 피해\n를 1회 주고,\n[지능×0.04]\n만큼 자신의 생명력을 회복합니다. 목표가\n연소\n, 상태도 보유하고 있다면, 위의 피해 및 치유 효과가\n1.5\n배로 증가합니다.\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n로시가\n늑대의 발톱\n상태의 적에게 스킬을 사용해 치명타 피해를 주면, 추가로 공격력\n24%\n의\n열기 피해\n를 1회 주고,\n[지능×0.08]\n만큼 자신의 생명력을 회복합니다. 목표가\n연소\n, 상태도 보유하고 있다면, 위의 피해 및 치유 효과가\n1.5\n배로 증가합니다.\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n24000\n탈로시안 화폐\n*\n24000\n집단의 의례 ·\nβ",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_615",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 615,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:45:12.716457+00:00",
+        "contentSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "로시"
+      }
+    },
+    {
+      "documentId": "auto.operator_615.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 로시\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n집단의 의례 ·\nβ\n응접실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n집단의 의례 ·\nγ\n응접실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 18% 감소\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n사냥꾼의 후각 ·\nβ\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n사냥꾼의 후각 ·\nβ\n응접실에 배치 시, 오퍼레이터의 단서 수집 기본 효율 20% 증가\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n사냥꾼의 후각 ·\nγ\n응접실에 배치 시, 오퍼레이터의 단서 수집 기본 효율 30% 증가\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_615",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 615,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:45:12.716457+00:00",
+        "contentSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "로시"
+      }
+    },
+    {
+      "documentId": "auto.operator_615.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 로시\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후, 파란색 품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후, 보라색 품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후, 노란색 품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\n정합용 유체\n*\n20\n8\n스타게이트 버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_615",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 615,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:45:12.716457+00:00",
+        "contentSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "로시"
+      }
+    },
+    {
+      "documentId": "auto.operator_615.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 로시\ncategory: operator\nsection: potential\n잠재 능력\n잠재 능력 단계\n동경의 서막\n잠재능력 01\n배틀 스킬\n붉은색의 그림자\n와 연계 스킬\n그림자가 타오르는 순간\n의 피해 배율이 기존의\n1.15\n배로 증가합니다.\n배틀 스킬로 인해 나타난\n울프팀의 진주\n는 적을 명중한 후,\n10\n포인트의 스킬 게이지를\n반환\n합니다.\n오퍼레이터 기념사진 \"소중한 진주\" 잠금 해제\n완벽한 간격\n잠재능력 02\n민첩\n+20\n, 치명타 확률\n+7%\n.\n가시화된 책임\n잠재능력 03\n재능\n끓어오르는 피\n효과 강화: 기초 피해 배율\n+8%\n, 기초 생명력을\n+[지능×0.04]\n만큼 회복.\n오퍼레이터 기념사진 \"무한한 미래\" 잠금 해제\n순수한 소망\n잠재능력 04\n궁극기\n기습 '날카로운 발톱'\n의 사용에 필요한 궁극기 에너지\n-15%\n.\n전설의 종착지\n잠재능력 05\n궁극기\n기습 '날카로운 발톱'\n의 피해 배율이 기존의\n1.1\n배, 추가로 치명타 피해\n+30%\n.\n오퍼레이터 기념사진 \"글로 그린 세계\" 잠금 해제\n명함 테마 \"글로 그린 세계\" 잠금 해제\n오퍼레이터 기념사진\n소중한 진주\n일러스트레이터: Yukuso\n이건 제가 열심히 키워 낸 열매예요. 물을 주고 정성을 쏟을수록 색도 진해지고 껍질도 단단해지더라고요. 꼭... 수많은 세월이 지나도 절대 썩지 않을 심장을 가진 것처럼 말이에요.\n무한한 미래\n일러스트레이터: Whitebear\n국왕이랑... 용사랑... 영화배우까지! 고를 수만 있다면 전부 다 한번씩 해보고 싶어요! 아, 그... 그냥 상상만 해본 거예요!\n글로 그린 세계\n일러스트레이터: Yukuso\n이거요? 이건... 그냥 제가 한번 그려본 거예요! 전설처럼 들려오는 이야기들이랑 어젯밤 꿈에 나왔던 재앙을 무찌른 꼬... 꼬마 늑대를 한번 그려봤어요!",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_615",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=615&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 615,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:45:12.716457+00:00",
+        "contentSha256": "354dcffdae79154383b307a43f7d02a30ec4d7d5289b1a34c2541ae2cec31121",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "로시"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 0,
+      "code": "physical",
+      "label": "물리"
+    },
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 1,
+      "code": "agility",
+      "label": "민첩"
+    },
+    "secondary": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 9,
+        "agility": 23,
+        "intellect": 14,
+        "will": 9,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 28,
+        "agility": 55,
+        "intellect": 36,
+        "will": 26,
+        "baseAttack": 93,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 48,
+        "agility": 90,
+        "intellect": 59,
+        "will": 44,
+        "baseAttack": 159,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 68,
+        "agility": 124,
+        "intellect": 83,
+        "will": 62,
+        "baseAttack": 225,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 88,
+        "agility": 159,
+        "intellect": 106,
+        "will": 80,
+        "baseAttack": 291,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 97,
+        "agility": 176,
+        "intellect": 118,
+        "will": 89,
+        "baseAttack": 323,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_615.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_615.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_615.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": []
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_615.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_615.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_615.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 0,
+    "code": "physical",
+    "label": "물리"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/물리/615_로시.json"
+}

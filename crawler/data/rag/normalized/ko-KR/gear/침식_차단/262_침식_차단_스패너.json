@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_262",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 262,
+    "name": "침식 차단 스패너"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=262&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "0ed04fa1dda1f808aad877c99020a532bd85e66328b2f94218b456c6f4918e4f",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_262.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 침식 차단 스패너\ngameEntryId: 262\n정규화 상태: query_ready\n장비 세트: 침식 차단 (id=2234615965, code=gear_set_853001fd8069)\n장비 유형: 부품 (id=2, code=component)\n품질: 파란색 품질 (id=2, code=blue)\nLV: 36\n방어력: 10\n장비 옵션: 1번=지능 21; 3번=공격력 10.5%\n정밀 단조 지원: 아니오\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_262",
+        "gameEntryId": 262,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=262&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_차단/262_침식_차단_스패너.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 2234615965,
+        "groupCode": "gear_set_853001fd8069",
+        "groupLabel": "침식 차단",
+        "evidenceDocumentIds": [
+          "auto.gear_262.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_262.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_262.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_262.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 침식 차단 스패너\ncategory: gear\nsection: profile\n침식 차단 스패너\n품질\n파란색 품질\n장비 유형\n부품\n세트\n침식 차단\n이 장비는 엔드필드 공업에서 자체 연구하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n특수 방호 코팅을 입힌 스패너.\n비상시에는 무기로도 사용할 수 있으며, 일부 아겔로스의 팔다리 정도는 효과적으로 박살 낼 수도 있습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_262",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=262&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 262,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:33:54.379820+00:00",
+        "contentSha256": "0ed04fa1dda1f808aad877c99020a532bd85e66328b2f94218b456c6f4918e4f",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_차단/262_침식_차단_스패너.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_853001fd8069",
+        "groupLabel": "침식 차단",
+        "entityName": "침식 차단 스패너"
+      }
+    },
+    {
+      "documentId": "auto.gear_262.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 침식 차단 스패너\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n1200\n*\n1200\n및\n50\n*\n50\n장비 템플릿\n권한 등급 22레벨 보상\n속성\nLV\n36\n방어력\n+10\n지능\n+21\n공격력\n+10.5%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_262",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=262&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 262,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:33:54.379820+00:00",
+        "contentSha256": "0ed04fa1dda1f808aad877c99020a532bd85e66328b2f94218b456c6f4918e4f",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_차단/262_침식_차단_스패너.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_853001fd8069",
+        "groupLabel": "침식 차단",
+        "entityName": "침식 차단 스패너"
+      }
+    },
+    {
+      "documentId": "auto.gear_262.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 침식 차단 스패너\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n침식 차단\n부품\n3개 세트 효과:\n장착자의 지능\n+50\n장착자의 생명력이 80%보다 높을 때, 주는\n아츠 피해\n+20%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_262",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=262&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 262,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:33:54.379820+00:00",
+        "contentSha256": "0ed04fa1dda1f808aad877c99020a532bd85e66328b2f94218b456c6f4918e4f",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_차단/262_침식_차단_스패너.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_853001fd8069",
+        "groupLabel": "침식 차단",
+        "entityName": "침식 차단 스패너"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 2234615965,
+      "code": "gear_set_853001fd8069",
+      "label": "침식 차단"
+    },
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 2,
+      "code": "blue",
+      "label": "파란색 품질"
+    }
+  },
+  "level": 36,
+  "defense": 10,
+  "options": [
+    {
+      "slot": 1,
+      "name": "지능",
+      "baseValue": {
+        "value": 21,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 2,
+        "code": "intellect",
+        "label": "지능"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "공격력",
+      "baseValue": {
+        "value": 10.5,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": false,
+    "levels": []
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_262.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 2234615965,
+    "code": "gear_set_853001fd8069",
+    "label": "침식 차단"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/침식_차단/262_침식_차단_스패너.json"
+}

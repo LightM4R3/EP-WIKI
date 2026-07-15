@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_61",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 61,
+    "name": "장대한 염원"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=61&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "b3f958253600284c1eed765382c78d8df1f486fae6e7ef0cf745761e2c8abab1",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_61.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 장대한 염원\ngameEntryId: 61\n정규화 상태: query_ready\n무기 유형: 한손검 (id=0, code=sword)\n기초 공격력: LV.1=51, LV.20=146, LV.40=247, LV.60=348, LV.80=449, LV.90=500\n무기 옵션: 1번=민첩 증가 · 대; 2번=공격력 증가 · 대; 3번=고통 · 간절한 소망\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_61",
+        "gameEntryId": 61,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=61&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/61_장대한_염원.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 0,
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "evidenceDocumentIds": [
+          "auto.weapon_61.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_61.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_61.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_61.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_61.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_61.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 장대한 염원\ncategory: weapon\nsection: profile\n장대한 염원\n유형\n한손검\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n엔드필드 공업에서 제작한 고급 무기, 실험용 오리지늄 소재를 검신 주재료로, 창의적으로 활용하여 뛰어난 에너지 전도 성능을 갖췄습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_61",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=61&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 61,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:34.182446+00:00",
+        "contentSha256": "b3f958253600284c1eed765382c78d8df1f486fae6e7ef0cf745761e2c8abab1",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/61_장대한_염원.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "장대한 염원"
+      }
+    },
+    {
+      "documentId": "auto.weapon_61.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 장대한 염원\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n장대한 염원\n한손검\n·획득 방식\n구매 센터 - 무기고 교환소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n51\n500\n민첩 증가 · 대\n민첩\n+20\n1/3\n민첩\n+156\n9/9\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n공격력\n+39.0%\n9/9\n고통 · 간절한 소망\n오리지늄 아츠 강도\n+30\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 내에 다음 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+36.0%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n1/4\n오리지늄 아츠 강도\n+84\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 내에 다음 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+100.8%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_61",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=61&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 61,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:34.182446+00:00",
+        "contentSha256": "b3f958253600284c1eed765382c78d8df1f486fae6e7ef0cf745761e2c8abab1",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/61_장대한_염원.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "장대한 염원"
+      }
+    },
+    {
+      "documentId": "auto.weapon_61.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 장대한 염원\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n51\n-\n민첩 증가 · 대\n민첩\n+20\n1/3\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n146\n146\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n민첩 증가 · 대\n민첩\n+20\n1/3\n민첩\n+36\n2/5\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n공격력\n+5.0%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n247\n247\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n민첩 증가 · 대\n민첩\n+36\n2/5\n민첩\n+36\n2/6\n공격력 증가 · 대\n공격력\n+5.0%\n1/4\n공격력\n+9.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n348\n348\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n민첩 증가 · 대\n민첩\n+36\n2/6\n민첩\n+52\n3/8\n공격력 증가 · 대\n공격력\n+9.0%\n2/6\n공격력\n+9.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n449\n449\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n민첩 증가 · 대\n민첩\n+52\n3/8\n민첩\n+52\n3/9\n공격력 증가 · 대\n공격력\n+9.0%\n2/7\n공격력\n+13.0%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n500\n-\n민첩 증가 · 대\n민첩\n+52\n3/9\n공격력 증가 · 대\n공격력\n+13.0%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_61",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=61&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 61,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:34.182446+00:00",
+        "contentSha256": "b3f958253600284c1eed765382c78d8df1f486fae6e7ef0cf745761e2c8abab1",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/61_장대한_염원.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "장대한 염원"
+      }
+    },
+    {
+      "documentId": "auto.weapon_61.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 장대한 염원\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n민첩 증가 · 대\n공격력 증가 · 대\n고통 · 간절한 소망\nRANK 1\n민첩\n+20\n공격력\n+5.0%\n오리지늄 아츠 강도\n+30\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 내에 다음 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+36.0%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 2\n민첩\n+36\n공격력\n+9.0%\n오리지늄 아츠 강도\n+36\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 내에 다음 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+43.2%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 3\n민첩\n+52\n공격력\n+13.0%\n오리지늄 아츠 강도\n+42\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 내에 다음 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+50.4%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 4\n민첩\n+68\n공격력\n+17.0%\n오리지늄 아츠 강도\n+48\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 내에 다음 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+57.6%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 5\n민첩\n+84\n공격력\n+21.0%\n오리지늄 아츠 강도\n+54\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 내에 다음 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+64.8%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 6\n민첩\n+100\n공격력\n+25.0%\n오리지늄 아츠 강도\n+60\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 내에 다음 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+72.0%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 7\n민첩\n+116\n공격력\n+29.0%\n오리지늄 아츠 강도\n+66\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 내에 다음 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+79.2%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 8\n민첩\n+132\n공격력\n+33.0%\n오리지늄 아츠 강도\n+72\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 내에 다음 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+86.4%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 9\n민첩\n+156\n공격력\n+39.0%\n오리지늄 아츠 강도\n+84\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 내에 다음 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+100.8%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n민첩 증가\n공격력 증가\n고통",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_61",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=61&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 61,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:34.182446+00:00",
+        "contentSha256": "b3f958253600284c1eed765382c78d8df1f486fae6e7ef0cf745761e2c8abab1",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/61_장대한_염원.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "장대한 염원"
+      }
+    },
+    {
+      "documentId": "auto.weapon_61.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 장대한 염원\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n고통\n· 간절한 소망\n기본/최대\n고통 · 간절한 소망\n잠재능력 1\n1/4\n오리지늄 아츠 강도\n+30\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 동안 내에 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+36.0%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 2\n2/5\n오리지늄 아츠 강도\n+36\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 동안 내에 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+43.2%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 3\n3/6\n오리지늄 아츠 강도\n+42\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 동안 내에 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+50.4%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 4\n4/7\n오리지늄 아츠 강도\n+48\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 동안 내에 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+57.6%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 5\n5/8\n오리지늄 아츠 강도\n+54\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 동안 내에 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+64.8%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 6\n6/9\n오리지늄 아츠 강도\n+60\n장착자가 적에게\n오리지늄 결정\n혹은\n동결\n을 부여했을 때, 20초 동안 내에 배틀 스킬 혹은 궁극기를 사용하는 중에 주는 물리 피해\n+72.0%\n.\n같은 이름의 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_61",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=61&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 61,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:34.182446+00:00",
+        "contentSha256": "b3f958253600284c1eed765382c78d8df1f486fae6e7ef0cf745761e2c8abab1",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/61_장대한_염원.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "장대한 염원"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 51
+    },
+    {
+      "level": 20,
+      "baseAttack": 146
+    },
+    {
+      "level": 40,
+      "baseAttack": 247
+    },
+    {
+      "level": 60,
+      "baseAttack": 348
+    },
+    {
+      "level": 80,
+      "baseAttack": 449
+    },
+    {
+      "level": 90,
+      "baseAttack": 500
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_61.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "공격력 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_61.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "고통 · 간절한 소망",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_61.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 0,
+    "code": "sword",
+    "label": "한손검"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/한손검/61_장대한_염원.json"
+}

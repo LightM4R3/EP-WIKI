@@ -1,0 +1,260 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ep-wiki.local/schemas/operator-canonical.schema.json",
+  "title": "EP-WIKI canonical operator",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "entityType",
+    "entityId",
+    "source",
+    "identity",
+    "taxonomy",
+    "attributes",
+    "progression",
+    "combatSkills",
+    "talents",
+    "potentials"
+  ],
+  "properties": {
+    "schemaVersion": { "const": "1.0.0" },
+    "entityType": { "const": "operator" },
+    "entityId": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+    "source": { "$ref": "#/$defs/source" },
+    "identity": { "$ref": "#/$defs/identity" },
+    "taxonomy": { "$ref": "#/$defs/taxonomy" },
+    "attributes": { "$ref": "#/$defs/attributes" },
+    "progression": {
+      "type": "array",
+      "minItems": 6,
+      "maxItems": 6,
+      "items": { "$ref": "#/$defs/progressionLevel" }
+    },
+    "combatSkills": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": { "$ref": "#/$defs/combatSkill" }
+    },
+    "talents": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["operator", "infrastructure"],
+      "properties": {
+        "operator": { "type": "array", "items": { "$ref": "#/$defs/talent" } },
+        "infrastructure": { "type": "array", "items": { "$ref": "#/$defs/talent" } }
+      }
+    },
+    "potentials": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": { "$ref": "#/$defs/potential" }
+    }
+  },
+  "$defs": {
+    "localizedText": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "entityId", "url", "locale", "observedAt", "contentStatus"],
+      "properties": {
+        "provider": { "const": "wiki.skport.com" },
+        "entityId": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "locale": { "enum": ["ko-KR", "en-US", "ja-JP", "zh-TW"] },
+        "observedAt": { "type": "string", "format": "date-time" },
+        "contentStatus": { "enum": ["verified", "cross_checked", "needs_review"] }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["names", "rarity", "portraitUrl"],
+      "properties": {
+        "names": { "$ref": "#/$defs/localizedText" },
+        "rarity": { "type": "integer", "minimum": 1, "maximum": 6 },
+        "portraitUrl": { "type": "string", "format": "uri" }
+      }
+    },
+    "catalogRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "code", "sourceLabel"],
+      "properties": {
+        "id": { "type": "integer", "minimum": 0 },
+        "code": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "sourceLabel": { "type": "string", "minLength": 1 },
+        "sourceIconSha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "mappingStatus": { "enum": ["verified", "cross_checked", "needs_review"] }
+      }
+    },
+    "taxonomy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["class", "element", "weaponType"],
+      "properties": {
+        "class": { "$ref": "#/$defs/catalogRef" },
+        "element": { "$ref": "#/$defs/catalogRef" },
+        "weaponType": { "$ref": "#/$defs/catalogRef" }
+      }
+    },
+    "attributes": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["catalogOrder", "primaryId", "secondaryId"],
+      "properties": {
+        "catalogOrder": {
+          "type": "array",
+          "prefixItems": [
+            { "const": 0 },
+            { "const": 1 },
+            { "const": 2 },
+            { "const": 3 }
+          ],
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "primaryId": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "secondaryId": { "type": "integer", "minimum": 0, "maximum": 3 }
+      }
+    },
+    "materialCost": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["materialId", "quantity"],
+      "properties": {
+        "materialId": { "type": "integer", "minimum": 0 },
+        "quantity": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "stats": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["strength", "agility", "intellect", "will", "baseAttack", "baseHp"],
+      "properties": {
+        "strength": { "type": "integer", "minimum": 0 },
+        "agility": { "type": "integer", "minimum": 0 },
+        "intellect": { "type": "integer", "minimum": 0 },
+        "will": { "type": "integer", "minimum": 0 },
+        "baseAttack": { "type": "integer", "minimum": 0 },
+        "baseHp": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "progressionLevel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "stats", "materialCosts"],
+      "properties": {
+        "level": { "enum": [1, 20, 40, 60, 80, 90] },
+        "stats": { "$ref": "#/$defs/stats" },
+        "materialCosts": { "type": "array", "items": { "$ref": "#/$defs/materialCost" } }
+      }
+    },
+    "metric": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "sourceLabel", "unit"],
+      "properties": {
+        "code": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "sourceLabel": { "type": "string", "minLength": 1 },
+        "unit": { "enum": ["percent", "points", "seconds"] }
+      }
+    },
+    "skillLevel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "phase", "phaseLevel", "sourceLabel", "values", "materialCosts"],
+      "properties": {
+        "level": { "type": "integer", "minimum": 1, "maximum": 12 },
+        "phase": { "enum": ["rank", "mastery"] },
+        "phaseLevel": { "type": "integer", "minimum": 1, "maximum": 9 },
+        "sourceLabel": { "type": "string", "minLength": 1 },
+        "values": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "type": "string", "minLength": 1 }
+        },
+        "materialCosts": { "type": "array", "items": { "$ref": "#/$defs/materialCost" } }
+      }
+    },
+    "combatSkill": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "order",
+        "typeId",
+        "typeCode",
+        "names",
+        "iconUrl",
+        "descriptionBlocks",
+        "metrics",
+        "levels"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9_.]+$" },
+        "order": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "typeId": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "typeCode": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+        "names": { "$ref": "#/$defs/localizedText" },
+        "iconUrl": { "type": "string", "format": "uri" },
+        "descriptionBlocks": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "metrics": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/metric" } },
+        "levels": {
+          "type": "array",
+          "minItems": 12,
+          "maxItems": 12,
+          "items": { "$ref": "#/$defs/skillLevel" }
+        }
+      }
+    },
+    "talentStage": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceLabel", "effect", "activationConditions", "materialCosts"],
+      "properties": {
+        "sourceLabel": { "type": "string", "minLength": 1 },
+        "effect": { "type": "string", "minLength": 1 },
+        "activationConditions": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "materialCosts": { "type": "array", "items": { "$ref": "#/$defs/materialCost" } }
+      }
+    },
+    "talent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "order", "category", "sourceType", "names", "stages"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9_.]+$" },
+        "order": { "type": "integer", "minimum": 0 },
+        "category": { "enum": ["stat_bonus", "combat_talent", "infrastructure_skill"] },
+        "sourceType": { "type": "string", "minLength": 1 },
+        "names": { "$ref": "#/$defs/localizedText" },
+        "stages": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/talentStage" } }
+      }
+    },
+    "potential": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["level", "names", "description", "iconUrl"],
+      "properties": {
+        "level": { "type": "integer", "minimum": 1, "maximum": 5 },
+        "names": { "$ref": "#/$defs/localizedText" },
+        "description": { "type": "string", "minLength": 1 },
+        "iconUrl": { "type": "string", "format": "uri" }
+      }
+    }
+  }
+}

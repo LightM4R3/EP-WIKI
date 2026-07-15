@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_211",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 211,
+    "name": "간편 금속 장갑"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=211&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "81da39f4e5e048f18cf84ef924d3891f528aec48340606ad2462983cbd45607c",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_211.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 간편 금속 장갑\ngameEntryId: 211\n정규화 상태: query_ready\n장비 세트: 세트 없음 (id=-1, code=none)\n장비 유형: 글러브 (id=0, code=gloves)\n품질: 회색 품질 (id=4, code=gray)\nLV: 10\n방어력: 6\n장비 옵션: 1번=힘 11; 2번=민첩 7; 3번=생명력 77\n정밀 단조 지원: 아니오\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_211",
+        "gameEntryId": 211,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=211&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/211_간편_금속_장갑.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": -1,
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "evidenceDocumentIds": [
+          "auto.gear_211.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_211.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_211.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_211.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 간편 금속 장갑\ncategory: gear\nsection: profile\n간편 금속 장갑\n품질\n회색 품질\n장비 유형\n글러브\n세트\n세트 없음\n엔드필드 공업의 품질 검증을 거치지 않은 임시 장비로, 방어 성능을 보장할 수 없습니다.\n단순한 구조의 초급 방어구.\n실제 방어력보다는 장착자의 마음을 든든하게 해주는 효과가 더 큽니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_211",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=211&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 211,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:32:16.247253+00:00",
+        "contentSha256": "81da39f4e5e048f18cf84ef924d3891f528aec48340606ad2462983cbd45607c",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/211_간편_금속_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "entityName": "간편 금속 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_211.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 간편 금속 장갑\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n단일 장비 제작\n소모 재료 :\n10\n*\n10\n및\n2\n*\n2\n속성\nLV\n10\n방어력\n+6\n힘\n+11\n민첩\n+7\n생명력\n+77",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_211",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=211&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 211,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:32:16.247253+00:00",
+        "contentSha256": "81da39f4e5e048f18cf84ef924d3891f528aec48340606ad2462983cbd45607c",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/211_간편_금속_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "entityName": "간편 금속 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_211.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 간편 금속 장갑\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n세트 없음\n세트 효과 없음",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_211",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=211&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 211,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:32:16.247253+00:00",
+        "contentSha256": "81da39f4e5e048f18cf84ef924d3891f528aec48340606ad2462983cbd45607c",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/211_간편_금속_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "entityName": "간편 금속 장갑"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 4,
+      "code": "gray",
+      "label": "회색 품질"
+    }
+  },
+  "level": 10,
+  "defense": 6,
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘",
+      "baseValue": {
+        "value": 11,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "민첩",
+      "baseValue": {
+        "value": 7,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "생명력",
+      "baseValue": {
+        "value": 77,
+        "unit": "flat"
+      }
+    }
+  ],
+  "forging": {
+    "supported": false,
+    "levels": []
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_211.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": -1,
+    "code": "none",
+    "label": "세트 없음"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/세트_없음/211_간편_금속_장갑.json"
+}

@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_66",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 66,
+    "name": "천둥의 흔적"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=66&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "c5e440eeb33fc6187a094d8a24abf3ce734ebf85128a4f201267000b9aa134a9",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_66.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 천둥의 흔적\ngameEntryId: 66\n정규화 상태: query_ready\n무기 유형: 양손검 (id=1, code=greatsword)\n기초 공격력: LV.1=50, LV.20=145, LV.40=245, LV.60=345, LV.80=445, LV.90=495\n무기 옵션: 1번=힘 증가 · 대; 2번=생명력 증가 · 대; 3번=의료 · 탈로스의 눈\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_66",
+        "gameEntryId": 66,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=66&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/66_천둥의_흔적.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 1,
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "evidenceDocumentIds": [
+          "auto.weapon_66.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_66.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_66.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_66.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_66.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_66.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 천둥의 흔적\ncategory: weapon\nsection: profile\n천둥의 흔적\n유형\n양손검\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n엔드필드 공업에서 제작한 특별 장비 중 하나, 화염 모양의 검과 교차식 오리지늄 회로가 결합해 기질의 효율을 증가시킵니다. 탈로스 현상을 관측한 데서 영감받았다고 합니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_66",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=66&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 66,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:44.717103+00:00",
+        "contentSha256": "c5e440eeb33fc6187a094d8a24abf3ce734ebf85128a4f201267000b9aa134a9",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/66_천둥의_흔적.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "천둥의 흔적"
+      }
+    },
+    {
+      "documentId": "auto.weapon_66.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 천둥의 흔적\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n천둥의 흔적\n양손검\n·획득 방식\n구매 센터 - 무기고 교환소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n50\n495\n힘 증가 · 대\n힘\n+20\n1/3\n힘\n+156\n9/9\n생명력 증가 · 대\n최대 생명력\n+10.0%\n1/3\n최대 생명력\n+78.0%\n9/9\n의료 · 탈로스의 눈\n부여한\n보호\n효과\n+24.0%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[7.0%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\n1/4\n부여한\n보호\n효과\n+67.2%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[19.6%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_66",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=66&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 66,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:44.717103+00:00",
+        "contentSha256": "c5e440eeb33fc6187a094d8a24abf3ce734ebf85128a4f201267000b9aa134a9",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/66_천둥의_흔적.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "천둥의 흔적"
+      }
+    },
+    {
+      "documentId": "auto.weapon_66.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 천둥의 흔적\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n50\n힘 증가 · 대\n힘\n+20\n1/3\n생명력 증가 · 대\n최대 생명력\n+10.0%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n145\n145\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n힘 증가 · 대\n힘\n+20\n1/3\n힘\n+36\n2/5\n생명력 증가 · 대\n최대 생명력\n+10.0%\n1/3\n최대 생명력\n+10.0%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n245\n245\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n힘 증가 · 대\n힘\n+36\n2/5\n힘\n+36\n2/6\n생명력 증가 · 대\n최대 생명력\n+10.0%\n1/4\n최대 생명력\n+18.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n345\n345\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n힘 증가 · 대\n힘\n+36\n2/6\n힘\n+52\n3/8\n생명력 증가 · 대\n최대 생명력\n+18.0%\n2/6\n최대 생명력\n+18.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n445\n445\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n힘 증가 · 대\n힘\n+52\n3/8\n힘\n+52\n3/9\n생명력 증가 · 대\n최대 생명력\n+18.0%\n2/7\n최대 생명력\n+26.0%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n495\n힘 증가 · 대\n힘\n+52\n3/9\n생명력 증가 · 대\n최대 생명력\n+26.0%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_66",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=66&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 66,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:44.717103+00:00",
+        "contentSha256": "c5e440eeb33fc6187a094d8a24abf3ce734ebf85128a4f201267000b9aa134a9",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/66_천둥의_흔적.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "천둥의 흔적"
+      }
+    },
+    {
+      "documentId": "auto.weapon_66.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 천둥의 흔적\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n힘 증가 · 대\n생명력 증가 · 대\n의료 · 탈로스의 눈\nRANK 1\n힘\n+20\n최대 생명력\n+10.0%\n부여한\n보호\n효과\n+24.0%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[7.0%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\nRANK 2\n힘\n+36\n최대 생명력\n+18.0%\n부여한\n보호\n효과\n+28.8%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[8.4%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\nRANK 3\n힘\n+52\n최대 생명력\n+26.0%\n부여한\n보호\n효과\n+33.6%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[9.8%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\nRANK 4\n힘\n+68\n최대 생명력\n+34.0%\n부여한\n보호\n효과\n+38.4%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[11.2%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\nRANK 5\n힘\n+84\n최대 생명력\n+42.0%\n부여한\n보호\n효과\n+43.2%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[12.6%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\nRANK 6\n힘\n+100\n최대 생명력\n+50.0%\n부여한\n보호\n효과\n+48.0%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[14.0%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\nRANK 7\n힘\n+116\n최대 생명력\n+58.0%\n부여한\n보호\n효과\n+52.8%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[15.4%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\nRANK 8\n힘\n+132\n최대 생명력\n+66.0%\n부여한\n보호\n효과\n+57.6%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[16.8%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\nRANK 9\n힘\n+156\n최대 생명력\n+78.0%\n부여한\n보호\n효과\n+67.2%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[19.6%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n힘 증가\n생명력 증가\n의료",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_66",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=66&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 66,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:44.717103+00:00",
+        "contentSha256": "c5e440eeb33fc6187a094d8a24abf3ce734ebf85128a4f201267000b9aa134a9",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/66_천둥의_흔적.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "천둥의 흔적"
+      }
+    },
+    {
+      "documentId": "auto.weapon_66.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 천둥의 흔적\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n의료 · 탈로스의 눈\n기본/최대\n의료 · 탈로스의 눈\n잠재능력 1\n1/4\n부여한\n보호\n효과\n+24.0%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[7.0%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\n잠재능력 2\n2/5\n부여한\n보호\n효과\n+28.8%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[8.4%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\n잠재능력 3\n3/6\n부여한\n보호\n효과\n+33.6%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[9.8%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\n잠재능력 4\n4/7\n부여한\n보호\n효과\n+38.4%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[11.2%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\n잠재능력 5\n5/8\n부여한\n보호\n효과\n+43.2%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[12.6%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.\n잠재능력 6\n6/9\n부여한\n보호\n효과\n+48.0%\n장착자가 자신의 연계 스킬로 치유한 후, 추가로 메인 컨트롤 오퍼레이터가\n[14.0%×장착자의 최대 생명력]\n의\n보호\n효과 획득, 15초 동안 지속.\n15초 내 최대 1회 발동합니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_66",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=66&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 66,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:27:44.717103+00:00",
+        "contentSha256": "c5e440eeb33fc6187a094d8a24abf3ce734ebf85128a4f201267000b9aa134a9",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/66_천둥의_흔적.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "천둥의 흔적"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 50
+    },
+    {
+      "level": 20,
+      "baseAttack": 145
+    },
+    {
+      "level": 40,
+      "baseAttack": 245
+    },
+    {
+      "level": 60,
+      "baseAttack": 345
+    },
+    {
+      "level": 80,
+      "baseAttack": 445
+    },
+    {
+      "level": 90,
+      "baseAttack": 495
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_66.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "생명력 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_66.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "의료 · 탈로스의 눈",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_66.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 1,
+    "code": "greatsword",
+    "label": "양손검"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/양손검/66_천둥의_흔적.json"
+}

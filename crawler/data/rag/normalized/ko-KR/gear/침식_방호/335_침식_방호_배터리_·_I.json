@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_335",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 335,
+    "name": "침식 방호 배터리 · I"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=335&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "8805d05957291644966b46d14c8b3043156dc987ad17200f68113bf0be1b674b",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_335.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 침식 방호 배터리 · I\ngameEntryId: 335\n정규화 상태: query_ready\n장비 세트: 침식 방호 (id=1506308161, code=gear_set_59c6e9a131ea)\n장비 유형: 부품 (id=2, code=component)\n품질: 보라색 품질 (id=1, code=purple)\nLV: 50\n방어력: 15\n장비 옵션: 1번=의지 23; 2번=민첩 15; 3번=치유 효율 보너스 14.7%\n정밀 단조 지원: 아니오\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_335",
+        "gameEntryId": 335,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=335&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_방호/335_침식_방호_배터리_·_I.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 1506308161,
+        "groupCode": "gear_set_59c6e9a131ea",
+        "groupLabel": "침식 방호",
+        "evidenceDocumentIds": [
+          "auto.gear_335.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_335.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_335.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_335.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 침식 방호 배터리 · I\ncategory: gear\nsection: profile\n침식 방호 배터리 · I\n품질\n보라색 품질\n장비 유형\n부품\n세트\n침식 방호\n이 장비는 엔드필드 공업에서 자체 연구하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n조금 무게감 있는 배터리.\n경험이 풍부한 작업자는 이러한 오리지늄 배터리를 10분 이내에 유탄으로 개조할 수 있습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_335",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=335&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 335,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:36:11.442244+00:00",
+        "contentSha256": "8805d05957291644966b46d14c8b3043156dc987ad17200f68113bf0be1b674b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_방호/335_침식_방호_배터리_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_59c6e9a131ea",
+        "groupLabel": "침식 방호",
+        "entityName": "침식 방호 배터리 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_335.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 침식 방호 배터리 · I\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n9600\n*\n9600\n및\n50\n*\n50\n장비 템플릿\n권한 등급 38레벨 보상\n속성\nLV\n50\n방어력\n+15\n의지\n+23\n민첩\n+15\n치유 효율 보너스\n+14.7%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_335",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=335&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 335,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:36:11.442244+00:00",
+        "contentSha256": "8805d05957291644966b46d14c8b3043156dc987ad17200f68113bf0be1b674b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_방호/335_침식_방호_배터리_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_59c6e9a131ea",
+        "groupLabel": "침식 방호",
+        "entityName": "침식 방호 배터리 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_335.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 침식 방호 배터리 · I\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n침식 방호\n부품\n3개 세트 효과:\n장착자의 의지\n+50\n장착자의 생명력이 50% 미만일 때, 주는 치유 효과\n+30%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_335",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=335&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 335,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:36:11.442244+00:00",
+        "contentSha256": "8805d05957291644966b46d14c8b3043156dc987ad17200f68113bf0be1b674b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/침식_방호/335_침식_방호_배터리_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_59c6e9a131ea",
+        "groupLabel": "침식 방호",
+        "entityName": "침식 방호 배터리 · I"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 1506308161,
+      "code": "gear_set_59c6e9a131ea",
+      "label": "침식 방호"
+    },
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    }
+  },
+  "level": 50,
+  "defense": 15,
+  "options": [
+    {
+      "slot": 1,
+      "name": "의지",
+      "baseValue": {
+        "value": 23,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 3,
+        "code": "will",
+        "label": "의지"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "민첩",
+      "baseValue": {
+        "value": 15,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "치유 효율 보너스",
+      "baseValue": {
+        "value": 14.7,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": false,
+    "levels": []
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_335.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 1506308161,
+    "code": "gear_set_59c6e9a131ea",
+    "label": "침식 방호"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/침식_방호/335_침식_방호_배터리_·_I.json"
+}

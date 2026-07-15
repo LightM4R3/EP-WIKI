@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_316",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 316,
+    "name": "순행 전달자 재킷 · I"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=316&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "463ab7a6c1169ee27f6e2809bb83b9c6aa79873398f6e3e1ecf8414ada8190d0",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_316.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 순행 전달자 재킷 · I\ngameEntryId: 316\n정규화 상태: query_ready\n장비 세트: 순행 전달자 (id=2356057675, code=gear_set_8c6d0fabbbe7)\n장비 유형: 방어구 (id=1, code=armor)\n품질: 보라색 품질 (id=1, code=purple)\nLV: 50\n방어력: 40\n장비 옵션: 1번=민첩 61; 2번=지능 41; 3번=생명력 14.7%\n정밀 단조 지원: 아니오\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_316",
+        "gameEntryId": 316,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=316&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/순행_전달자/316_순행_전달자_재킷_·_I.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 2356057675,
+        "groupCode": "gear_set_8c6d0fabbbe7",
+        "groupLabel": "순행 전달자",
+        "evidenceDocumentIds": [
+          "auto.gear_316.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_316.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_316.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_316.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 순행 전달자 재킷 · I\ncategory: gear\nsection: profile\n순행 전달자 재킷 · I\n품질\n보라색 품질\n장비 유형\n방어구\n세트\n순행 전달자\n이 장비는 엔드필드 공업에서 황무지 수공예품을 참고하여 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n전달자들이 즐겨 입는 재킷.\n4번 협곡 주변의 전달자들은 자신들의 교통수단에 거대한 나뭇가지 무늬를 그려 넣습니다.\n한때 이 땅을 지켰던 존재가, 지금도 여전히 사람들에게 힘을 준다고 믿기 때문입니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_316",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=316&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 316,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:35:37.163970+00:00",
+        "contentSha256": "463ab7a6c1169ee27f6e2809bb83b9c6aa79873398f6e3e1ecf8414ada8190d0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/순행_전달자/316_순행_전달자_재킷_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_8c6d0fabbbe7",
+        "groupLabel": "순행 전달자",
+        "entityName": "순행 전달자 재킷 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_316.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 순행 전달자 재킷 · I\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n9600\n*\n9600\n및\n50\n*\n50\n장비 템플릿\n권한 등급 29레벨 보상\n속성\nLV\n50\n방어력\n+40\n민첩\n+61\n지능\n+41\n생명력\n+14.7%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_316",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=316&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 316,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:35:37.163970+00:00",
+        "contentSha256": "463ab7a6c1169ee27f6e2809bb83b9c6aa79873398f6e3e1ecf8414ada8190d0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/순행_전달자/316_순행_전달자_재킷_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_8c6d0fabbbe7",
+        "groupLabel": "순행 전달자",
+        "entityName": "순행 전달자 재킷 · I"
+      }
+    },
+    {
+      "documentId": "auto.gear_316.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 순행 전달자 재킷 · I\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n순행 전달자\n방어구\n3개 세트 효과:\n장착자의 민첩\n+50\n장착자의 생명력이 80%보다 높을 때, 주는\n물리 피해\n+20%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_316",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=316&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 316,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:35:37.163970+00:00",
+        "contentSha256": "463ab7a6c1169ee27f6e2809bb83b9c6aa79873398f6e3e1ecf8414ada8190d0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/순행_전달자/316_순행_전달자_재킷_·_I.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_8c6d0fabbbe7",
+        "groupLabel": "순행 전달자",
+        "entityName": "순행 전달자 재킷 · I"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 2356057675,
+      "code": "gear_set_8c6d0fabbbe7",
+      "label": "순행 전달자"
+    },
+    "gearType": {
+      "id": 1,
+      "code": "armor",
+      "label": "방어구"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    }
+  },
+  "level": 50,
+  "defense": 40,
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩",
+      "baseValue": {
+        "value": 61,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "지능",
+      "baseValue": {
+        "value": 41,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 2,
+        "code": "intellect",
+        "label": "지능"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "생명력",
+      "baseValue": {
+        "value": 14.7,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": false,
+    "levels": []
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_316.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 2356057675,
+    "code": "gear_set_8c6d0fabbbe7",
+    "label": "순행 전달자"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/순행_전달자/316_순행_전달자_재킷_·_I.json"
+}

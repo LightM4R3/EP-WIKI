@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_37",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 37,
+    "name": "용조의 불꽃"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=37&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "a8af632cef44b3d2bbf7f4ca29096df1c8e919ada5756da8599144990c36e04b",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_37.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 용조의 불꽃\ngameEntryId: 37\n정규화 상태: query_ready\n무기 유형: 한손검 (id=0, code=sword)\n기초 공격력: LV.1=52, LV.20=149, LV.40=252, LV.60=355, LV.80=458, LV.90=510\n무기 옵션: 1번=지능 증가 · 대; 2번=공격력 증가 · 대; 3번=어둠 · 울부짖는 불길\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_37",
+        "gameEntryId": 37,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=37&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/37_용조의_불꽃.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 0,
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "evidenceDocumentIds": [
+          "auto.weapon_37.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_37.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_37.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_37.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_37.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_37.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 용조의 불꽃\ncategory: weapon\nsection: profile\n용조의 불꽃\n유형\n한손검\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n주술 타임에서 제작한 날카로운 무기 중 하나, 특수 정련을 거쳐 검신이 붉은빛을 띠며, 독특한 액화 오리지늄을 적용한 아츠 유닛은 마치 용광로에서 흘러내린 피눈물 한 방울을 연상시킵니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_37",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=37&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 37,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:42.115633+00:00",
+        "contentSha256": "a8af632cef44b3d2bbf7f4ca29096df1c8e919ada5756da8599144990c36e04b",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/37_용조의_불꽃.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "용조의 불꽃"
+      }
+    },
+    {
+      "documentId": "auto.weapon_37.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 용조의 불꽃\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n용조의 불꽃\n한손검\n·획득 방식\n구매 센터 - 무기고 교환소\n기초 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n52\n510\n지능 증가 · 대\n지능\n+20\n1/3\n지능\n+156\n9/9\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n공격력\n+39.0%\n9/9\n어둠 · 울부짖는 불길\n열기 피해\n+16.0%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+75.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n1/4\n열기 피해\n+44.8%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+210.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_37",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=37&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 37,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:42.115633+00:00",
+        "contentSha256": "a8af632cef44b3d2bbf7f4ca29096df1c8e919ada5756da8599144990c36e04b",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/37_용조의_불꽃.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "용조의 불꽃"
+      }
+    },
+    {
+      "documentId": "auto.weapon_37.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 용조의 불꽃\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n기초 속성\n(기본/최대)\n재료 소모\n기초 공격력\n52\n-\n지능 증가 · 대\n지능\n+20\n1/3\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n149\n149\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n지능 증가 · 대\n지능\n+20\n1/3\n지능\n+36\n2/5\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n공격력\n+5.0%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n252\n252\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n지능 증가 · 대\n지능\n+36\n2/5\n지능\n+36\n2/6\n공격력 증가 · 대\n공격력\n+5.0%\n1/4\n공격력\n+9.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n355\n355\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n지능 증가 · 대\n지능\n+36\n2/6\n지능\n+52\n3/8\n공격력 증가 · 대\n공격력\n+9.0%\n2/6\n공격력\n+9.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n458\n458\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n지능 증가 · 대\n지능\n+52\n3/8\n지능\n+52\n3/9\n공격력 증가 · 대\n공격력\n+9.0%\n2/7\n공격력\n+13.0%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n510\n-\n지능 증가 · 대\n지능\n+52\n3/9\n공격력 증가 · 대\n공격력\n+13.0%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_37",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=37&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 37,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:42.115633+00:00",
+        "contentSha256": "a8af632cef44b3d2bbf7f4ca29096df1c8e919ada5756da8599144990c36e04b",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/37_용조의_불꽃.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "용조의 불꽃"
+      }
+    },
+    {
+      "documentId": "auto.weapon_37.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 용조의 불꽃\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n지능 증가 · 대\n공격력 증가 · 대\n어둠 · 울부짖는 불길\nRANK 1\n지능\n+20\n공격력\n+5.0%\n열기 피해\n+16.0%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+75.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 2\n지능\n+36\n공격력\n+9.0%\n열기 피해\n+19.2%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+90.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 3\n지능\n+52\n공격력\n+13.0%\n열기 피해\n+22.4%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+105.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 4\n지능\n+68\n공격력\n+17.0%\n열기 피해\n+25.6%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+120.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 5\n지능\n+84\n공격력\n+21.0%\n열기 피해\n+28.8%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+135.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 6\n지능\n+100\n공격력\n+25.0%\n열기 피해\n+32.0%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+150.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 7\n지능\n+116\n공격력\n+29.0%\n열기 피해\n+35.2%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+165.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 8\n지능\n+132\n공격력\n+33.0%\n열기 피해\n+38.4%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+180.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 9\n지능\n+156\n공격력\n+39.0%\n열기 피해\n+44.8%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+210.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n지능 증가\n공격력 증가\n어둠",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_37",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=37&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 37,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:42.115633+00:00",
+        "contentSha256": "a8af632cef44b3d2bbf7f4ca29096df1c8e919ada5756da8599144990c36e04b",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/37_용조의_불꽃.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "용조의 불꽃"
+      }
+    },
+    {
+      "documentId": "auto.weapon_37.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 용조의 불꽃\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n어둠 · 울부짖는 불길\n기본/최대\n어둠 · 울부짖는 불길\n잠재능력 1\n1/4\n열기 피해\n+16.0%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+75.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 2\n2/5\n열기 피해\n+19.2%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+90.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 3\n3/6\n열기 피해\n+22.4%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+105.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 4\n4/7\n열기 피해\n+25.6%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+120.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 5\n5/8\n열기 피해\n+28.8%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+135.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 6\n6/9\n열기 피해\n+32.0%\n장착자가 궁극기를 사용했을 때, 일반 공격 피해\n+150.0%\n, 20.0초 동안 지속.\n같은 이름의 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_37",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=37&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 37,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:26:42.115633+00:00",
+        "contentSha256": "a8af632cef44b3d2bbf7f4ca29096df1c8e919ada5756da8599144990c36e04b",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/37_용조의_불꽃.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "용조의 불꽃"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 52
+    },
+    {
+      "level": 20,
+      "baseAttack": 149
+    },
+    {
+      "level": 40,
+      "baseAttack": 252
+    },
+    {
+      "level": 60,
+      "baseAttack": 355
+    },
+    {
+      "level": 80,
+      "baseAttack": 458
+    },
+    {
+      "level": 90,
+      "baseAttack": 510
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "지능 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_37.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "공격력 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_37.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "어둠 · 울부짖는 불길",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_37.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 0,
+    "code": "sword",
+    "label": "한손검"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/한손검/37_용조의_불꽃.json"
+}

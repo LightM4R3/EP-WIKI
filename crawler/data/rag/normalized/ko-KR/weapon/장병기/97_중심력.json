@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_97",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 97,
+    "name": "중심력"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=97&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "da2da97738758169ec1f0abafa153a555ae61da4a2bb938bd4a8694e003876c4",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_97.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 중심력\ngameEntryId: 97\n정규화 상태: query_ready\n무기 유형: 장병기 (id=2, code=polearm)\n기초 공격력: LV.1=42, LV.20=120, LV.40=203, LV.60=286, LV.80=369, LV.90=411\n무기 옵션: 1번=의지 증가 · 중; 2번=전기 피해 증가 · 중; 3번=억제 · 동심원\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_97",
+        "gameEntryId": 97,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=97&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/97_중심력.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 2,
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "evidenceDocumentIds": [
+          "auto.weapon_97.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_97.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_97.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_97.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_97.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_97.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 중심력\ncategory: weapon\nsection: profile\n중심력\n유형\n장병기\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n레이시언 공업 맞춤형 제품 라인의 대표 모델, 군용 장창 형태를 기반으로 다양한 특수 기능과 개성 있는 디자인을 더했습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_97",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=97&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 97,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:49.010368+00:00",
+        "contentSha256": "da2da97738758169ec1f0abafa153a555ae61da4a2bb938bd4a8694e003876c4",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/97_중심력.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "중심력"
+      }
+    },
+    {
+      "documentId": "auto.weapon_97.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 중심력\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n중심력\n장병기\n·획득 방식\n구매 센터 - 무기고 교환소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n42\n411\n의지 증가 · 중\n의지\n+16\n1/3\n의지\n+124\n9/9\n전기 피해 증가 · 중\n전기 피해\n+4.4%\n1/3\n전기 피해\n+34.7%\n9/9\n억제 · 동심원\n연계 스킬 피해\n+10.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+10.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\n1/4\n연계 스킬 피해\n+28.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+28.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_97",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=97&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 97,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:49.010368+00:00",
+        "contentSha256": "da2da97738758169ec1f0abafa153a555ae61da4a2bb938bd4a8694e003876c4",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/97_중심력.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "중심력"
+      }
+    },
+    {
+      "documentId": "auto.weapon_97.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 중심력\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n42\n-\n의지 증가 · 중\n의지\n+16\n1/3\n전기 피해 증가 · 중\n전기 피해\n+4.4%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n120\n120\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n의지 증가 · 중\n의지\n+16\n1/3\n의지\n+28\n2/5\n전기 피해 증가 · 중\n전기 피해\n+4.4%\n1/3\n전기 피해\n+4.4%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n203\n203\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n의지 증가 · 중\n의지\n+28\n2/5\n의지\n+28\n2/6\n전기 피해 증가 · 중\n전기 피해\n+4.4%\n1/4\n전기 피해\n+8.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n286\n286\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n의지 증가 · 중\n의지\n+28\n2/6\n의지\n+41\n3/8\n전기 피해 증가 · 중\n전기 피해\n+8.0%\n2/6\n전기 피해\n+8.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n369\n369\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n의지 증가 · 중\n의지\n+41\n3/8\n의지\n+41\n3/9\n전기 피해 증가 · 중\n전기 피해\n+8.0%\n2/7\n전기 피해\n+11.6%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n411\n-\n의지 증가 · 중\n의지\n+41\n3/9\n전기 피해 증가 · 중\n전기 피해\n+11.6%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_97",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=97&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 97,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:49.010368+00:00",
+        "contentSha256": "da2da97738758169ec1f0abafa153a555ae61da4a2bb938bd4a8694e003876c4",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/97_중심력.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "중심력"
+      }
+    },
+    {
+      "documentId": "auto.weapon_97.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 중심력\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n의지 증가 · 중\n전기 피해 증가 · 중\n억제 · 동심원\nRANK 1\n의지\n+16\n전기 피해\n+4.4%\n연계 스킬 피해\n+10.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+10.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\nRANK 2\n의지\n+28\n전기 피해\n+8.0%\n연계 스킬 피해\n+12.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+12.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\nRANK 3\n의지\n+41\n전기 피해\n+11.6%\n연계 스킬 피해\n+14.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+14.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\nRANK 4\n의지\n+54\n전기 피해\n+15.1%\n연계 스킬 피해\n+16.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+16.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\nRANK 5\n의지\n+67\n전기 피해\n+18.7%\n연계 스킬 피해\n+18.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+18.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\nRANK 6\n의지\n+80\n전기 피해\n+22.2%\n연계 스킬 피해\n+20.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+20.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\nRANK 7\n의지\n+92\n전기 피해\n+25.8%\n연계 스킬 피해\n+22%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+22%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\nRANK 8\n의지\n+105\n전기 피해\n+29.3%\n연계 스킬 피해\n+24.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+24.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\nRANK 9\n의지\n+124\n전기 피해\n+34.7%\n연계 스킬 피해\n+28.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+28.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n의지 증가\n전기 피해 증가\n억제",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_97",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=97&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 97,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:49.010368+00:00",
+        "contentSha256": "da2da97738758169ec1f0abafa153a555ae61da4a2bb938bd4a8694e003876c4",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/97_중심력.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "중심력"
+      }
+    },
+    {
+      "documentId": "auto.weapon_97.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 중심력\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n억제 · 동심원\n기본/최대\n억제 · 동심원\n잠재능력 1\n1/4\n연계 스킬 피해\n+10.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+10.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\n잠재능력 2\n2/5\n연계 스킬 피해\n+12.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+12.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\n잠재능력 3\n3/6\n연계 스킬 피해\n+14.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+14.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\n잠재능력 4\n4/7\n연계 스킬 피해\n+16.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+16.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\n잠재능력 5\n5/8\n연계 스킬 피해\n+18.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+18.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.\n잠재능력 6\n6/9\n연계 스킬 피해\n+20.0%\n장착자가 연계 스킬을 사용했을 때, 30초 내 다음 배틀 스킬을 사용하는 중에 주는 전기 피해\n+20.0%\n.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 각 스택의 지속 시간은 독립적으로 계산됩니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_97",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=97&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 97,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:49.010368+00:00",
+        "contentSha256": "da2da97738758169ec1f0abafa153a555ae61da4a2bb938bd4a8694e003876c4",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/97_중심력.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "중심력"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 42
+    },
+    {
+      "level": 20,
+      "baseAttack": 120
+    },
+    {
+      "level": 40,
+      "baseAttack": 203
+    },
+    {
+      "level": 60,
+      "baseAttack": 286
+    },
+    {
+      "level": 80,
+      "baseAttack": 369
+    },
+    {
+      "level": 90,
+      "baseAttack": 411
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "의지 증가 · 중",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_97.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "전기 피해 증가 · 중",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_97.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "억제 · 동심원",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_97.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 2,
+    "code": "polearm",
+    "label": "장병기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/장병기/97_중심력.json"
+}

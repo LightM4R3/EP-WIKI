@@ -1,0 +1,501 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_995",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 995,
+    "name": "미브"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_995.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 미브\ngameEntryId: 995\n정규화 상태: query_ready\n속성: 물리 (id=0, code=physical)\n무기 유형: 양손검 (id=1, code=greatsword)\n주요 능력치: 지능 (id=2, code=intellect)\n보조 능력치: 의지 (id=3, code=will)\nLV.1: 힘=22, 민첩=10, 지능=9, 의지=14, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=54, 민첩=27, 지능=27, 의지=37, 기초 공격력=91, 기초 생명력=1566\nLV.40: 힘=88, 민첩=46, 지능=45, 의지=60, 기초 공격력=155, 기초 생명력=2689\nLV.60: 힘=122, 민첩=65, 지능=63, 의지=84, 기초 공격력=219, 기초 생명력=3811\nLV.80: 힘=156, 민첩=83, 지능=81, 의지=107, 기초 공격력=283, 기초 생명력=4934\nLV.90: 힘=173, 민첩=92, 지능=90, 의지=119, 기초 공격력=315, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_995",
+        "gameEntryId": 995,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 0,
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "evidenceDocumentIds": [
+          "auto.operator_995.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_995.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_995.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_995.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_995.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_995.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_995.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_995.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_995.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_995.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_995.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 미브\ncategory: operator\nsection: profile\n미브\n진영\n홍산 과학원\n무기 유형\n양손검\n\"우린 함께 죽을 고비를 넘긴 사이잖아? 안 그래?\"\n무릉성 순찰대 대장, 책임자 장방이의 든든한 부하, 무릉의 장기 연속 '선진의 별', 무릉성 민간 전투력 2위, 동료들에겐 가장 엄격한 교관이자 누구보다 부하들을 잘 보살피는 상사, 방흥거리 탕유빠바 노점의 단골손님, 아이들의 동경의 대상, 무법자들의 악몽, 침입자들의 천적, 청파채의 '배신자', 청파 무술의 계승자, 탕탕의 친구이자 원수, 그리고 침식 조류 앞에선 절대 물러서지 않는 투사...\n미브라는 인물을 가장 깊이 이해하는 방법은 바로 그녀의 적이 되거나 벗이 되는 것이다. 이 둘은 미브가 가장 중요하게 여기는 관계로, 그녀에게 강적은 피를 끓게 만드는 존재이고, 벗은 자신의 목숨을 걸고서라도 싸움에 나서게 만드는 존재이기 때문이다.\n이제 그녀는 자기와 함께 싸워준 벗에게 보답하고, 강적들과 다시 싸우기 위해 엔드필드 공업에서의 새로운 여정을 시작한다.\n\"이번엔 내가 네 문제를 해결해 줄 테니까.\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_995",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 995,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:41.858389+00:00",
+        "contentSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "미브"
+      }
+    },
+    {
+      "documentId": "auto.operator_995.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 미브\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n미브\n성별\n여성\n진영\n홍산 과학원\n생일\n7월 9일\n속성\n물리\n종족\n살카즈\n한국어 CV\n민아\n일본어 CV\n渡辺明乃\n영어 CV\nRao Zijun\n중국어 CV\n张若瑜",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_995",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 995,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:41.858389+00:00",
+        "contentSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "미브"
+      }
+    },
+    {
+      "documentId": "auto.operator_995.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 미브\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘 (주요 능력치)\n22\n54\n88\n122\n156\n173\n민첩\n10\n27\n46\n65\n83\n92\n지능\n9\n27\n45\n63\n81\n90\n의지 (보조 능력치)\n14\n37\n60\n84\n107\n119\n기초 공격력\n30\n91\n155\n219\n283\n315\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘\n22\n-\n민첩\n10\n지능 (주요 능력치)\n9\n의지 (보조 능력치)\n14\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘\n54\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩\n27\n지능 (주요 능력치)\n27\n의지 (보조 능력치)\n37\n기초 공격력\n91\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘\n88\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩\n46\n지능 (주요 능력치)\n45\n의지 (보조 능력치)\n60\n기초 공격력\n155\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘\n122\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩\n65\n지능 (주요 능력치)\n63\n의지 (보조 능력치)\n84\n기초 공격력\n219\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘\n156\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩\n83\n지능 (주요 능력치)\n81\n의지 (보조 능력치)\n107\n기초 공격력\n283\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘\n173\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩\n92\n지능 (주요 능력치)\n90\n의지 (보조 능력치)\n119\n기초 공격력\n315\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_995",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 995,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:41.858389+00:00",
+        "contentSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "미브"
+      }
+    },
+    {
+      "documentId": "auto.operator_995.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 미브\ncategory: operator\nsection: combat_skill\n전투 스킬\n검권 합일\n일반 공격\n일반 공격:\n적에게 최대 4단 공격을 하여\n물리 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n25\n포인트의\n불균형\n피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n물리 피해\n를 줍니다.\n처형 공격:\n주변에\n불균형\n상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n물리 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n34%\n37%\n41%\n44%\n47%\n51%\n54%\n57%\n61%\n65%\n70%\n76%\n일반 공격 제2단계 배율\n38%\n42%\n46%\n50%\n54%\n57%\n61%\n65%\n69%\n74%\n79%\n86%\n일반 공격 제3단계 배율\n61%\n67%\n73%\n79%\n85%\n91%\n97%\n103%\n109%\n116%\n126%\n136%\n일반 공격 제4단계 배율\n77%\n84%\n92%\n99%\n107%\n115%\n122%\n130%\n138%\n147%\n159%\n172%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n3상 나노플레이크 칩\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n3상 나노플레이크 칩\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n3상 나노플레이크 칩\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n청파 삼형\n배틀 스킬\n연속으로 사용하면 최대 3가지의 서로 다른 형태의 초식을 사용할 수 있습니다. 가장 처음 사용할 수 있는 배틀 스킬은\n단운\n입니다.\n단운\n:\n100\n스킬 게이지를 소모하고, 사용 후\n50\n스킬 게이지를\n반환\n합니다. 권갑에서 포승줄을 발사하여 목표 및 그 주변의 다른 적에게\n물리 피해\n를 주고, 자기 쪽으로 끌어오기를 시도합니다. 사용 후, 배틀 스킬은 일정 시간 내에\n추형\n으로 교체됩니다.\n추형\n:\n50\n스킬 게이지를 소모합니다. 전방으로 주먹을 연속으로 휘둘러\n물리 피해\n를 주며, 마지막 일격은 추가로\n강타\n피해를 줍니다. 만약 이번\n강타\n로\n소모\n한 최대\n방어 불능\n스택 수치가 3스택 이상일 경우, 배틀 스킬은 일정 시간 내에\n개천\n으로 교체됩니다.\n개천\n:\n50\n스킬 게이지를 소모하여 전방 범위에 대량의\n물리 피해\n를 줍니다. 이번 피해의 유형은 배틀 스킬 피해가 아니며\n강타\n피해로 간주됩니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n단운 피해 배율\n67%\n73%\n80%\n87%\n93%\n100%\n107%\n113%\n120%\n128%\n138%\n150%\n추형 피해 배율\n89%\n98%\n107%\n116%\n125%\n134%\n143%\n151%\n160%\n172%\n185%\n200%\n추형 불균형치\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n개천 피해 배율\n400%\n416%\n432%\n448%\n464%\n480%\n496%\n512%\n528%\n548%\n572%\n600%\n개천 불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_995",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 995,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:41.858389+00:00",
+        "contentSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "미브"
+      }
+    },
+    {
+      "documentId": "auto.operator_995.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 미브\ncategory: operator\nsection: combat_skill\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n후회 없는 주먹\n연계 스킬\n적의\n방어 불능\n수치가 3스택 및 그 이상에 도달했을 때, 사용할 수 있습니다.\n올려치기로 전방의 적을 공격해\n물리 피해\n를 주며, 동시에 일정 시간 동안\n물리 취약\n을 부여합니다. 사용 후, 배틀 스킬은 일정 시간 내에\n추형\n으로 교체됩니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n19초\n피해 배율\n111%\n122%\n133%\n144%\n155%\n167%\n178%\n189%\n200%\n214%\n230%\n250%\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n물리 취약 효과\n5%\n5%\n5%\n5%\n5%\n5%\n5%\n5%\n5%\n5%\n5%\n5%\n물리 취약 지속 시간(초)\n16\n16\n16\n16\n16\n16\n16\n16\n16\n16\n16\n16\n획득하는 궁극기 에너지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n3상 나노플레이크 칩\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n3상 나노플레이크 칩\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n3상 나노플레이크 칩\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n절심\n궁극기\n잠시 차지한 뒤 전방으로 돌진해 전방의 목표에 강제로\n띄우기 피해\n를 주고, 이어서 지면에 내리꽂아 강제로 넘어뜨리며, 동시에\n물리 피해\n를 줍니다. 사용 후 일정 시간 동안 배틀 스킬이\n추형\n으로 대체됩니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n80\n80\n80\n80\n80\n80\n80\n80\n80\n80\n80\n80\n쿨타임\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n피해 배율\n311%\n342%\n373%\n404%\n435%\n466%\n498%\n529%\n560%\n599%\n645%\n700%\n불균형치\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_995",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 995,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T07:01:41.858389+00:00",
+        "contentSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "미브"
+      }
+    },
+    {
+      "documentId": "auto.operator_995.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 미브\ncategory: operator\nsection: combat_skill\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_995",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 995,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T07:01:41.858389+00:00",
+        "contentSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "미브"
+      }
+    },
+    {
+      "documentId": "auto.operator_995.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 미브\ncategory: operator\nsection: operator_talent\n재능 배열\n단련\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 힘 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 힘 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 힘 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 힘 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n냉정\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n배틀 스킬\n개천\n이 명중했을 때, 만약 목표가\n물리 취약\n또는\n불균형\n상태에 빠질 경우, 피해 배율이 기존의\n1.1\n배로 증가합니다.\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n배틀 스킬\n개천\n이 명중했을 때, 만약 목표가\n물리 취약\n또는\n불균형\n상태에 빠질 경우, 피해 배율이 기존의\n1.2\n배로 증가합니다.\n정예화 단계 2 돌파\n40\n프로토콜 프리즘\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n분노\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n연계 스킬 사용 후, 최대 생명력\n15%\n만큼의\n보호\n를 획득합니다. 해당 효과가 지속되는 동안 행동이 더 쉽게 끊이지 않으며, 10초 동안 지속됩니다.\n해당 효과는 60초마다 최대 1회 발동합니다.\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n연계 스킬 사용 후, 최대 생명력\n30%\n만큼의\n보호\n를 획득합니다. 해당 효과가 지속되는 동안 행동이 더 쉽게 끊이지 않으며, 10초 동안 지속됩니다.\n해당 효과는 60초마다 최대 1회 발동합니다.\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n24000\n탈로시안 화폐\n*\n24000\n은밀한 시선",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_995",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 995,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:41.858389+00:00",
+        "contentSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "미브"
+      }
+    },
+    {
+      "documentId": "auto.operator_995.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 미브\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n은밀한 시선\n· α\n응접실에 배치 시, 오퍼레이터가 단서 3 - 홍산 과학원을 수집할 확률 약간 증가. (배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음.)\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n은밀한 시선\n· β\n응접실에 배치 시, 오퍼레이터가 단서 3 - 홍산 과학원을 수집할 확률 증가. (배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음.)\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n약초 요법\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n약초 요법\n· α\n재배실에 배치 시, 버섯 재료의 육성 속도 20% 증가\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n약초 요법\n· β\n재배실에 배치 시, 버섯 재료의 육성 속도 30% 증가\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_995",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 995,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:41.858389+00:00",
+        "contentSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "미브"
+      }
+    },
+    {
+      "documentId": "auto.operator_995.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 미브\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\nD96강 시제품 4번\n*\n20\n8\n피버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_995",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 995,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:41.858389+00:00",
+        "contentSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "미브"
+      }
+    },
+    {
+      "documentId": "auto.operator_995.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 미브\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n영원한 순례\n잠재능력 01\n연계 스킬\n후회 없는 주먹\n의 쿨타임\n-2\n초, 부여하는\n물리 취약\n효과 추가로\n+5%\n, 지속 시간\n+4\n초\n오퍼레이터 기념사진 \"가벼운 한잔\" 잠금 해제\n심신일체\n잠재능력 02\n힘\n+20\n, 오리지늄 아츠 강도\n+16\n전투 태세\n잠재능력 03\n재능\n분노\n효과 강화:\n보호\n지속 시간\n+5\n초,\n보호\n발동 간격\n-15\n초, 매번 발동할 때마다 추가로 공격력\n+6%\n, 지속 시간 20초\n오퍼레이터 기념사진 \"한가로움\" 잠금 해제\n삼절의 극의\n잠재능력 04\n궁극기\n절심\n의 사용에 필요한 궁극기 에너지\n-15%\n숲을 가르는 주먹\n잠재능력 05\n배틀 스킬\n단운\n,\n추형\n,\n개천\n의 피해 배율이 모두 기존의\n1.1\n배로 증가, 궁극기\n절심\n이 주는 불균형치\n+5\n포인트.\n배틀 스킬 배율 증가 효과는 재능 냉정과 중첩됩니다.\n오퍼레이터 기념사진 \"기쁨 한 가득\" 잠금 해제\n명함 테마 \"기쁨 한 가득\" 잠금 해제\n오퍼레이터 기념사진\n가벼운 한잔\n일러스트레이터: Cenm0\n책무를 저버릴 수 없기에, 기능성 음료는 그렇게 술을 대신하게 되었습니다.\n한가로움\n일러스트레이터: u介\n강직한 사람에게도 느슨해지는 순간은 있습니다. 다른 사람에게는 말하지 말아 주십시오.\n기쁨 한 가득\n일러스트레이터: 萃_SUIKA\n이 짧은 밤, 그대와 함께 마음껏 즐기리라.",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_995",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=995&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 995,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:41.858389+00:00",
+        "contentSha256": "570f004586e3a99b933dcaf3adaa1f7daf6e282f85e3c48b08d8c3e9a857b698",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "미브"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 0,
+      "code": "physical",
+      "label": "물리"
+    },
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    },
+    "secondary": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 22,
+        "agility": 10,
+        "intellect": 9,
+        "will": 14,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 54,
+        "agility": 27,
+        "intellect": 27,
+        "will": 37,
+        "baseAttack": 91,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 88,
+        "agility": 46,
+        "intellect": 45,
+        "will": 60,
+        "baseAttack": 155,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 122,
+        "agility": 65,
+        "intellect": 63,
+        "will": 84,
+        "baseAttack": 219,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 156,
+        "agility": 83,
+        "intellect": 81,
+        "will": 107,
+        "baseAttack": 283,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 173,
+        "agility": 92,
+        "intellect": 90,
+        "will": 119,
+        "baseAttack": 315,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_995.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_995.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_995.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": []
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_995.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_995.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_995.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 0,
+    "code": "physical",
+    "label": "물리"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/물리/995_미브.json"
+}

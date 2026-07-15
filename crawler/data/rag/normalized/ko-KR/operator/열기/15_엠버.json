@@ -1,0 +1,620 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_15",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 15,
+    "name": "엠버"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_15.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 엠버\ngameEntryId: 15\n정규화 상태: query_ready\n속성: 열기 (id=1, code=heat)\n무기 유형: 양손검 (id=1, code=greatsword)\n주요 능력치: 힘 (id=0, code=strength)\n보조 능력치: 의지 (id=3, code=will)\nLV.1: 힘=21, 민첩=9, 지능=8, 의지=13, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=54, 민첩=28, 지능=25, 의지=36, 기초 공격력=93, 기초 생명력=1566\nLV.40: 힘=89, 민첩=47, 지능=42, 의지=60, 기초 공격력=159, 기초 생명력=2689\nLV.60: 힘=124, 민첩=67, 지능=60, 의지=84, 기초 공격력=225, 기초 생명력=3811\nLV.80: 힘=159, 민첩=87, 지능=77, 의지=108, 기초 공격력=291, 기초 생명력=4934\nLV.90: 힘=176, 민첩=96, 지능=86, 의지=120, 기초 공격력=323, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, progression.sourceConflicts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_15",
+        "gameEntryId": 15,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 1,
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "evidenceDocumentIds": [
+          "auto.operator_15.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_15.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_15.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_15.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_15.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_15.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_15.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_15.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_15.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_15.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_15.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 엠버\ncategory: operator\nsection: profile\n엠버\n진영\n철의 서약군\n무기 유형\n양손검\n\"출발하시죠. 전쟁은 끝도, 퇴로도 없습니다.\"\n엠버는 북쪽의 험난한 지역을 장기간 수호해 온 군사 조직 철의 서약군 소속이다. 전사한 전우들의 후임자를 모집하기 위해, 엠버는 문명 밴드로 돌아와 엔드필드 공업과 협력하게 되었다.\n철의 서약군 특수 부대의 정예인 엠버의 전투 기술은 흠잡을 데 없다. 그녀는 언제나 최전선에서 싸우며, 전우들과 함께 무너뜨릴 수 없는 방벽을 형성해 적의 공세를 정면에서 맞선다. 적 앞에서는 절대 물러서지 않는 요새이고, 동료들의 눈에는 무너지지 않는 성벽이다. 거대한 요새와 우주 모선이 철의 서약군의 골격을 이룬다면 엠버 같은 전사들은 그들의 굳건한 척추라 할 수 있다.\n\"저기 저 오로라 아래쪽이 철의 서약군의 방어선입니다. \"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_15",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 15,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:39.132732+00:00",
+        "contentSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "엠버"
+      }
+    },
+    {
+      "documentId": "auto.operator_15.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 엠버\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n엠버\n성별\n여\n진영\n철의 서약군\n생일\n4월 10일\n속성\n열기\n종족\n산크타\n한국어 CV\n이새아\n일본어 CV\n小松 未可子\n영어 CV\nRhiannon Moushall\n중국어 CV\n徐慧",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_15",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 15,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:39.132732+00:00",
+        "contentSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "엠버"
+      }
+    },
+    {
+      "documentId": "auto.operator_15.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 엠버\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘 (주요 능력치)\n21\n54\n89\n124\n159\n176\n민첩\n9\n28\n47\n67\n87\n96\n지능\n8\n25\n42\n60\n77\n86\n의지 (보조 능력치)\n13\n36\n60\n84\n108\n120\n기초 공격력\n30\n93\n159\n159\n291\n323\n기초 생명력\n500\n1566\n2689\n2689\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘 (주요 능력치)\n21\n-\n민첩\n9\n지능\n8\n의지 (보조 능력치)\n13\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n54\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩\n28\n지능\n25\n의지 (보조 능력치)\n36\n기초 공격력\n93\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n89\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩\n47\n지능\n42\n의지 (보조 능력치)\n60\n기초 공격력\n159\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n124\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩\n67\n지능\n60\n의지 (보조 능력치)\n84\n기초 공격력\n225\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n159\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩\n87\n지능\n77\n의지 (보조 능력치)\n108\n기초 공격력\n291\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘 (주요 능력치)\n176\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩\n96\n지능\n86\n의지 (보조 능력치)\n120\n기초 공격력\n323\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_15",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 15,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:39.132732+00:00",
+        "contentSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "엠버"
+      }
+    },
+    {
+      "documentId": "auto.operator_15.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 엠버\ncategory: operator\nsection: combat_skill\n전투 스킬\n돌진 검술\n일반 공격\n일반 공격:\n적에게 최대 4단 공격을 하여\n물리 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n25\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n물리 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n물리 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n38%\n42%\n46%\n50%\n54%\n57%\n61%\n65%\n69%\n74%\n79%\n86%\n일반 공격 제2단계 배율\n54%\n59%\n64%\n70%\n75%\n80%\n86%\n91%\n96%\n103%\n111%\n120%\n일반 공격 제3단계 배율\n66%\n73%\n80%\n86%\n93%\n99%\n106%\n113%\n119%\n128%\n138%\n149%\n일반 공격 제4단계 배율\n82%\n90%\n98%\n106%\n114%\n122%\n131%\n139%\n147%\n157%\n169%\n184%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n진군\n배틀 스킬\n전방으로 뛰어올라 힘차게 내리찍어 부채꼴 범위 내의 모든 적에게\n열기 피해\n와\n넘어뜨리기\n피해를 줍니다.\n이 과정에서 적에게 공격받았을 경우, 명중했을 때 추가로 불균형치 피해를 줍니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n피해 배율\n173%\n191%\n208%\n225%\n243%\n260%\n277%\n295%\n312%\n334%\n360%\n390%\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n공격받은 후 추가로 주는 불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_15",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 15,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:39.132732+00:00",
+        "contentSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "엠버"
+      }
+    },
+    {
+      "documentId": "auto.operator_15.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 엠버\ncategory: operator\nsection: combat_skill\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n전선에서의 지원\n연계 스킬\n메인 컨트롤 오퍼레이터가 공격을 받았을 때 사용할 수 있습니다.\n목표한 적을 향해 뛰어올라 힘차게 내리찍습니다.\n물리 피해\n를 주고\n넘어뜨리기\n피해를 주며, 메인 컨트롤 오퍼레이터를 치유합니다. 의지는 치유량을 추가로 증가시킵니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n19초\n19초\n19초\n19초\n19초\n19초\n19초\n19초\n19초\n19초\n19초\n18초\n피해 배율\n102%\n112%\n122%\n133%\n143%\n153%\n163%\n173%\n184%\n196%\n212%\n230%\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n기초 치유 수치\n300\n360\n420\n480\n510\n540\n570\n600\n630\n645\n660\n675\n의지 1포인트마다 증가하는 치유 수치\n0.7\n0.84\n0.98\n1.12\n1.19\n1.26\n1.33\n1.4\n1.47\n1.51\n1.54\n1.58\n획득하는 궁극기 에너지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n다시 불타오르는 맹세\n궁극기\n지면을 강타하여 주변의 적에게\n열기 피해\n를 주고, 동시에 팀 전체에게 엠버의 최대 생명력에 따른\n보호\n를 부여합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n쿨타임\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n피해 배율\n289%\n318%\n347%\n376%\n404%\n433%\n462%\n491%\n520%\n556%\n599%\n650%\n불균형치\n25\n25\n25\n25\n25\n25\n25\n25\n25\n25\n25\n25\n보호 전환 비율(생명력)\n18%\n18%\n18%\n20%\n20%\n20%\n22%\n22%\n22%\n25%\n25%\n25%\n보호 지속 시간(초)\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n침식된 옥 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n침식된 옥 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_15",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 15,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:25:39.132732+00:00",
+        "contentSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "엠버"
+      }
+    },
+    {
+      "documentId": "auto.operator_15.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 엠버\ncategory: operator\nsection: combat_skill\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n침식된 옥 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_15",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 15,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T06:25:39.132732+00:00",
+        "contentSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "엠버"
+      }
+    },
+    {
+      "documentId": "auto.operator_15.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 엠버\ncategory: operator\nsection: operator_talent\n재능 배열\n단련\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 힘 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 힘 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 힘 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 힘 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n전진의 결의\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n배틀 스킬\n진군\n과 연계 스킬\n전선에서의 지원\n을 발동하는 과정에서\n30%\n비호\n를 획득하고 스킬이 쉽게 끊기지 않습니다.\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n배틀 스킬\n진군\n과 연계 스킬\n전선에서의 지원\n을 발동하는 과정에서\n50%\n비호\n를 획득하고 스킬이 쉽게 끊기지 않습니다.\n정예화 단계 2 돌파\n40\n프로토콜 프리즘\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n강철에는 강철로\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n적에게 피해를 받았을 때, 공격력\n+6%\n, 7초 동안 지속. 해당 효과는 최대 3스택까지 중첩됩니다.\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n적에게 피해를 받았을 때, 공격력\n+9%\n, 7초 동안 지속. 해당 효과는 최대 3스택까지 중첩됩니다.\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n24000\n탈로시안 화폐\n*\n24000\n북쪽 지역에서의 특훈",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_15",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 15,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:39.132732+00:00",
+        "contentSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "엠버"
+      }
+    },
+    {
+      "documentId": "auto.operator_15.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 엠버\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n북쪽 지역에서의 특훈 · β\n제조실에 배치 시, 오퍼레이터 경험치 재료의 생산 효율 20% 증가\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n북쪽 지역에서의 특훈 · γ\n제조실에 배치 시, 오퍼레이터 경험치 재료의 생산 효율 30% 증가\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n전우애\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n전우애 · α\n응접실에 배치 시, 오퍼레이터가 단서 4 - 철의 서약군을 수집할 확률 약간 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n전우애 · β\n응접실에 배치 시, 오퍼레이터가 단서 4 - 철의 서약군을 수집할 확률 증가(배치 즉시 효력 발생, 같은 유형의 효과는 중첩되지 않음)\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_15",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 15,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:39.132732+00:00",
+        "contentSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "엠버"
+      }
+    },
+    {
+      "documentId": "auto.operator_15.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 엠버\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\nD96강 시제품 4번\n*\n20\n8\n스타게이트 버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_15",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 15,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:39.132732+00:00",
+        "contentSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "엠버"
+      }
+    },
+    {
+      "documentId": "auto.operator_15.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 엠버\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n이동 요새\n잠재능력 01\n재능\n'전진의 결의'\n효과 강화:\n비호\n효과\n+20%\n, 적을 명중할 때 추가 지속 시간\n1.5\n초\n오퍼레이터 기념사진 \"끝나지 않은 맹세\" 잠금 해제\n무쇠의 전사\n잠재능력 02\n힘\n+20\n, 의지\n+20\n불굴의 전선\n잠재능력 03\n연계 스킬\n전선에서의 지원\n이 팀 내 생명력 백분율이 가장 낮은 오퍼레이터 1명을 추가로 지유합니다. 해당 효과는 기초 수치의\n50%\n만큼만 제공됩니다.\n오퍼레이터 기념사진 \"끝없는 원정\" 잠금 해제\n불멸의 불꽃\n잠재능력 04\n궁극기\n다시 불타오르는 맹세\n의 사용에 필요한 궁극기 에너지\n-15%\n철의 서약\n잠재능력 05\n궁극기\n다시 불타오르는 맹세\n가 부여하는\n보호\n효과가\n1.2\n배로 변하고, 해당\n보호\n가 유지되는 동안, 보호를 받은 대상의 공격력\n+10%\n.\n오퍼레이터 기념사진 \"난공불락의 요새\" 잠금 해제\n명함 테마 \"난공불락의 요새\" 잠금 해제\n오퍼레이터 기념사진\n끝나지 않은 맹세\n일러스트레이터: STAR影法师\n진실을 마음속에 눌러 담고, 그곳에서 얻은 깨달음 속에서 다시 일어설 힘을 기르는 것... 그것뿐입니다.\n끝없는 원정\n일러스트레이터: へいろー\n싸움은 목적지로 가기 위한 수단에 불과합니다. 전사라면, 결코 목표 앞에서 쓰러지지 않으니까요.\n난공불락의 요새\n일러스트레이터: MoooFoo\n굳어버린 피와 뜨거운 강철이 북쪽 지역에 요새를 세웠습니다. 하지만 그곳을 전 악몽으로 두고 싶진 않습니다. 제가 가야 할 다음 여정의 최종 목적지일 뿐이죠.",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_15",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=15&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 15,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:39.132732+00:00",
+        "contentSha256": "1bd5987ddf19e2d78e5e7b5706017381e4c5591ac55b47eb8a078a60cd4fc264",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "엠버"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 1,
+      "code": "heat",
+      "label": "열기"
+    },
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 0,
+      "code": "strength",
+      "label": "힘"
+    },
+    "secondary": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 21,
+        "agility": 9,
+        "intellect": 8,
+        "will": 13,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 54,
+        "agility": 28,
+        "intellect": 25,
+        "will": 36,
+        "baseAttack": 93,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 89,
+        "agility": 47,
+        "intellect": 42,
+        "will": 60,
+        "baseAttack": 159,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 124,
+        "agility": 67,
+        "intellect": 60,
+        "will": 84,
+        "baseAttack": 225,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 159,
+        "agility": 87,
+        "intellect": 77,
+        "will": 108,
+        "baseAttack": 291,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 176,
+        "agility": 96,
+        "intellect": 86,
+        "will": 120,
+        "baseAttack": 323,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [
+    {
+      "field": "기초 공격력",
+      "headerValues": [
+        30,
+        93,
+        159,
+        159,
+        291,
+        323
+      ],
+      "detailValues": [
+        30,
+        93,
+        159,
+        225,
+        291,
+        323
+      ],
+      "selectedValues": [
+        30,
+        93,
+        159,
+        225,
+        291,
+        323
+      ],
+      "resolution": "detail_table_selected_non_monotonic_header",
+      "evidenceDocumentId": "auto.operator_15.progression.c3.chapter.s2.p0.ko-kr"
+    },
+    {
+      "field": "기초 생명력",
+      "headerValues": [
+        500,
+        1566,
+        2689,
+        2689,
+        4934,
+        5495
+      ],
+      "detailValues": [
+        500,
+        1566,
+        2689,
+        3811,
+        4934,
+        5495
+      ],
+      "selectedValues": [
+        500,
+        1566,
+        2689,
+        3811,
+        4934,
+        5495
+      ],
+      "resolution": "dataset_consensus_reference_selected",
+      "evidenceDocumentId": "auto.operator_15.progression.c3.chapter.s2.p0.ko-kr"
+    }
+  ],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_15.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_15.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_15.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": []
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_15.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_15.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_15.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 1,
+    "code": "heat",
+    "label": "열기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "progression.sourceConflicts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": [
+      {
+        "field": "기초 공격력",
+        "headerValues": [
+          30,
+          93,
+          159,
+          159,
+          291,
+          323
+        ],
+        "detailValues": [
+          30,
+          93,
+          159,
+          225,
+          291,
+          323
+        ],
+        "selectedValues": [
+          30,
+          93,
+          159,
+          225,
+          291,
+          323
+        ],
+        "resolution": "detail_table_selected_non_monotonic_header",
+        "evidenceDocumentId": "auto.operator_15.progression.c3.chapter.s2.p0.ko-kr"
+      },
+      {
+        "field": "기초 생명력",
+        "headerValues": [
+          500,
+          1566,
+          2689,
+          2689,
+          4934,
+          5495
+        ],
+        "detailValues": [
+          500,
+          1566,
+          2689,
+          3811,
+          4934,
+          5495
+        ],
+        "selectedValues": [
+          500,
+          1566,
+          2689,
+          3811,
+          4934,
+          5495
+        ],
+        "resolution": "dataset_consensus_reference_selected",
+        "evidenceDocumentId": "auto.operator_15.progression.c3.chapter.s2.p0.ko-kr"
+      }
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/열기/15_엠버.json"
+}

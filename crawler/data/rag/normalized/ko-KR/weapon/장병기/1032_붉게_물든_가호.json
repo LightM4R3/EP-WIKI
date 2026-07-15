@@ -1,0 +1,281 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_1032",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 1032,
+    "name": "붉게 물든 가호"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1032&header=0",
+    "runId": "auto-1001-1050-ko-KR-final",
+    "contentSha256": "ef5683ef54a17f1e5dfcc25db754f681db8fc87eea31009a88600fc43520cd45",
+    "contentHashAlgorithm": "rendered_chapters_v1"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_1032.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 붉게 물든 가호\ngameEntryId: 1032\n정규화 상태: query_ready\n무기 유형: 장병기 (id=2, code=polearm)\n기초 공격력: LV.1=51, LV.20=146, LV.40=247, LV.60=348, LV.80=449, LV.90=500\n무기 옵션: 1번=민첩 증가 · 대; 2번=열기 피해 증가 · 대; 3번=흐름 · 심판\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_1032",
+        "gameEntryId": 1032,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1032&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/1032_붉게_물든_가호.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 2,
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "evidenceDocumentIds": [
+          "auto.weapon_1032.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_1032.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_1032.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_1032.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_1032.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_1032.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 붉게 물든 가호\ncategory: weapon\nsection: profile\n붉게 물든 가호\n유형\n장병기\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n주술 타임에서 발행한 장창 중 하나, 세쉬카 오픈 데이에 출시된 특별 기념 모델로, 창대에 특수 코팅 공법을 적용하여 실용성과 미학적 가치를 모두 갖추었습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_1032",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1032&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 1032,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:13:06.989042+00:00",
+        "contentHashAlgorithm": "rendered_chapters_v1",
+        "contentSha256": "ef5683ef54a17f1e5dfcc25db754f681db8fc87eea31009a88600fc43520cd45",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/1032_붉게_물든_가호.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "붉게 물든 가호"
+      }
+    },
+    {
+      "documentId": "auto.weapon_1032.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 붉게 물든 가호\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n붉게 물든 가호\n장병기\n·획득 방법\n구매 센터 - 무기고 거래소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n51\n500\n민첩 증가 · 대\n민첩\n+20\n1/3\n민첩\n+156\n9/9\n열기 피해 증가 · 대\n열기 피해\n+5.6%\n1/3\n열기 피해\n+43.3%\n9/9\n흐름 · 심판\n궁극기 충전 효율\n+18.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+6.0%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+6.0%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n1/4\n궁극기 충전 효율\n+50.4%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+16.8%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+16.8%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_1032",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1032&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 1032,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:13:06.989042+00:00",
+        "contentHashAlgorithm": "rendered_chapters_v1",
+        "contentSha256": "ef5683ef54a17f1e5dfcc25db754f681db8fc87eea31009a88600fc43520cd45",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/1032_붉게_물든_가호.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "붉게 물든 가호"
+      }
+    },
+    {
+      "documentId": "auto.weapon_1032.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 붉게 물든 가호\ncategory: weapon\nsection: progression\n업그레이드\n돌파\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n51\n-\n민첩 증가 · 대\n민첩\n+20\n1/3\n열기 피해 증가 · 대\n열기 피해\n+5.6%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n146\n146\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n민첩 증가 · 대\n민첩\n+20\n1/3\n민첩\n+36\n2/5\n열기 피해 증가 · 대\n열기 피해\n+5.6%\n1/3\n열기 피해\n+5.6%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n247\n247\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n민첩 증가 · 대\n민첩\n+36\n2/5\n민첩\n+36\n2/6\n열기 피해 증가 · 대\n열기 피해\n+5.6%\n1/4\n열기 피해\n+10.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n348\n348\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n민첩 증가 · 대\n민첩\n+36\n2/6\n민첩\n+52\n3/8\n열기 피해 증가 · 대\n열기 피해\n+10.0%\n2/6\n열기 피해\n+10.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n449\n449\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n민첩 증가 · 대\n민첩\n+52\n3/8\n민첩\n+52\n3/9\n열기 피해 증가 · 대\n열기 피해\n+10.0%\n2/7\n열기 피해\n+14.4%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n500\n-\n민첩 증가 · 대\n민첩\n+52\n3/9\n열기 피해 증가 · 대\n열기 피해\n+14.4%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_1032",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1032&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 1032,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:13:06.989042+00:00",
+        "contentHashAlgorithm": "rendered_chapters_v1",
+        "contentSha256": "ef5683ef54a17f1e5dfcc25db754f681db8fc87eea31009a88600fc43520cd45",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/1032_붉게_물든_가호.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "붉게 물든 가호"
+      }
+    },
+    {
+      "documentId": "auto.weapon_1032.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 붉게 물든 가호\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n민첩 증가 · 대\n열기 피해 증가 · 대\n흐름 · 심판\nRANK 1\n민첩\n+20\n열기 피해\n+5.6%\n궁극기 충전 효율\n+18.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+6.0%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+6.0%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 2\n민첩\n+36\n열기 피해\n+10.0%\n궁극기 충전 효율\n+21.6%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+7.2%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+7.2%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 3\n민첩\n+52\n열기 피해\n+14.4%\n궁극기 충전 효율\n+25.2%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+8.4%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+8.4%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 4\n민첩\n+68\n열기 피해\n+18.9%\n궁극기 충전 효율\n+28.8%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+9.6%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+9.6%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 5\n민첩\n+84\n열기 피해\n+23.3%\n궁극기 충전 효율\n+32.4%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+10.8%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+10.8%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 6\n민첩\n+100\n열기 피해\n+27.8%\n궁극기 충전 효율\n+36.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+12.0%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+12.0%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 7\n민첩\n+116\n열기 피해\n+32.2%\n궁극기 충전 효율\n+39.6%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+13.2%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+13.2%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 8\n민첩\n+132\n열기 피해\n+36.7%\n궁극기 충전 효율\n+43.2%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+14.4%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+14.4%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 9\n민첩\n+156\n열기 피해\n+43.3%\n궁극기 충전 효율\n+50.4%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+16.8%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+16.8%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n민첩 증가\n열기 피해 증가\n흐름",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_1032",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1032&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 1032,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:13:06.989042+00:00",
+        "contentHashAlgorithm": "rendered_chapters_v1",
+        "contentSha256": "ef5683ef54a17f1e5dfcc25db754f681db8fc87eea31009a88600fc43520cd45",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/1032_붉게_물든_가호.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "붉게 물든 가호"
+      }
+    },
+    {
+      "documentId": "auto.weapon_1032.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 붉게 물든 가호\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n흐름 · 심판\n기본/최대\n흐름 · 심판\n잠재능력 1\n1/4\n궁극기 충전 효율\n+18.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+6.0%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+6.0%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 2\n2/5\n궁극기 충전 효율\n+21.6%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+7.2%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+7.2%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 3\n3/6\n궁극기 충전 효율\n+25.2%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+8.4%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+8.4%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 4\n4/7\n궁극기 충전 효율\n+28.8%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+9.6%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+9.6%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 5\n5/8\n궁극기 충전 효율\n+32.4%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+10.8%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+10.8%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 6\n6/9\n궁극기 충전 효율\n+36.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복한 후, 팀 전체의 공격력\n+12.0%\n, 20초 동안 지속. 장착자가 자신의 스킬로\n열기 부착\n을 부여할 때, 팀 전체가 주는 열기 피해\n+12.0%\n, 20초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_1032",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1032&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 1032,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:13:06.989042+00:00",
+        "contentHashAlgorithm": "rendered_chapters_v1",
+        "contentSha256": "ef5683ef54a17f1e5dfcc25db754f681db8fc87eea31009a88600fc43520cd45",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/1032_붉게_물든_가호.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "붉게 물든 가호"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 51
+    },
+    {
+      "level": 20,
+      "baseAttack": 146
+    },
+    {
+      "level": 40,
+      "baseAttack": 247
+    },
+    {
+      "level": 60,
+      "baseAttack": 348
+    },
+    {
+      "level": 80,
+      "baseAttack": 449
+    },
+    {
+      "level": 90,
+      "baseAttack": 500
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_1032.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "열기 피해 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_1032.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "흐름 · 심판",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_1032.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 2,
+    "code": "polearm",
+    "label": "장병기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/장병기/1032_붉게_물든_가호.json"
+}

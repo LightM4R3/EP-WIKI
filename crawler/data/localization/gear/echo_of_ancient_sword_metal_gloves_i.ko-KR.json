@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityType": "gear",
+  "entityId": "echo_of_ancient_sword_metal_gloves_i",
+  "locale": "ko-KR",
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=1023&header=0",
+    "htmlLang": "ko",
+    "xmlLang": "ko",
+    "observedAt": "2026-07-14T13:48:53+09:00"
+  },
+  "identity": {
+    "name": "고검의 잔향 금속 장갑 · I",
+    "introductionBlocks": [
+      "이 장비는 홍산 선검국에서 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.",
+      "선검국이 유실된 기술 문서를 회수한 뒤 개발한 종합 방어 장비.",
+      "이상적인 기준에 비하면 이 장갑의 동력 보조 성능은 사실 다소 떨어지는 편입니다. 과거의 자원을 복제할 수는 없으니, 천사들은 다른 대안을 강구해야만 했습니다."
+    ],
+    "acquisitionLabels": ["장비 제작", "세트 장비 제작"]
+  },
+  "taxonomy": {
+    "gearTypeId": 0,
+    "gearTypeCode": "gloves",
+    "gearTypeLabel": "글러브",
+    "qualityId": 0,
+    "qualityCode": "yellow",
+    "qualityLabel": "노란색 품질",
+    "setId": 0,
+    "setCode": "echo_of_ancient_sword",
+    "setLabel": "고검의 잔향"
+  },
+  "statLabels": { "defense": "방어력" },
+  "forging": {
+    "title": "정밀 단조",
+    "suitableAgentLabel": "무릉 정밀 단조제",
+    "stageLabels": ["기본", "1단계", "2단계", "3단계"]
+  },
+  "materialLabels": {
+    "21": "무릉 관리권",
+    "22": "혁동 장비 부품"
+  },
+  "options": [
+    {
+      "slot": 1,
+      "optionId": 0,
+      "name": "민첩",
+      "metricLabels": { "agility_flat": "민첩" }
+    },
+    {
+      "slot": 2,
+      "optionId": 1,
+      "name": "힘",
+      "metricLabels": { "strength_flat": "힘" }
+    },
+    {
+      "slot": 3,
+      "optionId": 2,
+      "name": "오리지늄 아츠 강도",
+      "metricLabels": { "originium_arts_intensity_flat": "오리지늄 아츠 강도" }
+    }
+  ],
+  "sourceAnomalies": []
+}

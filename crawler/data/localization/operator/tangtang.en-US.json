@@ -1,0 +1,1096 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityType": "operatorLocalization",
+  "entityId": "tangtang",
+  "locale": "en-US",
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+    "htmlLang": "en",
+    "xmlLang": "en",
+    "observedAt": "2026-07-13T17:37:39+09:00",
+    "contentStatus": "has_source_gaps"
+  },
+  "identity": {
+    "name": "Tangtang",
+    "rarity": 6
+  },
+  "taxonomy": {
+    "classId": 4,
+    "classCode": "caster",
+    "classLabel": "Caster",
+    "classMappingStatus": "verified",
+    "elementId": 3,
+    "elementCode": "cryo",
+    "elementLabel": "Cryo",
+    "weaponTypeId": 3,
+    "weaponTypeCode": "handcannon",
+    "weaponTypeLabel": "Handcannon"
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primaryId": 1,
+    "secondaryId": 0,
+    "labels": {
+      "strength": "Strength (Secondary)",
+      "agility": "Agility (Main)",
+      "intellect": "Intellect",
+      "will": "Will",
+      "baseAttack": "Base ATK",
+      "baseHp": "Base HP"
+    }
+  },
+  "progression": {
+    "levelLabels": [
+      "LV.1",
+      "LV.20",
+      "LV.40",
+      "LV.60",
+      "LV.80",
+      "LV.90"
+    ]
+  },
+  "materialLabels": {
+    "0": "T-Creds",
+    "1": "Elementary Combat Record",
+    "2": "Intermediate Combat Record",
+    "3": "Advanced Combat Record",
+    "4": "Elementary Cognitive Carrier",
+    "5": "Advanced Cognitive Carrier",
+    "6": "Protoprism",
+    "7": "Kalkodendra",
+    "8": "Chrysodendra",
+    "9": "Vitrodendra",
+    "10": "Protohedron",
+    "11": "Mark of Perseverance",
+    "12": "D96 Steel Sample 4",
+    "13": "Quadrant Fitting Fluid",
+    "14": "Blighted Jadeleaf"
+  },
+  "combatSkills": [
+    {
+      "id": "tangtang.basic_attack",
+      "order": 0,
+      "typeId": 0,
+      "typeCode": "basic_attack",
+      "name": "I'LL BLOW YOUR MIND!",
+      "sourceType": "Basic Attack",
+      "descriptionBlocks": [
+        "BASIC ATTACK:",
+        "An attack with up to 5 sequences that deals Cyro DMG. As the controlled operator, Final Strike also deals 18 Stagger.",
+        "DIVE ATTACK:",
+        "Basic attack performed in mid-air becomes a dive attack that deals Cryo DMG to nearby enemies.",
+        "FINISHER:",
+        "Basic attack performed near a Staggered enemy becomes a finisher that deals massive Cryo DMG and recovers some SP."
+      ],
+      "metrics": [
+        {
+          "code": "normal_attack_stage_1_multiplier",
+          "sourceLabel": "BATK SEQ 1 Multiplier",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_2_multiplier",
+          "sourceLabel": "BATK SEQ 2 Multiplier",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_3_multiplier",
+          "sourceLabel": "BATK SEQ 3 Multiplier",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_4_multiplier",
+          "sourceLabel": "BATK SEQ 4 Multiplier",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "normal_attack_stage_5_multiplier",
+          "sourceLabel": "BATK SEQ 5 Multiplier",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "finisher_multiplier",
+          "sourceLabel": "Finisher ATK Multiplier",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "dive_attack_multiplier",
+          "sourceLabel": "Dive ATK Multiplier",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK 1",
+          "values": {
+            "normal_attack_stage_1_multiplier": "23%",
+            "normal_attack_stage_2_multiplier": "25%",
+            "normal_attack_stage_3_multiplier": "35%",
+            "normal_attack_stage_4_multiplier": "37%",
+            "normal_attack_stage_5_multiplier": "50%",
+            "finisher_multiplier": "400%",
+            "dive_attack_multiplier": "80%"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK 2",
+          "values": {
+            "normal_attack_stage_1_multiplier": "25%",
+            "normal_attack_stage_2_multiplier": "28%",
+            "normal_attack_stage_3_multiplier": "39%",
+            "normal_attack_stage_4_multiplier": "40%",
+            "normal_attack_stage_5_multiplier": "55%",
+            "finisher_multiplier": "440%",
+            "dive_attack_multiplier": "88%"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK 3",
+          "values": {
+            "normal_attack_stage_1_multiplier": "27%",
+            "normal_attack_stage_2_multiplier": "30%",
+            "normal_attack_stage_3_multiplier": "42%",
+            "normal_attack_stage_4_multiplier": "44%",
+            "normal_attack_stage_5_multiplier": "60%",
+            "finisher_multiplier": "480%",
+            "dive_attack_multiplier": "96%"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK 4",
+          "values": {
+            "normal_attack_stage_1_multiplier": "29%",
+            "normal_attack_stage_2_multiplier": "33%",
+            "normal_attack_stage_3_multiplier": "46%",
+            "normal_attack_stage_4_multiplier": "47%",
+            "normal_attack_stage_5_multiplier": "65%",
+            "finisher_multiplier": "520%",
+            "dive_attack_multiplier": "104%"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK 5",
+          "values": {
+            "normal_attack_stage_1_multiplier": "32%",
+            "normal_attack_stage_2_multiplier": "35%",
+            "normal_attack_stage_3_multiplier": "49%",
+            "normal_attack_stage_4_multiplier": "51%",
+            "normal_attack_stage_5_multiplier": "70%",
+            "finisher_multiplier": "560%",
+            "dive_attack_multiplier": "112%"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK 6",
+          "values": {
+            "normal_attack_stage_1_multiplier": "34%",
+            "normal_attack_stage_2_multiplier": "38%",
+            "normal_attack_stage_3_multiplier": "53%",
+            "normal_attack_stage_4_multiplier": "55%",
+            "normal_attack_stage_5_multiplier": "75%",
+            "finisher_multiplier": "600%",
+            "dive_attack_multiplier": "120%"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK 7",
+          "values": {
+            "normal_attack_stage_1_multiplier": "36%",
+            "normal_attack_stage_2_multiplier": "40%",
+            "normal_attack_stage_3_multiplier": "56%",
+            "normal_attack_stage_4_multiplier": "58%",
+            "normal_attack_stage_5_multiplier": "80%",
+            "finisher_multiplier": "640%",
+            "dive_attack_multiplier": "128%"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK 8",
+          "values": {
+            "normal_attack_stage_1_multiplier": "39%",
+            "normal_attack_stage_2_multiplier": "43%",
+            "normal_attack_stage_3_multiplier": "60%",
+            "normal_attack_stage_4_multiplier": "62%",
+            "normal_attack_stage_5_multiplier": "85%",
+            "finisher_multiplier": "680%",
+            "dive_attack_multiplier": "136%"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK 9",
+          "values": {
+            "normal_attack_stage_1_multiplier": "41%",
+            "normal_attack_stage_2_multiplier": "45%",
+            "normal_attack_stage_3_multiplier": "63%",
+            "normal_attack_stage_4_multiplier": "66%",
+            "normal_attack_stage_5_multiplier": "90%",
+            "finisher_multiplier": "720%",
+            "dive_attack_multiplier": "144%"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "Mastery I",
+          "values": {
+            "normal_attack_stage_1_multiplier": "44%",
+            "normal_attack_stage_2_multiplier": "48%",
+            "normal_attack_stage_3_multiplier": "67%",
+            "normal_attack_stage_4_multiplier": "70%",
+            "normal_attack_stage_5_multiplier": "96%",
+            "finisher_multiplier": "770%",
+            "dive_attack_multiplier": "154%"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "Mastery II",
+          "values": {
+            "normal_attack_stage_1_multiplier": "47%",
+            "normal_attack_stage_2_multiplier": "52%",
+            "normal_attack_stage_3_multiplier": "73%",
+            "normal_attack_stage_4_multiplier": "76%",
+            "normal_attack_stage_5_multiplier": "104%",
+            "finisher_multiplier": "830%",
+            "dive_attack_multiplier": "166%"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "Mastery III",
+          "values": {
+            "normal_attack_stage_1_multiplier": "51%",
+            "normal_attack_stage_2_multiplier": "56%",
+            "normal_attack_stage_3_multiplier": "79%",
+            "normal_attack_stage_4_multiplier": "82%",
+            "normal_attack_stage_5_multiplier": "113%",
+            "finisher_multiplier": "900%",
+            "dive_attack_multiplier": "180%"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tangtang.battle_skill",
+      "order": 1,
+      "typeId": 1,
+      "typeCode": "battle_skill",
+      "name": "IMA WAVERIDAAH!",
+      "sourceType": "Battle Skill",
+      "descriptionBlocks": [
+        "Tangtang jumps out from the water and fires a point-blank shot that deals Cryo DMG to the enemy and creates a Waterspout.",
+        "Casting the battle skill also consumes all nearby Whirlpools to create additional Waterspouts and return some SP based on the number of Waterspouts created.",
+        "Waterspout: Applies 1 stack of Cryo Infliction on enemies within range and deals Cryo DMG over time. If the battle skill creates multiple Waterspouts, they also apply Arts Susceptibility to enemies (but not another stack of Cryo Infliction).",
+        "DMG dealt by the Waterspout is treated as Battle Skill DMG."
+      ],
+      "metrics": [
+        {
+          "code": "skill_gauge_cost",
+          "sourceLabel": "SP Cost",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "shot_damage_multiplier",
+          "sourceLabel": "Shooting DMG Multiplier",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "shot_imbalance",
+          "sourceLabel": "Shot Stagger",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "single_tornado_damage_multiplier",
+          "sourceLabel": "DMG Multiplier (1 Waterspout)",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "tornado_duration",
+          "sourceLabel": "Waterspout Duration (s)",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "skill_gauge_return_per_vortex",
+          "sourceLabel": "SP Return per Whirlpool",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "arts_vulnerability_two_tornadoes",
+          "sourceLabel": "Arts Susceptibility (2 Waterspouts)",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "arts_vulnerability_three_tornadoes",
+          "sourceLabel": "Arts Susceptibility (3 Waterspouts)",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "arts_vulnerability_duration",
+          "sourceLabel": "Arts Susceptibility Duration (s)",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK 1",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "80%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "133%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3%",
+            "arts_vulnerability_three_tornadoes": "6%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK 2",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "88%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "147%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3%",
+            "arts_vulnerability_three_tornadoes": "6%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK 3",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "96%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "160%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3%",
+            "arts_vulnerability_three_tornadoes": "6%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK 4",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "104%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "174%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3.5%",
+            "arts_vulnerability_three_tornadoes": "7%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK 5",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "112%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "187%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3.5%",
+            "arts_vulnerability_three_tornadoes": "7%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK 6",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "120%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "200%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "3.5%",
+            "arts_vulnerability_three_tornadoes": "7%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK 7",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "128%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "214%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4%",
+            "arts_vulnerability_three_tornadoes": "8%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK 8",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "136%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "227%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4%",
+            "arts_vulnerability_three_tornadoes": "8%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK 9",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "144%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "240%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4%",
+            "arts_vulnerability_three_tornadoes": "8%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "Mastery I",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "154%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "257%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4.5%",
+            "arts_vulnerability_three_tornadoes": "9%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "Mastery II",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "166%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "277%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "4.5%",
+            "arts_vulnerability_three_tornadoes": "9%",
+            "arts_vulnerability_duration": "15"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "Mastery III",
+          "values": {
+            "skill_gauge_cost": "100",
+            "shot_damage_multiplier": "180%",
+            "shot_imbalance": "10",
+            "single_tornado_damage_multiplier": "300%",
+            "tornado_duration": "3",
+            "skill_gauge_return_per_vortex": "20",
+            "arts_vulnerability_two_tornadoes": "5%",
+            "arts_vulnerability_three_tornadoes": "10%",
+            "arts_vulnerability_duration": "15"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tangtang.combo_skill",
+      "order": 2,
+      "typeId": 2,
+      "typeCode": "combo_skill",
+      "name": "RIVER, TO ME!",
+      "sourceType": "Combo Skill",
+      "descriptionBlocks": [
+        "COMBO TRIGGER: When applying Cryo Infliction or dealing Arts Burst DMG to an enemy.",
+        "Tangtang unleashes a powerful jet stream that penetrates all enemies in its path, deals Cryo DMG to them, and creates a Whirlpool.",
+        "Up to 2 Whirlpools can exist in the battlefield at any time."
+      ],
+      "metrics": [
+        {
+          "code": "cooldown",
+          "sourceLabel": "Cooldown",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "damage_multiplier",
+          "sourceLabel": "DMG Multiplier",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "imbalance",
+          "sourceLabel": "Stagger",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "vortex_duration",
+          "sourceLabel": "Whirlpool Duration (s)",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "ultimate_energy_gain",
+          "sourceLabel": null,
+          "sourceStatus": "missing_in_locale_dom",
+          "fallbackLocale": "ko-KR"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK 1",
+          "values": {
+            "cooldown": "14s",
+            "damage_multiplier": "107%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK 2",
+          "values": {
+            "cooldown": "14s",
+            "damage_multiplier": "117%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK 3",
+          "values": {
+            "cooldown": "14s",
+            "damage_multiplier": "128%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK 4",
+          "values": {
+            "cooldown": "14s",
+            "damage_multiplier": "139%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK 5",
+          "values": {
+            "cooldown": "14s",
+            "damage_multiplier": "149%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK 6",
+          "values": {
+            "cooldown": "14s",
+            "damage_multiplier": "160%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK 7",
+          "values": {
+            "cooldown": "14s",
+            "damage_multiplier": "171%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK 8",
+          "values": {
+            "cooldown": "14s",
+            "damage_multiplier": "181%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK 9",
+          "values": {
+            "cooldown": "13s",
+            "damage_multiplier": "192%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "Mastery I",
+          "values": {
+            "cooldown": "13s",
+            "damage_multiplier": "205%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "Mastery II",
+          "values": {
+            "cooldown": "13s",
+            "damage_multiplier": "221%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "Mastery III",
+          "values": {
+            "cooldown": "12s",
+            "damage_multiplier": "240%",
+            "imbalance": "10",
+            "vortex_duration": "30"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tangtang.ultimate",
+      "order": 3,
+      "typeId": 3,
+      "typeCode": "ultimate",
+      "name": "DA CHIEF SEES YOU!",
+      "sourceType": "Ultimate",
+      "descriptionBlocks": [
+        "Tangtang opens her eyepatch and unleashes an OLDEN STARE from her eye that temporarily locks down, immobilizes, and deals Cryo DMG over time to enemies within its area of effect.",
+        "When the OLDEN STARE stops evolving, a rogue wave comes crashing down to deal massive Cryo DMG to enemies in its area of effect.",
+        "If the controlled operator performs a dive attack in the OLDEN STARE pattern, its evolution ends and the rogue wave is summoned immediately to deal even more Cryo DMG."
+      ],
+      "metrics": [
+        {
+          "code": "ultimate_energy_cost",
+          "sourceLabel": "Ultimate Energy Cost",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "cooldown",
+          "sourceLabel": null,
+          "sourceStatus": "missing_in_locale_dom",
+          "fallbackLocale": "ko-KR"
+        },
+        {
+          "code": "total_dot_multiplier",
+          "sourceLabel": "DMG Over Time Total Multiplier",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "ancient_array_duration",
+          "sourceLabel": "OLDEN STARE Duration (s)",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "giant_wave_damage_multiplier",
+          "sourceLabel": "Rogue Wave DMG Multiplier",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "early_giant_wave_damage_multiplier",
+          "sourceLabel": "Early Rogue Wave DMG Multiplier",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "giant_wave_imbalance",
+          "sourceLabel": "Rogue Wave Stagger",
+          "sourceStatus": "present"
+        },
+        {
+          "code": "early_giant_wave_imbalance",
+          "sourceLabel": "Early Rogue Wave Stagger",
+          "sourceStatus": "present"
+        }
+      ],
+      "levels": [
+        {
+          "level": 1,
+          "sourceLabel": "RANK 1",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "142%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "178%",
+            "early_giant_wave_damage_multiplier": "311%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 2,
+          "sourceLabel": "RANK 2",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "156%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "196%",
+            "early_giant_wave_damage_multiplier": "342%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 3,
+          "sourceLabel": "RANK 3",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "171%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "213%",
+            "early_giant_wave_damage_multiplier": "373%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 4,
+          "sourceLabel": "RANK 4",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "185%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "231%",
+            "early_giant_wave_damage_multiplier": "404%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 5,
+          "sourceLabel": "RANK 5",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "199%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "249%",
+            "early_giant_wave_damage_multiplier": "436%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 6,
+          "sourceLabel": "RANK 6",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "213%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "267%",
+            "early_giant_wave_damage_multiplier": "467%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 7,
+          "sourceLabel": "RANK 7",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "228%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "284%",
+            "early_giant_wave_damage_multiplier": "498%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 8,
+          "sourceLabel": "RANK 8",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "242%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "302%",
+            "early_giant_wave_damage_multiplier": "529%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 9,
+          "sourceLabel": "RANK 9",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "256%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "320%",
+            "early_giant_wave_damage_multiplier": "560%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 10,
+          "sourceLabel": "Mastery I",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "274%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "342%",
+            "early_giant_wave_damage_multiplier": "599%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 11,
+          "sourceLabel": "Mastery II",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "295%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "369%",
+            "early_giant_wave_damage_multiplier": "646%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        },
+        {
+          "level": 12,
+          "sourceLabel": "Mastery III",
+          "values": {
+            "ultimate_energy_cost": "90",
+            "total_dot_multiplier": "320%",
+            "ancient_array_duration": "4",
+            "giant_wave_damage_multiplier": "400%",
+            "early_giant_wave_damage_multiplier": "700%",
+            "giant_wave_imbalance": "15",
+            "early_giant_wave_imbalance": "20"
+          }
+        }
+      ]
+    }
+  ],
+  "talents": {
+    "operator": [
+      {
+        "id": "tangtang.talent.proficiency",
+        "order": 0,
+        "category": "stat_bonus",
+        "name": "Skirmisher",
+        "sourceType": "Attribute Increase",
+        "stages": [
+          {
+            "sourceLabel": "Skirmisher",
+            "effect": "Operator Agility +10",
+            "activationConditions": [
+              "20% trust with the Operator",
+              "Promote to E1 to unlock"
+            ]
+          },
+          {
+            "sourceLabel": "Skirmisher",
+            "effect": "Operator Agility +15",
+            "activationConditions": [
+              "50% trust with the Operator",
+              "Promote to E2 to unlock"
+            ]
+          },
+          {
+            "sourceLabel": "Skirmisher",
+            "effect": "Operator Agility +15",
+            "activationConditions": [
+              "100% trust with the Operator",
+              "Promote to E3 to unlock"
+            ]
+          },
+          {
+            "sourceLabel": "Skirmisher",
+            "effect": "Operator Agility +20",
+            "activationConditions": [
+              "100% trust with the Operator",
+              "Promote to E4 to unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tangtang.talent.kindred_spirits",
+        "order": 1,
+        "category": "combat_talent",
+        "name": "Fam of Honor",
+        "sourceType": "Talent",
+        "stages": [
+          {
+            "sourceLabel": "Fam of Honor 1",
+            "effect": "When within a 5-meter radius of a Whirlpool, allied operators gain 10% Haste while enemies suffer 20% Slow. These effects persist for 3s after leaving the area of effect.",
+            "activationConditions": [
+              "Promote to E1 to unlock"
+            ]
+          },
+          {
+            "sourceLabel": "Fam of Honor 2",
+            "effect": "When within a 5-meter radius of a Whirlpool, allied operators gain 20% Haste while enemies suffer 40% Slow. These effects persist for 3s after leaving the area of effect.",
+            "activationConditions": [
+              "Promote to E2 to unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tangtang.talent.master_of_wind_and_waves",
+        "order": 2,
+        "category": "combat_talent",
+        "name": "Riot Bringer",
+        "sourceType": "Talent",
+        "stages": [
+          {
+            "sourceLabel": "Riot Bringer 1",
+            "effect": "During OLDEN STARE, performing a dive attack with the controlled operator ends its evolution early and creates a Waterspout. All nearby Whirlpools are also consumed and converted into additional Waterspouts.\n\nWaterspouts created this way have the same effects as those created by the battle skill IMA WAVERIDAAH! and gain DMG Dealt +40%.",
+            "activationConditions": [
+              "Promote to E2 to unlock"
+            ]
+          },
+          {
+            "sourceLabel": "Riot Bringer 2",
+            "effect": "During OLDEN STARE, performing a dive attack with the controlled operator ends its evolution early and creates a Waterspout. All nearby Whirlpools are also consumed and converted into additional Waterspouts.\n\nWaterspouts created this way have the same effects as those created by the battle skill IMA WAVERIDAAH! and gain DMG Dealt +60%.",
+            "activationConditions": [
+              "Promote to E3 to unlock"
+            ]
+          }
+        ]
+      }
+    ],
+    "infrastructure": [
+      {
+        "id": "tangtang.infrastructure.chieftain",
+        "order": 3,
+        "category": "infrastructure_skill",
+        "name": "Supreme Chief",
+        "sourceType": "Base Skill",
+        "stages": [
+          {
+            "sourceLabel": "Supreme Chief β",
+            "effect": "Assign to Growth Chamber to slow Mood Drop of all operators in it by 14%",
+            "activationConditions": [
+              "Promote to E1 to unlock"
+            ]
+          },
+          {
+            "sourceLabel": "Supreme Chief γ",
+            "effect": "Assign to Growth Chamber to slow Mood Drop of all operators in it by 18%",
+            "activationConditions": [
+              "Promote to E3 to unlock"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tangtang.infrastructure.girl_born_from_the_river",
+        "order": 4,
+        "category": "infrastructure_skill",
+        "name": "River's Daughter",
+        "sourceType": "Base Skill",
+        "stages": [
+          {
+            "sourceLabel": "River's Daughter β",
+            "effect": "Assign to Growth Chamber to grant vitrified plant growth rate +20%",
+            "activationConditions": [
+              "Promote to E2 to unlock"
+            ]
+          },
+          {
+            "sourceLabel": "River's Daughter γ",
+            "effect": "Assign to Growth Chamber to grant vitrified plant growth rate +30%",
+            "activationConditions": [
+              "Promote to E4 to unlock"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "potentials": [
+    {
+      "level": 1,
+      "name": "Reserve Hoard",
+      "sourceLabel": "POTENTIAL 01",
+      "description": "Combo skill RIVER, TO ME! improved: DMG Multiplier is increased to 1.2 times of the original, and cooldown is now -2s.\n\nBattle skill IMA WAVERIDAAH! improved: For every Whirlpool consumed and converted into a Waterspout, return 5 additional SP.\n\nUnlocks the Operator Snapshot \"Pristine Water Mirrors the Soul\""
+    },
+    {
+      "level": 2,
+      "name": "River's Daughter",
+      "sourceLabel": "POTENTIAL 02",
+      "description": "Agility +20, Cryo DMG Dealt +10%"
+    },
+    {
+      "level": 3,
+      "name": "Chiefly Vibe",
+      "sourceLabel": "POTENTIAL 03",
+      "description": "Battle skill IMA WAVERIDAAH! improved: DMG Multiplier is increased to 1.1 times the original. When forming multiple Waterspouts, the resulting Arts Susceptibility effect is increased by +5%.\n\nUnlocks the Operator Snapshot \"Bamboo Splitter\""
+    },
+    {
+      "level": 4,
+      "name": "Qingbo Meditation",
+      "sourceLabel": "POTENTIAL 04",
+      "description": "Ultimate DA CHIEF SEES YOU! improved: Ultimate Energy cost -15%."
+    },
+    {
+      "level": 5,
+      "name": "Chief's All-Eldritch Gaze",
+      "sourceLabel": "POTENTIAL 05",
+      "description": "Ultimate DA CHIEF SEES YOU! improved: DMG Multiplier is increased to 1.15 times the original.\n\nTalent Riot Bringer improved: DMG effects of any Waterspout created by the ultimate DA CHIEF SEES YOU! are increased by +80%.\n\nUnlocks the Operator Snapshot \"Supreme Chief's Orders are Supreme\"\n\nUnlocks the Profile Theme \"Supreme Chief's Orders are Supreme\""
+    }
+  ],
+  "sourceAnomalies": [
+    {
+      "path": "/combatSkills/2/metrics/ultimate_energy_gain",
+      "kind": "missing_in_locale_dom",
+      "fallbackLocale": "ko-KR"
+    },
+    {
+      "path": "/combatSkills/3/metrics/cooldown",
+      "kind": "missing_in_locale_dom",
+      "fallbackLocale": "ko-KR"
+    },
+    {
+      "path": "/combatSkills/0/descriptionBlocks/1",
+      "kind": "suspected_source_typo",
+      "sourceText": "Cyro DMG"
+    }
+  ]
+}

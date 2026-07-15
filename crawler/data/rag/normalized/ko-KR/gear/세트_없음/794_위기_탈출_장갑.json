@@ -1,0 +1,273 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_794",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 794,
+    "name": "위기 탈출 장갑"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=794&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "ef48c2143067e0045b220e569a784c989d3d0a93f11ed44cc9fa4a96a7e2f49e",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_794.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 위기 탈출 장갑\ngameEntryId: 794\n정규화 상태: query_ready\n장비 세트: 세트 없음 (id=-1, code=none)\n장비 유형: 글러브 (id=0, code=gloves)\n품질: 노란색 품질 (id=0, code=yellow)\nLV: 70\n방어력: 42\n장비 옵션: 1번=힘 86; 3번=모든 스킬 피해 보너스 24%\n정밀 단조 지원: 예\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_794",
+        "gameEntryId": 794,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=794&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/794_위기_탈출_장갑.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": -1,
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "evidenceDocumentIds": [
+          "auto.gear_794.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_794.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_794.gear_option.c2.chapter.s2.p0.ko-kr",
+          "auto.gear_794.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_794.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 위기 탈출 장갑\ncategory: gear\nsection: profile\n위기 탈출 장갑\n품질\n노란색 품질\n장비 유형\n글러브\n세트\n세트 없음\n이 장비는 홍산 선검국에서 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n험난한 앞길을 상징하는 장비. \"일은 아직 끝나지 않았고, 갈 길은 여전히 멉니다.\"",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_794",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=794&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 794,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:52:05.935024+00:00",
+        "contentSha256": "ef48c2143067e0045b220e569a784c989d3d0a93f11ed44cc9fa4a96a7e2f49e",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/794_위기_탈출_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "entityName": "위기 탈출 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_794.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 위기 탈출 장갑\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n단일 장비 제작\n소모 재료 :\n16000\n*\n16000\n50\n*\n50\n장비 템플릿\n무릉 물자 관리 단말기 3레벨\n속성\nLV\n70\n방어력\n+42\n힘\n+86\n모든 스킬 피해 보너스\n+24.0%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_794",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=794&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 794,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:52:05.935024+00:00",
+        "contentSha256": "ef48c2143067e0045b220e569a784c989d3d0a93f11ed44cc9fa4a96a7e2f49e",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/794_위기_탈출_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "entityName": "위기 탈출 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_794.gear_option.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_option",
+      "content": "entity: 위기 탈출 장갑\ncategory: gear\nsection: gear_option\n정밀 단조\n정밀 단조\n적합 단조제 : 무릉 정밀 단조제\n단일 능력치 단조 시, 기본 정밀 단조 필요 누적 단계의 차이가 있음\n정밀 단조 단계\n기본\n1단계\n2단계\n3단계\n힘\n+86\n+94\n+103\n+111\n모든 스킬 피해 보너스\n+24.0%\n+26.4%\n+28.8%\n+31.2%\n정밀 단조 누적 단계\n12 (6)\n24 (12)\n40 (20)",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_794",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=794&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 794,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:52:05.935024+00:00",
+        "contentSha256": "ef48c2143067e0045b220e569a784c989d3d0a93f11ed44cc9fa4a96a7e2f49e",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/794_위기_탈출_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "entityName": "위기 탈출 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_794.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 위기 탈출 장갑\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n세트 없음\n세트 효과 없음",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_794",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=794&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 794,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:52:05.935024+00:00",
+        "contentSha256": "ef48c2143067e0045b220e569a784c989d3d0a93f11ed44cc9fa4a96a7e2f49e",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/세트_없음/794_위기_탈출_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "none",
+        "groupLabel": "세트 없음",
+        "entityName": "위기 탈출 장갑"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": -1,
+      "code": "none",
+      "label": "세트 없음"
+    },
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    }
+  },
+  "level": 70,
+  "defense": 42,
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘",
+      "baseValue": {
+        "value": 86,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "모든 스킬 피해 보너스",
+      "baseValue": {
+        "value": 24,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": true,
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 86,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 94,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 103,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 111,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "모든 스킬 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 24,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 26.4,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 28.8,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 31.2,
+            "unit": "percent"
+          }
+        ]
+      }
+    ],
+    "evidenceDocumentId": "auto.gear_794.gear_option.c2.chapter.s2.p0.ko-kr"
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_794.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": -1,
+    "code": "none",
+    "label": "세트 없음"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/세트_없음/794_위기_탈출_장갑.json"
+}

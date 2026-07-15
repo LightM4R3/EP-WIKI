@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0.0",
+  "publishedAt": "2026-07-14T07:36:05.544773+00:00",
+  "snapshots": [
+    {
+      "locale": "ko-KR",
+      "snapshotRef": "data/rag/published/latest.ko-KR.json",
+      "publicationStatus": "query_ready",
+      "normalizationManifestRef": "data/rag/normalized/manifest.ko-KR.json",
+      "queryIndexRef": "data/rag/published/query-index.ko-KR.json",
+      "stats": {
+        "entities": 320,
+        "documents": 1741,
+        "byDomain": {
+          "gear": 220,
+          "operator": 28,
+          "weapon": 72
+        },
+        "sourceDocuments": 1421,
+        "normalizedSummaryDocuments": 320,
+        "excludedEntities": 1
+      }
+    }
+  ],
+  "generatedAt": "2026-07-15T06:58:58.622407+00:00"
+}

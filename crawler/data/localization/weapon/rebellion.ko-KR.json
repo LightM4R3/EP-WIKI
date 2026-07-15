@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityType": "weapon",
+  "entityId": "rebellion",
+  "locale": "ko-KR",
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=732&header=0",
+    "htmlLang": "ko",
+    "xmlLang": "ko",
+    "observedAt": "2026-07-14T13:32:34+09:00"
+  },
+  "identity": {
+    "name": "반항",
+    "rarity": 6,
+    "introductionBlocks": [
+      "엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.",
+      "홍산 선검국이 개발한 총기, 디자인은 간단하지만 재료가 탄탄하고, 휴대가 편리하여 각종 복잡한 환경에서도 제약 없이 사용할 수 있습니다."
+    ],
+    "acquisitionLabel": "구매 센터 - 무기고 교환소"
+  },
+  "taxonomy": {
+    "weaponTypeId": 3,
+    "weaponTypeCode": "handcannon",
+    "weaponTypeLabel": "권총"
+  },
+  "progression": {
+    "levelLabels": ["LV.1", "LV.20", "LV.40", "LV.60", "LV.80", "LV.90"]
+  },
+  "materialLabels": {
+    "0": "탈로시안 화폐",
+    "13": "정합용 유체",
+    "15": "모형 틀",
+    "16": "연한 흑암석",
+    "17": "일반 흑암석",
+    "18": "중형 모형 틀",
+    "19": "진한 흑암석",
+    "20": "화염석"
+  },
+  "options": [
+    {
+      "optionId": 0,
+      "name": "민첩 증가 · 대",
+      "categoryLabel": "능력치 증가",
+      "metricLabels": { "agility_flat": "민첩" },
+      "descriptionTemplate": "민첩 {agility_flat}."
+    },
+    {
+      "optionId": 1,
+      "name": "공격력 증가 · 대",
+      "categoryLabel": "공격력 증가",
+      "metricLabels": { "attack_percent": "공격력" },
+      "descriptionTemplate": "공격력 {attack_percent}."
+    },
+    {
+      "optionId": 2,
+      "name": "방출 · 토벌의 원한",
+      "categoryLabel": "방출",
+      "metricLabels": {
+        "cryo_damage_percent": "냉기 피해",
+        "cryo_damage_on_chill_percent": "냉기 부착 시 냉기 피해",
+        "arts_damage_taken_on_susceptibility_percent": "아츠 취약 시 적이 받는 아츠 피해"
+      },
+      "descriptionTemplate": "냉기 피해 {cryo_damage_percent}. 장착자가 배틀 스킬 또는 궁극기로 냉기 부착을 부여하면 냉기 피해 {cryo_damage_on_chill_percent}, 20초 동안 지속. 장착자가 배틀 스킬 또는 궁극기로 아츠 취약을 부여하면 적이 받는 아츠 피해 {arts_damage_taken_on_susceptibility_percent}, 20초 동안 지속. 두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다."
+    }
+  ],
+  "sourceAnomalies": []
+}

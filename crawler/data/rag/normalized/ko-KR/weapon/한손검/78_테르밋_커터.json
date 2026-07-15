@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_78",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 78,
+    "name": "테르밋 커터"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=78&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "0612756d4c3d2192216cdd217195335a41849b818d5a5f18ef1b3fe3f1388819",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_78.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 테르밋 커터\ngameEntryId: 78\n정규화 상태: query_ready\n무기 유형: 한손검 (id=0, code=sword)\n기초 공격력: LV.1=50, LV.20=144, LV.40=243, LV.60=342, LV.80=441, LV.90=490\n무기 옵션: 1번=의지 증가 · 대; 2번=공격력 증가 · 대; 3번=흐름 · 고열 방출\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_78",
+        "gameEntryId": 78,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=78&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/78_테르밋_커터.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 0,
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "evidenceDocumentIds": [
+          "auto.weapon_78.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_78.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_78.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_78.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_78.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_78.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 테르밋 커터\ncategory: weapon\nsection: profile\n테르밋 커터\n유형\n한손검\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n노스마치 중공업 지원소 '개척자' 시리즈의 기본 제품, 4형 테르밋 커터는 특허받은 고온 소재를 사용하여 강력한 절단 성능을 자랑하며, 많은 공학자에게 호평받고 있습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_78",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=78&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 78,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:11.026662+00:00",
+        "contentSha256": "0612756d4c3d2192216cdd217195335a41849b818d5a5f18ef1b3fe3f1388819",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/78_테르밋_커터.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "테르밋 커터"
+      }
+    },
+    {
+      "documentId": "auto.weapon_78.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 테르밋 커터\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n테르밋 커터\n한손검\n·획득 방식\n구매 센터 - 무기고 교환소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n50\n490\n의지 증가 · 대\n의지\n+20\n1/3\n의지\n+156\n9/9\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n공격력\n+39.0%\n9/9\n흐름 · 고열 방출\n공격력\n+10.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+5.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\n1/4\n공격력\n+28.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+14.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_78",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=78&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 78,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:11.026662+00:00",
+        "contentSha256": "0612756d4c3d2192216cdd217195335a41849b818d5a5f18ef1b3fe3f1388819",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/78_테르밋_커터.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "테르밋 커터"
+      }
+    },
+    {
+      "documentId": "auto.weapon_78.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 테르밋 커터\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n50\n의지 증가 · 대\n의지\n+20\n1/3\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n144\n144\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n의지 증가 · 대\n의지\n+20\n1/3\n의지\n+36\n2/5\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n공격력\n+5.0%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n243\n243\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n의지 증가 · 대\n의지\n+36\n2/5\n의지\n+36\n2/6\n공격력 증가 · 대\n공격력\n+5.0%\n1/4\n공격력\n+9.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n342\n342\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n의지 증가 · 대\n의지\n+36\n2/6\n의지\n+52\n3/8\n공격력 증가 · 대\n공격력\n+9.0%\n2/6\n공격력\n+9.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n441\n441\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n의지 증가 · 대\n의지\n+52\n3/8\n의지\n+52\n3/9\n공격력 증가 · 대\n공격력\n+9.0%\n2/7\n공격력\n+13.0%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n490\n의지 증가 · 대\n의지\n+52\n3/9\n공격력 증가 · 대\n공격력\n+13.0%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_78",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=78&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 78,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:11.026662+00:00",
+        "contentSha256": "0612756d4c3d2192216cdd217195335a41849b818d5a5f18ef1b3fe3f1388819",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/78_테르밋_커터.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "테르밋 커터"
+      }
+    },
+    {
+      "documentId": "auto.weapon_78.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 테르밋 커터\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n의지 증가 · 대\n공격력 증가 · 대\n흐름 · 고열 방출\nRANK 1\n의지\n+20\n공격력\n+5.0%\n공격력\n+10.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+5.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\nRANK 2\n의지\n+36\n공격력\n+9.0%\n공격력\n+12.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+6.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\nRANK 3\n의지\n+52\n공격력\n+13.0%\n공격력\n+14.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+7.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\nRANK 4\n의지\n+68\n공격력\n+17.0%\n공격력\n+16.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+8.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\nRANK 5\n의지\n+84\n공격력\n+21.0%\n공격력\n+18.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+9.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\nRANK 6\n의지\n+100\n공격력\n+25.0%\n공격력\n+20.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+10.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\nRANK 7\n의지\n+116\n공격력\n+29.0%\n공격력\n+22.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+11.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\nRANK 8\n의지\n+132\n공격력\n+33.0%\n공격력\n+24.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+12.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\nRANK 9\n의지\n+156\n공격력\n+39.0%\n공격력\n+28.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+14.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n의지 증가\n공격력 증가\n흐름",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_78",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=78&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 78,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:11.026662+00:00",
+        "contentSha256": "0612756d4c3d2192216cdd217195335a41849b818d5a5f18ef1b3fe3f1388819",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/78_테르밋_커터.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "테르밋 커터"
+      }
+    },
+    {
+      "documentId": "auto.weapon_78.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 테르밋 커터\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n흐름 · 고열 방출\n기본/최대\n흐름 · 고열 방출\n잠재능력 1\n1/4\n공격력\n+10.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+5.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\n잠재능력 2\n2/5\n공격력\n+12.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+6.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\n잠재능력 3\n3/6\n공격력\n+14.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+7.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\n잠재능력 4\n4/7\n공격력\n+16.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+8.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\n잠재능력 5\n5/8\n공격력\n+18.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+9.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.\n잠재능력 6\n6/9\n공격력\n+20.0%\n장착자가 자신의 스킬로 스킬 게이지를 회복하거나\n연타\n상태를 획득한 후, 팀 전체의 공격력\n+10.0%\n, 20초 동안 지속.\n같은 이름의 효과는 최대 2스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_78",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=78&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 78,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:11.026662+00:00",
+        "contentSha256": "0612756d4c3d2192216cdd217195335a41849b818d5a5f18ef1b3fe3f1388819",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/한손검/78_테르밋_커터.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "sword",
+        "groupLabel": "한손검",
+        "entityName": "테르밋 커터"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 0,
+      "code": "sword",
+      "label": "한손검"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 50
+    },
+    {
+      "level": 20,
+      "baseAttack": 144
+    },
+    {
+      "level": 40,
+      "baseAttack": 243
+    },
+    {
+      "level": 60,
+      "baseAttack": 342
+    },
+    {
+      "level": 80,
+      "baseAttack": 441
+    },
+    {
+      "level": 90,
+      "baseAttack": 490
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "의지 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_78.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "공격력 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_78.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "흐름 · 고열 방출",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_78.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 0,
+    "code": "sword",
+    "label": "한손검"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/한손검/78_테르밋_커터.json"
+}

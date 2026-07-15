@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_75",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 75,
+    "name": "J.E.T."
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=75&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "3ebcf2cbff38226c08332696d2b3abd08d41d343c14ecd7c8ab39f2326474b02",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_75.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: J.E.T.\ngameEntryId: 75\n정규화 상태: query_ready\n무기 유형: 장병기 (id=2, code=polearm)\n기초 공격력: LV.1=51, LV.20=146, LV.40=247, LV.60=348, LV.80=449, LV.90=500\n무기 옵션: 1번=주요 능력치 증가 · 대; 2번=공격력 증가 · 대; 3번=억제 · 천체 물리학\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_75",
+        "gameEntryId": 75,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=75&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/75_J.E.T.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 2,
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "evidenceDocumentIds": [
+          "auto.weapon_75.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_75.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_75.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_75.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_75.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_75.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: J.E.T.\ncategory: weapon\nsection: profile\nJ.E.T.\n유형\n장병기\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n노스마치 중공업 지원소의 실험형 고급 제품, 지금은 해체된 항공기 연구 센터에서 그 원형을 설계했습니다. 이 장비는 오리지늄 가압 분사기를 탑재하여 놀라운 성능을 자랑합니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_75",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=75&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 75,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:04.189181+00:00",
+        "contentSha256": "3ebcf2cbff38226c08332696d2b3abd08d41d343c14ecd7c8ab39f2326474b02",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/75_J.E.T.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "J.E.T."
+      }
+    },
+    {
+      "documentId": "auto.weapon_75.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: J.E.T.\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\nJ.E.T.\n장병기\n·획득 방식\n구매 센터 - 무기고 교환소\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n51\n500\n주요 능력치 증가 · 대\n주요 능력치\n+17\n1/3\n주요 능력치\n+132\n9/9\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n공격력\n+39.0%\n9/9\n억제 · 천체 물리학\n아츠 피해\n+12.0%\n장착자가 배틀 스킬을 사용할 때, 아츠 피해\n+12.0%\n, 15초 동안 지속. 장착자가 연계 스킬을 사용할 때, 아츠 피해\n+12.0%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n1/4\n아츠 피해\n+33.6%\n장착자가 배틀 스킬을 사용할 때, 아츠 피해\n+33.6%\n, 15초 동안 지속. 장착자가 연계 스킬을 사용할 때, 아츠 피해\n+33.6%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_75",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=75&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 75,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:04.189181+00:00",
+        "contentSha256": "3ebcf2cbff38226c08332696d2b3abd08d41d343c14ecd7c8ab39f2326474b02",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/75_J.E.T.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "J.E.T."
+      }
+    },
+    {
+      "documentId": "auto.weapon_75.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: J.E.T.\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n초기 속성\n(기본/최대)\n재료 소모\n기초 공격력\n51\n-\n주요 능력치 증가 · 대\n주요 능력치\n+17\n1/3\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n146\n146\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n주요 능력치 증가 · 대\n주요 능력치\n+17\n1/3\n주요 능력치\n+30\n2/5\n공격력 증가 · 대\n공격력\n+5.0%\n1/3\n공격력\n+5.0%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n247\n247\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n주요 능력치 증가 · 대\n주요 능력치\n+30\n2/5\n주요 능력치\n+30\n2/6\n공격력 증가 · 대\n공격력\n+5.0%\n1/4\n공격력\n+9.0%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n348\n348\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n주요 능력치 증가 · 대\n주요 능력치\n+30\n2/6\n주요 능력치\n+44\n3/8\n공격력 증가 · 대\n공격력\n+9.0%\n2/6\n공격력\n+9.0%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n449\n449\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n주요 능력치 증가 · 대\n주요 능력치\n+44\n3/8\n주요 능력치\n+44\n3/9\n공격력 증가 · 대\n공격력\n+9.0%\n2/7\n공격력\n+13.0%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n500\n-\n주요 능력치 증가 · 대\n주요 능력치\n+44\n3/9\n공격력 증가 · 대\n공격력\n+13.0%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_75",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=75&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 75,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:04.189181+00:00",
+        "contentSha256": "3ebcf2cbff38226c08332696d2b3abd08d41d343c14ecd7c8ab39f2326474b02",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/75_J.E.T.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "J.E.T."
+      }
+    },
+    {
+      "documentId": "auto.weapon_75.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: J.E.T.\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n주요 능력치 증가 · 대\n공격력 증가 · 대\n억제 · 천체 물리학\nRANK 1\n주요 능력치\n+17\n공격력\n+5.0%\n아츠 피해\n+12.0%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+12.0%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+12.0%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 2\n주요 능력치\n+30\n공격력\n+9.0%\n아츠 피해\n+14.4%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+14.4%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+14.4%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 3\n주요 능력치\n+44\n공격력\n+13.0%\n아츠 피해\n+16.8%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+16.8%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+16.8%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 4\n주요 능력치\n+57\n공격력\n+17.0%\n아츠 피해\n+19.2%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+19.2%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+19.2%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 5\n주요 능력치\n+71\n공격력\n+21.0%\n아츠 피해\n+21.6%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+21.6%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+21.6%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 6\n주요 능력치\n+85\n공격력\n+25.0%\n아츠 피해\n+24.0%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+24.0%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+24.0%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 7\n주요 능력치\n+98\n공격력\n+29.0%\n아츠 피해\n+26.4%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+26.4%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+26.4%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 8\n주요 능력치\n+112\n공격력\n+33.0%\n아츠 피해\n+28.8%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+28.8%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+28.8%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\nRANK 9\n주요 능력치\n+132\n공격력\n+39.0%\n아츠 피해\n+33.6%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+33.6%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+33.6%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n주요 능력치 증가\n공격력 증가\n억제",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_75",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=75&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 75,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:04.189181+00:00",
+        "contentSha256": "3ebcf2cbff38226c08332696d2b3abd08d41d343c14ecd7c8ab39f2326474b02",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/75_J.E.T.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "J.E.T."
+      }
+    },
+    {
+      "documentId": "auto.weapon_75.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: J.E.T.\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n억제 · 천체 물리학\n기본/최대\n억제 · 천체 물리학\n잠재능력 1\n1/4\n아츠 피해\n+12.0%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+12.0%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+12.0%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 2\n2/5\n아츠 피해\n+14.4%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+14.4%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+14.4%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 3\n3/6\n아츠 피해\n+16.8%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+16.8%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+16.8%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 4\n4/7\n아츠 피해\n+19.2%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+19.2%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+19.2%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 5\n5/8\n아츠 피해\n+21.6%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+21.6%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+21.6%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.\n잠재능력 6\n6/9\n아츠 피해\n+24.0%\n장착자가\n배틀 스킬을 사용할 때, 아츠 피해\n+24.0%\n, 15초 동안 지속. 장착자가 연계 스킬을\n사용할 때\n, 아츠 피해\n+24.0%\n, 15초 동안 지속.\n두 가지 효과는 독립적으로 적용되며 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_75",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=75&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 75,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:04.189181+00:00",
+        "contentSha256": "3ebcf2cbff38226c08332696d2b3abd08d41d343c14ecd7c8ab39f2326474b02",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/장병기/75_J.E.T.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "polearm",
+        "groupLabel": "장병기",
+        "entityName": "J.E.T."
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 51
+    },
+    {
+      "level": 20,
+      "baseAttack": 146
+    },
+    {
+      "level": 40,
+      "baseAttack": 247
+    },
+    {
+      "level": 60,
+      "baseAttack": 348
+    },
+    {
+      "level": 80,
+      "baseAttack": 449
+    },
+    {
+      "level": 90,
+      "baseAttack": 500
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "주요 능력치 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_75.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "공격력 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_75.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "억제 · 천체 물리학",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_75.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 2,
+    "code": "polearm",
+    "label": "장병기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/장병기/75_J.E.T.json"
+}

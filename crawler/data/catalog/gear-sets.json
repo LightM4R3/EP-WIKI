@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "gearSets",
+  "entries": [
+    {
+      "id": 0,
+      "code": "echo_of_ancient_sword",
+      "labels": { "ko-KR": "고검의 잔향" },
+      "requiredPieceCounts": [3],
+      "canonicalEntityId": "echo_of_ancient_sword"
+    }
+  ]
+}

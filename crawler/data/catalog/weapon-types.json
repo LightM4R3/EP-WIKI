@@ -1,0 +1,11 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "weaponTypes",
+  "entries": [
+    { "id": 0, "code": "sword", "labels": { "ko-KR": "한손검", "en-US": "Sword" } },
+    { "id": 1, "code": "greatsword", "labels": { "ko-KR": "양손검", "en-US": "Greatsword" } },
+    { "id": 2, "code": "polearm", "labels": { "ko-KR": "장병기", "en-US": "Polearm" } },
+    { "id": 3, "code": "handcannon", "labels": { "ko-KR": "권총", "en-US": "Handcannon" } },
+    { "id": 4, "code": "arts_unit", "labels": { "ko-KR": "아츠 유닛", "en-US": "Arts Unit" } }
+  ]
+}

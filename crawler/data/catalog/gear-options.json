@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "gearOptions",
+  "entries": [
+    {
+      "id": 0,
+      "code": "agility_flat",
+      "categoryCode": "attribute",
+      "parameters": { "attributeId": 1 },
+      "forgeRange": { "min": 0, "max": 3 },
+      "metrics": [
+        { "code": "agility_flat", "unit": "flat" }
+      ]
+    },
+    {
+      "id": 1,
+      "code": "strength_flat",
+      "categoryCode": "attribute",
+      "parameters": { "attributeId": 0 },
+      "forgeRange": { "min": 0, "max": 3 },
+      "metrics": [
+        { "code": "strength_flat", "unit": "flat" }
+      ]
+    },
+    {
+      "id": 2,
+      "code": "originium_arts_intensity_flat",
+      "categoryCode": "combat_stat",
+      "parameters": {},
+      "forgeRange": { "min": 0, "max": 3 },
+      "metrics": [
+        { "code": "originium_arts_intensity_flat", "unit": "flat" }
+      ]
+    },
+    {
+      "id": 3,
+      "code": "intellect_flat",
+      "categoryCode": "attribute",
+      "parameters": { "attributeId": 2 },
+      "forgeRange": { "min": 0, "max": 3 },
+      "metrics": [
+        { "code": "intellect_flat", "unit": "flat" }
+      ]
+    },
+    {
+      "id": 4,
+      "code": "will_flat",
+      "categoryCode": "attribute",
+      "parameters": { "attributeId": 3 },
+      "forgeRange": { "min": 0, "max": 3 },
+      "metrics": [
+        { "code": "will_flat", "unit": "flat" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_79",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 79,
+    "name": "사명의 길"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=79&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "bc6274f291e0619ccaa8794e7c9ab487053fdf9dff6c7f59ce581ac756d3a8a2",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_79.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 사명의 길\ngameEntryId: 79\n정규화 상태: query_ready\n무기 유형: 아츠 유닛 (id=4, code=arts_unit)\n기초 공격력: LV.1=51, LV.20=146, LV.40=247, LV.60=348, LV.80=449, LV.90=500\n무기 옵션: 1번=의지 증가 · 대; 2번=궁극기 충전 효율 증가 · 대; 3번=추격 · 굴하지 않는 사명\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_79",
+        "gameEntryId": 79,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=79&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/79_사명의_길.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 4,
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "evidenceDocumentIds": [
+          "auto.weapon_79.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_79.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_79.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_79.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_79.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_79.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 사명의 길\ncategory: weapon\nsection: profile\n사명의 길\n유형\n아츠 유닛\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n레이시언 공업의 대표적인 첨단 제품, 제 1차 아겔로스 전쟁 당시 처음 프로토타입을 투입한 이후 꾸준히 개량을 거듭해 왔으며, 강력한 화력으로 확실한 안전을 보장합니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_79",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=79&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 79,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:12.721404+00:00",
+        "contentSha256": "bc6274f291e0619ccaa8794e7c9ab487053fdf9dff6c7f59ce581ac756d3a8a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/79_사명의_길.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "사명의 길"
+      }
+    },
+    {
+      "documentId": "auto.weapon_79.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 사명의 길\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n사명의 길\n아츠 유닛\n·획득 방식\n구매 센터 - 무기고 교환소\n기초 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n51\n500\n의지 증가 · 대\n의지\n+20\n1/3\n의지\n+156\n9/9\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+6.0%\n1/3\n궁극기 충전 효율\n+46.4%\n9/9\n추격 · 굴하지 않는 사명\n자연 피해\n+16.0%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+12.0%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+3.5%\n, 최대\n+10.5%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n1/4\n자연 피해\n+44.8%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+33.6%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+9.8%\n, 최대\n+29.4%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_79",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=79&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 79,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:12.721404+00:00",
+        "contentSha256": "bc6274f291e0619ccaa8794e7c9ab487053fdf9dff6c7f59ce581ac756d3a8a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/79_사명의_길.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "사명의 길"
+      }
+    },
+    {
+      "documentId": "auto.weapon_79.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 사명의 길\ncategory: weapon\nsection: progression\n업그레이드\n레벨 증가\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n기초 속성\n(기본/최대)\n재료 소모\n기초 공격력\n51\n-\n의지 증가 · 대\n의지\n+20\n1/3\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+6.0%\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n146\n146\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n의지 증가 · 대\n의지\n+36\n1/3\n의지\n+36\n2/5\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+6.0%\n1/3\n궁극기 충전 효율\n+6.0%\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n247\n247\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n의지 증가 · 대\n의지\n+36\n2/5\n의지\n+36\n2/6\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+6.0%\n1/4\n궁극기 충전 효율\n+10.7%\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n348\n348\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n의지 증가 · 대\n의지\n+36\n2/6\n의지\n+52\n3/8\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+10.7%\n2/6\n궁극기 충전 효율\n+10.7%\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n449\n449\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n의지 증가 · 대\n의지\n+52\n3/8\n의지\n+52\n3/9\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+10.7%\n2/7\n궁극기 충전 효율\n+15.5%\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n500\n-\n의지 증가 · 대\n의지\n+52\n3/9\n궁극기 충전 효율 증가 · 대\n궁극기 충전 효율\n+15.5%\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_79",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=79&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 79,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:12.721404+00:00",
+        "contentSha256": "bc6274f291e0619ccaa8794e7c9ab487053fdf9dff6c7f59ce581ac756d3a8a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/79_사명의_길.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "사명의 길"
+      }
+    },
+    {
+      "documentId": "auto.weapon_79.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 사명의 길\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n의지 증가 · 대\n궁극기 충전 효율 증가 · 대\n추격 · 굴하지 않는 사명\nRANK 1\n의지\n+20\n궁극기 충전 효율\n+6.0%\n자연 피해\n+16.0%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+12.0%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+3.5%\n, 최대\n+10.5%\n.\n같은 이름의 효과는 중\n첩되\n지 않습니다.\nRANK 2\n의지\n+36\n궁극기 충전 효율\n+10.7%\n자연 피해\n+19.2%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+14.4%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+4.2%\n, 최대\n+12.6%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 3\n의지\n+52\n궁극기 충전 효율\n+15.5%\n자연 피해\n+22.4%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+16.8%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+4.9%\n, 최대\n+14.7%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 4\n의지\n+68\n궁극기 충전 효율\n+20.2%\n자연 피해\n+25.6%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+19.2%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+5.6%\n, 최대\n+16.8%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 5\n의지\n+84\n궁극기 충전 효율\n+25.0%\n자연 피해\n+28.8%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+21.6%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+6.3%\n, 최대\n+18.9%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 6\n의지\n+100\n궁극기 충전 효율\n+29.8%\n자연 피해\n+32.0%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+24.0%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+7.0%\n, 최대\n+21.0%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 7\n의지\n+116\n궁극기 충전 효율\n+34.5%\n자연 피해\n+35.2%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+26.4%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+7.7%\n, 최대\n+23.1%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 8\n의지\n+132\n궁극기 충전 효율\n+39.3%\n자연 피해\n+38.4%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+28.8%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+8.4%\n, 최대\n+25.2%\n.\n같은 이름의 효과는 중첩되지 않습니다.\nRANK 9\n의지\n+156\n궁극기 충전 효율\n+46.4%\n자연 피해\n+44.8%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+33.6%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+9.8%\n, 최대\n+29.4%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n의지 증가\n궁극기 충전 효율 증가\n추격",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_79",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=79&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 79,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:12.721404+00:00",
+        "contentSha256": "bc6274f291e0619ccaa8794e7c9ab487053fdf9dff6c7f59ce581ac756d3a8a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/79_사명의_길.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "사명의 길"
+      }
+    },
+    {
+      "documentId": "auto.weapon_79.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 사명의 길\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n추격 · 굴하지 않는 사명\n기본/최대\n추격 · 굴하지 않는 사명\n잠재능력 1\n1/4\n자연 피해\n+16.0%\n장착자가 자신의 연계 스킬로\n적에게\n띄우기\n피해를 준 후\n, 팀 전체가 주는 아츠 피해\n+12.0%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+3.5%\n, 최대\n+10.5%\n.\n같은 이름의 효과는 중첩되지\n않습니다.\n잠재능력 2\n2/5\n자연 피해\n+19.2%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+14.4%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+4.2%\n, 최대\n+12.6%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 3\n3/6\n자연 피해\n+22.4%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+16.8%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+4.9%\n, 최대\n+14.7%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 4\n4/7\n자연 피해\n+25.6%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+19.2%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+5.6%\n, 최대\n+16.8%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 5\n5/8\n자연 피해\n+28.8%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+21.6%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+6.3%\n, 최대\n+18.9%\n.\n같은 이름의 효과는 중첩되지 않습니다.\n잠재능력 6\n6/9\n자연 피해\n+32.0%\n장착자가 자신의 연계 스킬로 적에게\n띄우기\n피해를 준 후, 팀 전체가 주는 아츠 피해\n+24.0%\n, 15초 동안 지속.\n띄우기\n피해를 받은 적이 있을 때마다, 팀 전체가 주는 아츠 피해\n+7.0%\n, 최대\n+21.0%\n.\n같은 이름의 효과는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_79",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=79&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 79,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:28:12.721404+00:00",
+        "contentSha256": "bc6274f291e0619ccaa8794e7c9ab487053fdf9dff6c7f59ce581ac756d3a8a2",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/79_사명의_길.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "arts_unit",
+        "groupLabel": "아츠 유닛",
+        "entityName": "사명의 길"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 4,
+      "code": "arts_unit",
+      "label": "아츠 유닛"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 51
+    },
+    {
+      "level": 20,
+      "baseAttack": 146
+    },
+    {
+      "level": 40,
+      "baseAttack": 247
+    },
+    {
+      "level": 60,
+      "baseAttack": 348
+    },
+    {
+      "level": 80,
+      "baseAttack": 449
+    },
+    {
+      "level": 90,
+      "baseAttack": 500
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "의지 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_79.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "궁극기 충전 효율 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_79.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "추격 · 굴하지 않는 사명",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_79.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 4,
+    "code": "arts_unit",
+    "label": "아츠 유닛"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/아츠_유닛/79_사명의_길.json"
+}

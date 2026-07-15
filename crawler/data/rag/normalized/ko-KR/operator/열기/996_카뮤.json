@@ -1,0 +1,501 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_996",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 996,
+    "name": "카뮤"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_996.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 카뮤\ngameEntryId: 996\n정규화 상태: query_ready\n속성: 열기 (id=1, code=heat)\n무기 유형: 장병기 (id=2, code=polearm)\n주요 능력치: 민첩 (id=1, code=agility)\n보조 능력치: 지능 (id=2, code=intellect)\nLV.1: 힘=13, 민첩=17, 지능=14, 의지=11, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=32, 민첩=48, 지능=38, 의지=28, 기초 공격력=91, 기초 생명력=1566\nLV.40: 힘=52, 민첩=80, 지능=64, 의지=46, 기초 공격력=155, 기초 생명력=2689\nLV.60: 힘=72, 민첩=112, 지능=90, 의지=64, 기초 공격력=219, 기초 생명력=3811\nLV.80: 힘=92, 민첩=144, 지능=116, 의지=82, 기초 공격력=283, 기초 생명력=4934\nLV.90: 힘=102, 민첩=160, 지능=129, 의지=92, 기초 공격력=315, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_996",
+        "gameEntryId": 996,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 1,
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "evidenceDocumentIds": [
+          "auto.operator_996.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_996.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_996.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_996.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_996.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_996.combat_skill.c4.w0.s3.p2.ko-kr",
+          "auto.operator_996.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_996.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_996.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_996.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_996.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 카뮤\ncategory: operator\nsection: profile\n카뮤\n진영\n세쉬카\n무기 유형\n장병기\n\"가장 깊은 어둠 속에서 한 방울의 피를 되찾은 기분이야.\"\n세쉬카에서 온 '수호자' 카뮤 아르노는 살카즈가 연루되거나 살카즈를 겨냥한 중범죄 사건을 전문적으로 해결한다. 최고의 수호자 중 한 명인 그는 혈액과 관련된 오리지늄 아츠를 구사하는데, 특히 각종 기괴한 주술에 반격하는 데 탁월한 능력을 보인다.\n자신의 고향인 세쉬카를 지키기 위해 수많은 범죄자를 제 손으로 잡아들였지만, 정작 자신의 혈육을 뒤쫓는 길에선 번번이 좌절을 맛보곤 했다. 과거에 겪은 배신 때문 인지 카뮤는 늘 타인과 거리를 두고, 타인의 호의를 경계하는 방식으로 자신을 지킨다. 하지만 신뢰할 수 있다고 여긴 사람에게만큼은 진솔하게 속내를 드러내기도 한다.\n현재 카뮤는 개인 자격으로 엔드필드 공업에 협력을 요청한 상태로, 관리자와 함께 서로 오랫동안 품어온 염원을 이룰 그날을 기다리고 있다.\n\"형식에 얽매일 필요는 없어. 내 피는... 항상 네 곁에 있을 테니까.\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_996",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 996,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:47.666351+00:00",
+        "contentSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "카뮤"
+      }
+    },
+    {
+      "documentId": "auto.operator_996.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 카뮤\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n카뮤\n성별\n남\n진영\n세쉬카\n생일\n11월 20일\n속성\n열기\n종족\n살카즈\n한국어 CV\n이주승\n일본어 CV\n松岡禎丞\n영어 CV\nAleks Le\n중국어 CV\n马洋",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_996",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 996,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:47.666351+00:00",
+        "contentSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "카뮤"
+      }
+    },
+    {
+      "documentId": "auto.operator_996.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 카뮤\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘\n13\n32\n52\n72\n92\n102\n민첩 (주요 능력치)\n17\n48\n80\n112\n144\n160\n지능 (보조 능력치)\n14\n38\n64\n90\n116\n129\n의지\n11\n28\n46\n64\n82\n92\n기초 공격력\n30\n91\n155\n219\n283\n315\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘\n13\n-\n민첩 (주요 능력치)\n17\n지능 (보조 능력치)\n14\n의지\n11\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘\n32\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩 (주요 능력치)\n48\n지능 (보조 능력치)\n38\n의지\n28\n기초 공격력\n91\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘\n52\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩 (주요 능력치)\n80\n지능 (보조 능력치)\n64\n의지\n46\n기초 공격력\n155\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘\n72\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩 (주요 능력치)\n112\n지능 (보조 능력치)\n90\n의지\n64\n기초 공격력\n219\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘\n92\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩 (주요 능력치)\n144\n지능 (보조 능력치)\n116\n의지\n82\n기초 공격력\n283\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘\n102\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩 (주요 능력치)\n160\n지능 (보조 능력치)\n129\n의지\n92\n기초 공격력\n315\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_996",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 996,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:47.666351+00:00",
+        "contentSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "카뮤"
+      }
+    },
+    {
+      "documentId": "auto.operator_996.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 카뮤\ncategory: operator\nsection: combat_skill\n전투 스킬\n피의 속죄\n일반 공격\n일반 공격:\n적에게 최대 5단 공격을 하여\n열기 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n18\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n열기 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n열기 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n25%\n28%\n30%\n33%\n35%\n38%\n40%\n43%\n45%\n48%\n52%\n56%\n일반 공격 제2단계 배율\n20%\n22%\n24%\n26%\n28%\n30%\n32%\n34%\n36%\n39%\n42%\n45%\n일반 공격 제3단계 배율\n30%\n33%\n36%\n39%\n42%\n45%\n48%\n51%\n54%\n58%\n62%\n68%\n일반 공격 제4단계 배율\n34%\n37%\n41%\n44%\n48%\n51%\n54%\n58%\n61%\n66%\n71%\n77%\n일반 공격 제5단계 배율\n50%\n55%\n60%\n65%\n70%\n75%\n80%\n85%\n90%\n96%\n104%\n113%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n사르는 불꽃\n배틀 스킬\n타오르는 핏빛 날개\n를 소환하여 적에게 보냅니다. 작은 범위 내의 적에게\n열기 피해\n를 주고\n열기 부착\n을 부여합니다. 이후\n타오르는 핏빛 날개\n는 목표의 주변에서 배회하며 목표에\n허약\n과\n열기 취약\n을 부여합니다. 목표가 처치될 때,\n타오르는 핏빛 날개\n는 주변의 다른 적에게 날아가\n열기 피해\n를 주고,\n열기 부착\n을 부여하며,\n허약\n과\n열기 취약\n을 부여합니다.\n타오르는 핏빛 날개\n가\n배회\n중인 적이 카뮤의 연계 스킬에 명중될 때, 짧은 지연 후 한 차례 폭발이 발생하며 추가로\n열기 피해\n를 받습니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n피해 배율\n89%\n98%\n107%\n116%\n125%\n134%\n143%\n151%\n160%\n172%\n185%\n200%\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n타오르는 핏빛 날개 지속 시간(초)\n45\n45\n45\n45\n45\n45\n45\n45\n45\n45\n45\n45\n허약 효과\n5%\n5%\n5%\n5.5%\n5.5%\n5.5%\n6%\n6%\n6%\n6.5%\n6.5%\n7%\n열기 취약 효과\n5%\n5%\n5%\n5.5%\n5.5%\n5.5%\n6%\n6%\n6%\n6.5%\n6.5%\n7%\n폭발 피해 배율\n45%\n49%\n54%\n58%\n62%\n67%\n71%\n76%\n80%\n86%\n93%\n100%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_996",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 996,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:47.666351+00:00",
+        "contentSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "카뮤"
+      }
+    },
+    {
+      "documentId": "auto.operator_996.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 카뮤\ncategory: operator\nsection: combat_skill\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n영혼의 가시\n연계 스킬\n적의\n열기 부착\n이\n소모\n되거나 흡수된 후 사용할 수 있습니다.\n해당 위치를 이리저리 가로지르며\n열기 피해\n를 주고, 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n19초\n19초\n19초\n18초\n피해 배율\n133%\n147%\n160%\n173%\n186%\n200%\n213%\n226%\n240%\n256%\n276%\n300%\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n스킬 게이지 회복\n16\n16\n16\n16\n16\n16\n18\n18\n18\n20\n20\n20\n추적 피해 배율\n222%\n244%\n267%\n289%\n311%\n333%\n356%\n378%\n400%\n428%\n461%\n500%\n추적 불균형치\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n20\n추적 스킬 게이지 회복\n32\n32\n32\n32\n32\n32\n36\n36\n36\n40\n40\n40\n획득하는 궁극기 에너지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n정합용 유체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n정합용 유체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n정합용 유체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n선혈의 비\n궁극기\n카뮤가 공중으로 날아올라 창의 비를 퍼붓고 가로 베기 공격을 시전하며, 명중한 목표에\n열기 피해\n를 주고\n열기 부착\n을 부여하며, 동시에 일정 스킬 게이지를 회복합니다.\n사용 후, 일정 시간 내에 다음 배틀 스킬이\n추적\n으로 교체됩니다.\n추적\n은 연계 스킬로 간주되며, 스킬 게이지를 소모하지 않습니다.\n추적\n: 해당 위치를 이리저리 가로지르며\n열기 피해\n를 주고, 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n130\n130\n130\n130\n130\n130\n130\n130\n130\n130\n130\n130\n쿨타임\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n피해 배율\n267%\n293%\n320%\n347%\n373%\n400%\n427%\n453%\n480%\n513%\n553%\n600%\n불균형치\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n스킬 게이지 회복\n32\n32\n32\n32\n32\n32\n32\n32\n36\n36\n36\n40\n추적\n상태 지속 시간(초)\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_996",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 996,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T07:01:47.666351+00:00",
+        "contentSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "카뮤"
+      }
+    },
+    {
+      "documentId": "auto.operator_996.combat_skill.c4.w0.s3.p2.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 카뮤\ncategory: operator\nsection: combat_skill\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n타키온 차폐 구조체\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n타키온 차폐 구조체\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n타키온 차폐 구조체\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_996",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 996,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 2,
+        "observedAt": "2026-07-14T07:01:47.666351+00:00",
+        "contentSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "카뮤"
+      }
+    },
+    {
+      "documentId": "auto.operator_996.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 카뮤\ncategory: operator\nsection: operator_talent\n재능 배열\n능숙\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 민첩 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 민첩 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 민첩 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 민첩 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n죄를 쫓는 자\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n연계 스킬\n영혼의 가시\n효과 강화:\n타오르는 핏빛 날개\n가\n배회\n하는 상태의 적을 명중할 때,\n[30+지능×0.15]\n포인트만큼의 생명력을 회복하고\n연타\n를 획득합니다. 15초 동안 지속.\n추적\n사용 시에는 목표가\n배회\n효과를 받는 상태가 아닐 때도 위의 효과가 발동합니다.\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n연계 스킬\n영혼의 가시\n효과 강화:\n타오르는 핏빛 날개\n가\n배회\n하는 상태의 적을 명중할 때,\n[60+지능×0.3]\n포인트만큼의 생명력을 회복하고\n연타\n를 획득합니다. 15초 동안 지속.\n추적\n사용 시에는 목표가\n배회\n효과를 받는 상태가 아닐 때도 위의 효과가 발동합니다.\n정예화 단계 2 돌파\n40\n프로토콜 프리즘\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n혈류 소생\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n스킬을 사용해 자신의 생명력을 회복할 때마다\n열기 피해\n+2%\n(최대 5스택), 40초간 지속, 팀 내 다른 오퍼레이터는 해당 효과의\n25%\n. 해당 효과는 최대 5스택까지 중첩됩니다.\n자신의 생명력이 가득 찬 상태라면, 발동할 때마다 2스택을 중첩할 수 있습니다.\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n스킬을 사용해 자신의 생명력을 회복할 때마다\n열기 피해\n+4%\n(최대 5스택), 40초간 지속, 팀 내 다른 오퍼레이터는 해당 효과의\n25%\n. 해당 효과는 최대 5스택까지 중첩됩니다.\n자신의 생명력이 가득 찬 상태라면, 발동할 때마다 2스택을 중첩할 수 있습니다.\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n24000\n탈로시안 화폐\n*\n24000\n혈정 층 분석",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_996",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 996,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:47.666351+00:00",
+        "contentSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "카뮤"
+      }
+    },
+    {
+      "documentId": "auto.operator_996.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 카뮤\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n혈정 층 분석 · β\n재배실에 배치 시, 결정화 식물 재료의 육성 속도 20% 증가\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n혈정 층 분석 · γ\n재배실에 배치 시, 결정화 식물 재료의 육성 속도 30% 증가\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n수호자 매뉴얼\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n수호자 매뉴얼 · β\n제조실에 배치 시, 오퍼레이터 경험치 재료의 생산 효율 20% 증가\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n수호자 매뉴얼 · γ\n제조실에 배치 시, 오퍼레이터 경험치 재료의 생산 효율 30% 증가\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_996",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 996,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:47.666351+00:00",
+        "contentSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "카뮤"
+      }
+    },
+    {
+      "documentId": "auto.operator_996.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 카뮤\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\n초거리 빛 반사 파이프\n*\n20\n8\n스타게이트 버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_996",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 996,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:47.666351+00:00",
+        "contentSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "카뮤"
+      }
+    },
+    {
+      "documentId": "auto.operator_996.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 카뮤\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n겁화의 세례\n잠재능력 01\n전투 스킬\n사르는 불꽃\n이 부여하는\n허약\n효과\n+5%\n,\n열기 취약\n효과\n+5%\n,\n타오르는 핏빛 날개\n의\n배회\n지속 시간\n+15\n초\n오퍼레이터 기념사진 \"영원한 회귀\" 잠금 해제\n주술 탐지\n잠재능력 02\n민첩\n+20\n, 지능\n+20\n파쇄하는 가시\n잠재능력 03\n연계 스킬\n영혼의 가시\n의 쿨타임\n-2\n초,\n영혼의 가시\n와\n추적\n피해 배율이 기존의\n1.3\n배로 증가하고, 스킬 게이지 회복량이 기존의\n1.15\n배로 증가합니다.\n오퍼레이터 기념사진 \"기원의 서막\" 잠금 해제\n수호자의 증명\n잠재능력 04\n궁극기\n선혈의 비\n의 사용에 필요한 궁극기 에너지\n-15%\n피로 맺은 결속\n잠재능력 05\n재능\n혈류 소생\n효과 강화: 1스택마다\n열기 피해\n증가 효과\n+6%\n오퍼레이터 기념사진 \"그림자 파괴\" 잠금 해제\n명함 테마 \"그림자 파괴\" 잠금 해제\n오퍼레이터 기념사진\n영원한 회귀\n일러스트레이터: およ\n끝없는 순환 위를 나아갑니다. 갈라진 끝이 다시 하나로 만날 때까지.\n기원의 서막\n일러스트레이터: 起ID无能\n지난날은 한 방울의 빗물과도 같아, 고개를 들어야만 마음 깊은 곳에서 흘러넘치지 않습니다.\n그림자 파괴\n일러스트레이터: se_eeeee\n그는 몸을 휘감은 그림자를 떨쳐 냈습니다. 마치 가시덩굴 한 줄기가 몸부림치며 땅을 뚫고 솟아오르듯.",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_996",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=996&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 996,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:47.666351+00:00",
+        "contentSha256": "fff9e9c8b24e37492b375cc1d8b335c1270e16208ae851e22dbaf3bbd0968558",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "heat",
+        "groupLabel": "열기",
+        "entityName": "카뮤"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 1,
+      "code": "heat",
+      "label": "열기"
+    },
+    "weaponType": {
+      "id": 2,
+      "code": "polearm",
+      "label": "장병기"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 1,
+      "code": "agility",
+      "label": "민첩"
+    },
+    "secondary": {
+      "id": 2,
+      "code": "intellect",
+      "label": "지능"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 13,
+        "agility": 17,
+        "intellect": 14,
+        "will": 11,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 32,
+        "agility": 48,
+        "intellect": 38,
+        "will": 28,
+        "baseAttack": 91,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 52,
+        "agility": 80,
+        "intellect": 64,
+        "will": 46,
+        "baseAttack": 155,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 72,
+        "agility": 112,
+        "intellect": 90,
+        "will": 64,
+        "baseAttack": 219,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 92,
+        "agility": 144,
+        "intellect": 116,
+        "will": 82,
+        "baseAttack": 283,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 102,
+        "agility": 160,
+        "intellect": 129,
+        "will": 92,
+        "baseAttack": 315,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_996.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_996.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_996.combat_skill.c4.w0.s3.p2.ko-kr",
+        "rankLabels": []
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_996.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_996.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_996.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 1,
+    "code": "heat",
+    "label": "열기"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/열기/996_카뮤.json"
+}

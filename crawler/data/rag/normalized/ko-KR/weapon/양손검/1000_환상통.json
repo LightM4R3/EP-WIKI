@@ -1,0 +1,276 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "weapon",
+  "entityId": "weapon_1000",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 1000,
+    "name": "환상통"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1000&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "c8ac0020a0a8b964bb821f435d11978f3501325e2d9b8e1eeb5684e7e5994994",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.weapon_1000.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: weapon\n이름: 환상통\ngameEntryId: 1000\n정규화 상태: query_ready\n무기 유형: 양손검 (id=1, code=greatsword)\n기초 공격력: LV.1=50, LV.20=144, LV.40=243, LV.60=342, LV.80=441, LV.90=490\n무기 옵션: 1번=힘 증가 · 대; 2번=오리지늄 아츠 강도 증가 · 대; 3번=억제 · 고통 누적\n현재 원문에서 확정 불가: identity.imageUrl, identity.rarity, options.structuredValues, progression.materialCosts",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_1000",
+        "gameEntryId": 1000,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1000&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/1000_환상통.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "weaponType",
+        "groupId": 1,
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "evidenceDocumentIds": [
+          "auto.weapon_1000.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.weapon_1000.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.weapon_1000.progression.c2.chapter.s2.p0.ko-kr",
+          "auto.weapon_1000.weapon_option.c3.chapter.s3.p0.ko-kr",
+          "auto.weapon_1000.potential.c4.chapter.s4.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.weapon_1000.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 환상통\ncategory: weapon\nsection: profile\n환상통\n유형\n양손검\n엔드필드 오퍼레이터용 무기, 장착 시 오퍼레이터의 작전 능력이 크게 증가합니다.\n경량 초자연 기술 실험실의 실험형 제품, 검신에 첨단 소재를 사용해 무게가 매우 가볍습니다. 물론, 그 파괴력까지 줄어든 것은 아닙니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_1000",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1000&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 1000,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:57.806525+00:00",
+        "contentSha256": "c8ac0020a0a8b964bb821f435d11978f3501325e2d9b8e1eeb5684e7e5994994",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/1000_환상통.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "환상통"
+      }
+    },
+    {
+      "documentId": "auto.weapon_1000.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 환상통\ncategory: weapon\nsection: profile\n무기 정보\n기본 정보\n환상통\n양손검\n·획득 방법\n프로토콜 통행증 보상\n초기 속성\n(기본/최대)\n최대 레벨 속성\n(기본/최대)\n기초 공격력\n50\n490\n힘 증가 · 대\n힘\n+20\n1/3\n힘\n+156\n9/9\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+10\n1/3\n오리지늄 아츠 강도\n+78\n9/9\n억제 · 고통 누적\n물리 피해\n+7.0%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+5.5%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n1/4\n물리 피해\n+19.6%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+15.4%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n9/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_1000",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1000&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 1000,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:57.806525+00:00",
+        "contentSha256": "c8ac0020a0a8b964bb821f435d11978f3501325e2d9b8e1eeb5684e7e5994994",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/1000_환상통.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "환상통"
+      }
+    },
+    {
+      "documentId": "auto.weapon_1000.progression.c2.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 환상통\ncategory: weapon\nsection: progression\n업그레이드\n돌파\n레벨 1\n레벨 20\n레벨 40\n레벨 60\n레벨 80\n레벨 90\n기초 속성\n(기본/최대)\n재료 소모\n기초 공격력\n50\n-\n힘 증가 · 대\n힘\n+20\n1/3\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+10\n1/3\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n144\n144\n5\n*\n5\n3\n*\n3\n2200\n*\n2200\n힘 증가 · 대\n힘\n+20\n1/3\n힘\n+36\n2/5\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+10\n1/3\n오리지늄 아츠 강도\n+10\n1/4\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n243\n243\n18\n*\n18\n5\n*\n5\n8500\n*\n8500\n힘 증가 · 대\n힘\n+36\n2/5\n힘\n+36\n2/6\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+10\n1/4\n오리지늄 아츠 강도\n+18\n2/6\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n342\n342\n20\n*\n20\n5\n*\n5\n25000\n*\n25000\n힘 증가 · 대\n힘\n+36\n2/6\n힘\n+52\n3/8\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+18\n2/6\n오리지늄 아츠 강도\n+18\n2/7\n돌파 전\n(기본/최대)\n돌파 후\n(기본/최대)\n재료 소모\n기초 공격력\n441\n441\n30\n*\n30\n16\n*\n16\n8\n*\n8\n90000\n*\n90000\n힘 증가 · 대\n힘\n+52\n3/8\n힘\n+52\n3/9\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+18\n2/7\n오리지늄 아츠 강도\n+26\n3/9\n최대 레벨 속성\n(기본/최대)\n재료 소모\n기초 공격력\n490\n-\n힘 증가 · 대\n힘\n+52\n3/9\n오리지늄 아츠 강도 증가 · 대\n오리지늄 아츠 강도\n+26\n3/9",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_1000",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1000&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 1000,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:57.806525+00:00",
+        "contentSha256": "c8ac0020a0a8b964bb821f435d11978f3501325e2d9b8e1eeb5684e7e5994994",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/1000_환상통.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "환상통"
+      }
+    },
+    {
+      "documentId": "auto.weapon_1000.weapon_option.c3.chapter.s3.p0.ko-kr",
+      "section": "weapon_option",
+      "content": "entity: 환상통\ncategory: weapon\nsection: weapon_option\n무기 스킬\n스킬 상세 및 기질\n힘 증가 · 대\n오리지늄 아츠 강도 증가 · 대\n억제 · 고통 누적\nRANK 1\n힘\n+20\n오리지늄 아츠 강도\n+10\n물리 피해\n+7.0%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+5.5%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 2\n힘\n+36\n오리지늄 아츠 강도\n+18\n물리 피해\n+8.4%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+6.6%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 3\n힘\n+52\n오리지늄 아츠 강도\n+26\n물리 피해\n+9.8%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+7.7%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 4\n힘\n+68\n오리지늄 아츠 강도\n+34\n물리 피해\n+11.2%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+8.8%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 5\n힘\n+84\n오리지늄 아츠 강도\n+42\n물리 피해\n+12.6%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+9.9%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 6\n힘\n+100\n오리지늄 아츠 강도\n+50\n물리 피해\n+14.0%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+11.0%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 7\n힘\n+116\n오리지늄 아츠 강도\n+58\n물리 피해\n+15.4%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+12.1%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 8\n힘\n+132\n오리지늄 아츠 강도\n+66\n물리 피해\n+16.8%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+13.2%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\nRANK 9\n힘\n+156\n오리지늄 아츠 강도\n+78\n물리 피해\n+19.6%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+15.4%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n추천 주입 기질: 아래 추가 스킬을 포함한 기질 추천\n힘 증가\n오리지늄 아츠 강도 증가\n억제",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_1000",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1000&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 1000,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:57.806525+00:00",
+        "contentSha256": "c8ac0020a0a8b964bb821f435d11978f3501325e2d9b8e1eeb5684e7e5994994",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/1000_환상통.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "환상통"
+      }
+    },
+    {
+      "documentId": "auto.weapon_1000.potential.c4.chapter.s4.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 환상통\ncategory: weapon\nsection: potential\n잠재능력\n잠재능력\n억제 · 고통 누적\n기본/최대\n억제 · 고통 누적\n잠재능력 1\n1/4\n물리 피해\n+7.0%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+5.5%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n잠재능력 2\n2/5\n물리 피해\n+8.4%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+6.6%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n잠재능력 3\n3/6\n물리 피해\n+9.8%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+7.7%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n잠재능력 4\n4/7\n물리 피해\n+11.2%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+8.8%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n잠재능력 5\n5/8\n물리 피해\n+12.6%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+9.9%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.\n잠재능력 6\n6/9\n물리 피해\n+14.0%\n장착자가 배틀 스킬 또는 연계 스킬을 사용할 때, 물리 피해\n+11.0%\n, 20초 동안 지속됩니다.\n같은 이름의 효과는 최대 3스택까지 중첩되며, 중첩될 때마다 지속 시간은 따로 계산됩니다. 0.1초마다 최대 1회만 발동합니다.",
+      "metadata": {
+        "entityType": "weapon",
+        "entityId": "weapon_1000",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=2&gameEntryId=1000&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 2,
+        "gameEntryId": 1000,
+        "chapterIndex": 4,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T07:01:57.806525+00:00",
+        "contentSha256": "c8ac0020a0a8b964bb821f435d11978f3501325e2d9b8e1eeb5684e7e5994994",
+        "normalizedRef": "data/rag/normalized/ko-KR/weapon/양손검/1000_환상통.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "weaponType",
+        "groupCode": "greatsword",
+        "groupLabel": "양손검",
+        "entityName": "환상통"
+      }
+    }
+  ],
+  "taxonomy": {
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "baseAttack": 50
+    },
+    {
+      "level": 20,
+      "baseAttack": 144
+    },
+    {
+      "level": 40,
+      "baseAttack": 243
+    },
+    {
+      "level": 60,
+      "baseAttack": 342
+    },
+    {
+      "level": 80,
+      "baseAttack": 441
+    },
+    {
+      "level": 90,
+      "baseAttack": 490
+    }
+  ],
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_1000.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 2,
+      "name": "오리지늄 아츠 강도 증가 · 대",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_1000.weapon_option.c3.chapter.s3.p0.ko-kr"
+    },
+    {
+      "slot": 3,
+      "name": "억제 · 고통 누적",
+      "rankLabels": [
+        "RANK1",
+        "RANK2",
+        "RANK3",
+        "RANK4",
+        "RANK5",
+        "RANK6",
+        "RANK7",
+        "RANK8",
+        "RANK9"
+      ],
+      "evidenceDocumentId": "auto.weapon_1000.weapon_option.c3.chapter.s3.p0.ko-kr"
+    }
+  ],
+  "group": {
+    "axis": "weaponType",
+    "id": 1,
+    "code": "greatsword",
+    "label": "양손검"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.weaponType": true,
+      "progression": true,
+      "options": true
+    },
+    "unresolvedFields": [
+      "identity.imageUrl",
+      "identity.rarity",
+      "options.structuredValues",
+      "progression.materialCosts"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/weapon/양손검/1000_환상통.json"
+}

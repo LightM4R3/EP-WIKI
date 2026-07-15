@@ -1,0 +1,471 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "operator",
+  "entityId": "operator_8",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 8,
+    "name": "판"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.operator_8.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: operator\n이름: 판\ngameEntryId: 8\n정규화 상태: query_ready\n속성: 물리 (id=0, code=physical)\n무기 유형: 양손검 (id=1, code=greatsword)\n주요 능력치: 힘 (id=0, code=strength)\n보조 능력치: 의지 (id=3, code=will)\nLV.1: 힘=24, 민첩=9, 지능=10, 의지=10, 기초 공격력=30, 기초 생명력=500\nLV.20: 힘=56, 민첩=28, 지능=28, 의지=30, 기초 공격력=88, 기초 생명력=1566\nLV.40: 힘=90, 민첩=47, 지능=47, 의지=50, 기초 공격력=150, 기초 생명력=2689\nLV.60: 힘=124, 민첩=67, 지능=66, 의지=71, 기초 공격력=211, 기초 생명력=3811\nLV.80: 힘=158, 민첩=87, 지능=85, 의지=91, 기초 공격력=272, 기초 생명력=4934\nLV.90: 힘=175, 민첩=96, 지능=94, 의지=102, 기초 공격력=303, 기초 생명력=5495\n현재 원문에서 확정 불가: identity.portraitUrl, identity.rarity, progression.materialCosts, skills.structuredValues, taxonomy.class",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_8",
+        "gameEntryId": 8,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "element",
+        "groupId": 0,
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "evidenceDocumentIds": [
+          "auto.operator_8.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.operator_8.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.operator_8.progression.c3.chapter.s2.p0.ko-kr",
+          "auto.operator_8.combat_skill.c4.w0.s3.p0.ko-kr",
+          "auto.operator_8.combat_skill.c4.w0.s3.p1.ko-kr",
+          "auto.operator_8.operator_talent.c4.w1.s4.p0.ko-kr",
+          "auto.operator_8.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+          "auto.operator_8.progression.c4.w2.s6.p0.ko-kr",
+          "auto.operator_8.potential.c5.chapter.s7.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.operator_8.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 판\ncategory: operator\nsection: profile\n판\n진영\n홍산 과학원\n무기 유형\n양손검\n\"잘 못하는 요리는 여러 번 연습해야 한다네! 뭘 뽐내려고 하는 게 아니라, 보기 좋게 만들어야 맛도 더 좋으니까 말이야!\"\n판은 홍산 과학원 출신으로, 그곳을 떠난 후 '핵심 연구의 후속 지원 업무'를 담당하고 있다. 업무의 직업에 대해 설명하자면 주로 요리사, 전기공, 운전기사, 길거리에서 떠돌아다니는 장사꾼 등이 있었다. 그의 최근 직업은 개인 자격으로 엔드필드 공업 특수 기술 부서에 합류하게 되었다.\n여러 직업 중에서 가장 자랑스럽게 여기는 직업은 떠돌이 요리사라고 한다. 그는 요리에 대한 열정이 넘치며, 레시피를 연구하고, 새로운 요리를 개발하고, 다양하고 맛있는 요리를 만들어서 손님들의 칭찬을 받는 것이 그의 가장 큰 기쁨이기도 하다.\n판은 항상 지니고 다니는 보온병이 있는데, 대부분 사람들은 그저 평범한 보온병이라 생각하지만, 만약 그것을 눈여겨본 이가 염국의 문자를 읽을 줄 안다면 그 보온병에 출처에 대해 궁금증을 가질 것이다. 특히 홍산 출신이라면 그것이 '선진 과학 연구자'에게만 수여되는 상징임을 곧바로 알게 된다.\n\"오늘은 내가 책임자로서 새로운 것들을 준비했으니, 이것부터 맛보고 시작하지!\"",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_8",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 8,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:09.322592+00:00",
+        "contentSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "판"
+      }
+    },
+    {
+      "documentId": "auto.operator_8.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 판\ncategory: operator\nsection: profile\n오퍼레이터 정보\n기본 정보\n코드네임\n판\n성별\n남\n진영\n홍산 과학원\n생일\n5월 19일\n속성\n물리\n종족\n우르수스\n한국어 CV\n황창영\n일본어 CV\n小山力也\n영어 CV\n许棕哲\n중국어 CV\n苏翼",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_8",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 8,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:09.322592+00:00",
+        "contentSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "판"
+      }
+    },
+    {
+      "documentId": "auto.operator_8.progression.c3.chapter.s2.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 판\ncategory: operator\nsection: progression\n업그레이드\n레벨 증가\n일람\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\nLV.1\nLV.20\nLV.40\nLV.60\nLV.80\nLV.90\n힘 (주요 능력치)\n24\n56\n90\n124\n158\n175\n민첩\n9\n28\n47\n67\n87\n96\n지능\n10\n28\n47\n66\n85\n94\n의지 (보조 능력치)\n10\n30\n50\n71\n91\n102\n기초 공격력\n30\n88\n150\n211\n272\n303\n기초 생명력\n500\n1566\n2689\n3811\n4934\n5495\n재료 소모\n-\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n기본 능력치\n재료 소모\n힘 (주요 능력치)\n24\n-\n민첩\n9\n지능\n10\n의지 (보조 능력치)\n10\n기초 공격력\n30\n기초 생명력\n500\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n56\n일괄 채우기 :\n5\n초급 작전 기록\n*\n5\n2\n중급 작전 기록\n*\n2\n2\n고급 작전 기록\n*\n2\n820\n탈로시안 화폐\n*\n820\n민첩\n28\n지능\n28\n의지 (보조 능력치)\n30\n기초 공격력\n88\n기초 생명력\n1566\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n90\n일괄 채우기 :\n3\n초급 작전 기록\n*\n3\n8\n중급 작전 기록\n*\n8\n24\n고급 작전 기록\n*\n24\n12540\n탈로시안 화폐\n*\n12540\n민첩\n47\n지능\n47\n의지 (보조 능력치)\n50\n기초 공격력\n150\n기초 생명력\n2689\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n124\n일괄 채우기 :\n4\n초급 작전 기록\n*\n4\n5\n중급 작전 기록\n*\n5\n47\n고급 작전 기록\n*\n47\n23900\n탈로시안 화폐\n*\n23900\n민첩\n67\n지능\n66\n의지 (보조 능력치)\n71\n기초 공격력\n211\n기초 생명력\n3811\n능력치 증가\n재료 소모\n힘 (주요 능력치)\n158\n일괄 채우기 :\n6\n초급 인지 매개체\n*\n6\n46\n고급 인지 매개체\n*\n46\n109180\n탈로시안 화폐\n*\n109180\n민첩\n87\n지능\n85\n의지 (보조 능력치)\n91\n기초 공격력\n272\n기초 생명력\n4934\n최대 레벨 능력치\n재료 소모\n힘 (주요 능력치)\n175\n일괄 채우기 :\n58\n고급 인지 매개체\n*\n58\n238980\n탈로시안 화폐\n*\n238980\n민첩\n96\n지능\n94\n의지 (보조 능력치)\n102\n기초 공격력\n303\n기초 생명력\n5495",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_8",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 8,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:09.322592+00:00",
+        "contentSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "판"
+      }
+    },
+    {
+      "documentId": "auto.operator_8.combat_skill.c4.w0.s3.p0.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 판\ncategory: operator\nsection: combat_skill\n전투 스킬\n돌려가며 썰기!\n일반 공격\n일반 공격:\n적에게 최대 4단 공격을 하여\n물리 피해\n를 줍니다. 메인 컨트롤 오퍼레이터라면\n강력한 일격\n이\n20\n포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고\n물리 피해\n를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의\n물리 피해\n를 주고 일정량의 스킬 게이지를 회복합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n일반 공격 제1단계 배율\n28%\n31%\n34%\n37%\n39%\n42%\n45%\n48%\n51%\n54%\n58%\n63%\n일반 공격 제2단계 배율\n34%\n37%\n40%\n44%\n47%\n50%\n54%\n575\n60%\n64%\n70%\n75%\n일반 공격 제3단계 배율\n50%\n55%\n60%\n65%\n70%\n75%\n80%\n85%\n90%\n97%\n104%\n113%\n일반 공격 제4단계 배율\n60%\n66%\n72%\n78%\n84%\n90%\n96%\n103%\n109%\n116%\n125%\n136%\n처형 공격 배율\n400%\n440%\n480%\n520%\n560%\n600%\n640%\n680%\n720%\n770%\n830%\n900%\n낙하 공격 배율\n80%\n88%\n96%\n104%\n112%\n120%\n128%\n136%\n144%\n154%\n166%\n180%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n초거리 빛 반사 파이프\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n초거리 빛 반사 파이프\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n초거리 빛 반사 파이프\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n뒤집어 주지!\n배틀 스킬\n웍을 꺼내 짧게 차지한 다음 힘껏 위로 던집니다. 적에게\n물리 피해\n와\n띄우기\n피해를 줍니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n스킬 게이지 소모\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n100\n피해 배율\n133%\n147%\n160%\n173%\n186%\n200%\n213%\n226%\n240%\n256%\n276%\n300%\n불균형치\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n공중에 뜸 시간(초)\n1.8\n1.8\n1.8\n1.8\n1.8\n1.8\n1.8\n1.8\n1.8\n1.8\n1.8\n1.8\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\nD96강 시제품 4번\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\nD96강 시제품 4번\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_8",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 8,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:09.322592+00:00",
+        "contentSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "판"
+      }
+    },
+    {
+      "documentId": "auto.operator_8.combat_skill.c4.w0.s3.p1.ko-kr",
+      "section": "combat_skill",
+      "content": "entity: 판\ncategory: operator\nsection: combat_skill\nD96강 시제품 4번\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n조미료 뿌리기!\n연계 스킬\n방어 불능\n4스택 중첩 상태인 적이 있을 때 사용할 수 있습니다.\n웍을 휘둘러 적에게 대량의\n물리 피해\n를 주고\n강타\n합니다. 이번\n강타\n로 주는 피해는 조금 더 강합니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n쿨타임\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n20초\n19초\n피해 배율\n289%\n318%\n347%\n375%\n404%\n433%\n462%\n491%\n520%\n556%\n599%\n650%\n불균형치\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n15\n추가로 증가하는 강타 피해\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n15%\n15%\n15%\n20%\n획득하는 궁극기 에너지\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n10\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\n초거리 빛 반사 파이프\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\n초거리 빛 반사 파이프\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\n초거리 빛 반사 파이프\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000\n채 썰어 웍에 넣기!\n궁극기\n도마를 강하게 내리쳐, 전방 범위 내의 적에게 강제\n띄우기\n피해를 줍니다. 이어서 연속 6단 베기 공격을 사용하여\n물리 피해\n를 주며, 마지막에 모든 적을 추락시키는 것으로 강제\n넘어뜨리기\n피해를 주고, 대량의\n물리 피해\n를 줍니다.\nRANK1\nRANK2\nRANK3\nRANK4\nRANK5\nRANK6\nRANK7\nRANK8\nRANK9\n마스터리I\n마스터리II\n마스터리III\n필요한 궁극기 에너지\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n90\n쿨타임\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n15초\n공중 연속 베기 피해 배율\n22%\n24%\n26%\n29%\n31%\n33%\n35%\n37%\n40%\n42%\n46%\n50%\n궁극기 피해 배율\n178%\n196%\n213%\n231%\n249%\n267%\n284%\n302%\n320%\n342%\n369%\n400%\n재료 소모\n-\n6\n프로토콜 프리즘\n*\n6\n1\n칼코덴드라\n*\n1\n1000\n탈로시안 화폐\n*\n1000\n12\n프로토콜 프리즘\n*\n12\n2\n칼코덴드라\n*\n2\n2700\n탈로시안 화폐\n*\n2700\n16\n프로토콜 프리즘\n*\n16\n1\n크리소덴드라\n*\n1\n3200\n탈로시안 화폐\n*\n3200\n21\n프로토콜 프리즘\n*\n21\n1\n크리소덴드라\n*\n1\n4200\n탈로시안 화폐\n*\n4200\n27\n프로토콜 프리즘\n*\n27\n2\n크리소덴드라\n*\n2\n5400\n탈로시안 화폐\n*\n5400\n6\n프로토콜 프리즘 세트\n*\n6\n1\n비트로덴드라\n*\n1\n8200\n탈로시안 화폐\n*\n8200\n8\n프로토콜 프리즘 세트\n*\n8\n1\n비트로덴드라\n*\n1\n10500\n탈로시안 화폐\n*\n10500\n15\n프로토콜 프리즘 세트\n*\n15\n2\n비트로덴드라\n*\n2\n18000\n탈로시안 화폐\n*\n18000\n1\n존속의 흔적\n*\n1\n15\n프로토콜 프리즘 세트\n*\n15\n6\nD96강 시제품 4번\n*\n6\n3\n바위아겔로스 잎\n*\n3\n24000\n탈로시안 화폐\n*\n24000\n2\n존속의 흔적\n*\n2\n24\n프로토콜 프리즘 세트\n*\n24\n16\nD96강 시제품 4번\n*\n16\n6\n바위아겔로스 잎\n*\n6\n30000\n탈로시안 화폐\n*\n30000\n3\n존속의 흔적\n*\n3\n50\n프로토콜 프리즘 세트\n*\n50\n36\nD96강 시제품 4번\n*\n36\n12\n바위아겔로스 잎\n*\n12\n65000\n탈로시안 화폐\n*\n65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_8",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 8,
+        "chapterIndex": 4,
+        "widgetIndex": 0,
+        "chunkIndex": 1,
+        "observedAt": "2026-07-14T06:25:09.322592+00:00",
+        "contentSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "판"
+      }
+    },
+    {
+      "documentId": "auto.operator_8.operator_talent.c4.w1.s4.p0.ko-kr",
+      "section": "operator_talent",
+      "content": "entity: 판\ncategory: operator\nsection: operator_talent\n재능 배열\n단련\n능력치 증가\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n오퍼레이터 힘 능력치 10 증가\n오퍼레이터 신뢰도 20% 도달\n정예화 단계 1 돌파\n5\n프로토콜 프리즘\n*\n5\n1000\n탈로시안 화폐\n*\n1000\n단계 효과 2\n오퍼레이터 힘 능력치 15 증가\n오퍼레이터 신뢰도 50% 도달\n정예화 단계 2 돌파\n10\n프로토콜 프리즘\n*\n10\n1800\n탈로시안 화폐\n*\n1800\n단계 효과 3\n오퍼레이터 힘 능력치 15 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 3 돌파\n10\n프로토콜 프리즘 세트\n*\n10\n6000\n탈로시안 화폐\n*\n6000\n단계 효과 4\n오퍼레이터 힘 능력치 20 증가\n오퍼레이터 신뢰도 100% 도달\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n12000\n탈로시안 화폐\n*\n12000\n신뢰도\n오퍼레이터의 신뢰도를 높이면 더 많은 재능 배열과 파일 내용을 해제할 수 있으며 제강호에서의 오퍼레이터와 관리자의 상호 작용에도 영향을 미칩니다.\n제강호에서 오퍼레이터에게 선물을 주거나, 오퍼레이터를 제강호의 핵심 제어 중추에 배치하면 신뢰도를 높일 수 있습니다.\n전분 풀기\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n매번\n방어 불능\n1스택을\n소모\n한 후, 주는\n물리 피해\n+4%\n,\n10\n초 동안 지속. 해당 효과는 최대\n4\n스택까지 중첩됩니다.\n정예화 단계 1 돌파\n12\n프로토콜 프리즘\n*\n12\n2400\n탈로시안 화폐\n*\n2400\n단계 효과 2\n매번\n방어 불능\n1스택을\n소모\n한 후, 주는\n물리 피해\n+6%\n,\n10\n초 동안 지속. 해당 효과는 최대\n4\n스택까지 중첩됩니다.\n정예화 단계 2 돌파\n40\n프로토콜 프리즘\n*\n40\n8600\n탈로시안 화폐\n*\n8600\n간 맞추기\n오퍼레이터 재능\n활성화 후\n활성화 조건\n재료 소모\n단계 효과 1\n궁극기\n채 썰어 웍에 넣기!\n의 마지막 공격이 적을 명중할 때마다\n식재료 준비\n상태 1스택을 획득합니다. 20초 동안 지속되며, 최대 1스택까지 중첩됩니다.\n식재료 준비\n상태일 때 연계 스킬이 적을 명중하면 쿨타임을 즉시\n40%\n회복하고\n식재료 준비\n상태 1스택을\n소모\n합니다.\n정예화 단계 2 돌파\n48\n프로토콜 프리즘\n*\n48\n10000\n탈로시안 화폐\n*\n10000\n단계 효과 2\n궁극기\n채 썰어 웍에 넣기!\n의 마지막 공격이 적을 명중할 때마다\n식재료 준비\n상태 1스택을 획득합니다. 20초 동안 지속되며, 최대 2스택까지 중첩됩니다.\n식재료 준비\n상태일 때 연계 스킬이 적을 명중하면 쿨타임을 즉시\n40%\n회복하고\n식재료 준비\n상태 1스택을\n소모\n합니다.\n정예화 단계 3 돌파\n28\n프로토콜 프리즘 세트\n*\n28\n24000\n탈로시안 화폐\n*\n24000\n산해진미 전문가",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_8",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 8,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:09.322592+00:00",
+        "contentSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "판"
+      }
+    },
+    {
+      "documentId": "auto.operator_8.infrastructure_talent.c4.w1.s5.p0.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "entity: 판\ncategory: operator\nsection: infrastructure_talent\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n산해진미 전문가\n· α\n재배실에 배치 시, 버섯 재료의 육성 속도 10% 증가\n정예화 단계 1 돌파\n6\n프로토콜 프리즘\n*\n6\n1600\n탈로시안 화폐\n*\n1600\n산해진미 전문가\n· β\n재배실에 배치 시, 버섯 재료의 육성 속도 20% 증가\n정예화 단계 3 돌파\n12\n프로토콜 프리즘 세트\n*\n12\n8000\n탈로시안 화폐\n*\n8000\n능숙한 대인관계\n인프라 스킬\n활성화 후\n활성화 조건\n재료 소모\n능숙한 대인관계 · β\n핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 12% 증가\n정예화 단계 2 돌파\n12\n프로토콜 프리즘\n*\n12\n3000\n탈로시안 화폐\n*\n3000\n능숙한 대인관계 · γ\n핵심 제어 중추에 배치 시, 모든 오퍼레이터의 컨디션 회복 속도 16% 증가\n정예화 단계 4 돌파\n20\n프로토콜 프리즘 세트\n*\n20\n20000\n탈로시안 화폐\n*\n20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_8",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 8,
+        "chapterIndex": 4,
+        "widgetIndex": 1,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:09.322592+00:00",
+        "contentSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "판"
+      }
+    },
+    {
+      "documentId": "auto.operator_8.progression.c4.w2.s6.p0.ko-kr",
+      "section": "progression",
+      "content": "entity: 판\ncategory: operator\nsection: progression\n정예화\n정예화 I\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 I\n활성화 후, 오퍼레이터 레벨 최대치 40레벨까지 증가\n오퍼레이터 Lv.20 도달\n8\n프로토콜 디스크\n*\n8\n3\n연한 붉은 기둥 버섯\n*\n3\n1600\n탈로시안 화폐\n*\n1600\n장비 조합 I\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 I\n활성화 후,\n파란색\n품질 장비 착용 가능\n정예화 단계 1 돌파\n1600\n탈로시안 화폐\n*\n1600\n정예화 II\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 II\n활성화 후, 오퍼레이터 레벨 최대치 60레벨까지 증가\n오퍼레이터 Lv.40 도달\n25\n프로토콜 디스크\n*\n25\n5\n보통 붉은 기둥 버섯\n*\n5\n6500\n탈로시안 화폐\n*\n6500\n장비 조합 II\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 II\n활성화 후,\n보라색\n품질 장비 착용 가능\n정예화 단계 2 돌파\n6500\n탈로시안 화폐\n*\n6500\n정예화 III\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 III\n활성화 후, 오퍼레이터 레벨 최대치 80레벨까지 증가\n오퍼레이터 Lv.60 도달\n24\n프로토콜 디스크 세트\n*\n24\n5\n진한 붉은 기둥 버섯\n*\n5\n18000\n탈로시안 화폐\n*\n18000\n장비 조합 III\n장비 조합\n활성화 후\n활성화 조건\n재료 소모\n장비 조합 III\n활성화 후,\n노란색\n품질 장비 착용 가능\n정예화 단계 3 돌파\n18000\n탈로시안 화폐\n*\n18000\n정예화 IV\n정예화\n활성화 후\n활성화 조건\n재료 소모\n정예화 IV\n활성화 후, 오퍼레이터 레벨 최대치 90레벨까지 증가\n오퍼레이터 Lv.80 도달\n36\n프로토콜 디스크 세트\n*\n36\n20\n3상 나노플레이크 칩\n*\n20\n8\n피버섯\n*\n8\n100000\n탈로시안 화폐\n*\n100000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_8",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 8,
+        "chapterIndex": 4,
+        "widgetIndex": 2,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:09.322592+00:00",
+        "contentSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "판"
+      }
+    },
+    {
+      "documentId": "auto.operator_8.potential.c5.chapter.s7.p0.ko-kr",
+      "section": "potential",
+      "content": "entity: 판\ncategory: operator\nsection: potential\n잠재능력\n잠재능력 단계\n정교한 요리\n잠재능력 01\n궁극기\n채 썰어 웍에 넣기!\n로 1명 이상의 적을 처치했을 때, 판이 주는\n물리 피해\n+30%\n, 15초 동안 지속. 해당 효과는 중첩되지 않습니다.\n오퍼레이터 기념사진 \"여행의 시작\" 잠금 해제\n맛의 조화\n잠재능력 02\n재능\n'간 맞추기'\n효과 강화:\n식재료 준비\n상태 지속 시간\n+10\n초, 최대 중첩 스택 수치\n+1\n모범 직원\n잠재능력 03\n힘\n+15\n, 주는 물리 피해\n+8%\n오퍼레이터 기념사진 \"고요한 산중에 앉아 풍류를 즐기네\" 잠금 해제\n자체 제작 소스\n잠재능력 04\n궁극기\n채 썰어 웍에 넣기!\n의 사용에 필요한 궁극기 에너지\n-15%\n센 불로 소스 졸이기\n잠재능력 05\n배틀 스킬\n뒤집어 주지!\n가 단일 목표에만 명중했을 경우, 목표에 추가로\n방어 불능\n1스택을 쌓습니다. 해당 효과는 45초마다 최대 1회만 발동합니다.\n오퍼레이터 기념사진 \"인간 세상의 백 가지 맛\" 잠금 해제\n오퍼레이터 기념사진\n여행의 시작\n일러스트레이터: Rin9\n이 시원한 엔진 소리 한번 들어보라고. 짐도 너무 많이 챙기지 마, 이 웍만 빼고 말이야. 이 웍은 내 친구나 마찬가지거든.\n고요한 산중에 앉아 풍류를 즐기네\n일러스트레이터: E_Volution_\n한가로운 이 순간을 즐겨봐. 파울비스트가 위협을 느끼지 않고 자연스럽게 모여드는 이런 평화로움 말이야. 사람이란 자고로 고요한 산중에 앉아 풍류를 느낄 줄도 알아야 해.\n인간 세상의 백 가지 맛\n일러스트레이터: 黑犬\n인생이란 말이지, 부족한 재료로 시작하는 요리랑 비슷해. 살아가면서 보고 느낀 것들을 재료로 삼아, 그것들을 지지고 볶다 보면 예상하지 못했던 희로애락이 가득한 맛이 나거든.",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "operator_8",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=8&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 1,
+        "gameEntryId": 8,
+        "chapterIndex": 5,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:25:09.322592+00:00",
+        "contentSha256": "fce000eb0b81cdb59c6fc0976438674ee7d7000ad9f06a605140c75f3824fae4",
+        "normalizedRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "element",
+        "groupCode": "physical",
+        "groupLabel": "물리",
+        "entityName": "판"
+      }
+    }
+  ],
+  "taxonomy": {
+    "element": {
+      "id": 0,
+      "code": "physical",
+      "label": "물리"
+    },
+    "weaponType": {
+      "id": 1,
+      "code": "greatsword",
+      "label": "양손검"
+    }
+  },
+  "attributes": {
+    "catalogOrder": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "primary": {
+      "id": 0,
+      "code": "strength",
+      "label": "힘"
+    },
+    "secondary": {
+      "id": 3,
+      "code": "will",
+      "label": "의지"
+    }
+  },
+  "progression": [
+    {
+      "level": 1,
+      "stats": {
+        "strength": 24,
+        "agility": 9,
+        "intellect": 10,
+        "will": 10,
+        "baseAttack": 30,
+        "baseHp": 500
+      }
+    },
+    {
+      "level": 20,
+      "stats": {
+        "strength": 56,
+        "agility": 28,
+        "intellect": 28,
+        "will": 30,
+        "baseAttack": 88,
+        "baseHp": 1566
+      }
+    },
+    {
+      "level": 40,
+      "stats": {
+        "strength": 90,
+        "agility": 47,
+        "intellect": 47,
+        "will": 50,
+        "baseAttack": 150,
+        "baseHp": 2689
+      }
+    },
+    {
+      "level": 60,
+      "stats": {
+        "strength": 124,
+        "agility": 67,
+        "intellect": 66,
+        "will": 71,
+        "baseAttack": 211,
+        "baseHp": 3811
+      }
+    },
+    {
+      "level": 80,
+      "stats": {
+        "strength": 158,
+        "agility": 87,
+        "intellect": 85,
+        "will": 91,
+        "baseAttack": 272,
+        "baseHp": 4934
+      }
+    },
+    {
+      "level": 90,
+      "stats": {
+        "strength": 175,
+        "agility": 96,
+        "intellect": 94,
+        "will": 102,
+        "baseAttack": 303,
+        "baseHp": 5495
+      }
+    }
+  ],
+  "progressionSourceConflicts": [],
+  "skills": {
+    "combatSkills": [
+      {
+        "documentId": "auto.operator_8.combat_skill.c4.w0.s3.p0.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      },
+      {
+        "documentId": "auto.operator_8.combat_skill.c4.w0.s3.p1.ko-kr",
+        "rankLabels": [
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III",
+          "RANK1",
+          "RANK2",
+          "RANK3",
+          "RANK4",
+          "RANK5",
+          "RANK6",
+          "RANK7",
+          "RANK8",
+          "RANK9",
+          "마스터리I",
+          "마스터리II",
+          "마스터리III"
+        ]
+      }
+    ],
+    "operatorTalents": [
+      "auto.operator_8.operator_talent.c4.w1.s4.p0.ko-kr"
+    ],
+    "infrastructureTalents": [
+      "auto.operator_8.infrastructure_talent.c4.w1.s5.p0.ko-kr"
+    ],
+    "potentials": [
+      "auto.operator_8.potential.c5.chapter.s7.p0.ko-kr"
+    ]
+  },
+  "group": {
+    "axis": "element",
+    "id": 0,
+    "code": "physical",
+    "label": "물리"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.element": true,
+      "taxonomy.weaponType": true,
+      "attributes.primary": true,
+      "attributes.secondary": true,
+      "progression": true
+    },
+    "unresolvedFields": [
+      "identity.portraitUrl",
+      "identity.rarity",
+      "progression.materialCosts",
+      "skills.structuredValues",
+      "taxonomy.class"
+    ],
+    "sourceConflicts": []
+  },
+  "ragRef": "data/rag/normalized/ko-KR/operator/물리/8_판.json"
+}

@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityId": "tangtang",
+  "locale": "ko-KR",
+  "documents": [
+    {
+      "documentId": "operator.tangtang.profile.ko-kr",
+      "section": "profile",
+      "content": "오퍼레이터 프로필\n이름: 탕탕\n희귀도: 6\n클래스: Caster (id=4, code=caster, verified)\n속성: 냉기 (id=3, code=cryo)\n무기 유형: 권총 (id=3, code=handcannon)\n주요 능력치: 민첩 (주요 능력치) (attributeId=1)\n보조 능력치: 힘 (보조 능력치) (attributeId=0)",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#",
+        "localizationRef": "data/localization/operator/tangtang.ko-KR.json#",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.progression.ko-kr",
+      "section": "progression",
+      "content": "레벨별 능력치와 재료\nLV.1: 힘 (보조 능력치)=13 / 민첩 (주요 능력치)=23 / 지능=8 / 의지=10 / 기초 공격력=30 / 기초 생명력=500; 재료: 없음\nLV.20: 힘 (보조 능력치)=37 / 민첩 (주요 능력치)=56 / 지능=25 / 의지=29 / 기초 공격력=92 / 기초 생명력=1566; 재료: 초급 작전 기록 ×5, 중급 작전 기록 ×2, 고급 작전 기록 ×2, 탈로시안 화폐 ×820\nLV.40: 힘 (보조 능력치)=61 / 민첩 (주요 능력치)=91 / 지능=42 / 의지=50 / 기초 공격력=157 / 기초 생명력=2689; 재료: 초급 작전 기록 ×3, 중급 작전 기록 ×8, 고급 작전 기록 ×24, 탈로시안 화폐 ×12540\nLV.60: 힘 (보조 능력치)=86 / 민첩 (주요 능력치)=126 / 지능=59 / 의지=71 / 기초 공격력=223 / 기초 생명력=3811; 재료: 초급 작전 기록 ×4, 중급 작전 기록 ×5, 고급 작전 기록 ×47, 탈로시안 화폐 ×23900\nLV.80: 힘 (보조 능력치)=111 / 민첩 (주요 능력치)=162 / 지능=77 / 의지=91 / 기초 공격력=288 / 기초 생명력=4934; 재료: 초급 인지 매개체 ×6, 고급 인지 매개체 ×46, 탈로시안 화폐 ×109180\nLV.90: 힘 (보조 능력치)=123 / 민첩 (주요 능력치)=179 / 지능=85 / 의지=102 / 기초 공격력=321 / 기초 생명력=5495; 재료: 고급 인지 매개체 ×58, 탈로시안 화폐 ×238980",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/progression",
+        "localizationRef": "data/localization/operator/tangtang.ko-KR.json#/progression",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.basic_attack.ko-kr",
+      "section": "combat_skill",
+      "content": "일반 공격: 정신 똑바로 차려!\n일반 공격:\n적에게 최대 5단 공격을 하여 냉기 피해를 줍니다. 메인 컨트롤 오퍼레이터라면 강력한 일격이 18포인트의 불균형 피해를 줍니다.\n낙하 공격:\n공중에 떴을 때, 일반 공격을 사용하면 낙하하며 주변의 적을 공격하고 냉기 피해를 줍니다.\n처형 공격:\n주변에 불균형 상태의 적이 있을 때, 일반 공격을 사용하면 해당 적을 처형하여 대량의 냉기 피해를 주고 일정량의 스킬 게이지를 회복합니다.\n수치 항목: 일반 공격 제1단계 배율 [normal_attack_stage_1_multiplier]; 일반 공격 제2단계 배율 [normal_attack_stage_2_multiplier]; 일반 공격 제3단계 배율 [normal_attack_stage_3_multiplier]; 일반 공격 제4단계 배율 [normal_attack_stage_4_multiplier]; 일반 공격 제5단계 배율 [normal_attack_stage_5_multiplier]; 처형 공격 배율 [finisher_multiplier]; 낙하 공격 배율 [dive_attack_multiplier]\nRANK1: 일반 공격 제1단계 배율=23%; 일반 공격 제2단계 배율=25%; 일반 공격 제3단계 배율=35%; 일반 공격 제4단계 배율=37%; 일반 공격 제5단계 배율=50%; 처형 공격 배율=400%; 낙하 공격 배율=80%; 재료: 없음\nRANK2: 일반 공격 제1단계 배율=25%; 일반 공격 제2단계 배율=28%; 일반 공격 제3단계 배율=39%; 일반 공격 제4단계 배율=40%; 일반 공격 제5단계 배율=55%; 처형 공격 배율=440%; 낙하 공격 배율=88%; 재료: 프로토콜 프리즘 ×6, 칼코덴드라 ×1, 탈로시안 화폐 ×1000\nRANK3: 일반 공격 제1단계 배율=27%; 일반 공격 제2단계 배율=30%; 일반 공격 제3단계 배율=42%; 일반 공격 제4단계 배율=44%; 일반 공격 제5단계 배율=60%; 처형 공격 배율=480%; 낙하 공격 배율=96%; 재료: 프로토콜 프리즘 ×12, 칼코덴드라 ×2, 탈로시안 화폐 ×2700\nRANK4: 일반 공격 제1단계 배율=29%; 일반 공격 제2단계 배율=33%; 일반 공격 제3단계 배율=46%; 일반 공격 제4단계 배율=47%; 일반 공격 제5단계 배율=65%; 처형 공격 배율=520%; 낙하 공격 배율=104%; 재료: 프로토콜 프리즘 ×16, 크리소덴드라 ×1, 탈로시안 화폐 ×3200\nRANK5: 일반 공격 제1단계 배율=32%; 일반 공격 제2단계 배율=35%; 일반 공격 제3단계 배율=49%; 일반 공격 제4단계 배율=51%; 일반 공격 제5단계 배율=70%; 처형 공격 배율=560%; 낙하 공격 배율=112%; 재료: 프로토콜 프리즘 ×21, 크리소덴드라 ×1, 탈로시안 화폐 ×4200\nRANK6: 일반 공격 제1단계 배율=34%; 일반 공격 제2단계 배율=38%; 일반 공격 제3단계 배율=53%; 일반 공격 제4단계 배율=55%; 일반 공격 제5단계 배율=75%; 처형 공격 배율=600%; 낙하 공격 배율=120%; 재료: 프로토콜 프리즘 ×27, 크리소덴드라 ×2, 탈로시안 화폐 ×5400\nRANK7: 일반 공격 제1단계 배율=36%; 일반 공격 제2단계 배율=40%; 일반 공격 제3단계 배율=56%; 일반 공격 제4단계 배율=58%; 일반 공격 제5단계 배율=80%; 처형 공격 배율=640%; 낙하 공격 배율=128%; 재료: 프로토콜 프리즘 세트 ×6, 비트로덴드라 ×1, 탈로시안 화폐 ×8200\nRANK8: 일반 공격 제1단계 배율=39%; 일반 공격 제2단계 배율=43%; 일반 공격 제3단계 배율=60%; 일반 공격 제4단계 배율=62%; 일반 공격 제5단계 배율=85%; 처형 공격 배율=680%; 낙하 공격 배율=136%; 재료: 프로토콜 프리즘 세트 ×8, 비트로덴드라 ×1, 탈로시안 화폐 ×10500\nRANK9: 일반 공격 제1단계 배율=41%; 일반 공격 제2단계 배율=45%; 일반 공격 제3단계 배율=63%; 일반 공격 제4단계 배율=66%; 일반 공격 제5단계 배율=90%; 처형 공격 배율=720%; 낙하 공격 배율=144%; 재료: 프로토콜 프리즘 세트 ×15, 비트로덴드라 ×2, 탈로시안 화폐 ×18000\n마스터리I: 일반 공격 제1단계 배율=44%; 일반 공격 제2단계 배율=48%; 일반 공격 제3단계 배율=67%; 일반 공격 제4단계 배율=70%; 일반 공격 제5단계 배율=96%; 처형 공격 배율=770%; 낙하 공격 배율=154%; 재료: 존속의 흔적 ×1, 프로토콜 프리즘 세트 ×15, D96강 시제품 4번 ×6, 침식된 옥 잎 ×3, 탈로시안 화폐 ×24000\n마스터리II: 일반 공격 제1단계 배율=47%; 일반 공격 제2단계 배율=52%; 일반 공격 제3단계 배율=73%; 일반 공격 제4단계 배율=76%; 일반 공격 제5단계 배율=104%; 처형 공격 배율=830%; 낙하 공격 배율=166%; 재료: 존속의 흔적 ×2, 프로토콜 프리즘 세트 ×24, D96강 시제품 4번 ×16, 침식된 옥 잎 ×6, 탈로시안 화폐 ×30000\n마스터리III: 일반 공격 제1단계 배율=51%; 일반 공격 제2단계 배율=56%; 일반 공격 제3단계 배율=79%; 일반 공격 제4단계 배율=82%; 일반 공격 제5단계 배율=113%; 처형 공격 배율=900%; 낙하 공격 배율=180%; 재료: 존속의 흔적 ×3, 프로토콜 프리즘 세트 ×50, D96강 시제품 4번 ×36, 침식된 옥 잎 ×12, 탈로시안 화폐 ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/0",
+        "localizationRef": "data/localization/operator/tangtang.ko-KR.json#/combatSkills/0",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.basic_attack",
+        "skillTypeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.battle_skill.ko-kr",
+      "section": "combat_skill",
+      "content": "배틀 스킬: 우당탕탕 파도!\n물속에서 뛰어올라 적에게 근접하여 사격하며 냉기 피해를 주고, 용오름을 생성합니다.\n동시에 근처의 모든 와류를 소모하여 추가로 용오름을 생성하고, 생성된 개수에 따라 일정량의 스킬 게이지를 반환합니다.\n용오름: 범위 내의 적에게 냉기 부착 1스택을 부여하고, 지속적으로 냉기 피해를 줍니다. 만약 여러 개의 용오름이 생성됐다면 적에게 추가로 아츠 취약을 부여하지만, 냉기 부착이 중복으로 부여되진 않습니다.\n용오름이 주는 피해는 배틀 스킬의 피해로 간주됩니다.\n수치 항목: 스킬 게이지 소모 [skill_gauge_cost]; 사격 피해 배율 [shot_damage_multiplier]; 사격 불균형치 [shot_imbalance]; 단일 용오름 피해 배율 [single_tornado_damage_multiplier]; 용오름 지속 시간(초) [tornado_duration]; 와류마다 스킬 게이지 반환 [skill_gauge_return_per_vortex]; 용오름 2개일 시 부여하는 아츠 취약 [arts_vulnerability_two_tornadoes]; 용오름 3개일 시 부여하는 아츠 취약 [arts_vulnerability_three_tornadoes]; 아츠 취약 지속 시간(초) [arts_vulnerability_duration]\nRANK1: 스킬 게이지 소모=100; 사격 피해 배율=80%; 사격 불균형치=10; 단일 용오름 피해 배율=133%; 용오름 지속 시간(초)=3; 와류마다 스킬 게이지 반환=20; 용오름 2개일 시 부여하는 아츠 취약=3%; 용오름 3개일 시 부여하는 아츠 취약=6%; 아츠 취약 지속 시간(초)=15; 재료: 없음\nRANK2: 스킬 게이지 소모=100; 사격 피해 배율=88%; 사격 불균형치=10; 단일 용오름 피해 배율=147%; 용오름 지속 시간(초)=3; 와류마다 스킬 게이지 반환=20; 용오름 2개일 시 부여하는 아츠 취약=3%; 용오름 3개일 시 부여하는 아츠 취약=6%; 아츠 취약 지속 시간(초)=15; 재료: 프로토콜 프리즘 ×6, 칼코덴드라 ×1, 탈로시안 화폐 ×1000\nRANK3: 스킬 게이지 소모=100; 사격 피해 배율=96%; 사격 불균형치=10; 단일 용오름 피해 배율=160%; 용오름 지속 시간(초)=3; 와류마다 스킬 게이지 반환=20; 용오름 2개일 시 부여하는 아츠 취약=3%; 용오름 3개일 시 부여하는 아츠 취약=6%; 아츠 취약 지속 시간(초)=15; 재료: 프로토콜 프리즘 ×12, 칼코덴드라 ×2, 탈로시안 화폐 ×2700\nRANK4: 스킬 게이지 소모=100; 사격 피해 배율=104%; 사격 불균형치=10; 단일 용오름 피해 배율=174%; 용오름 지속 시간(초)=3; 와류마다 스킬 게이지 반환=20; 용오름 2개일 시 부여하는 아츠 취약=3.5%; 용오름 3개일 시 부여하는 아츠 취약=7%; 아츠 취약 지속 시간(초)=15; 재료: 프로토콜 프리즘 ×16, 크리소덴드라 ×1, 탈로시안 화폐 ×3200\nRANK5: 스킬 게이지 소모=100; 사격 피해 배율=112%; 사격 불균형치=10; 단일 용오름 피해 배율=187%; 용오름 지속 시간(초)=3; 와류마다 스킬 게이지 반환=20; 용오름 2개일 시 부여하는 아츠 취약=3.5%; 용오름 3개일 시 부여하는 아츠 취약=7%; 아츠 취약 지속 시간(초)=15; 재료: 프로토콜 프리즘 ×21, 크리소덴드라 ×1, 탈로시안 화폐 ×4200\nRANK6: 스킬 게이지 소모=100; 사격 피해 배율=120%; 사격 불균형치=10; 단일 용오름 피해 배율=200%; 용오름 지속 시간(초)=3; 와류마다 스킬 게이지 반환=20; 용오름 2개일 시 부여하는 아츠 취약=3.5%; 용오름 3개일 시 부여하는 아츠 취약=7%; 아츠 취약 지속 시간(초)=15; 재료: 프로토콜 프리즘 ×27, 크리소덴드라 ×2, 탈로시안 화폐 ×5400\nRANK7: 스킬 게이지 소모=100; 사격 피해 배율=128%; 사격 불균형치=10; 단일 용오름 피해 배율=214%; 용오름 지속 시간(초)=3; 와류마다 스킬 게이지 반환=20; 용오름 2개일 시 부여하는 아츠 취약=4%; 용오름 3개일 시 부여하는 아츠 취약=8%; 아츠 취약 지속 시간(초)=15; 재료: 프로토콜 프리즘 세트 ×6, 비트로덴드라 ×1, 탈로시안 화폐 ×8200\nRANK8: 스킬 게이지 소모=100; 사격 피해 배율=136%; 사격 불균형치=10; 단일 용오름 피해 배율=227%; 용오름 지속 시간(초)=3; 와류마다 스킬 게이지 반환=20; 용오름 2개일 시 부여하는 아츠 취약=4%; 용오름 3개일 시 부여하는 아츠 취약=8%; 아츠 취약 지속 시간(초)=15; 재료: 프로토콜 프리즘 세트 ×8, 비트로덴드라 ×1, 탈로시안 화폐 ×10500\nRANK9: 스킬 게이지 소모=100; 사격 피해 배율=144%; 사격 불균형치=10; 단일 용오름 피해 배율=240%; 용오름 지속 시간(초)=3; 와류마다 스킬 게이지 반환=20; 용오름 2개일 시 부여하는 아츠 취약=4%; 용오름 3개일 시 부여하는 아츠 취약=8%; 아츠 취약 지속 시간(초)=15; 재료: 프로토콜 프리즘 세트 ×15, 비트로덴드라 ×2, 탈로시안 화폐 ×18000\n마스터리I: 스킬 게이지 소모=100; 사격 피해 배율=154%; 사격 불균형치=10; 단일 용오름 피해 배율=257%; 용오름 지속 시간(초)=3; 와류마다 스킬 게이지 반환=20; 용오름 2개일 시 부여하는 아츠 취약=4.5%; 용오름 3개일 시 부여하는 아츠 취약=9%; 아츠 취약 지속 시간(초)=15; 재료: 존속의 흔적 ×1, 프로토콜 프리즘 세트 ×15, 정합용 유체 ×6, 침식된 옥 잎 ×3, 탈로시안 화폐 ×24000\n마스터리II: 스킬 게이지 소모=100; 사격 피해 배율=166%; 사격 불균형치=10; 단일 용오름 피해 배율=277%; 용오름 지속 시간(초)=3; 와류마다 스킬 게이지 반환=20; 용오름 2개일 시 부여하는 아츠 취약=4.5%; 용오름 3개일 시 부여하는 아츠 취약=9%; 아츠 취약 지속 시간(초)=15; 재료: 존속의 흔적 ×2, 프로토콜 프리즘 세트 ×24, 정합용 유체 ×16, 침식된 옥 잎 ×6, 탈로시안 화폐 ×30000\n마스터리III: 스킬 게이지 소모=100; 사격 피해 배율=180%; 사격 불균형치=10; 단일 용오름 피해 배율=300%; 용오름 지속 시간(초)=3; 와류마다 스킬 게이지 반환=20; 용오름 2개일 시 부여하는 아츠 취약=5%; 용오름 3개일 시 부여하는 아츠 취약=10%; 아츠 취약 지속 시간(초)=15; 재료: 존속의 흔적 ×3, 프로토콜 프리즘 세트 ×50, 정합용 유체 ×36, 침식된 옥 잎 ×12, 탈로시안 화폐 ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/1",
+        "localizationRef": "data/localization/operator/tangtang.ko-KR.json#/combatSkills/1",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.battle_skill",
+        "skillTypeId": 1
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.combo_skill.ko-kr",
+      "section": "combat_skill",
+      "content": "연계 스킬: 야, 강물! 도와줘!\n적이 냉기 부착을 부여받았거나 아츠 폭발 피해를 받았을 때 발동할 수 있습니다.\n강력한 물줄기를 방출해 전방의 적을 관통하며 냉기 피해를 주고, 와류 하나를 생성합니다.\n필드에는 최대 두 개의 와류만 존재할 수 있습니다.\n수치 항목: 쿨타임 [cooldown]; 피해 배율 [damage_multiplier]; 불균형치 [imbalance]; 와류 지속 시간(초) [vortex_duration]; 획득하는 궁극기 에너지 [ultimate_energy_gain]\nRANK1: 쿨타임=14초; 피해 배율=107%; 불균형치=10; 와류 지속 시간(초)=30; 획득하는 궁극기 에너지=10; 재료: 없음\nRANK2: 쿨타임=14초; 피해 배율=117%; 불균형치=10; 와류 지속 시간(초)=30; 획득하는 궁극기 에너지=10; 재료: 프로토콜 프리즘 ×6, 칼코덴드라 ×1, 탈로시안 화폐 ×1000\nRANK3: 쿨타임=14초; 피해 배율=128%; 불균형치=10; 와류 지속 시간(초)=30; 획득하는 궁극기 에너지=10; 재료: 프로토콜 프리즘 ×12, 칼코덴드라 ×2, 탈로시안 화폐 ×2700\nRANK4: 쿨타임=14초; 피해 배율=139%; 불균형치=10; 와류 지속 시간(초)=30; 획득하는 궁극기 에너지=10; 재료: 프로토콜 프리즘 ×16, 크리소덴드라 ×1, 탈로시안 화폐 ×3200\nRANK5: 쿨타임=14초; 피해 배율=149%; 불균형치=10; 와류 지속 시간(초)=30; 획득하는 궁극기 에너지=10; 재료: 프로토콜 프리즘 ×21, 크리소덴드라 ×1, 탈로시안 화폐 ×4200\nRANK6: 쿨타임=14초; 피해 배율=160%; 불균형치=10; 와류 지속 시간(초)=30; 획득하는 궁극기 에너지=10; 재료: 프로토콜 프리즘 ×27, 크리소덴드라 ×2, 탈로시안 화폐 ×5400\nRANK7: 쿨타임=14초; 피해 배율=171%; 불균형치=10; 와류 지속 시간(초)=30; 획득하는 궁극기 에너지=10; 재료: 프로토콜 프리즘 세트 ×6, 비트로덴드라 ×1, 탈로시안 화폐 ×8200\nRANK8: 쿨타임=14초; 피해 배율=181%; 불균형치=10; 와류 지속 시간(초)=30; 획득하는 궁극기 에너지=10; 재료: 프로토콜 프리즘 세트 ×8, 비트로덴드라 ×1, 탈로시안 화폐 ×10500\nRANK9: 쿨타임=13초; 피해 배율=192%; 불균형치=10; 와류 지속 시간(초)=30; 획득하는 궁극기 에너지=10; 재료: 프로토콜 프리즘 세트 ×15, 비트로덴드라 ×2, 탈로시안 화폐 ×18000\n마스터리I: 쿨타임=13초; 피해 배율=205%; 불균형치=10; 와류 지속 시간(초)=30; 획득하는 궁극기 에너지=10; 재료: 존속의 흔적 ×1, 프로토콜 프리즘 세트 ×15, D96강 시제품 4번 ×6, 침식된 옥 잎 ×3, 탈로시안 화폐 ×24000\n마스터리II: 쿨타임=13초; 피해 배율=221%; 불균형치=10; 와류 지속 시간(초)=30; 획득하는 궁극기 에너지=10; 재료: 존속의 흔적 ×2, 프로토콜 프리즘 세트 ×24, D96강 시제품 4번 ×16, 침식된 옥 잎 ×6, 탈로시안 화폐 ×30000\n마스터리III: 쿨타임=12초; 피해 배율=240%; 불균형치=10; 와류 지속 시간(초)=30; 획득하는 궁극기 에너지=10; 재료: 존속의 흔적 ×3, 프로토콜 프리즘 세트 ×50, D96강 시제품 4번 ×36, 침식된 옥 잎 ×12, 탈로시안 화폐 ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/2",
+        "localizationRef": "data/localization/operator/tangtang.ko-KR.json#/combatSkills/2",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.combo_skill",
+        "skillTypeId": 2
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.ultimate.ko-kr",
+      "section": "combat_skill",
+      "content": "궁극기: 대당가께서 지켜보고 계신다!\n탕탕이 안대를 벗어 던지고 눈 속에 깃든 고대의 진을 발동합니다. 범위 내의 적은 일정 시간 동안 움직일 수 없으며, 지속적으로 냉기 피해를 받습니다.\n고대의 진은 나타난 직후부터 서서히 변화를 시작해 변화가 끝날 때 거대한 파도를 일으키고 범위 내의 적에게 대량의 냉기 피해를 줍니다.\n메인 컨트롤 오퍼레이터가 고대의 진 내에서 낙하 공격을 사용하면, 변화하던 고대의 진이 그 변화를 중단합니다. 이어서 예정보다 일찍 거대한 파도를 일으키고, 이때 파도가 주는 냉기 피해가 증가합니다.\n수치 항목: 필요한 궁극기 에너지 [ultimate_energy_cost]; 쿨타임 [cooldown]; 지속 피해 총 배율 [total_dot_multiplier]; 고대의 진 지속 시간(초) [ancient_array_duration]; 거대한 파도 피해 배율 [giant_wave_damage_multiplier]; 일찍 일으킨 거대한 파도의 피해 배율 [early_giant_wave_damage_multiplier]; 거대한 파도의 불균형치 [giant_wave_imbalance]; 일찍 일으킨 거대한 파도의 불균형치 [early_giant_wave_imbalance]\nRANK1: 필요한 궁극기 에너지=90; 쿨타임=20초; 지속 피해 총 배율=142%; 고대의 진 지속 시간(초)=4; 거대한 파도 피해 배율=178%; 일찍 일으킨 거대한 파도의 피해 배율=311%; 거대한 파도의 불균형치=15; 일찍 일으킨 거대한 파도의 불균형치=20; 재료: 없음\nRANK2: 필요한 궁극기 에너지=90; 쿨타임=20초; 지속 피해 총 배율=156%; 고대의 진 지속 시간(초)=4; 거대한 파도 피해 배율=196%; 일찍 일으킨 거대한 파도의 피해 배율=342%; 거대한 파도의 불균형치=15; 일찍 일으킨 거대한 파도의 불균형치=20; 재료: 프로토콜 프리즘 ×6, 칼코덴드라 ×1, 탈로시안 화폐 ×1000\nRANK3: 필요한 궁극기 에너지=90; 쿨타임=20초; 지속 피해 총 배율=171%; 고대의 진 지속 시간(초)=4; 거대한 파도 피해 배율=213%; 일찍 일으킨 거대한 파도의 피해 배율=373%; 거대한 파도의 불균형치=15; 일찍 일으킨 거대한 파도의 불균형치=20; 재료: 프로토콜 프리즘 ×12, 칼코덴드라 ×2, 탈로시안 화폐 ×2700\nRANK4: 필요한 궁극기 에너지=90; 쿨타임=20초; 지속 피해 총 배율=185%; 고대의 진 지속 시간(초)=4; 거대한 파도 피해 배율=231%; 일찍 일으킨 거대한 파도의 피해 배율=404%; 거대한 파도의 불균형치=15; 일찍 일으킨 거대한 파도의 불균형치=20; 재료: 프로토콜 프리즘 ×16, 크리소덴드라 ×1, 탈로시안 화폐 ×3200\nRANK5: 필요한 궁극기 에너지=90; 쿨타임=20초; 지속 피해 총 배율=199%; 고대의 진 지속 시간(초)=4; 거대한 파도 피해 배율=249%; 일찍 일으킨 거대한 파도의 피해 배율=436%; 거대한 파도의 불균형치=15; 일찍 일으킨 거대한 파도의 불균형치=20; 재료: 프로토콜 프리즘 ×21, 크리소덴드라 ×1, 탈로시안 화폐 ×4200\nRANK6: 필요한 궁극기 에너지=90; 쿨타임=20초; 지속 피해 총 배율=213%; 고대의 진 지속 시간(초)=4; 거대한 파도 피해 배율=267%; 일찍 일으킨 거대한 파도의 피해 배율=467%; 거대한 파도의 불균형치=15; 일찍 일으킨 거대한 파도의 불균형치=20; 재료: 프로토콜 프리즘 ×27, 크리소덴드라 ×2, 탈로시안 화폐 ×5400\nRANK7: 필요한 궁극기 에너지=90; 쿨타임=20초; 지속 피해 총 배율=228%; 고대의 진 지속 시간(초)=4; 거대한 파도 피해 배율=284%; 일찍 일으킨 거대한 파도의 피해 배율=498%; 거대한 파도의 불균형치=15; 일찍 일으킨 거대한 파도의 불균형치=20; 재료: 프로토콜 프리즘 세트 ×6, 비트로덴드라 ×1, 탈로시안 화폐 ×8200\nRANK8: 필요한 궁극기 에너지=90; 쿨타임=20초; 지속 피해 총 배율=242%; 고대의 진 지속 시간(초)=4; 거대한 파도 피해 배율=302%; 일찍 일으킨 거대한 파도의 피해 배율=529%; 거대한 파도의 불균형치=15; 일찍 일으킨 거대한 파도의 불균형치=20; 재료: 프로토콜 프리즘 세트 ×8, 비트로덴드라 ×1, 탈로시안 화폐 ×10500\nRANK9: 필요한 궁극기 에너지=90; 쿨타임=20초; 지속 피해 총 배율=256%; 고대의 진 지속 시간(초)=4; 거대한 파도 피해 배율=320%; 일찍 일으킨 거대한 파도의 피해 배율=560%; 거대한 파도의 불균형치=15; 일찍 일으킨 거대한 파도의 불균형치=20; 재료: 프로토콜 프리즘 세트 ×15, 비트로덴드라 ×2, 탈로시안 화폐 ×18000\n마스터리I: 필요한 궁극기 에너지=90; 쿨타임=20초; 지속 피해 총 배율=274%; 고대의 진 지속 시간(초)=4; 거대한 파도 피해 배율=342%; 일찍 일으킨 거대한 파도의 피해 배율=599%; 거대한 파도의 불균형치=15; 일찍 일으킨 거대한 파도의 불균형치=20; 재료: 존속의 흔적 ×1, 프로토콜 프리즘 세트 ×15, 정합용 유체 ×6, 침식된 옥 잎 ×3, 탈로시안 화폐 ×24000\n마스터리II: 필요한 궁극기 에너지=90; 쿨타임=20초; 지속 피해 총 배율=295%; 고대의 진 지속 시간(초)=4; 거대한 파도 피해 배율=369%; 일찍 일으킨 거대한 파도의 피해 배율=646%; 거대한 파도의 불균형치=15; 일찍 일으킨 거대한 파도의 불균형치=20; 재료: 존속의 흔적 ×2, 프로토콜 프리즘 세트 ×24, 정합용 유체 ×16, 침식된 옥 잎 ×6, 탈로시안 화폐 ×30000\n마스터리III: 필요한 궁극기 에너지=90; 쿨타임=20초; 지속 피해 총 배율=320%; 고대의 진 지속 시간(초)=4; 거대한 파도 피해 배율=400%; 일찍 일으킨 거대한 파도의 피해 배율=700%; 거대한 파도의 불균형치=15; 일찍 일으킨 거대한 파도의 불균형치=20; 재료: 존속의 흔적 ×3, 프로토콜 프리즘 세트 ×50, 정합용 유체 ×36, 침식된 옥 잎 ×12, 탈로시안 화폐 ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/3",
+        "localizationRef": "data/localization/operator/tangtang.ko-KR.json#/combatSkills/3",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.ultimate",
+        "skillTypeId": 3
+      }
+    },
+    {
+      "documentId": "operator.tangtang.talent.operator.ko-kr",
+      "section": "operator_talent",
+      "content": "오퍼레이터 재능\n능력치 증가: 능숙\n단계 효과 1: 오퍼레이터 민첩 능력치 10 증가; 활성화 조건: 오퍼레이터 신뢰도 20% 도달 / 정예화 단계 1 돌파; 재료: 프로토콜 프리즘 ×5, 탈로시안 화폐 ×1000\n단계 효과 2: 오퍼레이터 민첩 능력치 15 증가; 활성화 조건: 오퍼레이터 신뢰도 50% 도달 / 정예화 단계 2 돌파; 재료: 프로토콜 프리즘 ×10, 탈로시안 화폐 ×1800\n단계 효과 3: 오퍼레이터 민첩 능력치 15 증가; 활성화 조건: 오퍼레이터 신뢰도 100% 도달 / 정예화 단계 3 돌파; 재료: 프로토콜 프리즘 세트 ×10, 탈로시안 화폐 ×6000\n단계 효과 4: 오퍼레이터 민첩 능력치 20 증가; 활성화 조건: 오퍼레이터 신뢰도 100% 도달 / 정예화 단계 4 돌파; 재료: 프로토콜 프리즘 세트 ×20, 탈로시안 화폐 ×12000\n오퍼레이터 재능: 의기투합\n단계 효과 1: 와류 주변 5미터 범위 내, 아군 오퍼레이터는 10% 가속을 획득하고, 적은 20% 감속을 받습니다. 범위를 벗어난 뒤에도 해당 효과는 3초 동안 지속됩니다.; 활성화 조건: 정예화 단계 1 돌파; 재료: 프로토콜 프리즘 ×12, 탈로시안 화폐 ×2400\n단계 효과 2: 와류 주변 5미터 범위 내, 아군 오퍼레이터는 20% 가속을 획득하고, 적은 40% 감속을 받습니다. 범위를 벗어난 뒤에도 해당 효과는 3초 동안 지속됩니다.; 활성화 조건: 정예화 단계 2 돌파; 재료: 프로토콜 프리즘 ×40, 탈로시안 화폐 ×8600\n오퍼레이터 재능: 풍랑의 주재자\n단계 효과 1: 메인 컨트롤 오퍼레이터가 고대의 진 내에서 낙하 공격을 사용하면, 변화하던 고대의 진이 그 변화를 중단합니다. 이어서 용오름 1개를 생성하며, 주변에 와류가 존재할 경우 이를 소모하여 추가로 용오름을 생성합니다.\n\n이때 생성한 용오름은 배틀 스킬 우당탕탕 파도!와 동일한 효과를 가지고 있으며, 주는 피해 +40%.; 활성화 조건: 정예화 단계 2 돌파; 재료: 프로토콜 프리즘 ×48, 탈로시안 화폐 ×10000\n단계 효과 2: 메인 컨트롤 오퍼레이터가 고대의 진 내에서 낙하 공격을 사용하면, 변화하던 고대의 진이 그 변화를 중단합니다. 이어서 용오름 1개를 생성하며, 주변에 와류가 존재할 경우 이를 소모하여 추가로 용오름을 생성합니다.\n\n이때 생성한 용오름은 배틀 스킬 우당탕탕 파도!와 동일한 효과를 가지고 있으며, 주는 피해 +60%.; 활성화 조건: 정예화 단계 3 돌파; 재료: 프로토콜 프리즘 세트 ×28, 탈로시안 화폐 ×24000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/talents/operator",
+        "localizationRef": "data/localization/operator/tangtang.ko-KR.json#/talents/operator",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.talent.infrastructure.ko-kr",
+      "section": "infrastructure_talent",
+      "content": "인프라 재능\n인프라 스킬: 대당가\n대당가 · β: 재배실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 14% 감소; 활성화 조건: 정예화 단계 1 돌파; 재료: 프로토콜 프리즘 ×6, 탈로시안 화폐 ×1600\n대당가 · γ: 재배실에 배치 시, 선실에 있는 오퍼레이터의 컨디션 소모 속도 18% 감소; 활성화 조건: 정예화 단계 3 돌파; 재료: 프로토콜 프리즘 세트 ×12, 탈로시안 화폐 ×8000\n인프라 스킬: 강에서 태어난 소녀\n강에서 태어난 소녀 · β: 재배실에 배치 시, 결정화 식물 재료의 육성 속도 20% 증가; 활성화 조건: 정예화 단계 2 돌파; 재료: 프로토콜 프리즘 ×12, 탈로시안 화폐 ×3000\n강에서 태어난 소녀 · γ: 재배실에 배치 시, 결정화 식물 재료의 육성 속도 30% 증가; 활성화 조건: 정예화 단계 4 돌파; 재료: 프로토콜 프리즘 세트 ×20, 탈로시안 화폐 ×20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/talents/infrastructure",
+        "localizationRef": "data/localization/operator/tangtang.ko-KR.json#/talents/infrastructure",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.potential.ko-kr",
+      "section": "potential",
+      "content": "잠재능력\n잠재능력 01 — 무한한 재보: 연계 스킬 야, 강물! 도와줘!의 피해 배율이 기존의 1.2배로 증가하며, 쿨타임 -2초.\n\n배틀 스킬 우당탕탕 파도!로 와류 한 곳을 소모하여 용오름이 생성될 때마다, 추가로 스킬 게이지 5포인트를 반환합니다.\n\n오퍼레이터 기념사진 \"물에 비친 본심\" 잠금 해제\n잠재능력 02 — 강에서 태어난 소녀: 민첩 +20, 냉기 피해 +10%.\n잠재능력 03 — 대당가의 기백: 배틀 스킬 우당탕탕 파도!의 피해 배율이 기존의 1.1배로 증가하며, 동시에 여러 개의 용오름이 생성될 때 부여하는 아츠 취약 효과가 추가로 +5%.\n\n오퍼레이터 기념사진 \"절균\" 잠금 해제\n잠재능력 04 — 청파 수련법: 궁극기 대당가께서 지켜보고 계신다!의 사용에 필요한 궁극기 에너지 -15%.\n잠재능력 05 — 마안의 권능: 궁극기 대당가께서 지켜보고 계신다!의 피해 배율이 기존의 1.15배로 증가합니다.\n\n재능 풍랑의 주재자 효과 강화: 궁극기 대당가께서 지켜보고 계신다!로 생성된 용오름의 피해 증가 효과 추가로 +80%.\n\n오퍼레이터 기념사진 \"절대적인 명령\" 잠금 해제\n\n명함 테마 \"절대적인 명령\" 잠금 해제",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/potentials",
+        "localizationRef": "data/localization/operator/tangtang.ko-KR.json#/potentials",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    }
+  ]
+}

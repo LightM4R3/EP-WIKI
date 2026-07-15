@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "1.0.0",
+  "entityId": "tangtang",
+  "locale": "ja-JP",
+  "documents": [
+    {
+      "documentId": "operator.tangtang.profile.ja-jp",
+      "section": "profile",
+      "content": "オペレータープロフィール\n名前: タンタン\nレアリティ: 6\nクラス: Caster (id=4, code=caster, verified)\n属性: 寒冷 (id=3, code=cryo)\n武器種類: 拳銃 (id=3, code=handcannon)\nメイン能力: 敏捷(メイン能力) (attributeId=1)\nサブ能力: 筋力(サブ能力) (attributeId=0)",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#",
+        "localizationRef": "data/localization/operator/tangtang.ja-JP.json#",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.progression.ja-jp",
+      "section": "progression",
+      "content": "レベル別能力値と素材\nLV.1: 筋力(サブ能力)=13 / 敏捷(メイン能力)=23 / 知性=8 / 意志=10 / 基礎攻撃力=30 / 基礎HP=500; 素材: なし\nLV.20: 筋力(サブ能力)=37 / 敏捷(メイン能力)=56 / 知性=25 / 意志=29 / 基礎攻撃力=92 / 基礎HP=1566; 素材: 初級作戦記録 ×5, 中級作戦記録 ×2, 上級作戦記録 ×2, 折金券 ×820\nLV.40: 筋力(サブ能力)=61 / 敏捷(メイン能力)=91 / 知性=42 / 意志=50 / 基礎攻撃力=157 / 基礎HP=2689; 素材: 初級作戦記録 ×3, 中級作戦記録 ×8, 上級作戦記録 ×24, 折金券 ×12540\nLV.60: 筋力(サブ能力)=86 / 敏捷(メイン能力)=126 / 知性=59 / 意志=71 / 基礎攻撃力=223 / 基礎HP=3811; 素材: 初級作戦記録 ×4, 中級作戦記録 ×5, 上級作戦記録 ×47, 折金券 ×23900\nLV.80: 筋力(サブ能力)=111 / 敏捷(メイン能力)=162 / 知性=77 / 意志=91 / 基礎攻撃力=288 / 基礎HP=4934; 素材: 初級認識媒体 ×6, 上級認識媒体 ×46, 折金券 ×109180\nLV.90: 筋力(サブ能力)=123 / 敏捷(メイン能力)=179 / 知性=85 / 意志=102 / 基礎攻撃力=321 / 基礎HP=5495; 素材: 上級認識媒体 ×58, 折金券 ×238980",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/progression",
+        "localizationRef": "data/localization/operator/tangtang.ja-JP.json#/progression",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.basic_attack.ja-jp",
+      "section": "combat_skill",
+      "content": "通常攻撃: 脳天ぶち抜く！\n通常攻撃：\n最大5段の攻撃で敵に寒冷ダメージを与える。操作中のオペレーターの場合、重攻撃はブレイク値18を与える。\n落下攻撃：\n空中で通常攻撃を使用すると、落下して周囲の敵に寒冷ダメージを与える。\n終撃：\n近くにブレイク状態の敵がいるときに通常攻撃を使用すると、その敵に終撃を行い、高い寒冷ダメージを与えてSPを一定量回復する。\n数値項目: 通常攻撃1段目ダメージ倍率 [normal_attack_stage_1_multiplier]; 通常攻撃2段目ダメージ倍率 [normal_attack_stage_2_multiplier]; 通常攻撃3段目ダメージ倍率 [normal_attack_stage_3_multiplier]; 通常攻撃4段目ダメージ倍率 [normal_attack_stage_4_multiplier]; 通常攻撃5段目ダメージ倍率 [normal_attack_stage_5_multiplier]; 終撃ダメージ倍率 [finisher_multiplier]; 落下攻撃ダメージ倍率 [dive_attack_multiplier]\nRANK1: 通常攻撃1段目ダメージ倍率=23%; 通常攻撃2段目ダメージ倍率=25%; 通常攻撃3段目ダメージ倍率=35%; 通常攻撃4段目ダメージ倍率=37%; 通常攻撃5段目ダメージ倍率=50%; 終撃ダメージ倍率=400%; 落下攻撃ダメージ倍率=80%; 素材: なし\nRANK2: 通常攻撃1段目ダメージ倍率=25%; 通常攻撃2段目ダメージ倍率=28%; 通常攻撃3段目ダメージ倍率=39%; 通常攻撃4段目ダメージ倍率=40%; 通常攻撃5段目ダメージ倍率=55%; 終撃ダメージ倍率=440%; 落下攻撃ダメージ倍率=88%; 素材: 協約角柱 ×6, 結晶鋭葉 ×1, 折金券 ×1000\nRANK3: 通常攻撃1段目ダメージ倍率=27%; 通常攻撃2段目ダメージ倍率=30%; 通常攻撃3段目ダメージ倍率=42%; 通常攻撃4段目ダメージ倍率=44%; 通常攻撃5段目ダメージ倍率=60%; 終撃ダメージ倍率=480%; 落下攻撃ダメージ倍率=96%; 素材: 協約角柱 ×12, 結晶鋭葉 ×2, 折金券 ×2700\nRANK4: 通常攻撃1段目ダメージ倍率=29%; 通常攻撃2段目ダメージ倍率=33%; 通常攻撃3段目ダメージ倍率=46%; 通常攻撃4段目ダメージ倍率=47%; 通常攻撃5段目ダメージ倍率=65%; 終撃ダメージ倍率=520%; 落下攻撃ダメージ倍率=104%; 素材: 協約角柱 ×16, 純晶鋭葉 ×1, 折金券 ×3200\nRANK5: 通常攻撃1段目ダメージ倍率=32%; 通常攻撃2段目ダメージ倍率=35%; 通常攻撃3段目ダメージ倍率=49%; 通常攻撃4段目ダメージ倍率=51%; 通常攻撃5段目ダメージ倍率=70%; 終撃ダメージ倍率=560%; 落下攻撃ダメージ倍率=112%; 素材: 協約角柱 ×21, 純晶鋭葉 ×1, 折金券 ×4200\nRANK6: 通常攻撃1段目ダメージ倍率=34%; 通常攻撃2段目ダメージ倍率=38%; 通常攻撃3段目ダメージ倍率=53%; 通常攻撃4段目ダメージ倍率=55%; 通常攻撃5段目ダメージ倍率=75%; 終撃ダメージ倍率=600%; 落下攻撃ダメージ倍率=120%; 素材: 協約角柱 ×27, 純晶鋭葉 ×2, 折金券 ×5400\nRANK7: 通常攻撃1段目ダメージ倍率=36%; 通常攻撃2段目ダメージ倍率=40%; 通常攻撃3段目ダメージ倍率=56%; 通常攻撃4段目ダメージ倍率=58%; 通常攻撃5段目ダメージ倍率=80%; 終撃ダメージ倍率=640%; 落下攻撃ダメージ倍率=128%; 素材: 協約角柱セット ×6, 至晶鋭葉 ×1, 折金券 ×8200\nRANK8: 通常攻撃1段目ダメージ倍率=39%; 通常攻撃2段目ダメージ倍率=43%; 通常攻撃3段目ダメージ倍率=60%; 通常攻撃4段目ダメージ倍率=62%; 通常攻撃5段目ダメージ倍率=85%; 終撃ダメージ倍率=680%; 落下攻撃ダメージ倍率=136%; 素材: 協約角柱セット ×8, 至晶鋭葉 ×1, 折金券 ×10500\nRANK9: 通常攻撃1段目ダメージ倍率=41%; 通常攻撃2段目ダメージ倍率=45%; 通常攻撃3段目ダメージ倍率=63%; 通常攻撃4段目ダメージ倍率=66%; 通常攻撃5段目ダメージ倍率=90%; 終撃ダメージ倍率=720%; 落下攻撃ダメージ倍率=144%; 素材: 協約角柱セット ×15, 至晶鋭葉 ×2, 折金券 ×18000\nスキル特化1: 通常攻撃1段目ダメージ倍率=44%; 通常攻撃2段目ダメージ倍率=48%; 通常攻撃3段目ダメージ倍率=67%; 通常攻撃4段目ダメージ倍率=70%; 通常攻撃5段目ダメージ倍率=96%; 終撃ダメージ倍率=770%; 落下攻撃ダメージ倍率=154%; 素材: 存続の痕跡 ×1, 協約角柱セット ×15, D96鋼試料Ⅳ ×6, 侵蝕玉化葉 ×3, 折金券 ×24000\nスキル特化2: 通常攻撃1段目ダメージ倍率=47%; 通常攻撃2段目ダメージ倍率=52%; 通常攻撃3段目ダメージ倍率=73%; 通常攻撃4段目ダメージ倍率=76%; 通常攻撃5段目ダメージ倍率=104%; 終撃ダメージ倍率=830%; 落下攻撃ダメージ倍率=166%; 素材: 存続の痕跡 ×2, 協約角柱セット ×24, D96鋼試料Ⅳ ×16, 侵蝕玉化葉 ×6, 折金券 ×30000\nスキル特化3: 通常攻撃1段目ダメージ倍率=51%; 通常攻撃2段目ダメージ倍率=56%; 通常攻撃3段目ダメージ倍率=79%; 通常攻撃4段目ダメージ倍率=82%; 通常攻撃5段目ダメージ倍率=113%; 終撃ダメージ倍率=900%; 落下攻撃ダメージ倍率=180%; 素材: 存続の痕跡 ×3, 協約角柱セット ×50, D96鋼試料Ⅳ ×36, 侵蝕玉化葉 ×12, 折金券 ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/0",
+        "localizationRef": "data/localization/operator/tangtang.ja-JP.json#/combatSkills/0",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.basic_attack",
+        "skillTypeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.battle_skill.ja-jp",
+      "section": "combat_skill",
+      "content": "戦技: 波が来るぜ！\n水中から飛び出して敵に接近し、射撃を行う。寒冷ダメージを与え、水竜巻を1つ発生させる。\n同時に、周囲の湍水をすべて消費し、追加の水竜巻を発生させる。発生した数に応じて、SPが一定量返還される。\n水竜巻：範囲内の敵に寒冷付着を1段階付与し、持続的に寒冷ダメージを与える。一度に複数の水竜巻を発生させた場合、追加で敵にアーツ脆弱を付与するが、寒冷付着は重複して付与されない。\n水竜巻によるダメージは戦技ダメージと見なされる。\n数値項目: skill_gauge_cost [ja DOM欠落・ko-KRフォールバック] [skill_gauge_cost]; 射撃ダメージ倍率 [shot_damage_multiplier]; 射撃ブレイク値 [shot_imbalance]; 1つの水竜巻によるダメージ倍率 [single_tornado_damage_multiplier]; 水竜巻持続時間（秒） [tornado_duration]; 湍水1つごとのSP返還量 [skill_gauge_return_per_vortex]; 2つの水竜巻によるアーツ脆弱 [arts_vulnerability_two_tornadoes]; タ3つの水竜巻によるアーツ脆弱イトル [arts_vulnerability_three_tornadoes]; アーツ脆弱持続時間（秒） [arts_vulnerability_duration]\nRANK1: skill_gauge_cost [ja DOM欠落・ko-KRフォールバック]=100; 射撃ダメージ倍率=80%; 射撃ブレイク値=10; 1つの水竜巻によるダメージ倍率=133%; 水竜巻持続時間（秒）=3; 湍水1つごとのSP返還量=20; 2つの水竜巻によるアーツ脆弱=3%; タ3つの水竜巻によるアーツ脆弱イトル=6%; アーツ脆弱持続時間（秒）=15; 素材: なし\nRANK2: skill_gauge_cost [ja DOM欠落・ko-KRフォールバック]=100; 射撃ダメージ倍率=88%; 射撃ブレイク値=10; 1つの水竜巻によるダメージ倍率=147%; 水竜巻持続時間（秒）=3; 湍水1つごとのSP返還量=20; 2つの水竜巻によるアーツ脆弱=3%; タ3つの水竜巻によるアーツ脆弱イトル=6%; アーツ脆弱持続時間（秒）=15; 素材: 協約角柱 ×6, 結晶鋭葉 ×1, 折金券 ×1000\nRANK3: skill_gauge_cost [ja DOM欠落・ko-KRフォールバック]=100; 射撃ダメージ倍率=96%; 射撃ブレイク値=10; 1つの水竜巻によるダメージ倍率=160%; 水竜巻持続時間（秒）=3; 湍水1つごとのSP返還量=20; 2つの水竜巻によるアーツ脆弱=3%; タ3つの水竜巻によるアーツ脆弱イトル=6%; アーツ脆弱持続時間（秒）=15; 素材: 協約角柱 ×12, 結晶鋭葉 ×2, 折金券 ×2700\nRANK4: skill_gauge_cost [ja DOM欠落・ko-KRフォールバック]=100; 射撃ダメージ倍率=104%; 射撃ブレイク値=10; 1つの水竜巻によるダメージ倍率=174%; 水竜巻持続時間（秒）=3; 湍水1つごとのSP返還量=20; 2つの水竜巻によるアーツ脆弱=3.5%; タ3つの水竜巻によるアーツ脆弱イトル=7%; アーツ脆弱持続時間（秒）=15; 素材: 協約角柱 ×16, 純晶鋭葉 ×1, 折金券 ×3200\nRANK5: skill_gauge_cost [ja DOM欠落・ko-KRフォールバック]=100; 射撃ダメージ倍率=112%; 射撃ブレイク値=10; 1つの水竜巻によるダメージ倍率=187%; 水竜巻持続時間（秒）=3; 湍水1つごとのSP返還量=20; 2つの水竜巻によるアーツ脆弱=3.5%; タ3つの水竜巻によるアーツ脆弱イトル=7%; アーツ脆弱持続時間（秒）=15; 素材: 協約角柱 ×21, 純晶鋭葉 ×1, 折金券 ×4200\nRANK6: skill_gauge_cost [ja DOM欠落・ko-KRフォールバック]=100; 射撃ダメージ倍率=120%; 射撃ブレイク値=10; 1つの水竜巻によるダメージ倍率=200%; 水竜巻持続時間（秒）=3; 湍水1つごとのSP返還量=20; 2つの水竜巻によるアーツ脆弱=3.5%; タ3つの水竜巻によるアーツ脆弱イトル=7%; アーツ脆弱持続時間（秒）=15; 素材: 協約角柱 ×27, 純晶鋭葉 ×2, 折金券 ×5400\nRANK7: skill_gauge_cost [ja DOM欠落・ko-KRフォールバック]=100; 射撃ダメージ倍率=128%; 射撃ブレイク値=10; 1つの水竜巻によるダメージ倍率=214%; 水竜巻持続時間（秒）=3; 湍水1つごとのSP返還量=20; 2つの水竜巻によるアーツ脆弱=4%; タ3つの水竜巻によるアーツ脆弱イトル=8%; アーツ脆弱持続時間（秒）=15; 素材: 協約角柱セット ×6, 至晶鋭葉 ×1, 折金券 ×8200\nRANK8: skill_gauge_cost [ja DOM欠落・ko-KRフォールバック]=100; 射撃ダメージ倍率=136%; 射撃ブレイク値=10; 1つの水竜巻によるダメージ倍率=227%; 水竜巻持続時間（秒）=3; 湍水1つごとのSP返還量=20; 2つの水竜巻によるアーツ脆弱=4%; タ3つの水竜巻によるアーツ脆弱イトル=8%; アーツ脆弱持続時間（秒）=15; 素材: 協約角柱セット ×8, 至晶鋭葉 ×1, 折金券 ×10500\nRANK9: skill_gauge_cost [ja DOM欠落・ko-KRフォールバック]=100; 射撃ダメージ倍率=144%; 射撃ブレイク値=10; 1つの水竜巻によるダメージ倍率=240%; 水竜巻持続時間（秒）=3; 湍水1つごとのSP返還量=20; 2つの水竜巻によるアーツ脆弱=4%; タ3つの水竜巻によるアーツ脆弱イトル=8%; アーツ脆弱持続時間（秒）=15; 素材: 協約角柱セット ×15, 至晶鋭葉 ×2, 折金券 ×18000\nスキル特化1: skill_gauge_cost [ja DOM欠落・ko-KRフォールバック]=100; 射撃ダメージ倍率=154%; 射撃ブレイク値=10; 1つの水竜巻によるダメージ倍率=257%; 水竜巻持続時間（秒）=3; 湍水1つごとのSP返還量=20; 2つの水竜巻によるアーツ脆弱=4.5%; タ3つの水竜巻によるアーツ脆弱イトル=9%; アーツ脆弱持続時間（秒）=15; 素材: 存続の痕跡 ×1, 協約角柱セット ×15, 象限適合液 ×6, 侵蝕玉化葉 ×3, 折金券 ×24000\nスキル特化2: skill_gauge_cost [ja DOM欠落・ko-KRフォールバック]=100; 射撃ダメージ倍率=166%; 射撃ブレイク値=10; 1つの水竜巻によるダメージ倍率=277%; 水竜巻持続時間（秒）=3; 湍水1つごとのSP返還量=20; 2つの水竜巻によるアーツ脆弱=4.5%; タ3つの水竜巻によるアーツ脆弱イトル=9%; アーツ脆弱持続時間（秒）=15; 素材: 存続の痕跡 ×2, 協約角柱セット ×24, 象限適合液 ×16, 侵蝕玉化葉 ×6, 折金券 ×30000\nスキル特化3: skill_gauge_cost [ja DOM欠落・ko-KRフォールバック]=100; 射撃ダメージ倍率=180%; 射撃ブレイク値=10; 1つの水竜巻によるダメージ倍率=300%; 水竜巻持続時間（秒）=3; 湍水1つごとのSP返還量=20; 2つの水竜巻によるアーツ脆弱=5%; タ3つの水竜巻によるアーツ脆弱イトル=10%; アーツ脆弱持続時間（秒）=15; 素材: 存続の痕跡 ×3, 協約角柱セット ×50, 象限適合液 ×36, 侵蝕玉化葉 ×12, 折金券 ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/1",
+        "localizationRef": "data/localization/operator/tangtang.ja-JP.json#/combatSkills/1",
+        "contentStatus": "has_source_gaps",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.battle_skill",
+        "skillTypeId": 1
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.combo_skill.ja-jp",
+      "section": "combat_skill",
+      "content": "連携技: 川よ、俺様に従え！\n敵が寒冷付着またはアーツ爆発のダメージを受けたときに発動可能。\n激流を放ち、前方の敵を貫いて寒冷ダメージを与え、湍水を1カ所生成する。\n同時に存在できる湍水は2カ所まで。\n数値項目: クールタイム [cooldown]; ダメージ倍率 [damage_multiplier]; ブレイク値 [imbalance]; 湍水持続時間（秒） [vortex_duration]; 必殺チャージ回復量 [ultimate_energy_gain]\nRANK1: クールタイム=14秒; ダメージ倍率=107%; ブレイク値=10; 湍水持続時間（秒）=30; 必殺チャージ回復量=10; 素材: なし\nRANK2: クールタイム=14秒; ダメージ倍率=117%; ブレイク値=10; 湍水持続時間（秒）=30; 必殺チャージ回復量=10; 素材: 協約角柱 ×6, 結晶鋭葉 ×1, 折金券 ×1000\nRANK3: クールタイム=14秒; ダメージ倍率=128%; ブレイク値=10; 湍水持続時間（秒）=30; 必殺チャージ回復量=10; 素材: 協約角柱 ×12, 結晶鋭葉 ×2, 折金券 ×2700\nRANK4: クールタイム=14秒; ダメージ倍率=139%; ブレイク値=10; 湍水持続時間（秒）=30; 必殺チャージ回復量=10; 素材: 協約角柱 ×16, 純晶鋭葉 ×1, 折金券 ×3200\nRANK5: クールタイム=14秒; ダメージ倍率=149%; ブレイク値=10; 湍水持続時間（秒）=30; 必殺チャージ回復量=10; 素材: 協約角柱 ×21, 純晶鋭葉 ×1, 折金券 ×4200\nRANK6: クールタイム=14秒; ダメージ倍率=160%; ブレイク値=10; 湍水持続時間（秒）=30; 必殺チャージ回復量=10; 素材: 協約角柱 ×27, 純晶鋭葉 ×2, 折金券 ×5400\nRANK7: クールタイム=14秒; ダメージ倍率=171%; ブレイク値=10; 湍水持続時間（秒）=30; 必殺チャージ回復量=10; 素材: 協約角柱セット ×6, 至晶鋭葉 ×1, 折金券 ×8200\nRANK8: クールタイム=14秒; ダメージ倍率=181%; ブレイク値=10; 湍水持続時間（秒）=30; 必殺チャージ回復量=10; 素材: 協約角柱セット ×8, 至晶鋭葉 ×1, 折金券 ×10500\nRANK9: クールタイム=13秒; ダメージ倍率=192%; ブレイク値=10; 湍水持続時間（秒）=30; 必殺チャージ回復量=10; 素材: 協約角柱セット ×15, 至晶鋭葉 ×2, 折金券 ×18000\nスキル特化1: クールタイム=13秒; ダメージ倍率=205%; ブレイク値=10; 湍水持続時間（秒）=30; 必殺チャージ回復量=10; 素材: 存続の痕跡 ×1, 協約角柱セット ×15, D96鋼試料Ⅳ ×6, 侵蝕玉化葉 ×3, 折金券 ×24000\nスキル特化2: クールタイム=13秒; ダメージ倍率=221%; ブレイク値=10; 湍水持続時間（秒）=30; 必殺チャージ回復量=10; 素材: 存続の痕跡 ×2, 協約角柱セット ×24, D96鋼試料Ⅳ ×16, 侵蝕玉化葉 ×6, 折金券 ×30000\nスキル特化3: クールタイム=12秒; ダメージ倍率=240%; ブレイク値=10; 湍水持続時間（秒）=30; 必殺チャージ回復量=10; 素材: 存続の痕跡 ×3, 協約角柱セット ×50, D96鋼試料Ⅳ ×36, 侵蝕玉化葉 ×12, 折金券 ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/2",
+        "localizationRef": "data/localization/operator/tangtang.ja-JP.json#/combatSkills/2",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.combo_skill",
+        "skillTypeId": 2
+      }
+    },
+    {
+      "documentId": "operator.tangtang.skill.ultimate.ja-jp",
+      "section": "combat_skill",
+      "content": "必殺技: 大親分が見てっぞ！\nタンタンが眼帯を外し、目に宿る古の紋様を解放する。紋様の範囲内にいる敵を封鎖し、一定時間行動不能にすると同時に、持続的に寒冷ダメージを与える。\n古の紋様の変化が終了したときに、大波が発生し、範囲内の敵に高い寒冷ダメージを与える。\n操作中のオペレーターが古の紋様の範囲内で落下攻撃を行った場合、その時点で紋様の変化は終了し、大波が発生する。この場合、大波による寒冷ダメージがアップする。\n数値項目: 必殺チャージ消費 [ultimate_energy_cost]; cooldown [ja DOM欠落・ko-KRフォールバック] [cooldown]; 持続ダメージ総倍率 [total_dot_multiplier]; 古の紋様持続時間（秒） [ancient_array_duration]; 大波ダメージ倍率 [giant_wave_damage_multiplier]; 大波早期発生のダメージ倍率 [early_giant_wave_damage_multiplier]; 大波ブレイク値 [giant_wave_imbalance]; 大波早期発生のブレイク値 [early_giant_wave_imbalance]\nRANK1: 必殺チャージ消費=90; cooldown [ja DOM欠落・ko-KRフォールバック]=20秒; 持続ダメージ総倍率=142%; 古の紋様持続時間（秒）=4; 大波ダメージ倍率=178%; 大波早期発生のダメージ倍率=311%; 大波ブレイク値=15; 大波早期発生のブレイク値=20; 素材: なし\nRANK2: 必殺チャージ消費=90; cooldown [ja DOM欠落・ko-KRフォールバック]=20秒; 持続ダメージ総倍率=156%; 古の紋様持続時間（秒）=4; 大波ダメージ倍率=196%; 大波早期発生のダメージ倍率=342%; 大波ブレイク値=15; 大波早期発生のブレイク値=20; 素材: 協約角柱 ×6, 結晶鋭葉 ×1, 折金券 ×1000\nRANK3: 必殺チャージ消費=90; cooldown [ja DOM欠落・ko-KRフォールバック]=20秒; 持続ダメージ総倍率=171%; 古の紋様持続時間（秒）=4; 大波ダメージ倍率=213%; 大波早期発生のダメージ倍率=373%; 大波ブレイク値=15; 大波早期発生のブレイク値=20; 素材: 協約角柱 ×12, 結晶鋭葉 ×2, 折金券 ×2700\nRANK4: 必殺チャージ消費=90; cooldown [ja DOM欠落・ko-KRフォールバック]=20秒; 持続ダメージ総倍率=185%; 古の紋様持続時間（秒）=4; 大波ダメージ倍率=231%; 大波早期発生のダメージ倍率=404%; 大波ブレイク値=15; 大波早期発生のブレイク値=20; 素材: 協約角柱 ×16, 純晶鋭葉 ×1, 折金券 ×3200\nRANK5: 必殺チャージ消費=90; cooldown [ja DOM欠落・ko-KRフォールバック]=20秒; 持続ダメージ総倍率=199%; 古の紋様持続時間（秒）=4; 大波ダメージ倍率=249%; 大波早期発生のダメージ倍率=436%; 大波ブレイク値=15; 大波早期発生のブレイク値=20; 素材: 協約角柱 ×21, 純晶鋭葉 ×1, 折金券 ×4200\nRANK6: 必殺チャージ消費=90; cooldown [ja DOM欠落・ko-KRフォールバック]=20秒; 持続ダメージ総倍率=213%; 古の紋様持続時間（秒）=4; 大波ダメージ倍率=267%; 大波早期発生のダメージ倍率=467%; 大波ブレイク値=15; 大波早期発生のブレイク値=20; 素材: 協約角柱 ×27, 純晶鋭葉 ×2, 折金券 ×5400\nRANK7: 必殺チャージ消費=90; cooldown [ja DOM欠落・ko-KRフォールバック]=20秒; 持続ダメージ総倍率=228%; 古の紋様持続時間（秒）=4; 大波ダメージ倍率=284%; 大波早期発生のダメージ倍率=498%; 大波ブレイク値=15; 大波早期発生のブレイク値=20; 素材: 協約角柱セット ×6, 至晶鋭葉 ×1, 折金券 ×8200\nRANK8: 必殺チャージ消費=90; cooldown [ja DOM欠落・ko-KRフォールバック]=20秒; 持続ダメージ総倍率=242%; 古の紋様持続時間（秒）=4; 大波ダメージ倍率=302%; 大波早期発生のダメージ倍率=529%; 大波ブレイク値=15; 大波早期発生のブレイク値=20; 素材: 協約角柱セット ×8, 至晶鋭葉 ×1, 折金券 ×10500\nRANK9: 必殺チャージ消費=90; cooldown [ja DOM欠落・ko-KRフォールバック]=20秒; 持続ダメージ総倍率=256%; 古の紋様持続時間（秒）=4; 大波ダメージ倍率=320%; 大波早期発生のダメージ倍率=560%; 大波ブレイク値=15; 大波早期発生のブレイク値=20; 素材: 協約角柱セット ×15, 至晶鋭葉 ×2, 折金券 ×18000\nスキル特化1: 必殺チャージ消費=90; cooldown [ja DOM欠落・ko-KRフォールバック]=20秒; 持続ダメージ総倍率=274%; 古の紋様持続時間（秒）=4; 大波ダメージ倍率=342%; 大波早期発生のダメージ倍率=599%; 大波ブレイク値=15; 大波早期発生のブレイク値=20; 素材: 存続の痕跡 ×1, 協約角柱セット ×15, 象限適合液 ×6, 侵蝕玉化葉 ×3, 折金券 ×24000\nスキル特化2: 必殺チャージ消費=90; cooldown [ja DOM欠落・ko-KRフォールバック]=20秒; 持続ダメージ総倍率=295%; 古の紋様持続時間（秒）=4; 大波ダメージ倍率=369%; 大波早期発生のダメージ倍率=646%; 大波ブレイク値=15; 大波早期発生のブレイク値=20; 素材: 存続の痕跡 ×2, 協約角柱セット ×24, 象限適合液 ×16, 侵蝕玉化葉 ×6, 折金券 ×30000\nスキル特化3: 必殺チャージ消費=90; cooldown [ja DOM欠落・ko-KRフォールバック]=20秒; 持続ダメージ総倍率=320%; 古の紋様持続時間（秒）=4; 大波ダメージ倍率=400%; 大波早期発生のダメージ倍率=700%; 大波ブレイク値=15; 大波早期発生のブレイク値=20; 素材: 存続の痕跡 ×3, 協約角柱セット ×50, 象限適合液 ×36, 侵蝕玉化葉 ×12, 折金券 ×65000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/combatSkills/3",
+        "localizationRef": "data/localization/operator/tangtang.ja-JP.json#/combatSkills/3",
+        "contentStatus": "has_source_gaps",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0,
+        "skillId": "tangtang.ultimate",
+        "skillTypeId": 3
+      }
+    },
+    {
+      "documentId": "operator.tangtang.talent.operator.ja-jp",
+      "section": "operator_talent",
+      "content": "素質\n能力値強化: 遊刃\n段階効果1: 敏捷が10アップする; 開放条件: 昇進段階1 / 信頼度：20%; 素材: 協約角柱 ×5, 折金券 ×1000\n段階効果2: 敏捷が15アップする; 開放条件: 昇進段階2 / 信頼度：50%; 素材: 協約角柱 ×10, 折金券 ×1800\n段階効果3: 敏捷が15アップする; 開放条件: 昇進段階3 / 信頼度：100%; 素材: 協約角柱セット ×10, 折金券 ×6000\n段階効果4: 敏捷が20アップする; 開放条件: 昇進段階4 / 信頼度：100%; 素材: 協約角柱セット ×20, 折金券 ×12000\n素質: 肝胆相照らす\n段階効果1: 湍水付近5mの範囲内で、味方オペレーターは10%の加速効果を獲得し、敵は20%のスロー効果を受ける\n\n効果は範囲から離れたあとも3秒間持続する。; 開放条件: 昇進段階1; 素材: 協約角柱 ×12, 折金券 ×2400\n段階効果2: 湍水付近5mの範囲内で、味方オペレーターは20%の加速効果を獲得し、敵は40%のスロー効果を受ける\n\n効果は範囲から離れたあとも3秒間持続する; 開放条件: 昇進段階2; 素材: 協約角柱 ×40, 折金券 ×8600\n素質: 嵐を呼ぶ娘\n段階効果1: 操作中のオペレーターが古の紋様の範囲内で落下攻撃を行い、その時点で紋様の変化を終了させたとき、水竜巻を1つ発生させる\n\n同時に、周囲の湍水をすべて消費し、その数に応じて追加の水竜巻を発生させる\n\n発生した水竜巻のダメージの効果は戦技「波が来るぜ！」と同様のものと見なされ、与えるダメージ+40%; 開放条件: 昇進段階2; 素材: 協約角柱 ×48, 折金券 ×10000\n段階効果2: 操作中のオペレーターが古の紋様の範囲内で落下攻撃を行い、その時点で紋様の変化を終了させたとき、水竜巻を1つ発生させる\n\n同時に、周囲の湍水をすべて消費し、その数に応じて追加の水竜巻を発生させる\n\n発生した水竜巻のダメージの効果は戦技「波が来るぜ！」と同様のものと見なされ、与えるダメージ+60%; 開放条件: 昇進段階3; 素材: 協約角柱セット ×28, 折金券 ×24000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/talents/operator",
+        "localizationRef": "data/localization/operator/tangtang.ja-JP.json#/talents/operator",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.talent.infrastructure.ja-jp",
+      "section": "infrastructure_talent",
+      "content": "配属スキル\n配属スキル: 大親分\n大親分・β: 培養室配属時、船室内全員の体力消耗-14%; 開放条件: 昇進段階1; 素材: 協約角柱 ×6, 折金券 ×1600\n大親分・γ: 培養室配属時、船室内全員の体力消耗-18%; 開放条件: 昇進段階3; 素材: 協約角柱セット ×12, 折金券 ×8000\n配属スキル: 水の申し子\n水の申し子・β: 培養室配属時、晶植素材の培養速度+20%; 開放条件: 昇進段階2; 素材: 協約角柱 ×12, 折金券 ×3000\n水の申し子・γ: 培養室配属時、晶植素材の培養速度+30%; 開放条件: 昇進段階4; 素材: 協約角柱セット ×20, 折金券 ×20000",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/talents/infrastructure",
+        "localizationRef": "data/localization/operator/tangtang.ja-JP.json#/talents/infrastructure",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    },
+    {
+      "documentId": "operator.tangtang.potential.ja-jp",
+      "section": "potential",
+      "content": "潜在能力\nPOTENTIAL 01 — お宝たんまり: 連携技「川よ、俺様に従え！」のダメージ倍率は1.2倍までアップし、CD時間-2秒\n\n戦技「波が来るぜ！」で湍水を消費して水竜巻を発生させるたびに、追加でSPが5返還される。\n\n記念画像「心映す清流」を解放\nPOTENTIAL 02 — 水の申し子: 敏捷+20、寒冷ダメージ+10%\nPOTENTIAL 03 — 大親分の貫禄: 戦技「波が来るぜ！」のダメージ倍率は1.1倍までアップし、同時に複数の水竜巻を発生させるときの与えるアーツ脆弱効果がさらに+5%\n\n記念画像「竹を編み」を解放\nPOTENTIAL 04 — 清波流の修行: 必殺技「大親分が見てっぞ！」に必要な必殺チャージ-15%\nPOTENTIAL 05 — 魔眼パワー: 必殺技「大親分が見てっぞ！」のダメージ倍率が1.15倍までアップする\n\n素質「嵐を呼ぶ娘」強化：必殺技「大親分が見てっぞ！」で発生させた水竜巻のダメージUP効果がさらに+80%\n\n \n\n記念画像「大親分の命令は絶対だ！」を解放\n\nプロファイルテーマ「大親分の命令は絶対だ！」を解放",
+      "metadata": {
+        "entityType": "operator",
+        "entityId": "tangtang",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=1&gameEntryId=25&header=0",
+        "canonicalRef": "data/canonical/operator/tangtang.json#/potentials",
+        "localizationRef": "data/localization/operator/tangtang.ja-JP.json#/potentials",
+        "contentStatus": "verified",
+        "rarity": 6,
+        "classId": 4,
+        "classCode": "caster",
+        "elementId": 3,
+        "elementCode": "cryo",
+        "weaponTypeId": 3,
+        "weaponTypeCode": "handcannon",
+        "primaryAttributeId": 1,
+        "secondaryAttributeId": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_287",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 287,
+    "name": "아부레이 UV 램프"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=287&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "09087e435d65f512f6763d49a8b00f0129b7a193cd10bd0809818fb535371a0b",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_287.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 아부레이 UV 램프\ngameEntryId: 287\n정규화 상태: query_ready\n장비 세트: 아부레이의 메아리 (id=639192494, code=gear_set_2617c70e3c51)\n장비 유형: 부품 (id=2, code=component)\n품질: 보라색 품질 (id=1, code=purple)\nLV: 50\n방어력: 15\n장비 옵션: 1번=힘 23; 2번=민첩 15; 3번=모든 스킬 피해 보너스 19.6%\n정밀 단조 지원: 아니오\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_287",
+        "gameEntryId": 287,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=287&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/아부레이의_메아리/287_아부레이_UV_램프.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 639192494,
+        "groupCode": "gear_set_2617c70e3c51",
+        "groupLabel": "아부레이의 메아리",
+        "evidenceDocumentIds": [
+          "auto.gear_287.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_287.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_287.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_287.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 아부레이 UV 램프\ncategory: gear\nsection: profile\n아부레이 UV 램프\n품질\n보라색 품질\n장비 유형\n부품\n세트\n아부레이의 메아리\n이 장비는 트리글라바 군수 공장에서 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n아부레이 채석장의 작업 환경에 맞춰 조정된 신형 방호 장갑.\n갑작스러운 아부레이 채석장의 발굴 작업에 대응하기 위해, 공학자들이 밤새 이 방어구의 설계를 수정하여 시각 보호 및 청각 보호 모듈을 추가했습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_287",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=287&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 287,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:42.506421+00:00",
+        "contentSha256": "09087e435d65f512f6763d49a8b00f0129b7a193cd10bd0809818fb535371a0b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/아부레이의_메아리/287_아부레이_UV_램프.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_2617c70e3c51",
+        "groupLabel": "아부레이의 메아리",
+        "entityName": "아부레이 UV 램프"
+      }
+    },
+    {
+      "documentId": "auto.gear_287.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 아부레이 UV 램프\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n9600\n*\n9600\n및\n50\n*\n50\n장비 템플릿\n권한 등급 34레벨 보상\n속성\nLV\n50\n방어력\n+15\n힘\n+23\n민첩\n+15\n모든 스킬 피해 보너스\n+19.6%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_287",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=287&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 287,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:42.506421+00:00",
+        "contentSha256": "09087e435d65f512f6763d49a8b00f0129b7a193cd10bd0809818fb535371a0b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/아부레이의_메아리/287_아부레이_UV_램프.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_2617c70e3c51",
+        "groupLabel": "아부레이의 메아리",
+        "entityName": "아부레이 UV 램프"
+      }
+    },
+    {
+      "documentId": "auto.gear_287.gear_set_effect.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 아부레이 UV 램프\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n아부레이의 메아리\n부품\n3개 세트 효과:\n장착자의 모든 스킬 피해\n+24%\n장착자가 배틀 스킬, 연계 스킬, 궁극기를 사용할 때, 각각 공격력\n+5%\n, 15초 동안 지속.\n세 가지 버프는 독립적으로 존재하며 스택 수치는 중첩되지 않습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_287",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=287&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 287,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:34:42.506421+00:00",
+        "contentSha256": "09087e435d65f512f6763d49a8b00f0129b7a193cd10bd0809818fb535371a0b",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/아부레이의_메아리/287_아부레이_UV_램프.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_2617c70e3c51",
+        "groupLabel": "아부레이의 메아리",
+        "entityName": "아부레이 UV 램프"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 639192494,
+      "code": "gear_set_2617c70e3c51",
+      "label": "아부레이의 메아리"
+    },
+    "gearType": {
+      "id": 2,
+      "code": "component",
+      "label": "부품"
+    },
+    "quality": {
+      "id": 1,
+      "code": "purple",
+      "label": "보라색 품질"
+    }
+  },
+  "level": 50,
+  "defense": 15,
+  "options": [
+    {
+      "slot": 1,
+      "name": "힘",
+      "baseValue": {
+        "value": 23,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "민첩",
+      "baseValue": {
+        "value": 15,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "모든 스킬 피해 보너스",
+      "baseValue": {
+        "value": 19.6,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": false,
+    "levels": []
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_287.gear_set_effect.c2.chapter.s2.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 639192494,
+    "code": "gear_set_2617c70e3c51",
+    "label": "아부레이의 메아리"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/아부레이의_메아리/287_아부레이_UV_램프.json"
+}

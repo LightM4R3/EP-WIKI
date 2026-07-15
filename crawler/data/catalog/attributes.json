@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "attributes",
+  "entries": [
+    {
+      "id": 0,
+      "code": "strength",
+      "labels": {
+        "ko-KR": "힘",
+        "en-US": "Strength"
+      }
+    },
+    {
+      "id": 1,
+      "code": "agility",
+      "labels": {
+        "ko-KR": "민첩",
+        "en-US": "Agility"
+      }
+    },
+    {
+      "id": 2,
+      "code": "intellect",
+      "labels": {
+        "ko-KR": "지능",
+        "en-US": "Intellect"
+      }
+    },
+    {
+      "id": 3,
+      "code": "will",
+      "labels": {
+        "ko-KR": "의지",
+        "en-US": "Will"
+      }
+    }
+  ]
+}

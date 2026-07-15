@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "2.0.0",
+  "entityType": "gear",
+  "entityId": "gear_880",
+  "locale": "ko-KR",
+  "identity": {
+    "gameEntryId": 880,
+    "name": "청파 금속 장갑"
+  },
+  "source": {
+    "provider": "wiki.skport.com",
+    "url": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=880&header=0",
+    "runId": "auto-1-1000-ko-KR",
+    "contentSha256": "55a24daea357fea60c2051cda00c068b0719e772849e9533e0047606e083b48f",
+    "contentHashAlgorithm": "legacy_page_source_v0"
+  },
+  "documents": [
+    {
+      "documentId": "normalized.gear_880.profile.ko-kr",
+      "section": "normalized_profile",
+      "content": "엔티티 유형: gear\n이름: 청파 금속 장갑\ngameEntryId: 880\n정규화 상태: query_ready\n장비 세트: 청파 (id=637024139, code=gear_set_25f6b0eb60d9)\n장비 유형: 글러브 (id=0, code=gloves)\n품질: 노란색 품질 (id=0, code=yellow)\nLV: 70\n방어력: 42\n장비 옵션: 1번=민첩 65; 2번=힘 43; 3번=모든 스킬 피해 보너스 23%\n정밀 단조 지원: 예\n현재 원문에서 확정 불가: crafting.materialCosts, setEffect.structuredRules",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_880",
+        "gameEntryId": 880,
+        "locale": "ko-KR",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=880&header=0",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/청파/880_청파_금속_장갑.json",
+        "normalizationMethod": "rendered_label_v1",
+        "contentStatus": "normalized",
+        "groupAxis": "gearSet",
+        "groupId": 637024139,
+        "groupCode": "gear_set_25f6b0eb60d9",
+        "groupLabel": "청파",
+        "evidenceDocumentIds": [
+          "auto.gear_880.profile.c0.chapter.s0.p0.ko-kr",
+          "auto.gear_880.profile.c1.chapter.s1.p0.ko-kr",
+          "auto.gear_880.gear_option.c2.chapter.s2.p0.ko-kr",
+          "auto.gear_880.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+        ]
+      }
+    },
+    {
+      "documentId": "auto.gear_880.profile.c0.chapter.s0.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 청파 금속 장갑\ncategory: gear\nsection: profile\n청파 금속 장갑\n품질\n노란색 품질\n장비 유형\n글러브\n세트\n청파\n이 장비는 엔드필드 공업에서 황무지 수공예품을 참고하여 설계하고, 통합 공업 시스템을 사용해 제작한 것으로, 사용자의 작전 능력을 올릴 수 있습니다.\n청파채의 고서에서 복원해 낸 가성비 높은 장비.\n고서의 건틀릿 설계도 한구석에는 '이레를 담금질하면, 의지에 따라 강물도 가르리라.' 라는 문구가 적혀 있습니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_880",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=880&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 880,
+        "chapterIndex": 0,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:56:03.869519+00:00",
+        "contentSha256": "55a24daea357fea60c2051cda00c068b0719e772849e9533e0047606e083b48f",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/청파/880_청파_금속_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_25f6b0eb60d9",
+        "groupLabel": "청파",
+        "entityName": "청파 금속 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_880.profile.c1.chapter.s1.p0.ko-kr",
+      "section": "profile",
+      "content": "entity: 청파 금속 장갑\ncategory: gear\nsection: profile\n장비 정보\n획득 방법\n장비 가공\n세트 장비 제작\n소모 재료 :\n25000\n*\n25000\n및\n50\n*\n50\n장비 템플릿\n장비 템플릿 상자\n속성\nLV\n70\n방어력\n+42\n민첩\n+65\n힘\n+43\n모든 스킬 피해 보너스\n+23.0%",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_880",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=880&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 880,
+        "chapterIndex": 1,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:56:03.869519+00:00",
+        "contentSha256": "55a24daea357fea60c2051cda00c068b0719e772849e9533e0047606e083b48f",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/청파/880_청파_금속_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_25f6b0eb60d9",
+        "groupLabel": "청파",
+        "entityName": "청파 금속 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_880.gear_option.c2.chapter.s2.p0.ko-kr",
+      "section": "gear_option",
+      "content": "entity: 청파 금속 장갑\ncategory: gear\nsection: gear_option\n정밀 단조\n정밀 단조\n적합 단조제 : 무릉 정밀 단조제\n정밀 단조 단계\n기본\n1단계\n2단계\n3단계\n민첩\n+65\n+71\n+78\n+84\n힘\n+43\n+47\n+51\n+55\n모든 스킬 피해 보너스\n+23.0%\n+25.3%\n+27.6%\n+29.9%\n정밀 단조 누적 단계\n6\n12\n20",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_880",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=880&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 880,
+        "chapterIndex": 2,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:56:03.869519+00:00",
+        "contentSha256": "55a24daea357fea60c2051cda00c068b0719e772849e9533e0047606e083b48f",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/청파/880_청파_금속_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_25f6b0eb60d9",
+        "groupLabel": "청파",
+        "entityName": "청파 금속 장갑"
+      }
+    },
+    {
+      "documentId": "auto.gear_880.gear_set_effect.c3.chapter.s3.p0.ko-kr",
+      "section": "gear_set_effect",
+      "content": "entity: 청파 금속 장갑\ncategory: gear\nsection: gear_set_effect\n세트 효과\n장비 세트\n청파\n보호 장갑\n3개 세트 효과:\n장착자의 연계 스킬 쿨타임 감소\n+15%\n장착자가 연계 스킬을 사용할 때, 모든 스킬 피해\n+20%\n, 15초 동안 지속. 해당 효과는 최대 2스택까지 중첩되며 중첩될 때마다 지속 시간은 따로 계산됩니다.",
+      "metadata": {
+        "entityType": "gear",
+        "entityId": "gear_880",
+        "sourceUrl": "https://wiki.skport.com/endfield/detail?mainTypeId=1&subTypeId=4&gameEntryId=880&header=0",
+        "contentStatus": "raw_rendered",
+        "extractionMode": "rendered_section",
+        "subTypeId": 4,
+        "gameEntryId": 880,
+        "chapterIndex": 3,
+        "widgetIndex": null,
+        "chunkIndex": 0,
+        "observedAt": "2026-07-14T06:56:03.869519+00:00",
+        "contentSha256": "55a24daea357fea60c2051cda00c068b0719e772849e9533e0047606e083b48f",
+        "normalizedRef": "data/rag/normalized/ko-KR/gear/청파/880_청파_금속_장갑.json",
+        "normalizationStatus": "query_ready",
+        "groupAxis": "gearSet",
+        "groupCode": "gear_set_25f6b0eb60d9",
+        "groupLabel": "청파",
+        "entityName": "청파 금속 장갑"
+      }
+    }
+  ],
+  "taxonomy": {
+    "gearSet": {
+      "id": 637024139,
+      "code": "gear_set_25f6b0eb60d9",
+      "label": "청파"
+    },
+    "gearType": {
+      "id": 0,
+      "code": "gloves",
+      "label": "글러브"
+    },
+    "quality": {
+      "id": 0,
+      "code": "yellow",
+      "label": "노란색 품질"
+    }
+  },
+  "level": 70,
+  "defense": 42,
+  "options": [
+    {
+      "slot": 1,
+      "name": "민첩",
+      "baseValue": {
+        "value": 65,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 1,
+        "code": "agility",
+        "label": "민첩"
+      }
+    },
+    {
+      "slot": 2,
+      "name": "힘",
+      "baseValue": {
+        "value": 43,
+        "unit": "flat"
+      },
+      "attribute": {
+        "id": 0,
+        "code": "strength",
+        "label": "힘"
+      }
+    },
+    {
+      "slot": 3,
+      "name": "모든 스킬 피해 보너스",
+      "baseValue": {
+        "value": 23,
+        "unit": "percent"
+      }
+    }
+  ],
+  "forging": {
+    "supported": true,
+    "maxLevel": 3,
+    "options": [
+      {
+        "slot": 1,
+        "name": "민첩",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 65,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 71,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 78,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 84,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "name": "힘",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 43,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 47,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 51,
+            "unit": "flat"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 55,
+            "unit": "flat"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "name": "모든 스킬 피해 보너스",
+        "values": [
+          {
+            "forgeLevel": 0,
+            "value": 23,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 1,
+            "value": 25.3,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 2,
+            "value": 27.6,
+            "unit": "percent"
+          },
+          {
+            "forgeLevel": 3,
+            "value": 29.9,
+            "unit": "percent"
+          }
+        ]
+      }
+    ],
+    "evidenceDocumentId": "auto.gear_880.gear_option.c2.chapter.s2.p0.ko-kr"
+  },
+  "setEffectDocumentIds": [
+    "auto.gear_880.gear_set_effect.c3.chapter.s3.p0.ko-kr"
+  ],
+  "group": {
+    "axis": "gearSet",
+    "id": 637024139,
+    "code": "gear_set_25f6b0eb60d9",
+    "label": "청파"
+  },
+  "quality": {
+    "status": "query_ready",
+    "queryReady": true,
+    "canonicalComplete": false,
+    "requiredChecks": {
+      "taxonomy.gearSet": true,
+      "taxonomy.gearType": true,
+      "taxonomy.quality": true,
+      "level": true,
+      "defense": true,
+      "options": true,
+      "forging": true
+    },
+    "unresolvedFields": [
+      "crafting.materialCosts",
+      "setEffect.structuredRules"
+    ]
+  },
+  "ragRef": "data/rag/normalized/ko-KR/gear/청파/880_청파_금속_장갑.json"
+}

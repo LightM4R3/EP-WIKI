@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": "gearOptionSlotRules",
+  "slots": [
+    {
+      "slot": 1,
+      "presence": "required",
+      "allowedCategoryCodes": ["attribute"],
+      "allowedAttributeIds": [0, 1, 2, 3]
+    },
+    {
+      "slot": 2,
+      "presence": "optional",
+      "allowedCategoryCodes": ["attribute"],
+      "allowedAttributeIds": [0, 1, 2, 3]
+    },
+    {
+      "slot": 3,
+      "presence": "required",
+      "allowedCategoryCodes": [],
+      "allowedAttributeIds": []
+    }
+  ],
+  "missingSlot2Pattern": {
+    "code": "boosted_slot_1_attribute",
+    "description": "2옵션이 없으면 1옵션 능력치가 일반적인 3옵션 장비보다 높은 경향이 있다.",
+    "validationMode": "distribution_check",
+    "verificationStatus": "user_confirmed"
+  }
+}
